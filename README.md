@@ -7,7 +7,7 @@ The modified 637 deob that connects to CodeUSA RSPS
 - Supports the newer model header
 - Supports 700+ animations 
 - Supports 700+ item defs
-- 
+
 ### Primary Bugs
 - No support for loading over 65k models, anything over that returns -1
 
