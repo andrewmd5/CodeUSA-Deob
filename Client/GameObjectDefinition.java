@@ -99,7 +99,7 @@ final class GameObjectDefinition {
 				method3863(class98_sub22, i, 7);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("vha.F(" + (class98_sub22 != null ? "{...}" : "null")
 							+ ',' + bool + ')'));
 		}
@@ -135,33 +135,33 @@ final class GameObjectDefinition {
 				class298 = (Class298) ((GameObjectDefinitionLoader) aClass302_2963).aClass79_2525
 						.method802(-124, l);
 			}
-			Class146 class146 = (class298 != null ? ((Class298) class298).aClass146_2477
+			AbstractModel abstractModel = (class298 != null ? ((Class298) class298).aClass146_2477
 					: null);
 			r var_r = null;
-			if (class146 != null
-					&& (var_ha.c(class146.ua(), i_7_) ^ 0xffffffff) == -1) {
+			if (abstractModel != null
+					&& (var_ha.c(abstractModel.ua(), i_7_) ^ 0xffffffff) == -1) {
 				var_r = ((Class298) class298).aR2479;
-				class146 = ((Class298) class298).aClass146_2477;
+				abstractModel = ((Class298) class298).aClass146_2477;
 				if (bool_2_ && var_r == null)
-					var_r = ((Class298) class298).aR2479 = class146.ba(null);
+					var_r = ((Class298) class298).aR2479 = abstractModel.ba(null);
 			} else {
-				if (class146 != null)
-					i_7_ = var_ha.method1777(i_7_, class146.ua());
+				if (abstractModel != null)
+					i_7_ = var_ha.method1777(i_7_, abstractModel.ua());
 				int i_8_ = i_7_;
 				if (i_6_ == 10 && (i_0_ ^ 0xffffffff) < -4)
 					i_8_ |= 0x5;
-				class146 = method3855(i_6_, i_0_, var_ha, i_8_, class185,
+				abstractModel = method3855(i_6_, i_0_, var_ha, i_8_, class185,
 						(byte) -75);
-				if (class146 == null)
+				if (abstractModel == null)
 					return null;
 				if ((i_6_ ^ 0xffffffff) == -11 && i_0_ > 3)
-					class146.a(2048);
+					abstractModel.a(2048);
 				if (bool_2_)
-					var_r = class146.ba(null);
-				class146.s(i_7_);
+					var_r = abstractModel.ba(null);
+				abstractModel.s(i_7_);
 				class298 = new Class298();
 				((Class298) class298).aR2479 = var_r;
-				((Class298) class298).aClass146_2477 = class146;
+				((Class298) class298).aClass146_2477 = abstractModel;
 				synchronized (((GameObjectDefinitionLoader) aClass302_2963).aClass79_2525) {
 					((GameObjectDefinitionLoader) aClass302_2963).aClass79_2525
 							.method805(l, class298, (byte) -80);
@@ -170,21 +170,21 @@ final class GameObjectDefinition {
 			boolean bool_9_ = ((aByte2971 ^ 0xffffffff) != -1 && (var_s_5_ != null || var_s != null));
 			boolean bool_10_ = (anInt2940 != 0 || anInt2988 != 0 || (anInt2989 ^ 0xffffffff) != -1);
 			if (!bool_9_ && !bool_10_)
-				class146 = class146.method2341((byte) 0, i_4_, true);
+				abstractModel = abstractModel.method2341((byte) 0, i_4_, true);
 			else {
-				class146 = class146.method2341((byte) 0, i_7_, true);
+				abstractModel = abstractModel.method2341((byte) 0, i_7_, true);
 				if (bool_9_)
-					class146.p(aByte2971, anInt2985, var_s_5_, var_s, i_3_,
+					abstractModel.p(aByte2971, anInt2985, var_s_5_, var_s, i_3_,
 							i_1_, i);
 				if (bool_10_)
-					class146.H(anInt2940, anInt2988, anInt2989);
-				class146.s(i_4_);
+					abstractModel.H(anInt2940, anInt2988, anInt2989);
+				abstractModel.s(i_4_);
 			}
 			((Class298) Class224_Sub3_Sub1.aClass298_6145).aR2479 = var_r;
-			((Class298) Class224_Sub3_Sub1.aClass298_6145).aClass146_2477 = class146;
+			((Class298) Class224_Sub3_Sub1.aClass298_6145).aClass146_2477 = abstractModel;
 			return Class224_Sub3_Sub1.aClass298_6145;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vha.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vha.B(" + i + ','
 					+ bool + ',' + (var_s != null ? "{...}" : "null") + ','
 					+ i_0_ + ',' + i_1_ + ',' + bool_2_ + ',' + i_3_ + ','
 					+ i_4_ + ',' + (class185 != null ? "{...}" : "null") + ','
@@ -218,7 +218,7 @@ final class GameObjectDefinition {
 			return (aClass302_2963
 					.method3546(anIntArray2928[i_11_], (byte) 119));
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vha.K("
+			throw Class64_Sub27.printError(runtimeexception, ("vha.K("
 					+ (interface6 != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -246,7 +246,7 @@ final class GameObjectDefinition {
 			}
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vha.L(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "vha.L(" + i + ','
 					+ i_13_ + ')');
 		}
 	}
@@ -261,13 +261,13 @@ final class GameObjectDefinition {
 				((ByteBuffer) class98_sub22).position += 2 * i_19_;
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("vha.Q(" + (class98_sub22 != null ? "{...}" : "null")
 							+ ',' + i + ')'));
 		}
 	}
 
-	private final Class146 method3855(int i, int i_20_, ha var_ha, int i_21_,
+	private final AbstractModel method3855(int i, int i_20_, ha var_ha, int i_21_,
 			Class185 class185, byte i_22_) {
 		try {
 			int i_23_ = 64 + anInt2931;
@@ -291,7 +291,7 @@ final class GameObjectDefinition {
 				i_21_ |= 0x8000;
 			if ((aByte2932 ^ 0xffffffff) != -1)
 				i_21_ |= 0x80000;
-			Class146 class146 = null;
+			AbstractModel abstractModel = null;
 			if (aByteArray2994 == null)
 				return null;
 			int i_26_ = -1;
@@ -311,26 +311,26 @@ final class GameObjectDefinition {
 				for (int i_29_ = 0; i_29_ < i_28_; i_29_++)
 					l = (long) is[i_29_] + l * 67783L;
 				synchronized (((GameObjectDefinitionLoader) aClass302_2963).aClass79_2522) {
-					class146 = ((Class146) ((GameObjectDefinitionLoader) aClass302_2963).aClass79_2522
+					abstractModel = ((AbstractModel) ((GameObjectDefinitionLoader) aClass302_2963).aClass79_2522
 							.method802(-122, l));
 				}
-				if (class146 != null) {
-					if (i_23_ != class146.WA())
+				if (abstractModel != null) {
+					if (i_23_ != abstractModel.WA())
 						i_21_ |= 0x1000;
-					if (i_24_ != class146.da())
+					if (i_24_ != abstractModel.da())
 						i_21_ |= 0x2000;
 				}
-				if (class146 == null
-						|| ((var_ha.c(class146.ua(), i_21_) ^ 0xffffffff) != -1)) {
+				if (abstractModel == null
+						|| ((var_ha.c(abstractModel.ua(), i_21_) ^ 0xffffffff) != -1)) {
 					int i_30_ = 0x1f01f | i_21_;
-					if (class146 != null)
-						i_30_ = var_ha.method1777(i_30_, class146.ua());
+					if (abstractModel != null)
+						i_30_ = var_ha.method1777(i_30_, abstractModel.ua());
 					Model model = null;
 					synchronized (Class64_Sub20.aClass178Array3699) {
 						for (int i_31_ = 0; i_31_ < i_28_; i_31_++) {
 							synchronized (((GameObjectDefinitionLoader) aClass302_2963).aClass207_2512) {
-								model = (Class98_Sub6
-										.method981(
+								model = (RSModelLoader
+										.createModel(
 												0,
 												-9252,
 												(((GameObjectDefinitionLoader) (aClass302_2963)).aClass207_2512),
@@ -347,7 +347,7 @@ final class GameObjectDefinition {
 							model = new Model(
 									(Class64_Sub20.aClass178Array3699), i_28_);
 					}
-					class146 = var_ha
+					abstractModel = var_ha
 							.method1790(
 									model,
 									i_30_,
@@ -355,16 +355,16 @@ final class GameObjectDefinition {
 									i_23_, i_24_);
 					synchronized (((GameObjectDefinitionLoader) aClass302_2963).aClass79_2522) {
 						((GameObjectDefinitionLoader) aClass302_2963).aClass79_2522
-								.method805(l, class146, (byte) -80);
+								.method805(l, abstractModel, (byte) -80);
 					}
 				}
 			}
-			if (class146 == null)
+			if (abstractModel == null)
 				return null;
-			Class146 class146_32_ = class146.method2341((byte) 0, i_21_, true);
-			if ((i_23_ ^ 0xffffffff) != (class146.WA() ^ 0xffffffff))
+			AbstractModel class146_32_ = abstractModel.method2341((byte) 0, i_21_, true);
+			if ((i_23_ ^ 0xffffffff) != (abstractModel.WA() ^ 0xffffffff))
 				class146_32_.C(i_23_);
-			if ((class146.da() ^ 0xffffffff) != (i_24_ ^ 0xffffffff))
+			if ((abstractModel.da() ^ 0xffffffff) != (i_24_ ^ 0xffffffff))
 				class146_32_.LA(i_24_);
 			if (bool)
 				class146_32_.v();
@@ -421,7 +421,7 @@ final class GameObjectDefinition {
 			class146_32_.s(i_25_);
 			return class146_32_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vha.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vha.H(" + i + ','
 					+ i_20_ + ',' + (var_ha != null ? "{...}" : "null") + ','
 					+ i_21_ + ',' + (class185 != null ? "{...}" : "null") + ','
 					+ i_22_ + ')'));
@@ -433,7 +433,7 @@ final class GameObjectDefinition {
 			for (int i_37_ = 0; i_37_ < 5; i_37_++)
 				Class217.aBooleanArray3410[i_37_] = false;
 			Class98_Sub10_Sub14.anInt5613 = Class215.anInt1614;
-			Class299.anInt2494 = Class246_Sub3_Sub4_Sub2.anInt6357;
+			Class299.anInt2494 = Entity.anInt6357;
 			Class98_Sub4.anInt3828 = 0;
 			Class98_Sub46_Sub20_Sub2.anInt6319 = 5;
 			Class246_Sub3_Sub4_Sub2_Sub1.anInt6511 = Class98_Sub46_Sub10.anInt6020;
@@ -445,7 +445,7 @@ final class GameObjectDefinition {
 			Class363.anInt3095 = Class79.anInt601;
 			Class116.anInt967 = Class64_Sub26.anInt3712 = -1;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vha.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vha.E(" + i + ')');
 		}
 	}
 
@@ -467,7 +467,7 @@ final class GameObjectDefinition {
 				return true;
 			return bool;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vha.J(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vha.J(" + i + ')');
 		}
 	}
 
@@ -491,11 +491,11 @@ final class GameObjectDefinition {
 			}
 			return false;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vha.P(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vha.P(" + i + ')');
 		}
 	}
 
-	final Class146 method3859(s var_s, int i, int i_42_, byte i_43_, ha var_ha,
+	final AbstractModel method3859(s var_s, int i, int i_42_, byte i_43_, ha var_ha,
 			s var_s_44_, int i_45_, int i_46_, int i_47_, int i_48_,
 			Class185 class185, int i_49_, AnimationDefinition class97,
 			int i_50_, int i_51_) {
@@ -525,58 +525,58 @@ final class GameObjectDefinition {
 			} while (false);
 			if (i_48_ == 10 && i_46_ > 3)
 				i_45_ |= 0x5;
-			Class146 class146;
+			AbstractModel abstractModel;
 			synchronized (((GameObjectDefinitionLoader) aClass302_2963).aClass79_2527) {
-				class146 = (Class146) ((GameObjectDefinitionLoader) aClass302_2963).aClass79_2527
+				abstractModel = (AbstractModel) ((GameObjectDefinitionLoader) aClass302_2963).aClass79_2527
 						.method802(-127, l);
 			}
-			if (class146 == null || var_ha.c(class146.ua(), i_45_) != 0) {
-				if (class146 != null)
-					i_45_ = var_ha.method1777(i_45_, class146.ua());
-				class146 = method3855(i_48_, i_46_, var_ha, i_45_, class185,
+			if (abstractModel == null || var_ha.c(abstractModel.ua(), i_45_) != 0) {
+				if (abstractModel != null)
+					i_45_ = var_ha.method1777(i_45_, abstractModel.ua());
+				abstractModel = method3855(i_48_, i_46_, var_ha, i_45_, class185,
 						(byte) -75);
-				if (class146 == null)
+				if (abstractModel == null)
 					return null;
 				synchronized (((GameObjectDefinitionLoader) aClass302_2963).aClass79_2527) {
 					((GameObjectDefinitionLoader) aClass302_2963).aClass79_2527
-							.method805(l, class146, (byte) -80);
+							.method805(l, abstractModel, (byte) -80);
 				}
 			}
 			boolean bool = false;
 			if (class97 != null) {
 				bool = true;
-				class146 = class97.method930((byte) 1, 0x3 & i_46_, i_49_,
-						i_45_, i_50_, (byte) 86, class146, i_51_);
+				abstractModel = class97.method930((byte) 1, 0x3 & i_46_, i_49_,
+						i_45_, i_50_, (byte) 86, abstractModel, i_51_);
 			}
 			int i_53_ = 71 / ((i_43_ - -58) / 59);
 			if (i_48_ == 10 && i_46_ > 3) {
 				if (!bool) {
 					bool = true;
-					class146 = class146.method2341((byte) 3, i_45_, true);
+					abstractModel = abstractModel.method2341((byte) 3, i_45_, true);
 				}
-				class146.a(2048);
+				abstractModel.a(2048);
 			}
 			if ((aByte2971 ^ 0xffffffff) != -1) {
 				if (!bool) {
-					class146 = class146.method2341((byte) 3, i_45_, true);
+					abstractModel = abstractModel.method2341((byte) 3, i_45_, true);
 					bool = true;
 				}
-				class146.p(aByte2971, anInt2985, var_s, var_s_44_, i, i_42_,
+				abstractModel.p(aByte2971, anInt2985, var_s, var_s_44_, i, i_42_,
 						i_47_);
 			}
 			if ((anInt2940 ^ 0xffffffff) != -1
 					|| (anInt2988 ^ 0xffffffff) != -1 || anInt2989 != 0) {
 				if (!bool) {
 					bool = true;
-					class146 = class146.method2341((byte) 3, i_45_, true);
+					abstractModel = abstractModel.method2341((byte) 3, i_45_, true);
 				}
-				class146.H(anInt2940, anInt2988, anInt2989);
+				abstractModel.H(anInt2940, anInt2988, anInt2989);
 			}
 			if (bool)
-				class146.s(i_52_);
-			return class146;
+				abstractModel.s(i_52_);
+			return abstractModel;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vha.A("
+			throw Class64_Sub27.printError(runtimeexception, ("vha.A("
 					+ (var_s != null ? "{...}" : "null") + ',' + i + ','
 					+ i_42_ + ',' + i_43_ + ','
 					+ (var_ha != null ? "{...}" : "null") + ','
@@ -604,7 +604,7 @@ final class GameObjectDefinition {
 			}
 			return false;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vha.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "vha.D(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -622,7 +622,7 @@ final class GameObjectDefinition {
 			}
 			return -1;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vha.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vha.C(" + i + ')');
 		}
 	}
 
@@ -635,7 +635,7 @@ final class GameObjectDefinition {
 			aClass58_2943 = null;
 			anIntArray3001 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vha.N(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vha.N(" + i + ')');
 		}
 	}
 
@@ -849,19 +849,19 @@ final class GameObjectDefinition {
 																																					final int i_72_ = class98_sub22
 																																							.readMediumInt(i_57_
 																																									+ -133);
-																																					Class98 class98;
+																																					Node node;
 																																					if (!bool) {
-																																						class98 = new Class98_Sub34(
+																																						node = new Class98_Sub34(
 																																								class98_sub22
 																																										.readInt(-2));
 																																					} else {
-																																						class98 = new Class98_Sub15(
+																																						node = new Class98_Sub15(
 																																								class98_sub22
 																																										.readString((byte) 84));
 																																					}
 																																					aClass377_2944
 																																							.method3996(
-																																									class98,
+																																									node,
 																																									i_72_,
 																																									-1);
 																																				}
@@ -1050,7 +1050,7 @@ final class GameObjectDefinition {
 				}
 				method3857(33);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("vha.I("
+				throw Class64_Sub27.printError(runtimeexception, ("vha.I("
 						+ (class98_sub22 != null ? "{...}" : "null") + ',' + i
 						+ ',' + i_57_ + ')'));
 			}
@@ -1070,7 +1070,7 @@ final class GameObjectDefinition {
 				return string;
 			return ((Class98_Sub15) class98_sub15).aString3917;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vha.M(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vha.M(" + i + ','
 					+ i_82_ + ',' + (string != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -1100,7 +1100,7 @@ final class GameObjectDefinition {
 					break;
 				anInt2975 = actionCount == 0 ? 0 : 1;
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "vha.G(" + i
+				throw Class64_Sub27.printError(runtimeexception, "vha.G(" + i
 						+ ')');
 			}
 			break;
@@ -1119,7 +1119,7 @@ final class GameObjectDefinition {
 				return i;
 			return ((Class98_Sub34) class98_sub34).anInt4126;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vha.O(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vha.O(" + i + ','
 					+ i_84_ + ',' + i_85_ + ')'));
 		}
 	}

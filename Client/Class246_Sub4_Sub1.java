@@ -23,7 +23,7 @@ final class Class246_Sub4_Sub1 extends Class246_Sub4 {
 				}
 				aClass58_6166 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ii.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ii.C(" + i
 						+ ')');
 			}
 			break;
@@ -41,7 +41,7 @@ final class Class246_Sub4_Sub1 extends Class246_Sub4 {
 					method3104(52);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ii.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ii.B(" + i
 						+ ')');
 			}
 			break;
@@ -55,7 +55,7 @@ final class Class246_Sub4_Sub1 extends Class246_Sub4 {
 				Class366.aClass377_3114.method3994(i ^ ~0x1433);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ii.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ii.D(" + i + ')');
 		}
 	}
 
@@ -102,7 +102,7 @@ final class Class246_Sub4_Sub1 extends Class246_Sub4 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ii.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ii.A(" + i + ','
 					+ (class172s != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -113,7 +113,7 @@ final class Class246_Sub4_Sub1 extends Class246_Sub4 {
 			aString6168 = string;
 			aShort6167 = (short) i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ii.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("ii.<init>("
 					+ (string != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}

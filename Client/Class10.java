@@ -111,7 +111,7 @@ final class Class10 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ao.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ao.A(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ',' + i_4_
 					+ ',' + i_5_ + ')'));
 		}
@@ -126,7 +126,7 @@ final class Class10 {
 						i_34_, (byte) -125);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ao.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ao.C(" + i + ','
 					+ i_34_ + ',' + i_35_ + ',' + i_36_ + ',' + i_37_ + ','
 					+ i_38_ + ')'));
 		}
@@ -141,7 +141,7 @@ final class Class10 {
 				}
 				method196(21, -124, -34, -45, 31, -40, -29);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ao.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ao.B(" + i
 						+ ')');
 			}
 			break;

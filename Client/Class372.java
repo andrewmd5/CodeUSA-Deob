@@ -23,7 +23,7 @@ final class Class372 {
 									class293.anInt2304,
 									class293.anInt2302,
 									var_ha,
-									(class293.aBoolean2262 ? (Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660.aClass313_6518)
+									(class293.aBoolean2262 ? (Surface.player.appearance)
 											: null), class293.anInt2349,
 									class293.anInt2305, ~0xffffff
 											| class293.anInt2355, 24056)) == null);
@@ -38,7 +38,7 @@ final class Class372 {
 					Class341.method3812(class293);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("wj.C("
+				throw Class64_Sub27.printError(runtimeexception, ("wj.C("
 						+ (var_ha != null ? "{...}" : "null") + ',' + bool
 						+ ',' + (class293 != null ? "{...}" : "null") + ')'));
 			}
@@ -55,7 +55,7 @@ final class Class372 {
 			aClass58_3147 = null;
 			anIntArrayArray3149 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wj.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wj.B(" + i + ')');
 		}
 	}
 
@@ -72,7 +72,7 @@ final class Class372 {
 				}
 				anInt3150 = 3;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("wj.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("wj.A(" + i
 						+ ',' + i_1_ + ','
 						+ (class98_sub31_sub2 != null ? "{...}" : "null") + ','
 						+ (class207 != null ? "{...}" : "null") + ',' + i_2_

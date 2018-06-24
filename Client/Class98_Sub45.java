@@ -3,7 +3,7 @@
  */
 import java.math.BigInteger;
 
-final class Class98_Sub45 extends Class98 {
+final class Class98_Sub45 extends Node {
 	static BigInteger aBigInteger4253;
 	Class148 aClass148_4254 = new Class148();
 	static String[] aStringArray4255 = new String[100];
@@ -21,7 +21,7 @@ final class Class98_Sub45 extends Class98 {
 				method1520(-23, 5);
 			aClass171_4256 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tia.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "tia.D(" + i + ')');
 		}
 	}
 
@@ -44,7 +44,7 @@ final class Class98_Sub45 extends Class98 {
 			Class98_Sub8.method986(i_1_, i, class293, 115);
 		} catch (RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("tia.C("
+					.printError(runtimeexception, ("tia.C("
 							+ (class293 != null ? "{...}" : "null") + ','
 							+ bool + ')'));
 		}
@@ -67,7 +67,7 @@ final class Class98_Sub45 extends Class98 {
 			Class142.aClass79_1158.method805((long) i, class92, (byte) -80);
 			return class92;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tia.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "tia.A(" + i + ','
 					+ i_2_ + ')');
 		}
 	}
@@ -83,7 +83,7 @@ final class Class98_Sub45 extends Class98 {
 					(byte) -99, i_4_, string_5_);
 			int i_8_ = -101 / ((-33 - i) / 63);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tia.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("tia.B(" + i + ','
 					+ i_3_ + ',' + (string != null ? "{...}" : "null") + ','
 					+ i_4_ + ',' + (string_5_ != null ? "{...}" : "null") + ','
 					+ (string_6_ != null ? "{...}" : "null") + ','

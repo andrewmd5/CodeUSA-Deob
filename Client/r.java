@@ -46,7 +46,7 @@ abstract class r extends Class98_Sub46 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("r.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("r.A(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ',' + i_4_
 					+ ',' + i_5_ + ',' + i_6_ + ')'));
 		}

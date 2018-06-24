@@ -17,7 +17,7 @@ final class Class252 {
 				aClass172ArrayArrayArray1927 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pq.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pq.A(" + i + ')');
 		}
 	}
 
@@ -34,7 +34,7 @@ final class Class252 {
 			aClass98_Sub46_1925 = class98_sub46.aClass98_Sub46_4262;
 			return class98_sub46;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pq.C(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "pq.C(" + bool
 					+ ')');
 		}
 	}
@@ -52,7 +52,7 @@ final class Class252 {
 			aClass98_Sub46_1925 = class98_sub46.aClass98_Sub46_4262;
 			return class98_sub46;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pq.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pq.B(" + i + ')');
 		}
 	}
 
@@ -64,7 +64,7 @@ final class Class252 {
 		try {
 			aClass215_1922 = class215;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pq.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "pq.<init>("
 					+ (class215 != null ? "{...}" : "null") + ')');
 		}
 	}

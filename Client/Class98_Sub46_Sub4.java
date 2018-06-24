@@ -26,7 +26,7 @@ final class Class98_Sub46_Sub4 extends Class98_Sub46 {
 			anIntArray5955 = null;
 			anIntArray5960 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ch.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ch.A(" + i + ')');
 		}
 	}
 

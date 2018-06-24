@@ -26,7 +26,7 @@ final class Class151_Sub3 extends Class151 {
 			((Class151) this).aHa_Sub1_1215.method1863(1, class42);
 			((Class151) this).aHa_Sub1_1215.method1896(260, i);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("eq.F("
+			throw Class64_Sub27.printError(runtimeexception, ("eq.F("
 					+ (class42 != null ? "{...}" : "null") + ',' + bool + ','
 					+ i + ')'));
 		}
@@ -41,7 +41,7 @@ final class Class151_Sub3 extends Class151 {
 				}
 				aClass91_4980 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "eq.C(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "eq.C(" + bool
 						+ ',' + i + ')');
 			}
 			break;
@@ -56,7 +56,7 @@ final class Class151_Sub3 extends Class151 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "eq.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "eq.A(" + i + ')');
 		}
 	}
 
@@ -91,7 +91,7 @@ final class Class151_Sub3 extends Class151 {
 					anInt4978 = (((Class151) this).aHa_Sub1_1215.anInt4321);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("eq.D(" + bool
+				throw Class64_Sub27.printError(runtimeexception, ("eq.D(" + bool
 						+ ',' + bool_0_ + ')'));
 			}
 			break;
@@ -160,7 +160,7 @@ final class Class151_Sub3 extends Class151 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("eq.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("eq.G(" + i + ','
 					+ i_2_ + ',' + i_3_ + ')'));
 		}
 	}
@@ -234,7 +234,7 @@ final class Class151_Sub3 extends Class151 {
 			Class98_Sub10_Sub14.anInt5610 = i_11_ * i_8_ / 334;
 			Class332_Sub2.anInt5421 = (short) i_8_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("eq.I(" + i + ',' + bool + ',' + i_6_ + ',' + i_7_ + ','
 							+ i_8_ + ',' + i_9_ + ')'));
 		}
@@ -273,7 +273,7 @@ final class Class151_Sub3 extends Class151 {
 					method2454(13402);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("eq.<init>("
+				throw Class64_Sub27.printError(runtimeexception, ("eq.<init>("
 						+ (var_ha_Sub1 != null ? "{...}" : "null") + ','
 						+ (class51 != null ? "{...}" : "null") + ')'));
 			}
@@ -310,7 +310,7 @@ final class Class151_Sub3 extends Class151 {
 			OpenGL.glDisable(34820);
 			aClass91_4980.method886((byte) 60);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "eq.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "eq.H(" + i + ')');
 		}
 	}
 
@@ -327,7 +327,7 @@ final class Class151_Sub3 extends Class151 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("eq.N("
+			throw Class64_Sub27.printError(runtimeexception, ("eq.N("
 					+ (fs != null ? "{...}" : "null") + ',' + i + ','
 					+ (is != null ? "{...}" : "null") + ')'));
 		}
@@ -339,7 +339,7 @@ final class Class151_Sub3 extends Class151 {
 				aClass148_4977 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "eq.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "eq.B(" + i + ')');
 		}
 	}
 
@@ -361,7 +361,7 @@ final class Class151_Sub3 extends Class151 {
 				return new Class299_Sub2(component, bool);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("eq.J("
+			throw Class64_Sub27.printError(runtimeexception, ("eq.J("
 					+ (component != null ? "{...}" : "null") + ',' + bool + ','
 					+ i + ')'));
 		}
@@ -380,7 +380,7 @@ final class Class151_Sub3 extends Class151 {
 				((Class151) this).aHa_Sub1_1215.method1845(0, 847872872);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "eq.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "eq.E(" + i + ')');
 		}
 	}
 
@@ -398,7 +398,7 @@ final class Class151_Sub3 extends Class151 {
 			class246.aClass246_1873.aClass246_1874 = class246;
 			class246.aClass246_1874.aClass246_1873 = class246;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("eq.K(" + (class246 != null ? "{...}" : "null") + ','
 							+ (class246_24_ != null ? "{...}" : "null") + ','
 							+ i + ')'));

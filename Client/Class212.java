@@ -18,7 +18,7 @@ final class Class212 {
 				anIntArray1597 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "np.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "np.B(" + i + ')');
 		}
 	}
 
@@ -52,7 +52,7 @@ final class Class212 {
 			aClass79_1598.method805(i_0_, class98_sub46_sub1, (byte) -80);
 			return class98_sub46_sub1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "np.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "np.A(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -70,7 +70,7 @@ final class Class212 {
 				}
 				aClass207_1602.method2761(0, 0);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("np.<init>("
+				throw Class64_Sub27.printError(runtimeexception, ("np.<init>("
 						+ i + ',' + (class207 != null ? "{...}" : "null") + ','
 						+ (class207_1_ != null ? "{...}" : "null") + ')'));
 			}

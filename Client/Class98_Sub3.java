@@ -2,17 +2,17 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub3 extends Class98 {
+final class Class98_Sub3 extends Node {
 	int[] anIntArray3823 = new int[1];
 	int[] anIntArray3824 = { -1 };
 	static int anInt3825 = 0;
 
-	final Class146 method951(final AnimationDefinition class97, final int i,
-			final int i_0_, final boolean bool, final Class313 class313,
+	final AbstractModel method951(final AnimationDefinition class97, final int i,
+			final int i_0_, final boolean bool, final Appearance appearance,
 			final int i_1_, final int i_2_, final int i_3_, final byte i_4_,
 			final ha var_ha) {
 		try {
-			Class146 class146 = null;
+			AbstractModel abstractModel = null;
 			int i_5_ = i_2_;
 			Class294 class294 = null;
 			if ((i_1_ ^ 0xffffffff) != 0) {
@@ -57,7 +57,7 @@ final class Class98_Sub3 extends Class98 {
 					bool_11_ |= class98_sub46_sub16.method1615(i_12_, false);
 					bool_10_ |= class97.aBoolean817;
 				}
-				if ((class97.aBoolean825 || Class357.aBoolean3027)
+				if ((class97.aBoolean825 || Class357.tweeningEnabled)
 						&& (i_3_ ^ 0xffffffff) != 0
 						&& class97.anIntArray818.length > i_3_) {
 					i_14_ = class97.anIntArray811[i_0_];
@@ -93,14 +93,14 @@ final class Class98_Sub3 extends Class98 {
 				}
 			}
 			final long l = method952(i_1_, bool, is,
-					(class313 != null ? class313.anIntArray2683 : null), -29509);
+					(appearance != null ? appearance.colour : null), -29509);
 			if (r_Sub1.aClass79_6321 != null) {
-				class146 = (Class146) r_Sub1.aClass79_6321.method802(-120, l);
+				abstractModel = (AbstractModel) r_Sub1.aClass79_6321.method802(-120, l);
 			}
-			if (class146 == null
-					|| (var_ha.c(class146.ua(), i_5_) ^ 0xffffffff) != -1) {
-				if (class146 != null) {
-					i_5_ = var_ha.method1777(i_5_, class146.ua());
+			if (abstractModel == null
+					|| (var_ha.c(abstractModel.ua(), i_5_) ^ 0xffffffff) != -1) {
+				if (abstractModel != null) {
+					i_5_ = var_ha.method1777(i_5_, abstractModel.ua());
 				}
 				int i_18_ = i_5_;
 				boolean bool_19_ = false;
@@ -145,43 +145,43 @@ final class Class98_Sub3 extends Class98 {
 						}
 					}
 				}
-				if (class313 != null) {
+				if (appearance != null) {
 					i_18_ |= 0x4000;
 				}
 				final Model model = new Model(class178s,
 						class178s.length);
-				class146 = var_ha.method1790(model, i_18_,
+				abstractModel = var_ha.method1790(model, i_18_,
 						Class105.anInt3415, 64, 850);
-				if (class313 != null) {
+				if (appearance != null) {
 					for (int i_29_ = 0; i_29_ < 5; i_29_++) {
 						for (int i_30_ = 0; Class61.aShortArrayArrayArray478.length > i_30_; i_30_++) {
-							if ((Class61.aShortArrayArrayArray478[i_30_][i_29_]).length > class313.anIntArray2683[i_29_]) {
-								class146.ia(
+							if ((Class61.aShortArrayArrayArray478[i_30_][i_29_]).length > appearance.colour[i_29_]) {
+								abstractModel.ia(
 										(Class98_Sub10_Sub11.aShortArrayArray5597[i_30_][i_29_]),
-										(Class61.aShortArrayArrayArray478[i_30_][i_29_][(class313.anIntArray2683[i_29_])]));
+										(Class61.aShortArrayArrayArray478[i_30_][i_29_][(appearance.colour[i_29_])]));
 							}
 						}
 					}
 				}
 				if (r_Sub1.aClass79_6321 != null) {
-					class146.s(i_5_);
-					r_Sub1.aClass79_6321.method805(l, class146, (byte) -80);
+					abstractModel.s(i_5_);
+					r_Sub1.aClass79_6321.method805(l, abstractModel, (byte) -80);
 				}
 			}
 			if (class97 == null || class98_sub46_sub16 == null) {
-				return class146;
+				return abstractModel;
 			}
-			final Class146 class146_31_ = class146.method2341((byte) 1, i_5_,
+			final AbstractModel class146_31_ = abstractModel.method2341((byte) 1, i_5_,
 					true);
 			class146_31_.method2338(i - 1, class98_sub46_sub16, i_12_,
 					class98_sub46_sub16_15_, class97.aBoolean817, 0, -104,
 					i_14_, i_13_);
 			return class146_31_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bc.A("
+			throw Class64_Sub27.printError(runtimeexception, ("bc.A("
 					+ (class97 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_0_ + ',' + bool + ','
-					+ (class313 != null ? "{...}" : "null") + ',' + i_1_ + ','
+					+ (appearance != null ? "{...}" : "null") + ',' + i_1_ + ','
 					+ i_2_ + ',' + i_3_ + ',' + i_4_ + ','
 					+ (var_ha != null ? "{...}" : "null") + ')'));
 		}
@@ -217,7 +217,7 @@ final class Class98_Sub3 extends Class98 {
 			l = (ls[(int) (((!bool ? 0 : 1) ^ l) & 0xffL)] ^ l >>> -778341368);
 			return l;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bc.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("bc.B(" + i + ','
 					+ bool + ',' + (is != null ? "{...}" : "null") + ','
 					+ (is_32_ != null ? "{...}" : "null") + ',' + i_33_ + ')'));
 		}

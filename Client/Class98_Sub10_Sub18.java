@@ -24,7 +24,7 @@ final class Class98_Sub10_Sub18 extends Class98_Sub10 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ll.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ll.D(" + i + ')');
 		}
 	}
 
@@ -39,7 +39,7 @@ final class Class98_Sub10_Sub18 extends Class98_Sub10 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ll.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ll.E(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -52,7 +52,7 @@ final class Class98_Sub10_Sub18 extends Class98_Sub10 {
 				class98_sub46_sub17.method1621(0);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ll.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ll.B(" + i + ','
 					+ i_2_ + ')');
 		}
 	}
@@ -65,7 +65,7 @@ final class Class98_Sub10_Sub18 extends Class98_Sub10 {
 			}
 			return Class64_Sub1.anIntArray3640;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ll.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ll.G(" + i + ','
 					+ i_3_ + ')');
 		}
 	}

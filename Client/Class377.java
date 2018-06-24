@@ -5,29 +5,29 @@
 final class Class377 {
 	static int[] anIntArray3178;
 	int anInt3179;
-	Class98[] aClass98Array3180;
+	Node[] aClass98Array3180;
 	private long aLong3181;
 	static byte[][] aByteArrayArray3182;
 	static int anInt3183;
-	private Class98 aClass98_3184;
-	private Class98 aClass98_3185;
+	private Node aClass98_3184;
+	private Node aClass98_3185;
 	private int anInt3186 = 0;
 
-	final Class98 method3990(long l, int i) {
+	final Node method3990(long l, int i) {
 		try {
 			aLong3181 = l;
-			Class98 class98 = (((Class377) this).aClass98Array3180[(int) (l & (long) (((Class377) this).anInt3179 + i))]);
-			for (aClass98_3184 = ((Class98) class98).aClass98_836; aClass98_3184 != class98; aClass98_3184 = ((Class98) aClass98_3184).aClass98_836) {
-				if ((l ^ 0xffffffffffffffffL) == (((Class98) aClass98_3184).aLong832 ^ 0xffffffffffffffffL)) {
-					Class98 class98_0_ = aClass98_3184;
-					aClass98_3184 = ((Class98) aClass98_3184).aClass98_836;
+			Node node = (((Class377) this).aClass98Array3180[(int) (l & (long) (((Class377) this).anInt3179 + i))]);
+			for (aClass98_3184 = ((Node) node).aClass98_836; aClass98_3184 != node; aClass98_3184 = ((Node) aClass98_3184).aClass98_836) {
+				if ((l ^ 0xffffffffffffffffL) == (((Node) aClass98_3184).aLong832 ^ 0xffffffffffffffffL)) {
+					Node class98_0_ = aClass98_3184;
+					aClass98_3184 = ((Node) aClass98_3184).aClass98_836;
 					return class98_0_;
 				}
 			}
 			aClass98_3184 = null;
 			return null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wr.J(" + l + ','
+			throw Class64_Sub27.printError(runtimeexception, "wr.J(" + l + ','
 					+ i + ')');
 		}
 	}
@@ -44,37 +44,37 @@ final class Class377 {
 				return ((Class293) class293).anIntArray2326[i_1_];
 			return -1;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("wr.K("
+			throw Class64_Sub27.printError(runtimeexception, ("wr.K("
 					+ (class293 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_1_ + ')'));
 		}
 	}
 
-	final int method3992(Class98[] class98s, byte i) {
+	final int method3992(Node[] class98s, byte i) {
 		try {
 			int i_2_ = 0;
 			for (int i_3_ = 0; ((Class377) this).anInt3179 > i_3_; i_3_++) {
-				Class98 class98 = ((Class377) this).aClass98Array3180[i_3_];
-				for (Class98 class98_4_ = ((Class98) class98).aClass98_836; class98 != class98_4_; class98_4_ = ((Class98) class98_4_).aClass98_836)
+				Node node = ((Class377) this).aClass98Array3180[i_3_];
+				for (Node class98_4_ = ((Node) node).aClass98_836; node != class98_4_; class98_4_ = ((Node) class98_4_).aClass98_836)
 					class98s[i_2_++] = class98_4_;
 			}
 			if (i != 74)
 				method4000((byte) 120);
 			return i_2_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("wr.B("
+			throw Class64_Sub27.printError(runtimeexception, ("wr.B("
 					+ (class98s != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
 
-	final Class98 method3993(int i) {
+	final Node method3993(int i) {
 		try {
 			if (aClass98_3184 == null)
 				return null;
-			for (Class98 class98 = (((Class377) this).aClass98Array3180[(int) ((long) (-1 + ((Class377) this).anInt3179) & aLong3181)]); aClass98_3184 != class98; aClass98_3184 = ((Class98) aClass98_3184).aClass98_836) {
-				if ((aLong3181 ^ 0xffffffffffffffffL) == (((Class98) aClass98_3184).aLong832 ^ 0xffffffffffffffffL)) {
-					Class98 class98_5_ = aClass98_3184;
-					aClass98_3184 = ((Class98) aClass98_3184).aClass98_836;
+			for (Node node = (((Class377) this).aClass98Array3180[(int) ((long) (-1 + ((Class377) this).anInt3179) & aLong3181)]); aClass98_3184 != node; aClass98_3184 = ((Node) aClass98_3184).aClass98_836) {
+				if ((aLong3181 ^ 0xffffffffffffffffL) == (((Node) aClass98_3184).aLong832 ^ 0xffffffffffffffffL)) {
+					Node class98_5_ = aClass98_3184;
+					aClass98_3184 = ((Node) aClass98_3184).aClass98_836;
 					return class98_5_;
 				}
 			}
@@ -82,17 +82,17 @@ final class Class377 {
 			int i_6_ = -38 / ((70 - i) / 48);
 			return null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wr.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wr.D(" + i + ')');
 		}
 	}
 
 	final void method3994(int i) {
 		try {
 			for (int i_7_ = 0; ((((Class377) this).anInt3179 ^ 0xffffffff) < (i_7_ ^ 0xffffffff)); i_7_++) {
-				Class98 class98 = ((Class377) this).aClass98Array3180[i_7_];
+				Node node = ((Class377) this).aClass98Array3180[i_7_];
 				for (;;) {
-					Class98 class98_8_ = ((Class98) class98).aClass98_836;
-					if (class98_8_ == class98)
+					Node class98_8_ = ((Node) node).aClass98_836;
+					if (class98_8_ == node)
 						break;
 					class98_8_.method942(79);
 				}
@@ -102,45 +102,45 @@ final class Class377 {
 				aClass98_3185 = null;
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wr.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wr.H(" + i + ')');
 		}
 	}
 
-	final Class98 method3995(int i) {
+	final Node method3995(int i) {
 		try {
 			if ((anInt3186 ^ 0xffffffff) < i
 					&& (((Class377) this).aClass98Array3180[anInt3186 - 1] != aClass98_3185)) {
-				Class98 class98 = aClass98_3185;
-				aClass98_3185 = ((Class98) class98).aClass98_836;
-				return class98;
+				Node node = aClass98_3185;
+				aClass98_3185 = ((Node) node).aClass98_836;
+				return node;
 			}
 			while ((anInt3186 ^ 0xffffffff) > (((Class377) this).anInt3179 ^ 0xffffffff)) {
-				Class98 class98 = (((Class98) ((Class377) this).aClass98Array3180[anInt3186++]).aClass98_836);
-				if (class98 != ((Class377) this).aClass98Array3180[anInt3186
+				Node node = (((Node) ((Class377) this).aClass98Array3180[anInt3186++]).aClass98_836);
+				if (node != ((Class377) this).aClass98Array3180[anInt3186
 						+ -1]) {
-					aClass98_3185 = ((Class98) class98).aClass98_836;
-					return class98;
+					aClass98_3185 = ((Node) node).aClass98_836;
+					return node;
 				}
 			}
 			return null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wr.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wr.F(" + i + ')');
 		}
 	}
 
-	final void method3996(Class98 class98, long l, int i) {
+	final void method3996(Node node, long l, int i) {
 		try {
-			if (((Class98) class98).aClass98_833 != null)
-				class98.method942(58);
-			Class98 class98_9_ = (((Class377) this).aClass98Array3180[(int) (l & (long) (i + ((Class377) this).anInt3179))]);
-			((Class98) class98).aClass98_836 = class98_9_;
-			((Class98) class98).aClass98_833 = ((Class98) class98_9_).aClass98_833;
-			((Class98) ((Class98) class98).aClass98_833).aClass98_836 = class98;
-			((Class98) class98).aLong832 = l;
-			((Class98) ((Class98) class98).aClass98_836).aClass98_833 = class98;
+			if (((Node) node).aClass98_833 != null)
+				node.method942(58);
+			Node class98_9_ = (((Class377) this).aClass98Array3180[(int) (l & (long) (i + ((Class377) this).anInt3179))]);
+			((Node) node).aClass98_836 = class98_9_;
+			((Node) node).aClass98_833 = ((Node) class98_9_).aClass98_833;
+			((Node) ((Node) node).aClass98_833).aClass98_836 = node;
+			((Node) node).aLong832 = l;
+			((Node) ((Node) node).aClass98_836).aClass98_833 = node;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
-					("wr.G(" + (class98 != null ? "{...}" : "null") + ',' + l
+			throw Class64_Sub27.printError(runtimeexception,
+					("wr.G(" + (node != null ? "{...}" : "null") + ',' + l
 							+ ',' + i + ')'));
 		}
 	}
@@ -148,14 +148,14 @@ final class Class377 {
 	Class377(int i) {
 		try {
 			((Class377) this).anInt3179 = i;
-			((Class377) this).aClass98Array3180 = new Class98[i];
+			((Class377) this).aClass98Array3180 = new Node[i];
 			for (int i_10_ = 0; (i_10_ ^ 0xffffffff) > (i ^ 0xffffffff); i_10_++) {
-				Class98 class98 = (((Class377) this).aClass98Array3180[i_10_] = new Class98());
-				((Class98) class98).aClass98_833 = class98;
-				((Class98) class98).aClass98_836 = class98;
+				Node node = (((Class377) this).aClass98Array3180[i_10_] = new Node());
+				((Node) node).aClass98_833 = node;
+				((Node) node).aClass98_836 = node;
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wr.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "wr.<init>(" + i
 					+ ')');
 		}
 	}
@@ -166,18 +166,18 @@ final class Class377 {
 				aByteArrayArray3182 = null;
 			return ((Class377) this).anInt3179;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wr.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wr.I(" + i + ')');
 		}
 	}
 
-	final Class98 method3998(int i) {
+	final Node method3998(int i) {
 		try {
 			if (i <= 93)
 				method3992(null, (byte) 45);
 			anInt3186 = 0;
 			return method3995(-1);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wr.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wr.C(" + i + ')');
 		}
 	}
 
@@ -185,15 +185,15 @@ final class Class377 {
 		try {
 			int i_11_ = 0;
 			for (int i_12_ = 0; ((((Class377) this).anInt3179 ^ 0xffffffff) < (i_12_ ^ 0xffffffff)); i_12_++) {
-				Class98 class98 = ((Class377) this).aClass98Array3180[i_12_];
-				for (Class98 class98_13_ = ((Class98) class98).aClass98_836; class98 != class98_13_; class98_13_ = ((Class98) class98_13_).aClass98_836)
+				Node node = ((Class377) this).aClass98Array3180[i_12_];
+				for (Node class98_13_ = ((Node) node).aClass98_836; node != class98_13_; class98_13_ = ((Node) class98_13_).aClass98_836)
 					i_11_++;
 			}
 			if (i != -6)
 				anIntArray3178 = null;
 			return i_11_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wr.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wr.A(" + i + ')');
 		}
 	}
 
@@ -204,7 +204,7 @@ final class Class377 {
 				anInt3183 = -27;
 			anIntArray3178 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wr.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wr.E(" + i + ')');
 		}
 	}
 }

@@ -66,7 +66,7 @@ abstract class Class246_Sub3_Sub3 extends Class246_Sub3 {
 			}
 			throw new RuntimeException("");
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jn.GA(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("jn.GA(" + i + ','
 					+ (class98_sub5s != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -79,7 +79,7 @@ abstract class Class246_Sub3_Sub3 extends Class246_Sub3 {
 			}
 			return (Class74.aBooleanArrayArray551[((((Class246_Sub3) this).anInt5084 >> Class151_Sub8.anInt5015) + (-Class241.anInt1845 - -Class259.anInt1959))][(-Class64_Sub26.anInt3714 + ((((Class246_Sub3) this).anInt5079 >> Class151_Sub8.anInt5015) + Class259.anInt1959))]);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jn.FA(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "jn.FA(" + bool
 					+ ')');
 		}
 	}
@@ -94,24 +94,24 @@ abstract class Class246_Sub3_Sub3 extends Class246_Sub3 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jn.L(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "jn.L(" + i + ','
 					+ i_5_ + ')');
 		}
 	}
 
 	static final void method3012(
-			final Class246_Sub3_Sub4_Sub2 class246_sub3_sub4_sub2, final byte i) {
+			final Entity class246_sub3_sub4_sub2, final byte i) {
 		do {
 			try {
 				if (i >= -105) {
 					method3012(null, (byte) 25);
 				}
 				if (!(class246_sub3_sub4_sub2 instanceof Class246_Sub3_Sub4_Sub2_Sub1)) {
-					if (class246_sub3_sub4_sub2 instanceof Class246_Sub3_Sub4_Sub2_Sub2) {
-						final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = ((Class246_Sub3_Sub4_Sub2_Sub2) class246_sub3_sub4_sub2);
+					if (class246_sub3_sub4_sub2 instanceof Player) {
+						final Player class246_sub3_sub4_sub2_sub2 = ((Player) class246_sub3_sub4_sub2);
 						Class98_Sub30
 								.method1311(
-										(((((Class246_Sub3) class246_sub3_sub4_sub2_sub2).aByte5088) ^ 0xffffffff) != ((((Class246_Sub3) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).aByte5088) ^ 0xffffffff)),
+										(((((Class246_Sub3) class246_sub3_sub4_sub2_sub2).aByte5088) ^ 0xffffffff) != ((((Class246_Sub3) Surface.player).aByte5088) ^ 0xffffffff)),
 										true, class246_sub3_sub4_sub2_sub2);
 					}
 				} else {
@@ -123,10 +123,10 @@ abstract class Class246_Sub3_Sub3 extends Class246_Sub3 {
 							.method995(
 									class246_sub3_sub4_sub2_sub1,
 									(byte) 55,
-									((((Class246_Sub3) class246_sub3_sub4_sub2_sub1).aByte5088) != (((Class246_Sub3) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).aByte5088)));
+									((((Class246_Sub3) class246_sub3_sub4_sub2_sub1).aByte5088) != (((Class246_Sub3) Surface.player).aByte5088)));
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("jn.D("
 								+ ((class246_sub3_sub4_sub2 != null) ? "{...}"
 										: "null") + ',' + i + ')'));
@@ -145,7 +145,7 @@ abstract class Class246_Sub3_Sub3 extends Class246_Sub3 {
 			aClass254_6152 = null;
 			aClass143_6155 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jn.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "jn.F(" + i + ')');
 		}
 	}
 
@@ -162,7 +162,7 @@ abstract class Class246_Sub3_Sub3 extends Class246_Sub3 {
 							(((Class246_Sub3) this).anInt5079 >> Class151_Sub8.anInt5015),
 							this, (byte) 112);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jn.AA("
+			throw Class64_Sub27.printError(runtimeexception, ("jn.AA("
 					+ (var_ha != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -196,7 +196,7 @@ abstract class Class246_Sub3_Sub3 extends Class246_Sub3 {
 			}
 			throw new IllegalArgumentException("");
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jn.K(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "jn.K(" + i + ','
 					+ i_6_ + ')');
 		}
 	}
@@ -211,7 +211,7 @@ abstract class Class246_Sub3_Sub3 extends Class246_Sub3 {
 				}
 				method3013((byte) -29);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("jn.M(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("jn.M(" + i
 						+ ',' + i_7_ + ',' + i_8_ + ','
 						+ (class28 != null ? "{...}" : "null") + ')'));
 			}
@@ -229,7 +229,7 @@ abstract class Class246_Sub3_Sub3 extends Class246_Sub3 {
 			((Class246_Sub3) this).anInt5089 = i_9_;
 			((Class246_Sub3) this).anInt5079 = i_10_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jn.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("jn.<init>(" + i
 					+ ',' + i_9_ + ',' + i_10_ + ',' + i_11_ + ',' + i_12_
 					+ ',' + i_13_ + ')'));
 		}

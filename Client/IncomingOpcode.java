@@ -16,7 +16,7 @@ final class IncomingOpcode {
 			return new Class6[] { Class2.aClass6_68, Class1.aClass6_63,
 					Class244.aClass6_1861 };
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ea.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ea.A(" + i + ')');
 		}
 	}
 
@@ -26,7 +26,7 @@ final class IncomingOpcode {
 				method521((byte) -127);
 			return anInt462;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ea.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ea.C(" + i + ')');
 		}
 	}
 
@@ -34,7 +34,7 @@ final class IncomingOpcode {
 		try {
 			throw new IllegalStateException();
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"ea.toString(" + ')');
 		}
 	}
@@ -44,7 +44,7 @@ final class IncomingOpcode {
 			((IncomingOpcode) this).anInt460 = i_0_;
 			anInt462 = i;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ea.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "ea.<init>(" + i
 					+ ',' + i_0_ + ')');
 		}
 	}
@@ -54,7 +54,7 @@ final class IncomingOpcode {
 			int i_1_ = -3 / ((-64 - i) / 62);
 			aClass65_459 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ea.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ea.D(" + i + ')');
 		}
 	}
 
@@ -66,7 +66,7 @@ final class IncomingOpcode {
 				return false;
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ea.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ea.B(" + i + ','
 					+ i_2_ + ',' + i_3_ + ')'));
 		}
 	}

@@ -17,7 +17,7 @@ final class Class90 {
 				}
 				method883(88);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "fn.E(" + i
+				throw Class64_Sub27.printError(runtimeexception, "fn.E(" + i
 						+ ')');
 			}
 			break;
@@ -33,7 +33,7 @@ final class Class90 {
 				}
 				aClass105_719 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("fn.A("
+				throw Class64_Sub27.printError(runtimeexception, ("fn.A("
 						+ (is != null ? "{...}" : "null") + ','
 						+ (ls != null ? "{...}" : "null") + ',' + i + ')'));
 			}
@@ -54,7 +54,7 @@ final class Class90 {
 			}
 			return new Class246_Sub2();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fn.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "fn.D(" + i + ')');
 		}
 	}
 
@@ -80,7 +80,7 @@ final class Class90 {
 				}
 				anInt718 = -63;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("fn.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("fn.B(" + i
 						+ ',' + (class98_sub22 != null ? "{...}" : "null")
 						+ ',' + i_0_ + ')'));
 			}
@@ -104,7 +104,7 @@ final class Class90 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("fn.C(" + (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i + ')'));
 		}

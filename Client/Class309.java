@@ -86,7 +86,7 @@ final class Class309 {
 		try {
 			throw new IllegalStateException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"sw.toString(" + ')');
 		}
 	}
@@ -133,7 +133,7 @@ final class Class309 {
 					class98_sub42.method942(68);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "sw.A(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "sw.A(" + bool
 						+ ',' + i + ')');
 			}
 			break;
@@ -147,7 +147,7 @@ final class Class309 {
 			}
 			return aStringArray2588[i];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sw.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "sw.B(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -159,7 +159,7 @@ final class Class309 {
 			aStringArray2588 = new String[] { string, string_2_, string_3_,
 					string_4_ };
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sw.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("sw.<init>("
 					+ (string != null ? "{...}" : "null") + ','
 					+ (string_2_ != null ? "{...}" : "null") + ','
 					+ (string_3_ != null ? "{...}" : "null") + ','
@@ -237,7 +237,7 @@ final class Class309 {
 				aClass309_2589 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sw.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sw.C(" + i + ')');
 		}
 	}
 
@@ -625,7 +625,7 @@ final class Class309 {
 				"Suche nach Updates - ",
 				"V\u00e9rification des mises \u00e0 jour - ",
 				"Verificando atualiza\u00e7\u00f5es - ");
-		aClass309_2603 = new Class309("Installation progress.. - ",
+		aClass309_2603 = new Class309("Patching progress.. - ",
 				"Lade Update - ", "Chargement des MAJ - ",
 				"Carregando atualiza\u00e7\u00f5es - ");
 		new Class309("Loading config - ", "Lade Konfiguration - ",

@@ -32,7 +32,7 @@ final class Class228 {
 			anInt1712 = anInt1711 - -i_4_;
 			anInt1709 = anInt1717 - -i_6_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("oia.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("oia.C(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ',' + i_4_
 					+ ',' + i_5_ + ',' + i_6_ + ',' + i_7_ + ',' + i_8_ + ','
 					+ i_9_ + ')'));
@@ -68,7 +68,7 @@ final class Class228 {
 					Class151_Sub5.aBoolean4991 = true;
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("oia.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("oia.D(" + i
 						+ ',' + i_10_ + ',' + i_11_ + ',' + i_12_ + ')'));
 			}
 			break;
@@ -79,7 +79,7 @@ final class Class228 {
 		try {
 			Class191.anInt1480 = Class76_Sub5.anInt3748 = Class181.anInt1432 = Class98_Sub10_Sub13.anInt5602 = 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oia.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "oia.B(" + i + ')');
 		}
 	}
 
@@ -107,7 +107,7 @@ final class Class228 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("oia.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("oia.E(" + i + ','
 					+ i_14_ + ',' + i_15_ + ',' + i_16_ + ')'));
 		}
 	}
@@ -129,7 +129,7 @@ final class Class228 {
 			return ((i_20_ & 0x37) == 0 & (Class151_Sub2.method2451(i_19_, 544,
 					i_20_) | Class246_Sub1.method2967(i_20_, i_19_, (byte) 91)));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("oia.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("oia.A(" + i + ','
 					+ i_19_ + ',' + i_20_ + ')'));
 		}
 	}
@@ -149,7 +149,7 @@ final class Class228 {
 			anInt1708 = i_27_ + anInt1710;
 			anInt1712 = i_24_ + anInt1711;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("oia.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("oia.<init>(" + i
 					+ ',' + i_21_ + ',' + i_22_ + ',' + i_23_ + ',' + i_24_
 					+ ',' + i_25_ + ',' + i_26_ + ',' + i_27_ + ',' + i_28_
 					+ ',' + i_29_ + ')'));

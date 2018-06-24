@@ -21,7 +21,7 @@ class Class284_Sub1 extends Class284 {
 				}
 				aClass58_5176 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("gd.M(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("gd.M(" + i
 						+ ',' + i_0_ + ',' + i_1_ + ')'));
 			}
 			break;
@@ -34,7 +34,7 @@ class Class284_Sub1 extends Class284 {
 			anIntArray5178 = null;
 			aClass58_5176 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gd.P(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gd.P(" + i + ')');
 		}
 	}
 
@@ -44,7 +44,7 @@ class Class284_Sub1 extends Class284 {
 			anInt5173 = 0;
 			anInt5175 = 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gd.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gd.D(" + i + ')');
 		}
 	}
 
@@ -53,7 +53,7 @@ class Class284_Sub1 extends Class284 {
 		try {
 			anInt5175 += i_2_ * anIntArray5172[i] >> 460423148;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gd.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gd.G(" + i + ','
 					+ i_2_ + ',' + i_3_ + ')'));
 		}
 	}
@@ -68,7 +68,7 @@ class Class284_Sub1 extends Class284 {
 			method3363((byte) (anInt5175 >> 1016186948), anInt5173++, (byte) 42);
 			anInt5175 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gd.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gd.H(" + i + ')');
 		}
 	}
 
@@ -82,7 +82,7 @@ class Class284_Sub1 extends Class284 {
 						.pow(f, i_8_));
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gd.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("gd.<init>(" + i
 					+ ',' + i_4_ + ',' + i_5_ + ',' + i_6_ + ',' + i_7_ + ','
 					+ f + ')'));
 		}

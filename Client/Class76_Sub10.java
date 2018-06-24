@@ -13,7 +13,7 @@ final class Class76_Sub10 extends Class76 {
 				return;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vga.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vga.E(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -26,7 +26,7 @@ final class Class76_Sub10 extends Class76 {
 			}
 			((Class76) this).aHa_Sub3_585.method2029((byte) -62, false);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vga.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vga.C(" + i + ')');
 		}
 	}
 
@@ -42,7 +42,7 @@ final class Class76_Sub10 extends Class76 {
 				}
 				method742(-90, 37, null);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("vga.I(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("vga.I(" + i
 						+ ',' + i_2_ + ','
 						+ (interface4 != null ? "{...}" : "null") + ')'));
 			}
@@ -113,7 +113,7 @@ final class Class76_Sub10 extends Class76 {
 			}
 			return c;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vga.A(" + c + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vga.A(" + c + ','
 					+ i + ',' + i_3_ + ')'));
 		}
 	}
@@ -124,12 +124,12 @@ final class Class76_Sub10 extends Class76 {
 				final int i_4_ = Class2.anInt71;
 				final int[] is = Class319.anIntArray2705;
 				for (int i_5_ = 0; i_5_ < i_4_; i_5_++) {
-					final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[is[i_5_]]);
+					final Player class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[is[i_5_]]);
 					if (class246_sub3_sub4_sub2_sub2 != null
-							&& (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6384 ^ 0xffffffff) < -1) {
-						((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6384--;
-						if ((((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6384 ^ 0xffffffff) == -1) {
-							((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).aString6374 = null;
+							&& (((Entity) class246_sub3_sub4_sub2_sub2).anInt6384 ^ 0xffffffff) < -1) {
+						((Entity) class246_sub3_sub4_sub2_sub2).anInt6384--;
+						if ((((Entity) class246_sub3_sub4_sub2_sub2).anInt6384 ^ 0xffffffff) == -1) {
+							((Entity) class246_sub3_sub4_sub2_sub2).aString6374 = null;
 						}
 					}
 				}
@@ -139,10 +139,10 @@ final class Class76_Sub10 extends Class76 {
 							.method3990(l, -1));
 					if (class98_sub39 != null) {
 						final Class246_Sub3_Sub4_Sub2_Sub1 class246_sub3_sub4_sub2_sub1 = (class98_sub39.aClass246_Sub3_Sub4_Sub2_Sub1_4187);
-						if (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6384 > 0) {
-							((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6384--;
-							if ((((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6384 ^ 0xffffffff) == -1) {
-								((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).aString6374 = null;
+						if (((Entity) class246_sub3_sub4_sub2_sub1).anInt6384 > 0) {
+							((Entity) class246_sub3_sub4_sub2_sub1).anInt6384--;
+							if ((((Entity) class246_sub3_sub4_sub2_sub1).anInt6384 ^ 0xffffffff) == -1) {
+								((Entity) class246_sub3_sub4_sub2_sub1).aString6374 = null;
 							}
 						}
 					}
@@ -152,7 +152,7 @@ final class Class76_Sub10 extends Class76 {
 				}
 				method770(98);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "vga.F(" + i
+				throw Class64_Sub27.printError(runtimeexception, "vga.F(" + i
 						+ ')');
 			}
 			break;
@@ -168,7 +168,7 @@ final class Class76_Sub10 extends Class76 {
 				}
 				anInt3794 = 111;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "vga.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "vga.D(" + i
 						+ ',' + bool + ')');
 			}
 			break;
@@ -183,7 +183,7 @@ final class Class76_Sub10 extends Class76 {
 			}
 			((Class76) this).aHa_Sub3_585.method2029((byte) -93, true);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vga.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "vga.B(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -196,7 +196,7 @@ final class Class76_Sub10 extends Class76 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vga.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vga.H(" + i + ')');
 		}
 	}
 

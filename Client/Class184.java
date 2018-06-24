@@ -45,7 +45,7 @@ final class Class184 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mea.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "mea.B(" + i + ','
 					+ c + ')');
 		}
 	}

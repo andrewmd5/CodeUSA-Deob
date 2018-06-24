@@ -39,7 +39,7 @@ final class Class85 {
 				method838(null);
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fha.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "fha.A(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -73,7 +73,7 @@ final class Class85 {
 				}
 				break;
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "fha.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "fha.B(" + i
 						+ ')');
 			}
 		} while (false);

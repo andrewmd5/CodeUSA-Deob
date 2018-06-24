@@ -27,7 +27,7 @@ final class Class186 implements Interface17 {
 					!bool_5_ ? null : aHa_Sub2_3432.aFloatArray4488, anInt3426,
 					0);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("mga.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("mga.A(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ',' + i_4_
 					+ ',' + bool + ',' + bool_5_ + ')'));
 		}
@@ -41,7 +41,7 @@ final class Class186 implements Interface17 {
 			}
 			aClass348_3433 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mga.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "mga.C(" + i + ')');
 		}
 	}
 
@@ -57,7 +57,7 @@ final class Class186 implements Interface17 {
 					i_9_, !bool_11_ ? null : aFloatArray3429,
 					aHa_Sub2_3432.aClass98_Sub32_4478.anInt4105, 0);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("mga.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("mga.B(" + i + ','
 					+ i_6_ + ',' + i_7_ + ',' + i_8_ + ',' + i_9_ + ',' + i_10_
 					+ ',' + bool + ',' + bool_11_ + ')'));
 		}
@@ -96,7 +96,7 @@ final class Class186 implements Interface17 {
 				}
 				aFloatArray3429 = aClass333_3425.aFloatArray3389;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("mga.<init>("
+				throw Class64_Sub27.printError(runtimeexception, ("mga.<init>("
 						+ (var_ha_Sub2 != null ? "{...}" : "null") + ','
 						+ (class332 != null ? "{...}" : "null") + ','
 						+ (class333 != null ? "{...}" : "null") + ')'));

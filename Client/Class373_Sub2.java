@@ -25,7 +25,7 @@ final class Class373_Sub2 extends Class373 {
 					2 + ((Class373) this).aClass93_3478.anInt3514,
 					((Class373) this).aClass93_3478.anInt3504, 0, 0);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ct.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ct.D(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + bool + ')'));
 		}
 	}
@@ -37,7 +37,7 @@ final class Class373_Sub2 extends Class373 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ct.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ct.E(" + i + ','
 					+ i_2_ + ',' + i_3_ + ')'));
 		}
 	}
@@ -47,7 +47,7 @@ final class Class373_Sub2 extends Class373 {
 			aClass59_5470 = null;
 			aClass246_Sub5Array5469 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ct.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ct.G(" + i + ')');
 		}
 	}
 
@@ -65,7 +65,7 @@ final class Class373_Sub2 extends Class373 {
 					+ ((Class373) this).aClass93_3478.anInt3514,
 					((Class373) this).aClass93_3478.anInt3504 - 2, 0, 0);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ct.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ct.F(" + i + ','
 					+ i_6_ + ',' + i_7_ + ',' + bool + ')'));
 		}
 	}

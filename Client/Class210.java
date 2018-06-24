@@ -17,7 +17,7 @@ final class Class210 implements Interface10 {
 			}
 			return aClass124_3327.anInt1014;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nk.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "nk.D(" + i + ')');
 		}
 	}
 
@@ -42,7 +42,7 @@ final class Class210 implements Interface10 {
 				}
 				method24(75);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "nk.H(" + i
+				throw Class64_Sub27.printError(runtimeexception, "nk.H(" + i
 						+ ')');
 			}
 			break;
@@ -66,7 +66,7 @@ final class Class210 implements Interface10 {
 			}
 			aBoolean3330 = false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nk.I(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "nk.I(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -80,7 +80,7 @@ final class Class210 implements Interface10 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nk.N(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "nk.N(" + i + ','
 					+ l + ')');
 		}
 	}
@@ -101,7 +101,7 @@ final class Class210 implements Interface10 {
 			}
 			return i_3_ * 100 / anInterface18Array3331.length;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nk.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "nk.F(" + i + ')');
 		}
 	}
 
@@ -112,7 +112,7 @@ final class Class210 implements Interface10 {
 				method23(-118, false);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nk.K(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "nk.K(" + i + ')');
 		}
 	}
 
@@ -125,7 +125,7 @@ final class Class210 implements Interface10 {
 						(aClass124_3327.anInterface21Array1013[i]));
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("nk.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("nk.<init>("
 					+ (class124 != null ? "{...}" : "null") + ','
 					+ (class362 != null ? "{...}" : "null") + ')'));
 		}
@@ -140,7 +140,7 @@ final class Class210 implements Interface10 {
 				}
 				method2773(-119);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "nk.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "nk.A(" + i
 						+ ')');
 			}
 			break;

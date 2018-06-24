@@ -25,7 +25,7 @@ final class Class151_Sub4 extends Class151 {
 				}
 				aBoolean4988 = false;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("lg.F("
+				throw Class64_Sub27.printError(runtimeexception, ("lg.F("
 						+ (class42 != null ? "{...}" : "null") + ',' + bool
 						+ ',' + i + ')'));
 			}
@@ -61,7 +61,7 @@ final class Class151_Sub4 extends Class151 {
 								class345, class345_0_ }, true);
 				aBoolean4988 = aClass336_4986 != null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("lg.<init>("
+				throw Class64_Sub27.printError(runtimeexception, ("lg.<init>("
 						+ (var_ha_Sub1 != null ? "{...}" : "null") + ','
 						+ (class51 != null ? "{...}" : "null") + ')'));
 			}
@@ -78,7 +78,7 @@ final class Class151_Sub4 extends Class151 {
 				}
 				method2460(68);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "lg.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "lg.B(" + i
 						+ ')');
 			}
 			break;
@@ -93,7 +93,7 @@ final class Class151_Sub4 extends Class151 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lg.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "lg.A(" + i + ')');
 		}
 	}
 
@@ -123,7 +123,7 @@ final class Class151_Sub4 extends Class151 {
 				}
 				method2439(120);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("lg.G(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("lg.G(" + i
 						+ ',' + i_1_ + ',' + i_2_ + ')'));
 			}
 			break;
@@ -169,7 +169,7 @@ final class Class151_Sub4 extends Class151 {
 					aBoolean4987 = true;
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("lg.D(" + bool
+				throw Class64_Sub27.printError(runtimeexception, ("lg.D(" + bool
 						+ ',' + bool_6_ + ')'));
 			}
 			break;
@@ -183,7 +183,7 @@ final class Class151_Sub4 extends Class151 {
 				method2460(-19);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lg.C(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "lg.C(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -205,7 +205,7 @@ final class Class151_Sub4 extends Class151 {
 				}
 				method2439(-51);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "lg.E(" + i
+				throw Class64_Sub27.printError(runtimeexception, "lg.E(" + i
 						+ ')');
 			}
 			break;

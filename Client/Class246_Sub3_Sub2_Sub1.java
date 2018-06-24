@@ -21,7 +21,7 @@ final class Class246_Sub3_Sub2_Sub1 extends Class246_Sub3_Sub2 {
 		try {
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iha.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "iha.H(" + i + ')');
 		}
 	}
 
@@ -41,7 +41,7 @@ final class Class246_Sub3_Sub2_Sub1 extends Class246_Sub3_Sub2 {
 			class31.aString299 = string;
 			return class31;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iha.B("
+			throw Class64_Sub27.printError(runtimeexception, ("iha.B("
 					+ (string != null ? "{...}" : "null") + ',' + i + ','
 					+ i_1_ + ')'));
 		}
@@ -58,7 +58,7 @@ final class Class246_Sub3_Sub2_Sub1 extends Class246_Sub3_Sub2 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iha.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("iha.C(" + i + ','
 					+ i_2_ + ',' + i_3_ + ')'));
 		}
 	}
@@ -71,7 +71,7 @@ final class Class246_Sub3_Sub2_Sub1 extends Class246_Sub3_Sub2 {
 			}
 			return aBoolean6336;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iha.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "iha.I(" + i + ')');
 		}
 	}
 
@@ -161,61 +161,61 @@ final class Class246_Sub3_Sub2_Sub1 extends Class246_Sub3_Sub2 {
 			aBoolean6336 = false;
 			anInt6344 = 0;
 			if ((anInt6343 ^ 0xffffffff) != 0) {
-				final Class146 class146 = (Class98_Sub46_Sub19.aClass205_6068
+				final AbstractModel abstractModel = (Class98_Sub46_Sub19.aClass205_6068
 						.method2714(anInt6343, (byte) -118).method3501(0, 2048,
 						0, null, -1, var_ha, anInt6337, 128, null));
-				if (class146 != null) {
+				if (abstractModel != null) {
 					if (!Class239.aBoolean1839) {
-						class146.method2325(class111,
+						abstractModel.method2325(class111,
 								(class246_sub1.aClass246_Sub6Array5067[2]), 0);
 					} else {
-						class146.method2329(class111,
+						abstractModel.method2329(class111,
 								(class246_sub1.aClass246_Sub6Array5067[2]),
 								Class16.anInt197, 0);
 					}
-					aBoolean6336 |= class146.F();
-					anInt6344 = class146.ma();
+					aBoolean6336 |= abstractModel.F();
+					anInt6344 = abstractModel.ma();
 				}
 			}
 			if (anInt6341 != -1) {
-				final Class146 class146 = (Class98_Sub46_Sub19.aClass205_6068
+				final AbstractModel abstractModel = (Class98_Sub46_Sub19.aClass205_6068
 						.method2714(anInt6341, (byte) -122).method3501(0, 2048,
 						0, null, -1, var_ha, anInt6346, 128, null));
-				if (class146 != null) {
+				if (abstractModel != null) {
 					if (!Class239.aBoolean1839) {
-						class146.method2325(class111,
+						abstractModel.method2325(class111,
 								(class246_sub1.aClass246_Sub6Array5067[1]), 0);
 					} else {
-						class146.method2329(class111,
+						abstractModel.method2329(class111,
 								(class246_sub1.aClass246_Sub6Array5067[1]),
 								Class16.anInt197, 0);
 					}
-					aBoolean6336 |= class146.F();
-					if (class146.ma() > anInt6344) {
-						anInt6344 = class146.ma();
+					aBoolean6336 |= abstractModel.F();
+					if (abstractModel.ma() > anInt6344) {
+						anInt6344 = abstractModel.ma();
 					}
 				}
 			}
-			final Class146 class146 = (Class98_Sub46_Sub19.aClass205_6068
+			final AbstractModel abstractModel = (Class98_Sub46_Sub19.aClass205_6068
 					.method2714(anInt6340, (byte) -121).method3501(0, 2048, 0,
 					null, -1, var_ha, anInt6338, 128, null));
-			if (class146 != null) {
+			if (abstractModel != null) {
 				if (Class239.aBoolean1839) {
-					class146.method2329(class111,
+					abstractModel.method2329(class111,
 							(class246_sub1.aClass246_Sub6Array5067[0]),
 							Class16.anInt197, 0);
 				} else {
-					class146.method2325(class111,
+					abstractModel.method2325(class111,
 							(class246_sub1.aClass246_Sub6Array5067[0]), 0);
 				}
-				aBoolean6336 |= class146.F();
-				if ((class146.ma() ^ 0xffffffff) < (anInt6344 ^ 0xffffffff)) {
-					anInt6344 = class146.ma();
+				aBoolean6336 |= abstractModel.F();
+				if ((abstractModel.ma() ^ 0xffffffff) < (anInt6344 ^ 0xffffffff)) {
+					anInt6344 = abstractModel.ma();
 				}
 			}
 			return class246_sub1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iha.QA("
+			throw Class64_Sub27.printError(runtimeexception, ("iha.QA("
 					+ (var_ha != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -228,7 +228,7 @@ final class Class246_Sub3_Sub2_Sub1 extends Class246_Sub3_Sub2 {
 			}
 			return anInt6344;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iha.O(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "iha.O(" + bool
 					+ ')');
 		}
 	}
@@ -243,7 +243,7 @@ final class Class246_Sub3_Sub2_Sub1 extends Class246_Sub3_Sub2 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iha.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "iha.E(" + i + ')');
 		}
 	}
 
@@ -273,7 +273,7 @@ final class Class246_Sub3_Sub2_Sub1 extends Class246_Sub3_Sub2 {
 			return i_28_;
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, "iha.FB(" + i + ')');
+					.printError(runtimeexception, "iha.FB(" + i + ')');
 		}
 	}
 
@@ -290,25 +290,25 @@ final class Class246_Sub3_Sub2_Sub1 extends Class246_Sub3_Sub2 {
 					((Class246_Sub3) this).anInt5079);
 			final ItemDefs class297 = (Class98_Sub46_Sub19.aClass205_6068
 					.method2714(anInt6340, (byte) -118));
-			Class146 class146 = class297.method3501(0, 131072, 0, null, -1,
+			AbstractModel abstractModel = class297.method3501(0, 131072, 0, null, -1,
 					var_ha, (anInt6338), 128, null);
-			if (class146 != null
-					&& (Class239.aBoolean1839 ? class146.method2333(i, i_32_,
+			if (abstractModel != null
+					&& (Class239.aBoolean1839 ? abstractModel.method2333(i, i_32_,
 							class111, true, class297.anInt2445,
-							Class16.anInt197) : class146.method2339(i, i_32_,
+							Class16.anInt197) : abstractModel.method2339(i, i_32_,
 							class111, true, class297.anInt2445))) {
 				return true;
 			}
 			if ((anInt6341 ^ 0xffffffff) != 0) {
 				final ItemDefs class297_33_ = (Class98_Sub46_Sub19.aClass205_6068
 						.method2714(anInt6341, (byte) -121));
-				class146 = class297_33_.method3501(0, 131072, 0, null, -1,
+				abstractModel = class297_33_.method3501(0, 131072, 0, null, -1,
 						var_ha, (anInt6346), 128, null);
-				if (class146 != null
-						&& (Class239.aBoolean1839 ? class146.method2333(i,
+				if (abstractModel != null
+						&& (Class239.aBoolean1839 ? abstractModel.method2333(i,
 								i_32_, class111, true,
 								(class297_33_.anInt2445), Class16.anInt197)
-								: class146.method2339(i, i_32_, class111, true,
+								: abstractModel.method2339(i, i_32_, class111, true,
 										(class297_33_.anInt2445)))) {
 					return true;
 				}
@@ -316,20 +316,20 @@ final class Class246_Sub3_Sub2_Sub1 extends Class246_Sub3_Sub2 {
 			if (anInt6343 != -1) {
 				final ItemDefs class297_34_ = (Class98_Sub46_Sub19.aClass205_6068
 						.method2714(anInt6343, (byte) -127));
-				class146 = class297_34_.method3501(0, 131072, 0, null, -1,
+				abstractModel = class297_34_.method3501(0, 131072, 0, null, -1,
 						var_ha, (anInt6337), 128, null);
-				if (class146 != null
-						&& (Class239.aBoolean1839 ? class146.method2333(i,
+				if (abstractModel != null
+						&& (Class239.aBoolean1839 ? abstractModel.method2333(i,
 								i_32_, class111, true,
 								(class297_34_.anInt2445), Class16.anInt197)
-								: class146.method2339(i, i_32_, class111, true,
+								: abstractModel.method2339(i, i_32_, class111, true,
 										(class297_34_.anInt2445)))) {
 					return true;
 				}
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iha.TA(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("iha.TA(" + i
 					+ ',' + (var_ha != null ? "{...}" : "null") + ',' + i_31_
 					+ ',' + i_32_ + ')'));
 		}
@@ -343,7 +343,7 @@ final class Class246_Sub3_Sub2_Sub1 extends Class246_Sub3_Sub2 {
 			}
 			return -10;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iha.J(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "iha.J(" + i + ')');
 		}
 	}
 
@@ -429,7 +429,7 @@ final class Class246_Sub3_Sub2_Sub1 extends Class246_Sub3_Sub2 {
 						(Class42_Sub1.aClass197_5354.method2674(string, 118)
 								+ i_43_ - -5), -12 + i_37_);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("iha.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("iha.D(" + i
 						+ ',' + (class98_sub46_sub8 != null ? "{...}" : "null")
 						+ ',' + i_35_ + ',' + i_36_ + ',' + i_37_ + ',' + i_38_
 						+ ',' + i_39_ + ','
@@ -454,7 +454,7 @@ final class Class246_Sub3_Sub2_Sub1 extends Class246_Sub3_Sub2 {
 			}
 			return null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iha.KA(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("iha.KA(" + i
 					+ ',' + (var_ha != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -466,7 +466,7 @@ final class Class246_Sub3_Sub2_Sub1 extends Class246_Sub3_Sub2 {
 				aClass171_6342 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iha.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "iha.A(" + i + ')');
 		}
 	}
 
@@ -474,7 +474,7 @@ final class Class246_Sub3_Sub2_Sub1 extends Class246_Sub3_Sub2 {
 	final void method2988(final ha var_ha, final int i) {
 		try {
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iha.MA("
+			throw Class64_Sub27.printError(runtimeexception, ("iha.MA("
 					+ (var_ha != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}

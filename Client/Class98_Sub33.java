@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub33 extends Class98 {
+final class Class98_Sub33 extends Node {
 	int anInt4112;
 	int anInt4113;
 	int anInt4114;

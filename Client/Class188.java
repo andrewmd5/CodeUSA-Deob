@@ -13,7 +13,7 @@ final class Class188 {
 			}
 			aClass58_1452 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mi.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "mi.A(" + i + ')');
 		}
 	}
 }

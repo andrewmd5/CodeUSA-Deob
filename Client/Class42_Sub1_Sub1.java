@@ -18,7 +18,7 @@ final class Class42_Sub1_Sub1 extends Class42_Sub1 {
 				aClass207_6206 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iaa.K(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "iaa.K(" + i + ')');
 		}
 	}
 
@@ -34,7 +34,7 @@ final class Class42_Sub1_Sub1 extends Class42_Sub1 {
 			aBoolean6211 = false;
 			method383(false, 10242, false);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iaa.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("iaa.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ','
 					+ (is != null ? "{...}" : "null") + ')'));
@@ -52,7 +52,7 @@ final class Class42_Sub1_Sub1 extends Class42_Sub1 {
 			aFloat6209 = (float) i_4_ / (float) i_6_;
 			method383(false, 10242, false);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iaa.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("iaa.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_3_ + ',' + i_4_ + ',' + i_5_ + ',' + i_6_ + ')'));
 		}
@@ -72,7 +72,7 @@ final class Class42_Sub1_Sub1 extends Class42_Sub1 {
 			}
 			Class264.aFileOutputStream1969 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iaa.J(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "iaa.J(" + bool
 					+ ')');
 		}
 	}
@@ -96,7 +96,7 @@ final class Class42_Sub1_Sub1 extends Class42_Sub1 {
 			} while (false);
 			anInt6207 = i_9_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("iaa.<init>(" + (var_ha_Sub1 != null ? "{...}" : "null")
 							+ ',' + i + ',' + i_7_ + ',' + i_8_ + ',' + i_9_
 							+ ',' + i_10_ + ',' + bool + ')'));
@@ -123,7 +123,7 @@ final class Class42_Sub1_Sub1 extends Class42_Sub1 {
 			anInt6207 = i_12_;
 			anInt6204 = i_13_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iaa.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("iaa.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_11_ + ',' + i_12_ + ',' + i_13_ + ',' + bool + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_14_ + ')'));
@@ -149,7 +149,7 @@ final class Class42_Sub1_Sub1 extends Class42_Sub1 {
 			} while (false);
 			anInt6204 = i_17_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iaa.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("iaa.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_15_ + ',' + i_16_ + ',' + i_17_ + ')'));
 		}
@@ -167,7 +167,7 @@ final class Class42_Sub1_Sub1 extends Class42_Sub1 {
 			aBoolean6211 = false;
 			method383(false, 10242, false);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iaa.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("iaa.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_18_ + ',' + i_19_ + ',' + i_20_ + ',' + i_21_ + ','
 					+ i_22_ + ',' + bool + ')'));
@@ -187,7 +187,7 @@ final class Class42_Sub1_Sub1 extends Class42_Sub1 {
 			aFloat6205 = (float) i_23_ / (float) i_25_;
 			method383(false, 10242, false);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iaa.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("iaa.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_23_ + ',' + i_24_ + ',' + i_25_ + ',' + i_26_ + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_27_ + ')'));
@@ -214,7 +214,7 @@ final class Class42_Sub1_Sub1 extends Class42_Sub1 {
 			} while (false);
 			anInt6204 = i_29_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iaa.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("iaa.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_28_ + ',' + i_29_ + ',' + bool + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_30_ + ','

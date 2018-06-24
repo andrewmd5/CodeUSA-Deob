@@ -20,7 +20,7 @@ final class Class119_Sub4 extends Class119 {
 			Class98_Sub47.method1658(i_5_, i_3_, i_4_, 16977, i_6_,
 					((Class119) this).anInt988);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sr.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sr.B(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -38,7 +38,7 @@ final class Class119_Sub4 extends Class119 {
 						((Class119) this).anInt988, (byte) -89);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sr.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sr.C(" + i + ','
 					+ i_7_ + ',' + i_8_ + ')'));
 		}
 	}
@@ -50,7 +50,7 @@ final class Class119_Sub4 extends Class119 {
 			}
 			return f * f * f * (10.0F + f * (6.0F * f - 15.0F));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sr.F(" + f + ','
+			throw Class64_Sub27.printError(runtimeexception, "sr.F(" + f + ','
 					+ i + ')');
 		}
 	}
@@ -64,7 +64,7 @@ final class Class119_Sub4 extends Class119 {
 				}
 				method2190(-110, 15);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "sr.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "sr.D(" + i
 						+ ')');
 			}
 			break;
@@ -80,7 +80,7 @@ final class Class119_Sub4 extends Class119 {
 			anInt4736 = i_14_;
 			anInt4737 = i_13_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sr.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("sr.<init>(" + i
 					+ ',' + i_13_ + ',' + i_14_ + ',' + i_15_ + ',' + i_16_
 					+ ',' + i_17_ + ',' + i_18_ + ')'));
 		}
@@ -90,7 +90,7 @@ final class Class119_Sub4 extends Class119 {
 	final void method2179(final byte i, final int i_19_, final int i_20_) {
 		try {
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sr.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sr.E(" + i + ','
 					+ i_19_ + ',' + i_20_ + ')'));
 		}
 	}
@@ -102,7 +102,7 @@ final class Class119_Sub4 extends Class119 {
 			Class64_Sub25.anInt3711 = 3;
 			Class287.anInt2186 = 100;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sr.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "sr.A(" + i + ','
 					+ i_22_ + ')');
 		}
 	}

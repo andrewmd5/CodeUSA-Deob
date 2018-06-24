@@ -32,7 +32,7 @@ final class Class103 implements Runnable {
 				aBoolean895 = false;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gi.run(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gi.run(" + ')');
 		}
 	}
 
@@ -141,7 +141,7 @@ final class Class103 implements Runnable {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gi.A("
+			throw Class64_Sub27.printError(runtimeexception, ("gi.A("
 					+ (var_ha != null ? "{...}" : "null") + ',' + i + ','
 					+ (class98_sub47 != null ? "{...}" : "null") + ','
 					+ (class24 != null ? "{...}" : "null") + ')'));

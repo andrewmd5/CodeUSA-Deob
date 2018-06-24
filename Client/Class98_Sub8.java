@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub8 extends Class98 implements Interface7 {
+final class Class98_Sub8 extends Node implements Interface7 {
 	static OutgoingOpcode aClass171_3264 = new OutgoingOpcode(74, -1);
 	char aChar3265;
 	int anInt3266;
@@ -18,7 +18,7 @@ final class Class98_Sub8 extends Class98 implements Interface7 {
 			}
 			return aLong3267;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cja.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cja.B(" + i + ')');
 		}
 	}
 
@@ -30,7 +30,7 @@ final class Class98_Sub8 extends Class98 implements Interface7 {
 			}
 			return anInt3269;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cja.E(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "cja.E(" + bool
 					+ ')');
 		}
 	}
@@ -98,7 +98,7 @@ final class Class98_Sub8 extends Class98 implements Interface7 {
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("cja.F(" + i + ',' + i_0_ + ','
 								+ (class293 != null ? "{...}" : "null") + ','
 								+ i_1_ + ')'));
@@ -112,7 +112,7 @@ final class Class98_Sub8 extends Class98 implements Interface7 {
 		try {
 			return anInt3268;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cja.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cja.A(" + i + ')');
 		}
 	}
 
@@ -125,7 +125,7 @@ final class Class98_Sub8 extends Class98 implements Interface7 {
 				}
 				method986(38, -44, null, 87);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "cja.G(" + i
+				throw Class64_Sub27.printError(runtimeexception, "cja.G(" + i
 						+ ')');
 			}
 			break;
@@ -140,7 +140,7 @@ final class Class98_Sub8 extends Class98 implements Interface7 {
 			}
 			return anInt3266;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cja.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cja.C(" + i + ')');
 		}
 	}
 
@@ -152,7 +152,7 @@ final class Class98_Sub8 extends Class98 implements Interface7 {
 			}
 			return aChar3265;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cja.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cja.D(" + i + ')');
 		}
 	}
 }

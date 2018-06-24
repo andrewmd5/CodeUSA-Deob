@@ -21,7 +21,7 @@ final class Class237_Sub1 extends Class237 {
 			anInt5042 = i_0_;
 			aClass207_5046 = class207;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("dha.<init>(" + i + ','
 							+ (class207 != null ? "{...}" : "null") + ','
 							+ i_0_ + ')'));
@@ -40,7 +40,7 @@ final class Class237_Sub1 extends Class237 {
 				if (is_1_ == null) {
 					throw new IllegalStateException("");
 				}
-				aClass98_Sub22_5048.aByteArray3992 = is_1_;
+				aClass98_Sub22_5048.incomingBytes = is_1_;
 				aClass98_Sub22_5048.position = 0;
 				final int i_2_ = is_1_.length >> -830071903;
 				anIntArray5040 = new int[i_2_];
@@ -54,25 +54,25 @@ final class Class237_Sub1 extends Class237 {
 			}
 			method2916((byte) 44);
 			aClass98_Sub22_5048.position = 0;
-			aClass98_Sub22_5048.aByteArray3992 = is;
+			aClass98_Sub22_5048.incomingBytes = is;
 			if (i <= 43) {
 				anIntArray5040 = null;
 			}
-			while (aClass98_Sub22_5048.position < (aClass98_Sub22_5048.aByteArray3992).length) {
-				if (aClass98_Sub22_5043.aByteArray3992 == null) {
+			while (aClass98_Sub22_5048.position < (aClass98_Sub22_5048.incomingBytes).length) {
+				if (aClass98_Sub22_5043.incomingBytes == null) {
 					if (aByteArrayArray5041[0] == null) {
-						aClass98_Sub22_5048.aByteArray3992 = null;
+						aClass98_Sub22_5048.incomingBytes = null;
 						return aClass98_Sub22_5048.position;
 					}
-					aClass98_Sub22_5043.aByteArray3992 = aByteArrayArray5041[0];
+					aClass98_Sub22_5043.incomingBytes = aByteArrayArray5041[0];
 				}
-				final int i_4_ = (-aClass98_Sub22_5048.position + (aClass98_Sub22_5048.aByteArray3992).length);
-				final int i_5_ = (-aClass98_Sub22_5043.position + (aClass98_Sub22_5043.aByteArray3992).length);
+				final int i_4_ = (-aClass98_Sub22_5048.position + (aClass98_Sub22_5048.incomingBytes).length);
+				final int i_5_ = (-aClass98_Sub22_5043.position + (aClass98_Sub22_5043.incomingBytes).length);
 				if ((i_4_ ^ 0xffffffff) <= (i_5_ ^ 0xffffffff)) {
 					aClass98_Sub22_5048.method1217(
-							aClass98_Sub22_5043.aByteArray3992, i_5_, -1,
+							aClass98_Sub22_5043.incomingBytes, i_5_, -1,
 							aClass98_Sub22_5043.position);
-					aClass98_Sub22_5043.aByteArray3992 = null;
+					aClass98_Sub22_5043.incomingBytes = null;
 					aClass98_Sub22_5043.position = 0;
 					anInt5045++;
 					for (int i_6_ = 0; i_6_ < 9; i_6_++) {
@@ -80,21 +80,21 @@ final class Class237_Sub1 extends Class237 {
 					}
 					aByteArrayArray5041[9] = null;
 					if (anInt5045 >= anIntArray5040.length) {
-						aClass98_Sub22_5048.aByteArray3992 = null;
+						aClass98_Sub22_5048.incomingBytes = null;
 						return aClass98_Sub22_5048.position;
 					}
 				} else {
 					aClass98_Sub22_5043.method1190(
-							aClass98_Sub22_5048.aByteArray3992, true, i_4_,
+							aClass98_Sub22_5048.incomingBytes, true, i_4_,
 							aClass98_Sub22_5048.position);
-					aClass98_Sub22_5048.aByteArray3992 = null;
+					aClass98_Sub22_5048.incomingBytes = null;
 					return is.length;
 				}
 			}
-			aClass98_Sub22_5048.aByteArray3992 = null;
+			aClass98_Sub22_5048.incomingBytes = null;
 			return is.length;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dha.O(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("dha.O(" + i + ','
 					+ (is != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -124,7 +124,7 @@ final class Class237_Sub1 extends Class237 {
 			return class332;
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("dha.R(" + i + ','
+					.printError(runtimeexception, ("dha.R(" + i + ','
 							+ (class207 != null ? "{...}" : "null") + ','
 							+ i_7_ + ')'));
 		}
@@ -159,7 +159,7 @@ final class Class237_Sub1 extends Class237 {
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "dha.S(" + i
+				throw Class64_Sub27.printError(runtimeexception, "dha.S(" + i
 						+ ')');
 			}
 			break;

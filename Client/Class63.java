@@ -24,7 +24,7 @@ final class Class63 {
 			}
 			return 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ee.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ee.C(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -47,7 +47,7 @@ final class Class63 {
 			} while (i_5_ <= i_6_);
 			return Class198.method2678((byte) 6, i_6_, i_4_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ee.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ee.D(" + i + ','
 					+ i_4_ + ',' + (random != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -88,7 +88,7 @@ final class Class63 {
 			Class151_Sub7.anInt5006++;
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ee.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ee.A(" + i + ','
 					+ i_7_ + ',' + (class228 != null ? "{...}" : "null") + ','
 					+ i_8_ + ',' + i_9_ + ',' + i_10_ + ',' + i_11_ + ')'));
 		}
@@ -105,7 +105,7 @@ final class Class63 {
 			}
 			anIntArray491 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ee.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ee.B(" + i + ')');
 		}
 	}
 
@@ -114,7 +114,7 @@ final class Class63 {
 		try {
 			throw new IllegalStateException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"ee.toString(" + ')');
 		}
 	}
@@ -145,7 +145,7 @@ final class Class63 {
 				Class378.method4005(i_14_, class98_sub18.anInt3945, -1, bool,
 						i_15_);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("ee.E("
+				throw Class64_Sub27.printError(runtimeexception, ("ee.E("
 						+ (class293 != null ? "{...}" : "null") + ',' + bool
 						+ ',' + i + ')'));
 			}

@@ -57,7 +57,7 @@ abstract class Class69 implements Interface2 {
 			return null;
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception,
+					.printError(runtimeexception,
 							("ei.M(" + bool + ','
 									+ (mapbuffer != null ? "{...}" : "null")
 									+ ',' + i + ')'));
@@ -74,7 +74,7 @@ abstract class Class69 implements Interface2 {
 			}
 			return aNativeHeapBuffer3215.getAddress();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ei.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ei.H(" + i + ')');
 		}
 	}
 
@@ -104,7 +104,7 @@ abstract class Class69 implements Interface2 {
 			}
 			return 1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ei.B(" + f + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ei.B(" + f + ','
 					+ f_0_ + ',' + i + ',' + f_1_ + ')'));
 		}
 	}
@@ -141,7 +141,7 @@ abstract class Class69 implements Interface2 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ei.C("
+			throw Class64_Sub27.printError(runtimeexception, ("ei.C("
 					+ (source != null ? "{...}" : "null") + ',' + i + ','
 					+ i_5_ + ')'));
 		}
@@ -158,7 +158,7 @@ abstract class Class69 implements Interface2 {
 				}
 				OpenGL.glBindBufferARB(anInt3212, anInt3219);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ei.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ei.A(" + i
 						+ ')');
 			}
 			break;
@@ -176,7 +176,7 @@ abstract class Class69 implements Interface2 {
 				}
 				method699(25);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ei.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ei.D(" + i
 						+ ')');
 			}
 			break;
@@ -189,7 +189,7 @@ abstract class Class69 implements Interface2 {
 			method72(false);
 			super.finalize();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"ei.finalize(" + ')');
 		}
 	}
@@ -221,7 +221,7 @@ abstract class Class69 implements Interface2 {
 				}
 				anIntArray3222 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ei.G(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ei.G(" + i
 						+ ',' + i_6_ + ')');
 			}
 			break;
@@ -511,7 +511,7 @@ abstract class Class69 implements Interface2 {
 				}
 				method703((byte) -53, null);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ei.L(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "ei.L(" + bool
 						+ ')');
 			}
 			break;
@@ -526,7 +526,7 @@ abstract class Class69 implements Interface2 {
 			}
 			return anInt3218;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ei.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ei.E(" + i + ')');
 		}
 	}
 
@@ -542,7 +542,7 @@ abstract class Class69 implements Interface2 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ei.J(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ei.J(" + i + ')');
 		}
 	}
 
@@ -552,7 +552,7 @@ abstract class Class69 implements Interface2 {
 			aHa_Sub3_Sub2_3217 = var_ha_Sub3_Sub2;
 			anInt3212 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ei.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("ei.<init>("
 					+ (var_ha_Sub3_Sub2 != null ? "{...}" : "null") + ',' + i
 					+ ',' + bool + ')'));
 		}
@@ -586,7 +586,7 @@ abstract class Class69 implements Interface2 {
 			}
 			return bool;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ei.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ei.F(" + i + ','
 					+ (mapbuffer != null ? "{...}" : "null") + ')'));
 		}
 	}

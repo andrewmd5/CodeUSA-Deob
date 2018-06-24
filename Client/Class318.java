@@ -11,7 +11,7 @@ final class Class318 {
 				aClass123_2698 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tk.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "tk.B(" + bool
 					+ ')');
 		}
 	}
@@ -28,7 +28,7 @@ final class Class318 {
 				Class160.method2513((byte) -125, i, i_0_, i_2_, i_3_);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tk.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("tk.C(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ')'));
 		}
 	}
@@ -43,7 +43,7 @@ final class Class318 {
 			}
 			Class151_Sub7.aClass79_5004.method794(108);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tk.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "tk.A(" + i + ')');
 		}
 	}
 }

@@ -27,7 +27,7 @@ class Class246 {
 				Class266.aClass84_1988.method833(0);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pha.HB(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "pha.HB(" + bool
 					+ ')');
 		}
 	}
@@ -40,7 +40,7 @@ class Class246 {
 			aShortArray1869 = null;
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, "pha.JB(" + i + ')');
+					.printError(runtimeexception, "pha.JB(" + i + ')');
 		}
 	}
 
@@ -57,7 +57,7 @@ class Class246 {
 				Class246_Sub3_Sub3_Sub1.aBooleanArray6256[i] = bool;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pha.KB(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "pha.KB(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -72,7 +72,7 @@ class Class246 {
 			}
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, "pha.IB(" + i + ')');
+					.printError(runtimeexception, "pha.IB(" + i + ')');
 		}
 	}
 }

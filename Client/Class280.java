@@ -20,7 +20,7 @@ final class Class280 {
 
 	static final void method3324(Class98_Sub46_Sub8 class98_sub46_sub8, int i) {
 		try {
-			if (!Class246_Sub3_Sub4_Sub2_Sub2.aBoolean6540) {
+			if (!Player.aBoolean6540) {
 				class98_sub46_sub8.method942(87);
 				if (i != -32612)
 					method3329(110);
@@ -65,7 +65,7 @@ final class Class280 {
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("rh.E(" + (class98_sub46_sub8 != null ? "{...}" : "null")
 							+ ',' + i + ')'));
 		}
@@ -98,7 +98,7 @@ final class Class280 {
 			aClass79_2107.method805((long) i, class98_sub46_sub11, (byte) -80);
 			return class98_sub46_sub11;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rh.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "rh.G(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -114,7 +114,7 @@ final class Class280 {
 			}
 			return Long.toString(l);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("rh.A(" + (class348 != null ? "{...}" : "null") + ','
 							+ (is != null ? "{...}" : "null") + ',' + i + ','
 							+ l + ')'));
@@ -150,7 +150,7 @@ final class Class280 {
 							false, 0, i_9_);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("rh.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("rh.D(" + i + ','
 					+ (class97 != null ? "{...}" : "null") + ',' + i_3_ + ')'));
 		}
 	}
@@ -208,7 +208,7 @@ final class Class280 {
 							- ((Class98_Sub42) class98_sub42).anInt4217;
 					if ((i_18_ ^ 0xffffffff) < -1 && (i_16_ ^ 0xffffffff) < -1)
 						i_17_ = i_15_ * (i_16_ - i_18_) / i_16_;
-					Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660.method3034(i_10_
+					Surface.player.method3034(i_10_
 							+ -256);
 					int i_19_ = 8192;
 					int i_20_ = ((((Class98_Sub42) class98_sub42).anInt4229 + ((Class98_Sub42) class98_sub42).anInt4224) / 2 + -i_12_);
@@ -357,7 +357,7 @@ final class Class280 {
 					}
 				} catch (RuntimeException runtimeexception) {
 					throw Class64_Sub27
-							.method667(runtimeexception,
+							.printError(runtimeexception,
 									("rh.F("
 											+ i
 											+ ','
@@ -386,7 +386,7 @@ final class Class280 {
 				method3327(-15, null, (byte) -55);
 			aClass113_2111 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rh.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rh.C(" + i + ')');
 		}
 	}
 
@@ -401,7 +401,7 @@ final class Class280 {
 				PlayerUpdate.aClass79_3411.method794(16);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rh.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rh.B(" + i + ')');
 		}
 	}
 
@@ -422,7 +422,7 @@ final class Class280 {
 					break;
 				((Class280) this).anInt2103 = aClass207_2104.method2761(0, 1);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("rh.<init>("
+				throw Class64_Sub27.printError(runtimeexception, ("rh.<init>("
 						+ i + ',' + (class207 != null ? "{...}" : "null") + ','
 						+ (class207_28_ != null ? "{...}" : "null") + ','
 						+ (interface1 != null ? "{...}" : "null") + ')'));

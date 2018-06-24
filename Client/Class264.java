@@ -26,7 +26,7 @@ final class Class264 {
 			Class98_Sub46.method1525(Class309.aClass309_2586.method3615(
 					Class374.anInt3159, (byte) 25), i ^ ~0x7b);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qi.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qi.C(" + i + ')');
 		}
 	}
 
@@ -39,7 +39,7 @@ final class Class264 {
 				aClass79_1968.method794(i + 58);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qi.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qi.D(" + i + ')');
 		}
 	}
 
@@ -66,7 +66,7 @@ final class Class264 {
 			}
 			return class98_sub46_sub12;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qi.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "qi.E(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -80,7 +80,7 @@ final class Class264 {
 				}
 				anInt1971 = 51;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "qi.B(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "qi.B(" + bool
 						+ ')');
 			}
 			break;
@@ -93,7 +93,7 @@ final class Class264 {
 				aClass79_1968.method806((byte) -115);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qi.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qi.A(" + i + ')');
 		}
 	}
 
@@ -108,7 +108,7 @@ final class Class264 {
 				}
 				aClass207_1970 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "qi.F(" + i
+				throw Class64_Sub27.printError(runtimeexception, "qi.F(" + i
 						+ ',' + i_3_ + ')');
 			}
 			break;
@@ -120,7 +120,7 @@ final class Class264 {
 			aClass207_1970 = class207;
 			aClass207_1970.method2761(0, 26);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qi.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("qi.<init>("
 					+ (class279 != null ? "{...}" : "null") + ',' + i + ','
 					+ (class207 != null ? "{...}" : "null") + ')'));
 		}

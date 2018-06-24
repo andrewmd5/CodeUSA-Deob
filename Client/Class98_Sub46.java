@@ -5,7 +5,7 @@ import jaggl.OpenGL;
 
 import java.util.Date;
 
-class Class98_Sub46 extends Class98 {
+class Class98_Sub46 extends Node {
 	long aLong4259;
 	static int anInt4260 = 0;
 	static int anInt4261;
@@ -24,7 +24,7 @@ class Class98_Sub46 extends Class98 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tm.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "tm.H(" + i + ')');
 		}
 	}
 
@@ -35,7 +35,7 @@ class Class98_Sub46 extends Class98 {
 			}
 			aClass279_4263 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tm.L(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "tm.L(" + i + ')');
 		}
 	}
 
@@ -51,7 +51,7 @@ class Class98_Sub46 extends Class98 {
 				aClass98_Sub46_4265 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tm.J(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "tm.J(" + i + ')');
 		}
 	}
 
@@ -92,7 +92,7 @@ class Class98_Sub46 extends Class98 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tm.I("
+			throw Class64_Sub27.printError(runtimeexception, ("tm.I("
 					+ (string != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -134,7 +134,7 @@ class Class98_Sub46 extends Class98 {
 			}
 			return new Class230(var_ha_Sub3_Sub2, l, i_7_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tm.K("
+			throw Class64_Sub27.printError(runtimeexception, ("tm.K("
 					+ (is != null ? "{...}" : "null") + ','
 					+ (var_ha_Sub3_Sub2 != null ? "{...}" : "null") + ',' + i
 					+ ',' + i_7_ + ')'));

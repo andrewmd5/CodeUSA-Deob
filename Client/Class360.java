@@ -432,7 +432,7 @@ final class Class360 {
 							.method54(
 									((ByteBuffer) aClass98_Sub22_Sub2_3063).position,
 									7896,
-									(((ByteBuffer) aClass98_Sub22_Sub2_3063).aByteArray3992),
+									(((ByteBuffer) aClass98_Sub22_Sub2_3063).incomingBytes),
 									24);
 					var_ha_Sub1.method1868(aClass104_3068, null,
 							aClass104_3067, aClass104_3069, 0);
@@ -443,7 +443,7 @@ final class Class360 {
 									false, 0);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("vq.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("vq.B(" + i
 						+ ',' + (var_ha_Sub1 != null ? "{...}" : "null") + ','
 						+ i_0_ + ')'));
 			}
@@ -459,7 +459,7 @@ final class Class360 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vq.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vq.E(" + i + ','
 					+ i_61_ + ',' + i_62_ + ')'));
 		}
 	}
@@ -570,7 +570,7 @@ final class Class360 {
 				method3907(var_ha_Sub1, -124);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("vq.J(" + (class242 != null ? "{...}" : "null") + ',' + i
 							+ ',' + i_64_ + ','
 							+ (var_ha_Sub1 != null ? "{...}" : "null") + ')'));
@@ -591,7 +591,7 @@ final class Class360 {
 				}
 				var_ha_Sub1.xa(Class49.aFloat416);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("vq.C(" + (var_ha_Sub1 != null ? "{...}" : "null")
 								+ ',' + i + ')'));
 			}
@@ -612,7 +612,7 @@ final class Class360 {
 			OpenGL.glNormal3f(0.0F, -1.0F, 0.0F);
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("vq.D("
+					.printError(runtimeexception, ("vq.D("
 							+ (var_ha_Sub1 != null ? "{...}" : "null") + ','
 							+ i + ')'));
 		}
@@ -628,7 +628,7 @@ final class Class360 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vq.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "vq.H(" + i + ','
 					+ i_81_ + ')');
 		}
 	}
@@ -648,12 +648,12 @@ final class Class360 {
 					.method539(2)) {
 				if ((class98_sub18.anInt3945 ^ 0xffffffff) == (i ^ 0xffffffff)) {
 					return Class159.method2509(
-							(int) (((Class98) class98_sub18).aLong832), -9820);
+							(int) (((Node) class98_sub18).aLong832), -9820);
 				}
 			}
 			return null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vq.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("vq.A(" + bool
 					+ ',' + (class293 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -669,7 +669,7 @@ final class Class360 {
 			var_ha_Sub1.method1875((byte) -125, false);
 			OpenGL.glNormal3f(0.0F, -1.0F, 0.0F);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vq.G("
+			throw Class64_Sub27.printError(runtimeexception, ("vq.G("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + bool
 					+ ',' + i + ')'));
 		}
@@ -683,7 +683,7 @@ final class Class360 {
 			aClass104_3068 = new Class104(anInterface16_3066, 5121, 4, 20);
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("vq.F("
+					.printError(runtimeexception, ("vq.F("
 							+ (var_ha_Sub1 != null ? "{...}" : "null") + ','
 							+ i + ')'));
 		}
@@ -698,7 +698,7 @@ final class Class360 {
 				}
 				aLong3070 = 55L;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "vq.I(" + i
+				throw Class64_Sub27.printError(runtimeexception, "vq.I(" + i
 						+ ')');
 			}
 			break;

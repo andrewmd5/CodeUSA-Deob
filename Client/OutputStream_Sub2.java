@@ -15,7 +15,7 @@ final class OutputStream_Sub2 extends OutputStream {
 		try {
 			throw new IOException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "taa.write(" + i
+			throw Class64_Sub27.printError(runtimeexception, "taa.write(" + i
 					+ ')');
 		}
 	}
@@ -28,7 +28,7 @@ final class OutputStream_Sub2 extends OutputStream {
 			}
 			aByteArrayArrayArray41 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "taa.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "taa.A(" + i + ')');
 		}
 	}
 }

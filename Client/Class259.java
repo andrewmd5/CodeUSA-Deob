@@ -18,7 +18,7 @@ final class Class259 {
 				anIntArray1957 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qca.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "qca.A(" + bool
 					+ ')');
 		}
 	}

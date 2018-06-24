@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub50 extends Class98 {
+final class Class98_Sub50 extends Node {
 	static Class332 aClass332_4287;
 	long aLong4288;
 	static int anInt4289;
@@ -24,7 +24,7 @@ final class Class98_Sub50 extends Class98 {
 			i_0_ += i_0_ >>> -194578672;
 			return i_0_ & 0xff;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wca.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "wca.D(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -46,7 +46,7 @@ final class Class98_Sub50 extends Class98 {
 						Class98_Sub10_Sub38.anInt5753, i_3_);
 				Class48_Sub2_Sub1.method471(i, (byte) 59, i_4_, i_2_, i_3_);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("wca.C(" + i + ',' + i_1_ + ',' + i_2_ + ',' + i_3_
 								+ ',' + i_4_ + ')'));
 			}
@@ -109,7 +109,7 @@ final class Class98_Sub50 extends Class98 {
 				Class33.aBoolean316 = true;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wca.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wca.A(" + i + ')');
 		}
 	}
 
@@ -123,7 +123,7 @@ final class Class98_Sub50 extends Class98 {
 			aClass171_4290 = null;
 			aClass97Array4293 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wca.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wca.B(" + i + ')');
 		}
 	}
 
@@ -131,7 +131,7 @@ final class Class98_Sub50 extends Class98 {
 		try {
 			aLong4288 = l;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wca.<init>(" + l
+			throw Class64_Sub27.printError(runtimeexception, "wca.<init>(" + l
 					+ ')');
 		}
 	}

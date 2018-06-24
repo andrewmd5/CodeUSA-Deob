@@ -33,7 +33,7 @@ final class Class261 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qga.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("qga.B(" + i + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_0_ + ',' + i_1_
 					+ ',' + i_2_ + ',' + i_3_ + ')'));
 		}
@@ -54,7 +54,7 @@ final class Class261 {
 			}
 			datainputstream.close();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qga.C("
+			throw Class64_Sub27.printError(runtimeexception, ("qga.C("
 					+ (is != null ? "{...}" : "null") + ',' + i + ',' + i_4_
 					+ ',' + (file != null ? "{...}" : "null") + ')'));
 		}
@@ -207,7 +207,7 @@ final class Class261 {
 				Class98_Sub43.method1481(2);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qga.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qga.A(" + i + ')');
 		}
 	}
 }

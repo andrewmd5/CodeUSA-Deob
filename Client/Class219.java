@@ -22,7 +22,7 @@ final class Class219 {
 			aClass361_1642 = null;
 			aClass171_1640 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oaa.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "oaa.B(" + bool
 					+ ')');
 		}
 	}
@@ -40,7 +40,7 @@ final class Class219 {
 			anInt1637 = class219_0_.anInt1637;
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("oaa.A("
+					.printError(runtimeexception, ("oaa.A("
 							+ (class219_0_ != null ? "{...}" : "null") + ','
 							+ i + ')'));
 		}
@@ -54,7 +54,7 @@ final class Class219 {
 			return new Class219(anInt1643, anInt1637, anInt1645, anInt1638,
 					anInt1644, anInt1639);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oaa.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "oaa.C(" + i + ')');
 		}
 	}
 
@@ -62,7 +62,7 @@ final class Class219 {
 		try {
 			anInt1643 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oaa.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "oaa.<init>(" + i
 					+ ')');
 		}
 	}
@@ -77,7 +77,7 @@ final class Class219 {
 			anInt1645 = i_2_;
 			anInt1637 = i_1_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("oaa.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("oaa.<init>(" + i
 					+ ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ',' + i_4_ + ','
 					+ i_5_ + ')'));
 		}

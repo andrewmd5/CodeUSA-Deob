@@ -21,7 +21,7 @@ final class Class267 {
 				}
 				aClass218_2002 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "qm.H(" + i
+				throw Class64_Sub27.printError(runtimeexception, "qm.H(" + i
 						+ ')');
 			}
 			break;
@@ -44,7 +44,7 @@ final class Class267 {
 			}
 			return i_2_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qm.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "qm.D(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -63,7 +63,7 @@ final class Class267 {
 			stringbuffer.append("]");
 			return stringbuffer.toString();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"qm.toString(" + ')');
 		}
 	}
@@ -78,7 +78,7 @@ final class Class267 {
 					aStringArray1996.length);
 			aStringArray1996 = strings;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qm.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "qm.F(" + i + ','
 					+ i_3_ + ')');
 		}
 	}
@@ -630,7 +630,7 @@ final class Class267 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("qm.A(" + i + ',' + i_4_ + ',' + i_5_ + ',' + i_6_ + ','
 							+ i_7_ + ',' + i_8_ + ',' + i_9_ + ',' + i_10_
 							+ ',' + i_11_ + ',' + i_12_ + ')'));
@@ -646,7 +646,7 @@ final class Class267 {
 			}
 			return strings;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qm.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qm.C(" + i + ')');
 		}
 	}
 
@@ -659,7 +659,7 @@ final class Class267 {
 				}
 				method3246(null, -34, -116);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("qm.E("
+				throw Class64_Sub27.printError(runtimeexception, ("qm.E("
 						+ (string != null ? "{...}" : "null") + ',' + i + ')'));
 			}
 			break;
@@ -679,7 +679,7 @@ final class Class267 {
 				aStringArray1996[i] = string;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qm.G("
+			throw Class64_Sub27.printError(runtimeexception, ("qm.G("
 					+ (string != null ? "{...}" : "null") + ',' + i + ','
 					+ i_26_ + ')'));
 		}
@@ -710,7 +710,7 @@ final class Class267 {
 				}
 				method3240(-70);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("qm.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("qm.B(" + i
 						+ ',' + i_27_ + ',' + i_28_ + ',' + i_29_ + ',' + i_30_
 						+ ',' + i_31_ + ',' + i_32_ + ')'));
 			}
@@ -723,7 +723,7 @@ final class Class267 {
 			anInt1999 = i;
 			aBoolean2001 = bool;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qm.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "qm.<init>(" + i
 					+ ',' + bool + ')');
 		}
 	}

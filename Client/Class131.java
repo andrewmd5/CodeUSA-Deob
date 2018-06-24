@@ -36,7 +36,7 @@ final class Class131 {
 			aString1042 = string_5_;
 			aString1033 = string_0_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("it.B(" + i + ',' + (string != null ? "{...}" : "null")
 							+ ',' + (string_0_ != null ? "{...}" : "null")
 							+ ',' + (string_1_ != null ? "{...}" : "null")
@@ -57,7 +57,7 @@ final class Class131 {
 				}
 				anApplet1038 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "it.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "it.A(" + i
 						+ ')');
 			}
 			break;
@@ -79,7 +79,7 @@ final class Class131 {
 			aString1034 = string_8_;
 			anInt1035 = i_7_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("it.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("it.<init>(" + i
 					+ ',' + i_7_ + ',' + (string != null ? "{...}" : "null")
 					+ ',' + (string_8_ != null ? "{...}" : "null") + ','
 					+ (string_9_ != null ? "{...}" : "null") + ','

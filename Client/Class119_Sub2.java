@@ -31,7 +31,7 @@ final class Class119_Sub2 extends Class119 {
 				return;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lc.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("lc.A(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ',' + i_4_
 					+ ',' + i_5_ + ',' + i_6_ + ')'));
 		}
@@ -45,7 +45,7 @@ final class Class119_Sub2 extends Class119 {
 			}
 			anIntArray4727 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lc.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "lc.D(" + i + ')');
 		}
 	}
 
@@ -59,7 +59,7 @@ final class Class119_Sub2 extends Class119 {
 			Class119.method2177(((Class119) this).anInt988, i_13_, -80, i_11_,
 					i_10_, i_12_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lc.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("lc.B(" + i + ','
 					+ i_7_ + ',' + i_8_ + ')'));
 		}
 	}
@@ -75,7 +75,7 @@ final class Class119_Sub2 extends Class119 {
 					.method632(((Class119) this).anInt985, i_18_, (byte) -51,
 							((Class119) this).anInt987, i_17_, i_19_, i_20_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lc.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("lc.E(" + i + ','
 					+ i_14_ + ',' + i_15_ + ')'));
 		}
 	}
@@ -93,7 +93,7 @@ final class Class119_Sub2 extends Class119 {
 						((Class119) this).anInt987, i_25_);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lc.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("lc.C(" + i + ','
 					+ i_21_ + ',' + i_22_ + ')'));
 		}
 	}
@@ -107,7 +107,7 @@ final class Class119_Sub2 extends Class119 {
 			anInt4722 = i_28_;
 			anInt4724 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lc.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("lc.<init>(" + i
 					+ ',' + i_27_ + ',' + i_28_ + ',' + i_29_ + ',' + i_30_
 					+ ',' + i_31_ + ',' + i_32_ + ')'));
 		}

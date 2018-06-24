@@ -170,7 +170,7 @@ final class Class163 implements Interface21 {
 					Class246_Sub3_Sub4_Sub4.anInt6488, Class104.anInt897
 							- -i_1_);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("kr.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("kr.D(" + i + ','
 					+ (var_ha != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -181,7 +181,7 @@ final class Class163 implements Interface21 {
 				anInt3517 = 72;
 			return i & 0x7f;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kr.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "kr.C(" + i + ','
 					+ i_20_ + ')');
 		}
 	}
@@ -191,7 +191,7 @@ final class Class163 implements Interface21 {
 			int i_21_ = -94 / ((i - -60) / 43);
 			aClass98_Sub39Array3516 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kr.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kr.B(" + i + ')');
 		}
 	}
 
@@ -201,7 +201,7 @@ final class Class163 implements Interface21 {
 				return null;
 			return Class100.aClass113_840;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kr.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kr.A(" + i + ')');
 		}
 	}
 
@@ -209,7 +209,7 @@ final class Class163 implements Interface21 {
 		try {
 			((Class163) this).anInt3515 = i;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kr.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "kr.<init>(" + i
 					+ ')');
 		}
 	}

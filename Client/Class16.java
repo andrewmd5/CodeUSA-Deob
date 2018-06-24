@@ -26,7 +26,7 @@ final class Class16 {
 				}
 				aClass58_191 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "bca.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "bca.A(" + i
 						+ ')');
 			}
 			break;
@@ -43,7 +43,7 @@ final class Class16 {
 			aClass148_189.method2422((byte) 47);
 			aClass148_189 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bca.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bca.B(" + i + ')');
 		}
 	}
 
@@ -83,7 +83,7 @@ final class Class16 {
 			aClass98_Sub48Array195[i_2_] = Class132.aClass98_Sub48_1048;
 			return anIntArrayArray194[i_2_];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bca.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "bca.C(" + i + ','
 					+ i_2_ + ')');
 		}
 	}
@@ -99,7 +99,7 @@ final class Class16 {
 			}
 			return anIntArrayArray194;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bca.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bca.D(" + i + ')');
 		}
 	}
 
@@ -112,7 +112,7 @@ final class Class16 {
 			anIntArrayArray194 = new int[anInt188][i_7_];
 			aClass98_Sub48Array195 = new Class98_Sub48[anInt192];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bca.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("bca.<init>(" + i
 					+ ',' + i_6_ + ',' + i_7_ + ')'));
 		}
 	}

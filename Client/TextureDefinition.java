@@ -49,7 +49,7 @@ final class TextureDefinition {
 			}
 			return i_1_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pba.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pba.A(" + i + ','
 					+ (class98_sub22_sub1 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -63,7 +63,7 @@ final class TextureDefinition {
 			anIntArray1836 = null;
 			aClass43_1828 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pba.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pba.C(" + i + ')');
 		}
 	}
 
@@ -77,7 +77,7 @@ final class TextureDefinition {
 						.method766(-99, i_3_, i_2_)) & Class93.method901(i_3_,
 					i_2_, -122));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pba.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pba.D(" + i + ','
 					+ i_2_ + ',' + i_3_ + ')'));
 		}
 	}
@@ -97,7 +97,7 @@ final class TextureDefinition {
 				}
 				method2920(65);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "pba.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "pba.B(" + i
 						+ ')');
 			}
 			break;

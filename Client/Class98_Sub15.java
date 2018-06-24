@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub15 extends Class98 {
+final class Class98_Sub15 extends Node {
 	static int anInt3915;
 	static float[] aFloatArray3916 = new float[4];
 	String aString3917;
@@ -16,7 +16,7 @@ final class Class98_Sub15 extends Class98 {
 			}
 			Class64_Sub13.method604(0, bool, false, class207, i_1_, i, i_2_, l);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gia.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gia.B(" + i + ','
 					+ i_0_ + ',' + bool + ',' + i_1_ + ','
 					+ (class207 != null ? "{...}" : "null") + ',' + i_2_ + ','
 					+ l + ')'));
@@ -27,7 +27,7 @@ final class Class98_Sub15 extends Class98 {
 		try {
 			aFloatArray3916 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gia.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gia.A(" + i + ')');
 		}
 	}
 
@@ -39,7 +39,7 @@ final class Class98_Sub15 extends Class98 {
 		try {
 			aString3917 = string;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gia.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "gia.<init>("
 					+ (string != null ? "{...}" : "null") + ')');
 		}
 	}

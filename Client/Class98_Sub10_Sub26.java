@@ -21,7 +21,7 @@ final class Class98_Sub10_Sub26 extends Class98_Sub10 {
 			aClass98_Sub46_Sub16Array5690 = null;
 			aClass105_5684 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oo.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "oo.B(" + i + ')');
 		}
 	}
 
@@ -38,7 +38,7 @@ final class Class98_Sub10_Sub26 extends Class98_Sub10 {
 							anInt5682, random);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "oo.E(" + i
+				throw Class64_Sub27.printError(runtimeexception, "oo.E(" + i
 						+ ')');
 			}
 			break;
@@ -56,7 +56,7 @@ final class Class98_Sub10_Sub26 extends Class98_Sub10 {
 				}
 				method1084(false, null, 81);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "oo.I(" + i
+				throw Class64_Sub27.printError(runtimeexception, "oo.I(" + i
 						+ ')');
 			}
 			break;
@@ -206,7 +206,7 @@ final class Class98_Sub10_Sub26 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oo.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "oo.G(" + i + ','
 					+ i_2_ + ')');
 		}
 	}
@@ -271,7 +271,7 @@ final class Class98_Sub10_Sub26 extends Class98_Sub10 {
 				return;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("oo.A(" + i + ','
 							+ (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i_19_ + ')'));
@@ -296,7 +296,7 @@ final class Class98_Sub10_Sub26 extends Class98_Sub10 {
 				final byte[] is = new byte[i_21_];
 				class98_sub22.position += (Class146_Sub3.aClass213_4949
 						.method2782(class98_sub22.position, is, -69, i_21_,
-								class98_sub22.aByteArray3992, 0));
+								class98_sub22.incomingBytes, 0));
 				final String string = Class98_Sub46_Sub6.method1546(i_21_, 0,
 						(byte) -101, is);
 				if (bool != false) {
@@ -307,7 +307,7 @@ final class Class98_Sub10_Sub26 extends Class98_Sub10 {
 				return "Keebab";
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("oo.D(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("oo.D(" + bool
 					+ ',' + (class98_sub22 != null ? "{...}" : "null") + ','
 					+ i + ')'));
 		}

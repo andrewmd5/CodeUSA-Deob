@@ -20,12 +20,12 @@ final class Class284_Sub1_Sub2 extends Class284_Sub1 {
 			}
 			aClass171_6191 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tb.K(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "tb.K(" + i + ')');
 		}
 	}
 
 	static final void method3370(final int i, final int i_0_,
-			final Class246_Sub3_Sub4_Sub2 class246_sub3_sub4_sub2,
+			final Entity class246_sub3_sub4_sub2,
 			final int i_1_, final int i_2_) {
 		try {
 			final Class294 class294 = class246_sub3_sub4_sub2.method3039(1);
@@ -154,7 +154,7 @@ final class Class284_Sub1_Sub2 extends Class284_Sub1 {
 				class246_sub3_sub4_sub2.aBoolean6359 = false;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tb.L(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("tb.L(" + i + ','
 					+ i_0_ + ','
 					+ (class246_sub3_sub4_sub2 != null ? "{...}" : "null")
 					+ ',' + i_1_ + ',' + i_2_ + ')'));
@@ -170,7 +170,7 @@ final class Class284_Sub1_Sub2 extends Class284_Sub1 {
 				}
 				aClass171_6191 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "tb.N(" + i
+				throw Class64_Sub27.printError(runtimeexception, "tb.N(" + i
 						+ ')');
 			}
 			break;
@@ -187,7 +187,7 @@ final class Class284_Sub1_Sub2 extends Class284_Sub1 {
 			method3361((byte) -45, i_6_, i, i_5_);
 			return aByteArray6194;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tb.J(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("tb.J(" + bool
 					+ ',' + i + ',' + i_5_ + ',' + i_6_ + ')'));
 		}
 	}
@@ -205,7 +205,7 @@ final class Class284_Sub1_Sub2 extends Class284_Sub1 {
 				}
 				aClass171_6191 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("tb.M(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("tb.M(" + i
 						+ ',' + i_7_ + ',' + i_8_ + ')'));
 			}
 			break;
@@ -223,7 +223,7 @@ final class Class284_Sub1_Sub2 extends Class284_Sub1 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tb.O(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("tb.O(" + i + ','
 					+ i_10_ + ',' + i_11_ + ')'));
 		}
 	}

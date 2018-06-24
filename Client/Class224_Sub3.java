@@ -16,7 +16,7 @@ class Class224_Sub3 extends Class224 {
 				}
 				aClass79_5039 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "w.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "w.B(" + i
 						+ ')');
 			}
 			break;

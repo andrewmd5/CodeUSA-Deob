@@ -1,3 +1,7 @@
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
 /* Class302 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
@@ -53,17 +57,22 @@ final class GameObjectDefinitionLoader {
 			synchronized (aClass79_2519) {
 				aClass79_2519.method805((long) i, class352, (byte) -80);
 			}
-			/*
-			 * try { BufferedWriter writer = new BufferedWriter(new
-			 * FileWriter("object_defs.txt", true)); Class352 def = (Class352)
-			 * class352; writer.write(def.id + ", " + def.name + ", " +
-			 * def.actionCount + ", " + def.walkable + ", " + def.clippingFlag +
-			 * ", " + def.sizeX + ", " + def.sizeY); writer.newLine();
-			 * writer.flush(); } catch (IOException e) { e.printStackTrace(); }
-			 */
+			
+			if (GameClient.DumpInfo) {
+				/*try {
+					BufferedWriter writer = new BufferedWriter(new FileWriter("object_defs.txt", true));
+					GameObjectDefinition def = (GameObjectDefinition) class352;
+					writer.write(def.id + ", " + def.name + ", " + def.actionCount + ", " + def.walkable + ", "+ def.clippingFlag + ", " + def.sizeX + ", " + def.sizeY);
+					writer.newLine();
+					writer.flush();
+					
+				} catch (IOException e) {
+					e.printStackTrace();
+				}*/
+			}
 			return class352;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sia.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "sia.B(" + i + ','
 					+ 0 + ')');
 		}
 	}
@@ -88,7 +97,7 @@ final class GameObjectDefinitionLoader {
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sia.J(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sia.J(" + i + ')');
 		}
 	}
 
@@ -112,7 +121,7 @@ final class GameObjectDefinitionLoader {
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sia.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "sia.A(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -136,7 +145,7 @@ final class GameObjectDefinitionLoader {
 						.method794(123);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sia.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sia.G(" + i + ')');
 		}
 	}
 
@@ -146,7 +155,7 @@ final class GameObjectDefinitionLoader {
 				anInt2523 = -114;
 			aClass79_2519 = new Class79(i_3_);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sia.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "sia.E(" + i + ','
 					+ i_3_ + ')');
 		}
 	}
@@ -160,7 +169,7 @@ final class GameObjectDefinitionLoader {
 				method3551(92);
 			anIntArray2517 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sia.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sia.C(" + i + ')');
 		}
 	}
 
@@ -175,7 +184,7 @@ final class GameObjectDefinitionLoader {
 					((GameObjectDefinitionLoader) this).aClass79_2525 = null;
 				}
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "sia.H(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "sia.H(" + bool
 						+ ',' + i + ')');
 			}
 			break;
@@ -194,7 +203,7 @@ final class GameObjectDefinitionLoader {
 				anInt2524 = 55;
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sia.I(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "sia.I(" + i + ','
 					+ i_4_ + ')');
 		}
 	}
@@ -215,7 +224,7 @@ final class GameObjectDefinitionLoader {
 				((GameObjectDefinitionLoader) this).aClass79_2527.method794(14);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sia.D(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "sia.D(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -228,7 +237,7 @@ final class GameObjectDefinitionLoader {
 				method3549((byte) 123);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sia.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "sia.F(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -246,7 +255,7 @@ final class GameObjectDefinitionLoader {
 				aClass207_2515.method2761(0, i_8_);
 			} catch (RuntimeException runtimeexception) {
 				throw Class64_Sub27
-						.method667(runtimeexception,
+						.printError(runtimeexception,
 								("sia.<init>("
 										+ (class279 != null ? "{...}" : "null")
 										+ ','

@@ -16,7 +16,7 @@ final class Class224_Sub3_Sub1 extends Class224_Sub3 {
 			aClass98_Sub22Array6146 = null;
 			aClass298_6145 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nv.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "nv.A(" + i + ')');
 		}
 	}
 

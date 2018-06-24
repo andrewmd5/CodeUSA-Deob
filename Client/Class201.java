@@ -30,9 +30,9 @@ final class Class201 {
 							i_4_ = (0x3fff & (int) -Class98_Sub22_Sub2.aFloat5794);
 						} else {
 							i_2_ = -(16 * Class151.anInt1213) + 4096;
-							i_3_ = (((Class246_Sub3) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt5084);
+							i_3_ = (((Class246_Sub3) Surface.player).anInt5084);
 							i_4_ = 0x3fff & (Class204.anInt1553 + (int) -(Class98_Sub22_Sub2.aFloat5794));
-							i_5_ = (((Class246_Sub3) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt5079);
+							i_5_ = (((Class246_Sub3) Surface.player).anInt5079);
 						}
 						final int i_6_ = (-(2 * (-104 + Class165.anInt1276))
 								+ i_3_ / 128 + 48);
@@ -75,13 +75,13 @@ final class Class201 {
 									i_1_, var_aa, var_ha, -2040004466,
 									class293, i_0_, i_15_);
 						}
-						for (Class98_Sub45 class98_sub45 = ((Class98_Sub45) Class146.aClass377_1180
-								.method3998(97)); class98_sub45 != null; class98_sub45 = ((Class98_Sub45) Class146.aClass377_1180
+						for (Class98_Sub45 class98_sub45 = ((Class98_Sub45) AbstractModel.aClass377_1180
+								.method3998(97)); class98_sub45 != null; class98_sub45 = ((Class98_Sub45) AbstractModel.aClass377_1180
 								.method3995(-1))) {
-							final int i_16_ = (int) (0x3L & (((Class98) class98_sub45).aLong832 >> 1749334492));
+							final int i_16_ = (int) (0x3L & (((Node) class98_sub45).aLong832 >> 1749334492));
 							if ((i_16_ ^ 0xffffffff) == (Canvas_Sub1.anInt26 ^ 0xffffffff)) {
-								final int i_17_ = ((int) (0x3fffL & (((Class98) class98_sub45).aLong832)) + -Class272.anInt2038);
-								final int i_18_ = ((int) (0x3fffL & (((Class98) class98_sub45).aLong832) >> 65890382) + -aa_Sub2.anInt3562);
+								final int i_17_ = ((int) (0x3fffL & (((Node) class98_sub45).aLong832)) + -Class272.anInt2038);
+								final int i_18_ = ((int) (0x3fffL & (((Node) class98_sub45).aLong832) >> 65890382) + -aa_Sub2.anInt3562);
 								final int i_19_ = -(i_3_ / 128)
 										+ (2 + 4 * i_17_);
 								final int i_20_ = -(i_5_ / 128) + 2 + 4 * i_18_;
@@ -98,7 +98,7 @@ final class Class201 {
 								final Class246_Sub3_Sub4_Sub2_Sub1 class246_sub3_sub4_sub2_sub1 = (class98_sub39.aClass246_Sub3_Sub4_Sub2_Sub1_4187);
 								if (class246_sub3_sub4_sub2_sub1
 										.method3052((byte) 106)
-										&& (((((Class246_Sub3) class246_sub3_sub4_sub2_sub1).aByte5088) ^ 0xffffffff) == ((((Class246_Sub3) (Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660)).aByte5088) ^ 0xffffffff))) {
+										&& (((((Class246_Sub3) class246_sub3_sub4_sub2_sub1).aByte5088) ^ 0xffffffff) == ((((Class246_Sub3) (Surface.player)).aByte5088) ^ 0xffffffff))) {
 									NPC class141 = (class246_sub3_sub4_sub2_sub1.aClass141_6504);
 									if (class141 != null
 											&& (class141.anIntArray1109) != null) {
@@ -135,18 +135,18 @@ final class Class201 {
 						final int i_24_ = Class2.anInt71;
 						final int[] is = Class319.anIntArray2705;
 						for (int i_25_ = 0; (i_25_ ^ 0xffffffff) > (i_24_ ^ 0xffffffff); i_25_++) {
-							final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[is[i_25_]]);
+							final Player class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[is[i_25_]]);
 							if (class246_sub3_sub4_sub2_sub2 != null
 									&& class246_sub3_sub4_sub2_sub2
 											.method3055((byte) 106)
-									&& !class246_sub3_sub4_sub2_sub2.aBoolean6523
-									&& (class246_sub3_sub4_sub2_sub2 != (Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660))
-									&& (((((Class246_Sub3) (Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660)).aByte5088) ^ 0xffffffff) == ((((Class246_Sub3) class246_sub3_sub4_sub2_sub2).aByte5088) ^ 0xffffffff))) {
+									&& !class246_sub3_sub4_sub2_sub2.invisible
+									&& (class246_sub3_sub4_sub2_sub2 != (Surface.player))
+									&& (((((Class246_Sub3) (Surface.player)).aByte5088) ^ 0xffffffff) == ((((Class246_Sub3) class246_sub3_sub4_sub2_sub2).aByte5088) ^ 0xffffffff))) {
 								final int i_26_ = (-(i_3_ / 128) + (((Class246_Sub3) class246_sub3_sub4_sub2_sub2).anInt5084) / 128);
 								final int i_27_ = (-(i_5_ / 128) + (((Class246_Sub3) class246_sub3_sub4_sub2_sub2).anInt5079) / 128);
 								boolean bool = false;
 								for (int i_28_ = 0; ((Class314.anInt2692 ^ 0xffffffff) < (i_28_ ^ 0xffffffff)); i_28_++) {
-									if ((class246_sub3_sub4_sub2_sub2.aString6537
+									if ((class246_sub3_sub4_sub2_sub2.name2
 											.equals(Class98_Sub25.aStringArray4026[i_28_]))
 											&& (Class98_Sub26.anIntArray4030[i_28_] ^ 0xffffffff) != -1) {
 										bool = true;
@@ -155,16 +155,16 @@ final class Class201 {
 								}
 								boolean bool_29_ = false;
 								for (int i_30_ = 0; Class32.anInt308 > i_30_; i_30_++) {
-									if (class246_sub3_sub4_sub2_sub2.aString6537
+									if (class246_sub3_sub4_sub2_sub2.name2
 											.equals(Class374.aClass147Array3157[i_30_].aString1186)) {
 										bool_29_ = true;
 										break;
 									}
 								}
 								boolean bool_31_ = false;
-								if (((Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt6528) != 0
+								if (((Surface.player).anInt6528) != 0
 										&& ((class246_sub3_sub4_sub2_sub2.anInt6528) ^ 0xffffffff) != -1
-										&& ((((Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt6528) ^ 0xffffffff) == ((class246_sub3_sub4_sub2_sub2.anInt6528) ^ 0xffffffff))) {
+										&& ((((Surface.player).anInt6528) ^ 0xffffffff) == ((class246_sub3_sub4_sub2_sub2.anInt6528) ^ 0xffffffff))) {
 									bool_31_ = true;
 								}
 								if (class246_sub3_sub4_sub2_sub2.aBoolean6534) {
@@ -226,7 +226,7 @@ final class Class201 {
 								if (class36.anInt346 == 10
 										&& (class36.anInt345 ^ 0xffffffff) <= -1
 										&& (class36.anInt345 < (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030).length)) {
-									final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[class36.anInt345]);
+									final Player class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[class36.anInt345]);
 									if (class246_sub3_sub4_sub2_sub2 != null) {
 										final int i_37_ = ((((Class246_Sub3) class246_sub3_sub4_sub2_sub2).anInt5084) / 128 - i_3_ / 128);
 										final int i_38_ = (-(i_5_ / 128) + (((Class246_Sub3) class246_sub3_sub4_sub2_sub2).anInt5079) / 128);
@@ -240,9 +240,9 @@ final class Class201 {
 						}
 						if ((Class98_Sub46_Sub20_Sub2.anInt6319 ^ 0xffffffff) != -5) {
 							if ((Class269.anInt2024 ^ 0xffffffff) != -1) {
-								final int i_39_ = (-(i_3_ / 128) + 2 + (4 * Class269.anInt2024 + (Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660
+								final int i_39_ = (-(i_3_ / 128) + 2 + (4 * Class269.anInt2024 + (Surface.player
 										.method3034(0) + -1) * 2));
-								final int i_40_ = (Class246_Sub3_Sub1_Sub2.anInt6251 * 4 + (2 - i_5_ / 128 - -(2 * (Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660
+								final int i_40_ = (Class246_Sub3_Sub1_Sub2.anInt6251 * 4 + (2 - i_5_ / 128 - -(2 * (Surface.player
 										.method3034(i ^ 0x4) - 1))));
 								Class4.method173(
 										i_1_,
@@ -255,7 +255,7 @@ final class Class201 {
 										(Class340.aClass332Array2848[(Class365.aBoolean3110 ? 1
 												: 0)]));
 							}
-							if (!Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660.aBoolean6523) {
+							if (!Surface.player.invisible) {
 								var_ha.method1760(3, 3, (-1
 										+ class293.anInt2258 / 2 + i_1_), -1,
 										(byte) -66,
@@ -269,7 +269,7 @@ final class Class201 {
 					anInt1545 = 36;
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("nda.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("nda.B(" + i
 						+ ',' + (class293 != null ? "{...}" : "null") + ','
 						+ (var_ha != null ? "{...}" : "null") + ',' + i_0_
 						+ ',' + i_1_ + ')'));
@@ -290,7 +290,7 @@ final class Class201 {
 				Class265.aHa1974.f(i_42_, i_41_);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nda.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "nda.A(" + i + ','
 					+ bool + ')');
 		}
 	}

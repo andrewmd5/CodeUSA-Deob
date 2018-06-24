@@ -64,7 +64,7 @@ final class InputStream_Sub1 extends InputStream {
 			aClass58_28 = null;
 			anIntArrayArrayArray27 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "baa.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "baa.B(" + bool
 					+ ')');
 		}
 	}
@@ -75,7 +75,7 @@ final class InputStream_Sub1 extends InputStream {
 			Class246_Sub7.method3131(0, 30000L);
 			return -1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "baa.read(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "baa.read(" + ')');
 		}
 	}
 }

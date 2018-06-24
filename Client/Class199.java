@@ -37,7 +37,7 @@ final class Class199 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nba.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "nba.F(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -66,7 +66,7 @@ final class Class199 {
 			}
 			aClass171_1533 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nba.D(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "nba.D(" + bool
 					+ ')');
 		}
 	}
@@ -81,7 +81,7 @@ final class Class199 {
 				method2689(2818, i_4_, class98_sub22);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("nba.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("nba.B(" + i + ','
 					+ (class98_sub22 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -136,7 +136,7 @@ final class Class199 {
 			}
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(
+					.printError(
 							runtimeexception,
 							("nba.E("
 									+ i
@@ -157,7 +157,7 @@ final class Class199 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nba.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "nba.C(" + i + ','
 					+ i_7_ + ')');
 		}
 	}
@@ -181,7 +181,7 @@ final class Class199 {
 				method2687(true);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nba.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "nba.A(" + i + ')');
 		}
 	}
 }

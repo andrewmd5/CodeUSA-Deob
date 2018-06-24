@@ -18,7 +18,7 @@ final class PlayerUpdate implements Interface14 {
 				}
 				aBoolean3413 = true;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "oh.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "oh.A(" + i
 						+ ')');
 			}
 			break;
@@ -34,7 +34,7 @@ final class PlayerUpdate implements Interface14 {
 				}
 				aClass79_3411 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "oh.G(" + i
+				throw Class64_Sub27.printError(runtimeexception, "oh.G(" + i
 						+ ')');
 			}
 			break;
@@ -65,7 +65,7 @@ final class PlayerUpdate implements Interface14 {
 				}
 				break;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("oh.D("
+				throw Class64_Sub27.printError(runtimeexception, ("oh.D("
 						+ (class88 != null ? "{...}" : "null") + ',' + i + ','
 						+ (object != null ? "{...}" : "null") + ')'));
 			}
@@ -100,7 +100,7 @@ final class PlayerUpdate implements Interface14 {
 			Class2.anInt71 = 0;
 			for (int i_14_ = 1; (i_14_ ^ 0xffffffff) > -2049; i_14_++) {
 				Class98_Sub27.aByteArray4075[i_14_] >>= 1;
-				final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_14_]);
+				final Player class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_14_]);
 				if (class246_sub3_sub4_sub2_sub2 == null) {
 					Class76_Sub9.anIntArray3791[Class373_Sub2.anInt5473++] = i_14_;
 				} else {
@@ -108,7 +108,7 @@ final class PlayerUpdate implements Interface14 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("oh.C(" + (class98_sub22_sub1 != null ? "{...}" : "null")
 							+ ',' + i + ')'));
 		}
@@ -122,7 +122,7 @@ final class PlayerUpdate implements Interface14 {
 			}
 			return Class191.aClass191_1473;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oh.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "oh.B(" + i + ')');
 		}
 	}
 
@@ -177,7 +177,7 @@ final class PlayerUpdate implements Interface14 {
 			}
 			return i_18_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("oh.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("oh.F(" + i + ','
 					+ bool + ',' + (string != null ? "{...}" : "null") + ','
 					+ i_15_ + ')'));
 		}
@@ -194,7 +194,7 @@ final class PlayerUpdate implements Interface14 {
 			}
 			return aClass207_3412.method2762((byte) -114);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oh.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "oh.E(" + i + ')');
 		}
 	}
 
@@ -202,7 +202,7 @@ final class PlayerUpdate implements Interface14 {
 		try {
 			aClass207_3412 = class207;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oh.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "oh.<init>("
 					+ (class207 != null ? "{...}" : "null") + ')');
 		}
 	}

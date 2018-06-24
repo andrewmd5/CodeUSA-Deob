@@ -13,7 +13,7 @@ final class Class213 {
 	static Class155[] aClass155Array1611;
 
 	static final void method2778(final boolean bool,
-			final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2) {
+			final Player class246_sub3_sub4_sub2_sub2) {
 		do {
 			try {
 				if (bool != true) {
@@ -21,7 +21,7 @@ final class Class213 {
 				}
 				final Class98_Sub42 class98_sub42 = ((Class98_Sub42) (Class98_Sub10_Sub14.aClass377_5612
 						.method3990(
-								((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6369,
+								((Entity) class246_sub3_sub4_sub2_sub2).anInt6369,
 								-1)));
 				if (class98_sub42 == null) {
 					break;
@@ -33,7 +33,7 @@ final class Class213 {
 				}
 				class98_sub42.method942(73);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("nq.C("
+				throw Class64_Sub27.printError(runtimeexception, ("nq.C("
 						+ bool
 						+ ','
 						+ ((class246_sub3_sub4_sub2_sub2 != null) ? "{...}"
@@ -117,7 +117,7 @@ final class Class213 {
 			}
 			return null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("nq.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("nq.F(" + i + ','
 					+ i_0_ + ',' + i_1_ + ','
 					+ (class105 != null ? "{...}" : "null") + ')'));
 		}
@@ -172,7 +172,7 @@ final class Class213 {
 			return -i_5_ + (7 + i_9_ >> 1571009731);
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception,
+					.printError(runtimeexception,
 							("nq.B(" + i + ','
 									+ (is != null ? "{...}" : "null") + ','
 									+ i_4_ + ',' + i_5_ + ','
@@ -195,7 +195,7 @@ final class Class213 {
 				}
 				method2779((byte) 108, 108, -78, null);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "nq.E(" + i
+				throw Class64_Sub27.printError(runtimeexception, "nq.E(" + i
 						+ ')');
 			}
 			break;
@@ -317,7 +317,7 @@ final class Class213 {
 			}
 			return -i + (1 + i_21_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("nq.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("nq.D(" + i + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_16_ + ','
 					+ i_17_ + ',' + (is_18_ != null ? "{...}" : "null") + ','
 					+ i_19_ + ')'));
@@ -390,7 +390,7 @@ final class Class213 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nq.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "nq.<init>("
 					+ (is != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -405,7 +405,7 @@ final class Class213 {
 				anIntArray1607 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nq.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "nq.A(" + i + ')');
 		}
 	}
 

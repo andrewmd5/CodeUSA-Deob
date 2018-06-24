@@ -23,7 +23,7 @@ final class Class44 {
 				Class76_Sub2.requestFlag(0, 0, 1, -2, 0, i_0_, i_1_, false, 1);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dca.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("dca.C(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -39,7 +39,7 @@ final class Class44 {
 			}
 			return Class98_Sub10_Sub34.method1103(i, bool_2_, 328, 10);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dca.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("dca.A(" + i + ','
 					+ bool + ',' + bool_2_ + ')'));
 		}
 	}
@@ -54,7 +54,7 @@ final class Class44 {
 				}
 				aClass58_379 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "dca.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "dca.B(" + i
 						+ ')');
 			}
 			break;

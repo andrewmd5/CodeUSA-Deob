@@ -16,7 +16,7 @@ final class Class244 {
 			class98_sub46_sub17.anInt6051 = i_1_;
 			class98_sub46_sub17.anInt6054 = i_0_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pga.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pga.B(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -26,7 +26,7 @@ final class Class244 {
 		try {
 			aClass43_1859 = class43;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pga.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "pga.<init>("
 					+ (class43 != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -37,7 +37,7 @@ final class Class244 {
 			aClass197_1858 = class197;
 			aClass43_1859 = class43;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pga.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("pga.<init>("
 					+ (class43 != null ? "{...}" : "null") + ','
 					+ (class197 != null ? "{...}" : "null") + ')'));
 		}
@@ -50,7 +50,7 @@ final class Class244 {
 			}
 			aClass6_1861 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pga.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pga.A(" + i + ')');
 		}
 	}
 }

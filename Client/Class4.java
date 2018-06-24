@@ -51,7 +51,7 @@ final class Class4 {
 			}
 		} catch (RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("aea.C(" + i + ',' + i_0_
+					.printError(runtimeexception, ("aea.C(" + i + ',' + i_0_
 							+ ',' + i_1_ + ','
 							+ (class293 != null ? "{...}" : "null") + ','
 							+ (var_aa != null ? "{...}" : "null") + ',' + i_2_
@@ -73,7 +73,7 @@ final class Class4 {
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aea.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "aea.A(" + i + ')');
 		}
 	}
 
@@ -87,7 +87,7 @@ final class Class4 {
 			anIntArray83 = null;
 			aClass279_86 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aea.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "aea.B(" + i + ')');
 		}
 	}
 

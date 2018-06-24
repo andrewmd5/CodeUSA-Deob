@@ -20,7 +20,7 @@ final class Class189 {
 			}
 			aBoolean1458 = false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mia.D(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "mia.D(" + bool
 					+ ')');
 		}
 	}
@@ -35,7 +35,7 @@ final class Class189 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mia.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "mia.A(" + i + ')');
 		}
 	}
 
@@ -45,7 +45,7 @@ final class Class189 {
 				aClass293_1457 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mia.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "mia.B(" + i + ')');
 		}
 	}
 
@@ -59,7 +59,7 @@ final class Class189 {
 			}
 			return 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mia.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "mia.C(" + i + ')');
 		}
 	}
 
@@ -67,7 +67,7 @@ final class Class189 {
 		try {
 			aBoolean1459 = bool;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mia.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "mia.<init>("
 					+ bool + ')');
 		}
 	}

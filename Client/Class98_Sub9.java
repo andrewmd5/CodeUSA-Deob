@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub9 extends Class98 {
+final class Class98_Sub9 extends Node {
 	static boolean aBoolean3851;
 	int anInt3852;
 	int anInt3853;
@@ -15,7 +15,7 @@ final class Class98_Sub9 extends Class98 {
 			if (i == 29030)
 				aClass98_Sub27_3856 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "daa.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "daa.B(" + i + ')');
 		}
 	}
 
@@ -34,7 +34,7 @@ final class Class98_Sub9 extends Class98 {
 			class98_sub22_sub1.writeInt(1571862888,
 					Class234.aClass207_1748.method2735((byte) -40));
 			class98_sub22_sub1.writeInt(1571862888,
-					Class98_Sub10_Sub1.aClass207_5544.method2735((byte) -68));
+					Class98_Sub10_Sub1.class207.method2735((byte) -68));
 			class98_sub22_sub1.writeInt(1571862888,
 					Class76_Sub9.aClass207_3787.method2735((byte) -49));
 			class98_sub22_sub1.writeInt(1571862888,
@@ -93,7 +93,7 @@ final class Class98_Sub9 extends Class98 {
 			class98_sub22_sub1.writeInt(1571862888,
 					Class45.aClass207_385.method2735((byte) -90));
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("daa.A(" + (class98_sub22_sub1 != null ? "{...}" : "null")
 							+ ',' + i + ')'));
 		}
@@ -104,7 +104,7 @@ final class Class98_Sub9 extends Class98 {
 			((Class98_Sub9) this).anInt3852 = i;
 			((Class98_Sub9) this).anInt3853 = i_0_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("daa.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("daa.<init>(" + i
 					+ ',' + i_0_ + ')'));
 		}
 	}

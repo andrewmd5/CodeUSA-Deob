@@ -23,7 +23,7 @@ final class Class152 {
 					aClass332_1221 = null;
 				}
 				for (int i_0_ = 0; anIntArray1218.length > i_0_; i_0_++) {
-					class178s[i_0_] = Class98_Sub6.method981(0, -9252,
+					class178s[i_0_] = RSModelLoader.createModel(0, -9252,
 							((aClass83_1220).aClass207_631),
 							anIntArray1218[i_0_]);
 				}
@@ -56,7 +56,7 @@ final class Class152 {
 			}
 			return model;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ke.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ke.F(" + i + ')');
 		}
 	}
 
@@ -77,7 +77,7 @@ final class Class152 {
 			}
 			return bool;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ke.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ke.A(" + i + ')');
 		}
 	}
 
@@ -97,7 +97,7 @@ final class Class152 {
 			}
 			return bool;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ke.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ke.D(" + i + ')');
 		}
 	}
 
@@ -108,7 +108,7 @@ final class Class152 {
 			synchronized (aClass83_1220.aClass207_631) {
 				for (int i_7_ = 0; (i_7_ ^ 0xffffffff) > -6; i_7_++) {
 					if ((anIntArray1222[i_7_] ^ 0xffffffff) != 0) {
-						class178s[i_6_++] = Class98_Sub6.method981(0, -9252,
+						class178s[i_6_++] = RSModelLoader.createModel(0, -9252,
 								((aClass83_1220).aClass207_631),
 								anIntArray1222[i_7_]);
 					}
@@ -134,13 +134,13 @@ final class Class152 {
 			}
 			return model;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ke.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ke.I(" + i + ')');
 		}
 	}
 
 	static final String method2477(final int i) {
 		try {
-			if (Class246_Sub3_Sub4_Sub2_Sub2.aBoolean6540
+			if (Player.aBoolean6540
 					|| Class266.aClass98_Sub46_Sub8_1994 == null) {
 				return "";
 			}
@@ -155,7 +155,7 @@ final class Class152 {
 			}
 			return (Class266.aClass98_Sub46_Sub8_1994.aString5992);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ke.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ke.B(" + i + ')');
 		}
 	}
 
@@ -190,7 +190,7 @@ final class Class152 {
 				class98_sub33.aBoolean4123 = true;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ke.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ke.C(" + i + ','
 					+ i_12_ + ',' + (class185 != null ? "{...}" : "null") + ','
 					+ i_13_ + ',' + i_14_ + ',' + i_15_ + ')'));
 		}
@@ -245,7 +245,7 @@ final class Class152 {
 				class98_sub22.readUnsignedByte((byte) -111);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ke.G("
+			throw Class64_Sub27.printError(runtimeexception, ("ke.G("
 					+ (class98_sub22 != null ? "{...}" : "null") + ',' + i
 					+ ',' + i_17_ + ')'));
 		}
@@ -267,7 +267,7 @@ final class Class152 {
 				method2475(44);
 			} catch (final RuntimeException runtimeexception) {
 				throw Class64_Sub27
-						.method667(runtimeexception,
+						.printError(runtimeexception,
 								("ke.E("
 										+ bool
 										+ ','
@@ -288,7 +288,7 @@ final class Class152 {
 				aClass332_1221 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ke.H(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "ke.H(" + bool
 					+ ')');
 		}
 	}

@@ -18,7 +18,7 @@ abstract class Class76 {
 				}
 				method746(-41, 122, 8);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ew.J(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ew.J(" + i
 						+ ')');
 			}
 			break;
@@ -33,7 +33,7 @@ abstract class Class76 {
 				}
 				method745((byte) 50);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ew.K(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ew.K(" + i
 						+ ')');
 			}
 			break;
@@ -48,7 +48,7 @@ abstract class Class76 {
 				method748(93, false);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ew.N(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ew.N(" + i + ')');
 		}
 	}
 
@@ -56,7 +56,7 @@ abstract class Class76 {
 		try {
 			aHa_Sub3_585 = var_ha_Sub3;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ew.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "ew.<init>("
 					+ (var_ha_Sub3 != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -64,7 +64,7 @@ abstract class Class76 {
 	void method741(final byte i) {
 		try {
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ew.L(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ew.L(" + i + ')');
 		}
 	}
 
@@ -82,7 +82,7 @@ abstract class Class76 {
 			aClass28ArrayArray586 = null;
 			aByteArrayArray590 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ew.Q(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ew.Q(" + i + ')');
 		}
 	}
 
@@ -96,7 +96,7 @@ abstract class Class76 {
 				return;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ew.P(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ew.P(" + i + ')');
 		}
 	}
 
@@ -108,7 +108,7 @@ abstract class Class76 {
 				method739(112);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ew.M(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ew.M(" + i + ')');
 		}
 	}
 }

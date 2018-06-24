@@ -24,7 +24,7 @@ final class Class304 {
 				anInt2539 = -6;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sk.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sk.E(" + i + ')');
 		}
 	}
 
@@ -38,7 +38,7 @@ final class Class304 {
 				aClass79_2537.method794(49);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sk.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "sk.A(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -53,7 +53,7 @@ final class Class304 {
 				}
 				method3562(-126, -89, -59, null);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "sk.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "sk.C(" + i
 						+ ')');
 			}
 			break;
@@ -80,7 +80,7 @@ final class Class304 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sk.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sk.B(" + i + ','
 					+ i_1_ + ',' + i_2_ + ','
 					+ (class293 != null ? "{...}" : "null") + ')'));
 		}
@@ -95,7 +95,7 @@ final class Class304 {
 				Class282.aClass293_2129 = class293;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sk.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sk.G(" + i + ','
 					+ (class293 != null ? "{...}" : "null") + ',' + i_3_ + ','
 					+ i_4_ + ')'));
 		}
@@ -130,7 +130,7 @@ final class Class304 {
 			}
 			return class107;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sk.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "sk.F(" + i + ','
 					+ i_5_ + ')');
 		}
 	}
@@ -146,7 +146,7 @@ final class Class304 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sk.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sk.D(" + i + ')');
 		}
 	}
 
@@ -162,7 +162,7 @@ final class Class304 {
 				aClass79_2537.method800((byte) 62, i_6_);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sk.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "sk.H(" + i + ','
 					+ i_6_ + ')');
 		}
 	}
@@ -175,7 +175,7 @@ final class Class304 {
 			final int i_8_ = aClass207_2532.method2752((byte) -11) + -1;
 			aClass207_2532.method2761(0, i_8_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sk.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("sk.<init>("
 					+ (class279 != null ? "{...}" : "null") + ',' + i + ','
 					+ (class207 != null ? "{...}" : "null") + ','
 					+ (class207_7_ != null ? "{...}" : "null") + ')'));

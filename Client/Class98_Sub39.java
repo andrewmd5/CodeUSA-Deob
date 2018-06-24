@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub39 extends Class98 {
+final class Class98_Sub39 extends Node {
 	Class246_Sub3_Sub4_Sub2_Sub1 aClass246_Sub3_Sub4_Sub2_Sub1_4187;
 	static double aDouble4188;
 	static float[] aFloatArray4189 = new float[4];
@@ -16,7 +16,7 @@ final class Class98_Sub39 extends Class98 {
 				}
 				aDouble4188 = 0.4390183000949001;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "pw.B(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "pw.B(" + bool
 						+ ')');
 			}
 			break;
@@ -45,17 +45,17 @@ final class Class98_Sub39 extends Class98 {
 						.readBits((byte) -74, 1);
 				if (i_4_ == 0) {
 					Class325.anIntArray2726[Class150.anInt1211++] = i_3_;
-					((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6406 = Class201.anInt1544;
+					((Entity) class246_sub3_sub4_sub2_sub1).anInt6406 = Class201.anInt1544;
 				} else {
 					final int i_5_ = Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514
 							.readBits((byte) -117, 2);
 					if (i_5_ == 0) {
 						Class325.anIntArray2726[Class150.anInt1211++] = i_3_;
-						((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6406 = Class201.anInt1544;
+						((Entity) class246_sub3_sub4_sub2_sub1).anInt6406 = Class201.anInt1544;
 						Class76_Sub11.anIntArray3796[Class65.anInt502++] = i_3_;
 					} else if (i_5_ == 1) {
 						Class325.anIntArray2726[Class150.anInt1211++] = i_3_;
-						((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6406 = Class201.anInt1544;
+						((Entity) class246_sub3_sub4_sub2_sub1).anInt6406 = Class201.anInt1544;
 						final int i_6_ = Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514
 								.readBits((byte) -16, 3);
 						class246_sub3_sub4_sub2_sub1.method3050(0, 1, i_6_);
@@ -66,7 +66,7 @@ final class Class98_Sub39 extends Class98 {
 						}
 					} else if (i_5_ == 2) {
 						Class325.anIntArray2726[Class150.anInt1211++] = i_3_;
-						((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6406 = Class201.anInt1544;
+						((Entity) class246_sub3_sub4_sub2_sub1).anInt6406 = Class201.anInt1544;
 						if (Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514
 								.readBits((byte) -42, 1) != 1) {
 							final int i_8_ = Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514
@@ -93,7 +93,7 @@ final class Class98_Sub39 extends Class98 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pw.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pw.A(" + i + ')');
 		}
 	}
 
@@ -102,7 +102,7 @@ final class Class98_Sub39 extends Class98 {
 		try {
 			aClass246_Sub3_Sub4_Sub2_Sub1_4187 = class246_sub3_sub4_sub2_sub1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pw.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("pw.<init>("
 					+ ((class246_sub3_sub4_sub2_sub1 != null) ? "{...}"
 							: "null") + ')'));
 		}

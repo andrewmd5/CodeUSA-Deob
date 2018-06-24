@@ -16,7 +16,7 @@ final class Class287_Sub1 extends Class287 implements Interface16 {
 		try {
 			anInt3418 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iv.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("iv.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ (buffer != null ? "{...}" : "null") + ',' + i_0_ + ','
 					+ bool + ')'));
@@ -34,7 +34,7 @@ final class Class287_Sub1 extends Class287 implements Interface16 {
 				}
 				aClass232_3420 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "iv.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "iv.A(" + i
 						+ ')');
 			}
 			break;
@@ -53,7 +53,7 @@ final class Class287_Sub1 extends Class287 implements Interface16 {
 				}
 				anInt3418 = -39;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("iv.F(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("iv.F(" + i
 						+ ',' + i_1_ + ',' + (is != null ? "{...}" : "null")
 						+ ',' + i_2_ + ')'));
 			}
@@ -69,7 +69,7 @@ final class Class287_Sub1 extends Class287 implements Interface16 {
 			}
 			return 0L;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iv.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "iv.E(" + i + ')');
 		}
 	}
 
@@ -78,7 +78,7 @@ final class Class287_Sub1 extends Class287 implements Interface16 {
 		try {
 			return anInt3418;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iv.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "iv.C(" + i + ')');
 		}
 	}
 
@@ -88,7 +88,7 @@ final class Class287_Sub1 extends Class287 implements Interface16 {
 		try {
 			anInt3418 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("iv.<init>(" + (var_ha_Sub1 != null ? "{...}" : "null")
 							+ ',' + i + ',' + (is != null ? "{...}" : "null")
 							+ ',' + i_4_ + ',' + bool + ')'));
@@ -103,7 +103,7 @@ final class Class287_Sub1 extends Class287 implements Interface16 {
 			}
 			return ((Class287) this).anInt2191;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iv.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "iv.B(" + i + ')');
 		}
 	}
 
@@ -117,7 +117,7 @@ final class Class287_Sub1 extends Class287 implements Interface16 {
 				}
 				method53(-28);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "iv.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "iv.D(" + i
 						+ ')');
 			}
 			break;

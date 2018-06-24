@@ -254,7 +254,7 @@ final class Class253 implements Runnable {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pt.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pt.F(" + i + ','
 					+ i_0_ + ',' + (class172s != null ? "{...}" : "null") + ','
 					+ i_1_ + ',' + i_2_ + ',' + bool + ')'));
 		}
@@ -272,7 +272,7 @@ final class Class253 implements Runnable {
 			return class98_sub46_sub13_sub2;
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("pt.I(" + i + ',' + i_25_
+					.printError(runtimeexception, ("pt.I(" + i + ',' + i_25_
 							+ ',' + (class17 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -294,7 +294,7 @@ final class Class253 implements Runnable {
 				aClass207_1932 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pt.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pt.H(" + i + ')');
 		}
 	}
 
@@ -314,7 +314,7 @@ final class Class253 implements Runnable {
 			return class98_sub46_sub13_sub2;
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("pt.D("
+					.printError(runtimeexception, ("pt.D("
 							+ (is != null ? "{...}" : "null") + ',' + i + ','
 							+ (class17 != null ? "{...}" : "null") + ','
 							+ i_29_ + ')'));
@@ -387,7 +387,7 @@ final class Class253 implements Runnable {
 				}
 				anInt1934 = -87;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("pt.G(" + i + ',' + i_30_ + ',' + i_31_ + ','
 								+ (class293 != null ? "{...}" : "null") + ','
 								+ bool + ')'));
@@ -405,7 +405,7 @@ final class Class253 implements Runnable {
 				}
 				anInt1929 = 127;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("pt.B(" + (class207 != null ? "{...}" : "null") + ','
 								+ i + ')'));
 			}
@@ -425,7 +425,7 @@ final class Class253 implements Runnable {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("pt.C("
 							+ i
 							+ ','
@@ -475,7 +475,7 @@ final class Class253 implements Runnable {
 				((Class98_Sub46_Sub13) class98_sub46_sub13_sub2).aBoolean6038 = false;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pt.run(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pt.run(" + ')');
 		}
 	}
 
@@ -495,7 +495,7 @@ final class Class253 implements Runnable {
 			}
 			aThread1937 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pt.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pt.A(" + i + ')');
 		}
 	}
 
@@ -524,7 +524,7 @@ final class Class253 implements Runnable {
 			return class98_sub46_sub13_sub2;
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("pt.E(" + i + ','
+					.printError(runtimeexception, ("pt.E(" + i + ','
 							+ (class17 != null ? "{...}" : "null") + ','
 							+ i_34_ + ')'));
 		}
@@ -542,7 +542,7 @@ final class Class253 implements Runnable {
 			}
 			aThread1937 = (Thread) class143.anObject1162;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pt.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "pt.<init>("
 					+ (class88 != null ? "{...}" : "null") + ')');
 		}
 	}

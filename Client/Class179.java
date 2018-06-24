@@ -9,7 +9,7 @@ final class Class179 {
 		try {
 			aClass171_1424 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "m.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "m.A(" + i + ')');
 		}
 	}
 }

@@ -52,7 +52,7 @@ final class Class98_Sub10_Sub12 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gr.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "gr.C(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -85,7 +85,7 @@ final class Class98_Sub10_Sub12 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gr.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "gr.G(" + i + ','
 					+ i_16_ + ')');
 		}
 	}
@@ -104,7 +104,7 @@ final class Class98_Sub10_Sub12 extends Class98_Sub10 {
 				((Class98_Sub10) this).aBoolean3861 = ((class98_sub22
 						.readUnsignedByte((byte) -115) ^ 0xffffffff) == -2);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("gr.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("gr.A(" + i
 						+ ',' + (class98_sub22 != null ? "{...}" : "null")
 						+ ',' + i_22_ + ')'));
 			}

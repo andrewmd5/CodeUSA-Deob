@@ -20,7 +20,7 @@ final class Class245 {
 			aClass338Array1865 = null;
 			aClass207_1864 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ph.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ph.F(" + i + ')');
 		}
 	}
 
@@ -37,7 +37,7 @@ final class Class245 {
 			}
 			return class246;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ph.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ph.A(" + i + ')');
 		}
 	}
 
@@ -49,7 +49,7 @@ final class Class245 {
 			}
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("ph.D("
+					.printError(runtimeexception, ("ph.D("
 							+ (class174 != null ? "{...}" : "null") + ','
 							+ bool + ')'));
 		}
@@ -68,7 +68,7 @@ final class Class245 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ph.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ph.B(" + i + ','
 					+ (class246_sub3 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -83,7 +83,7 @@ final class Class245 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ph.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ph.G(" + i + ')');
 		}
 	}
 
@@ -103,7 +103,7 @@ final class Class245 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("ph.E(" + (class246_sub3 != null ? "{...}" : "null") + ','
 							+ i + ')'));
 		}
@@ -122,7 +122,7 @@ final class Class245 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ph.C(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("ph.C(" + bool
 					+ ',' + (class246_sub10 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -131,7 +131,7 @@ final class Class245 {
 		try {
 			aString1866 = string;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ph.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "ph.<init>("
 					+ (string != null ? "{...}" : "null") + ')');
 		}
 	}

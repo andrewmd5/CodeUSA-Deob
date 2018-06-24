@@ -15,7 +15,7 @@ final class Class98_Sub10_Sub4 extends Class98_Sub10 {
 			anIntArray5547 = null;
 			aStringArray5550 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bu.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bu.B(" + i + ')');
 		}
 	}
 
@@ -53,7 +53,7 @@ final class Class98_Sub10_Sub4 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bu.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "bu.C(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -91,7 +91,7 @@ final class Class98_Sub10_Sub4 extends Class98_Sub10 {
 				return;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("bu.A(" + i + ','
 							+ (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i_13_ + ')'));

@@ -51,7 +51,7 @@ final class Class176 {
 				}
 				aClass204_1372 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("lt.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("lt.A(" + i
 						+ ',' + i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_
 						+ ',' + i_4_ + ',' + i_5_ + ',' + i_6_ + ',' + i_7_
 						+ ',' + i_8_ + ')'));
@@ -143,7 +143,7 @@ final class Class176 {
 						if (Class353
 								.method3867(
 										-1,
-										(Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660.aString6537))
+										(Surface.player.name2))
 								.equals(string_35_)) {
 							za_Sub2.method1684(
 									(Class309.aClass309_2627.method3615(
@@ -167,7 +167,7 @@ final class Class176 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lt.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("lt.C(" + i + ','
 					+ (string != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -178,7 +178,7 @@ final class Class176 {
 				aClass204_1372 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lt.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "lt.B(" + i + ')');
 		}
 	}
 
@@ -205,7 +205,7 @@ final class Class176 {
 				Class93.aClass332Array3512 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lt.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "lt.D(" + i + ')');
 		}
 	}
 }

@@ -309,7 +309,7 @@ abstract class Class119 {
 			aShortArrayArray981 = null;
 			aShortArrayArray984 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hm.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hm.I(" + i + ')');
 		}
 	}
 
@@ -328,14 +328,14 @@ abstract class Class119 {
 						.method583((byte) 125);
 				Class76_Sub4.method754(0, true, -127);
 			} while (false);
-			Class98.anInt835 = i_4_;
+			Node.anInt835 = i_4_;
 			Class211.aBoolean1593 = bool;
 			if (i_3_ == 89) {
 				RuntimeException_Sub1.anInt3205 = i;
 				Class278.method3316(i_2_);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hm.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("hm.G(" + i + ','
 					+ bool + ',' + i_2_ + ',' + i_3_ + ',' + i_4_ + ')'));
 		}
 	}
@@ -356,7 +356,7 @@ abstract class Class119 {
 				Class64_Sub17.method618(i_5_, i_8_, -21327, i_7_, i, i_9_);
 			} while (false);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("hm.H(" + i + ',' + i_5_ + ',' + i_6_ + ',' + i_7_ + ','
 							+ i_8_ + ',' + i_9_ + ')'));
 		}
@@ -370,7 +370,7 @@ abstract class Class119 {
 			anInt987 = i_14_;
 			anInt985 = i_13_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hm.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("hm.<init>(" + i
 					+ ',' + i_13_ + ',' + i_14_ + ')'));
 		}
 	}

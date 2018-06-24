@@ -12,7 +12,7 @@ final class Class340 {
 	/* synthetic */static Class aClass2851;
 
 	static final void method3801(
-			final Class246_Sub3_Sub4_Sub2 class246_sub3_sub4_sub2, final int i) {
+			final Entity class246_sub3_sub4_sub2, final int i) {
 		try {
 			if (i != -28111) {
 				aClass332Array2848 = null;
@@ -379,7 +379,7 @@ final class Class340 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("uo.D("
+			throw Class64_Sub27.printError(runtimeexception, ("uo.D("
 					+ (class246_sub3_sub4_sub2 != null ? "{...}" : "null")
 					+ ',' + i + ')'));
 		}
@@ -477,7 +477,7 @@ final class Class340 {
 							.method2308((byte) 69) - Class98_Sub42.aLong4212);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("uo.B("
+				throw Class64_Sub27.printError(runtimeexception, ("uo.B("
 						+ (var_ha != null ? "{...}" : "null") + ',' + i + ','
 						+ i_3_ + ')'));
 			}
@@ -515,7 +515,7 @@ final class Class340 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uo.C(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "uo.C(" + bool
 					+ ')');
 		}
 	}
@@ -527,7 +527,7 @@ final class Class340 {
 				aClass207_2847 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uo.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "uo.A(" + i + ')');
 		}
 	}
 

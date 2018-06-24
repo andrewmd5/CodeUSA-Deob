@@ -26,7 +26,7 @@ final class Class127 implements Runnable {
 				}
 				anInt1018 = -71;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ik.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ik.D(" + i
 						+ ')');
 			}
 			break;
@@ -40,7 +40,7 @@ final class Class127 implements Runnable {
 			}
 			anInputStream1024 = new InputStream_Sub2();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ik.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ik.C(" + i + ')');
 		}
 	}
 
@@ -88,7 +88,7 @@ final class Class127 implements Runnable {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ik.run(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ik.run(" + ')');
 		}
 	}
 
@@ -109,7 +109,7 @@ final class Class127 implements Runnable {
 				/* empty */
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ik.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ik.E(" + i + ')');
 		}
 	}
 
@@ -149,7 +149,7 @@ final class Class127 implements Runnable {
 				return i_1_;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("ik.B(" + i + ',' + (is != null ? "{...}" : "null") + ','
 							+ i_1_ + ',' + i_2_ + ')'));
 		}
@@ -184,7 +184,7 @@ final class Class127 implements Runnable {
 				return true;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ik.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ik.A(" + i + ','
 					+ i_5_ + ')');
 		}
 	}
@@ -199,7 +199,7 @@ final class Class127 implements Runnable {
 			aThread1021.start();
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("ik.<init>("
+					.printError(runtimeexception, ("ik.<init>("
 							+ (inputstream != null ? "{...}" : "null") + ','
 							+ i + ')'));
 		}

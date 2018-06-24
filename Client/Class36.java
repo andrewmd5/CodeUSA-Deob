@@ -24,7 +24,7 @@ final class Class36 {
 				aClass58_344 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ck.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ck.A(" + i + ')');
 		}
 	}
 
@@ -42,7 +42,7 @@ final class Class36 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ck.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ck.C(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -58,7 +58,7 @@ final class Class36 {
 			Class336.anIntArray2826 = new int[i];
 			Class48_Sub1_Sub2.anIntArray5518 = new int[i];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ck.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ck.B(" + i + ','
 					+ i_1_ + ')');
 		}
 	}

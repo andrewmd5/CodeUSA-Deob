@@ -36,7 +36,7 @@ final class Class64_Sub20 extends Class64 {
 					((Class64) this).anInt494 = method552(0);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "raa.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "raa.C(" + i
 						+ ')');
 			}
 			break;
@@ -62,7 +62,7 @@ final class Class64_Sub20 extends Class64 {
 			}
 			return 3;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "raa.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "raa.F(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -95,7 +95,7 @@ final class Class64_Sub20 extends Class64 {
 			Class64_Sub3.anInt3646 = IncomingOpcode.anInt461 = -1;
 			Class98_Sub46_Sub13_Sub2.anIntArrayArrayArray6311 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "raa.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "raa.I(" + i + ')');
 		}
 	}
 
@@ -106,7 +106,7 @@ final class Class64_Sub20 extends Class64 {
 			}
 			return ((Class64) this).anInt494;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "raa.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "raa.E(" + i + ')');
 		}
 	}
 
@@ -115,7 +115,7 @@ final class Class64_Sub20 extends Class64 {
 		try {
 			((Class64) this).anInt494 = i_4_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "raa.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "raa.B(" + i + ','
 					+ i_4_ + ')');
 		}
 	}
@@ -133,7 +133,7 @@ final class Class64_Sub20 extends Class64 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "raa.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "raa.G(" + i + ')');
 		}
 	}
 
@@ -152,7 +152,7 @@ final class Class64_Sub20 extends Class64 {
 				return null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "raa.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "raa.D(" + i + ')');
 		}
 	}
 
@@ -166,7 +166,7 @@ final class Class64_Sub20 extends Class64 {
 			aClass207_3697 = null;
 			aClass178Array3699 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "raa.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "raa.H(" + i + ')');
 		}
 	}
 
@@ -178,7 +178,7 @@ final class Class64_Sub20 extends Class64 {
 			}
 			return 1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "raa.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "raa.A(" + i + ')');
 		}
 	}
 

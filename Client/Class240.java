@@ -19,7 +19,7 @@ abstract class Class240 {
 			}
 			return method2926(123, l);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pca.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "pca.D(" + i + ','
 					+ l + ')');
 		}
 	}
@@ -46,7 +46,7 @@ abstract class Class240 {
 			}
 			return new Class273(var_ha_Sub3_Sub2, i, i_2_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pca.F("
+			throw Class64_Sub27.printError(runtimeexception, ("pca.F("
 					+ (is != null ? "{...}" : "null") + ','
 					+ (var_ha_Sub3_Sub2 != null ? "{...}" : "null") + ',' + i
 					+ ',' + i_1_ + ')'));

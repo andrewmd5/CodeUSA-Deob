@@ -30,7 +30,7 @@ abstract class Class48_Sub1 extends Class48 {
 				Class333.method3761(i, is, i_9_, i_1_, (byte) 63);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("go.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("go.C(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + bool + ',' + i_3_
 					+ ',' + i_4_ + ',' + i_5_ + ')'));
 		}
@@ -56,7 +56,7 @@ abstract class Class48_Sub1 extends Class48 {
 			for (int i_16_ = 0; i_15_ > i_16_; i_16_++)
 				((Class98_Sub46_Sub10) class98_sub46_sub10).aClass148_6010
 						.method2419(
-								new Class98_Sub6(class98_sub22
+								new RSModelLoader(class98_sub22
 										.readUnsignedByte((byte) -122),
 										class98_sub22.readUnsignedShort((byte) 127),
 										class98_sub22.readUnsignedShort((byte) 127),
@@ -72,7 +72,7 @@ abstract class Class48_Sub1 extends Class48 {
 				anIntArray3629 = null;
 			return class98_sub46_sub10;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("go.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("go.A(" + i + ','
 					+ i_13_ + ',' + i_14_ + ','
 					+ (class207 != null ? "{...}" : "null") + ')'));
 		}
@@ -82,11 +82,11 @@ abstract class Class48_Sub1 extends Class48 {
 			int i_18_, boolean bool) {
 		try {
 			long l = (long) (i << 1428771228 | i_17_ << 1140143822 | i_18_);
-			Class98_Sub45 class98_sub45 = (Class98_Sub45) Class146.aClass377_1180
+			Class98_Sub45 class98_sub45 = (Class98_Sub45) AbstractModel.aClass377_1180
 					.method3990(l, -1);
 			if (class98_sub45 == null) {
 				class98_sub45 = new Class98_Sub45();
-				Class146.aClass377_1180.method3996(class98_sub45, l, -1);
+				AbstractModel.aClass377_1180.method3996(class98_sub45, l, -1);
 				((Class98_Sub45) class98_sub45).aClass148_4254.method2419(
 						class98_sub26, -20911);
 			} else {
@@ -117,7 +117,7 @@ abstract class Class48_Sub1 extends Class48 {
 						class98_sub26, -20911);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("go.D("
+			throw Class64_Sub27.printError(runtimeexception, ("go.D("
 					+ (class98_sub26 != null ? "{...}" : "null") + ',' + i
 					+ ',' + i_17_ + ',' + i_18_ + ',' + bool + ')'));
 		}
@@ -131,7 +131,7 @@ abstract class Class48_Sub1 extends Class48 {
 					break;
 				anIntArray3629 = null;
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "go.B(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "go.B(" + bool
 						+ ')');
 			}
 			break;

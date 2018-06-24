@@ -21,7 +21,7 @@ final class Class18 {
 				aClass113_210 = null;
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bga.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bga.B(" + i + ')');
 		}
 	}
 
@@ -54,7 +54,7 @@ final class Class18 {
 					Character.toUpperCase(stringbuffer.charAt(0)));
 			return stringbuffer.toString();
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bga.A(" + l + ','
+			throw Class64_Sub27.printError(runtimeexception, "bga.A(" + l + ','
 					+ i + ')');
 		}
 	}
@@ -63,7 +63,7 @@ final class Class18 {
 		try {
 			((Class18) this).aBoolean209 = bool;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bga.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "bga.<init>("
 					+ bool + ')');
 		}
 	}
@@ -83,7 +83,7 @@ final class Class18 {
 			if (i <= 33)
 				method248(false, -122, true);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bga.C(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("bga.C(" + bool
 					+ ',' + i + ',' + bool_4_ + ')'));
 		}
 	}
@@ -98,7 +98,7 @@ final class Class18 {
 					break;
 				((Class18) this).anInterface2_Impl2_208 = null;
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "bga.E(" + i
+				throw Class64_Sub27.printError(runtimeexception, "bga.E(" + i
 						+ ')');
 			}
 			break;
@@ -113,7 +113,7 @@ final class Class18 {
 				return false;
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bga.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bga.D(" + i + ')');
 		}
 	}
 }

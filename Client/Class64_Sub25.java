@@ -33,7 +33,7 @@ final class Class64_Sub25 extends Class64 {
 			}
 			return 3;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vba.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "vba.F(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -46,7 +46,7 @@ final class Class64_Sub25 extends Class64 {
 				final Class220 class220 = Class303.aClass13_2529.method220(
 						is[i_2_], -11180);
 				if ((class220.anInt1649 ^ 0xffffffff) != 0) {
-					Class332 class332 = ((Class332) (Class98_Sub6.aClass79_3847
+					Class332 class332 = ((Class332) (RSModelLoader.aClass79_3847
 							.method802(-126, class220.anInt1649)));
 					if (class332 == null) {
 						final Class324 class324 = Class324.method3685(
@@ -55,7 +55,7 @@ final class Class64_Sub25 extends Class64 {
 						if (class324 != null) {
 							class332 = Class265.aHa1974.method1758(class324,
 									true);
-							Class98_Sub6.aClass79_3847.method805(
+							RSModelLoader.aClass79_3847.method805(
 									class220.anInt1649, class332, (byte) -80);
 						}
 					}
@@ -68,7 +68,7 @@ final class Class64_Sub25 extends Class64 {
 			}
 			return stringbuffer.toString();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vba.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vba.D(" + i + ','
 					+ (is != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -101,7 +101,7 @@ final class Class64_Sub25 extends Class64 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vba.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vba.H(" + i + ','
 					+ (is != null ? "{...}" : "null") + ',' + bool + ')'));
 		}
 	}
@@ -132,7 +132,7 @@ final class Class64_Sub25 extends Class64 {
 				}
 				((Class64) this).anInt494 = method552(0);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "vba.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "vba.C(" + i
 						+ ')');
 			}
 			break;
@@ -146,7 +146,7 @@ final class Class64_Sub25 extends Class64 {
 			}
 			return ((Class64) this).anInt494;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vba.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vba.E(" + i + ')');
 		}
 	}
 
@@ -161,7 +161,7 @@ final class Class64_Sub25 extends Class64 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vba.I(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vba.I(" + i + ','
 					+ i_3_ + ',' + i_4_ + ')'));
 		}
 	}
@@ -171,7 +171,7 @@ final class Class64_Sub25 extends Class64 {
 		try {
 			((Class64) this).anInt494 = i_5_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vba.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "vba.B(" + i + ','
 					+ i_5_ + ')');
 		}
 	}
@@ -184,7 +184,7 @@ final class Class64_Sub25 extends Class64 {
 			}
 			return 1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vba.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vba.A(" + i + ')');
 		}
 	}
 
@@ -201,7 +201,7 @@ final class Class64_Sub25 extends Class64 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vba.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vba.G(" + i + ')');
 		}
 	}
 

@@ -21,7 +21,7 @@ final class Class300 {
 			}
 			aBigInteger2501 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sh.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sh.B(" + i + ')');
 		}
 	}
 
@@ -43,7 +43,7 @@ final class Class300 {
 					class98_sub22.readMediumInt(-128),
 					class98_sub22.readUnsignedByte((byte) -114));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("sh.A(" + (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i + ')'));
 		}

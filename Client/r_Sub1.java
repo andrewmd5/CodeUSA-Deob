@@ -27,7 +27,7 @@ final class r_Sub1 extends r {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "en.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "en.E(" + i + ')');
 		}
 	}
 
@@ -41,7 +41,7 @@ final class r_Sub1 extends r {
 				anInt6324 = i;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("en.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("en.G(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ')'));
 		}
 	}
@@ -55,7 +55,7 @@ final class r_Sub1 extends r {
 				}
 				aLong6322 = -46L;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "en.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "en.C(" + i
 						+ ')');
 			}
 			break;
@@ -71,7 +71,7 @@ final class r_Sub1 extends r {
 			Class138.anIntArray1083 = null;
 			Class294.anIntArray2406 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "en.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "en.B(" + i + ')');
 		}
 	}
 
@@ -93,7 +93,7 @@ final class r_Sub1 extends r {
 				aByteArray6325[++i_5_] = (byte) 0;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "en.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "en.D(" + i + ')');
 		}
 	}
 
@@ -107,7 +107,7 @@ final class r_Sub1 extends r {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("en.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("en.F(" + i + ','
 					+ i_8_ + ',' + i_9_ + ')'));
 		}
 	}
@@ -116,7 +116,7 @@ final class r_Sub1 extends r {
 		try {
 			aByteArray6325 = new byte[i_10_ * i];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("en.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("en.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_10_ + ')'));
 		}
@@ -451,7 +451,7 @@ final class r_Sub1 extends r {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("en.M(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("en.M(" + i + ','
 					+ i_11_ + ',' + i_12_ + ',' + i_13_ + ',' + i_14_ + ','
 					+ i_15_ + ',' + i_16_ + ')'));
 		}

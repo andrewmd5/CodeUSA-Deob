@@ -79,7 +79,7 @@ abstract class Class277 {
 			Class208.aClass207_1581.method2760((byte) -116);
 			Class208.aClass207_1581.anInt1575 = i_0_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("rfa.E(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("rfa.E(" + bool
 					+ ',' + i + ',' + (string != null ? "{...}" : "null") + ','
 					+ i_0_ + ',' + (string_1_ != null ? "{...}" : "null") + ','
 					+ bool_2_ + ',' + i_3_ + ')'));
@@ -201,7 +201,7 @@ abstract class Class277 {
 				Class122.method2201(i_23_, class352, i_11_, var_ha, i_14_,
 						(byte) 70);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("rfa.F(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("rfa.F(" + i
 						+ ',' + i_11_ + ',' + i_12_ + ',' + i_13_ + ','
 						+ (var_ha != null ? "{...}" : "null") + ',' + i_14_
 						+ ',' + bool + ',' + i_15_ + ',' + i_16_ + ')'));
@@ -224,7 +224,7 @@ abstract class Class277 {
 				}
 				aClass171_2051 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "rfa.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "rfa.D(" + i
 						+ ')');
 			}
 			break;
@@ -253,7 +253,7 @@ abstract class Class277 {
 			Class98_Sub43.method1481(2);
 			Class358.aBoolean3033 = true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rfa.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rfa.B(" + i + ')');
 		}
 	}
 
@@ -274,17 +274,17 @@ abstract class Class277 {
 			int i_25_ = class141.anInt1102;
 			final Class294 class294 = class246_sub3_sub4_sub2_sub1
 					.method3039(1);
-			if ((((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6385) == -1
-					|| (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).aBoolean6359)) {
+			if ((((Entity) class246_sub3_sub4_sub2_sub1).anInt6385) == -1
+					|| (((Entity) class246_sub3_sub4_sub2_sub1).aBoolean6359)) {
 				i_25_ = class141.anInt1120;
-			} else if (((class294.anInt2389 ^ 0xffffffff) != (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6385 ^ 0xffffffff))
-					&& (class294.anInt2361 != ((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6385)
-					&& ((class294.anInt2402 ^ 0xffffffff) != (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6385 ^ 0xffffffff))
-					&& (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6385 != class294.anInt2357)) {
-				if (((class294.anInt2368 ^ 0xffffffff) == (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6385 ^ 0xffffffff))
-						|| ((((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6385 ^ 0xffffffff) == (class294.anInt2394 ^ 0xffffffff))
-						|| (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6385 == class294.anInt2403)
-						|| (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6385 == class294.anInt2377)) {
+			} else if (((class294.anInt2389 ^ 0xffffffff) != (((Entity) class246_sub3_sub4_sub2_sub1).anInt6385 ^ 0xffffffff))
+					&& (class294.anInt2361 != ((Entity) class246_sub3_sub4_sub2_sub1).anInt6385)
+					&& ((class294.anInt2402 ^ 0xffffffff) != (((Entity) class246_sub3_sub4_sub2_sub1).anInt6385 ^ 0xffffffff))
+					&& (((Entity) class246_sub3_sub4_sub2_sub1).anInt6385 != class294.anInt2357)) {
+				if (((class294.anInt2368 ^ 0xffffffff) == (((Entity) class246_sub3_sub4_sub2_sub1).anInt6385 ^ 0xffffffff))
+						|| ((((Entity) class246_sub3_sub4_sub2_sub1).anInt6385 ^ 0xffffffff) == (class294.anInt2394 ^ 0xffffffff))
+						|| (((Entity) class246_sub3_sub4_sub2_sub1).anInt6385 == class294.anInt2403)
+						|| (((Entity) class246_sub3_sub4_sub2_sub1).anInt6385 == class294.anInt2377)) {
 					i_25_ = class141.anInt1132;
 				}
 			} else {
@@ -292,7 +292,7 @@ abstract class Class277 {
 			}
 			return i_25_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("rfa.C("
+			throw Class64_Sub27.printError(runtimeexception, ("rfa.C("
 					+ i
 					+ ','
 					+ ((class246_sub3_sub4_sub2_sub1 != null) ? "{...}"

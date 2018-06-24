@@ -22,7 +22,7 @@ final class Class124 {
 				return 0;
 			return ((Class98_Sub3) class98_sub3).anIntArray3823[i_1_];
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ie.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("ie.A(" + bool
 					+ ',' + i + ',' + i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -54,7 +54,7 @@ final class Class124 {
 				return Class362.method3924(1, class98_sub22);
 			return null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("ie.D(" + (class113 != null ? "{...}" : "null") + ','
 							+ (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i + ')'));
@@ -71,7 +71,7 @@ final class Class124 {
 				method2214(-96);
 			aHashtable1015 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ie.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ie.C(" + i + ')');
 		}
 	}
 
@@ -87,7 +87,7 @@ final class Class124 {
 						(class113s[class98_sub22.readUnsignedByte((byte) -120)]),
 						class98_sub22, -8829);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ie.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ie.B(" + i + ','
 					+ (class98_sub22 != null ? "{...}" : "null") + ')'));
 		}
 	}

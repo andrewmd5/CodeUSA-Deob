@@ -25,7 +25,7 @@ final class Class64_Sub15 extends Class64 {
 			class98_sub10_sub35.method1107((byte) -76, is, 0);
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lia.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("lia.D(" + i + ','
 					+ i_0_ + ',' + f + ',' + i_1_ + ',' + bool + ',' + bool_2_
 					+ ',' + i_3_ + ',' + i_4_ + ')'));
 		}
@@ -45,7 +45,7 @@ final class Class64_Sub15 extends Class64 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lia.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "lia.C(" + i + ')');
 		}
 	}
 
@@ -61,7 +61,7 @@ final class Class64_Sub15 extends Class64 {
 			}
 			return 1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lia.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "lia.F(" + i + ','
 					+ i_5_ + ')');
 		}
 	}
@@ -76,7 +76,7 @@ final class Class64_Sub15 extends Class64 {
 				}
 				aClass207_3679 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "lia.G(" + i
+				throw Class64_Sub27.printError(runtimeexception, "lia.G(" + i
 						+ ')');
 			}
 			break;
@@ -90,7 +90,7 @@ final class Class64_Sub15 extends Class64 {
 			}
 			return ((Class64) this).anInt494;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lia.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "lia.E(" + i + ')');
 		}
 	}
 
@@ -99,7 +99,7 @@ final class Class64_Sub15 extends Class64 {
 		try {
 			((Class64) this).anInt494 = i_6_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lia.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "lia.B(" + i + ','
 					+ i_6_ + ')');
 		}
 	}
@@ -116,7 +116,7 @@ final class Class64_Sub15 extends Class64 {
 			}
 			return 2;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lia.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "lia.A(" + i + ')');
 		}
 	}
 }

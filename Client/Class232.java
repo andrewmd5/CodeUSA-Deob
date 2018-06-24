@@ -20,7 +20,7 @@ final class Class232 {
 			aCharArray1745 = null;
 			aBooleanArray1741 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oq.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "oq.A(" + bool
 					+ ')');
 		}
 	}
@@ -34,7 +34,7 @@ final class Class232 {
 		try {
 			throw new IllegalStateException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"oq.toString(" + ')');
 		}
 	}
@@ -53,7 +53,7 @@ final class Class232 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("oq.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("oq.B(" + i + ','
 					+ i_0_ + ',' + bool + ')'));
 		}
 	}

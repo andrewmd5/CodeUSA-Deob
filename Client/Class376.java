@@ -20,7 +20,7 @@ final class Class376 {
 				}
 				method3989((byte) -32);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "wq.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "wq.A(" + i
 						+ ')');
 			}
 			break;

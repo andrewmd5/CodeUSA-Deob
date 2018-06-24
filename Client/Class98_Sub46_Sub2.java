@@ -34,7 +34,7 @@ abstract class Class98_Sub46_Sub2 extends Class98_Sub46 {
 			Class169.anInt1307 = -1;
 			Class169.anInt1307 = -1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bda.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "bda.A(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -43,7 +43,7 @@ abstract class Class98_Sub46_Sub2 extends Class98_Sub46 {
 		try {
 			anInt5950 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bda.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "bda.<init>(" + i
 					+ ')');
 		}
 	}
@@ -54,7 +54,7 @@ abstract class Class98_Sub46_Sub2 extends Class98_Sub46 {
 				aClass105_5951 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bda.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bda.D(" + i + ')');
 		}
 	}
 

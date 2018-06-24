@@ -16,7 +16,7 @@ final class Class93_Sub1_Sub1 extends Class93_Sub1 {
 		try {
 			((Class93_Sub1_Sub1) this).anInt6290 = i_12_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hi.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("hi.<init>("
 					+ (class63 != null ? "{...}" : "null") + ','
 					+ (class110 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ',' + i_4_
@@ -60,7 +60,7 @@ final class Class93_Sub1_Sub1 extends Class93_Sub1 {
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hi.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("hi.C(" + i + ','
 					+ i_13_ + ',' + bool + ',' + i_14_ + ',' + i_15_ + ')'));
 		}
 	}
@@ -71,7 +71,7 @@ final class Class93_Sub1_Sub1 extends Class93_Sub1 {
 				return null;
 			return Class18.aClass113_210;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hi.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hi.A(" + i + ')');
 		}
 	}
 
@@ -173,7 +173,7 @@ final class Class93_Sub1_Sub1 extends Class93_Sub1 {
 				Class246_Sub10.aBoolean5152 = true;
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hi.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("hi.B(" + i + ','
 					+ i_24_ + ',' + bool + ',' + i_25_ + ',' + i_26_ + ','
 					+ i_27_ + ')'));
 		}

@@ -22,7 +22,7 @@ final class Class217 implements Interface14 {
 			Class64_Sub15.anInt3678 = i_0_;
 			Class151_Sub7.aBoolean5007 = bool;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("nw.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("nw.A(" + i + ','
 					+ i_0_ + ',' + bool + ',' + i_1_ + ')'));
 		}
 	}
@@ -34,7 +34,7 @@ final class Class217 implements Interface14 {
 			}
 			return Class98_Sub17_Sub1.aBoolean5778;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nw.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "nw.C(" + i + ')');
 		}
 	}
 
@@ -46,7 +46,7 @@ final class Class217 implements Interface14 {
 			}
 			return Class191.aClass191_1475;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nw.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "nw.B(" + i + ')');
 		}
 	}
 
@@ -61,7 +61,7 @@ final class Class217 implements Interface14 {
 			}
 			return aClass207_3407.method2748(29952, aString3409);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nw.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "nw.E(" + i + ')');
 		}
 	}
 
@@ -74,7 +74,7 @@ final class Class217 implements Interface14 {
 			aClass58_3406 = null;
 			aClass332Array3408 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nw.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "nw.D(" + i + ')');
 		}
 	}
 
@@ -83,7 +83,7 @@ final class Class217 implements Interface14 {
 			aClass207_3407 = class207;
 			aString3409 = string;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("nw.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("nw.<init>("
 					+ (class207 != null ? "{...}" : "null") + ','
 					+ (string != null ? "{...}" : "null") + ')'));
 		}

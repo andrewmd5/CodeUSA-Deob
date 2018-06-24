@@ -17,7 +17,7 @@ final class Class48_Sub1_Sub2 extends Class48_Sub1 {
 		try {
 			return aClass42_Sub2_5516;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cv.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cv.E(" + i + ')');
 		}
 	}
 
@@ -203,7 +203,7 @@ final class Class48_Sub1_Sub2 extends Class48_Sub1 {
 				aClass42_Sub2_5516.method371(69);
 			return bool;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cv.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("cv.F(" + i + ','
 					+ (class42_sub2 != null ? "{...}" : "null") + ',' + f + ','
 					+ (class42_sub2_0_ != null ? "{...}" : "null") + ')'));
 		}
@@ -215,7 +215,7 @@ final class Class48_Sub1_Sub2 extends Class48_Sub1 {
 				method467(-59);
 			return ((Class42_Sub2) aClass42_Sub2_5516).anInt5357;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cv.J(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cv.J(" + i + ')');
 		}
 	}
 
@@ -225,7 +225,7 @@ final class Class48_Sub1_Sub2 extends Class48_Sub1 {
 			aClass42_Sub2_5516 = new Class42_Sub2(var_ha_Sub1, 6408, i);
 		} catch (RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("cv.<init>("
+					.printError(runtimeexception, ("cv.<init>("
 							+ (var_ha_Sub1 != null ? "{...}" : "null") + ','
 							+ i + ')'));
 		}
@@ -245,7 +245,7 @@ final class Class48_Sub1_Sub2 extends Class48_Sub1 {
 				Class217.aClass332Array3408 = null;
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cv.G(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "cv.G(" + bool
 					+ ')');
 		}
 	}
@@ -258,7 +258,7 @@ final class Class48_Sub1_Sub2 extends Class48_Sub1 {
 				aClass58_5520 = null;
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cv.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cv.H(" + i + ')');
 		}
 	}
 
@@ -304,7 +304,7 @@ final class Class48_Sub1_Sub2 extends Class48_Sub1 {
 			}
 			return bool_6_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cv.I(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("cv.I(" + bool
 					+ ',' + i + ',' + i_4_ + ','
 					+ (string != null ? "{...}" : "null") + ')'));
 		}

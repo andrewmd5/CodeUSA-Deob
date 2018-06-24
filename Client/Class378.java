@@ -18,7 +18,7 @@ final class Class378 {
 				}
 				method4001((byte) 62);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "wu.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "wu.A(" + i
 						+ ')');
 			}
 			break;
@@ -29,7 +29,7 @@ final class Class378 {
 		try {
 			aClass79_3189 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wu.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wu.D(" + i + ')');
 		}
 	}
 
@@ -68,7 +68,7 @@ final class Class378 {
 			}
 			return -i_12_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("wu.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("wu.E(" + i + ','
 					+ i_1_ + ',' + (is != null ? "{...}" : "null") + ',' + bool
 					+ ',' + (is_2_ != null ? "{...}" : "null") + ','
 					+ (is_3_ != null ? "{...}" : "null") + ','
@@ -100,7 +100,7 @@ final class Class378 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("wu.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("wu.C(" + i + ','
 					+ i_19_ + ',' + i_20_ + ')'));
 		}
 	}
@@ -114,7 +114,7 @@ final class Class378 {
 						i_23_, i_22_);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("wu.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("wu.B(" + i + ','
 					+ i_21_ + ',' + i_22_ + ',' + bool + ',' + i_23_ + ')'));
 		}
 	}
@@ -174,7 +174,7 @@ final class Class378 {
 			}
 			return stringbuffer.toString();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("wu.F("
+			throw Class64_Sub27.printError(runtimeexception, ("wu.F("
 					+ (string != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}

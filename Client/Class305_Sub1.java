@@ -26,7 +26,7 @@ final class Class305_Sub1 extends Class305 {
 					Class28 class28 = null;
 					if (is != null)
 						is[0] = -1;
-					while ((((ByteBuffer) class98_sub22).aByteArray3992).length > ((ByteBuffer) class98_sub22).position) {
+					while ((((ByteBuffer) class98_sub22).incomingBytes).length > ((ByteBuffer) class98_sub22).position) {
 						int i_4_ = class98_sub22.readUnsignedByte((byte) -125);
 						if ((i_4_ ^ 0xffffffff) != -1) {
 							if ((i_4_ ^ 0xffffffff) != -2) {
@@ -217,7 +217,7 @@ final class Class305_Sub1 extends Class305 {
 					}
 				}
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("ms.R(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("ms.R(" + i
 						+ ',' + i_2_ + ',' + i_3_ + ','
 						+ (var_ha != null ? "{...}" : "null") + ','
 						+ (class98_sub22 != null ? "{...}" : "null") + ','
@@ -246,7 +246,7 @@ final class Class305_Sub1 extends Class305 {
 						.method3177(i_36_, i_38_, i);
 			return interface19;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ms.S(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ms.S(" + i + ','
 					+ i_35_ + ',' + i_36_ + ',' + i_37_ + ',' + i_38_ + ')'));
 		}
 	}
@@ -312,7 +312,7 @@ final class Class305_Sub1 extends Class305 {
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ms.P("
+			throw Class64_Sub27.printError(runtimeexception, ("ms.P("
 					+ (class243s != null ? "{...}" : "null") + ',' + i + ','
 					+ i_39_ + ',' + (is != null ? "{...}" : "null") + ','
 					+ i_40_ + ',' + i_41_ + ',' + i_42_ + ',' + i_43_ + ','
@@ -394,7 +394,7 @@ final class Class305_Sub1 extends Class305 {
 						is[0] = -1;
 					int i_68_ = (0x7 & i) * 8;
 					int i_69_ = 8 * (i_61_ & 0x7);
-					while (((ByteBuffer) class98_sub22).position < (((ByteBuffer) class98_sub22).aByteArray3992).length) {
+					while (((ByteBuffer) class98_sub22).position < (((ByteBuffer) class98_sub22).incomingBytes).length) {
 						int i_70_ = class98_sub22.readUnsignedByte((byte) -116);
 						if (i_70_ == 0)
 							class28 = new Class28(class98_sub22);
@@ -572,7 +572,7 @@ final class Class305_Sub1 extends Class305 {
 					}
 				}
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("ms.Q(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("ms.Q(" + i
 						+ ',' + i_61_ + ',' + (is != null ? "{...}" : "null")
 						+ ',' + i_62_ + ',' + i_63_ + ','
 						+ (class98_sub22 != null ? "{...}" : "null") + ','
@@ -592,7 +592,7 @@ final class Class305_Sub1 extends Class305 {
 				((Class98_Sub46_Sub17) class98_sub46_sub17).anInt6054 = i;
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ms.T(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ms.T(" + i + ','
 					+ i_94_ + ',' + i_95_ + ')'));
 		}
 	}
@@ -1348,7 +1348,7 @@ final class Class305_Sub1 extends Class305 {
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ms.AA(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ms.AA(" + i + ','
 					+ i_96_ + ',' + i_97_ + ',' + i_98_ + ',' + bool + ','
 					+ i_99_ + ',' + (var_ha != null ? "{...}" : "null") + ','
 					+ i_100_ + ',' + i_101_ + ',' + i_102_ + ','
@@ -1429,7 +1429,7 @@ final class Class305_Sub1 extends Class305 {
 				((Class305) this).aByteArrayArrayArray2550 = null;
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("ms.BA(" + bool + ',' + i + ','
 							+ (var_ha != null ? "{...}" : "null") + ')'));
 		}
@@ -1520,7 +1520,7 @@ final class Class305_Sub1 extends Class305 {
 					break;
 				anInt5303 = 81;
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("ms.W(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("ms.W(" + i
 						+ ',' + i_145_ + ','
 						+ (var_ha != null ? "{...}" : "null") + ','
 						+ (class243 != null ? "{...}" : "null") + ',' + i_146_
@@ -1575,7 +1575,7 @@ final class Class305_Sub1 extends Class305 {
 			}
 		} catch (Exception runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("ms.U("
+					.printError(runtimeexception, ("ms.U("
 							+ (class243s != null ? "{...}" : "null") + ',' + i
 							+ ',' + i_151_ + ','
 							+ (is != null ? "{...}" : "null") + ','

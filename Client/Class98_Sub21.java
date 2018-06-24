@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub21 extends Class98 {
+final class Class98_Sub21 extends Node {
 	int anInt3976;
 	int anInt3977;
 	String aString3978;
@@ -29,7 +29,7 @@ final class Class98_Sub21 extends Class98 {
 			}
 			return Class149.anInt1208;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "je.E(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "je.E(" + bool
 					+ ')');
 		}
 	}
@@ -44,7 +44,7 @@ final class Class98_Sub21 extends Class98 {
 			}
 			aShortArray3988 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "je.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "je.A(" + i + ')');
 		}
 	}
 
@@ -138,7 +138,7 @@ final class Class98_Sub21 extends Class98 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "je.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "je.C(" + i + ')');
 		}
 	}
 
@@ -152,7 +152,7 @@ final class Class98_Sub21 extends Class98 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "je.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "je.B(" + i + ','
 					+ i_2_ + ')');
 		}
 	}
@@ -164,7 +164,7 @@ final class Class98_Sub21 extends Class98 {
 					* i_5_ / i] >> -219666591);
 			return ((i_8_ * i_6_ >> -23038832) + (i_4_ * (65536 - i_8_) >> 1646652976));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("je.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("je.D(" + i + ','
 					+ i_3_ + ',' + i_4_ + ',' + i_5_ + ',' + i_6_ + ')'));
 		}
 	}

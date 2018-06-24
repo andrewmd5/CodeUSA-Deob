@@ -26,7 +26,7 @@ final class Class111_Sub2 extends Class111 {
 			aFloat4699 = aFloat4690 = aFloat4697 = aFloat4692 = aFloat4691 = aFloat4693 = aFloat4689 = 0.0F;
 			aFloat4696 = -aFloat4698;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ho.N(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ho.N(" + i + ')');
 		}
 	}
 
@@ -36,7 +36,7 @@ final class Class111_Sub2 extends Class111 {
 			aFloat4700 = aFloat4688 = aFloat4694 = 1.0F;
 			aFloat4692 = aFloat4693 = aFloat4699 = aFloat4698 = aFloat4690 = aFloat4696 = aFloat4697 = aFloat4691 = aFloat4689 = 0.0F;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ho.CA(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ho.CA(" + ')');
 		}
 	}
 
@@ -52,7 +52,7 @@ final class Class111_Sub2 extends Class111 {
 			is[1] = (int) (aFloat4698 * i_1_ + (aFloat4688 * i_0_ + aFloat4699
 					* i));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("ho.PA(" + i + ',' + i_0_ + ',' + i_1_ + ','
 							+ (is != null ? "{...}" : "null") + ')'));
 		}
@@ -67,7 +67,7 @@ final class Class111_Sub2 extends Class111 {
 			aFloat4689 = i_3_;
 			aFloat4692 = aFloat4693 = aFloat4699 = aFloat4698 = aFloat4690 = aFloat4696 = 0.0F;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ho.SA(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ho.SA(" + i + ','
 					+ i_2_ + ',' + i_3_ + ')'));
 		}
 	}
@@ -100,7 +100,7 @@ final class Class111_Sub2 extends Class111 {
 			aFloat4697 = (aFloat4700 * -i - i_4_ * aFloat4699 - i_5_
 					* aFloat4690);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("ho.U(" + i + ',' + i_4_ + ',' + i_5_ + ',' + i_6_ + ','
 							+ i_7_ + ',' + i_8_ + ')'));
 		}
@@ -115,7 +115,7 @@ final class Class111_Sub2 extends Class111 {
 			aFloat4699 = aFloat4697 = aFloat4692 = aFloat4696 = aFloat4691 = aFloat4698 = aFloat4689 = 0.0F;
 			aFloat4693 = -aFloat4690;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ho.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ho.F(" + i + ')');
 		}
 	}
 
@@ -132,7 +132,7 @@ final class Class111_Sub2 extends Class111 {
 			is[1] = (int) (aFloat4688 * f_16_ + aFloat4699 * f + aFloat4698
 					* f_17_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ho.LA("
+			throw Class64_Sub27.printError(runtimeexception, "ho.LA("
 					+ (is != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -155,7 +155,7 @@ final class Class111_Sub2 extends Class111 {
 			aFloat4697 = f_22_ * f + aFloat4689 * f_18_;
 			aFloat4689 = -(f_18_ * f_22_) + aFloat4689 * f;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ho.RA(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ho.RA(" + i + ')');
 		}
 	}
 
@@ -168,7 +168,7 @@ final class Class111_Sub2 extends Class111 {
 			aFloat4690 = aFloat4697 = aFloat4696 = aFloat4691 = aFloat4693 = aFloat4698 = aFloat4689 = 0.0F;
 			aFloat4699 = -aFloat4692;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ho.HA(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ho.HA(" + i + ')');
 		}
 	}
 
@@ -191,11 +191,15 @@ final class Class111_Sub2 extends Class111 {
 				i_29_ = i_26_ << 1259684257;
 			} while (false);
 			final int i_30_ = i_28_;
+			
 			return (short) (i_24_ << 450770282
 					| i_29_ >> 45825476 << -224459065 | i_30_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ho.A(" + i + ','
+		
+			throw Class64_Sub27.printError(runtimeexception, "ho.A(" + i + ','
 					+ i_23_ + ')');
+
+		
 		}
 	}
 
@@ -216,7 +220,7 @@ final class Class111_Sub2 extends Class111 {
 			aFloat4698 = class111_sub2_31_.aFloat4698;
 			aFloat4697 = class111_sub2_31_.aFloat4697;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ho.H("
+			throw Class64_Sub27.printError(runtimeexception, "ho.H("
 					+ (class111 != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -239,7 +243,7 @@ final class Class111_Sub2 extends Class111 {
 			aFloat4694 = f_35_ * f_32_ + f * aFloat4694;
 			aFloat4689 = f * aFloat4689 + f_32_ * f_36_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ho.O(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ho.O(" + i + ')');
 		}
 	}
 
@@ -261,7 +265,7 @@ final class Class111_Sub2 extends Class111 {
 			class111_sub2_37_.aFloat4688 = aFloat4688;
 			return class111_sub2_37_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ho.TA(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ho.TA(" + ')');
 		}
 	}
 
@@ -275,7 +279,7 @@ final class Class111_Sub2 extends Class111 {
 					* aFloat4692));
 			is[0] = (int) (i_39_ * aFloat4690 + (i * aFloat4700 + (aFloat4699 * i_38_)));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ho.MA(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ho.MA(" + i + ','
 					+ i_38_ + ',' + i_39_ + ','
 					+ (is != null ? "{...}" : "null") + ')'));
 		}
@@ -288,7 +292,7 @@ final class Class111_Sub2 extends Class111 {
 			aFloat4691 += i_40_;
 			aFloat4689 += i_41_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ho.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ho.G(" + i + ','
 					+ i_40_ + ',' + i_41_ + ')'));
 		}
 	}
@@ -311,7 +315,7 @@ final class Class111_Sub2 extends Class111 {
 			aFloat4696 = aFloat4696 * f + f_45_ * f_42_;
 			aFloat4691 = f_46_ * f_42_ + f * aFloat4691;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ho.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ho.C(" + i + ')');
 		}
 	}
 
@@ -323,7 +327,7 @@ final class Class111_Sub2 extends Class111 {
 			is[1] = (int) (aFloat4691 + (aFloat4696 * i_48_ + (aFloat4692 * i + (aFloat4688 * i_47_))));
 			is[0] = (int) (aFloat4697 + (aFloat4700 * i + i_47_ * aFloat4699 + (i_48_ * aFloat4690)));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ho.M(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ho.M(" + i + ','
 					+ i_47_ + ',' + i_48_ + ','
 					+ (is != null ? "{...}" : "null") + ')'));
 		}
@@ -333,7 +337,7 @@ final class Class111_Sub2 extends Class111 {
 		try {
 			method2091();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ho.<init>(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ho.<init>(" + ')');
 		}
 	}
 }

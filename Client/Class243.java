@@ -65,7 +65,7 @@ final class Class243 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pfa.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pfa.C(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ',' + i_4_
 					+ ',' + i_5_ + ',' + i_6_ + ',' + i_7_ + ',' + i_8_ + ')'));
 		}
@@ -259,7 +259,7 @@ final class Class243 {
 				method2940(i_23_, -1 + i_25_, 8388608, 106);
 				method2940(i_23_ - 1, i_25_, 33554432, 111);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("pfa.O(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("pfa.O(" + i
 						+ ',' + bool + ',' + i_21_ + ',' + bool_22_ + ','
 						+ i_23_ + ',' + i_24_ + ',' + i_25_ + ')'));
 			}
@@ -452,7 +452,7 @@ final class Class243 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pfa.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pfa.B(" + i + ','
 					+ i_27_ + ',' + i_28_ + ',' + i_29_ + ',' + i_30_ + ','
 					+ i_31_ + ',' + i_32_ + ',' + i_33_ + ')'));
 		}
@@ -514,7 +514,7 @@ final class Class243 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pfa.P(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pfa.P(" + i + ','
 					+ i_36_ + ',' + i_37_ + ',' + i_38_ + ',' + i_39_ + ','
 					+ i_40_ + ',' + i_41_ + ',' + i_42_ + ',' + i_43_ + ')'));
 		}
@@ -529,7 +529,7 @@ final class Class243 {
 			anIntArrayArray1853[i][i_46_] = Class202.method2702(
 					(anIntArrayArray1853[i][i_46_]), i_47_ ^ 0xffffffff);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pfa.N(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pfa.N(" + i + ','
 					+ i_46_ + ',' + i_47_ + ',' + i_48_ + ')'));
 		}
 	}
@@ -544,7 +544,7 @@ final class Class243 {
 			anIntArrayArray1853[i_50_][i] = Class41.method366(
 					(anIntArrayArray1853[i_50_][i]), 2097152);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pfa.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pfa.D(" + i + ','
 					+ i_49_ + ',' + i_50_ + ')'));
 		}
 	}
@@ -561,7 +561,7 @@ final class Class243 {
 				PlayerUpdate.aClass79_3411.method806((byte) 80);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pfa.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pfa.A(" + i + ')');
 		}
 	}
 
@@ -600,7 +600,7 @@ final class Class243 {
 			fs[0] = f_63_;
 			fs[1] = f_64_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pfa.E("
+			throw Class64_Sub27.printError(runtimeexception, ("pfa.E("
 					+ (fs != null ? "{...}" : "null") + ',' + i + ',' + i_51_
 					+ ',' + i_52_ + ',' + (fs_53_ != null ? "{...}" : "null")
 					+ ',' + i_54_ + ',' + i_55_ + ',' + f + ',' + i_56_ + ','
@@ -617,7 +617,7 @@ final class Class243 {
 						(anIntArrayArray1853[i_68_][i]), -2097153);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pfa.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pfa.H(" + i + ','
 					+ i_67_ + ',' + i_68_ + ')'));
 		}
 	}
@@ -813,7 +813,7 @@ final class Class243 {
 				method2947(i_71_, 8388608, (byte) -124, i + -1);
 				method2947(-1 + i_71_, 33554432, (byte) -117, i);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("pfa.K(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("pfa.K(" + i
 						+ ',' + bool + ',' + bool_69_ + ',' + i_70_ + ','
 						+ i_71_ + ',' + i_72_ + ',' + i_73_ + ')'));
 			}
@@ -831,7 +831,7 @@ final class Class243 {
 			anIntArrayArray1853[i][i_75_] = Class41.method366(
 					(anIntArrayArray1853[i][i_75_]), 262144);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pfa.I(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pfa.I(" + i + ','
 					+ i_74_ + ',' + i_75_ + ')'));
 		}
 	}
@@ -845,7 +845,7 @@ final class Class243 {
 			anIntArrayArray1853[i][i_78_] = Class41.method366(
 					(anIntArrayArray1853[i][i_78_]), i_76_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pfa.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pfa.G(" + i + ','
 					+ i_76_ + ',' + i_77_ + ',' + i_78_ + ')'));
 		}
 	}
@@ -860,7 +860,7 @@ final class Class243 {
 			anIntArrayArray1853[i][i_79_] = Class202.method2702(
 					(anIntArrayArray1853[i][i_79_]), -262145);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pfa.M(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("pfa.M(" + bool
 					+ ',' + i + ',' + i_79_ + ')'));
 		}
 	}
@@ -892,7 +892,7 @@ final class Class243 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pfa.L(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pfa.L(" + i + ','
 					+ bool + ',' + i_80_ + ',' + i_81_ + ',' + i_82_ + ','
 					+ bool_83_ + ',' + i_84_ + ')'));
 		}
@@ -916,7 +916,7 @@ final class Class243 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pfa.Q(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pfa.Q(" + i + ')');
 		}
 	}
 
@@ -956,7 +956,7 @@ final class Class243 {
 				}
 				method2938(-71, -69, -92, -110, 104, -115, 29, -10);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("pfa.J(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("pfa.J(" + i
 						+ ',' + bool + ',' + i_90_ + ',' + i_91_ + ',' + i_92_
 						+ ',' + bool_93_ + ',' + i_94_ + ',' + i_95_ + ')'));
 			}
@@ -1352,7 +1352,7 @@ final class Class243 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pfa.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pfa.F(" + i + ','
 					+ i_100_ + ',' + i_101_ + ',' + i_102_ + ',' + i_103_ + ','
 					+ i_104_ + ',' + i_105_ + ',' + i_106_ + ')'));
 		}

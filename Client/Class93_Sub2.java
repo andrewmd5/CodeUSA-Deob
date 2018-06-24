@@ -13,7 +13,7 @@ final class Class93_Sub2 extends Class93 {
 				((Class93_Sub2) this).anInt5490 = 109;
 			return Class137.aClass113_1078;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tu.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "tu.A(" + i + ')');
 		}
 	}
 
@@ -24,7 +24,7 @@ final class Class93_Sub2 extends Class93 {
 			((Class93_Sub2) this).anInt5490 = i_8_;
 			((Class93_Sub2) this).anInt5492 = i_7_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tu.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("tu.<init>("
 					+ (class63 != null ? "{...}" : "null") + ','
 					+ (class110 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ',' + i_4_
@@ -49,7 +49,7 @@ final class Class93_Sub2 extends Class93 {
 						Class123_Sub1.anInt4742, 18361, var_ha);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tu.C("
+			throw Class64_Sub27.printError(runtimeexception, ("tu.C("
 					+ (var_ha != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -63,7 +63,7 @@ final class Class93_Sub2 extends Class93 {
 				return false;
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tu.B(" + c + ','
+			throw Class64_Sub27.printError(runtimeexception, "tu.B(" + c + ','
 					+ i + ')');
 		}
 	}

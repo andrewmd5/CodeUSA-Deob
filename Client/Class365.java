@@ -18,7 +18,7 @@ final class Class365 {
 			i_1_ ^= 0xffffffff;
 			return i_1_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("wba.C(" + i + ',' + (is != null ? "{...}" : "null") + ','
 							+ i_0_ + ',' + bool + ')'));
 		}
@@ -31,7 +31,7 @@ final class Class365 {
 			}
 			int i_3_ = -50 / ((i - 38) / 62);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wba.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wba.E(" + i + ')');
 		}
 	}
 
@@ -44,7 +44,7 @@ final class Class365 {
 				method3939(54, null);
 			return class293_4_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("wba.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("wba.H(" + i + ','
 					+ (class293 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -72,7 +72,7 @@ final class Class365 {
 			}
 			return class149;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wba.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "wba.F(" + i + ','
 					+ i_5_ + ')');
 		}
 	}
@@ -108,7 +108,7 @@ final class Class365 {
 			} else
 				Class343.aString2863 += "x86_64/";
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("wba.G("
+			throw Class64_Sub27.printError(runtimeexception, ("wba.G("
 					+ (class207 != null ? "{...}" : "null") + ','
 					+ (class88 != null ? "{...}" : "null") + ',' + i + ')'));
 		}
@@ -119,7 +119,7 @@ final class Class365 {
 			int i_6_ = 38 / ((-74 - i) / 39);
 			aClass113_3109 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wba.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wba.B(" + i + ')');
 		}
 	}
 
@@ -131,7 +131,7 @@ final class Class365 {
 				aClass79_3108.method800((byte) 62, i);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wba.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "wba.D(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -145,7 +145,7 @@ final class Class365 {
 					aClass79_3108.method806((byte) 48);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wba.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wba.A(" + i + ')');
 		}
 	}
 
@@ -157,7 +157,7 @@ final class Class365 {
 					break;
 				aClass207_3107.method2761(0, 11);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("wba.<init>("
+				throw Class64_Sub27.printError(runtimeexception, ("wba.<init>("
 						+ (class279 != null ? "{...}" : "null") + ',' + i + ','
 						+ (class207 != null ? "{...}" : "null") + ')'));
 			}

@@ -77,7 +77,7 @@ final class RuntimeException_Sub1 extends RuntimeException {
 				}
 				method4012(false);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("ru.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("ru.B(" + i
 						+ ',' + i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_
 						+ ',' + i_4_ + ')'));
 			}
@@ -146,7 +146,7 @@ final class RuntimeException_Sub1 extends RuntimeException {
 				method4010(24, 114, 12, -24, 33, -8);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ru.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ru.A(" + i + ')');
 		}
 	}
 
@@ -166,7 +166,7 @@ final class RuntimeException_Sub1 extends RuntimeException {
 			}
 			return Class140.aClass47_3241.method450((byte) 3);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ru.D(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "ru.D(" + bool
 					+ ')');
 		}
 	}

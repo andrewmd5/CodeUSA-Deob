@@ -22,7 +22,7 @@ final class Class98_Sub10_Sub17 extends Class98_Sub10 {
 				}
 				method1053((byte) 11);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ks.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ks.B(" + i
 						+ ')');
 			}
 			break;
@@ -78,7 +78,7 @@ final class Class98_Sub10_Sub17 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ks.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ks.G(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -95,7 +95,7 @@ final class Class98_Sub10_Sub17 extends Class98_Sub10 {
 				anInt5622 = class98_sub22.readUnsignedShort((byte) 127);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("ks.A(" + i + ','
 							+ (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i_8_ + ')'));

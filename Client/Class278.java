@@ -176,7 +176,7 @@ class Class278 {
 		aClass335_2059 = class335;
 		anInterface6_2060 = interface6;
 		aClass377_2061.method3994(-107);
-		final int i = aClass207_2054.method2750((byte) -76, "details");
+		final int i = aClass207_2054.getResourceByName((byte) -76, "details");
 		final int[] is = aClass207_2054.method2743(i, 6341);
 		if (is != null) {
 			for (int i_10_ = 0; i_10_ < is.length; i_10_++) {
@@ -587,7 +587,7 @@ class Class278 {
 		for (int i_98_ = 0; i_98_ < i_96_; i_98_++) {
 			is_97_[i_98_] = class98_sub22.readUnsignedByte((byte) -8);
 		}
-		while (class98_sub22.position < class98_sub22.aByteArray3992.length) {
+		while (class98_sub22.position < class98_sub22.incomingBytes.length) {
 			if (class98_sub22.readUnsignedByte((byte) -111) == 0) {
 				final int i_99_ = class98_sub22.readUnsignedByte((byte) -115);
 				final int i_100_ = class98_sub22.readUnsignedByte((byte) 56);

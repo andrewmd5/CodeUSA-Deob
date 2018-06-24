@@ -23,7 +23,7 @@ abstract class Class77 {
 			Class64_Sub17.aClass207_3687 = class207;
 			Class64_Sub16.aClass207_3683 = class207_0_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fa.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fa.G(" + i + ','
 					+ (class207 != null ? "{...}" : "null") + ','
 					+ (is != null ? "{...}" : "null") + ','
 					+ (class207_0_ != null ? "{...}" : "null") + ')'));
@@ -43,7 +43,7 @@ abstract class Class77 {
 				}
 				method780(67, (byte) -65, 92);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "fa.H(" + i
+				throw Class64_Sub27.printError(runtimeexception, "fa.H(" + i
 						+ ')');
 			}
 			break;
@@ -56,7 +56,7 @@ abstract class Class77 {
 					.method2628(i_1_, i ^ ~0xd, 14);
 			class98_sub46_sub17.method1621(i ^ i);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fa.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "fa.E(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -77,7 +77,7 @@ abstract class Class77 {
 			}
 			return Class137.anIntArray1081[i_4_ & 0x3];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fa.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fa.F(" + i + ','
 					+ i_3_ + ',' + i_4_ + ')'));
 		}
 	}

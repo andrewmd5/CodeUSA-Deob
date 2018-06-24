@@ -30,7 +30,7 @@ final class Class53_Sub1 extends Class53 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jha.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "jha.F(" + i + ')');
 		}
 	}
 
@@ -45,7 +45,7 @@ final class Class53_Sub1 extends Class53 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jha.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "jha.G(" + i + ','
 					+ i_4_ + ')');
 		}
 	}
@@ -57,7 +57,7 @@ final class Class53_Sub1 extends Class53 {
 			}
 			aClass164_3633 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jha.J(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "jha.J(" + i + ')');
 		}
 	}
 
@@ -68,7 +68,7 @@ final class Class53_Sub1 extends Class53 {
 			}
 			return (Class98_Sub10_Sub36.aClass114Array5744[((Class53) this).anInt426]);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jha.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "jha.I(" + i + ')');
 		}
 	}
 
@@ -82,7 +82,7 @@ final class Class53_Sub1 extends Class53 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jha.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("jha.H(" + i + ','
 					+ i_5_ + ',' + i_6_ + ')'));
 		}
 	}

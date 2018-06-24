@@ -22,7 +22,7 @@ final class Class113 {
 					Class64_Sub10.aClass85_3667, Class242.aClass85_1849,
 					Class39.aClass85_362 });
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hda.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hda.B(" + i + ')');
 		}
 	}
 
@@ -35,7 +35,7 @@ final class Class113 {
 			Class169.anInt1307 = -1;
 			aa_Sub1.method155(i + 4364);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hda.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "hda.C(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -44,7 +44,7 @@ final class Class113 {
 		try {
 			throw new IllegalStateException();
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"hda.toString(" + ')');
 		}
 	}
@@ -55,7 +55,7 @@ final class Class113 {
 				aClass143_953 = null;
 			Class98_Sub9.aBoolean3851 = true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hda.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hda.D(" + i + ')');
 		}
 	}
 
@@ -65,7 +65,7 @@ final class Class113 {
 			if (i > 106)
 				aClass143_953 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hda.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hda.A(" + i + ')');
 		}
 	}
 
@@ -73,7 +73,7 @@ final class Class113 {
 		try {
 			((Class113) this).anInt955 = i_1_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hda.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("hda.<init>(" + i
 					+ ',' + i_1_ + ')'));
 		}
 	}

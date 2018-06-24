@@ -15,16 +15,16 @@ final class Class286 {
 					.method2628(i_0_, i + -72, i);
 			class98_sub46_sub17.method1621(0);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rp.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "rp.C(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
 
 	static final void method3381(final int i, final int i_1_, final int i_2_,
 			final int i_3_,
-			final Class246_Sub3_Sub4_Sub2 class246_sub3_sub4_sub2,
+			final Entity class246_sub3_sub4_sub2,
 			final int i_4_,
-			final Class246_Sub3_Sub4_Sub2 class246_sub3_sub4_sub2_5_,
+			final Entity class246_sub3_sub4_sub2_5_,
 			final int i_6_, final int i_7_, final int i_8_) {
 		try {
 			final int i_9_ = class246_sub3_sub4_sub2_5_.method3035(28213);
@@ -71,7 +71,7 @@ final class Class286 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("rp.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("rp.D(" + i + ','
 					+ i_1_ + ',' + i_2_ + ',' + i_3_ + ','
 					+ (class246_sub3_sub4_sub2 != null ? "{...}" : "null")
 					+ ',' + i_4_ + ','
@@ -94,7 +94,7 @@ final class Class286 {
 	}
 
 	static final int method3383(
-			final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2,
+			final Player class246_sub3_sub4_sub2_sub2,
 			final boolean bool) {
 		try {
 			if (bool != true) {
@@ -103,17 +103,17 @@ final class Class286 {
 			int i = (class246_sub3_sub4_sub2_sub2.anInt6522);
 			final Class294 class294 = class246_sub3_sub4_sub2_sub2
 					.method3039(1);
-			if ((((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6385) == -1
-					|| (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).aBoolean6359)) {
+			if ((((Entity) class246_sub3_sub4_sub2_sub2).anInt6385) == -1
+					|| (((Entity) class246_sub3_sub4_sub2_sub2).aBoolean6359)) {
 				i = class246_sub3_sub4_sub2_sub2.anInt6527;
-			} else if (((((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6385 ^ 0xffffffff) != (class294.anInt2389 ^ 0xffffffff))
-					&& ((class294.anInt2361 ^ 0xffffffff) != (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6385 ^ 0xffffffff))
-					&& ((((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6385 ^ 0xffffffff) != (class294.anInt2402 ^ 0xffffffff))
-					&& (class294.anInt2357 != ((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6385)) {
-				if ((((((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6385) ^ 0xffffffff) == (class294.anInt2368 ^ 0xffffffff))
-						|| ((class294.anInt2394 ^ 0xffffffff) == (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6385 ^ 0xffffffff))
-						|| (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6385 == class294.anInt2403)
-						|| ((((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6385 ^ 0xffffffff) == (class294.anInt2377 ^ 0xffffffff))) {
+			} else if (((((Entity) class246_sub3_sub4_sub2_sub2).anInt6385 ^ 0xffffffff) != (class294.anInt2389 ^ 0xffffffff))
+					&& ((class294.anInt2361 ^ 0xffffffff) != (((Entity) class246_sub3_sub4_sub2_sub2).anInt6385 ^ 0xffffffff))
+					&& ((((Entity) class246_sub3_sub4_sub2_sub2).anInt6385 ^ 0xffffffff) != (class294.anInt2402 ^ 0xffffffff))
+					&& (class294.anInt2357 != ((Entity) class246_sub3_sub4_sub2_sub2).anInt6385)) {
+				if ((((((Entity) class246_sub3_sub4_sub2_sub2).anInt6385) ^ 0xffffffff) == (class294.anInt2368 ^ 0xffffffff))
+						|| ((class294.anInt2394 ^ 0xffffffff) == (((Entity) class246_sub3_sub4_sub2_sub2).anInt6385 ^ 0xffffffff))
+						|| (((Entity) class246_sub3_sub4_sub2_sub2).anInt6385 == class294.anInt2403)
+						|| ((((Entity) class246_sub3_sub4_sub2_sub2).anInt6385 ^ 0xffffffff) == (class294.anInt2377 ^ 0xffffffff))) {
 					i = class246_sub3_sub4_sub2_sub2.anInt6524;
 				}
 			} else {
@@ -121,7 +121,7 @@ final class Class286 {
 			}
 			return i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("rp.B("
+			throw Class64_Sub27.printError(runtimeexception, ("rp.B("
 					+ ((class246_sub3_sub4_sub2_sub2 != null) ? "{...}"
 							: "null") + ',' + bool + ')'));
 		}

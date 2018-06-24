@@ -38,7 +38,7 @@ final class Class129 {
 			}
 			return new byte[i];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "io.D(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "io.D(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -47,7 +47,7 @@ final class Class129 {
 		try {
 			anIntArray1027 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "io.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "io.C(" + i + ')');
 		}
 	}
 
@@ -123,7 +123,7 @@ final class Class129 {
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("io.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("io.A(" + i
 						+ ',' + (is != null ? "{...}" : "null") + ')'));
 			}
 			break;

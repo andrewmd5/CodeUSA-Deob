@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-abstract class Class98_Sub10 extends Class98 {
+abstract class Class98_Sub10 extends Node {
 	Class98_Sub10[] aClass98_Sub10Array3857;
 	static boolean aBoolean3858;
 	Class223 aClass223_3859;
@@ -18,7 +18,7 @@ abstract class Class98_Sub10 extends Class98 {
 			throw new IllegalStateException(
 					"This operation does not have a monochrome output");
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dt.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "dt.G(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -28,7 +28,7 @@ abstract class Class98_Sub10 extends Class98 {
 			if (i_1_ > -92)
 				return;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("dt.A(" + i + ','
 							+ (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i_1_ + ')'));
@@ -40,7 +40,7 @@ abstract class Class98_Sub10 extends Class98 {
 			int i_2_ = 27 / ((i - -20) / 33);
 			return -1;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dt.S(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dt.S(" + i + ')');
 		}
 	}
 
@@ -56,7 +56,7 @@ abstract class Class98_Sub10 extends Class98 {
 				((Class98_Sub10) this).aClass223_3859 = null;
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dt.P(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dt.P(" + i + ')');
 		}
 	}
 
@@ -75,7 +75,7 @@ abstract class Class98_Sub10 extends Class98 {
 			is_5_[0] = is;
 			return is_5_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dt.L(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("dt.L(" + i + ','
 					+ i_3_ + ',' + i_4_ + ')'));
 		}
 	}
@@ -104,7 +104,7 @@ abstract class Class98_Sub10 extends Class98 {
 										Class374.anInt3159, (byte) 25)));
 						string += ((Class108
 								.method1730(
-										(Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660.anInt6519),
+										(Surface.player.combatLevel),
 										npc.npcCombatLevel, i + 16328))
 								+ " (" + string_6_ + npc.npcCombatLevel + ")");
 					}
@@ -119,7 +119,7 @@ abstract class Class98_Sub10 extends Class98 {
 							Class293.method3470(
 									false,
 									true,
-									(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6369),
+									(((Entity) class246_sub3_sub4_sub2_sub1).anInt6369),
 									Class336.anInt2823,
 									0,
 									(Class246_Sub3_Sub3.aString6156
@@ -127,7 +127,7 @@ abstract class Class98_Sub10 extends Class98 {
 									false,
 									0,
 									48,
-									(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6369),
+									(((Entity) class246_sub3_sub4_sub2_sub1).anInt6369),
 									-1, false, Class287_Sub2.aString3272);
 						}
 					}
@@ -171,7 +171,7 @@ abstract class Class98_Sub10 extends Class98 {
 									Class293.method3470(
 											false,
 											true,
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6369),
+											(((Entity) class246_sub3_sub4_sub2_sub1).anInt6369),
 											((strings[i_7_]
 													.equalsIgnoreCase(Class309.aClass309_2609
 															.method3615(
@@ -183,7 +183,7 @@ abstract class Class98_Sub10 extends Class98 {
 											false,
 											0,
 											i_8_,
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6369),
+											(((Entity) class246_sub3_sub4_sub2_sub1).anInt6369),
 											-1, false, strings[i_7_]);
 								}
 							}
@@ -197,7 +197,7 @@ abstract class Class98_Sub10 extends Class98 {
 																Class374.anInt3159,
 																(byte) 25)))) {
 									short i_11_ = 0;
-									if (((((Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt6519) ^ 0xffffffff) > (npc.npcCombatLevel ^ 0xffffffff)) // if
+									if (((((Surface.player).combatLevel) ^ 0xffffffff) > (npc.npcCombatLevel ^ 0xffffffff)) // if
 																																						// ((Not
 																																						// Modified)
 																																						// Player
@@ -235,11 +235,11 @@ abstract class Class98_Sub10 extends Class98 {
 									 * System.out
 									 * .println("Correct Player Combat Level: "
 									 * + (((((Surface.
-									 * aClass246_Sub3_Sub4_Sub2_Sub2_660
+									 * player
 									 * ).anInt6519) ^ 0xffffffff) * -1) - 1) +
 									 * " (Not Modified Player Combat Level: " +
 									 * (
-									 * ((Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660
+									 * ((Surface.player
 									 * ).anInt6519) ^ 0xffffffff) + ")");
 									 * System.out
 									 * .println("Correct Npc Combat Level: " +
@@ -272,14 +272,14 @@ abstract class Class98_Sub10 extends Class98 {
 									Class293.method3470(
 											false,
 											true,
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6369),
+											(((Entity) class246_sub3_sub4_sub2_sub1).anInt6369),
 											npc.anInt1099,
 											0,
 											"<col=ffff00>" + string,
 											false,
 											0,
 											i_12_,
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6369),
+											(((Entity) class246_sub3_sub4_sub2_sub1).anInt6369),
 											-1, false, strings[i_10_]);
 								}
 							}
@@ -288,20 +288,20 @@ abstract class Class98_Sub10 extends Class98 {
 					Class293.method3470(
 							false,
 							true,
-							((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6369,
+							((Entity) class246_sub3_sub4_sub2_sub1).anInt6369,
 							Class16.anInt190,
 							0,
 							"<col=ffff00>" + string,
 							false,
 							0,
 							1002,
-							((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6369,
+							((Entity) class246_sub3_sub4_sub2_sub1).anInt6369,
 							-1, bool, Class309.aClass309_2608.method3615(
 									Class374.anInt3159, (byte) 25));
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dt.N("
+			throw Class64_Sub27.printError(runtimeexception, ("dt.N("
 					+ ((class246_sub3_sub4_sub2_sub1 != null) ? "{...}"
 							: "null") + ',' + i + ',' + bool + ')'));
 		}
@@ -314,7 +314,7 @@ abstract class Class98_Sub10 extends Class98 {
 			}
 			return -1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dt.M(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dt.M(" + i + ')');
 		}
 	}
 
@@ -326,7 +326,7 @@ abstract class Class98_Sub10 extends Class98 {
 			throw new IllegalStateException(
 					"This operation does not have a colour output");
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dt.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "dt.C(" + i + ','
 					+ i_13_ + ')');
 		}
 	}
@@ -341,7 +341,7 @@ abstract class Class98_Sub10 extends Class98 {
 				aClass223_3859 = new Class223(i_16_, i, i_14_);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dt.O(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("dt.O(" + i + ','
 					+ i_14_ + ',' + i_15_ + ')'));
 		}
 	}
@@ -358,7 +358,7 @@ abstract class Class98_Sub10 extends Class98 {
 				Class61.method538(4, false);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dt.R(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dt.R(" + i + ')');
 		}
 	}
 
@@ -367,7 +367,7 @@ abstract class Class98_Sub10 extends Class98 {
 			aBoolean3861 = bool;
 			aClass98_Sub10Array3857 = new Class98_Sub10[i];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dt.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "dt.<init>(" + i
 					+ ',' + bool + ')');
 		}
 	}
@@ -382,7 +382,7 @@ abstract class Class98_Sub10 extends Class98 {
 			}
 			return (aClass98_Sub10Array3857[i_18_].method997(-94, i)[0]);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dt.Q(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("dt.Q(" + i + ','
 					+ i_18_ + ',' + i_19_ + ')'));
 		}
 	}
@@ -393,7 +393,7 @@ abstract class Class98_Sub10 extends Class98 {
 				anInt3860 = 121;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dt.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dt.I(" + i + ')');
 		}
 	}
 }

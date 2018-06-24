@@ -17,7 +17,7 @@ final class Class271 {
 			aLongArray2034 = null;
 			aClass326_2033 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qt.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qt.B(" + i + ')');
 		}
 	}
 
@@ -54,7 +54,7 @@ final class Class271 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qt.C("
+			throw Class64_Sub27.printError(runtimeexception, ("qt.C("
 					+ (is != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -256,7 +256,7 @@ final class Class271 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qt.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("qt.A(" + i + ','
 					+ i_4_ + ',' + (var_ha != null ? "{...}" : "null") + ','
 					+ (class155 != null ? "{...}" : "null") + ')'));
 		}

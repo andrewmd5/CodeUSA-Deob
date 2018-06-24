@@ -17,7 +17,7 @@ final class Class144 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jw.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "jw.A(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -29,7 +29,7 @@ final class Class144 {
 			}
 			aClass258_1168 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jw.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "jw.B(" + i + ')');
 		}
 	}
 }

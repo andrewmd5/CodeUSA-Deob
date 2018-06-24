@@ -16,7 +16,7 @@ final class Class284_Sub1_Sub1 extends Class284_Sub1 {
 				aClass200_6187 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ed.K(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ed.K(" + i + ')');
 		}
 	}
 
@@ -34,7 +34,7 @@ final class Class284_Sub1_Sub1 extends Class284_Sub1 {
 			method3361((byte) -37, i_1_, i, i_0_);
 			return aByteArray6188;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ed.J(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("ed.J(" + bool
 					+ ',' + i + ',' + i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -43,7 +43,7 @@ final class Class284_Sub1_Sub1 extends Class284_Sub1 {
 		try {
 			return l ^ l_2_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ed.L(" + l + ','
+			throw Class64_Sub27.printError(runtimeexception, "ed.L(" + l + ','
 					+ l_2_ + ')');
 		}
 	}
@@ -58,7 +58,7 @@ final class Class284_Sub1_Sub1 extends Class284_Sub1 {
 				aByteArray6188[i_5_] = i;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ed.M(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ed.M(" + i + ','
 					+ i_3_ + ',' + i_4_ + ')'));
 		}
 	}
@@ -73,11 +73,11 @@ final class Class284_Sub1_Sub1 extends Class284_Sub1 {
 				aClass263_6189 = null;
 			}
 			class98_sub22.position += (Class146_Sub3.aClass213_4949
-					.method2780(is.length, class98_sub22.aByteArray3992, 0,
+					.method2780(is.length, class98_sub22.incomingBytes, 0,
 							class98_sub22.position, is, 6350));
 			return -i_6_ + class98_sub22.position;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ed.N(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ed.N(" + i + ','
 					+ (string != null ? "{...}" : "null") + ','
 					+ (class98_sub22 != null ? "{...}" : "null") + ')'));
 		}

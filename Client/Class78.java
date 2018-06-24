@@ -88,7 +88,7 @@ final class Class78 {
 				}
 				break;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "fba.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "fba.B(" + i
 						+ ')');
 			}
 		} while (false);
@@ -105,7 +105,7 @@ final class Class78 {
 				}
 				method792(-125);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "fba.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "fba.A(" + i
 						+ ')');
 			}
 			break;

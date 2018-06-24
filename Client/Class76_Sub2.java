@@ -21,7 +21,7 @@ final class Class76_Sub2 extends Class76 {
 			((Class76) this).aHa_Sub3_585.method2019(Class1.aClass128_64,
 					Class288.aClass128_3381, 22831);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fs.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "fs.D(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -51,7 +51,7 @@ final class Class76_Sub2 extends Class76 {
 				return;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fs.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fs.E(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -66,7 +66,7 @@ final class Class76_Sub2 extends Class76 {
 				}
 				method748(52, false);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("fs.I(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("fs.I(" + i
 						+ ',' + i_3_ + ','
 						+ (interface4 != null ? "{...}" : "null") + ')'));
 			}
@@ -84,7 +84,7 @@ final class Class76_Sub2 extends Class76 {
 				}
 				method751(-105, null, 58, null, -58, 58, 30, -85, -104);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "fs.F(" + i
+				throw Class64_Sub27.printError(runtimeexception, "fs.F(" + i
 						+ ')');
 			}
 			break;
@@ -113,7 +113,7 @@ final class Class76_Sub2 extends Class76 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fs.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fs.G(" + i + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_4_ + ','
 					+ (is_5_ != null ? "{...}" : "null") + ',' + i_6_ + ','
 					+ i_7_ + ',' + i_8_ + ',' + i_9_ + ',' + i_10_ + ')'));
@@ -131,7 +131,7 @@ final class Class76_Sub2 extends Class76 {
 			((Class76) this).aHa_Sub3_585.method2051(0, -128,
 					IncomingOpcode.aClass65_459);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fs.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "fs.B(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -148,7 +148,7 @@ final class Class76_Sub2 extends Class76 {
 			OpenGL.glDisable(34820);
 			OpenGL.glDisable(34336);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fs.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "fs.C(" + i + ')');
 		}
 	}
 
@@ -156,8 +156,8 @@ final class Class76_Sub2 extends Class76 {
 			final int i_16_, final int i_17_, final int i_18_, final int i_19_,
 			final int i_20_, final boolean bool, final int i_21_) {
 		try {
-			final int i_22_ = (((Class246_Sub3_Sub4_Sub2) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anIntArray6437[0]);
-			final int i_23_ = (((Class246_Sub3_Sub4_Sub2) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anIntArray6438[0]);
+			final int i_22_ = (((Entity) Surface.player).anIntArray6437[0]);
+			final int i_23_ = (((Entity) Surface.player).anIntArray6438[0]);
 			if (i_22_ < 0 || Class165.anInt1276 <= i_22_ || i_23_ < 0
 					|| i_23_ >= Class98_Sub10_Sub7.anInt5572) {
 				return false;
@@ -170,8 +170,8 @@ final class Class76_Sub2 extends Class76 {
 			}
 			final int i_24_ = (Applet_Sub1
 					.method96(
-							(Class167.aClass243Array1281[((Class246_Sub3) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).aByte5088]),
-							Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660
+							(Class167.aClass243Array1281[((Class246_Sub3) Surface.player).aByte5088]),
+							Surface.player
 									.method3034(0),
 							Class76_Sub5.anIntArray3743, i_15_, i, i_19_,
 							i_16_, i_23_, Class117.anIntArray974, bool, i_20_,
@@ -187,7 +187,7 @@ final class Class76_Sub2 extends Class76 {
 			ByteBuffer.method1216(-17470);
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fs.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fs.A(" + i + ','
 					+ i_15_ + ',' + i_16_ + ',' + i_17_ + ',' + i_18_ + ','
 					+ i_19_ + ',' + i_20_ + ',' + bool + ',' + i_21_ + ')'));
 		}
@@ -208,7 +208,7 @@ final class Class76_Sub2 extends Class76 {
 						aHa_Sub3_Sub2_3730, 34336, 25246));
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fs.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("fs.<init>("
 					+ (var_ha_Sub3_Sub2 != null ? "{...}" : "null") + ','
 					+ (class207 != null ? "{...}" : "null") + ','
 					+ (class195 != null ? "{...}" : "null") + ')'));
@@ -226,7 +226,7 @@ final class Class76_Sub2 extends Class76 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fs.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "fs.H(" + i + ')');
 		}
 	}
 }

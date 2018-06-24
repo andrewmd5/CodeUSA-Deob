@@ -27,7 +27,7 @@ final class Class260 implements d {
 					aClass238Array3252[i_1_].aBoolean1824, f, i_2_, this,
 					aClass207_3257, (byte) 79, i_0_));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("qf.I(" + i + ',' + i_0_ + ',' + i_1_ + ',' + f + ','
 							+ bool + ',' + i_2_ + ')'));
 		}
@@ -41,7 +41,7 @@ final class Class260 implements d {
 			}
 			return anInt3255;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qf.G(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "qf.G(" + bool
 					+ ')');
 		}
 	}
@@ -65,7 +65,7 @@ final class Class260 implements d {
 			aClass100_3253.method1695(26404, class98_sub46_sub19, i);
 			return class98_sub46_sub19;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qf.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "qf.B(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -107,7 +107,7 @@ final class Class260 implements d {
 				}
 				method3209(42);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("qf.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("qf.D(" + i
 						+ ',' + (is != null ? "{...}" : "null") + ','
 						+ (strings != null ? "{...}" : "null") + ',' + i_3_
 						+ ',' + i_4_ + ')'));
@@ -127,7 +127,7 @@ final class Class260 implements d {
 					aClass238Array3252[i].aBoolean1824, aClass207_3257, i_13_,
 					(byte) -34));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("qf.E(" + i + ',' + i_11_ + ',' + i_12_ + ',' + f + ','
 							+ bool + ',' + i_13_ + ')'));
 		}
@@ -144,7 +144,7 @@ final class Class260 implements d {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qf.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "qf.F(" + i + ','
 					+ i_14_ + ')');
 		}
 	}
@@ -160,7 +160,7 @@ final class Class260 implements d {
 			Class98_Sub46_Sub20.anInt6074 = i_18_;
 			Class282.anInt2132 = i_17_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qf.J(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("qf.J(" + i + ','
 					+ i_16_ + ',' + i_17_ + ',' + i_18_ + ',' + i_19_ + ')'));
 		}
 	}
@@ -176,7 +176,7 @@ final class Class260 implements d {
 					(byte) -86, i_22_, i_21_,
 					aClass238Array3252[i_20_].aBoolean1824));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("qf.H(" + i + ',' + bool + ',' + i_20_ + ',' + i_21_ + ','
 							+ f + ',' + i_22_ + ')'));
 		}
@@ -209,7 +209,7 @@ final class Class260 implements d {
 				aClass326_3263 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qf.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qf.C(" + i + ')');
 		}
 	}
 
@@ -341,7 +341,7 @@ final class Class260 implements d {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qf.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("qf.<init>("
 					+ (class207 != null ? "{...}" : "null") + ','
 					+ (class207_24_ != null ? "{...}" : "null") + ','
 					+ (class207_25_ != null ? "{...}" : "null") + ')'));

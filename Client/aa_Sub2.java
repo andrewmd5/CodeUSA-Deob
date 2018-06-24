@@ -15,7 +15,7 @@ final class aa_Sub2 extends aa {
 			aClass171_3564 = null;
 			anIntArray3565 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hu.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hu.A(" + i + ')');
 		}
 	}
 
@@ -25,7 +25,7 @@ final class aa_Sub2 extends aa {
 					i, Class53_Sub1.aClass164_3633, (byte) 87, is, false, i_0_);
 			((aa_Sub2) this).anInterface4_Impl2_3563.method46(false, false, 76);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hu.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("hu.<init>("
 					+ (var_ha_Sub3 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_0_ + ',' + (is != null ? "{...}" : "null") + ')'));
 		}
@@ -37,7 +37,7 @@ final class aa_Sub2 extends aa {
 					i, i_1_, (byte) 31, is, false);
 			((aa_Sub2) this).anInterface4_Impl2_3563.method46(false, false, 77);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hu.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("hu.<init>("
 					+ (var_ha_Sub3 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_1_ + ',' + (is != null ? "{...}" : "null") + ')'));
 		}

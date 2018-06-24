@@ -3,7 +3,7 @@
  */
 import java.awt.Frame;
 
-final class Class98_Sub18 extends Class98 {
+final class Class98_Sub18 extends Node {
 	int anInt3945;
 	static IncomingOpcode aClass58_3946 = new IncomingOpcode(88, -2);
 	int anInt3947;
@@ -22,7 +22,7 @@ final class Class98_Sub18 extends Class98 {
 			}
 			aFrame3950 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hr.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hr.B(" + i + ')');
 		}
 	}
 
@@ -46,7 +46,7 @@ final class Class98_Sub18 extends Class98 {
 		try {
 			return bool | bool_2_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hr.C(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("hr.C(" + bool
 					+ ',' + bool_2_ + ')'));
 		}
 	}

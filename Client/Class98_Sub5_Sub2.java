@@ -44,7 +44,7 @@ final class Class98_Sub5_Sub2 extends Class98_Sub5 {
 			}
 			return stringbuffer.toString();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("im.M(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("im.M(" + i + ','
 					+ (strings != null ? "{...}" : "null") + ',' + i_0_ + ','
 					+ i_1_ + ')'));
 		}
@@ -60,7 +60,7 @@ final class Class98_Sub5_Sub2 extends Class98_Sub5 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("im.K(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("im.K(" + i + ','
 					+ i_6_ + ',' + i_7_ + ')'));
 		}
 	}
@@ -89,7 +89,7 @@ final class Class98_Sub5_Sub2 extends Class98_Sub5 {
 				Class341.method3812(class293);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("im.L(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("im.L(" + i + ','
 					+ (class293 != null ? "{...}" : "null") + ',' + i_8_ + ','
 					+ i_9_ + ')'));
 		}
@@ -103,7 +103,7 @@ final class Class98_Sub5_Sub2 extends Class98_Sub5 {
 			}
 			((Class98_Sub5) this).aFloat3832 = f;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "im.D(" + f + ','
+			throw Class64_Sub27.printError(runtimeexception, "im.D(" + f + ','
 					+ i + ')');
 		}
 	}
@@ -124,7 +124,7 @@ final class Class98_Sub5_Sub2 extends Class98_Sub5 {
 			((Class98_Sub5) this).anInt3830 = i_16_;
 			((Class98_Sub5) this).anInt3834 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("im.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("im.A(" + i + ','
 					+ i_14_ + ',' + i_15_ + ',' + i_16_ + ')'));
 		}
 	}

@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub37 extends Class98 {
+final class Class98_Sub37 extends Node {
 	private Class98_Sub5 aClass98_Sub5_4163;
 	private ha_Sub1 aHa_Sub1_4164;
 	private float[][] aFloatArrayArray4165;
@@ -60,7 +60,7 @@ final class Class98_Sub37 extends Class98 {
 			fs_8_[0] = f_12_;
 			fs_8_[1] = f_13_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pp.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pp.C(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ',' + i_4_
 					+ ',' + (fs != null ? "{...}" : "null") + ',' + f + ','
 					+ i_5_ + ',' + i_6_ + ',' + f_7_ + ','
@@ -98,7 +98,7 @@ final class Class98_Sub37 extends Class98 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pp.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pp.B(" + i + ','
 					+ i_16_ + ',' + i_17_ + ','
 					+ (bools != null ? "{...}" : "null") + ',' + i_18_ + ')'));
 		}
@@ -117,10 +117,10 @@ final class Class98_Sub37 extends Class98 {
 				final int i_31_ = aS_Sub1_4182.method3417(i_29_, i_30_, true);
 				if ((i_26_ & 0x7f ^ 0xffffffff) == -1 || (i_23_ & 0x7f) == 0) {
 					l = ((0xffffL & i_30_) << 1522918928 | 0xffffL & i_29_);
-					final Class98 class98 = aClass377_4179.method3990(l, -1);
-					if (class98 != null) {
+					final Node node = aClass377_4179.method3990(l, -1);
+					if (node != null) {
 						method1464(1522918928,
-								(((Class98_Sub40) class98).aShort4191));
+								(((Class98_Sub40) node).aShort4191));
 						break;
 					}
 				}
@@ -239,7 +239,7 @@ final class Class98_Sub37 extends Class98 {
 				}
 				method1463((byte) -76);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("pp.E(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("pp.E(" + i
 						+ ',' + i_23_ + ',' + i_24_ + ',' + i_25_ + ',' + i_26_
 						+ ',' + i_27_ + ',' + i_28_ + ')'));
 			}
@@ -256,7 +256,7 @@ final class Class98_Sub37 extends Class98 {
 			aClass225_4178 = null;
 			aHa4185 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pp.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pp.A(" + i + ')');
 		}
 	}
 
@@ -275,7 +275,7 @@ final class Class98_Sub37 extends Class98 {
 				aClass171_4168 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pp.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "pp.D(" + i + ','
 					+ i_56_ + ')');
 		}
 	}
@@ -471,7 +471,7 @@ final class Class98_Sub37 extends Class98 {
 					i_71_++;
 				}
 				anInterface8_4169 = (aHa_Sub1_4164.method1838(5123,
-						aClass98_Sub22_4170.aByteArray3992, 7, false,
+						aClass98_Sub22_4170.incomingBytes, 7, false,
 						aClass98_Sub22_4170.position));
 				anInterface16_4176 = aHa_Sub1_4164
 						.method1878(
@@ -479,7 +479,7 @@ final class Class98_Sub37 extends Class98 {
 								false,
 								16,
 								-55,
-								(((ByteBuffer) aClass98_Sub22_Sub2_4166).aByteArray3992));
+								(((ByteBuffer) aClass98_Sub22_Sub2_4166).incomingBytes));
 				aClass104_4180 = new Class104(anInterface16_4176, 5126, 3, 0);
 				aClass104_4183 = new Class104(anInterface16_4176, 5121, 4, 12);
 			} else {
@@ -493,7 +493,7 @@ final class Class98_Sub37 extends Class98 {
 			aClass377_4179 = null;
 			aClass98_Sub22_4170 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pp.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("pp.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ','
 					+ (var_s_Sub1 != null ? "{...}" : "null") + ','
 					+ (class98_sub5 != null ? "{...}" : "null") + ','

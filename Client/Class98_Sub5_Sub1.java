@@ -43,7 +43,7 @@ final class Class98_Sub5_Sub1 extends Class98_Sub5 {
 			}
 			throw new IllegalArgumentException("");
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fi.K("
+			throw Class64_Sub27.printError(runtimeexception, ("fi.K("
 					+ (class162 != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -55,7 +55,7 @@ final class Class98_Sub5_Sub1 extends Class98_Sub5 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fi.N(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "fi.N(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -90,7 +90,7 @@ final class Class98_Sub5_Sub1 extends Class98_Sub5 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fi.L(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "fi.L(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -106,7 +106,7 @@ final class Class98_Sub5_Sub1 extends Class98_Sub5 {
 			}
 			((Class98_Sub5) this).anInt3830 = i_5_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fi.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fi.A(" + i + ','
 					+ i_3_ + ',' + i_4_ + ',' + i_5_ + ')'));
 		}
 	}
@@ -123,7 +123,7 @@ final class Class98_Sub5_Sub1 extends Class98_Sub5 {
 				aColorArray5533 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fi.M(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "fi.M(" + i + ')');
 		}
 	}
 
@@ -137,7 +137,7 @@ final class Class98_Sub5_Sub1 extends Class98_Sub5 {
 				}
 				method955(55, (byte) 80, -52, 106);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "fi.D(" + f
+				throw Class64_Sub27.printError(runtimeexception, "fi.D(" + f
 						+ ',' + i + ')');
 			}
 			break;

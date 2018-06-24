@@ -38,7 +38,7 @@ final class Class19 implements Interface18 {
 						i_1_, aClass315_3446.anInt3526);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bh.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "bh.B(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -59,7 +59,7 @@ final class Class19 implements Interface18 {
 			}
 			return bool;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bh.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bh.A(" + i + ')');
 		}
 	}
 
@@ -75,7 +75,7 @@ final class Class19 implements Interface18 {
 					.method1804(class197, Class324.method3684(aClass207_3445,
 							aClass315_3446.anInt3525), true));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bh.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bh.C(" + i + ')');
 		}
 	}
 
@@ -90,7 +90,7 @@ final class Class19 implements Interface18 {
 			aShortArray3447 = null;
 			aString3448 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bh.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bh.D(" + i + ')');
 		}
 	}
 
@@ -101,7 +101,7 @@ final class Class19 implements Interface18 {
 			aClass315_3446 = class315;
 			aClass207_3449 = class207_2_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bh.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("bh.<init>("
 					+ (class207 != null ? "{...}" : "null") + ','
 					+ (class207_2_ != null ? "{...}" : "null") + ','
 					+ (class315 != null ? "{...}" : "null") + ')'));

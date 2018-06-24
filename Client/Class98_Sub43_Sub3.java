@@ -44,7 +44,7 @@ final class Class98_Sub43_Sub3 extends Class98_Sub43 {
 					anInt5929 = 0;
 				aDecoderContext5923.setPostProcessingLevel(anInt5929);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "sb.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "sb.B(" + i
 						+ ',' + i_0_ + ')');
 			}
 			break;
@@ -60,7 +60,7 @@ final class Class98_Sub43_Sub3 extends Class98_Sub43 {
 
 			return ((float) aTheoraInfo5914.fpsNumerator / (float) aTheoraInfo5914.fpsDenominator);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sb.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sb.H(" + i + ')');
 		}
 	}
 
@@ -72,7 +72,7 @@ final class Class98_Sub43_Sub3 extends Class98_Sub43 {
 				aClass65_5926 = null;
 			aClass65_5926 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sb.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sb.A(" + i + ')');
 		}
 	}
 
@@ -82,7 +82,7 @@ final class Class98_Sub43_Sub3 extends Class98_Sub43 {
 				method1500(true);
 			return aBoolean5927;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sb.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sb.G(" + i + ')');
 		}
 	}
 
@@ -139,7 +139,7 @@ final class Class98_Sub43_Sub3 extends Class98_Sub43 {
 					break;
 				anInt5924 = -89;
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("sb.J(" + (oggpacket != null ? "{...}" : "null") + ','
 								+ bool + ')'));
 			}
@@ -154,7 +154,7 @@ final class Class98_Sub43_Sub3 extends Class98_Sub43 {
 			aTheoraInfo5914 = new TheoraInfo();
 			aTheoraComment5921 = new TheoraComment();
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sb.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("sb.<init>("
 					+ (oggstreamstate != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -182,7 +182,7 @@ final class Class98_Sub43_Sub3 extends Class98_Sub43 {
 			}
 			return false;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sb.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "sb.F(" + i + ','
 					+ c + ')');
 		}
 	}
@@ -193,7 +193,7 @@ final class Class98_Sub43_Sub3 extends Class98_Sub43 {
 				return -59L;
 			return aLong5920;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sb.E(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "sb.E(" + bool
 					+ ')');
 		}
 	}
@@ -216,7 +216,7 @@ final class Class98_Sub43_Sub3 extends Class98_Sub43 {
 				aTheoraComment5921 = null;
 			aSetupInfo5928.a();
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sb.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sb.C(" + i + ')');
 		}
 	}
 
@@ -233,7 +233,7 @@ final class Class98_Sub43_Sub3 extends Class98_Sub43 {
 			aBoolean5912 = false;
 			return aClass332_5917;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sb.D("
+			throw Class64_Sub27.printError(runtimeexception, ("sb.D("
 					+ (var_ha != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -244,7 +244,7 @@ final class Class98_Sub43_Sub3 extends Class98_Sub43 {
 				method1500(false);
 			return aDouble5915;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sb.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sb.I(" + i + ')');
 		}
 	}
 

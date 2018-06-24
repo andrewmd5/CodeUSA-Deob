@@ -15,7 +15,7 @@ class Class224 {
 				aClass326_1686 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "of.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "of.E(" + i + ')');
 		}
 	}
 }

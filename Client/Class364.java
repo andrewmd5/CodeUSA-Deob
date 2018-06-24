@@ -50,7 +50,7 @@ final class Class364 {
 			aClass79_3106.method805(i_0_, class42_sub1, (byte) -80);
 			return class42_sub1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vw.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "vw.C(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -86,7 +86,7 @@ final class Class364 {
 			} while (false);
 			return 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vw.E(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "vw.E(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -98,7 +98,7 @@ final class Class364 {
 			}
 			aClass79_3106.method800((byte) 62, 5);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vw.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vw.B(" + i + ')');
 		}
 	}
 
@@ -109,7 +109,7 @@ final class Class364 {
 			}
 			aClass79_3106.method794(i + 13);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vw.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vw.F(" + i + ')');
 		}
 	}
 
@@ -122,7 +122,7 @@ final class Class364 {
 			anIntArray3102 = null;
 			aClass88_3104 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vw.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vw.D(" + i + ')');
 		}
 	}
 
@@ -131,7 +131,7 @@ final class Class364 {
 			aD3101 = var_d;
 			aHa_Sub1_3105 = var_ha_Sub1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vw.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("vw.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ','
 					+ (var_d != null ? "{...}" : "null") + ')'));
 		}

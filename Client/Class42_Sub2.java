@@ -23,7 +23,7 @@ final class Class42_Sub2 extends Class42 {
 			}
 			method372(-28003, true);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hw.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("hw.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_0_ + ')'));
 		}
@@ -106,7 +106,7 @@ final class Class42_Sub2 extends Class42 {
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "hw.C(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "hw.C(" + bool
 						+ ')');
 			}
 			break;
@@ -126,7 +126,7 @@ final class Class42_Sub2 extends Class42 {
 			}
 			method372(-28003, true);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hw.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("hw.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_13_ + ',' + bool + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_14_ + ')'));
@@ -155,7 +155,7 @@ final class Class42_Sub2 extends Class42 {
 			}
 			method372(-28003, true);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hw.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("hw.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_16_ + ',' + bool + ','
 					+ (is != null ? "{...}" : "null") + ')'));
@@ -172,7 +172,7 @@ final class Class42_Sub2 extends Class42 {
 			anInt5358 = -1;
 			anInt5360 = -1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hw.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hw.B(" + i + ')');
 		}
 	}
 
@@ -200,11 +200,11 @@ final class Class42_Sub2 extends Class42 {
 			class98_sub22.method1205(Class98_Sub45.aBigInteger4253, true,
 					Class138.aBigInteger1082);
 			class98_sub11.aClass98_Sub22_Sub1_3865.method1217(
-					class98_sub22.aByteArray3992, class98_sub22.position, i
+					class98_sub22.incomingBytes, class98_sub22.position, i
 							+ -12207, 0);
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hw.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("hw.D(" + i + ','
 					+ (class98_sub11 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -216,7 +216,7 @@ final class Class42_Sub2 extends Class42 {
 			}
 			aClass324_5359 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hw.E(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "hw.E(" + bool
 					+ ')');
 		}
 	}
@@ -229,7 +229,7 @@ final class Class42_Sub2 extends Class42 {
 			anInt5360 = i_21_;
 			anInt5358 = i_23_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hw.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("hw.A(" + i + ','
 					+ i_21_ + ',' + i_22_ + ',' + i_23_ + ',' + i_24_ + ')'));
 		}
 	}

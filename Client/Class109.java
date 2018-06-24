@@ -20,7 +20,7 @@ final class Class109 {
 		try {
 			return new oa(canvas, var_d, i, i_1_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gu.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gu.B(" + i + ','
 					+ i_0_ + ',' + i_1_ + ','
 					+ (canvas != null ? "{...}" : "null") + ','
 					+ (var_d != null ? "{...}" : "null") + ')'));
@@ -39,7 +39,7 @@ final class Class109 {
 			}
 			return new Class197(is);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gu.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gu.E(" + i + ','
 					+ i_3_ + ',' + i_4_ + ','
 					+ (class207 != null ? "{...}" : "null") + ')'));
 		}
@@ -53,7 +53,7 @@ final class Class109 {
 			}
 			return method1738(true, class17_5_, i_6_, class17, 96);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("gu.F(" + i + ',' + (class17 != null ? "{...}" : "null")
 							+ ',' + (class17_5_ != null ? "{...}" : "null")
 							+ ',' + i_6_ + ')'));
@@ -80,7 +80,7 @@ final class Class109 {
 			class98_sub22.position = 5;
 			final int i_7_ = class98_sub22.readUnsignedByte((byte) -99);
 			class98_sub22.position += 72 * i_7_;
-			final byte[] is = (new byte[(class98_sub22.aByteArray3992.length - class98_sub22.position)]);
+			final byte[] is = (new byte[(class98_sub22.incomingBytes.length - class98_sub22.position)]);
 			class98_sub22.method1190(is, true, is.length, 0);
 			// byte[] is_8_;
 			// if (aBigInteger927 != null && aBigInteger929 != null) {
@@ -108,7 +108,7 @@ final class Class109 {
 			aClass339_Sub1Array931 = new Class339_Sub1[i_7_];
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gu.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gu.A(" + i + ')');
 		}
 	}
 
@@ -127,7 +127,7 @@ final class Class109 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gu.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gu.D(" + i + ')');
 		}
 	}
 
@@ -147,7 +147,7 @@ final class Class109 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gu.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gu.C(" + i + ')');
 		}
 	}
 
@@ -163,7 +163,7 @@ final class Class109 {
 				aClass98_Sub46_Sub13_Sub1_932 = aClass135_928.method2252(255,
 						(byte) 0, 255, 105, true);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("gu.<init>("
+				throw Class64_Sub27.printError(runtimeexception, ("gu.<init>("
 						+ (class135 != null ? "{...}" : "null") + ','
 						+ (class253 != null ? "{...}" : "null") + ','
 						+ (biginteger != null ? "{...}" : "null") + ','
@@ -201,7 +201,7 @@ final class Class109 {
 			aClass339_Sub1Array931[i] = class339_sub1;
 			return class339_sub1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gu.G(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("gu.G(" + bool
 					+ ',' + (class17 != null ? "{...}" : "null") + ',' + i
 					+ ',' + (class17_16_ != null ? "{...}" : "null") + ','
 					+ i_17_ + ')'));

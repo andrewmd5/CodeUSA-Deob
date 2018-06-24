@@ -16,7 +16,7 @@ final class Class11 {
 			aClass293_120 = null;
 			anIntArray123 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aq.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "aq.E(" + i + ')');
 		}
 	}
 
@@ -32,7 +32,7 @@ final class Class11 {
 				method203(false, 10);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aq.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "aq.B(" + i + ')');
 		}
 	}
 
@@ -48,7 +48,7 @@ final class Class11 {
 				method199((byte) 127);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aq.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "aq.A(" + i + ')');
 		}
 	}
 
@@ -78,7 +78,7 @@ final class Class11 {
 			}
 			return class231;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aq.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "aq.D(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -95,7 +95,7 @@ final class Class11 {
 				aClass79_126.method800((byte) 62, i);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aq.C(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "aq.C(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -107,7 +107,7 @@ final class Class11 {
 			aClass207_124 = class207_2_;
 			aClass207_122.method2761(0, 33);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("aq.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("aq.<init>("
 					+ (class279 != null ? "{...}" : "null") + ',' + i + ','
 					+ (class207 != null ? "{...}" : "null") + ','
 					+ (class207_2_ != null ? "{...}" : "null") + ')'));

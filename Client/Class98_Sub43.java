@@ -4,7 +4,7 @@
 import jagtheora.ogg.OggPacket;
 import jagtheora.ogg.OggStreamState;
 
-abstract class Class98_Sub43 extends Class98 {
+abstract class Class98_Sub43 extends Node {
 	int anInt4240;
 	OggStreamState anOggStreamState4241;
 	static int anInt4242;
@@ -21,7 +21,7 @@ abstract class Class98_Sub43 extends Class98 {
 				}
 				aBoolean4243 = true;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "rd.N(" + i
+				throw Class64_Sub27.printError(runtimeexception, "rd.N(" + i
 						+ ')');
 			}
 			break;
@@ -35,37 +35,37 @@ abstract class Class98_Sub43 extends Class98 {
 			final int i_1_, final int[] is) {
 		do {
 			try {
-				if ((((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anIntArray6373) != null) {
+				if ((((Entity) class246_sub3_sub4_sub2_sub1).anIntArray6373) != null) {
 					boolean bool = true;
-					for (int i_2_ = 0; (i_2_ ^ 0xffffffff) > ((((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anIntArray6373).length ^ 0xffffffff); i_2_++) {
-						if (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anIntArray6373[i_2_] != is[i_2_]) {
+					for (int i_2_ = 0; (i_2_ ^ 0xffffffff) > ((((Entity) class246_sub3_sub4_sub2_sub1).anIntArray6373).length ^ 0xffffffff); i_2_++) {
+						if (((Entity) class246_sub3_sub4_sub2_sub1).anIntArray6373[i_2_] != is[i_2_]) {
 							bool = false;
 							break;
 						}
 					}
 					if (bool
-							&& ((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6413 != -1) {
+							&& ((Entity) class246_sub3_sub4_sub2_sub1).anInt6413 != -1) {
 						final AnimationDefinition class97 = (Class151_Sub7.aClass183_5001
 								.method2623(
-										((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6413,
+										((Entity) class246_sub3_sub4_sub2_sub1).anInt6413,
 										16383));
 						final int i_3_ = class97.anInt819;
 						if (i_3_ == 1) {
-							((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6405 = 0;
-							((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6400 = i;
-							((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6393 = 0;
-							((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6366 = 0;
-							((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6361 = 1;
-							if (!((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).aBoolean6371) {
+							((Entity) class246_sub3_sub4_sub2_sub1).anInt6405 = 0;
+							((Entity) class246_sub3_sub4_sub2_sub1).anInt6400 = i;
+							((Entity) class246_sub3_sub4_sub2_sub1).anInt6393 = 0;
+							((Entity) class246_sub3_sub4_sub2_sub1).anInt6366 = 0;
+							((Entity) class246_sub3_sub4_sub2_sub1).anInt6361 = 1;
+							if (!((Entity) class246_sub3_sub4_sub2_sub1).aBoolean6371) {
 								Class349.method3840(
 										(byte) -126,
 										class246_sub3_sub4_sub2_sub1,
-										((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6393,
+										((Entity) class246_sub3_sub4_sub2_sub1).anInt6393,
 										class97);
 							}
 						}
 						if (i_3_ == 2) {
-							((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6405 = 0;
+							((Entity) class246_sub3_sub4_sub2_sub1).anInt6405 = 0;
 						}
 					}
 				}
@@ -77,26 +77,26 @@ abstract class Class98_Sub43 extends Class98 {
 					if (is[i_4_] != -1) {
 						bool = false;
 					}
-					if (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anIntArray6373 == null
-							|| (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anIntArray6373[i_4_] == -1)
+					if (((Entity) class246_sub3_sub4_sub2_sub1).anIntArray6373 == null
+							|| (((Entity) class246_sub3_sub4_sub2_sub1).anIntArray6373[i_4_] == -1)
 							|| (((Class151_Sub7.aClass183_5001.method2623(
 									is[i_4_], 16383).anInt829) ^ 0xffffffff) <= ((Class151_Sub7.aClass183_5001
 									.method2623(
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anIntArray6373[i_4_]),
+											(((Entity) class246_sub3_sub4_sub2_sub1).anIntArray6373[i_4_]),
 											i_1_ ^ 0x3ffe)).anInt829 ^ 0xffffffff))) {
-						((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anIntArray6373 = is;
-						((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6436 = ((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6434;
-						((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6400 = i;
+						((Entity) class246_sub3_sub4_sub2_sub1).anIntArray6373 = is;
+						((Entity) class246_sub3_sub4_sub2_sub1).anInt6436 = ((Entity) class246_sub3_sub4_sub2_sub1).anInt6434;
+						((Entity) class246_sub3_sub4_sub2_sub1).anInt6400 = i;
 					}
 				}
 				if (!bool) {
 					break;
 				}
-				((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6400 = i;
-				((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6436 = (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6434);
-				((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anIntArray6373 = is;
+				((Entity) class246_sub3_sub4_sub2_sub1).anInt6400 = i;
+				((Entity) class246_sub3_sub4_sub2_sub1).anInt6436 = (((Entity) class246_sub3_sub4_sub2_sub1).anInt6434);
+				((Entity) class246_sub3_sub4_sub2_sub1).anIntArray6373 = is;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("rd.P("
+				throw Class64_Sub27.printError(runtimeexception, ("rd.P("
 						+ i
 						+ ','
 						+ ((class246_sub3_sub4_sub2_sub1 != null) ? "{...}"
@@ -120,7 +120,7 @@ abstract class Class98_Sub43 extends Class98 {
 					Class298.aClass222_2488, Class298.aClass222_2489,
 					Class298.aClass222_2490 });
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rd.M(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rd.M(" + i + ')');
 		}
 	}
 
@@ -128,7 +128,7 @@ abstract class Class98_Sub43 extends Class98 {
 		try {
 			anOggStreamState4241 = oggstreamstate;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("rd.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("rd.<init>("
 					+ (oggstreamstate != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -144,7 +144,7 @@ abstract class Class98_Sub43 extends Class98 {
 				Class305.aFloat2545 += (-12.0F - Class305.aFloat2545) / 2.0F;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rd.O(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rd.O(" + i + ')');
 		}
 	}
 
@@ -156,7 +156,7 @@ abstract class Class98_Sub43 extends Class98 {
 			}
 			anInt4240++;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("rd.L("
+			throw Class64_Sub27.printError(runtimeexception, ("rd.L("
 					+ (oggpacket != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}

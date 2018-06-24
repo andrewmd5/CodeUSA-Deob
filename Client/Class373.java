@@ -27,7 +27,7 @@ abstract class Class373 implements Interface18 {
 			}
 			return bool;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wl.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wl.A(" + i + ')');
 		}
 	}
 
@@ -42,7 +42,7 @@ abstract class Class373 implements Interface18 {
 				}
 				anIntArray3479 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "wl.K(" + i
+				throw Class64_Sub27.printError(runtimeexception, "wl.K(" + i
 						+ ')');
 			}
 			break;
@@ -56,7 +56,7 @@ abstract class Class373 implements Interface18 {
 			}
 			Class123.aClass79_1010.method794(125);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wl.M(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wl.M(" + i + ')');
 		}
 	}
 
@@ -89,7 +89,7 @@ abstract class Class373 implements Interface18 {
 							(byte) -98,
 							4 + (i_3_ - -(aClass93_3478.anInt3504 / 2) + (aClass93_3478.anInt3508)));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wl.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "wl.B(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -121,7 +121,7 @@ abstract class Class373 implements Interface18 {
 			}
 			return i_5_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wl.L(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wl.L(" + i + ')');
 		}
 	}
 
@@ -137,7 +137,7 @@ abstract class Class373 implements Interface18 {
 					.method3684(aClass207_3473, (aClass93_3478.anInt3506)),
 					true));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wl.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wl.C(" + i + ')');
 		}
 	}
 
@@ -146,26 +146,26 @@ abstract class Class373 implements Interface18 {
 		try {
 			class98_sub22_sub1.method1256(0);
 			final int i_9_ = za_Sub2.anInt6080;
-			final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = (Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660 = Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_9_] = new Class246_Sub3_Sub4_Sub2_Sub2());
-			((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6369 = i_9_;
+			final Player class246_sub3_sub4_sub2_sub2 = (Surface.player = Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_9_] = new Player());
+			((Entity) class246_sub3_sub4_sub2_sub2).anInt6369 = i_9_;
 			final int i_10_ = class98_sub22_sub1.readBits((byte) -108, 30);
 			final byte i_11_ = (byte) (i_10_ >> -638775876);
 			final int i_12_ = (0xffff6b1 & i_10_) >> -190559890;
-			((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6437[0] = i_12_
+			((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6437[0] = i_12_
 					- Class272.anInt2038;
 			final int i_13_ = 0x3fff & i_10_;
-			((Class246_Sub3) class246_sub3_sub4_sub2_sub2).anInt5084 = (((((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]) << 152480009) - -(class246_sub3_sub4_sub2_sub2
+			((Class246_Sub3) class246_sub3_sub4_sub2_sub2).anInt5084 = (((((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]) << 152480009) - -(class246_sub3_sub4_sub2_sub2
 					.method3034(i ^ i) << 15811816));
-			((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6438[0] = -aa_Sub2.anInt3562
+			((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6438[0] = -aa_Sub2.anInt3562
 					+ i_13_;
-			((Class246_Sub3) class246_sub3_sub4_sub2_sub2).anInt5079 = (((((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]) << 652406601) + (class246_sub3_sub4_sub2_sub2
+			((Class246_Sub3) class246_sub3_sub4_sub2_sub2).anInt5079 = (((((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]) << 652406601) + (class246_sub3_sub4_sub2_sub2
 					.method3034(0) << 2125038824));
 			Class43.anInt377 = ((Class246_Sub3) class246_sub3_sub4_sub2_sub2).aByte5088 = ((Class246_Sub3) class246_sub3_sub4_sub2_sub2).aByte5081 = i_11_;
 			if (Class1
 					.method162(
-							(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
+							(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
 							(byte) -117,
-							(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]))) {
+							(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]))) {
 				((Class246_Sub3) class246_sub3_sub4_sub2_sub2).aByte5081++;
 			}
 			if (Class224_Sub3_Sub1.aClass98_Sub22Array6146[i_9_] != null) {
@@ -196,7 +196,7 @@ abstract class Class373 implements Interface18 {
 			}
 			class98_sub22_sub1.method1254((byte) 120);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("wl.J(" + (class98_sub22_sub1 != null ? "{...}" : "null")
 							+ ',' + i + ')'));
 		}
@@ -211,7 +211,7 @@ abstract class Class373 implements Interface18 {
 			aClass207_3476 = class207_21_;
 			aClass93_3478 = class93;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("wl.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("wl.<init>("
 					+ (class207 != null ? "{...}" : "null") + ','
 					+ (class207_21_ != null ? "{...}" : "null") + ','
 					+ (class93 != null ? "{...}" : "null") + ')'));

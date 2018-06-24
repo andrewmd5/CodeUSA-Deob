@@ -19,7 +19,7 @@ abstract class Class142 {
 				}
 				anInt1160 = 44;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "jp.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "jp.C(" + i
 						+ ')');
 			}
 			break;
@@ -33,7 +33,7 @@ abstract class Class142 {
 			final double d_4_ = d_2_ + Math.random() * (-d_2_ + d);
 			return (int) (0.5 + Math.pow(2.0, d_4_));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jp.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("jp.D(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -74,7 +74,7 @@ abstract class Class142 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jp.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("jp.E(" + i + ','
 					+ (string != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -87,7 +87,7 @@ abstract class Class142 {
 		try {
 			Class232.aClass79_1740.method794(18);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jp.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "jp.B(" + i + ')');
 		}
 	}
 

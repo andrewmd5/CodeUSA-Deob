@@ -100,7 +100,7 @@ class Class305 {
 					((Class305) this).anIntArrayArrayArray2549[i_0_][i_1_][i_3_] = (((Class305) this).anIntArrayArrayArray2549[i_0_][i_1_
 							+ -1][i_3_]);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("sm.O(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("sm.O(" + i
 						+ ',' + i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_
 						+ ',' + i_4_ + ')'));
 			}
@@ -205,13 +205,13 @@ class Class305 {
 				if ((Class61.anInt479 ^ 0xffffffff) != -1)
 					Class364.method3935();
 				if (AnimationDefinition.aBoolean830)
-					Class146.method2335();
+					AbstractModel.method2335();
 			}
 			for (int i_26_ = 0; ((Class305) this).anInt2547 > i_26_; i_26_++)
 				Class78.aSArray594[i_26_].YA();
 			int i_27_ = -70 / ((i - 9) / 56);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sm.L("
+			throw Class64_Sub27.printError(runtimeexception, ("sm.L("
 					+ (var_s != null ? "{...}" : "null") + ',' + i + ','
 					+ (var_s_9_ != null ? "{...}" : "null") + ','
 					+ (var_ha != null ? "{...}" : "null") + ')'));
@@ -225,7 +225,7 @@ class Class305 {
 					method3567(i, i_31_, i_30_, i_29_, i_28_, -1);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sm.N(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sm.N(" + i + ','
 					+ bool + ',' + i_28_ + ',' + i_29_ + ',' + i_30_ + ')'));
 		}
 	}
@@ -533,7 +533,7 @@ class Class305 {
 					}
 				}
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("sm.D(" + i + ',' + i_32_ + ','
 								+ (var_ha != null ? "{...}" : "null") + ','
 								+ i_33_ + ',' + (is != null ? "{...}" : "null")
@@ -567,7 +567,7 @@ class Class305 {
 				int i_99_ = -96 / ((52 - i) / 62);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sm.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sm.E(" + i + ')');
 		}
 	}
 
@@ -581,7 +581,7 @@ class Class305 {
 				Class98_Sub50.anInt4294++;
 			} catch (RuntimeException runtimeexception) {
 				throw Class64_Sub27
-						.method667(runtimeexception,
+						.printError(runtimeexception,
 								("sm.B("
 										+ i
 										+ ','
@@ -600,7 +600,7 @@ class Class305 {
 					break;
 				aFloat2545 = -0.16454314F;
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "sm.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "sm.C(" + i
 						+ ')');
 			}
 			break;
@@ -638,7 +638,7 @@ class Class305 {
 			}
 			int i_114_ = 111 % ((i - 67) / 48);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sm.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sm.H(" + i + ','
 					+ i_100_ + ',' + i_101_ + ',' + i_102_ + ','
 					+ (class98_sub22 != null ? "{...}" : "null") + ',' + i_103_
 					+ ',' + (class243s != null ? "{...}" : "null") + ')'));
@@ -767,7 +767,7 @@ class Class305 {
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("sm.A(" + i + ',' + i_115_ + ','
 							+ (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i_116_ + ',' + i_117_ + ',' + i_118_ + ','
@@ -957,7 +957,7 @@ class Class305 {
 								int i_191_ = 0;
 								int i_192_ = 0;
 								if (((Class305) this).aBoolean2544) {
-									i_190_ = Class313
+									i_190_ = Appearance
 											.method3636(i_146_, i_147_);
 									i_191_ = IOException_Sub1.method127(i_146_,
 											i_147_);
@@ -977,7 +977,7 @@ class Class305 {
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sm.F("
+			throw Class64_Sub27.printError(runtimeexception, ("sm.F("
 					+ (var_ha != null ? "{...}" : "null") + ','
 					+ (var_s != null ? "{...}" : "null") + ','
 					+ (is != null ? "{...}" : "null") + ','
@@ -996,7 +996,7 @@ class Class305 {
 					is_194_[i_196_][i_197_] += is[i_196_][i_197_];
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sm.J(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sm.J(" + i + ','
 					+ i_193_ + ',' + (is != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -1685,7 +1685,7 @@ class Class305 {
 									int i_296_ = 0;
 									int i_297_ = 0;
 									if (((Class305) this).aBoolean2544) {
-										i_295_ = Class313.method3636(i_205_,
+										i_295_ = Appearance.method3636(i_205_,
 												i_207_);
 										i_296_ = IOException_Sub1.method127(
 												i_205_, i_207_);
@@ -1707,7 +1707,7 @@ class Class305 {
 					break;
 				((Class305) this).aByteArrayArrayArray2554 = null;
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("sm.K("
+				throw Class64_Sub27.printError(runtimeexception, ("sm.K("
 						+ (var_s != null ? "{...}" : "null") + ','
 						+ (var_ha != null ? "{...}" : "null") + ','
 						+ (var_s_198_ != null ? "{...}" : "null") + ','
@@ -1764,7 +1764,7 @@ class Class305 {
 						is_305_, 512, i_303_, i_304_));
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sm.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sm.G(" + i + ','
 					+ (class243s != null ? "{...}" : "null") + ','
 					+ (var_ha != null ? "{...}" : "null") + ','
 					+ (is != null ? "{...}" : "null") + ')'));
@@ -1782,7 +1782,7 @@ class Class305 {
 				method3572(-128, null);
 			return i_306_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sm.M("
+			throw Class64_Sub27.printError(runtimeexception, ("sm.M("
 					+ (string != null ? "{...}" : "null") + ',' + bool + ')'));
 		}
 	}
@@ -1882,7 +1882,7 @@ class Class305 {
 			}
 		} catch (RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("sm.I(" + i + ',' + bool
+					.printError(runtimeexception, ("sm.I(" + i + ',' + bool
 							+ ',' + i_308_ + ',' + i_309_ + ',' + i_310_ + ','
 							+ i_311_ + ',' + i_312_ + ',' + i_313_ + ','
 							+ i_314_ + ',' + i_315_ + ','
@@ -1909,7 +1909,7 @@ class Class305 {
 			aByteArrayArrayArray2548 = (new byte[((Class305) this).anInt2547][((Class305) this).anInt2543][((Class305) this).anInt2542]);
 			aByteArrayArrayArray2556 = (new byte[((Class305) this).anInt2547][((Class305) this).anInt2543][((Class305) this).anInt2542]);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sm.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("sm.<init>(" + i
 					+ ',' + i_319_ + ',' + i_320_ + ',' + bool + ','
 					+ (class32 != null ? "{...}" : "null") + ','
 					+ (class153 != null ? "{...}" : "null") + ')'));

@@ -16,7 +16,7 @@ final class Class34 {
 				}
 				method330((byte) -71, true);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "cha.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "cha.C(" + i
 						+ ')');
 			}
 			break;
@@ -31,7 +31,7 @@ final class Class34 {
 			aBooleanArrayArrayArray325 = null;
 			aFloatArray326 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cha.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cha.B(" + i + ')');
 		}
 	}
 
@@ -46,7 +46,7 @@ final class Class34 {
 				}
 				Class140.aClass47_3241.method452(-7423);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "cha.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "cha.A(" + i
 						+ ',' + bool + ')');
 			}
 			break;

@@ -15,7 +15,7 @@ final class Class246_Sub10 extends Class246 {
 			Class236.method2894(is, i, is_1_, 0, i_0_);
 			return is_1_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qe.B("
+			throw Class64_Sub27.printError(runtimeexception, ("qe.B("
 					+ (is != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -32,7 +32,7 @@ final class Class246_Sub10 extends Class246 {
 					class93.anInt3508, class93.anInt3506, class93.anInt3513,
 					i_2_, i_4_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("qe.A(" + (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i + ')'));
 		}
@@ -42,7 +42,7 @@ final class Class246_Sub10 extends Class246 {
 		try {
 			anInt5151 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qe.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "qe.<init>(" + i
 					+ ')');
 		}
 	}

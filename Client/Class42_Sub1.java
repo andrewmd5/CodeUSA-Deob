@@ -25,7 +25,7 @@ class Class42_Sub1 extends Class42 {
 							126), 5121, null, 0);
 			method372(-28003, true);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("aaa.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("aaa.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ')'));
 		}
@@ -64,7 +64,7 @@ class Class42_Sub1 extends Class42 {
 			OpenGL.glPixelStorei(3317, 4);
 			method372(-28003, true);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("aaa.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("aaa.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_3_ + ',' + i_4_ + ',' + i_5_ + ',' + bool + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_6_ + ','
@@ -110,7 +110,7 @@ class Class42_Sub1 extends Class42 {
 				}
 				method383(false, -121, false);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("aaa.C(" + i + ',' + i_13_ + ',' + bool + ',' + i_14_
 								+ ',' + (is != null ? "{...}" : "null") + ','
 								+ i_15_ + ',' + i_16_ + ',' + i_17_ + ','
@@ -132,7 +132,7 @@ class Class42_Sub1 extends Class42 {
 					((Class42) this).anInt3230, i_28_, i_32_, i_30_, i_31_, 0);
 			method372(-28003, true);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("aaa.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("aaa.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_28_ + ',' + i_29_ + ',' + i_30_ + ',' + i_31_ + ')'));
 		}
@@ -171,7 +171,7 @@ class Class42_Sub1 extends Class42 {
 					OpenGL.glPixelStorei(3314, 0);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("aaa.F(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("aaa.F(" + i
 						+ ',' + (is != null ? "{...}" : "null") + ',' + i_33_
 						+ ',' + i_34_ + ',' + bool + ',' + i_35_ + ',' + i_36_
 						+ ',' + i_37_ + ',' + i_38_ + ')'));
@@ -192,7 +192,7 @@ class Class42_Sub1 extends Class42 {
 			}
 			OpenGL.glFlush();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("aaa.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("aaa.H(" + i + ','
 					+ i_44_ + ',' + i_45_ + ',' + i_46_ + ',' + i_47_ + ','
 					+ i_48_ + ',' + i_49_ + ')'));
 		}
@@ -210,7 +210,7 @@ class Class42_Sub1 extends Class42 {
 						18 + i_51_);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("aaa.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("aaa.E(" + i + ','
 					+ i_51_ + ',' + (var_ha != null ? "{...}" : "null") + ','
 					+ i_52_ + ',' + i_53_ + ',' + i_54_ + ',' + i_55_ + ','
 					+ i_56_ + ')'));
@@ -241,7 +241,7 @@ class Class42_Sub1 extends Class42 {
 			} while (false);
 			method372(-28003, true);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("aaa.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("aaa.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_57_ + ',' + i_58_ + ',' + i_59_ + ',' + bool + ','
 					+ (fs != null ? "{...}" : "null") + ',' + i_60_ + ')'));
@@ -262,7 +262,7 @@ class Class42_Sub1 extends Class42 {
 				}
 				method383(false, 107, false);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("aaa.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("aaa.A(" + i
 						+ ',' + bool + ',' + i_61_ + ',' + i_62_ + ')'));
 			}
 			break;
@@ -284,7 +284,7 @@ class Class42_Sub1 extends Class42 {
 				OpenGL.glTexParameteri(((Class42) this).anInt3226, 10243,
 						!bool ? 33071 : 10497);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("aaa.I("
+				throw Class64_Sub27.printError(runtimeexception, ("aaa.I("
 						+ bool + ',' + i + ',' + bool_63_ + ')'));
 			}
 			break;
@@ -298,7 +298,7 @@ class Class42_Sub1 extends Class42 {
 			}
 			aClass197_5354 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aaa.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "aaa.D(" + i + ')');
 		}
 	}
 
@@ -339,7 +339,7 @@ class Class42_Sub1 extends Class42 {
 			}
 			method372(-28003, true);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("aaa.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("aaa.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_64_ + ',' + i_65_ + ',' + i_66_ + ',' + bool + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_67_ + ','
@@ -360,7 +360,7 @@ class Class42_Sub1 extends Class42 {
 				}
 				anInt5351 = 4;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "aaa.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "aaa.B(" + i
 						+ ')');
 			}
 			break;
@@ -379,7 +379,7 @@ class Class42_Sub1 extends Class42 {
 				}
 				method385(-52, 78, -128, 103, 42, -10, -6, -22, -116);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("aaa.G(" + i + ',' + i_75_ + ',' + i_76_ + ',' + i_77_
 								+ ',' + i_78_ + ',' + i_79_ + ',' + i_80_ + ','
 								+ i_81_ + ',' + i_82_ + ')'));

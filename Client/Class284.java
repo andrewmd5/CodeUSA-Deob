@@ -29,7 +29,7 @@ abstract class Class284 {
 				}
 				method3359(-38);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "rn.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "rn.C(" + i
 						+ ')');
 			}
 			break;
@@ -56,7 +56,7 @@ abstract class Class284 {
 				aShortArray2161[i_4_] = aShortArray2161[i_4_ + 256] = i_6_;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rn.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rn.F(" + i + ')');
 		}
 	}
 
@@ -77,7 +77,7 @@ abstract class Class284 {
 			Class116.anInt967 = Class64_Sub26.anInt3712 = -1;
 			Class53_Sub1.anInt3636 = -1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rn.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rn.A(" + i + ')');
 		}
 	}
 
@@ -90,7 +90,7 @@ abstract class Class284 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rn.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rn.I(" + i + ')');
 		}
 	}
 
@@ -204,7 +204,7 @@ abstract class Class284 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("rn.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("rn.E(" + i + ','
 					+ i_9_ + ',' + i_10_ + ',' + i_11_ + ')'));
 		}
 	}
@@ -264,7 +264,7 @@ abstract class Class284 {
 						i_75_, (byte) -124);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("rn.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("rn.B(" + i + ','
 					+ i_52_ + ',' + i_53_ + ',' + i_54_ + ',' + i_55_ + ','
 					+ i_56_ + ')'));
 		}
@@ -285,7 +285,7 @@ abstract class Class284 {
 			method3360(10567);
 			method3357((byte) 116);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("rn.<init>(" + i + ',' + i_77_ + ',' + i_78_ + ',' + i_79_
 							+ ',' + i_80_ + ')'));
 		}

@@ -26,7 +26,7 @@ class Class93 implements Interface21 {
 			if (i > 104)
 				aClass332Array3512 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fq.K(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "fq.K(" + i + ')');
 		}
 	}
 
@@ -105,7 +105,7 @@ class Class93 implements Interface21 {
 						(Class101.aClass115_857), is_0_[3]);
 				Class156_Sub1.anInt3278 = is_0_[4];
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("fq.J(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("fq.J(" + i
 						+ ',' + (is != null ? "{...}" : "null") + ','
 						+ (class305_sub1 != null ? "{...}" : "null") + ')'));
 			}
@@ -120,7 +120,7 @@ class Class93 implements Interface21 {
 				return false;
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fq.L(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fq.L(" + i + ','
 					+ i_15_ + ',' + i_16_ + ')'));
 		}
 	}
@@ -138,7 +138,7 @@ class Class93 implements Interface21 {
 			((Class93) this).anInt3513 = i_23_;
 			((Class93) this).aClass110_3511 = class110;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fq.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("fq.<init>("
 					+ (class63 != null ? "{...}" : "null") + ','
 					+ (class110 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_18_ + ',' + i_19_ + ',' + i_20_ + ',' + i_21_ + ','
@@ -152,7 +152,7 @@ class Class93 implements Interface21 {
 				((Class93) this).aClass63_3509 = null;
 			return null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fq.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "fq.A(" + i + ')');
 		}
 	}
 }

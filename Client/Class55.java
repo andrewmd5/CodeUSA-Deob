@@ -28,7 +28,7 @@ final class Class55 {
 			aStringArrayArray441 = null;
 			aClass58_433 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dq.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "dq.B(" + bool
 					+ ')');
 		}
 	}
@@ -40,7 +40,7 @@ final class Class55 {
 			}
 			return aClass151Array437[i].method2439(31565);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dq.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "dq.D(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -92,7 +92,7 @@ final class Class55 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dq.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("dq.A(" + bool
 					+ ',' + bool_1_ + ',' + i + ',' + i_2_ + ',' + bool_3_
 					+ ',' + i_4_ + ')'));
 		}
@@ -108,7 +108,7 @@ final class Class55 {
 					i);
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dq.C("
+			throw Class64_Sub27.printError(runtimeexception, ("dq.C("
 					+ (class42 != null ? "{...}" : "null") + ',' + bool + ','
 					+ i + ')'));
 		}
@@ -144,7 +144,7 @@ final class Class55 {
 				}
 				aClass151Array437[9] = aClass151Array437[8];
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("dq.<init>("
+				throw Class64_Sub27.printError(runtimeexception, ("dq.<init>("
 						+ (var_ha_Sub1 != null ? "{...}" : "null") + ')'));
 			}
 			break;

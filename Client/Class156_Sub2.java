@@ -19,7 +19,7 @@ final class Class156_Sub2 extends Class156 implements Interface16 {
 			anInt3422 = i_1_;
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("se.F(" + i + ',' + i_0_
+					.printError(runtimeexception, ("se.F(" + i + ',' + i_0_
 							+ ',' + (is != null ? "{...}" : "null") + ','
 							+ i_1_ + ')'));
 		}
@@ -34,7 +34,7 @@ final class Class156_Sub2 extends Class156 implements Interface16 {
 				}
 				method2500(-95, -97);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "se.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "se.A(" + i
 						+ ',' + i_2_ + ')');
 			}
 			break;
@@ -49,7 +49,7 @@ final class Class156_Sub2 extends Class156 implements Interface16 {
 			}
 			return ((Class156) this).aBuffer1247.getAddress();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "se.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "se.E(" + i + ')');
 		}
 	}
 
@@ -79,7 +79,7 @@ final class Class156_Sub2 extends Class156 implements Interface16 {
 			}
 			return l;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("se.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("se.D(" + i + ','
 					+ (string != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -90,7 +90,7 @@ final class Class156_Sub2 extends Class156 implements Interface16 {
 		try {
 			anInt3422 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("se.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("se.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_6_ + ')'));
 		}
@@ -101,7 +101,7 @@ final class Class156_Sub2 extends Class156 implements Interface16 {
 		try {
 			anInt3422 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("se.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("se.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ (buffer != null ? "{...}" : "null") + ')'));
 		}
@@ -115,7 +115,7 @@ final class Class156_Sub2 extends Class156 implements Interface16 {
 			}
 			return 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "se.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "se.B(" + i + ')');
 		}
 	}
 
@@ -124,7 +124,7 @@ final class Class156_Sub2 extends Class156 implements Interface16 {
 		try {
 			return anInt3422;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "se.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "se.C(" + i + ')');
 		}
 	}
 }

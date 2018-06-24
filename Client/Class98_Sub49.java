@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub49 extends Class98 {
+final class Class98_Sub49 extends Node {
 	static Class100 aClass100_4283;
 	int anInt4284;
 	int anInt4285;
@@ -26,7 +26,7 @@ final class Class98_Sub49 extends Class98 {
 			}
 			return i_2_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("waa.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("waa.B(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -38,7 +38,7 @@ final class Class98_Sub49 extends Class98 {
 			}
 			return (0x1df9b4 & anInt4284) >> 682065522;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "waa.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "waa.F(" + i + ')');
 		}
 	}
 
@@ -52,7 +52,7 @@ final class Class98_Sub49 extends Class98 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "waa.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "waa.H(" + i + ')');
 		}
 	}
 
@@ -63,7 +63,7 @@ final class Class98_Sub49 extends Class98 {
 			}
 			aClass100_4283 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "waa.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "waa.C(" + i + ')');
 		}
 	}
 
@@ -77,7 +77,7 @@ final class Class98_Sub49 extends Class98 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "waa.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "waa.G(" + i + ','
 					+ i_3_ + ')');
 		}
 	}
@@ -89,7 +89,7 @@ final class Class98_Sub49 extends Class98 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "waa.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "waa.A(" + i + ')');
 		}
 	}
 
@@ -100,7 +100,7 @@ final class Class98_Sub49 extends Class98 {
 			}
 			return aa_Sub3.method157(anInt4284, (byte) 64);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "waa.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "waa.D(" + i + ')');
 		}
 	}
 
@@ -114,7 +114,7 @@ final class Class98_Sub49 extends Class98 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "waa.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "waa.E(" + i + ')');
 		}
 	}
 
@@ -123,7 +123,7 @@ final class Class98_Sub49 extends Class98 {
 			anInt4285 = i_5_;
 			anInt4284 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("waa.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("waa.<init>(" + i
 					+ ',' + i_5_ + ')'));
 		}
 	}

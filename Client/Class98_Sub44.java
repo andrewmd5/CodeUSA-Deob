@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub44 extends Class98 {
+final class Class98_Sub44 extends Node {
 	Class98_Sub24_Sub1[] aClass98_Sub24_Sub1Array4244;
 	static Class113 aClass113_4245 = new Class113(3, 2);
 	private int[] anIntArray4246;
@@ -39,7 +39,7 @@ final class Class98_Sub44 extends Class98 {
 			client.method113();
 			client.method115();
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tba.D(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "tba.D(" + bool
 					+ ')');
 		}
 	}
@@ -50,7 +50,7 @@ final class Class98_Sub44 extends Class98 {
 				method1515(-105);
 			anIntArray4246 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tba.E(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "tba.E(" + bool
 					+ ')');
 		}
 	}
@@ -70,7 +70,7 @@ final class Class98_Sub44 extends Class98 {
 			}
 			return false;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tba.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "tba.F(" + i + ','
 					+ i_2_ + ')');
 		}
 	}
@@ -81,7 +81,7 @@ final class Class98_Sub44 extends Class98 {
 			if (i != 2)
 				method1514(-31, -6);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tba.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "tba.B(" + i + ')');
 		}
 	}
 
@@ -94,7 +94,7 @@ final class Class98_Sub44 extends Class98 {
 			if (i == 0)
 				aClass113_4245 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tba.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "tba.C(" + i + ')');
 		}
 	}
 
@@ -109,7 +109,7 @@ final class Class98_Sub44 extends Class98 {
 			((Class98_Sub44) this).aClass89Array4251 = new Class89[128];
 			ByteBuffer class98_sub22 = new ByteBuffer(is);
 			int i;
-			for (i = 0; (((((ByteBuffer) class98_sub22).aByteArray3992[i
+			for (i = 0; (((((ByteBuffer) class98_sub22).incomingBytes[i
 					+ ((ByteBuffer) class98_sub22).position]) ^ 0xffffffff) != -1); i++) {
 				/* empty */
 			}
@@ -121,7 +121,7 @@ final class Class98_Sub44 extends Class98 {
 			int i_5_ = ((ByteBuffer) class98_sub22).position;
 			((ByteBuffer) class98_sub22).position += i;
 			int i_6_;
-			for (i_6_ = 0; ((((ByteBuffer) class98_sub22).aByteArray3992[i_6_
+			for (i_6_ = 0; ((((ByteBuffer) class98_sub22).incomingBytes[i_6_
 					+ ((ByteBuffer) class98_sub22).position]) != 0); i_6_++) {
 				/* empty */
 			}
@@ -133,7 +133,7 @@ final class Class98_Sub44 extends Class98 {
 			int i_9_ = ((ByteBuffer) class98_sub22).position;
 			((ByteBuffer) class98_sub22).position += i_6_;
 			int i_10_;
-			for (i_10_ = 0; ((((ByteBuffer) class98_sub22).aByteArray3992[i_10_
+			for (i_10_ = 0; ((((ByteBuffer) class98_sub22).incomingBytes[i_10_
 					+ ((ByteBuffer) class98_sub22).position]) != 0); i_10_++) {
 				/* empty */
 			}
@@ -177,7 +177,7 @@ final class Class98_Sub44 extends Class98 {
 			i_20_ = class98_sub22.readUnsignedByte((byte) -108);
 			byte[] is_22_ = i_20_ > 0 ? new byte[2 * i_20_] : null;
 			int i_23_;
-			for (i_23_ = 0; ((((ByteBuffer) class98_sub22).aByteArray3992[((ByteBuffer) class98_sub22).position
+			for (i_23_ = 0; ((((ByteBuffer) class98_sub22).incomingBytes[((ByteBuffer) class98_sub22).position
 					- -i_23_]) != 0); i_23_++) {
 				/* empty */
 			}
@@ -219,7 +219,7 @@ final class Class98_Sub44 extends Class98 {
 				if (anIntArray4246[i_34_] != 0) {
 					if (i_29_ == 0) {
 						i_33_ = -1
-								+ (((ByteBuffer) class98_sub22).aByteArray3992[i_5_++]);
+								+ (((ByteBuffer) class98_sub22).incomingBytes[i_5_++]);
 						if ((is_3_.length ^ 0xffffffff) >= (i_30_ ^ 0xffffffff))
 							i_29_ = -1;
 						else
@@ -235,7 +235,7 @@ final class Class98_Sub44 extends Class98 {
 			for (int i_36_ = 0; i_36_ < 128; i_36_++) {
 				if ((anIntArray4246[i_36_] ^ 0xffffffff) != -1) {
 					if (i_29_ == 0) {
-						i_35_ = (((ByteBuffer) class98_sub22).aByteArray3992[i_9_++]) + 16 << -1732087870;
+						i_35_ = (((ByteBuffer) class98_sub22).incomingBytes[i_9_++]) + 16 << -1732087870;
 						if ((i_30_ ^ 0xffffffff) > (is_7_.length ^ 0xffffffff))
 							i_29_ = is_7_[i_30_++];
 						else
@@ -436,7 +436,7 @@ final class Class98_Sub44 extends Class98 {
 							.readUnsignedByte((byte) -102);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tba.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "tba.<init>("
 					+ (is != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -473,7 +473,7 @@ final class Class98_Sub44 extends Class98 {
 			}
 			return bool;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tba.A("
+			throw Class64_Sub27.printError(runtimeexception, ("tba.A("
 					+ (is != null ? "{...}" : "null") + ','
 					+ (class308 != null ? "{...}" : "null") + ',' + i + ','
 					+ (is_85_ != null ? "{...}" : "null") + ')'));

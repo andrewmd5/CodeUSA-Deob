@@ -521,19 +521,19 @@ final class NPC {
 																												.readUnsignedByte((byte) 34) == 1;
 																										final int i_20_ = class98_sub22
 																												.readMediumInt(-125);
-																										Class98 class98;
+																										Node node;
 																										if (!bool) {
-																											class98 = new Class98_Sub34(
+																											node = new Class98_Sub34(
 																													class98_sub22
 																															.readInt(-2));
 																										} else {
-																											class98 = new Class98_Sub15(
+																											node = new Class98_Sub15(
 																													class98_sub22
 																															.readString((byte) 84));
 																										}
 																										aClass377_1098
 																												.method3996(
-																														class98,
+																														node,
 																														i_20_,
 																														-1);
 																									}
@@ -632,7 +632,7 @@ final class NPC {
 			}
 
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("NPC DEFS" + "jl.F(" + i + ','
 							+ (class98_sub22 != null ? "{...}" : "null") + ','
 							+ opcode + ')'));
@@ -663,7 +663,7 @@ final class NPC {
 					Class135.method2264((byte) -94);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "jl.I(" + i
+				throw Class64_Sub27.printError(runtimeexception, "jl.I(" + i
 						+ ')');
 			}
 			break;
@@ -687,7 +687,7 @@ final class NPC {
 				}
 
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "jl.K(" + i
+				throw Class64_Sub27.printError(runtimeexception, "jl.K(" + i
 						+ ')');
 			}
 		} while (false);
@@ -721,7 +721,7 @@ final class NPC {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jl.L("
+			throw Class64_Sub27.printError(runtimeexception, ("jl.L("
 					+ (interface6 != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -739,7 +739,7 @@ final class NPC {
 				method2293(0, class98_sub22, i);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("jl.A(" + (class98_sub22 != null ? "{...}" : "null") + ','
 							+ bool + ')'));
 		}
@@ -760,12 +760,12 @@ final class NPC {
 			}
 			return class98_sub15.aString3917;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jl.J(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("jl.J(" + i + ','
 					+ i_27_ + ',' + (string != null ? "{...}" : "null") + ')'));
 		}
 	}
 
-	final Class146 method2299(final AnimationDefinition class97,
+	final AbstractModel method2299(final AnimationDefinition class97,
 			final boolean bool, final Interface6 interface6, final int i,
 			final int i_28_, final AnimationDefParser class183,
 			final int i_29_, final ha var_ha, final Class40 class40,
@@ -794,15 +794,15 @@ final class NPC {
 			if (class40 != null) {
 				l |= class40.aLong365 << -466776552;
 			}
-			Class146 class146;
+			AbstractModel abstractModel;
 			synchronized (aClass301_1133.aClass79_2510) {
-				class146 = (Class146) aClass301_1133.aClass79_2510.method802(
+				abstractModel = (AbstractModel) aClass301_1133.aClass79_2510.method802(
 						-119, l);
 			}
-			if (class146 == null
-					|| (class146.ua() & i_32_ ^ 0xffffffff) != (i_32_ ^ 0xffffffff)) {
-				if (class146 != null) {
-					i_32_ |= class146.ua();
+			if (abstractModel == null
+					|| (abstractModel.ua() & i_32_ ^ 0xffffffff) != (i_32_ ^ 0xffffffff)) {
+				if (abstractModel != null) {
+					i_32_ |= abstractModel.ua();
 				}
 				int i_33_ = i_32_;
 				final int[] is = ((class40 != null && class40.anIntArray366 != null) ? class40.anIntArray366
@@ -822,7 +822,7 @@ final class NPC {
 				final Model[] class178s = new Model[is.length];
 				synchronized (aClass301_1133.aClass207_2506) {
 					for (int i_36_ = 0; (i_36_ ^ 0xffffffff) > (is.length ^ 0xffffffff); i_36_++) {
-						class178s[i_36_] = Class98_Sub6.method981(0, -9252,
+						class178s[i_36_] = RSModelLoader.createModel(0, -9252,
 								((aClass301_1133).aClass207_2506), is[i_36_]);
 					}
 				}
@@ -847,7 +847,7 @@ final class NPC {
 				if ((aByte1138 ^ 0xffffffff) != -1) {
 					i_33_ |= 0x80000;
 				}
-				class146 = var_ha.method1790(model, i_33_,
+				abstractModel = var_ha.method1790(model, i_33_,
 						((aClass301_1133).anInt2511), 64, 768);
 				if (aShortArray1108 != null) {
 					short[] is_38_;
@@ -859,11 +859,11 @@ final class NPC {
 					for (int i_39_ = 0; ((i_39_ ^ 0xffffffff) > (aShortArray1108.length ^ 0xffffffff)); i_39_++) {
 						if (aByteArray1136 != null
 								&& aByteArray1136.length > i_39_) {
-							class146.ia(
+							abstractModel.ia(
 									aShortArray1108[i_39_],
 									(Class265.aShortArray1977[0xff & aByteArray1136[i_39_]]));
 						} else {
-							class146.ia(aShortArray1108[i_39_], is_38_[i_39_]);
+							abstractModel.ia(aShortArray1108[i_39_], is_38_[i_39_]);
 						}
 					}
 				}
@@ -875,28 +875,28 @@ final class NPC {
 						is_40_ = aShortArray1137;
 					}
 					for (int i_41_ = 0; i_41_ < aShortArray1155.length; i_41_++) {
-						class146.aa(aShortArray1155[i_41_], is_40_[i_41_]);
+						abstractModel.aa(aShortArray1155[i_41_], is_40_[i_41_]);
 					}
 				}
 				if (aByte1138 != 0) {
-					class146.method2337(aByte1111, aByte1139, aByte1119,
+					abstractModel.method2337(aByte1111, aByte1139, aByte1119,
 							0xff & aByte1138);
 				}
-				class146.s(i_32_);
+				abstractModel.s(i_32_);
 				synchronized (aClass301_1133.aClass79_2510) {
-					aClass301_1133.aClass79_2510.method805(l, class146,
+					aClass301_1133.aClass79_2510.method805(l, abstractModel,
 							(byte) -80);
 				}
 			}
 			if (class97 != null && i_28_ != -1) {
-				class146 = class97.method937(i_30_, i, i_32_, -94, class146,
+				abstractModel = class97.method937(i_30_, i, i_32_, -94, abstractModel,
 						i_28_);
 			}
-			class146.s(i_29_);
-			return class146;
+			abstractModel.s(i_29_);
+			return abstractModel;
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("jl.M("
+					.printError(runtimeexception, ("jl.M("
 							+ (class97 != null ? "{...}" : "null") + ',' + bool
 							+ ',' + (interface6 != null ? "{...}" : "null")
 							+ ',' + i + ',' + i_28_ + ','
@@ -935,12 +935,12 @@ final class NPC {
 			}
 			return aClass301_1133.method3538(5, anIntArray1109[i_42_]);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jl.B("
+			throw Class64_Sub27.printError(runtimeexception, ("jl.B("
 					+ (interface6 != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
 
-	final Class146 method2301(final int i, final int i_44_, final int[] is,
+	final AbstractModel method2301(final int i, final int i_44_, final int[] is,
 			final int i_45_, final byte i_46_,
 			final AnimationDefinition class97, final Class226[] class226s,
 			final ha var_ha, final int i_47_, final int i_48_,
@@ -996,7 +996,7 @@ final class NPC {
 									.method1615(i_64_, false);
 							bool_57_ |= class97_61_.aBoolean817;
 						}
-						if ((class97_61_.aBoolean825 || Class357.aBoolean3027)
+						if ((class97_61_.aBoolean825 || Class357.tweeningEnabled)
 								&& (i_63_ ^ 0xffffffff) != 0
 								&& (class97_61_.anIntArray818.length ^ 0xffffffff) < (i_63_ ^ 0xffffffff)) {
 							Class32.anIntArray311[i_60_] = class97_61_.anIntArray811[i_62_];
@@ -1051,7 +1051,7 @@ final class NPC {
 								.method1615(i_66_, false);
 						bool_57_ |= class97.aBoolean817;
 					}
-					if ((class97.aBoolean825 || Class357.aBoolean3027)
+					if ((class97.aBoolean825 || Class357.tweeningEnabled)
 							&& (i_48_ ^ 0xffffffff) != 0
 							&& class97.anIntArray818.length > i_48_) {
 						i_67_ = class97.anIntArray818[i_48_];
@@ -1089,7 +1089,7 @@ final class NPC {
 								false);
 						bool_57_ |= class97_52_.aBoolean817;
 					}
-					if ((class97_52_.aBoolean825 || Class357.aBoolean3027)
+					if ((class97_52_.aBoolean825 || Class357.tweeningEnabled)
 							&& (i_51_ ^ 0xffffffff) != 0
 							&& (class97_52_.anIntArray818.length > i_51_)) {
 						i_72_ = class97_52_.anIntArray811[i_45_];
@@ -1129,18 +1129,18 @@ final class NPC {
 			if (class40 != null) {
 				l |= class40.aLong365 << -1822091880;
 			}
-			Class146 class146;
+			AbstractModel abstractModel;
 			synchronized (aClass301_1133.aClass79_2509) {
-				class146 = (Class146) aClass301_1133.aClass79_2509.method802(
+				abstractModel = (AbstractModel) aClass301_1133.aClass79_2509.method802(
 						-125, l);
 			}
 			Class294 class294 = null;
 			if (renderEmote != -1) {
 				class294 = class257.method3199(false, renderEmote);
 			}
-			if (class146 == null || (i_54_ & class146.ua()) != i_54_) {
-				if (class146 != null) {
-					i_54_ |= class146.ua();
+			if (abstractModel == null || (i_54_ & abstractModel.ua()) != i_54_) {
+				if (abstractModel != null) {
+					i_54_ |= abstractModel.ua();
 				}
 				int i_79_ = i_54_;
 				final int[] is_80_ = ((class40 != null && class40.anIntArray366 != null) ? class40.anIntArray366
@@ -1162,7 +1162,7 @@ final class NPC {
 				for (int i_83_ = 0; i_83_ < is_80_.length; i_83_++) {
 					if ((is_80_[i_83_] ^ 0xffffffff) != 0) {
 						synchronized (aClass301_1133.aClass207_2506) {
-							class178s[i_83_] = Class98_Sub6.method981(0, -9252,
+							class178s[i_83_] = RSModelLoader.createModel(0, -9252,
 									((aClass301_1133).aClass207_2506),
 									is_80_[i_83_]);
 						}
@@ -1227,7 +1227,7 @@ final class NPC {
 				if ((aByte1138 ^ 0xffffffff) != -1) {
 					i_79_ |= 0x80000;
 				}
-				class146 = var_ha.method1790(model, i_79_,
+				abstractModel = var_ha.method1790(model, i_79_,
 						((aClass301_1133).anInt2511), 64 + anInt1104,
 						anInt1131 + 850);
 				if (aShortArray1108 != null) {
@@ -1240,11 +1240,11 @@ final class NPC {
 					for (int i_92_ = 0; aShortArray1108.length > i_92_; i_92_++) {
 						if (aByteArray1136 != null
 								&& i_92_ < aByteArray1136.length) {
-							class146.ia(
+							abstractModel.ia(
 									aShortArray1108[i_92_],
 									(Class265.aShortArray1977[aByteArray1136[i_92_] & 0xff]));
 						} else {
-							class146.ia(aShortArray1108[i_92_], is_91_[i_92_]);
+							abstractModel.ia(aShortArray1108[i_92_], is_91_[i_92_]);
 						}
 					}
 				}
@@ -1256,20 +1256,20 @@ final class NPC {
 						is_93_ = class40.aShortArray368;
 					}
 					for (int i_94_ = 0; i_94_ < aShortArray1155.length; i_94_++) {
-						class146.aa(aShortArray1155[i_94_], is_93_[i_94_]);
+						abstractModel.aa(aShortArray1155[i_94_], is_93_[i_94_]);
 					}
 				}
 				if ((aByte1138 ^ 0xffffffff) != -1) {
-					class146.method2337(aByte1111, aByte1139, aByte1119,
+					abstractModel.method2337(aByte1111, aByte1139, aByte1119,
 							0xff & aByte1138);
 				}
-				class146.s(i_54_);
+				abstractModel.s(i_54_);
 				synchronized (aClass301_1133.aClass79_2509) {
-					aClass301_1133.aClass79_2509.method805(l, class146,
+					aClass301_1133.aClass79_2509.method805(l, abstractModel,
 							(byte) -80);
 				}
 			}
-			final Class146 class146_95_ = class146.method2341((byte) 4, i_54_,
+			final AbstractModel class146_95_ = abstractModel.method2341((byte) 4, i_54_,
 					true);
 			boolean bool_96_ = false;
 			if (is != null) {
@@ -1365,7 +1365,7 @@ final class NPC {
 			class146_95_.s(i_50_);
 			return class146_95_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jl.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("jl.C(" + i + ','
 					+ i_44_ + ',' + (is != null ? "{...}" : "null") + ','
 					+ i_45_ + ',' + i_46_ + ','
 					+ (class97 != null ? "{...}" : "null") + ','
@@ -1404,7 +1404,7 @@ final class NPC {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jl.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "jl.E(" + i + ')');
 		}
 	}
 
@@ -1498,7 +1498,7 @@ final class NPC {
 						.method1758(class324s[i_120_], true);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jl.D("
+			throw Class64_Sub27.printError(runtimeexception, ("jl.D("
 					+ (var_ha != null ? "{...}" : "null") + ',' + i + ','
 					+ (class207 != null ? "{...}" : "null") + ')'));
 		}
@@ -1516,7 +1516,7 @@ final class NPC {
 			Class236.method2895(is, 0, is_121_, 0, is.length);
 			return is_121_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jl.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("jl.H(" + i + ','
 					+ (is != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -1536,7 +1536,7 @@ final class NPC {
 			}
 			return class98_sub34.anInt4126;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jl.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("jl.G(" + i + ','
 					+ i_122_ + ',' + i_123_ + ')'));
 		}
 	}

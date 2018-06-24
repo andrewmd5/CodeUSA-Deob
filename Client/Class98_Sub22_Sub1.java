@@ -10,13 +10,13 @@ final class Class98_Sub22_Sub1 extends ByteBuffer {
 	final void method1251(int i, int i_0_, byte[] is, boolean bool) {
 		try {
 			for (int i_1_ = 0; (i_1_ ^ 0xffffffff) > (i_0_ ^ 0xffffffff); i_1_++)
-				is[i_1_ - -i] = (byte) ((((ByteBuffer) this).aByteArray3992[((ByteBuffer) this).position++]) + -aClass117_5791
+				is[i_1_ - -i] = (byte) ((((ByteBuffer) this).incomingBytes[((ByteBuffer) this).position++]) + -aClass117_5791
 						.method2167(123));
 			if (bool != true)
 				method1261(true, -96);
 		} catch (RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("bi.H(" + i + ',' + i_0_
+					.printError(runtimeexception, ("bi.H(" + i + ',' + i_0_
 							+ ',' + (is != null ? "{...}" : "null") + ','
 							+ bool + ')'));
 		}
@@ -28,7 +28,7 @@ final class Class98_Sub22_Sub1 extends ByteBuffer {
 				method1255(-35);
 			aClass117_5791 = class117;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bi.I(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("bi.I(" + i + ','
 					+ (class117 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -59,7 +59,7 @@ final class Class98_Sub22_Sub1 extends ByteBuffer {
 			} while (false);
 			return 0;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bi.C(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "bi.C(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -70,7 +70,7 @@ final class Class98_Sub22_Sub1 extends ByteBuffer {
 				anInt5790 = -99;
 			((ByteBuffer) this).position = (anInt5790 - -7) / 8;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bi.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bi.G(" + i + ')');
 		}
 	}
 
@@ -78,14 +78,14 @@ final class Class98_Sub22_Sub1 extends ByteBuffer {
 		try {
 			if (i != 0)
 				aClass117_5791 = null;
-			int i_3_ = (((((ByteBuffer) this).aByteArray3992[((ByteBuffer) this).position++]) - aClass117_5791
+			int i_3_ = (((((ByteBuffer) this).incomingBytes[((ByteBuffer) this).position++]) - aClass117_5791
 					.method2167(121)) & 0xff);
 			if ((i_3_ ^ 0xffffffff) > -129)
 				return i_3_;
-			return ((i_3_ - 128 << 1485705704) - -(0xff & ((((ByteBuffer) this).aByteArray3992[((ByteBuffer) this).position++]) - aClass117_5791
+			return ((i_3_ - 128 << 1485705704) - -(0xff & ((((ByteBuffer) this).incomingBytes[((ByteBuffer) this).position++]) - aClass117_5791
 					.method2167(i ^ 0x6a))));
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bi.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bi.E(" + i + ')');
 		}
 	}
 
@@ -93,7 +93,7 @@ final class Class98_Sub22_Sub1 extends ByteBuffer {
 		try {
 			anInt5790 = 8 * ((ByteBuffer) this).position;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bi.K(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bi.K(" + i + ')');
 		}
 	}
 
@@ -104,19 +104,19 @@ final class Class98_Sub22_Sub1 extends ByteBuffer {
 			anInt5790 += i_4_;
 			int i_7_ = 0;
 			for (/**/; (i_6_ ^ 0xffffffff) > (i_4_ ^ 0xffffffff); i_6_ = 8) {
-				i_7_ += (((ByteBuffer) this).aByteArray3992[i_5_++] & Class79.anIntArray604[i_6_]) << i_4_
+				i_7_ += (((ByteBuffer) this).incomingBytes[i_5_++] & Class79.anIntArray604[i_6_]) << i_4_
 						- i_6_;
 				i_4_ -= i_6_;
 			}
 			if (i_4_ == i_6_)
-				i_7_ += (Class79.anIntArray604[i_6_] & ((ByteBuffer) this).aByteArray3992[i_5_]);
+				i_7_ += (Class79.anIntArray604[i_6_] & ((ByteBuffer) this).incomingBytes[i_5_]);
 			else
-				i_7_ += (((ByteBuffer) this).aByteArray3992[i_5_] >> i_6_
+				i_7_ += (((ByteBuffer) this).incomingBytes[i_5_] >> i_6_
 						- i_4_)
 						& Class79.anIntArray604[i_4_];
 			return i_7_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bi.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "bi.B(" + i + ','
 					+ i_4_ + ')');
 		}
 	}
@@ -125,7 +125,7 @@ final class Class98_Sub22_Sub1 extends ByteBuffer {
 		try {
 			return 8 * i - anInt5790;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bi.J(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "bi.J(" + i + ','
 					+ i_8_ + ')');
 		}
 	}
@@ -139,7 +139,7 @@ final class Class98_Sub22_Sub1 extends ByteBuffer {
 			if (i == 255)
 				aClass117_5791 = new Class117(is);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bi.F("
+			throw Class64_Sub27.printError(runtimeexception, ("bi.F("
 					+ (is != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -148,22 +148,22 @@ final class Class98_Sub22_Sub1 extends ByteBuffer {
 		try {
 			if (i != 54)
 				aClass117_5791 = null;
-			int i_10_ = 0xff & ((((ByteBuffer) this).aByteArray3992[((ByteBuffer) this).position]) + -aClass117_5791
+			int i_10_ = 0xff & ((((ByteBuffer) this).incomingBytes[((ByteBuffer) this).position]) + -aClass117_5791
 					.method2168(i + -51));
 			if (i_10_ < 128)
 				return false;
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bi.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bi.D(" + i + ')');
 		}
 	}
 
 	final void method1261(boolean bool, int i) {
 		try {
-			((ByteBuffer) this).aByteArray3992[((ByteBuffer) this).position++] = (byte) (i + aClass117_5791
+			((ByteBuffer) this).incomingBytes[((ByteBuffer) this).position++] = (byte) (i + aClass117_5791
 					.method2167(84));
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bi.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "bi.A(" + bool
 					+ ',' + i + ')');
 		}
 	}

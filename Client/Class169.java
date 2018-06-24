@@ -23,7 +23,7 @@ final class Class169 {
 		try {
 			throw new IllegalStateException();
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"lf.toString(" + ')');
 		}
 	}
@@ -41,18 +41,18 @@ final class Class169 {
 					int i_4_ = 1;
 					Class294 class294 = ((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub1_4209
 							.method3039(1);
-					if ((((Class246_Sub3_Sub4_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub1_4209)).anInt6385 ^ 0xffffffff) == 0
-							|| (((Class246_Sub3_Sub4_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub1_4209)).aBoolean6359))
+					if ((((Entity) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub1_4209)).anInt6385 ^ 0xffffffff) == 0
+							|| (((Entity) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub1_4209)).aBoolean6359))
 						i_4_ = 0;
-					else if (((((Class294) class294).anInt2389 ^ 0xffffffff) == ((((Class246_Sub3_Sub4_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub1_4209)).anInt6385) ^ 0xffffffff))
-							|| (((Class246_Sub3_Sub4_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub1_4209)).anInt6385) == ((Class294) class294).anInt2361
-							|| (((Class294) class294).anInt2402 == (((Class246_Sub3_Sub4_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub1_4209)).anInt6385))
-							|| ((((Class246_Sub3_Sub4_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub1_4209)).anInt6385) == ((Class294) class294).anInt2357))
+					else if (((((Class294) class294).anInt2389 ^ 0xffffffff) == ((((Entity) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub1_4209)).anInt6385) ^ 0xffffffff))
+							|| (((Entity) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub1_4209)).anInt6385) == ((Class294) class294).anInt2361
+							|| (((Class294) class294).anInt2402 == (((Entity) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub1_4209)).anInt6385))
+							|| ((((Entity) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub1_4209)).anInt6385) == ((Class294) class294).anInt2357))
 						i_4_ = 2;
-					else if ((((Class294) class294).anInt2368 == (((Class246_Sub3_Sub4_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub1_4209)).anInt6385))
-							|| (((Class294) class294).anInt2394 == (((Class246_Sub3_Sub4_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub1_4209)).anInt6385))
-							|| (((Class246_Sub3_Sub4_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub1_4209)).anInt6385) == ((Class294) class294).anInt2403
-							|| ((((Class294) class294).anInt2377 ^ 0xffffffff) == ((((Class246_Sub3_Sub4_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub1_4209)).anInt6385) ^ 0xffffffff)))
+					else if ((((Class294) class294).anInt2368 == (((Entity) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub1_4209)).anInt6385))
+							|| (((Class294) class294).anInt2394 == (((Entity) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub1_4209)).anInt6385))
+							|| (((Entity) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub1_4209)).anInt6385) == ((Class294) class294).anInt2403
+							|| ((((Class294) class294).anInt2377 ^ 0xffffffff) == ((((Entity) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub1_4209)).anInt6385) ^ 0xffffffff)))
 						i_4_ = 3;
 					if ((((Class98_Sub42) class98_sub42).anInt4227 ^ 0xffffffff) != (i_4_ ^ 0xffffffff)) {
 						int i_5_ = (Class277
@@ -107,17 +107,17 @@ final class Class169 {
 					int i_6_ = 1;
 					Class294 class294 = ((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206
 							.method3039(1);
-					if (((Class246_Sub3_Sub4_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).anInt6385 == -1
-							|| (((Class246_Sub3_Sub4_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).aBoolean6359))
+					if (((Entity) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).anInt6385 == -1
+							|| (((Entity) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).aBoolean6359))
 						i_6_ = 0;
-					else if ((((Class294) class294).anInt2389 != (((Class246_Sub3_Sub4_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).anInt6385))
-							&& ((((Class294) class294).anInt2361 ^ 0xffffffff) != ((((Class246_Sub3_Sub4_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).anInt6385) ^ 0xffffffff))
-							&& (((Class246_Sub3_Sub4_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).anInt6385) != ((Class294) class294).anInt2402
-							&& ((((Class246_Sub3_Sub4_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).anInt6385) != ((Class294) class294).anInt2357)) {
-						if ((((Class246_Sub3_Sub4_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).anInt6385 == ((Class294) class294).anInt2368)
-								|| (((Class246_Sub3_Sub4_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).anInt6385) == ((Class294) class294).anInt2394
-								|| ((((Class294) class294).anInt2403 ^ 0xffffffff) == ((((Class246_Sub3_Sub4_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).anInt6385) ^ 0xffffffff))
-								|| (((Class294) class294).anInt2377 == (((Class246_Sub3_Sub4_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).anInt6385)))
+					else if ((((Class294) class294).anInt2389 != (((Entity) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).anInt6385))
+							&& ((((Class294) class294).anInt2361 ^ 0xffffffff) != ((((Entity) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).anInt6385) ^ 0xffffffff))
+							&& (((Entity) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).anInt6385) != ((Class294) class294).anInt2402
+							&& ((((Entity) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).anInt6385) != ((Class294) class294).anInt2357)) {
+						if ((((Entity) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).anInt6385 == ((Class294) class294).anInt2368)
+								|| (((Entity) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).anInt6385) == ((Class294) class294).anInt2394
+								|| ((((Class294) class294).anInt2403 ^ 0xffffffff) == ((((Entity) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).anInt6385) ^ 0xffffffff))
+								|| (((Class294) class294).anInt2377 == (((Entity) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).anInt6385)))
 							i_6_ = 3;
 					} else
 						i_6_ = 2;
@@ -127,9 +127,9 @@ final class Class169 {
 										(((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206),
 										true));
 						if (((i_7_ ^ 0xffffffff) == (((Class98_Sub42) class98_sub42).anInt4210 ^ 0xffffffff))
-								&& (!((Class98_Sub42) class98_sub42).aBoolean4215 == !(((Class246_Sub3_Sub4_Sub2_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).aBoolean6526))) {
+								&& (!((Class98_Sub42) class98_sub42).aBoolean4215 == !(((Player) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).aBoolean6526))) {
 							((Class98_Sub42) class98_sub42).anInt4227 = i_6_;
-							((Class98_Sub42) class98_sub42).anInt4236 = (((Class246_Sub3_Sub4_Sub2_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).anInt6514);
+							((Class98_Sub42) class98_sub42).anInt4236 = (((Player) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).anInt6514);
 						} else {
 							boolean bool = false;
 							if ((((Class98_Sub42) class98_sub42).aClass98_Sub31_Sub5_4232) == null)
@@ -147,9 +147,9 @@ final class Class169 {
 								((Class98_Sub42) class98_sub42).anInt4210 = i_7_;
 								((Class98_Sub42) class98_sub42).aClass98_Sub24_Sub1_4214 = null;
 								((Class98_Sub42) class98_sub42).aClass98_Sub13_4213 = null;
-								((Class98_Sub42) class98_sub42).anInt4236 = (((Class246_Sub3_Sub4_Sub2_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).anInt6514);
+								((Class98_Sub42) class98_sub42).anInt4236 = (((Player) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).anInt6514);
 								((Class98_Sub42) class98_sub42).anInt4227 = i_6_;
-								((Class98_Sub42) class98_sub42).aBoolean4215 = (((Class246_Sub3_Sub4_Sub2_Sub2) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).aBoolean6526);
+								((Class98_Sub42) class98_sub42).aBoolean4215 = (((Player) (((Class98_Sub42) class98_sub42).aClass246_Sub3_Sub4_Sub2_Sub2_4206)).aBoolean6526);
 							}
 						}
 					}
@@ -163,7 +163,7 @@ final class Class169 {
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lf.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("lf.B(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ')'));
 		}
 	}
@@ -180,7 +180,7 @@ final class Class169 {
 			aClass169_1303 = null;
 			aClass169_1297 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lf.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "lf.C(" + i + ')');
 		}
 	}
 
@@ -228,7 +228,7 @@ final class Class169 {
 				aClass169_1298 = null;
 			return null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lf.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "lf.A(" + i + ','
 					+ i_8_ + ')');
 		}
 	}
@@ -243,7 +243,7 @@ final class Class169 {
 			if (((Class169) this).anInt1300 >= 16)
 				throw new RuntimeException();
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("lf.<init>(" + i + ',' + i_10_ + ','
 							+ (class162 != null ? "{...}" : "null") + ')'));
 		}

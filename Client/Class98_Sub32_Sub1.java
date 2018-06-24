@@ -29,7 +29,7 @@ final class Class98_Sub32_Sub1 extends Class98_Sub32 implements ImageProducer {
 			aClass155Array5889 = null;
 			aClass171_5887 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fu.L(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "fu.L(" + bool
 					+ ')');
 		}
 	}
@@ -45,7 +45,7 @@ final class Class98_Sub32_Sub1 extends Class98_Sub32 implements ImageProducer {
 				anImageConsumer5885.imageComplete(2);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fu.K(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "fu.K(" + i + ')');
 		}
 	}
 
@@ -63,7 +63,7 @@ final class Class98_Sub32_Sub1 extends Class98_Sub32 implements ImageProducer {
 			graphics.drawImage(anImage5890, i - i_1_, -i_3_ + i_5_, aCanvas5884);
 			graphics.setClip(shape);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fu.A("
+			throw Class64_Sub27.printError(runtimeexception, ("fu.A("
 					+ (graphics != null ? "{...}" : "null") + ',' + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ',' + i_4_
 					+ ',' + i_5_ + ')'));
@@ -90,7 +90,7 @@ final class Class98_Sub32_Sub1 extends Class98_Sub32 implements ImageProducer {
 			method1443((byte) 115);
 			aCanvas5884.prepareImage(anImage5890, aCanvas5884);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fu.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fu.B(" + i + ','
 					+ i_6_ + ',' + i_7_ + ','
 					+ (canvas != null ? "{...}" : "null") + ')'));
 		}
@@ -102,7 +102,7 @@ final class Class98_Sub32_Sub1 extends Class98_Sub32 implements ImageProducer {
 			addConsumer(imageconsumer);
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("fu.startProduction("
+					.printError(runtimeexception, ("fu.startProduction("
 							+ (imageconsumer != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -121,7 +121,7 @@ final class Class98_Sub32_Sub1 extends Class98_Sub32 implements ImageProducer {
 				anImageConsumer5885.imageComplete(2);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fu.J(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fu.J(" + i + ','
 					+ i_8_ + ',' + i_9_ + ',' + i_10_ + ',' + i_11_ + ')'));
 		}
 	}
@@ -136,7 +136,7 @@ final class Class98_Sub32_Sub1 extends Class98_Sub32 implements ImageProducer {
 			imageconsumer.setColorModel(aColorModel5888);
 			imageconsumer.setHints(14);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fu.addConsumer("
+			throw Class64_Sub27.printError(runtimeexception, ("fu.addConsumer("
 					+ (imageconsumer != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -150,7 +150,7 @@ final class Class98_Sub32_Sub1 extends Class98_Sub32 implements ImageProducer {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fu.isConsumer("
+			throw Class64_Sub27.printError(runtimeexception, ("fu.isConsumer("
 					+ (imageconsumer != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -164,7 +164,7 @@ final class Class98_Sub32_Sub1 extends Class98_Sub32 implements ImageProducer {
 			}
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("fu.removeConsumer("
+					.printError(runtimeexception, ("fu.removeConsumer("
 							+ (imageconsumer != null ? "{...}" : "null") + ')'));
 		}
 	}

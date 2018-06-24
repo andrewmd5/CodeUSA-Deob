@@ -31,7 +31,7 @@ abstract class Class42 implements Interface3 {
 				OpenGL.glTexParameteri(anInt3226, 10240, 9728);
 			} while (false);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cu.Q(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cu.Q(" + i + ')');
 		}
 	}
 
@@ -42,7 +42,7 @@ abstract class Class42 implements Interface3 {
 			}
 			return anInt3229;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cu.T(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "cu.T(" + bool
 					+ ')');
 		}
 	}
@@ -58,7 +58,7 @@ abstract class Class42 implements Interface3 {
 			}
 			return i_1_ * 4 / 3;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cu.P(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cu.P(" + i + ')');
 		}
 	}
 
@@ -78,7 +78,7 @@ abstract class Class42 implements Interface3 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cu.S(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cu.S(" + i + ')');
 		}
 	}
 
@@ -94,7 +94,7 @@ abstract class Class42 implements Interface3 {
 				}
 				aShort3231 = (short) 21;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "cu.U(" + i
+				throw Class64_Sub27.printError(runtimeexception, "cu.U(" + i
 						+ ',' + bool + ')');
 			}
 			break;
@@ -107,7 +107,7 @@ abstract class Class42 implements Interface3 {
 			method375(true);
 			super.finalize();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"cu.finalize(" + ')');
 		}
 	}
@@ -124,7 +124,7 @@ abstract class Class42 implements Interface3 {
 				anInt3226 = 51;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cu.N(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("cu.N(" + bool
 					+ ',' + bool_3_ + ')'));
 		}
 	}
@@ -168,7 +168,7 @@ abstract class Class42 implements Interface3 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cu.O("
+			throw Class64_Sub27.printError(runtimeexception, ("cu.O("
 					+ (class305_sub1 != null ? "{...}" : "null") + ',' + i
 					+ ',' + (is != null ? "{...}" : "null") + ')'));
 		}
@@ -183,7 +183,7 @@ abstract class Class42 implements Interface3 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cu.M(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "cu.M(" + bool
 					+ ')');
 		}
 	}
@@ -200,7 +200,7 @@ abstract class Class42 implements Interface3 {
 			anInt3229 = Class165.anIntArray1277[0];
 			method377(122, 0);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cu.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("cu.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_16_ + ',' + i_17_ + ',' + bool + ')'));
 		}
@@ -218,7 +218,7 @@ abstract class Class42 implements Interface3 {
 					.method3325(class300.anInt2496, 96);
 			return class300;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cu.L(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("cu.L(" + i + ','
 					+ (class98_sub22 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -231,7 +231,7 @@ abstract class Class42 implements Interface3 {
 			}
 			aHa_Sub1_3227.anInt4337 += method370(-6462);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cu.R(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "cu.R(" + i + ','
 					+ i_18_ + ')');
 		}
 	}

@@ -50,7 +50,7 @@ final class Class74 {
 				anInt550 = anInt548;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ep.K(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "ep.K(" + bool
 					+ ')');
 		}
 	}
@@ -75,7 +75,7 @@ final class Class74 {
 			aClass215_549.method2785(class98_sub46_sub20_sub2, -51);
 			((Class98_Sub46) class98_sub46_sub20_sub2).aLong4259 = 0L;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ep.I(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ep.I(" + i + ','
 					+ (interface20 != null ? "{...}" : "null") + ','
 					+ (object != null ? "{...}" : "null") + ',' + bool + ')'));
 		}
@@ -97,7 +97,7 @@ final class Class74 {
 						final Class98_Sub46_Sub20 class98_sub46_sub20_1_ = Class39_Sub1.aClass277_3590
 								.method3290(class98_sub46_sub20, (byte) -33);
 						aClass377_545.method3996(class98_sub46_sub20_1_,
-								(((Class98) class98_sub46_sub20).aLong832), -1);
+								(((Node) class98_sub46_sub20).aLong832), -1);
 						Class101.method1697(class98_sub46_sub20, (byte) 37,
 								class98_sub46_sub20_1_);
 						class98_sub46_sub20.method942(82);
@@ -106,7 +106,7 @@ final class Class74 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ep.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ep.D(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -128,7 +128,7 @@ final class Class74 {
 				}
 				method727((byte) -57);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ep.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ep.B(" + i
 						+ ')');
 			}
 			break;
@@ -142,7 +142,7 @@ final class Class74 {
 			}
 			return anInt550;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ep.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "ep.A(" + bool
 					+ ')');
 		}
 	}
@@ -158,7 +158,7 @@ final class Class74 {
 				}
 				aClass164_547 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ep.L(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ep.L(" + i
 						+ ')');
 			}
 			break;
@@ -179,7 +179,7 @@ final class Class74 {
 				}
 				method724((byte) -95, -14);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("ep.J("
+				throw Class64_Sub27.printError(runtimeexception, ("ep.J("
 						+ (class98_sub46_sub20 != null ? "{...}" : "null")
 						+ ',' + i + ')'));
 			}
@@ -192,7 +192,7 @@ final class Class74 {
 		try {
 			method723(1, interface20, object, bool);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("ep.E(" + (object != null ? "{...}" : "null") + ','
 							+ (interface20 != null ? "{...}" : "null") + ','
 							+ bool + ')'));
@@ -206,7 +206,7 @@ final class Class74 {
 			}
 			return anInt548;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ep.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ep.F(" + i + ')');
 		}
 	}
 
@@ -227,7 +227,7 @@ final class Class74 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("ep.C(" + (interface20 != null ? "{...}" : "null") + ','
 							+ bool + ')'));
 		}
@@ -255,7 +255,7 @@ final class Class74 {
 									interface20, object,
 									class98_sub46_sub20.anInt6072));
 							aClass377_545.method3996(class98_sub46_sub20_sub2,
-									(((Class98) class98_sub46_sub20).aLong832),
+									(((Node) class98_sub46_sub20).aLong832),
 									-1);
 							aClass215_549.method2785(class98_sub46_sub20_sub2,
 									i + -68);
@@ -273,7 +273,7 @@ final class Class74 {
 			return null;
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("ep.G("
+					.printError(runtimeexception, ("ep.G("
 							+ (interface20 != null ? "{...}" : "null") + ','
 							+ i + ')'));
 		}
@@ -289,7 +289,7 @@ final class Class74 {
 			}
 			aClass377_545 = new Class377(i_3_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ep.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "ep.<init>(" + i
 					+ ')');
 		}
 	}
@@ -307,7 +307,7 @@ final class Class74 {
 				}
 				method733(-115L, -9);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ep.H(" + l
+				throw Class64_Sub27.printError(runtimeexception, "ep.H(" + l
 						+ ',' + i + ')');
 			}
 			break;

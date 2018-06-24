@@ -97,7 +97,7 @@ final class Class98_Sub28_Sub1 extends Class98_Sub28 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bw.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bw.H(" + i + ')');
 		}
 	}
 
@@ -110,7 +110,7 @@ final class Class98_Sub28_Sub1 extends Class98_Sub28 {
 				}
 				method1310(false, null, false);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "bw.J(" + i
+				throw Class64_Sub27.printError(runtimeexception, "bw.J(" + i
 						+ ')');
 			}
 			break;
@@ -127,7 +127,7 @@ final class Class98_Sub28_Sub1 extends Class98_Sub28 {
 				((Class98_Sub28) this).aHa_Sub1_4079.method1845(0, 847872872);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bw.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "bw.D(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -147,7 +147,7 @@ final class Class98_Sub28_Sub1 extends Class98_Sub28 {
 				aClass42_Sub1_5804 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bw.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bw.C(" + i + ')');
 		}
 	}
 
@@ -163,7 +163,7 @@ final class Class98_Sub28_Sub1 extends Class98_Sub28 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bw.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bw.E(" + i + ')');
 		}
 	}
 
@@ -182,7 +182,7 @@ final class Class98_Sub28_Sub1 extends Class98_Sub28 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bw.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bw.F(" + i + ')');
 		}
 	}
 
@@ -194,7 +194,7 @@ final class Class98_Sub28_Sub1 extends Class98_Sub28 {
 			}
 			return 1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bw.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "bw.B(" + bool
 					+ ')');
 		}
 	}
@@ -221,7 +221,7 @@ final class Class98_Sub28_Sub1 extends Class98_Sub28 {
 			}
 			throw new IllegalArgumentException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("bw.I(" + bool + ',' + (object != null ? "{...}" : "null")
 							+ ',' + bool_2_ + ')'));
 		}
@@ -283,7 +283,7 @@ final class Class98_Sub28_Sub1 extends Class98_Sub28 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bw.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("bw.A(" + i + ','
 					+ i_3_ + ',' + bool + ')'));
 		}
 	}
@@ -441,7 +441,7 @@ final class Class98_Sub28_Sub1 extends Class98_Sub28 {
 					OpenGL.glGetUniformLocationARB(l_15_, "bloomTex"), 1);
 			OpenGL.glUniform3fARB(
 					OpenGL.glGetUniformLocationARB(l_15_, "params"),
-					Class313.aFloat2680, Class177.aFloat1378, 0.0F);
+					Appearance.aFloat2680, Class177.aFloat1378, 0.0F);
 			((Class98_Sub28) this).aHa_Sub1_4079.method1845(1, 847872872);
 			((Class98_Sub28) this).aHa_Sub1_4079.method1863(1,
 					aClass42_Sub1_5804);
@@ -449,7 +449,7 @@ final class Class98_Sub28_Sub1 extends Class98_Sub28 {
 			((Class98_Sub28) this).aHa_Sub1_4079
 					.method1863(1, class42_sub1_11_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bw.G("
+			throw Class64_Sub27.printError(runtimeexception, ("bw.G("
 					+ (class42_sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_10_ + ','
 					+ (class42_sub1_11_ != null ? "{...}" : "null") + ')'));

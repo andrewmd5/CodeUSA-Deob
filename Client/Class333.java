@@ -29,14 +29,14 @@ final class Class333 implements Interface13 {
 				is[++i_0_] = i;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("uh.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("uh.B(" + i + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_0_ + ',' + i_1_
 					+ ',' + i_2_ + ')'));
 		}
 	}
 
 	static final void method3762(final byte i, final boolean bool,
-			final Class246_Sub3_Sub4_Sub2 class246_sub3_sub4_sub2) {
+			final Entity class246_sub3_sub4_sub2) {
 		do {
 			try {
 				final Class294 class294 = class246_sub3_sub4_sub2.method3039(1);
@@ -300,7 +300,7 @@ final class Class333 implements Interface13 {
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("uh.A("
 								+ i
 								+ ','
@@ -319,7 +319,7 @@ final class Class333 implements Interface13 {
 			aFloatArray3389 = new float[i_19_ * i];
 			anInt3388 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("uh.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("uh.<init>(" + i
 					+ ',' + i_19_ + ')'));
 		}
 	}

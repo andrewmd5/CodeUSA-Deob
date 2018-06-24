@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub13 extends Class98 {
+final class Class98_Sub13 extends Node {
 	private int anInt3880;
 	private float[] aFloatArray3881;
 	private static float[] aFloatArray3882;

@@ -20,7 +20,7 @@ final class Class335 {
 				return Class272.anInt2037;
 			return 0;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ui.G(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "ui.G(" + bool
 					+ ')');
 		}
 	}
@@ -47,7 +47,7 @@ final class Class335 {
 			}
 			return class9;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ui.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ui.B(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -63,7 +63,7 @@ final class Class335 {
 				((Class335) this).aClass79_2818.method800((byte) 62, i_2_);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ui.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ui.F(" + i + ','
 					+ i_2_ + ')');
 		}
 	}
@@ -79,7 +79,7 @@ final class Class335 {
 				((Class335) this).aClass79_2818.method806((byte) -117);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ui.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ui.D(" + i + ')');
 		}
 	}
 
@@ -92,7 +92,7 @@ final class Class335 {
 					break;
 				aBoolean2817 = true;
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ui.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ui.C(" + i
 						+ ')');
 			}
 			break;
@@ -110,7 +110,7 @@ final class Class335 {
 			if (i != 34)
 				((Class335) this).aClass79_2818 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ui.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ui.A(" + i + ')');
 		}
 	}
 
@@ -121,7 +121,7 @@ final class Class335 {
 				method3767(37, 14);
 			((Class335) this).aClass79_2818 = new Class79(i_4_);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ui.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ui.E(" + i + ','
 					+ i_3_ + ',' + i_4_ + ')'));
 		}
 	}
@@ -132,7 +132,7 @@ final class Class335 {
 			((Class335) this).aClass207_2814 = class207_5_;
 			aClass207_2815.method2761(0, 34);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ui.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("ui.<init>("
 					+ (class279 != null ? "{...}" : "null") + ',' + i + ','
 					+ (class207 != null ? "{...}" : "null") + ','
 					+ (class207_5_ != null ? "{...}" : "null") + ')'));

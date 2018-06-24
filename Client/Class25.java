@@ -11,7 +11,7 @@ final class Class25 {
 		try {
 			aClass58_266 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bs.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bs.A(" + i + ')');
 		}
 	}
 }

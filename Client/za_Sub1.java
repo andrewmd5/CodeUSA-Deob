@@ -17,7 +17,7 @@ final class za_Sub1 extends za {
 			}
 			aNativeHeap6078.b();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "eb.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "eb.F(" + i + ')');
 		}
 	}
 
@@ -27,7 +27,7 @@ final class za_Sub1 extends za {
 				aClass98_Sub5Array6077 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "eb.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "eb.D(" + i + ')');
 		}
 	}
 
@@ -96,7 +96,7 @@ final class za_Sub1 extends za {
 			}
 			return new String(cs, 0, i_2_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("eb.E(" + i + ',' + i_0_ + ',' + i_1_ + ','
 							+ (is != null ? "{...}" : "null") + ')'));
 		}
@@ -106,7 +106,7 @@ final class za_Sub1 extends za {
 		try {
 			aNativeHeap6078 = new NativeHeap(i);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "eb.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "eb.<init>(" + i
 					+ ')');
 		}
 	}

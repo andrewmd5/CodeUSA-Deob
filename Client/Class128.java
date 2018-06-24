@@ -15,7 +15,7 @@ final class Class128 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("il.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("il.B(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -38,7 +38,7 @@ final class Class128 {
 				}
 				method2224(-42);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "il.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "il.A(" + i
 						+ ')');
 			}
 			break;

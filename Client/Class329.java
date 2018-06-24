@@ -25,8 +25,8 @@ final class Class329 {
 				Class185.method2630(Class134.anInt3461 >> -802670004, -108,
 						(Class98_Sub46_Sub10.anInt6020 >> 1156493548), 5000);
 			} else {
-				final int i_0_ = ((((Class246_Sub3_Sub4_Sub2) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anIntArray6437[0]) >> -1272391965);
-				final int i_1_ = ((((Class246_Sub3_Sub4_Sub2) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anIntArray6438[0]) >> -1164602557);
+				final int i_0_ = ((((Entity) Surface.player).anIntArray6437[0]) >> -1272391965);
+				final int i_1_ = ((((Entity) Surface.player).anIntArray6438[0]) >> -1164602557);
 				if ((i_0_ ^ 0xffffffff) > -1
 						|| Class165.anInt1276 >> -310895453 <= i_0_
 						|| (i_1_ ^ 0xffffffff) > -1
@@ -46,7 +46,7 @@ final class Class329 {
 			PlayerUpdate.method2855(-19004);
 			Class96.method928((byte) -42);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uc.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "uc.A(" + i + ')');
 		}
 	}
 
@@ -60,7 +60,7 @@ final class Class329 {
 			anInt2772 = class329_2_.anInt2772;
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("uc.C("
+					.printError(runtimeexception, ("uc.C("
 							+ (class329_2_ != null ? "{...}" : "null") + ','
 							+ i + ')'));
 		}
@@ -74,7 +74,7 @@ final class Class329 {
 			return new Class329(anInt2770, anInt2763, anInt2768, anInt2762,
 					anInt2772, anInt2769);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uc.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "uc.B(" + i + ')');
 		}
 	}
 
@@ -85,7 +85,7 @@ final class Class329 {
 			}
 			return i_4_ >>> 367185160;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uc.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "uc.E(" + i + ','
 					+ i_4_ + ')');
 		}
 	}
@@ -99,7 +99,7 @@ final class Class329 {
 				}
 				method3712((byte) 51);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "uc.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "uc.D(" + i
 						+ ')');
 			}
 			break;
@@ -139,7 +139,7 @@ final class Class329 {
 			Class21_Sub4.anInt5394 = 1;
 			Class372.anInt3150 = 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("uc.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("uc.F(" + i + ','
 					+ (string != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -149,7 +149,7 @@ final class Class329 {
 		try {
 			anInt2770 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uc.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "uc.<init>(" + i
 					+ ')');
 		}
 	}
@@ -165,7 +165,7 @@ final class Class329 {
 			anInt2763 = i_8_;
 			anInt2772 = i_11_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("uc.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("uc.<init>(" + i
 					+ ',' + i_8_ + ',' + i_9_ + ',' + i_10_ + ',' + i_11_ + ','
 					+ i_12_ + ')'));
 		}

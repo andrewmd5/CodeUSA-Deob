@@ -49,7 +49,7 @@ final class Class151_Sub8 extends Class151 {
 				((Class151) this).aHa_Sub1_1215.method1845(0, 847872872);
 				aClass91_5012.method886((byte) -125);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("vj.<init>("
+				throw Class64_Sub27.printError(runtimeexception, ("vj.<init>("
 						+ (var_ha_Sub1 != null ? "{...}" : "null") + ')'));
 			}
 			break;
@@ -62,7 +62,7 @@ final class Class151_Sub8 extends Class151 {
 			anIntArray5014 = null;
 			aClass58_5011 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vj.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vj.B(" + i + ')');
 		}
 	}
 
@@ -73,7 +73,7 @@ final class Class151_Sub8 extends Class151 {
 				method2445((byte) 108);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vj.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vj.G(" + i + ','
 					+ i_1_ + ',' + i_2_ + ')'));
 		}
 	}
@@ -102,7 +102,7 @@ final class Class151_Sub8 extends Class151 {
 						.method1886(770, 0, 34200, 34168);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vj.D(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("vj.D(" + bool
 					+ ',' + bool_3_ + ')'));
 		}
 	}
@@ -115,7 +115,7 @@ final class Class151_Sub8 extends Class151 {
 				((Class151) this).aHa_Sub1_1215.method1896(260, i);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vj.F("
+			throw Class64_Sub27.printError(runtimeexception, ("vj.F("
 					+ (class42 != null ? "{...}" : "null") + ',' + bool + ','
 					+ i + ')'));
 		}
@@ -132,7 +132,7 @@ final class Class151_Sub8 extends Class151 {
 				}
 				aClass58_5011 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "vj.C(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "vj.C(" + bool
 						+ ',' + i + ')');
 			}
 			break;
@@ -147,7 +147,7 @@ final class Class151_Sub8 extends Class151 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vj.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vj.A(" + i + ')');
 		}
 	}
 
@@ -173,7 +173,7 @@ final class Class151_Sub8 extends Class151 {
 			}
 			aBoolean5010 = false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vj.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vj.E(" + i + ')');
 		}
 	}
 

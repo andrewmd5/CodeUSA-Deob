@@ -6,7 +6,7 @@ final class Class98_Sub10_Sub1 extends Class98_Sub10 {
 	private int anInt5541 = 4096;
 	static Class75[] aClass75Array5542;
 	static int anInt5543;
-	static Class207 aClass207_5544;
+	static Class207 class207;
 
 	@Override
 	final int[] method990(final int i, final int i_0_) {
@@ -39,7 +39,7 @@ final class Class98_Sub10_Sub1 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aca.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "aca.G(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -79,10 +79,10 @@ final class Class98_Sub10_Sub1 extends Class98_Sub10 {
 			Class275.aClass79_2046.method800((byte) 62, 5);
 			Class224_Sub3.aClass79_5039.method800((byte) 62, 5);
 			Class378.aClass79_3189.method800((byte) 62, 5);
-			Class98_Sub6.aClass79_3847.method800((byte) 62, 5);
+			RSModelLoader.aClass79_3847.method800((byte) 62, 5);
 			ClientScriptsDefs.aClass79_1890.method800((byte) 62, 5);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aca.H(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "aca.H(" + bool
 					+ ')');
 		}
 	}
@@ -93,14 +93,14 @@ final class Class98_Sub10_Sub1 extends Class98_Sub10 {
 		do {
 			try {
 				if (i_13_ >= -92) {
-					aClass207_5544 = null;
+					class207 = null;
 				}
 				if ((i ^ 0xffffffff) != -1) {
 					break;
 				}
 				anInt5541 = class98_sub22.readUnsignedShort((byte) 127);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("aca.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("aca.A(" + i
 						+ ',' + (class98_sub22 != null ? "{...}" : "null")
 						+ ',' + i_13_ + ')'));
 			}
@@ -142,7 +142,7 @@ final class Class98_Sub10_Sub1 extends Class98_Sub10 {
 			Class150.anInt1211 = 0;
 			Class260.aClass377_3254.method3994(-96);
 			Class98_Sub10_Sub20.anInt5640 = 0;
-			Class146.aClass377_1180.method3994(-126);
+			AbstractModel.aClass377_1180.method3994(-126);
 			Class284.method3359(9268);
 			Class75.anInt581 = 0;
 			Class75.aClass140_584.method2288((byte) -103);
@@ -162,7 +162,7 @@ final class Class98_Sub10_Sub1 extends Class98_Sub10 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("aca.E(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("aca.E(" + bool
 					+ ',' + bool_14_ + ')'));
 		}
 	}
@@ -180,7 +180,7 @@ final class Class98_Sub10_Sub1 extends Class98_Sub10 {
 			Class258.anInt1952 = 0;
 			Class273.anInt2039 = 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aca.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "aca.F(" + i + ','
 					+ i_15_ + ')');
 		}
 	}
@@ -189,7 +189,7 @@ final class Class98_Sub10_Sub1 extends Class98_Sub10 {
 			final byte i_17_) {
 		try {
 			if (i_17_ != -23) {
-				aClass207_5544 = null;
+				class207 = null;
 			}
 			if ((0x800 & i ^ 0xffffffff) == -1
 					|| (i_16_ & 0x37 ^ 0xffffffff) == -1) {
@@ -197,7 +197,7 @@ final class Class98_Sub10_Sub1 extends Class98_Sub10 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("aca.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("aca.D(" + i + ','
 					+ i_16_ + ',' + i_17_ + ')'));
 		}
 	}
@@ -206,10 +206,10 @@ final class Class98_Sub10_Sub1 extends Class98_Sub10 {
 		try {
 			if (i == -1) {
 				aClass75Array5542 = null;
-				aClass207_5544 = null;
+				class207 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aca.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "aca.B(" + i + ')');
 		}
 	}
 }

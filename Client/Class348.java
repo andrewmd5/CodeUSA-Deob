@@ -45,7 +45,7 @@ final class Class348 {
 				}
 				aBoolean2914 = false;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("vea.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("vea.A(" + i
 						+ ',' + i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + bool
 						+ ',' + bool_3_ + ',' + i_4_ + ')'));
 			}
@@ -58,7 +58,7 @@ final class Class348 {
 		try {
 			throw new IllegalStateException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"vea.toString(" + ')');
 		}
 	}
@@ -72,7 +72,7 @@ final class Class348 {
 				}
 				aBoolean2914 = false;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "vea.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "vea.B(" + i
 						+ ')');
 			}
 			break;
@@ -86,7 +86,7 @@ final class Class348 {
 			anInt2915 = i_11_;
 			anInt2913 = i_9_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vea.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("vea.<init>(" + i
 					+ ',' + i_9_ + ',' + i_10_ + ',' + i_11_ + ')'));
 		}
 	}

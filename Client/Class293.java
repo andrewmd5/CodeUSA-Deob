@@ -173,7 +173,7 @@ final class Class293 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sba.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sba.B(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -232,7 +232,7 @@ final class Class293 {
 					class332);
 			return class332;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sba.N("
+			throw Class64_Sub27.printError(runtimeexception, ("sba.N("
 					+ (var_ha != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -474,7 +474,7 @@ final class Class293 {
 			anIntArray2297 = method3473(class98_sub22, i + 947);
 			anIntArray2342 = method3473(class98_sub22, 0);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("sba.T(" + (class98_sub22 != null ? "{...}" : "null")
 							+ ',' + i + ')'));
 		}
@@ -500,7 +500,7 @@ final class Class293 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sba.H("
+			throw Class64_Sub27.printError(runtimeexception, ("sba.H("
 					+ (string != null ? "{...}" : "null") + ',' + i + ','
 					+ i_26_ + ')'));
 		}
@@ -510,10 +510,10 @@ final class Class293 {
 		do {
 			try {
 				if (aClass377_2337 != null) {
-					final Class98 class98 = aClass377_2337
+					final Node node = aClass377_2337
 							.method3990(i_27_, -1);
-					if (class98 != null) {
-						class98.method942(120);
+					if (node != null) {
+						node.method942(120);
 					}
 				}
 				if (i >= 36) {
@@ -521,7 +521,7 @@ final class Class293 {
 				}
 				method3458(null, 44, -60);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("sba.L(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("sba.L(" + i
 						+ ',' + i_27_ + ')'));
 			}
 			break;
@@ -538,17 +538,17 @@ final class Class293 {
 			}
 			return class43;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sba.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sba.D(" + i + ','
 					+ (var_ha != null ? "{...}" : "null") + ')'));
 		}
 	}
 
-	final Class146 method3461(final Interface6 interface6,
+	final AbstractModel method3461(final Interface6 interface6,
 			final AnimationDefParser class183, final Class301 class301,
 			final Class83 class83, final ha var_ha, final Class257 class257,
 			final Class40 class40, final byte i, final int i_28_, int i_29_,
 			final int i_30_, final int i_31_,
-			final AnimationDefinition class97, final Class313 class313,
+			final AnimationDefinition class97, final Appearance appearance,
 			final Class205 class205) {
 		try {
 			Class93.aBoolean3503 = false;
@@ -565,14 +565,14 @@ final class Class293 {
 				}
 				final long l = (anInt2233 << 994290256)
 						+ (var_ha.anInt937 << -395944227) - -anInt2343;
-				Class146 class146 = (Class146) Class64_Sub5.aClass79_3650
+				AbstractModel abstractModel = (AbstractModel) Class64_Sub5.aClass79_3650
 						.method802(-125, l);
-				if (class146 == null
-						|| ((var_ha.c(class146.ua(), i_29_) ^ 0xffffffff) != -1)) {
-					if (class146 != null) {
-						i_29_ = var_ha.method1777(i_29_, class146.ua());
+				if (abstractModel == null
+						|| ((var_ha.c(abstractModel.ua(), i_29_) ^ 0xffffffff) != -1)) {
+					if (abstractModel != null) {
+						i_29_ = var_ha.method1777(i_29_, abstractModel.ua());
 					}
-					final Model model = Class98_Sub6.method981(0, -9252,
+					final Model model = RSModelLoader.createModel(0, -9252,
 							Class340.aClass207_2847, anInt2343);
 					if (model == null) {
 						Class93.aBoolean3503 = true;
@@ -581,82 +581,82 @@ final class Class293 {
 					if (model.version < 13) {
 						model.method2592(13746, 2);
 					}
-					class146 = var_ha.method1790(model, i_29_,
+					abstractModel = var_ha.method1790(model, i_29_,
 							Class76_Sub10.anInt3794, 64, 768);
-					Class64_Sub5.aClass79_3650.method805(l, class146,
+					Class64_Sub5.aClass79_3650.method805(l, abstractModel,
 							(byte) -80);
 				}
 				if (class97 != null) {
-					class146 = class97.method937(i_28_, i_31_, i_29_, 121,
-							class146, i_30_);
+					abstractModel = class97.method937(i_28_, i_31_, i_29_, 121,
+							abstractModel, i_30_);
 				}
-				class146.s(i_33_);
-				return class146;
+				abstractModel.s(i_33_);
+				return abstractModel;
 			}
 			if ((anInt2233 ^ 0xffffffff) == -3) {
-				final Class146 class146 = (class301.method3538(5, anInt2343)
+				final AbstractModel abstractModel = (class301.method3538(5, anInt2343)
 						.method2299(class97, false, interface6, i_31_, i_30_,
 								class183, i_29_, var_ha, class40, i_28_));
-				if (class146 == null) {
+				if (abstractModel == null) {
 					Class93.aBoolean3503 = true;
 					return null;
 				}
-				return class146;
+				return abstractModel;
 			}
 			if (anInt2233 == 3) {
-				if (class313 == null) {
+				if (appearance == null) {
 					return null;
 				}
-				final Class146 class146 = class313.method3624((byte) 107,
+				final AbstractModel abstractModel = appearance.method3624((byte) 107,
 						i_31_, class83, class205, var_ha, i_30_, interface6,
 						class97, class301, i_28_, class183, i_29_);
-				if (class146 == null) {
+				if (abstractModel == null) {
 					Class93.aBoolean3503 = true;
 					return null;
 				}
-				return class146;
+				return abstractModel;
 			}
 			if (anInt2233 == 4) {
 				final ItemDefs class297 = class205.method2714(anInt2343,
 						(byte) -117);
-				final Class146 class146 = class297.method3501(i_31_, i_29_,
-						i_30_, class97, i_28_, var_ha, 10, 128, class313);
-				if (class146 == null) {
+				final AbstractModel abstractModel = class297.method3501(i_31_, i_29_,
+						i_30_, class97, i_28_, var_ha, 10, 128, appearance);
+				if (abstractModel == null) {
 					Class93.aBoolean3503 = true;
 					return null;
 				}
-				return class146;
+				return abstractModel;
 			}
 			if (anInt2233 == 6) {
-				final Class146 class146 = (class301.method3538(5, anInt2343)
+				final AbstractModel abstractModel = (class301.method3538(5, anInt2343)
 						.method2301(i_30_, 0, null, 0, (byte) 120, class97,
 								null, var_ha, 0, i_28_, interface6, class40,
 								i_31_, class257, i_29_, 0, class183, null));
-				if (class146 == null) {
+				if (abstractModel == null) {
 					Class93.aBoolean3503 = true;
 					return null;
 				}
-				return class146;
+				return abstractModel;
 			}
 			if (anInt2233 == 7) {
-				if (class313 == null) {
+				if (appearance == null) {
 					return null;
 				}
 				final int i_34_ = anInt2343 >>> -1684107024;
 				final int i_35_ = anInt2343 & 0xffff;
 				final int i_36_ = anInt2210;
-				final Class146 class146 = class313.method3626(i_30_, class97,
+				final AbstractModel abstractModel = appearance.method3626(i_30_, class97,
 						i_31_, i_36_, i_34_, i_35_, i_28_, i_29_, class83,
 						var_ha, 256, class183);
-				if (class146 == null) {
+				if (abstractModel == null) {
 					Class93.aBoolean3503 = true;
 					return null;
 				}
-				return class146;
+				return abstractModel;
 			}
 			return null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sba.P("
+			throw Class64_Sub27.printError(runtimeexception, ("sba.P("
 					+ (interface6 != null ? "{...}" : "null") + ','
 					+ (class183 != null ? "{...}" : "null") + ','
 					+ (class301 != null ? "{...}" : "null") + ','
@@ -666,7 +666,7 @@ final class Class293 {
 					+ (class40 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_28_ + ',' + i_29_ + ',' + i_30_ + ',' + i_31_ + ','
 					+ (class97 != null ? "{...}" : "null") + ','
-					+ (class313 != null ? "{...}" : "null") + ','
+					+ (appearance != null ? "{...}" : "null") + ','
 					+ (class205 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -692,7 +692,7 @@ final class Class293 {
 			aBoolean2209 = true;
 			return objects;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("sba.M(" + (class98_sub22 != null ? "{...}" : "null")
 							+ ',' + i + ')'));
 		}
@@ -713,19 +713,19 @@ final class Class293 {
 			}
 			return class98_sub15.aString3917;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sba.R(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sba.R(" + i + ','
 					+ i_40_ + ',' + (string != null ? "{...}" : "null") + ')'));
 		}
 	}
 
 	final void method3464(final boolean bool, final ha var_ha, final int i,
-			final Class146 class146, final Class111 class111) {
+			final AbstractModel abstractModel, final Class111 class111) {
 		do {
 			try {
-				class146.method2343(class111);
-				final Surface[] class87s = class146.method2320();
+				abstractModel.method2343(class111);
+				final Surface[] class87s = abstractModel.method2320();
 				if (bool == true) {
-					final SurfaceSkin[] class35s = class146.method2322();
+					final SurfaceSkin[] class35s = abstractModel.method2322();
 					if ((aClass246_Sub5_2301 == null || (aClass246_Sub5_2301.aBoolean5099))
 							&& (class87s != null || class35s != null)) {
 						aClass246_Sub5_2301 = Class246_Sub5
@@ -738,9 +738,9 @@ final class Class293 {
 							class35s, false);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("sba.A("
+				throw Class64_Sub27.printError(runtimeexception, ("sba.A("
 						+ bool + ',' + (var_ha != null ? "{...}" : "null")
-						+ ',' + i + ',' + (class146 != null ? "{...}" : "null")
+						+ ',' + i + ',' + (abstractModel != null ? "{...}" : "null")
 						+ ',' + (class111 != null ? "{...}" : "null") + ')'));
 			}
 			break;
@@ -789,12 +789,12 @@ final class Class293 {
 			anObjectArray2212 = null;
 			anObjectArray2319 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sba.K(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sba.K(" + i + ')');
 		}
 	}
 
 	static final void method3466(final byte i,
-			final Class246_Sub3_Sub4_Sub2 class246_sub3_sub4_sub2) {
+			final Entity class246_sub3_sub4_sub2) {
 		do {
 			try {
 				boolean bool = false;
@@ -850,7 +850,7 @@ final class Class293 {
 					class246_sub3_sub4_sub2.method3047(4096, false, 88);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("sba.S("
 								+ i
 								+ ','
@@ -879,7 +879,7 @@ final class Class293 {
 			}
 			return class346;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sba.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sba.F(" + i + ','
 					+ (class115 != null ? "{...}" : "null") + ','
 					+ (class59 != null ? "{...}" : "null") + ')'));
 		}
@@ -901,7 +901,7 @@ final class Class293 {
 			}
 			aStringArray2351[i] = string;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sba.Q("
+			throw Class64_Sub27.printError(runtimeexception, ("sba.Q("
 					+ (string != null ? "{...}" : "null") + ',' + i + ','
 					+ i_47_ + ')'));
 		}
@@ -953,7 +953,7 @@ final class Class293 {
 					(byte) -80);
 			return var_aa;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sba.I("
+			throw Class64_Sub27.printError(runtimeexception, ("sba.I("
 					+ (var_ha != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -964,7 +964,7 @@ final class Class293 {
 			final long l_61_, final int i_62_, final boolean bool_63_,
 			final String string_64_) {
 		try {
-			if (!Class246_Sub3_Sub4_Sub2_Sub2.aBoolean6540
+			if (!Player.aBoolean6540
 					&& Class359.anInt3058 < 500) {
 				i = i == -1 ? Class21_Sub2.anInt5387 : i;
 				if (bool == false) {
@@ -975,7 +975,7 @@ final class Class293 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sba.G(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("sba.G(" + bool
 					+ ',' + bool_56_ + ',' + l + ',' + i + ',' + i_57_ + ','
 					+ (string != null ? "{...}" : "null") + ',' + bool_58_
 					+ ',' + i_59_ + ',' + i_60_ + ',' + l_61_ + ',' + i_62_
@@ -1000,7 +1000,7 @@ final class Class293 {
 						Class149.anInt1208);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sba.C("
+			throw Class64_Sub27.printError(runtimeexception, ("sba.C("
 					+ (canvas != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -1020,7 +1020,7 @@ final class Class293 {
 			}
 			return class98_sub34.anInt4126;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sba.O(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sba.O(" + i + ','
 					+ i_65_ + ',' + i_66_ + ')'));
 		}
 	}
@@ -1038,7 +1038,7 @@ final class Class293 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("sba.J(" + (class98_sub22 != null ? "{...}" : "null")
 							+ ',' + i + ')'));
 		}
@@ -1064,7 +1064,7 @@ final class Class293 {
 			}
 			anIntArray2326[i_69_] = i_70_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sba.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sba.E(" + i + ','
 					+ i_69_ + ',' + i_70_ + ')'));
 		}
 	}

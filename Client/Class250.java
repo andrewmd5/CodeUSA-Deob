@@ -18,7 +18,7 @@ final class Class250 {
 			}
 			aClass354_1914 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pl.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pl.B(" + i + ')');
 		}
 	}
 
@@ -37,7 +37,7 @@ final class Class250 {
 			}
 			return i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pl.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pl.C(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ')'));
 		}
 	}
@@ -50,7 +50,7 @@ final class Class250 {
 			anIntArray1912 = is_5_;
 			aFloatArrayArray1910 = fs;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pl.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("pl.<init>("
 					+ (is != null ? "{...}" : "null") + ','
 					+ (is_4_ != null ? "{...}" : "null") + ','
 					+ (is_5_ != null ? "{...}" : "null") + ','
@@ -72,7 +72,7 @@ final class Class250 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pl.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pl.D(" + i + ','
 					+ (class98_sub31 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -88,7 +88,7 @@ final class Class250 {
 				}
 				method3166(-101, -39, 69, (byte) -47);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("pl.A("
+				throw Class64_Sub27.printError(runtimeexception, ("pl.A("
 						+ (class207 != null ? "{...}" : "null") + ',' + bool
 						+ ',' + (var_d != null ? "{...}" : "null") + ')'));
 			}

@@ -11,7 +11,7 @@ final class Class258 {
 		try {
 			throw new IllegalStateException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"qc.toString(" + ')');
 		}
 	}
@@ -34,7 +34,7 @@ final class Class258 {
 					class98_sub22.readMediumInt(-123),
 					class98_sub22.readUnsignedByte((byte) -7));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qc.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("qc.A(" + i + ','
 					+ (class98_sub22 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -48,7 +48,7 @@ final class Class258 {
 				}
 				aClass155Array1951 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "qc.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "qc.B(" + i
 						+ ')');
 			}
 			break;

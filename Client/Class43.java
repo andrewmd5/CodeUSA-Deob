@@ -145,7 +145,7 @@ abstract class Class43 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("da.N(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("da.N(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ','
 					+ (var_aa != null ? "{...}" : "null") + ',' + i_3_ + ','
 					+ (string != null ? "{...}" : "null") + ','
@@ -164,7 +164,7 @@ abstract class Class43 {
 						-1, string, null, null);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("da.T(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("da.T(" + i + ','
 					+ i_12_ + ',' + i_13_ + ',' + i_14_ + ','
 					+ (string != null ? "{...}" : "null") + ',' + i_15_ + ')'));
 		}
@@ -203,7 +203,7 @@ abstract class Class43 {
 			method401(i_17_, true);
 			Class279.anInt2099 = 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "da.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "da.F(" + i + ')');
 		}
 	}
 
@@ -219,7 +219,7 @@ abstract class Class43 {
 			}
 			Class64_Sub17.anInt3684 = Class279.anInt2096 = i_18_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("da.P(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("da.P(" + i + ','
 					+ i_18_ + ',' + i_19_ + ')'));
 		}
 	}
@@ -293,7 +293,7 @@ abstract class Class43 {
 				/* empty */
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("da.V("
+			throw Class64_Sub27.printError(runtimeexception, ("da.V("
 					+ (string != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -338,7 +338,7 @@ abstract class Class43 {
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "da.W(" + i
+				throw Class64_Sub27.printError(runtimeexception, "da.W(" + i
 						+ ',' + bool + ')');
 			}
 			break;
@@ -373,7 +373,7 @@ abstract class Class43 {
 						.method2674(string, 106) + i << 1130187208)
 						/ i_22_;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("da.AA(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("da.AA(" + i
 						+ ',' + (string != null ? "{...}" : "null") + ','
 						+ i_21_ + ')'));
 			}
@@ -400,7 +400,7 @@ abstract class Class43 {
 						true, null, null, string, null, i_26_);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("da.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("da.G(" + i + ','
 					+ i_25_ + ',' + i_26_ + ',' + i_27_ + ',' + i_28_ + ','
 					+ (string != null ? "{...}" : "null") + ',' + i_29_ + ')'));
 		}
@@ -418,7 +418,7 @@ abstract class Class43 {
 				PlayerUpdate.aClass79_3411.method800((byte) 62, i);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "da.BA(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "da.BA(" + i + ','
 					+ i_32_ + ')');
 		}
 	}
@@ -527,7 +527,7 @@ abstract class Class43 {
 			}
 			return i_46_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("da.R(" + i + ',' + i_33_ + ',' + i_34_ + ','
 							+ (var_aa != null ? "{...}" : "null") + ',' + i_35_
 							+ ',' + i_36_ + ',' + i_37_ + ',' + i_38_ + ','
@@ -558,7 +558,7 @@ abstract class Class43 {
 						+ i_56_, true, null, null, string, null, i_52_);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("da.I(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("da.I(" + i + ','
 					+ i_51_ + ',' + i_52_ + ',' + i_53_ + ',' + i_54_ + ','
 					+ i_55_ + ',' + i_56_ + ','
 					+ (string != null ? "{...}" : "null") + ')'));
@@ -594,7 +594,7 @@ abstract class Class43 {
 			method410(null, i_64_, true, is_68_, class332s, string, is, i_62_);
 			return i_69_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("da.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("da.H(" + i + ','
 					+ i_61_ + ',' + i_62_ + ','
 					+ (string != null ? "{...}" : "null") + ','
 					+ (random != null ? "{...}" : "null") + ','
@@ -617,7 +617,7 @@ abstract class Class43 {
 					i_79_, i_80_, (byte) -74, class332s, i_76_, i_72_, string,
 					i_74_, is);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("da.Q(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("da.Q(" + i + ','
 					+ (class332s != null ? "{...}" : "null") + ',' + i_71_
 					+ ',' + (string != null ? "{...}" : "null") + ',' + i_72_
 					+ ',' + i_73_ + ',' + (var_aa != null ? "{...}" : "null")
@@ -764,7 +764,7 @@ abstract class Class43 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("da.J("
+			throw Class64_Sub27.printError(runtimeexception, ("da.J("
 					+ (is != null ? "{...}" : "null") + ',' + i + ',' + bool
 					+ ',' + (is_86_ != null ? "{...}" : "null") + ','
 					+ (class332s != null ? "{...}" : "null") + ','
@@ -781,7 +781,7 @@ abstract class Class43 {
 				method396(0, 0, i_102_, i_105_, null, -1, string, null, null);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("da.M(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("da.M(" + i + ','
 					+ i_102_ + ',' + (string != null ? "{...}" : "null") + ','
 					+ i_103_ + ',' + i_104_ + ',' + i_105_ + ')'));
 		}
@@ -808,7 +808,7 @@ abstract class Class43 {
 			}
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("da.U(" + i + ',' + i_107_
+					.printError(runtimeexception, ("da.U(" + i + ',' + i_107_
 							+ ',' + i_108_ + ',' + i_109_ + ',' + i_110_ + ','
 							+ (string != null ? "{...}" : "null") + ','
 							+ i_111_ + ')'));
@@ -824,7 +824,7 @@ abstract class Class43 {
 				method396(0, 0, i, i_118_, null, -1, string, class332s, is);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("da.K(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("da.K(" + i + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_116_ + ','
 					+ (string != null ? "{...}" : "null") + ',' + i_117_ + ','
 					+ i_118_ + ',' + i_119_ + ','
@@ -842,7 +842,7 @@ abstract class Class43 {
 				}
 				aCharArray376 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "da.CA(" + i
+				throw Class64_Sub27.printError(runtimeexception, "da.CA(" + i
 						+ ')');
 			}
 			break;
@@ -859,7 +859,7 @@ abstract class Class43 {
 						null, -1, string, null, null);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("da.L(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("da.L(" + i + ','
 					+ (string != null ? "{...}" : "null") + ',' + i_120_ + ','
 					+ i_121_ + ',' + i_122_ + ',' + i_123_ + ')'));
 		}
@@ -870,7 +870,7 @@ abstract class Class43 {
 			aClass197_373 = class197;
 			aHa374 = var_ha;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("da.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("da.<init>("
 					+ (var_ha != null ? "{...}" : "null") + ','
 					+ (class197 != null ? "{...}" : "null") + ')'));
 		}
@@ -928,7 +928,7 @@ abstract class Class43 {
 			}
 			return i_138_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("da.O(" + i + ',' + i_125_ + ',' + i_126_ + ',' + i_127_
 							+ ',' + i_128_ + ','
 							+ (random != null ? "{...}" : "null") + ','

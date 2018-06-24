@@ -33,7 +33,7 @@ final class Class281 {
 			frame.setVisible(bool);
 			frame.dispose();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ri.C(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("ri.C(" + bool
 					+ ',' + (frame != null ? "{...}" : "null") + ','
 					+ (class88 != null ? "{...}" : "null") + ')'));
 		}
@@ -46,7 +46,7 @@ final class Class281 {
 			}
 			aByteArrayArrayArray2117 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ri.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ri.B(" + i + ')');
 		}
 	}
 
@@ -66,7 +66,7 @@ final class Class281 {
 			anInt2120 = i_1_;
 			anInt2116 = i_9_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ri.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("ri.<init>(" + i
 					+ ',' + i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ','
 					+ i_4_ + ',' + i_5_ + ',' + i_6_ + ',' + i_7_ + ',' + bool
 					+ ',' + bool_8_ + ',' + i_9_ + ')'));

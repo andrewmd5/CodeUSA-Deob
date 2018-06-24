@@ -19,7 +19,7 @@ final class AnimationDefParser {
 				aClass79_1443.method794(86);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "me.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "me.B(" + bool
 					+ ')');
 		}
 	}
@@ -36,7 +36,7 @@ final class AnimationDefParser {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "me.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "me.G(" + i + ')');
 		}
 	}
 
@@ -97,14 +97,14 @@ final class AnimationDefParser {
 				final float f_21_ = (-fs[1] + fs_10_[1]) * -1.0F;
 				final float f_22_ = fs_10_[2] - fs[2];
 				final double d = Math.sqrt(f_22_ * f_22_ + f_20_ * f_20_);
-				Class246_Sub3_Sub4_Sub2.anInt6357 = (int) (2607.5945876176133 * Math
+				Entity.anInt6357 = (int) (2607.5945876176133 * Math
 						.atan2(f_21_, d)) & 0x3fff;
 				Class186.anInt3424 = 0x3fff & (int) (2607.5945876176133 * -Math
 						.atan2(f_20_, f_22_));
 				Class308.anInt2584 = ((InputStream_Sub1.anIntArrayArrayArray27[Class368.anInt3128][i_1_][3]) - -(((-(InputStream_Sub1.anIntArrayArrayArray27[Class368.anInt3128][i_1_][3]) + (InputStream_Sub1.anIntArrayArrayArray27[Class368.anInt3128][2 + i_1_][3])) * Class54.anInt3394) >> -1587239088));
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "me.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "me.C(" + i + ')');
 		}
 	}
 
@@ -119,7 +119,7 @@ final class AnimationDefParser {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "me.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "me.F(" + i + ','
 					+ i_23_ + ')');
 		}
 	}
@@ -134,7 +134,7 @@ final class AnimationDefParser {
 			}
 			return is_25_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("me.D(" + (is != null ? "{...}" : "null") + ',' + i + ','
 							+ i_24_ + ')'));
 		}
@@ -222,7 +222,7 @@ final class AnimationDefParser {
 			}
 			return definition;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "me.E(" + id + ','
+			throw Class64_Sub27.printError(runtimeexception, "me.E(" + id + ','
 					+ i_26_ + ')');
 		}
 	}
@@ -247,7 +247,7 @@ final class AnimationDefParser {
 			}
 			return class98_sub46_sub16;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "me.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "me.H(" + i + ','
 					+ i_27_ + ')');
 		}
 	}
@@ -261,7 +261,7 @@ final class AnimationDefParser {
 					.method2628(i, -105, 4);
 			class98_sub46_sub17.method1621(0);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "me.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "me.A(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -278,7 +278,7 @@ final class AnimationDefParser {
 			Class246_Sub3_Sub4_Sub4.method3079((byte) 33, class207_29_, 2,
 					class207_28_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("me.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("me.<init>("
 					+ (class279 != null ? "{...}" : "null") + ',' + i + ','
 					+ (class207 != null ? "{...}" : "null") + ','
 					+ (class207_28_ != null ? "{...}" : "null") + ','

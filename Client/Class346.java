@@ -33,7 +33,7 @@ final class Class346 {
 				aClass332_2894 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vaa.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vaa.C(" + i + ')');
 		}
 	}
 
@@ -85,7 +85,7 @@ final class Class346 {
 			}
 			return bool;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vaa.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vaa.D(" + i + ','
 					+ i_1_ + ',' + (var_ha != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -211,7 +211,7 @@ final class Class346 {
 			} while (false);
 			return Character.toLowerCase(c);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vaa.B(" + c + ','
+			throw Class64_Sub27.printError(runtimeexception, "vaa.B(" + c + ','
 					+ i + ')');
 		}
 	}
@@ -225,7 +225,7 @@ final class Class346 {
 				}
 				aFloat2900 = -0.43294057F;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "vaa.E(" + i
+				throw Class64_Sub27.printError(runtimeexception, "vaa.E(" + i
 						+ ')');
 			}
 			break;
@@ -289,7 +289,7 @@ final class Class346 {
 						i_14_, i_13_, i_8_, i_9_);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vaa.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vaa.A(" + i + ','
 					+ i_8_ + ',' + i_9_ + ',' + i_10_ + ',' + i_11_ + ','
 					+ i_12_ + ',' + (var_ha != null ? "{...}" : "null") + ','
 					+ i_13_ + ',' + i_14_ + ',' + i_15_ + ')'));
@@ -314,7 +314,7 @@ final class Class346 {
 						: null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vaa.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("vaa.<init>(" + i
 					+ ',' + (class175s != null ? "{...}" : "null") + ','
 					+ i_22_ + ',' + i_23_ + ',' + i_24_ + ',' + i_25_ + ')'));
 		}

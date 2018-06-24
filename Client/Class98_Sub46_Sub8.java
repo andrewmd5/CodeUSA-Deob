@@ -27,7 +27,7 @@ final class Class98_Sub46_Sub8 extends Class98_Sub46 {
 				}
 				aClass58_5996 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "em.A(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "em.A(" + bool
 						+ ')');
 			}
 			break;
@@ -52,7 +52,7 @@ final class Class98_Sub46_Sub8 extends Class98_Sub46 {
 			anInt5995 = i_3_;
 			aString5994 = string;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("em.<init>(" + (string != null ? "{...}" : "null") + ','
 							+ (string_0_ != null ? "{...}" : "null") + ',' + i
 							+ ',' + i_1_ + ',' + i_2_ + ',' + l + ',' + i_3_

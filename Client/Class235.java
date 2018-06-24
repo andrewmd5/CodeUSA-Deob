@@ -59,7 +59,7 @@ final class Class235 {
 				aClass12_1767 = new Class12(aHa_Sub2_1756, this);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ou.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ou.A(" + i + ')');
 		}
 	}
 
@@ -70,7 +70,7 @@ final class Class235 {
 				aFloatArray1799 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ou.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ou.C(" + i + ','
 					+ (runnable != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -84,7 +84,7 @@ final class Class235 {
 				}
 				aLong1753 = -27L;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ou.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ou.B(" + i
 						+ ')');
 			}
 			break;
@@ -138,7 +138,7 @@ final class Class235 {
 				anIntArray1773[i] = -1;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ou.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "ou.<init>("
 					+ (var_ha_Sub2 != null ? "{...}" : "null") + ')');
 		}
 	}

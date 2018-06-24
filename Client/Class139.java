@@ -17,7 +17,7 @@ final class Class139 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jj.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "jj.D(" + i + ')');
 		}
 	}
 
@@ -46,7 +46,7 @@ final class Class139 {
 			}
 			return class167;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jj.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "jj.C(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -60,7 +60,7 @@ final class Class139 {
 				aClass79_1089.method806((byte) 30);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jj.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "jj.A(" + i + ')');
 		}
 	}
 
@@ -70,7 +70,7 @@ final class Class139 {
 				aClass79_1089.method800((byte) 62, i_1_);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jj.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "jj.B(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -84,7 +84,7 @@ final class Class139 {
 				anInt1086 = aClass207_1088.method2761(0, 16);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jj.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("jj.<init>("
 					+ (class279 != null ? "{...}" : "null") + ',' + i + ','
 					+ (class207 != null ? "{...}" : "null") + ')'));
 		}

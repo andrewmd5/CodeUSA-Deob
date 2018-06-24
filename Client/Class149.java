@@ -44,7 +44,7 @@ final class Class149 {
 				class98_sub22.method1217(is, 24, -1, 0);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("kc.D(" + (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i + ')'));
 		}
@@ -63,7 +63,7 @@ final class Class149 {
 				method2434(i_2_, class98_sub22, 1);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("kc.A(" + (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i + ')'));
 		}
@@ -78,7 +78,7 @@ final class Class149 {
 				aCalendar1200 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kc.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kc.F(" + i + ')');
 		}
 	}
 
@@ -92,7 +92,7 @@ final class Class149 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kc.C(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "kc.C(" + bool
 					+ ')');
 		}
 	}
@@ -116,7 +116,7 @@ final class Class149 {
 					aString1203 = class98_sub22.readString((byte) 84);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("kc.E(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("kc.E(" + i
 						+ ',' + (class98_sub22 != null ? "{...}" : "null")
 						+ ',' + i_3_ + ')'));
 			}
@@ -135,7 +135,7 @@ final class Class149 {
 			class98_sub11.aClass98_Sub22_Sub1_3865.writeLEInt(i_5_, 1046032984);
 			Class98_Sub10_Sub29.sendPacket(false, class98_sub11);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("kc.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("kc.B(" + i + ','
 					+ i_4_ + ',' + i_5_ + ')'));
 		}
 	}

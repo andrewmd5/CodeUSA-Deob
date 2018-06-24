@@ -1142,7 +1142,7 @@ final class ha_Sub2 extends ha {
 	}
 
 	@Override
-	final Class146 method1790(final Model model, final int i,
+	final AbstractModel method1790(final Model model, final int i,
 			final int i_239_, final int i_240_, final int i_241_) {
 		return new Class146_Sub1(this, model, i, i_240_, i_241_, i_239_);
 	}

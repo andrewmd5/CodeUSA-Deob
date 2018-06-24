@@ -50,7 +50,7 @@ final class Class278_Sub1 extends Class278 {
 				anIntArray5168 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "paa.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "paa.A(" + i + ')');
 		}
 	}
 
@@ -80,7 +80,7 @@ final class Class278_Sub1 extends Class278 {
 			}
 			return i_1_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "paa.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "paa.B(" + i + ')');
 		}
 	}
 

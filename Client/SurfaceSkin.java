@@ -23,7 +23,7 @@ final class SurfaceSkin {
 				return null;
 			return Class21.method263(((SurfaceSkin) this).anInt329, 31866);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cia.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cia.D(" + i + ')');
 		}
 	}
 
@@ -35,7 +35,7 @@ final class SurfaceSkin {
 				return 0;
 			return Class2.anIntArray70.length * 2;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cia.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cia.E(" + i + ')');
 		}
 	}
 
@@ -55,7 +55,7 @@ final class SurfaceSkin {
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("cia.A(" + (class246_sub1 != null ? "{...}" : "null")
 							+ ',' + i + ')'));
 		}
@@ -69,7 +69,7 @@ final class SurfaceSkin {
 			anIntArray333 = null;
 			aStringArray335 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cia.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cia.C(" + i + ')');
 		}
 	}
 
@@ -77,7 +77,7 @@ final class SurfaceSkin {
 		try {
 			return l & l_3_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cia.H(" + l + ','
+			throw Class64_Sub27.printError(runtimeexception, "cia.H(" + l + ','
 					+ l_3_ + ')');
 		}
 	}
@@ -88,7 +88,7 @@ final class SurfaceSkin {
 				method331((byte) -2);
 			return new SurfaceSkin(((SurfaceSkin) this).anInt329, i_4_);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cia.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "cia.B(" + i + ','
 					+ i_4_ + ')');
 		}
 	}
@@ -141,7 +141,7 @@ final class SurfaceSkin {
 			}
 			return -1;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cia.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("cia.G(" + i + ','
 					+ (string != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -165,7 +165,7 @@ final class SurfaceSkin {
 				return -i_12_ + 7 - i + 1;
 			return i_11_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cia.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("cia.F(" + i + ','
 					+ i_9_ + ',' + i_10_ + ',' + i_11_ + ',' + i_12_ + ','
 					+ i_13_ + ',' + i_14_ + ')'));
 		}
@@ -176,7 +176,7 @@ final class SurfaceSkin {
 			((SurfaceSkin) this).anInt329 = i;
 			((SurfaceSkin) this).anInt327 = i_16_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cia.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("cia.<init>(" + i
 					+ ',' + i_16_ + ')'));
 		}
 	}

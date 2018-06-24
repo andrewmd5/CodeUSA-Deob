@@ -2,9 +2,9 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub42 extends Class98 {
+final class Class98_Sub42 extends Node {
 	int anInt4205;
-	Class246_Sub3_Sub4_Sub2_Sub2 aClass246_Sub3_Sub4_Sub2_Sub2_4206;
+	Player aClass246_Sub3_Sub4_Sub2_Sub2_4206;
 	boolean aBoolean4207;
 	int[] anIntArray4208;
 	Class246_Sub3_Sub4_Sub2_Sub1 aClass246_Sub3_Sub4_Sub2_Sub1_4209;
@@ -54,7 +54,7 @@ final class Class98_Sub42 extends Class98 {
 				class98_sub36.aClass237_Sub1_4157.method2911(
 						class98_sub36.aBoolean4153, (byte) 22);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "qfa.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "qfa.B(" + i
 						+ ',' + i_0_ + ')');
 			}
 			break;
@@ -82,7 +82,7 @@ final class Class98_Sub42 extends Class98 {
 							false);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "qfa.E(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "qfa.E(" + bool
 						+ ')');
 			}
 			break;
@@ -172,7 +172,7 @@ final class Class98_Sub42 extends Class98 {
 					aClass98_Sub24_Sub1_4214 = null;
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "qfa.A(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "qfa.A(" + bool
 						+ ')');
 			}
 			break;
@@ -186,7 +186,7 @@ final class Class98_Sub42 extends Class98 {
 			}
 			return Class10.aHashtable118.containsKey(string);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qfa.D("
+			throw Class64_Sub27.printError(runtimeexception, ("qfa.D("
 					+ (string != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -199,7 +199,7 @@ final class Class98_Sub42 extends Class98 {
 			}
 			aClass171_4235 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qfa.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qfa.C(" + i + ')');
 		}
 	}
 

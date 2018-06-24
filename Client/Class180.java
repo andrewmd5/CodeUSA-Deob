@@ -47,7 +47,7 @@ final class Class180 implements Interface14 {
 			}
 			return class9.method191(-87);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("maa.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("maa.C(" + i + ','
 					+ (interface19 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -60,7 +60,7 @@ final class Class180 implements Interface14 {
 			}
 			return Class191.aClass191_1474;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "maa.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "maa.B(" + i + ')');
 		}
 	}
 
@@ -75,7 +75,7 @@ final class Class180 implements Interface14 {
 					i_0_ + 21696);
 			class98_sub11.aClass98_Sub22_Sub1_3865.writeShort(i_2_, 1571862888);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("maa.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("maa.A(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ','
 					+ (class98_sub11 != null ? "{...}" : "null") + ')'));
 		}
@@ -92,7 +92,7 @@ final class Class180 implements Interface14 {
 			}
 			return 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "maa.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "maa.E(" + i + ')');
 		}
 	}
 
@@ -107,7 +107,7 @@ final class Class180 implements Interface14 {
 			aShortArrayArray3403 = null;
 			aShortArrayArray3402 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "maa.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "maa.D(" + i + ')');
 		}
 	}
 
@@ -116,7 +116,7 @@ final class Class180 implements Interface14 {
 			aClass207_3399 = class207;
 			aString3400 = string;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("maa.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("maa.<init>("
 					+ (class207 != null ? "{...}" : "null") + ','
 					+ (string != null ? "{...}" : "null") + ')'));
 		}

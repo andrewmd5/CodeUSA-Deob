@@ -49,7 +49,7 @@ final class Class292 implements Interface10 {
 				return -79;
 			return field.getInt(object);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sa.P("
+			throw Class64_Sub27.printError(runtimeexception, ("sa.P("
 					+ (string != null ? "{...}" : "null") + ',' + i + ','
 					+ (object != null ? "{...}" : "null") + ','
 					+ (var_class != null ? "{...}" : "null") + ')'));
@@ -73,7 +73,7 @@ final class Class292 implements Interface10 {
 					class98_sub42.method1478(true);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sa.J(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sa.J(" + i + ')');
 		}
 	}
 
@@ -82,7 +82,7 @@ final class Class292 implements Interface10 {
 			int i_0_ = 105 % ((-13 - i) / 50);
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sa.N(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "sa.N(" + i + ','
 					+ l + ')');
 		}
 	}
@@ -97,7 +97,7 @@ final class Class292 implements Interface10 {
 					Class98_Sub5_Sub1.aColorArray5533[Class98_Sub9.anInt3855],
 					Class140.aClass47_3241.method443((byte) -46), 90);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sa.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sa.A(" + i + ')');
 		}
 	}
 
@@ -108,7 +108,7 @@ final class Class292 implements Interface10 {
 			aClass171_3339 = null;
 			anIntArray3355 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sa.M(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sa.M(" + i + ')');
 		}
 	}
 
@@ -153,7 +153,7 @@ final class Class292 implements Interface10 {
 						var_class_1_);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sa.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sa.C(" + i + ')');
 		}
 	}
 
@@ -165,7 +165,7 @@ final class Class292 implements Interface10 {
 				return (-i + Class98_Sub25.anInt4024) / 2;
 			return 0;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sa.O(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "sa.O(" + i + ','
 					+ i_2_ + ')');
 		}
 	}
@@ -178,7 +178,7 @@ final class Class292 implements Interface10 {
 					break;
 				method3448(65);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "sa.K(" + i
+				throw Class64_Sub27.printError(runtimeexception, "sa.K(" + i
 						+ ')');
 			}
 			break;
@@ -204,7 +204,7 @@ final class Class292 implements Interface10 {
 				return -i + 7 - i_6_ - -1;
 			return -i_7_ + 1 + -i_4_ + 7;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sa.L(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sa.L(" + i + ','
 					+ i_3_ + ',' + bool + ',' + i_4_ + ',' + i_5_ + ',' + i_6_
 					+ ',' + i_7_ + ')'));
 		}
@@ -217,7 +217,7 @@ final class Class292 implements Interface10 {
 			Field field = var_class.getDeclaredField(string);
 			return field.getBoolean(object);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sa.E("
+			throw Class64_Sub27.printError(runtimeexception, ("sa.E("
 					+ (var_class != null ? "{...}" : "null") + ',' + i + ','
 					+ (string != null ? "{...}" : "null") + ','
 					+ (object != null ? "{...}" : "null") + ')'));
@@ -229,7 +229,7 @@ final class Class292 implements Interface10 {
 			if (i != -31295)
 				method3453(-13, 77);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sa.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sa.H(" + i + ')');
 		}
 	}
 
@@ -239,7 +239,7 @@ final class Class292 implements Interface10 {
 				anImage3345 = null;
 			return 100;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sa.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sa.F(" + i + ')');
 		}
 	}
 
@@ -249,7 +249,7 @@ final class Class292 implements Interface10 {
 				method3451(-96, 3, true, -103, -108, -61, -101);
 			return 0;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sa.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sa.D(" + i + ')');
 		}
 	}
 
@@ -261,7 +261,7 @@ final class Class292 implements Interface10 {
 				return -28;
 			return 0;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sa.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "sa.B(" + i + ','
 					+ i_10_ + ')');
 		}
 	}
@@ -275,7 +275,7 @@ final class Class292 implements Interface10 {
 			field.set(Class76_Sub11.anApplet3799, null);
 			return object;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sa.G("
+			throw Class64_Sub27.printError(runtimeexception, ("sa.G("
 					+ (var_class != null ? "{...}" : "null") + ','
 					+ (string != null ? "{...}" : "null") + ',' + i + ')'));
 		}
@@ -416,7 +416,7 @@ final class Class292 implements Interface10 {
 					Class42_Sub3.aCanvas5361.repaint();
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sa.I(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "sa.I(" + i + ','
 					+ bool + ')');
 		}
 	}

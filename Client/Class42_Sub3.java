@@ -21,7 +21,7 @@ final class Class42_Sub3 extends Class42 {
 				aCanvas5361 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pea.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pea.B(" + i + ')');
 		}
 	}
 
@@ -31,7 +31,7 @@ final class Class42_Sub3 extends Class42 {
 			aCanvas5361 = null;
 			aClass348_5363 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pea.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pea.D(" + i + ')');
 		}
 	}
 
@@ -43,7 +43,7 @@ final class Class42_Sub3 extends Class42 {
 						!bool ? 33071 : 10497);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pea.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "pea.C(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -65,7 +65,7 @@ final class Class42_Sub3 extends Class42 {
 			return new Class207(Class100.aClass339_Sub1Array844[i_2_], bool,
 					i_1_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pea.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pea.A(" + i + ','
 					+ bool + ',' + i_1_ + ',' + i_2_ + ')'));
 		}
 	}
@@ -83,7 +83,7 @@ final class Class42_Sub3 extends Class42 {
 			method372(-28003, true);
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception,
+					.printError(runtimeexception,
 							("pea.<init>("
 									+ (var_ha_Sub1 != null ? "{...}" : "null")
 									+ ',' + i + ',' + i_3_ + ','

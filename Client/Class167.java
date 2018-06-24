@@ -25,7 +25,7 @@ final class Class167 {
 				}
 				method2527(null, -116);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("ld.B(" + (class98_sub22 != null ? "{...}" : "null")
 								+ ',' + i + ')'));
 			}
@@ -44,7 +44,7 @@ final class Class167 {
 				}
 				method2528((byte) -25);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ld.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ld.A(" + i
 						+ ')');
 			}
 			break;
@@ -98,7 +98,7 @@ final class Class167 {
 				}
 				method2531(null, -110);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("ld.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("ld.D(" + i
 						+ ',' + (class98_sub22 != null ? "{...}" : "null")
 						+ ',' + i_5_ + ')'));
 			}
@@ -136,7 +136,7 @@ final class Class167 {
 			Class98_Sub10_Sub37.method1115(0, is, false, string);
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ld.C("
+			throw Class64_Sub27.printError(runtimeexception, ("ld.C("
 					+ (string != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}

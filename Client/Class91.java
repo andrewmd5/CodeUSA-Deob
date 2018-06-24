@@ -14,7 +14,7 @@ final class Class91 {
 		try {
 			OpenGL.glEndList();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fo.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "fo.B(" + i + ')');
 		}
 	}
 
@@ -24,7 +24,7 @@ final class Class91 {
 				OpenGL.glNewList(i + anInt723, 4864);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fo.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "fo.C(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -38,7 +38,7 @@ final class Class91 {
 				}
 				method889(true);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "fo.A(" + c
+				throw Class64_Sub27.printError(runtimeexception, "fo.A(" + c
 						+ ',' + bool + ')');
 			}
 			break;
@@ -52,7 +52,7 @@ final class Class91 {
 			}
 			aClass28_722 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fo.D(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "fo.D(" + bool
 					+ ')');
 		}
 	}
@@ -125,7 +125,7 @@ final class Class91 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("fo.E(" + i + ',' + i_2_ + ',' + i_3_ + ',' + i_4_ + ','
 							+ i_5_ + ',' + i_6_ + ')'));
 		}
@@ -136,7 +136,7 @@ final class Class91 {
 			anInt723 = OpenGL.glGenLists(i);
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("fo.<init>("
+					.printError(runtimeexception, ("fo.<init>("
 							+ (var_ha_Sub1 != null ? "{...}" : "null") + ','
 							+ i + ')'));
 		}

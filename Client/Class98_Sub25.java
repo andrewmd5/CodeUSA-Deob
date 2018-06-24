@@ -4,7 +4,7 @@
 import jaclib.memory.Buffer;
 import jaclib.memory.Stream;
 
-final class Class98_Sub25 extends Class98 {
+final class Class98_Sub25 extends Node {
 	private Interface2_Impl2 anInterface2_Impl2_4009;
 	private int anInt4010;
 	private int anInt4011;
@@ -59,7 +59,7 @@ final class Class98_Sub25 extends Class98 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jq.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("jq.E(" + i + ','
 					+ (bools != null ? "{...}" : "null") + ',' + i_0_ + ','
 					+ i_1_ + ',' + i_2_ + ')'));
 		}
@@ -69,7 +69,7 @@ final class Class98_Sub25 extends Class98 {
 		try {
 			aStringArray4026 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jq.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "jq.A(" + i + ')');
 		}
 	}
 
@@ -82,9 +82,9 @@ final class Class98_Sub25 extends Class98 {
 			final int i_15_ = aS_Sub2_4027.method3417(i_13_, i_14_, true);
 			if ((0x7f & i_12_) == 0 || (0x7f & i_10_) == 0) {
 				l = ((long) i_14_ << 519790224 & 65535L << 934742032 | i_13_ & 0xffffL);
-				final Class98 class98 = aClass377_4022.method3990(l, -1);
-				if (class98 != null) {
-					method1273((((Class98_Sub40) class98).aShort4191), -29314);
+				final Node node = aClass377_4022.method3990(l, -1);
+				if (node != null) {
+					method1273((((Class98_Sub40) node).aShort4191), -29314);
 					return;
 				}
 			}
@@ -199,7 +199,7 @@ final class Class98_Sub25 extends Class98 {
 			aStream4016.e(255);
 			method1273(i_16_, -29314);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jq.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("jq.D(" + i + ','
 					+ i_7_ + ',' + i_8_ + ',' + i_9_ + ',' + i_10_ + ','
 					+ i_11_ + ',' + i_12_ + ')'));
 		}
@@ -216,7 +216,7 @@ final class Class98_Sub25 extends Class98 {
 				}
 				aStream4020.d(i);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "jq.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "jq.C(" + i
 						+ ',' + i_40_ + ')');
 			}
 		} while (false);
@@ -228,7 +228,7 @@ final class Class98_Sub25 extends Class98 {
 			Class76_Sub8.aBoolean3771 = true;
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jq.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "jq.B(" + i + ')');
 		}
 	}
 
@@ -483,7 +483,7 @@ final class Class98_Sub25 extends Class98 {
 			aClass377_4022 = null;
 			aStream4020 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jq.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("jq.<init>("
 					+ (var_ha_Sub3 != null ? "{...}" : "null") + ','
 					+ (var_s_Sub2 != null ? "{...}" : "null") + ','
 					+ (class98_sub5 != null ? "{...}" : "null") + ','

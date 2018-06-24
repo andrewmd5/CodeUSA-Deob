@@ -18,7 +18,7 @@ final class Class257 {
 				aClass79_1950.method800((byte) 62, i_0_);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qb.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "qb.D(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -30,7 +30,7 @@ final class Class257 {
 			}
 			aClass207_1947 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qb.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qb.C(" + i + ')');
 		}
 	}
 
@@ -56,7 +56,7 @@ final class Class257 {
 			}
 			return class294;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qb.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "qb.A(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -67,7 +67,7 @@ final class Class257 {
 				aClass79_1950.method794(102);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qb.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qb.F(" + i + ')');
 		}
 	}
 
@@ -99,7 +99,7 @@ final class Class257 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qb.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "qb.E(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -113,7 +113,7 @@ final class Class257 {
 				aClass79_1950.method806((byte) -121);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qb.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qb.B(" + i + ')');
 		}
 	}
 
@@ -122,7 +122,7 @@ final class Class257 {
 			aClass207_1949 = class207;
 			aClass207_1949.method2761(0, 32);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qb.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("qb.<init>("
 					+ (class279 != null ? "{...}" : "null") + ',' + i + ','
 					+ (class207 != null ? "{...}" : "null") + ')'));
 		}

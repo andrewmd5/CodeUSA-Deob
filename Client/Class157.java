@@ -6,7 +6,7 @@ final class Class157 {
 	static byte[][] aByteArrayArray1248 = new byte[1000][];
 	static float aFloat1249;
 	private Class148 aClass148_1250;
-	private Class98 aClass98_1251;
+	private Node aClass98_1251;
 
 	static final void method2502(final int[] is, final int[] is_0_, final int i) {
 		try {
@@ -23,43 +23,43 @@ final class Class157 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("kk.E("
+			throw Class64_Sub27.printError(runtimeexception, ("kk.E("
 					+ (is != null ? "{...}" : "null") + ','
 					+ (is_0_ != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
 
-	final Class98 method2503(final int i) {
+	final Node method2503(final int i) {
 		try {
 			if (i != 1000) {
 				return null;
 			}
-			final Class98 class98 = aClass98_1251;
-			if (aClass148_1250.aClass98_1198 == class98) {
+			final Node node = aClass98_1251;
+			if (aClass148_1250.aClass98_1198 == node) {
 				aClass98_1251 = null;
 				return null;
 			}
-			aClass98_1251 = class98.aClass98_836;
-			return class98;
+			aClass98_1251 = node.aClass98_836;
+			return node;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kk.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kk.F(" + i + ')');
 		}
 	}
 
-	final Class98 method2504(final byte i) {
+	final Node method2504(final byte i) {
 		try {
 			if (i >= -113) {
 				return null;
 			}
-			final Class98 class98 = (aClass148_1250.aClass98_1198.aClass98_836);
-			if (class98 == aClass148_1250.aClass98_1198) {
+			final Node node = (aClass148_1250.aClass98_1198.aClass98_836);
+			if (node == aClass148_1250.aClass98_1198) {
 				aClass98_1251 = null;
 				return null;
 			}
-			aClass98_1251 = class98.aClass98_836;
-			return class98;
+			aClass98_1251 = node.aClass98_836;
+			return node;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kk.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kk.B(" + i + ')');
 		}
 	}
 
@@ -70,7 +70,7 @@ final class Class157 {
 				return;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("kk.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("kk.C(" + i + ','
 					+ (class148 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -122,7 +122,7 @@ final class Class157 {
 					Class9.method189(class98_sub46_sub9, (byte) 87);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("kk.A("
 								+ i
 								+ ','
@@ -142,7 +142,7 @@ final class Class157 {
 				}
 				aFloat1249 = -0.7901263F;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "kk.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "kk.D(" + i
 						+ ')');
 			}
 			break;
@@ -157,7 +157,7 @@ final class Class157 {
 		try {
 			aClass148_1250 = class148;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kk.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "kk.<init>("
 					+ (class148 != null ? "{...}" : "null") + ')');
 		}
 	}

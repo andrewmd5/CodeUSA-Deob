@@ -6,7 +6,7 @@ final class Class175 {
 	private int anInt1354;
 	private final int anInt1355;
 	private static Class332 aClass332_1356;
-	private static Class146 aClass146_1357;
+	private static AbstractModel aClass146_1357;
 	private int anInt1358;
 	private final int anInt1359;
 	private int anInt1360;
@@ -89,7 +89,7 @@ final class Class175 {
 	}
 
 	private final void method2572(final ha var_ha, final Class175 class175_11_) {
-		final Model model = Class98_Sub6.method981(0, -9252,
+		final Model model = RSModelLoader.createModel(0, -9252,
 				Class98_Sub10_Sub39.aClass207_5773, anInt1366);
 		if (model != null) {
 			var_ha.K(anIntArray1367);
@@ -127,18 +127,18 @@ final class Class175 {
 			}
 			var_ha.xa(1.0F);
 			var_ha.ZA(16777215, 1.0F, 1.0F, i, i_12_, i_13_);
-			final Class146 class146 = var_ha.method1790(model, 2048, 0, 64,
+			final AbstractModel abstractModel = var_ha.method1790(model, 2048, 0, 64,
 					768);
-			final int i_22_ = class146.RA() - class146.V();
-			final int i_23_ = class146.EA() - class146.fa();
-			final int i_24_ = class146.V() + i_22_ / 2;
-			final int i_25_ = class146.fa() + i_23_ / 2;
+			final int i_22_ = abstractModel.RA() - abstractModel.V();
+			final int i_23_ = abstractModel.EA() - abstractModel.fa();
+			final int i_24_ = abstractModel.V() + i_22_ / 2;
+			final int i_25_ = abstractModel.fa() + i_23_ / 2;
 			final int i_26_ = i_22_ > i_23_ ? i_22_ : i_23_;
 			var_ha.DA(i_24_, i_25_, i_26_, i_26_);
 			var_ha.a(var_ha.method1821());
 			final Class111 class111 = var_ha.method1793();
-			class111.method2100(0, 0, var_ha.i() - class146.HA());
-			class146.method2329(class111, null, var_ha.i(), 1);
+			class111.method2100(0, 0, var_ha.i() - abstractModel.HA());
+			abstractModel.method2329(class111, null, var_ha.i(), 1);
 			aClass332_1368 = var_ha
 					.method1797(0, 0, anInt1354, anInt1354, true);
 			aClass332_1368.method3742(0, 0, 3);
@@ -304,20 +304,20 @@ final class Class175 {
 			i_59_ = i_59_ * i_64_ - i * i_63_ >> 14;
 			i = i_65_;
 		}
-		final Class146 class146 = aClass146_1357.method2341((byte) 0, 51200,
+		final AbstractModel abstractModel = aClass146_1357.method2341((byte) 0, 51200,
 				true);
-		class146.aa((short) 0, (short) anInt1366);
+		abstractModel.aa((short) 0, (short) anInt1366);
 		var_ha.xa(1.0F);
 		var_ha.ZA(16777215, 1.0F, 1.0F, i, i_58_, i_59_);
-		int i_66_ = 1024 * anInt1354 / (class146.RA() - class146.V());
+		int i_66_ = 1024 * anInt1354 / (abstractModel.RA() - abstractModel.V());
 		if (anInt1369 != 0) {
 			i_66_ = i_66_ * 13 / 16;
 		}
 		var_ha.DA(anInt1354 / 2, anInt1354 / 2, i_66_, i_66_);
 		var_ha.a(var_ha.method1821());
 		final Class111 class111 = var_ha.method1821();
-		class111.method2100(0, 0, var_ha.i() - class146.HA());
-		class146.method2329(class111, null, 1024, 1);
+		class111.method2100(0, 0, var_ha.i() - abstractModel.HA());
+		abstractModel.method2329(class111, null, 1024, 1);
 		final int i_67_ = anInt1354 * 13 / 16;
 		final int i_68_ = (anInt1354 - i_67_) / 2;
 		aClass332_1363.method3727(i_68_, i_68_, i_67_, i_67_, 0, ~0xffffff

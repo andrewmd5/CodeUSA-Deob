@@ -49,7 +49,7 @@ final class Class98_Sub46_Sub1 extends Class98_Sub46 {
 				aString5941 = class98_sub22.readString((byte) 84);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("aw.F(" + i + ','
 							+ (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i_0_ + ')'));
@@ -71,7 +71,7 @@ final class Class98_Sub46_Sub1 extends Class98_Sub46 {
 			}
 			return -1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aw.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "aw.C(" + i + ','
 					+ c + ')');
 		}
 	}
@@ -91,7 +91,7 @@ final class Class98_Sub46_Sub1 extends Class98_Sub46 {
 			}
 			return -1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aw.E(" + c + ','
+			throw Class64_Sub27.printError(runtimeexception, "aw.E(" + c + ','
 					+ i + ')');
 		}
 	}
@@ -103,7 +103,7 @@ final class Class98_Sub46_Sub1 extends Class98_Sub46 {
 			}
 			aClass172ArrayArrayArray5948 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aw.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "aw.A(" + bool
 					+ ')');
 		}
 	}
@@ -128,7 +128,7 @@ final class Class98_Sub46_Sub1 extends Class98_Sub46 {
 							(anIntArray5944[i_10_]), 32768);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "aw.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "aw.B(" + i
 						+ ')');
 			}
 			break;
@@ -148,7 +148,7 @@ final class Class98_Sub46_Sub1 extends Class98_Sub46 {
 				method1527(i, class98_sub22, (byte) 61);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("aw.D(" + (class98_sub22 != null ? "{...}" : "null") + ','
 							+ bool + ')'));
 		}

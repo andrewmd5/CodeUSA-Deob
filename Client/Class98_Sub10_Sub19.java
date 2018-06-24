@@ -23,7 +23,7 @@ final class Class98_Sub10_Sub19 extends Class98_Sub10 {
 				Class224_Sub3.anInt5037 = i;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lp.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "lp.B(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -44,7 +44,7 @@ final class Class98_Sub10_Sub19 extends Class98_Sub10 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lp.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("lp.E(" + i + ','
 					+ (var_ha != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -95,7 +95,7 @@ final class Class98_Sub10_Sub19 extends Class98_Sub10 {
 				}
 				method1057(-103, -126);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("lp.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("lp.A(" + i
 						+ ',' + (class98_sub22 != null ? "{...}" : "null")
 						+ ',' + i_3_ + ')'));
 			}
@@ -187,7 +187,7 @@ final class Class98_Sub10_Sub19 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lp.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "lp.G(" + i + ','
 					+ i_5_ + ')');
 		}
 	}
@@ -207,7 +207,7 @@ final class Class98_Sub10_Sub19 extends Class98_Sub10 {
 				Class98_Sub31_Sub4.method1386(i + -66);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lp.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "lp.I(" + i + ')');
 		}
 	}
 
@@ -247,7 +247,7 @@ final class Class98_Sub10_Sub19 extends Class98_Sub10 {
 				Class333.method3761(i_31_, is, i_45_, i_39_, (byte) 1);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lp.D(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("lp.D(" + bool
 					+ ',' + i + ',' + i_31_ + ',' + i_32_ + ',' + i_33_ + ','
 					+ i_34_ + ',' + i_35_ + ')'));
 		}

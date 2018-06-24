@@ -133,7 +133,7 @@ final class Class208 {
 			anIntArray1580 = null;
 			aClass207_1581 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nia.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "nia.B(" + i + ')');
 		}
 	}
 }

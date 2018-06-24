@@ -14,7 +14,7 @@ final class Class150 {
 			aClass171_1209 = null;
 			aClass58_1212 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kca.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "kca.A(" + bool
 					+ ')');
 		}
 	}
@@ -23,7 +23,7 @@ final class Class150 {
 		try {
 			return i_0_ >>> -54059832;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kca.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "kca.B(" + i + ','
 					+ i_0_ + ')');
 		}
 	}

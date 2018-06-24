@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-abstract class Class98_Sub24 extends Class98 {
+abstract class Class98_Sub24 extends Node {
 	int anInt4008;
 
 	public Class98_Sub24() {

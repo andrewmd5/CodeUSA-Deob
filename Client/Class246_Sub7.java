@@ -18,16 +18,18 @@ final class Class246_Sub7 extends Class246 {
 			if (i != 0) {
 				aClass48_5119 = null;
 			}
+			
 			if ((l ^ 0xffffffffffffffffL) < -1L) {
 				if ((l % 10L ^ 0xffffffffffffffffL) != -1L) {
 					Class74.method733(l, 75);
+					
 				} else {
 					Class74.method733(-1L + l, 60);
 					Class74.method733(1L, i + 116);
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mda.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "mda.C(" + i + ','
 					+ l + ')');
 		}
 	}
@@ -52,7 +54,7 @@ final class Class246_Sub7 extends Class246 {
 			} while (false);
 			return (i_1_ & 0xff80) + i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("mda.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("mda.A(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -67,7 +69,7 @@ final class Class246_Sub7 extends Class246 {
 				}
 				method3133((byte) -73);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "mda.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "mda.B(" + i
 						+ ')');
 			}
 			break;

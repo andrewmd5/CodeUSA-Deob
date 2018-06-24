@@ -28,7 +28,7 @@ final class Class170 {
 			}
 			return class293.aString2214;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lfa.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("lfa.A(" + i + ','
 					+ (class293 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -40,7 +40,7 @@ final class Class170 {
 			}
 			anIntArrayArrayArray1311 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lfa.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "lfa.B(" + i + ')');
 		}
 	}
 
@@ -57,7 +57,7 @@ final class Class170 {
 			anInt1315 = i;
 			aBoolean1314 = bool;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lfa.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("lfa.<init>(" + i
 					+ ',' + i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ','
 					+ i_4_ + ',' + i_5_ + ',' + i_6_ + ',' + i_7_ + ',' + bool
 					+ ',' + i_8_ + ')'));

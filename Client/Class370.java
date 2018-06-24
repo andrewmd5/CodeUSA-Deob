@@ -20,7 +20,7 @@ final class Class370 {
 				aClass58_3134 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wf.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wf.A(" + i + ')');
 		}
 	}
 
@@ -30,7 +30,7 @@ final class Class370 {
 			anIntArray3133 = new int[anInt3137];
 			anIntArray3138 = new int[anInt3137];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wf.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "wf.<init>(" + i
 					+ ')');
 		}
 	}

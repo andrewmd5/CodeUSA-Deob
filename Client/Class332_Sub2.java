@@ -33,7 +33,7 @@ final class Class332_Sub2 extends Class332 {
 				}
 				method3756(i, i_0_, i_1_, i_2_, is, 0, i_1_);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("pia.J(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("pia.J(" + i
 						+ ',' + i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_
 						+ ',' + i_4_ + ')'));
 			}
@@ -46,7 +46,7 @@ final class Class332_Sub2 extends Class332 {
 		try {
 			return anInt5418 + anInt5419 + anInt5416;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pia.T(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pia.T(" + ')');
 		}
 	}
 
@@ -56,7 +56,7 @@ final class Class332_Sub2 extends Class332 {
 				aClass207_5423 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pia.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pia.A(" + i + ')');
 		}
 	}
 
@@ -66,7 +66,7 @@ final class Class332_Sub2 extends Class332 {
 			anInterface4_Impl2_5424.method49(17779, i_6_, i_8_, is, i, i_9_,
 					i_10_, i_7_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pia.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pia.B(" + i + ','
 					+ i_6_ + ',' + i_7_ + ',' + i_8_ + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_9_ + ','
 					+ i_10_ + ')'));
@@ -78,7 +78,7 @@ final class Class332_Sub2 extends Class332 {
 		try {
 			return anInt5414 + (anInt5412 + anInt5422);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pia.O(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pia.O(" + ')');
 		}
 	}
 
@@ -90,7 +90,7 @@ final class Class332_Sub2 extends Class332 {
 			is[1] = anInt5416;
 			is[0] = anInt5414;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pia.S("
+			throw Class64_Sub27.printError(runtimeexception, "pia.S("
 					+ (is != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -154,7 +154,7 @@ final class Class332_Sub2 extends Class332 {
 			aHa_Sub3_5415.method2051(1, -107, IncomingOpcode.aClass65_459);
 			aHa_Sub3_5415.method1953(-89, IncomingOpcode.aClass65_459, 1);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pia.BA(" + f
+			throw Class64_Sub27.printError(runtimeexception, ("pia.BA(" + f
 					+ ',' + f_11_ + ',' + f_12_ + ',' + f_13_ + ',' + f_14_
 					+ ',' + f_15_ + ',' + i + ',' + i_16_ + ',' + i_17_ + ','
 					+ i_18_ + ')'));
@@ -218,7 +218,7 @@ final class Class332_Sub2 extends Class332 {
 			}
 			method3756(0, 0, anInt5412, anInt5419, is_36_, 0, anInt5412);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pia.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pia.F(" + i + ','
 					+ i_34_ + ',' + i_35_ + ')'));
 		}
 	}
@@ -234,7 +234,7 @@ final class Class332_Sub2 extends Class332 {
 			aBoolean5420 = (anInt5414 != 0 || (anInt5416 ^ 0xffffffff) != -1
 					|| (anInt5422 ^ 0xffffffff) != -1 || (anInt5418 ^ 0xffffffff) != -1);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pia.Q(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pia.Q(" + i + ','
 					+ i_49_ + ',' + i_50_ + ',' + i_51_ + ')'));
 		}
 	}
@@ -438,7 +438,7 @@ final class Class332_Sub2 extends Class332 {
 			aHa_Sub3_5415.method2051(1, -79, IncomingOpcode.aClass65_459);
 			aHa_Sub3_5415.method1953(-86, IncomingOpcode.aClass65_459, 1);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pia.K(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pia.K(" + i + ','
 					+ i_52_ + ',' + i_53_ + ',' + i_54_ + ',' + i_55_ + ','
 					+ i_56_ + ',' + i_57_ + ')'));
 		}
@@ -496,7 +496,7 @@ final class Class332_Sub2 extends Class332 {
 			aHa_Sub3_5415.method1951((byte) 120, 0);
 			aHa_Sub3_5415.method1985(2);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pia.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pia.D(" + i + ','
 					+ i_83_ + ',' + (var_aa != null ? "{...}" : "null") + ','
 					+ i_84_ + ',' + i_85_ + ')'));
 		}
@@ -572,7 +572,7 @@ final class Class332_Sub2 extends Class332 {
 			aHa_Sub3_5415.method1951((byte) 120, 0);
 			aHa_Sub3_5415.method1985(2);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pia.L(" + f + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pia.L(" + f + ','
 					+ f_88_ + ',' + f_89_ + ',' + f_90_ + ',' + f_91_ + ','
 					+ f_92_ + ',' + i + ','
 					+ (var_aa != null ? "{...}" : "null") + ',' + i_93_ + ','
@@ -585,7 +585,7 @@ final class Class332_Sub2 extends Class332 {
 		try {
 			return anInt5412;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pia.AA(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pia.AA(" + ')');
 		}
 	}
 
@@ -631,7 +631,7 @@ final class Class332_Sub2 extends Class332 {
 			aHa_Sub3_5415.method2051(1, -84, IncomingOpcode.aClass65_459);
 			aHa_Sub3_5415.method1953(-69, IncomingOpcode.aClass65_459, 1);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pia.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pia.C(" + i + ','
 					+ i_99_ + ',' + i_100_ + ',' + i_101_ + ',' + i_102_ + ','
 					+ i_103_ + ',' + i_104_ + ',' + i_105_ + ')'));
 		}
@@ -642,7 +642,7 @@ final class Class332_Sub2 extends Class332 {
 		try {
 			return anInt5419;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pia.U(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pia.U(" + ')');
 		}
 	}
 
@@ -680,7 +680,7 @@ final class Class332_Sub2 extends Class332 {
 			aHa_Sub3_5415.method2051(1, -112, IncomingOpcode.aClass65_459);
 			aHa_Sub3_5415.method1953(-102, IncomingOpcode.aClass65_459, 1);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("pia.E(" + i + ',' + i_107_ + ',' + i_108_ + ',' + i_109_
 							+ ',' + i_110_ + ')'));
 		}
@@ -707,7 +707,7 @@ final class Class332_Sub2 extends Class332 {
 			aBoolean5417 = !aBoolean5411
 					&& anInterface4_Impl2_5424.method48(-33);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pia.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("pia.<init>("
 					+ (var_ha_Sub3 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_112_ + ',' + bool + ')'));
 		}
@@ -733,7 +733,7 @@ final class Class332_Sub2 extends Class332 {
 			aBoolean5417 = !aBoolean5411
 					&& anInterface4_Impl2_5424.method48(-111);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pia.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("pia.<init>("
 					+ (var_ha_Sub3 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_113_ + ',' + (is != null ? "{...}" : "null") + ','
 					+ i_114_ + ',' + i_115_ + ')'));

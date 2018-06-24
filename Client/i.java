@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class i extends Class146 implements Interface9 {
+final class i extends AbstractModel implements Interface9 {
 	private final ya aYa3292;
 	private final oa anOa3293;
 	Surface[] aClass87Array3294;
@@ -153,14 +153,14 @@ final class i extends Class146 implements Interface9 {
 	final void method2342() {
 		if (anOa3293.anInt3316 > 1) {
 			synchronized (this) {
-				while (((Class146) this).aBoolean1181) {
+				while (((AbstractModel) this).aBoolean1181) {
 					try {
 						this.wait();
 					} catch (final InterruptedException interruptedexception) {
 						/* empty */
 					}
 				}
-				((Class146) this).aBoolean1181 = true;
+				((AbstractModel) this).aBoolean1181 = true;
 			}
 		}
 	}
@@ -214,9 +214,9 @@ final class i extends Class146 implements Interface9 {
 	final native void C(int i);
 
 	@Override
-	final void method2332(final Class146 class146, final int i,
+	final void method2332(final AbstractModel abstractModel, final int i,
 			final int i_29_, final int i_30_, final boolean bool) {
-		anOa3293.method1930().method140(this, class146, i, i_29_, i_30_, bool);
+		anOa3293.method1930().method140(this, abstractModel, i, i_29_, i_30_, bool);
 	}
 
 	@Override
@@ -253,7 +253,7 @@ final class i extends Class146 implements Interface9 {
 	}
 
 	@Override
-	final Class146 method2341(final byte i, final int i_43_, final boolean bool) {
+	final AbstractModel method2341(final byte i, final int i_43_, final boolean bool) {
 		return anOa3293.method1930().method137(this, i, i_43_, bool);
 	}
 
@@ -261,7 +261,7 @@ final class i extends Class146 implements Interface9 {
 	final void method2327() {
 		if (anOa3293.anInt3316 > 1) {
 			synchronized (this) {
-				((Class146) this).aBoolean1181 = false;
+				((AbstractModel) this).aBoolean1181 = false;
 				notifyAll();
 			}
 		}

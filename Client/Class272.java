@@ -12,7 +12,7 @@ final class Class272 {
 			if (bool == false)
 				anIntArray2036 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qu.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "qu.A(" + bool
 					+ ')');
 		}
 	}

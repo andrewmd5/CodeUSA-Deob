@@ -25,7 +25,7 @@ final class Class54 implements Interface14 {
 			aBoolean3392 = true;
 			return 100;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dm.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dm.E(" + i + ')');
 		}
 	}
 
@@ -73,7 +73,7 @@ final class Class54 implements Interface14 {
 			}
 			return frame;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dm.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("dm.A(" + i + ','
 					+ i_1_ + ',' + i_2_ + ',' + i_3_ + ',' + i_4_ + ','
 					+ (class88 != null ? "{...}" : "null") + ')'));
 		}
@@ -86,7 +86,7 @@ final class Class54 implements Interface14 {
 			}
 			return aBoolean3392;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dm.D(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "dm.D(" + bool
 					+ ')');
 		}
 	}
@@ -99,7 +99,7 @@ final class Class54 implements Interface14 {
 			}
 			return Class191.aClass191_1476;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dm.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dm.B(" + i + ')');
 		}
 	}
 
@@ -107,7 +107,7 @@ final class Class54 implements Interface14 {
 		try {
 			aStringArray3393 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dm.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dm.C(" + i + ')');
 		}
 	}
 
@@ -115,7 +115,7 @@ final class Class54 implements Interface14 {
 		try {
 			aString3396 = string;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dm.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "dm.<init>("
 					+ (string != null ? "{...}" : "null") + ')');
 		}
 	}

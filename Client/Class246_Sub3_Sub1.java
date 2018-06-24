@@ -16,7 +16,7 @@ abstract class Class246_Sub3_Sub1 extends Class246_Sub3 {
 					class98_sub5s,
 					(((Class246_Sub3) this).anInt5079 >> Class151_Sub8.anInt5015));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hc.GA(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("hc.GA(" + i + ','
 					+ (class98_sub5s != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -34,7 +34,7 @@ abstract class Class246_Sub3_Sub1 extends Class246_Sub3 {
 							(((Class246_Sub3) this).anInt5079 >> Class151_Sub8.anInt5015),
 							(((Class246_Sub3) this).anInt5084 >> Class151_Sub8.anInt5015));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hc.AA("
+			throw Class64_Sub27.printError(runtimeexception, ("hc.AA("
 					+ (var_ha != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -46,7 +46,7 @@ abstract class Class246_Sub3_Sub1 extends Class246_Sub3 {
 				aClass121_6150 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hc.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hc.F(" + i + ')');
 		}
 	}
 
@@ -71,7 +71,7 @@ abstract class Class246_Sub3_Sub1 extends Class246_Sub3 {
 								.method188(false)) && i_1_ != 0
 						&& !Class151_Sub5.aBoolean4991) {
 					Class64_Sub29.method674(i_1_, 0, i,
-							Class98_Sub10_Sub1.aClass207_5544, i_3_, false,
+							Class98_Sub10_Sub1.class207, i_3_, false,
 							(byte) -86);
 					Class233.method2883((byte) 111);
 				}
@@ -81,7 +81,7 @@ abstract class Class246_Sub3_Sub1 extends Class246_Sub3 {
 			}
 			Class144.anInt1169 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hc.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("hc.D(" + i + ','
 					+ i_1_ + ',' + i_2_ + ',' + i_3_ + ')'));
 		}
 	}
@@ -96,7 +96,7 @@ abstract class Class246_Sub3_Sub1 extends Class246_Sub3 {
 			((Class246_Sub3) this).anInt5089 = i_4_;
 			((Class246_Sub3) this).anInt5079 = i_5_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hc.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("hc.<init>(" + i
 					+ ',' + i_4_ + ',' + i_5_ + ',' + i_6_ + ',' + i_7_ + ','
 					+ i_8_ + ')'));
 		}
@@ -112,7 +112,7 @@ abstract class Class246_Sub3_Sub1 extends Class246_Sub3 {
 					+ (((Class246_Sub3) this).anInt5084 >> Class151_Sub8.anInt5015) - Class241.anInt1845)][(-Class64_Sub26.anInt3714
 					+ (((Class246_Sub3) this).anInt5079 >> Class151_Sub8.anInt5015) + Class259.anInt1959)]);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hc.FA(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "hc.FA(" + bool
 					+ ')');
 		}
 	}

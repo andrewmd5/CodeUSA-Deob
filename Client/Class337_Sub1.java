@@ -13,7 +13,7 @@ final class Class337_Sub1 extends Class337 {
 			if (i >= 22)
 				anIntArray5500 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dv.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dv.C(" + i + ')');
 		}
 	}
 
@@ -23,7 +23,7 @@ final class Class337_Sub1 extends Class337 {
 		try {
 			((Class337_Sub1) this).anInt5498 = i_2_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dv.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("dv.<init>(" + i
 					+ ',' + (class63 != null ? "{...}" : "null") + ','
 					+ (class110 != null ? "{...}" : "null") + ',' + i_0_ + ','
 					+ i_1_ + ',' + i_2_ + ')'));
@@ -39,7 +39,7 @@ final class Class337_Sub1 extends Class337 {
 			Class269.aClass207_2025 = null;
 			Class116.aClass98_Sub31_Sub2_965 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dv.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dv.D(" + i + ')');
 		}
 	}
 
@@ -49,7 +49,7 @@ final class Class337_Sub1 extends Class337 {
 				return null;
 			return Class98_Sub10_Sub3.aClass113_5546;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dv.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dv.A(" + i + ')');
 		}
 	}
 }

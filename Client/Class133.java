@@ -15,7 +15,7 @@ final class Class133 implements Interface18 {
 				method59(-23);
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jb.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "jb.A(" + i + ')');
 		}
 	}
 
@@ -26,7 +26,7 @@ final class Class133 implements Interface18 {
 					break;
 				method2239(88, 77, (byte) 120);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "jb.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "jb.C(" + i
 						+ ')');
 			}
 			break;
@@ -37,14 +37,14 @@ final class Class133 implements Interface18 {
 		try {
 			if (bool != true)
 				method2239(-9, 115, (byte) -81);
-			if (class196 != Class146.aClass196_1182
-					&& class196 != Class246_Sub3_Sub4_Sub2_Sub2.aClass196_6543
+			if (class196 != AbstractModel.aClass196_1182
+					&& class196 != Player.aClass196_6543
 					&& Class207.aClass196_1578 != class196
 					&& class196 != Class134.aClass196_3458)
 				return false;
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jb.D(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("jb.D(" + bool
 					+ ',' + (class196 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -53,7 +53,7 @@ final class Class133 implements Interface18 {
 		try {
 			aClass163_3453 = class163;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jb.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "jb.<init>("
 					+ (class163 != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -69,7 +69,7 @@ final class Class133 implements Interface18 {
 					break;
 				method2238(true, null);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "jb.B(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "jb.B(" + bool
 						+ ',' + i + ')');
 			}
 			break;
@@ -85,7 +85,7 @@ final class Class133 implements Interface18 {
 			return bool
 					| (Class373_Sub3.method3978(i, i_0_, (byte) 103) | (0x10000 & i_0_) != 0);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jb.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("jb.F(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -96,7 +96,7 @@ final class Class133 implements Interface18 {
 				method2239(14, 38, (byte) -60);
 			aClass85_3454 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jb.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "jb.E(" + i + ')');
 		}
 	}
 

@@ -21,7 +21,7 @@ final class Class204 {
 				}
 				aClass38_1552 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "nga.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "nga.B(" + i
 						+ ')');
 			}
 			break;
@@ -35,14 +35,14 @@ final class Class204 {
 			}
 			return (this == Class149.aClass204_1206 | this == Class176.aClass204_1372);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nga.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "nga.C(" + i + ')');
 		}
 	}
 
 	static final void method2709(final byte i) {
 		do {
 			try {
-				if (!Class246_Sub3_Sub4_Sub2_Sub2.aBoolean6540) {
+				if (!Player.aBoolean6540) {
 					Class248.aBoolean1896 = (((Class64_Sub3.anInt3647 ^ 0xffffffff) != 0 && ((Class64_Sub3.anInt3647 ^ 0xffffffff) >= (Class359.anInt3058 ^ 0xffffffff))) || ((Class98_Sub25.anInt4024 ^ 0xffffffff) > ((16 * Class359.anInt3058 - -(Class98_Sub5_Sub3.aBoolean5539 ? 26
 							: 22)) ^ 0xffffffff)));
 				}
@@ -91,7 +91,7 @@ final class Class204 {
 				if (class98_sub17 != null) {
 					i_1_ = class98_sub17.method1156(-5);
 				}
-				if (!Class246_Sub3_Sub4_Sub2_Sub2.aBoolean6540) {
+				if (!Player.aBoolean6540) {
 					if ((i_1_ ^ 0xffffffff) == -1
 							&& (((Class305_Sub1.anInt5303 ^ 0xffffffff) == -2 && Class359.anInt3058 > 2) || r_Sub1
 									.method1642((byte) 127))) {
@@ -326,7 +326,7 @@ final class Class204 {
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "nga.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "nga.A(" + i
 						+ ')');
 			}
 			break;
@@ -338,7 +338,7 @@ final class Class204 {
 		try {
 			throw new IllegalStateException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"nga.toString(" + ')');
 		}
 	}

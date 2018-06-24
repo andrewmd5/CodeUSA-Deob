@@ -32,7 +32,7 @@ final class Class362 {
 					((Class93_Sub1) class93_sub1).anInt5478,
 					((Class93_Sub1) class93_sub1).anInt5484, i_0_));
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vu.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vu.B(" + i + ','
 					+ (class98_sub22 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -42,7 +42,7 @@ final class Class362 {
 			aClass207_3092 = class207;
 			aClass207_3093 = class207_1_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vu.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("vu.<init>("
 					+ (class207 != null ? "{...}" : "null") + ','
 					+ (class207_1_ != null ? "{...}" : "null") + ')'));
 		}
@@ -56,7 +56,7 @@ final class Class362 {
 				return null;
 			return aClass363_3091;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vu.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "vu.A(" + bool
 					+ ')');
 		}
 	}
@@ -83,7 +83,7 @@ final class Class362 {
 					break;
 				method3924(42, null);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("vu.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("vu.D(" + i
 						+ ',' + i_2_ + ',' + i_3_ + ',' + i_4_ + ','
 						+ (var_ha != null ? "{...}" : "null") + ',' + i_5_
 						+ ',' + i_6_ + ',' + i_7_ + ')'));
@@ -127,7 +127,7 @@ final class Class362 {
 				aClass207_3093 = null;
 			return null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vu.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vu.C(" + i + ','
 					+ (interface21 != null ? "{...}" : "null") + ')'));
 		}
 	}

@@ -73,7 +73,7 @@ abstract class Class21 implements Interface4 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bj.AA(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("bj.AA(" + i + ','
 					+ (fs != null ? "{...}" : "null") + ',' + bool + ',' + i_0_
 					+ ',' + i_1_ + ')'));
 		}
@@ -88,7 +88,7 @@ abstract class Class21 implements Interface4 {
 				}
 				method263(-76, -123);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "bj.S(" + i
+				throw Class64_Sub27.printError(runtimeexception, "bj.S(" + i
 						+ ')');
 			}
 			break;
@@ -112,7 +112,7 @@ abstract class Class21 implements Interface4 {
 				OpenGL.glBindTexture(anInt3235, anInt3238);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bj.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bj.I(" + i + ')');
 		}
 	}
 
@@ -129,7 +129,7 @@ abstract class Class21 implements Interface4 {
 						method261((byte) -95));
 				anInt3238 = 0;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "bj.Q(" + i
+				throw Class64_Sub27.printError(runtimeexception, "bj.Q(" + i
 						+ ')');
 			}
 			break;
@@ -142,7 +142,7 @@ abstract class Class21 implements Interface4 {
 			method258((byte) -75);
 			super.finalize();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"bj.finalize(" + ')');
 		}
 	}
@@ -159,7 +159,7 @@ abstract class Class21 implements Interface4 {
 					method265(14093);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("bj.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("bj.B(" + i
 						+ ',' + (class200 != null ? "{...}" : "null") + ')'));
 			}
 			break;
@@ -226,7 +226,7 @@ abstract class Class21 implements Interface4 {
 				i_24_ >>= 1;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bj.U("
+			throw Class64_Sub27.printError(runtimeexception, ("bj.U("
 					+ (is != null ? "{...}" : "null") + ',' + i + ',' + i_19_
 					+ ',' + i_20_ + ',' + i_21_ + ')'));
 		}
@@ -302,7 +302,7 @@ abstract class Class21 implements Interface4 {
 			}
 			throw new IllegalStateException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bj.P(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bj.P(" + i + ')');
 		}
 	}
 
@@ -314,7 +314,7 @@ abstract class Class21 implements Interface4 {
 			}
 			return i_39_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bj.CA(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bj.CA(" + i + ')');
 		}
 	}
 
@@ -326,7 +326,7 @@ abstract class Class21 implements Interface4 {
 			}
 			return (class98_sub46_sub9.aString5998 + " <col=ffffff>>");
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("bj.T(" + (class98_sub46_sub9 != null ? "{...}" : "null")
 							+ ',' + i + ')'));
 		}
@@ -360,7 +360,7 @@ abstract class Class21 implements Interface4 {
 					(byte) -80);
 			return class66;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bj.BA(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "bj.BA(" + i + ','
 					+ i_40_ + ')');
 		}
 	}
@@ -442,7 +442,7 @@ abstract class Class21 implements Interface4 {
 				i_44_++;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bj.W(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("bj.W(" + i + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_41_ + ','
 					+ i_42_ + ',' + i_43_ + ')'));
 		}
@@ -463,7 +463,7 @@ abstract class Class21 implements Interface4 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bj.R(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bj.R(" + i + ')');
 		}
 	}
 
@@ -482,7 +482,7 @@ abstract class Class21 implements Interface4 {
 			method265(14093);
 			method266(0, (byte) 123);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bj.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("bj.<init>("
 					+ (var_ha_Sub3_Sub2 != null ? "{...}" : "null") + ',' + i
 					+ ',' + (class164 != null ? "{...}" : "null") + ','
 					+ (class162 != null ? "{...}" : "null") + ',' + i_64_ + ','
@@ -498,7 +498,7 @@ abstract class Class21 implements Interface4 {
 			((ha_Sub3) aHa_Sub3_Sub2_3233).anInt4541 -= i;
 			((ha_Sub3) aHa_Sub3_Sub2_3233).anInt4541 += method261((byte) -91);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bj.V(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "bj.V(" + i + ','
 					+ i_65_ + ')');
 		}
 	}

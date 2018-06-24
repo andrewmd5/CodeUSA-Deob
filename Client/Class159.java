@@ -28,7 +28,7 @@ final class Class159 {
 				}
 				aFloat1254 = 0.79444367F;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("km.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("km.B(" + i
 						+ ',' + i_0_ + ',' + i_1_ + ','
 						+ (var_ha != null ? "{...}" : "null") + ')'));
 			}
@@ -52,7 +52,7 @@ final class Class159 {
 			}
 			return aClass293ArrayArray1252[i_3_][i_4_];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "km.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "km.A(" + i + ','
 					+ i_2_ + ')');
 		}
 	}
@@ -66,7 +66,7 @@ final class Class159 {
 			aByteArray1255 = null;
 			aClass293ArrayArray1252 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "km.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "km.C(" + i + ')');
 		}
 	}
 }

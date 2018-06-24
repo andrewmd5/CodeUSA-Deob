@@ -10,7 +10,7 @@ final class Class350 {
 		try {
 			throw new IllegalStateException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"vg.toString(" + ')');
 		}
 	}
@@ -19,7 +19,7 @@ final class Class350 {
 		try {
 			anInt2920 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vg.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "vg.<init>(" + i
 					+ ')');
 		}
 	}
@@ -30,7 +30,7 @@ final class Class350 {
 				Class9.method195(-1, 28219, Class159.aClass293ArrayArray1252[i]);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vg.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "vg.A(" + i + ','
 					+ i_0_ + ')');
 		}
 	}

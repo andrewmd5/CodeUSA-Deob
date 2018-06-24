@@ -35,7 +35,7 @@ final class Class130 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ip.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ip.A(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_4_ + ')'));
 		}
@@ -52,7 +52,7 @@ final class Class130 {
 				}
 				anInt1031 = 29;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ip.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ip.B(" + i
 						+ ')');
 			}
 			break;

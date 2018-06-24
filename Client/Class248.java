@@ -18,7 +18,7 @@ final class Class248 {
 				}
 				method3159(-17);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "pj.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "pj.C(" + i
 						+ ')');
 			}
 			break;
@@ -42,7 +42,7 @@ final class Class248 {
 			Class269.anInt2024 = -1;
 			Class333.anInt3386 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pj.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pj.B(" + i + ')');
 		}
 	}
 

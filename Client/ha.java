@@ -39,7 +39,7 @@ abstract class ha {
 				return Class214.method2784(54, i_2_, canvas, var_d, class207);
 			throw new IllegalArgumentException("UM");
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ha.VJ(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ha.VJ(" + i + ','
 					+ i_2_ + ',' + (canvas != null ? "{...}" : "null") + ','
 					+ (var_d != null ? "{...}" : "null") + ',' + i_3_ + ','
 					+ (class207 != null ? "{...}" : "null") + ',' + i_4_ + ','
@@ -56,7 +56,7 @@ abstract class ha {
 					break;
 				H(24, 39, 35, null);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ha.CK(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ha.CK(" + i
 						+ ')');
 			}
 			break;
@@ -87,7 +87,7 @@ abstract class ha {
 				return null;
 			return method1770(is, i_23_, i_24_, i_26_, i_25_, true);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ha.WJ(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ha.WJ(" + i + ','
 					+ i_23_ + ',' + i_24_ + ',' + i_25_ + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_26_ + ')'));
 		}
@@ -114,7 +114,7 @@ abstract class ha {
 			if (i == 22294)
 				U(i_46_, i_45_, i_43_, i_44_, 1);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ha.EK(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ha.EK(" + i + ','
 					+ i_43_ + ',' + i_44_ + ',' + i_45_ + ',' + i_46_ + ')'));
 		}
 	}
@@ -124,7 +124,7 @@ abstract class ha {
 			method1764(0, 0);
 			int i_47_ = 60 / ((i - -67) / 59);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ha.FK(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ha.FK(" + i + ')');
 		}
 	}
 
@@ -134,7 +134,7 @@ abstract class ha {
 			if (i != 8479)
 				return;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ha.TJ(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ha.TJ(" + i + ','
 					+ i_48_ + ',' + i_49_ + ',' + i_50_ + ',' + i_51_ + ')'));
 		}
 	}
@@ -151,7 +151,7 @@ abstract class ha {
 						-0.00591929F);
 			za(i_61_, i_58_, i, i_59_, 1);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ha.RJ(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ha.RJ(" + i + ','
 					+ i_58_ + ',' + i_59_ + ',' + i_60_ + ',' + i_61_ + ')'));
 		}
 	}
@@ -171,7 +171,7 @@ abstract class ha {
 					break;
 				aClass171_939 = null;
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("ha.HK(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("ha.HK(" + i
 						+ ',' + i_64_ + ',' + i_65_ + ',' + i_66_ + ',' + i_67_
 						+ ',' + i_68_ + ')'));
 			}
@@ -192,7 +192,7 @@ abstract class ha {
 			method1740(method1815(class332,
 					method1744(class332.method3734(), class332.method3731())));
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ha.UJ(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ha.UJ(" + i + ','
 					+ (class332 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -206,7 +206,7 @@ abstract class ha {
 		try {
 			method1743(-1);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"ha.finalize(" + ')');
 		}
 	}
@@ -258,7 +258,7 @@ abstract class ha {
 			if (bool != true)
 				return;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ha.SJ(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("ha.SJ(" + bool
 					+ ',' + i + ',' + i_98_ + ',' + i_99_ + ',' + i_100_ + ','
 					+ i_101_ + ')'));
 		}
@@ -289,7 +289,7 @@ abstract class ha {
 				throw new IllegalStateException("NFTI");
 			((ha) this).anInt937 = i;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ha.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("ha.<init>("
 					+ (var_d != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -306,7 +306,7 @@ abstract class ha {
 				aClass171_939 = null;
 			aClass171_939 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ha.DK(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "ha.DK(" + bool
 					+ ')');
 		}
 	}
@@ -325,7 +325,7 @@ abstract class ha {
 				method1825();
 			method1795(i_114_, i, i_112_, i_111_, i_110_, 1);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ha.GK(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ha.GK(" + i + ','
 					+ i_110_ + ',' + i_111_ + ',' + i_112_ + ',' + i_113_ + ','
 					+ i_114_ + ')'));
 		}
@@ -333,7 +333,7 @@ abstract class ha {
 
 	abstract void la();
 
-	abstract Class146 method1790(Model model, int i, int i_115_,
+	abstract AbstractModel method1790(Model model, int i, int i_115_,
 			int i_116_, int i_117_);
 
 	abstract void method1791(float f, float f_118_, float f_119_);
@@ -351,7 +351,7 @@ abstract class ha {
 				aClass110_941 = null;
 			a(rectangles, i, 0, 0);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ha.AK("
+			throw Class64_Sub27.printError(runtimeexception, ("ha.AK("
 					+ (rectangles != null ? "{...}" : "null") + ',' + i + ','
 					+ i_130_ + ')'));
 		}
@@ -373,7 +373,7 @@ abstract class ha {
 			int i_138_ = class98_sub22.readUShort(false);
 			return new Class337(i_136_, class63, class110, i_137_, i_138_);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ha.BK(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ha.BK(" + i + ','
 					+ (class98_sub22 != null ? "{...}" : "null") + ')'));
 		}
 	}

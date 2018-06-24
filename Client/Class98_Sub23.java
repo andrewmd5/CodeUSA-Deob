@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub23 extends Class98 {
+final class Class98_Sub23 extends Node {
 	int anInt3996 = 2147483647;
 	Class98_Sub47 aClass98_Sub47_3997;
 	static OutgoingOpcode aClass171_3998 = new OutgoingOpcode(1, -1);
@@ -23,7 +23,7 @@ final class Class98_Sub23 extends Class98 {
 				aClass171_3998 = null;
 			aClass85_4007 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jia.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "jia.C(" + i + ')');
 		}
 	}
 
@@ -43,7 +43,7 @@ final class Class98_Sub23 extends Class98 {
 				return true;
 			return false;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jia.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("jia.A(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -56,7 +56,7 @@ final class Class98_Sub23 extends Class98 {
 		try {
 			((Class98_Sub23) this).aClass98_Sub47_3997 = class98_sub47;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jia.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("jia.<init>("
 					+ (class98_sub47 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -69,7 +69,7 @@ final class Class98_Sub23 extends Class98 {
 			return is_5_;
 		} catch (RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("jia.B(" + i + ',' + i_2_
+					.printError(runtimeexception, ("jia.B(" + i + ',' + i_2_
 							+ ',' + (is != null ? "{...}" : "null") + ','
 							+ i_3_ + ')'));
 		}

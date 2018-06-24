@@ -38,7 +38,7 @@ final class Class361 implements Runnable {
 			}
 			return 100;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vt.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vt.C(" + i + ')');
 		}
 	}
 
@@ -52,7 +52,7 @@ final class Class361 implements Runnable {
 			}
 			return anInputStream3084.available();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vt.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vt.B(" + i + ')');
 		}
 	}
 
@@ -68,7 +68,7 @@ final class Class361 implements Runnable {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vt.H(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "vt.H(" + bool
 					+ ')');
 		}
 	}
@@ -80,7 +80,7 @@ final class Class361 implements Runnable {
 			}
 			return Class98_Sub46_Sub15.method1610(false, (byte) 90);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vt.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vt.E(" + i + ')');
 		}
 	}
 
@@ -94,7 +94,7 @@ final class Class361 implements Runnable {
 			}
 			return anInputStream3084.read();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vt.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vt.D(" + i + ')');
 		}
 	}
 
@@ -231,7 +231,7 @@ final class Class361 implements Runnable {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vt.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vt.G(" + i + ','
 					+ (class98_sub22_sub1 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -266,7 +266,7 @@ final class Class361 implements Runnable {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vt.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vt.F(" + i + ','
 					+ i_9_ + ',' + i_10_ + ','
 					+ (is != null ? "{...}" : "null") + ')'));
 		}
@@ -289,7 +289,7 @@ final class Class361 implements Runnable {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vt.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vt.A(" + i + ','
 					+ bool + ',' + i_12_ + ','
 					+ (is != null ? "{...}" : "null") + ')'));
 		}
@@ -302,7 +302,7 @@ final class Class361 implements Runnable {
 				anOutputStream3082 = new OutputStream_Sub1();
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vt.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vt.I(" + i + ')');
 		}
 	}
 
@@ -311,7 +311,7 @@ final class Class361 implements Runnable {
 		try {
 			method3923(-29789);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"vt.finalize(" + ')');
 		}
 	}
@@ -341,7 +341,7 @@ final class Class361 implements Runnable {
 				aClass143_3079 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vt.J(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vt.J(" + i + ')');
 		}
 	}
 
@@ -404,7 +404,7 @@ final class Class361 implements Runnable {
 				Class305_Sub1.method3585(exception, -128, null);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vt.run(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vt.run(" + ')');
 		}
 	}
 
@@ -423,7 +423,7 @@ final class Class361 implements Runnable {
 			anOutputStream3082 = aSocket3083.getOutputStream();
 			anInt3080 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vt.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("vt.<init>("
 					+ (socket != null ? "{...}" : "null") + ','
 					+ (class88 != null ? "{...}" : "null") + ',' + i + ')'));
 		}

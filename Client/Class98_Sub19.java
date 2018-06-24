@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub19 extends Class98 {
+final class Class98_Sub19 extends Node {
 	int[] anIntArray3953;
 	int anInt3954;
 	static int anInt3955 = 0;
@@ -24,7 +24,7 @@ final class Class98_Sub19 extends Class98 {
 			class98_sub46_sub17.anInt6054 = i_1_;
 			class98_sub46_sub17.anInt6053 = i_0_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ia.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ia.B(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ')'));
 		}
 	}
@@ -39,11 +39,11 @@ final class Class98_Sub19 extends Class98 {
 					final int i_4_ = Class2.anInt71;
 					final int[] is = Class319.anIntArray2705;
 					for (int i_5_ = 0; (i_5_ ^ 0xffffffff) > (i_4_ ^ 0xffffffff); i_5_++) {
-						final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[is[i_5_]]);
-						if (class246_sub3_sub4_sub2_sub2.aString6537 != null
-								&& class246_sub3_sub4_sub2_sub2.aString6537
+						final Player class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[is[i_5_]]);
+						if (class246_sub3_sub4_sub2_sub2.name2 != null
+								&& class246_sub3_sub4_sub2_sub2.name2
 										.equalsIgnoreCase(string)
-								&& (((Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660 == class246_sub3_sub4_sub2_sub2) && (0x10 & Class98_Sub4.anInt3826) != 0) || (class246_sub3_sub4_sub2_sub2 != null && (Class98_Sub4.anInt3826 & 0x8) != 0))) {
+								&& (((Surface.player == class246_sub3_sub4_sub2_sub2) && (0x10 & Class98_Sub4.anInt3826) != 0) || (class246_sub3_sub4_sub2_sub2 != null && (Class98_Sub4.anInt3826 & 0x8) != 0))) {
 							client.anInt3548++;
 							final Class98_Sub11 class98_sub11 = (Class246_Sub3_Sub4
 									.method3023(260, Class160.aClass171_1259,
@@ -68,8 +68,8 @@ final class Class98_Sub19 extends Class98 {
 													.method3034(0),
 											-2,
 											0,
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]),
+											(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
+											(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]),
 											true, class246_sub3_sub4_sub2_sub2
 													.method3034(0));
 							bool = true;
@@ -88,7 +88,7 @@ final class Class98_Sub19 extends Class98 {
 					Class98_Sub10_Sub32.method1098((byte) 119);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("ia.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("ia.A(" + i
 						+ ',' + (string != null ? "{...}" : "null") + ')'));
 			}
 			break;

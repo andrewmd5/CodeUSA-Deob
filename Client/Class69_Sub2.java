@@ -18,7 +18,7 @@ final class Class69_Sub2 extends Class69 implements Interface2_Impl1 {
 			}
 			return aByte5332;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "va.Q(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "va.Q(" + i + ')');
 		}
 	}
 
@@ -31,7 +31,7 @@ final class Class69_Sub2 extends Class69 implements Interface2_Impl1 {
 			}
 			return is_1_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("va.P(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("va.P(" + i + ','
 					+ i_0_ + ',' + (is != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -46,7 +46,7 @@ final class Class69_Sub2 extends Class69 implements Interface2_Impl1 {
 			}
 			return null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "va.O(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "va.O(" + i + ')');
 		}
 	}
 
@@ -59,7 +59,7 @@ final class Class69_Sub2 extends Class69 implements Interface2_Impl1 {
 			return super.method703((byte) -68,
 					(((Class69) this).aHa_Sub3_Sub2_3217.aMapBuffer6128));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "va.N(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "va.N(" + i + ')');
 		}
 	}
 
@@ -77,7 +77,7 @@ final class Class69_Sub2 extends Class69 implements Interface2_Impl1 {
 			super.method76(i_3_, i + 41058);
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("va.S(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("va.S(" + i + ','
 					+ i_2_ + ',' + i_3_ + ')'));
 		}
 	}
@@ -87,7 +87,7 @@ final class Class69_Sub2 extends Class69 implements Interface2_Impl1 {
 		try {
 			super.method72(bool);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "va.L(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "va.L(" + bool
 					+ ')');
 		}
 	}
@@ -99,7 +99,7 @@ final class Class69_Sub2 extends Class69 implements Interface2_Impl1 {
 			}
 			return Class98_Sub46_Sub6.method1546(is.length, 0, (byte) -110, is);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("va.V("
+			throw Class64_Sub27.printError(runtimeexception, ("va.V("
 					+ (is != null ? "{...}" : "null") + ',' + bool + ')'));
 		}
 	}
@@ -113,7 +113,7 @@ final class Class69_Sub2 extends Class69 implements Interface2_Impl1 {
 			aClass43_5336 = null;
 			aClass58_5333 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "va.R(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "va.R(" + i + ')');
 		}
 	}
 
@@ -128,7 +128,7 @@ final class Class69_Sub2 extends Class69 implements Interface2_Impl1 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("va.T(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("va.T(" + i + ','
 					+ i_4_ + ',' + i_5_ + ','
 					+ (source != null ? "{...}" : "null") + ')'));
 		}
@@ -142,7 +142,7 @@ final class Class69_Sub2 extends Class69 implements Interface2_Impl1 {
 			}
 			return super.method2(200);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "va.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "va.E(" + i + ')');
 		}
 	}
 
@@ -156,7 +156,7 @@ final class Class69_Sub2 extends Class69 implements Interface2_Impl1 {
 					(((Class69) this).aHa_Sub3_Sub2_3217.aMapBuffer6128),
 					-15793);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "va.U(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "va.U(" + bool
 					+ ',' + i + ')');
 		}
 	}

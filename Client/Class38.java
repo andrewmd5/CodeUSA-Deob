@@ -18,7 +18,7 @@ final class Class38 {
 			aClass100_357 = null;
 			aD356 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cm.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cm.B(" + i + ')');
 		}
 	}
 
@@ -26,7 +26,7 @@ final class Class38 {
 		try {
 			throw new IllegalStateException();
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"cm.toString(" + ')');
 		}
 	}
@@ -49,7 +49,7 @@ final class Class38 {
 			}
 			return ((Class293) class293).aStringArray2351[i_0_];
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cm.A("
+			throw Class64_Sub27.printError(runtimeexception, ("cm.A("
 					+ (class293 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_0_ + ')'));
 		}
@@ -119,7 +119,7 @@ final class Class38 {
 			return ((i_11_ >> -187392699 << -941273977)
 					+ ((0xff & i_10_) >> 1108545090 << 440834122) - -(i_12_ >> -1810836799));
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cm.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "cm.C(" + i + ','
 					+ i_1_ + ')');
 		}
 	}

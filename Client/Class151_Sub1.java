@@ -54,7 +54,7 @@ final class Class151_Sub1 extends Class151 {
 				}
 				method2450((byte) -76);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("al.I(" + i + ',' + i_0_ + ',' + i_1_ + ',' + i_2_
 								+ ',' + i_3_ + ')'));
 			}
@@ -89,7 +89,7 @@ final class Class151_Sub1 extends Class151 {
 			OpenGL.glScalef(0.25F, 0.25F, 1.0F);
 			OpenGL.glMatrixMode(5888);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("al.D(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("al.D(" + bool
 					+ ',' + bool_14_ + ')'));
 		}
 	}
@@ -103,7 +103,7 @@ final class Class151_Sub1 extends Class151 {
 				aStringArray4967 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "al.J(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "al.J(" + i + ')');
 		}
 	}
 
@@ -117,7 +117,7 @@ final class Class151_Sub1 extends Class151 {
 							-1 }, 6406);
 			aClass42_Sub3_4966.method393(3552, false);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("al.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("al.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ','
 					+ (class51 != null ? "{...}" : "null") + ')'));
 		}
@@ -127,7 +127,7 @@ final class Class151_Sub1 extends Class151 {
 		try {
 			return l | l_15_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "al.H(" + l + ','
+			throw Class64_Sub27.printError(runtimeexception, "al.H(" + l + ','
 					+ l_15_ + ')');
 		}
 	}
@@ -168,7 +168,7 @@ final class Class151_Sub1 extends Class151 {
 			}
 			aClass91_4965.method886((byte) 54);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "al.K(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "al.K(" + i + ')');
 		}
 	}
 
@@ -205,7 +205,7 @@ final class Class151_Sub1 extends Class151 {
 						aClass51_4964.aClass42_Sub1Array423[0]);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("al.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("al.G(" + i + ','
 					+ i_16_ + ',' + i_17_ + ')'));
 		}
 	}
@@ -218,7 +218,7 @@ final class Class151_Sub1 extends Class151 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "al.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "al.A(" + i + ')');
 		}
 	}
 
@@ -230,7 +230,7 @@ final class Class151_Sub1 extends Class151 {
 			}
 			((Class151) this).aHa_Sub1_1215.method1899(8448, i ^ 0x23ff, 260);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "al.C(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "al.C(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -260,7 +260,7 @@ final class Class151_Sub1 extends Class151 {
 				}
 				method2450((byte) -21);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "al.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "al.B(" + i
 						+ ')');
 			}
 			break;
@@ -288,7 +288,7 @@ final class Class151_Sub1 extends Class151 {
 				}
 				aLongArray4970 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "al.E(" + i
+				throw Class64_Sub27.printError(runtimeexception, "al.E(" + i
 						+ ')');
 			}
 			break;
@@ -304,7 +304,7 @@ final class Class151_Sub1 extends Class151 {
 				}
 				aClass42_Sub3_4966 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("al.F("
+				throw Class64_Sub27.printError(runtimeexception, ("al.F("
 						+ (class42 != null ? "{...}" : "null") + ',' + bool
 						+ ',' + i + ')'));
 			}

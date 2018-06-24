@@ -38,7 +38,7 @@ final class Class224_Sub1 extends Class224 {
 			}
 			return string;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cw.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("cw.B(" + i + ','
 					+ (string != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -54,7 +54,7 @@ final class Class224_Sub1 extends Class224 {
 			}
 			aClass58_5032 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cw.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cw.A(" + i + ')');
 		}
 	}
 

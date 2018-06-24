@@ -24,7 +24,7 @@ final class Class64_Sub1 extends Class64 {
 					((Class64) this).anInt494 = method552(0);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "aga.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "aga.C(" + i
 						+ ')');
 			}
 			break;
@@ -42,7 +42,7 @@ final class Class64_Sub1 extends Class64 {
 			aClass58_3637 = null;
 			anIntArray3639 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aga.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "aga.D(" + i + ')');
 		}
 	}
 
@@ -53,7 +53,7 @@ final class Class64_Sub1 extends Class64 {
 			}
 			return ((Class64) this).anInt494;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aga.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "aga.E(" + i + ')');
 		}
 	}
 
@@ -65,7 +65,7 @@ final class Class64_Sub1 extends Class64 {
 			}
 			return 1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aga.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "aga.F(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -82,7 +82,7 @@ final class Class64_Sub1 extends Class64 {
 			}
 			return 1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aga.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "aga.A(" + i + ')');
 		}
 	}
 
@@ -95,7 +95,7 @@ final class Class64_Sub1 extends Class64 {
 		try {
 			((Class64) this).anInt494 = i_1_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aga.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "aga.B(" + i + ','
 					+ i_1_ + ')');
 		}
 	}

@@ -27,7 +27,7 @@ final class Class369 {
 				}
 				method3952(27, (byte) -126);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "wea.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "wea.C(" + i
 						+ ',' + i_0_ + ')');
 			}
 			break;
@@ -38,7 +38,7 @@ final class Class369 {
 		try {
 			return i ^ i_1_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wea.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "wea.A(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -58,7 +58,7 @@ final class Class369 {
 				}
 				method3954(-48);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "wea.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "wea.B(" + i
 						+ ')');
 			}
 			break;
@@ -74,7 +74,7 @@ final class Class369 {
 				}
 				method3954(91);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "wea.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "wea.D(" + i
 						+ ')');
 			}
 			break;

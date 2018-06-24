@@ -30,7 +30,7 @@ final class Class246_Sub1 extends Class246 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bd.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bd.B(" + i + ')');
 		}
 	}
 
@@ -44,7 +44,7 @@ final class Class246_Sub1 extends Class246 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bd.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("bd.C(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -58,7 +58,7 @@ final class Class246_Sub1 extends Class246 {
 				}
 				method2968((byte) -4);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "bd.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "bd.A(" + i
 						+ ')');
 			}
 			break;
@@ -86,7 +86,7 @@ final class Class246_Sub1 extends Class246 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bd.D("
+			throw Class64_Sub27.printError(runtimeexception, ("bd.D("
 					+ (var_ha != null ? "{...}" : "null") + ',' + i + ','
 					+ i_2_ + ',' + i_3_ + ')'));
 		}

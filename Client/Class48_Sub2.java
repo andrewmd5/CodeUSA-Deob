@@ -43,7 +43,7 @@ abstract class Class48_Sub2 extends Class48 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("jv.H(" + (is != null ? "{...}" : "null") + ','
 							+ (class305_sub1 != null ? "{...}" : "null") + ','
 							+ i + ')'));

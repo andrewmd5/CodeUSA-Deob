@@ -28,7 +28,7 @@ final class Class64_Sub16 extends Class64 {
 			}
 			return 2;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mf.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "mf.A(" + i + ')');
 		}
 	}
 
@@ -43,7 +43,7 @@ final class Class64_Sub16 extends Class64 {
 			}
 			return 1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mf.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "mf.F(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -57,7 +57,7 @@ final class Class64_Sub16 extends Class64 {
 		try {
 			((Class64) this).anInt494 = i_1_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mf.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "mf.B(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -72,7 +72,7 @@ final class Class64_Sub16 extends Class64 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mf.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "mf.G(" + i + ')');
 		}
 	}
 
@@ -87,7 +87,7 @@ final class Class64_Sub16 extends Class64 {
 			}
 			return ((Class64) this).anInt494;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mf.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "mf.E(" + i + ')');
 		}
 	}
 
@@ -105,7 +105,7 @@ final class Class64_Sub16 extends Class64 {
 				((Class64) this).anInt494 = method552(0);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mf.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "mf.C(" + i + ')');
 		}
 	}
 
@@ -120,7 +120,7 @@ final class Class64_Sub16 extends Class64 {
 				}
 				method615(19);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "mf.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "mf.D(" + i
 						+ ')');
 			}
 			break;

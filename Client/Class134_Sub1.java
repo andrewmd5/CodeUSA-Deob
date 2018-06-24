@@ -20,7 +20,7 @@ final class Class134_Sub1 extends Class134 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("mw.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("mw.G(" + i + ','
 					+ f + ',' + f_0_ + ',' + f_1_ + ',' + i_2_ + ',' + i_3_
 					+ ',' + i_4_ + ',' + (class39 != null ? "{...}" : "null")
 					+ ',' + f_5_ + ',' + f_6_ + ',' + i_7_ + ')'));
@@ -46,7 +46,7 @@ final class Class134_Sub1 extends Class134 {
 					4096, anInt5458);
 			anInt5458 += ((Class337_Sub1) ((Class134) this).aClass337_3460).anInt5498;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mw.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "mw.B(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -61,7 +61,7 @@ final class Class134_Sub1 extends Class134 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mw.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "mw.E(" + i + ','
 					+ c + ')');
 		}
 	}
@@ -74,7 +74,7 @@ final class Class134_Sub1 extends Class134 {
 			return Class79.method795(90, (aClass5460 != null ? aClass5460
 					: (aClass5460 = method2248("Class166"))), string);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("mw.D("
+			throw Class64_Sub27.printError(runtimeexception, ("mw.D("
 					+ (string != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -118,7 +118,7 @@ final class Class134_Sub1 extends Class134 {
 			Class280.aClass148_2108.method2422((byte) 47);
 			Class98_Sub10_Sub11.aClass148_5596.method2422((byte) 47);
 			Class64_Sub20.aClass218_3694.method2802(20);
-			Class146.aClass377_1180.method3994(-63);
+			AbstractModel.aClass377_1180.method3994(-63);
 			Class191.aClass148_1478 = new Class148();
 			Class98_Sub11.aClass148_3866 = new Class148();
 			Class75.aClass140_584.method2288((byte) -88);
@@ -195,7 +195,7 @@ final class Class134_Sub1 extends Class134 {
 			Class11.aLong121 = 0L;
 			Class284.aClass98_Sub4_2167 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mw.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "mw.F(" + i + ')');
 		}
 	}
 

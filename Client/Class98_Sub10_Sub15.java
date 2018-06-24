@@ -39,7 +39,7 @@ final class Class98_Sub10_Sub15 extends Class98_Sub10 {
 				}
 				method991(-80, null, (byte) -62);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("id.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("id.A(" + i
 						+ ',' + (class98_sub22 != null ? "{...}" : "null")
 						+ ',' + i_0_ + ')'));
 			}
@@ -54,7 +54,7 @@ final class Class98_Sub10_Sub15 extends Class98_Sub10 {
 			}
 			aClass58_5615 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "id.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "id.B(" + i + ')');
 		}
 	}
 
@@ -106,7 +106,7 @@ final class Class98_Sub10_Sub15 extends Class98_Sub10 {
 			Class64_Sub20.aClass207_3697.method2760((byte) -117);
 			Class76_Sub2.aClass207_3733.method2760((byte) -119);
 			Class234.aClass207_1748.method2760((byte) -126);
-			Class98_Sub10_Sub1.aClass207_5544.method2760((byte) -120);
+			Class98_Sub10_Sub1.class207.method2760((byte) -120);
 			Class76_Sub9.aClass207_3787.method2760((byte) -128);
 			Class332_Sub2.aClass207_5423.method2760((byte) -126);
 			ByteBuffer.aClass207_3995.method2760((byte) -127);
@@ -139,9 +139,9 @@ final class Class98_Sub10_Sub15 extends Class98_Sub10 {
 			Class275.aClass79_2046.method794(115);
 			Class224_Sub3.aClass79_5039.method794(90);
 			Class378.aClass79_3189.method794(43);
-			Class98_Sub6.aClass79_3847.method794(116);
+			RSModelLoader.aClass79_3847.method794(116);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "id.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "id.D(" + i + ')');
 		}
 	}
 
@@ -198,7 +198,7 @@ final class Class98_Sub10_Sub15 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "id.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "id.C(" + i + ','
 					+ i_3_ + ')');
 		}
 	}
@@ -226,7 +226,7 @@ final class Class98_Sub10_Sub15 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "id.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "id.G(" + i + ','
 					+ i_15_ + ')');
 		}
 	}

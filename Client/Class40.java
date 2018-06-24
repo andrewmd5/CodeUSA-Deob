@@ -15,7 +15,7 @@ final class Class40 {
 			Class378.method4005(Class39_Sub1.anInt3593, Class15.anInt185, -1,
 					bool, Class98_Sub25.anInt4024);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cr.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "cr.B(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -30,7 +30,7 @@ final class Class40 {
 				}
 				anIntArrayArray367 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "cr.F(" + i
+				throw Class64_Sub27.printError(runtimeexception, "cr.F(" + i
 						+ ')');
 			}
 			break;
@@ -43,7 +43,7 @@ final class Class40 {
 					.method2628(i, -30, 16);
 			class98_sub46_sub17.method1621(i_1_ + i_1_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cr.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "cr.E(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -55,7 +55,7 @@ final class Class40 {
 			Class98_Sub5_Sub2.anInt5536 = i_2_;
 			Class256.anInt1945 = -1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cr.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "cr.C(" + i + ','
 					+ i_2_ + ')');
 		}
 	}
@@ -68,7 +68,7 @@ final class Class40 {
 			anIntArrayArray367 = null;
 			aClass58_369 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cr.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cr.D(" + i + ')');
 		}
 	}
 
@@ -145,7 +145,7 @@ final class Class40 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("cr.A(" + i + ',' + i_4_ + ',' + i_5_ + ',' + i_6_ + ','
 							+ i_7_ + ',' + i_8_ + ')'));
 		}
@@ -159,7 +159,7 @@ final class Class40 {
 			aShortArray370 = is_31_;
 			anIntArray366 = is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cr.<init>(" + l
+			throw Class64_Sub27.printError(runtimeexception, ("cr.<init>(" + l
 					+ ',' + (is != null ? "{...}" : "null") + ','
 					+ (is_31_ != null ? "{...}" : "null") + ','
 					+ (is_32_ != null ? "{...}" : "null") + ')'));

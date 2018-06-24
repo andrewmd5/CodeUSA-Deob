@@ -58,7 +58,7 @@ abstract class Class206 {
 			if (i <= 122)
 				method2725(-3, 116, -39);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nha.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "nha.D(" + i + ')');
 		}
 	}
 
@@ -70,7 +70,7 @@ abstract class Class206 {
 				return false;
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("nha.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("nha.A(" + i + ','
 					+ i_5_ + ',' + i_6_ + ')'));
 		}
 	}
@@ -91,7 +91,7 @@ abstract class Class206 {
 				Class232.aBoolean1744 = true;
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nha.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "nha.C(" + i + ')');
 		}
 	}
 

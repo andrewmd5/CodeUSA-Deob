@@ -34,7 +34,7 @@ final class Class65 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ef.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ef.C(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -63,7 +63,7 @@ final class Class65 {
 			}
 			return bool;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ef.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ef.B(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ')'));
 		}
 	}
@@ -80,7 +80,7 @@ final class Class65 {
 				}
 				method679(44, -79, (byte) 121, 60);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ef.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ef.A(" + i
 						+ ')');
 			}
 			break;
@@ -92,7 +92,7 @@ final class Class65 {
 		try {
 			throw new IllegalStateException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"ef.toString(" + ')');
 		}
 	}

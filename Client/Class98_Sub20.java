@@ -5,7 +5,7 @@ import jaclib.memory.Stream;
 import jaclib.memory.heap.NativeHeapBuffer;
 import jaggl.OpenGL;
 
-final class Class98_Sub20 extends Class98 {
+final class Class98_Sub20 extends Node {
 	private Class156_Sub1 aClass156_Sub1_3963;
 	private NativeHeapBuffer aNativeHeapBuffer3964;
 	private s_Sub1 aS_Sub1_3965;
@@ -26,7 +26,7 @@ final class Class98_Sub20 extends Class98 {
 				aClass53_Sub1Array3967 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iw.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "iw.B(" + i + ')');
 		}
 	}
 
@@ -38,7 +38,7 @@ final class Class98_Sub20 extends Class98 {
 			aStream3970.b(3 + i * 4);
 			aStream3970.e(-1);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iw.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "iw.H(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -124,7 +124,7 @@ final class Class98_Sub20 extends Class98 {
 				aStream3970.e((byte) i_1_);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iw.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("iw.F(" + i + ','
 					+ i_0_ + ',' + f + ',' + i_1_ + ',' + i_2_ + ')'));
 		}
 	}
@@ -196,7 +196,7 @@ final class Class98_Sub20 extends Class98 {
 					aClass156_Sub1_3963
 							.method20(
 									(byte) -47,
-									((ByteBuffer) class98_sub22_sub2).aByteArray3992,
+									((ByteBuffer) class98_sub22_sub2).incomingBytes,
 									((ByteBuffer) class98_sub22_sub2).position,
 									5123);
 					aHa_Sub1_3969.method1868(aClass104_3966,
@@ -228,7 +228,7 @@ final class Class98_Sub20 extends Class98 {
 					OpenGL.glMatrixMode(5888);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("iw.I("
+				throw Class64_Sub27.printError(runtimeexception, ("iw.I("
 						+ (is != null ? "{...}" : "null") + ',' + i + ','
 						+ i_14_ + ')'));
 			}
@@ -247,7 +247,7 @@ final class Class98_Sub20 extends Class98 {
 				aStream3970 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iw.C(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "iw.C(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -262,7 +262,7 @@ final class Class98_Sub20 extends Class98 {
 				class246_sub5.method3129();
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iw.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "iw.E(" + i + ')');
 		}
 	}
 
@@ -279,7 +279,7 @@ final class Class98_Sub20 extends Class98 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iw.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("iw.D(" + i + ','
 					+ i_28_ + ',' + i_29_ + ')'));
 		}
 	}
@@ -299,7 +299,7 @@ final class Class98_Sub20 extends Class98 {
 				}
 				aClass53_Sub1Array3967 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "iw.G(" + i
+				throw Class64_Sub27.printError(runtimeexception, "iw.G(" + i
 						+ ')');
 			}
 			break;
@@ -316,7 +316,7 @@ final class Class98_Sub20 extends Class98 {
 								1 << i);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iw.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("iw.A(" + i + ','
 					+ i_30_ + ',' + i_31_ + ',' + i_32_ + ')'));
 		}
 	}
@@ -329,7 +329,7 @@ final class Class98_Sub20 extends Class98 {
 				aStream3970 = new Stream(aNativeHeapBuffer3964);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iw.J(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "iw.J(" + i + ','
 					+ i_33_ + ')');
 		}
 	}
@@ -348,7 +348,7 @@ final class Class98_Sub20 extends Class98 {
 			aClass156_Sub1_3963 = new Class156_Sub1(aHa_Sub1_3969, 5123, null,
 					1);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iw.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("iw.<init>("
 					+ (var_s_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_34_ + ',' + i_35_ + ',' + i_36_ + ',' + i_37_ + ')'));
 		}

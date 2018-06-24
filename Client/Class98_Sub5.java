@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-abstract class Class98_Sub5 extends Class98 {
+abstract class Class98_Sub5 extends Node {
 	int anInt3830;
 	private int anInt3831;
 	float aFloat3832;
@@ -19,7 +19,7 @@ abstract class Class98_Sub5 extends Class98 {
 			}
 			return anInt3833;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cba.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cba.F(" + i + ')');
 		}
 	}
 
@@ -32,7 +32,7 @@ abstract class Class98_Sub5 extends Class98 {
 			}
 			return aFloat3832;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cba.G(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "cba.G(" + bool
 					+ ')');
 		}
 	}
@@ -44,7 +44,7 @@ abstract class Class98_Sub5 extends Class98 {
 				aClass157_3835 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cba.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cba.I(" + i + ')');
 		}
 	}
 
@@ -52,7 +52,7 @@ abstract class Class98_Sub5 extends Class98 {
 		try {
 			return anInt3836;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cba.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cba.B(" + i + ')');
 		}
 	}
 
@@ -74,7 +74,7 @@ abstract class Class98_Sub5 extends Class98 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cba.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("cba.C(" + i + ','
 					+ i_4_ + ',' + i_5_ + ',' + i_6_ + ',' + i_7_ + ',' + i_8_
 					+ ',' + i_9_ + ',' + i_10_ + ',' + i_11_ + ')'));
 		}
@@ -87,7 +87,7 @@ abstract class Class98_Sub5 extends Class98 {
 			}
 			return anInt3831;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cba.J(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cba.J(" + i + ')');
 		}
 	}
 
@@ -98,7 +98,7 @@ abstract class Class98_Sub5 extends Class98 {
 			}
 			return anInt3834;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cba.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cba.H(" + i + ')');
 		}
 	}
 
@@ -109,7 +109,7 @@ abstract class Class98_Sub5 extends Class98 {
 			}
 			return anInt3830;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cba.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cba.E(" + i + ')');
 		}
 	}
 
@@ -123,7 +123,7 @@ abstract class Class98_Sub5 extends Class98 {
 			anInt3834 = i_13_;
 			anInt3830 = i_12_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cba.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("cba.<init>(" + i
 					+ ',' + i_12_ + ',' + i_13_ + ',' + i_14_ + ',' + i_15_
 					+ ',' + f + ')'));
 		}

@@ -24,7 +24,7 @@ final class Class64_Sub27 extends Class64 {
 					((Class93) class93).anInt3506,
 					((Class93) class93).anInt3513, i_0_, i_1_, i_2_);
 		} catch (RuntimeException runtimeexception) {
-			throw method667(runtimeexception, "ve.G(" + i + ','
+			throw printError(runtimeexception, "ve.G(" + i + ','
 					+ (class98_sub22 != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -39,7 +39,7 @@ final class Class64_Sub27 extends Class64 {
 					break;
 				anInt3716 = -41;
 			} catch (RuntimeException runtimeexception) {
-				throw method667(runtimeexception, "ve.C(" + i + ')');
+				throw printError(runtimeexception, "ve.C(" + i + ')');
 			}
 			break;
 		} while (false);
@@ -54,7 +54,7 @@ final class Class64_Sub27 extends Class64 {
 				return 2;
 			return 3;
 		} catch (RuntimeException runtimeexception) {
-			throw method667(runtimeexception, "ve.A(" + i + ')');
+			throw printError(runtimeexception, "ve.A(" + i + ')');
 		}
 	}
 
@@ -64,7 +64,7 @@ final class Class64_Sub27 extends Class64 {
 				anInt3716 = -17;
 			return 1;
 		} catch (RuntimeException runtimeexception) {
-			throw method667(runtimeexception, "ve.F(" + i + ',' + i_3_ + ')');
+			throw printError(runtimeexception, "ve.F(" + i + ',' + i_3_ + ')');
 		}
 	}
 
@@ -107,7 +107,7 @@ final class Class64_Sub27 extends Class64 {
 			}
 			return Class78.aSArray594[i_6_].method3417(i_7_, i, true);
 		} catch (RuntimeException runtimeexception) {
-			throw method667(runtimeexception, ("ve.I(" + i + ',' + i_4_ + ','
+			throw printError(runtimeexception, ("ve.I(" + i + ',' + i_4_ + ','
 					+ i_5_ + ',' + i_6_ + ',' + i_7_ + ',' + i_8_ + ')'));
 		}
 	}
@@ -118,7 +118,7 @@ final class Class64_Sub27 extends Class64 {
 				anInt3716 = 3;
 			aClass58_3715 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw method667(runtimeexception, "ve.H(" + i + ')');
+			throw printError(runtimeexception, "ve.H(" + i + ')');
 		}
 	}
 
@@ -127,7 +127,7 @@ final class Class64_Sub27 extends Class64 {
 			int i_16_ = 13 / ((i - -26) / 41);
 			((Class64) this).anInt494 = i_15_;
 		} catch (RuntimeException runtimeexception) {
-			throw method667(runtimeexception, "ve.B(" + i + ',' + i_15_ + ')');
+			throw printError(runtimeexception, "ve.B(" + i + ',' + i_15_ + ')');
 		}
 	}
 
@@ -145,11 +145,11 @@ final class Class64_Sub27 extends Class64 {
 				return -75;
 			return ((Class64) this).anInt494;
 		} catch (RuntimeException runtimeexception) {
-			throw method667(runtimeexception, "ve.E(" + i + ')');
+			throw printError(runtimeexception, "ve.E(" + i + ')');
 		}
 	}
 
-	static final RuntimeException_Sub1 method667(Throwable throwable,
+	static final RuntimeException_Sub1 printError(Throwable throwable,
 			String string) {
 		try {
 			RuntimeException_Sub1 runtimeexception_sub1;

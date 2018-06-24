@@ -11,7 +11,7 @@ final class Class23 {
 		try {
 			anIntArray222 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bm.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bm.A(" + i + ')');
 		}
 	}
 
@@ -25,7 +25,7 @@ final class Class23 {
 			i_2_ |= i_2_ >>> 1245334000;
 			return (i_2_ ^ 0xffffffff) & i_1_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bm.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "bm.C(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -46,7 +46,7 @@ final class Class23 {
 								(Class76_Sub5.anIntArray3744[i_5_]));
 					}
 				}
-				class356.method3882((class98_sub22.aByteArray3992), 4657, 0,
+				class356.method3882((class98_sub22.incomingBytes), 4657, 0,
 						class98_sub22.position);
 			} catch (final Exception exception) {
 				/* empty */
@@ -61,7 +61,7 @@ final class Class23 {
 			r_Sub1.aLong6322 = Class343.method3819(-47);
 			Class66.aBoolean507 = false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bm.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bm.B(" + i + ')');
 		}
 	}
 }

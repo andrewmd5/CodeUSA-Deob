@@ -25,7 +25,7 @@ class Class134 implements Interface18 {
 				}
 				aFloat3463 = 0.14854974F;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "jca.H(" + i
+				throw Class64_Sub27.printError(runtimeexception, "jca.H(" + i
 						+ ')');
 			}
 			break;
@@ -49,7 +49,7 @@ class Class134 implements Interface18 {
 					aClass332_3459.method3735(i_0_, i_1_);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "jca.B(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "jca.B(" + bool
 						+ ',' + i + ')');
 			}
 			break;
@@ -65,7 +65,7 @@ class Class134 implements Interface18 {
 			aClass332_3459 = Class237_Sub1.method2915(
 					(aClass337_3460.anInt3535), aClass207_3462, (byte) -89);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jca.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "jca.C(" + i + ')');
 		}
 	}
 
@@ -78,7 +78,7 @@ class Class134 implements Interface18 {
 			return aClass207_3462.method2742(i ^ ~0x36fd,
 					((aClass337_3460).anInt3535));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jca.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "jca.A(" + i + ')');
 		}
 	}
 
@@ -103,7 +103,7 @@ class Class134 implements Interface18 {
 			return true;
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(
+					.printError(
 							runtimeexception,
 							("jca.I(" + i + ',' + i_2_ + ','
 									+ (class155 != null ? "{...}" : "null") + ')'));
@@ -117,7 +117,7 @@ class Class134 implements Interface18 {
 			}
 			return Class118.anInt979;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jca.J(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "jca.J(" + bool
 					+ ')');
 		}
 	}
@@ -127,7 +127,7 @@ class Class134 implements Interface18 {
 			aClass337_3460 = class337;
 			aClass207_3462 = class207;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jca.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("jca.<init>("
 					+ (class207 != null ? "{...}" : "null") + ','
 					+ (class337 != null ? "{...}" : "null") + ')'));
 		}

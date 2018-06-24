@@ -18,7 +18,7 @@ final class Class314 {
 			}
 			return 0xff & i_0_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tg.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "tg.A(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -33,7 +33,7 @@ final class Class314 {
 			}
 			return i_1_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tg.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "tg.E(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -46,11 +46,11 @@ final class Class314 {
 				final int[] is = Class319.anIntArray2705;
 				boolean bool_3_ = bool;
 				for (int i_4_ = 0; i_2_ > i_4_; i_4_++) {
-					final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[is[i_4_]]);
+					final Player class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[is[i_4_]]);
 					if (class246_sub3_sub4_sub2_sub2 != null
-							&& (Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660 != class246_sub3_sub4_sub2_sub2)
-							&& class246_sub3_sub4_sub2_sub2.aString6537 != null
-							&& class246_sub3_sub4_sub2_sub2.aString6537
+							&& (Surface.player != class246_sub3_sub4_sub2_sub2)
+							&& class246_sub3_sub4_sub2_sub2.name2 != null
+							&& class246_sub3_sub4_sub2_sub2.name2
 									.equalsIgnoreCase(string)) {
 						bool_3_ = true;
 						if (i == 1) {
@@ -128,7 +128,7 @@ final class Class314 {
 						Class309.aClass309_2607.method3615(Class374.anInt3159,
 								(byte) 25) + string, 4, (byte) 57);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("tg.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("tg.D(" + i
 						+ ',' + (string != null ? "{...}" : "null") + ','
 						+ bool + ')'));
 			}
@@ -146,7 +146,7 @@ final class Class314 {
 				}
 				anInt2690 = -4;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "tg.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "tg.B(" + i
 						+ ')');
 			}
 			break;
@@ -190,7 +190,7 @@ final class Class314 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tg.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("tg.G(" + i + ','
 					+ (is != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -232,7 +232,7 @@ final class Class314 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tg.C(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("tg.C(" + bool
 					+ ',' + (is != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -247,7 +247,7 @@ final class Class314 {
 			}
 			return i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tg.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "tg.H(" + i + ','
 					+ i_26_ + ')');
 		}
 	}
@@ -326,7 +326,7 @@ final class Class314 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tg.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("tg.<init>(" + i
 					+ ',' + i_39_ + ')'));
 		}
 	}

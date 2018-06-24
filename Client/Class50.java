@@ -14,7 +14,7 @@ final class Class50 {
 			}
 			anIntArray417 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dj.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dj.D(" + i + ')');
 		}
 	}
 
@@ -46,12 +46,12 @@ final class Class50 {
 						(Class98_Sub46_Sub2_Sub2
 								.method1538(
 										Class43.anInt377,
-										((Class246_Sub3) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt5079,
-										((Class246_Sub3) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt5084,
+										((Class246_Sub3) Surface.player).anInt5079,
+										((Class246_Sub3) Surface.player).anInt5084,
 										24111)) - 200);
 				final float f = 1.0F - ((100 + -i_2_)
 						* ((-i_2_ + 100) * (100 - i_2_)) / 1000000.0F);
-				Class246_Sub3_Sub4_Sub2.anInt6357 = (int) ((-Class299.anInt2494 + Class246_Sub3_Sub4_Sub2.anInt6357)
+				Entity.anInt6357 = (int) ((-Class299.anInt2494 + Entity.anInt6357)
 						* f + Class299.anInt2494);
 				Class98_Sub46_Sub10.anInt6020 = (int) (Class246_Sub3_Sub4_Sub2_Sub1.anInt6511 + (-Class246_Sub3_Sub4_Sub2_Sub1.anInt6511 + Class98_Sub46_Sub10.anInt6020)
 						* f);
@@ -76,7 +76,7 @@ final class Class50 {
 				Class186.anInt3424 &= 0x3fff;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dj.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "dj.B(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -86,7 +86,7 @@ final class Class50 {
 			final int i_6_ = Class2.anInt71;
 			final int[] is = Class319.anIntArray2705;
 			for (int i_8_ = 0; i_8_ < i_6_; i_8_++) {
-				final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[is[i_8_]]);
+				final Player class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[is[i_8_]]);
 				if (class246_sub3_sub4_sub2_sub2 != null) {
 					Class98_Sub10_Sub10.method1038(
 							class246_sub3_sub4_sub2_sub2,
@@ -94,7 +94,7 @@ final class Class50 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dj.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dj.A(" + i + ')');
 		}
 	}
 

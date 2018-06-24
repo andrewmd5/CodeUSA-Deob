@@ -18,7 +18,7 @@ final class Class98_Sub5_Sub3 extends Class98_Sub5 {
 				}
 				aClass111_5540 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "lh.D(" + f
+				throw Class64_Sub27.printError(runtimeexception, "lh.D(" + f
 						+ ',' + i + ')');
 			}
 			break;
@@ -46,7 +46,7 @@ final class Class98_Sub5_Sub3 extends Class98_Sub5 {
 			return Class98_Sub21.method1180(i_1_, (byte) 104, i_11_, i_6_,
 					i_12_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lh.L(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("lh.L(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ')'));
 		}
 	}
@@ -89,7 +89,7 @@ final class Class98_Sub5_Sub3 extends Class98_Sub5 {
 			}
 			return class98_sub27;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lh.K(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "lh.K(" + i + ')');
 		}
 	}
 
@@ -107,7 +107,7 @@ final class Class98_Sub5_Sub3 extends Class98_Sub5 {
 				}
 				aBoolean5539 = false;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "lh.N(" + i
+				throw Class64_Sub27.printError(runtimeexception, "lh.N(" + i
 						+ ')');
 			}
 			break;
@@ -124,7 +124,7 @@ final class Class98_Sub5_Sub3 extends Class98_Sub5 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lh.M(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "lh.M(" + i + ','
 					+ i_20_ + ')');
 		}
 	}
@@ -140,7 +140,7 @@ final class Class98_Sub5_Sub3 extends Class98_Sub5 {
 			}
 			((Class98_Sub5) this).anInt3830 = i_23_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lh.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("lh.A(" + i + ','
 					+ i_21_ + ',' + i_22_ + ',' + i_23_ + ')'));
 		}
 	}

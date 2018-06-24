@@ -160,7 +160,7 @@ final class Class39_Sub1 extends Class39 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("kga.C(" + i + ',' + i_0_ + ',' + f + ',' + i_1_ + ','
 							+ f_2_ + ',' + i_3_ + ',' + f_4_ + ',' + f_5_ + ','
 							+ (fs != null ? "{...}" : "null") + ',' + i_6_
@@ -176,7 +176,7 @@ final class Class39_Sub1 extends Class39 {
 			aClass277_3590 = null;
 			anInterface10Array3592 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kga.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kga.A(" + i + ')');
 		}
 	}
 
@@ -189,7 +189,7 @@ final class Class39_Sub1 extends Class39 {
 			Class76.aClass28ArrayArray586 = null;
 			Class98_Sub37.aHa4185 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kga.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kga.B(" + i + ')');
 		}
 	}
 
@@ -206,7 +206,7 @@ final class Class39_Sub1 extends Class39 {
 				anIntArray3595[i_39_] = anIntArray3595[i_39_ + 256] = i_41_;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kga.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "kga.<init>(" + i
 					+ ')');
 		}
 	}

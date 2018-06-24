@@ -43,7 +43,7 @@ final class Class353 {
 			}
 			return stringbuffer.toString();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vi.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vi.A(" + i + ','
 					+ (string != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -58,7 +58,7 @@ final class Class353 {
 			class98_sub46_sub17.anInt6053 = i;
 			class98_sub46_sub17.anInt6051 = i_8_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vi.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vi.B(" + i + ','
 					+ i_5_ + ',' + i_6_ + ',' + i_7_ + ',' + i_8_ + ')'));
 		}
 	}
@@ -84,7 +84,7 @@ final class Class353 {
 				}
 				method3867(-15, null);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("vi.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("vi.C(" + i
 						+ ',' + i_9_ + ',' + i_10_ + ')'));
 			}
 			break;

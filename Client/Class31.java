@@ -15,14 +15,14 @@ abstract class Class31 {
 
 	static final void method306(final int i, final ByteBuffer class98_sub22) {
 		try {
-			if (((-class98_sub22.position + class98_sub22.aByteArray3992.length) ^ 0xffffffff) <= -2) {
+			if (((-class98_sub22.position + class98_sub22.incomingBytes.length) ^ 0xffffffff) <= -2) {
 				final int i_0_ = class98_sub22.readUnsignedByte((byte) 38);
 				if ((i_0_ ^ 0xffffffff) <= -1
 						&& (i_0_ ^ 0xffffffff) >= -2
 						&& i == 10090
-						&& ((class98_sub22.aByteArray3992.length - class98_sub22.position) ^ 0xffffffff) <= -3) {
+						&& ((class98_sub22.incomingBytes.length - class98_sub22.position) ^ 0xffffffff) <= -3) {
 					final int i_1_ = class98_sub22.readUnsignedShort((byte) 127);
-					if (((class98_sub22.aByteArray3992.length - class98_sub22.position) ^ 0xffffffff) <= (i_1_ * 6 ^ 0xffffffff)) {
+					if (((class98_sub22.incomingBytes.length - class98_sub22.position) ^ 0xffffffff) <= (i_1_ * 6 ^ 0xffffffff)) {
 						for (int i_2_ = 0; i_1_ > i_2_; i_2_++) {
 							final int i_3_ = class98_sub22
 									.readUnsignedShort((byte) 127);
@@ -39,7 +39,7 @@ abstract class Class31 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cda.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("cda.B(" + i + ','
 					+ (class98_sub22 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -53,7 +53,7 @@ abstract class Class31 {
 				}
 				method307(false);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "cda.E(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "cda.E(" + bool
 						+ ')');
 			}
 			break;
@@ -67,7 +67,7 @@ abstract class Class31 {
 			}
 			return new Socket(aString299, anInt302);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cda.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cda.D(" + i + ')');
 		}
 	}
 
@@ -78,7 +78,7 @@ abstract class Class31 {
 			}
 			return Class365.method3937(i, is, 0, false);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cda.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("cda.C(" + i + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_5_ + ')'));
 		}
 	}

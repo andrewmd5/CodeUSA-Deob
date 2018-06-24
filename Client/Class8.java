@@ -18,7 +18,7 @@ final class Class8 {
 				aClass148_110 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ai.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ai.C(" + i + ')');
 		}
 	}
 
@@ -48,7 +48,7 @@ final class Class8 {
 			}
 			return class98_sub46_sub18;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ai.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ai.D(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -146,7 +146,7 @@ final class Class8 {
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("ai.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("ai.A(" + i
 						+ ',' + (class293 != null ? "{...}" : "null") + ','
 						+ i_1_ + ',' + i_2_ + ')'));
 			}
@@ -164,7 +164,7 @@ final class Class8 {
 				}
 				aClass58_112 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ai.B(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "ai.B(" + bool
 						+ ')');
 			}
 			break;
@@ -181,7 +181,7 @@ final class Class8 {
 			}
 			return Class366.aClass98_Sub31_Sub2_3122.method1354(-3619);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ai.E(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "ai.E(" + bool
 					+ ')');
 		}
 	}
@@ -191,7 +191,7 @@ final class Class8 {
 			aClass207_111 = class207;
 			aClass207_111.method2761(0, 5);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ai.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("ai.<init>("
 					+ (class279 != null ? "{...}" : "null") + ',' + i + ','
 					+ (class207 != null ? "{...}" : "null") + ')'));
 		}

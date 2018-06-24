@@ -24,7 +24,7 @@ final class Class225 {
 		try {
 			method2849(i, is, i + -12913, is.length);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ofa.K("
+			throw Class64_Sub27.printError(runtimeexception, ("ofa.K("
 					+ (is != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -39,7 +39,7 @@ final class Class225 {
 				}
 				aLong1688 = -117L;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ofa.I(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ofa.I(" + i
 						+ ')');
 			}
 			break;
@@ -53,7 +53,7 @@ final class Class225 {
 			}
 			return aClass356_1692.method3876((byte) 3);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ofa.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ofa.A(" + i + ')');
 		}
 	}
 
@@ -100,7 +100,7 @@ final class Class225 {
 				aLong1693 = -1L;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ofa.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ofa.B(" + i + ')');
 		}
 	}
 
@@ -117,7 +117,7 @@ final class Class225 {
 				}
 				aLong1693 = 78L;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ofa.G(" + l
+				throw Class64_Sub27.printError(runtimeexception, "ofa.G(" + l
 						+ ',' + i + ')');
 			}
 			break;
@@ -131,7 +131,7 @@ final class Class225 {
 			}
 			return aLong1689;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ofa.F(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "ofa.F(" + bool
 					+ ')');
 		}
 	}
@@ -143,7 +143,7 @@ final class Class225 {
 			class98_sub46_sub17.method1626((byte) -103);
 			class98_sub46_sub17.anInt6054 = i_3_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ofa.J(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ofa.J(" + i + ','
 					+ i_2_ + ',' + i_3_ + ')'));
 		}
 	}
@@ -258,7 +258,7 @@ final class Class225 {
 				throw new EOFException();
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("ofa.C(" + i + ',' + (is != null ? "{...}" : "null") + ','
 							+ i_4_ + ',' + i_5_ + ')'));
 		}
@@ -289,7 +289,7 @@ final class Class225 {
 				aLong1688 += i_15_;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ofa.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ofa.H(" + i + ')');
 		}
 	}
 
@@ -299,7 +299,7 @@ final class Class225 {
 				aClass148_1695 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ofa.E(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "ofa.E(" + bool
 					+ ')');
 		}
 	}
@@ -379,7 +379,7 @@ final class Class225 {
 				throw ioexception;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ofa.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ofa.D(" + i + ','
 					+ i_17_ + ',' + i_18_ + ','
 					+ (is != null ? "{...}" : "null") + ')'));
 		}
@@ -396,7 +396,7 @@ final class Class225 {
 			aByteArray1687 = new byte[i];
 			aByteArray1691 = new byte[i_22_];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ofa.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("ofa.<init>("
 					+ (class356 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_22_ + ')'));
 		}

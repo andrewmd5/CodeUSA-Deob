@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub4 extends Class98 {
+final class Class98_Sub4 extends Node {
 	static int anInt3826;
 	volatile int anInt3827 = -1;
 	static int anInt3828;
@@ -67,10 +67,10 @@ final class Class98_Sub4 extends Class98 {
 				i_6_ = 0;
 			}
 			Class104.anInt897 = i_6_;
-			Class246_Sub3_Sub4_Sub2_Sub2.aBoolean6540 = bool;
+			Player.aBoolean6540 = bool;
 			Class246_Sub3_Sub4_Sub4.anInt6488 = i_1_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bfa.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("bfa.A(" + i + ','
 					+ i_0_ + ',' + bool + ')'));
 		}
 	}
@@ -79,7 +79,7 @@ final class Class98_Sub4 extends Class98 {
 		try {
 			aString3829 = string;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bfa.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "bfa.<init>("
 					+ (string != null ? "{...}" : "null") + ')');
 		}
 	}

@@ -61,7 +61,7 @@ final class OutgoingOpcode {
 							50);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lga.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("lga.B(" + i + ','
 					+ i_0_ + ',' + (class197 != null ? "{...}" : "null") + ','
 					+ i_1_ + ',' + (class293 != null ? "{...}" : "null") + ','
 					+ i_2_ + ',' + i_3_ + ','
@@ -75,7 +75,7 @@ final class OutgoingOpcode {
 		try {
 			throw new IllegalStateException();
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"lga.toString(" + ')');
 		}
 	}
@@ -86,7 +86,7 @@ final class OutgoingOpcode {
 				anInt1318 = -128;
 			return opcode;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lga.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "lga.A(" + i + ')');
 		}
 	}
 
@@ -95,7 +95,7 @@ final class OutgoingOpcode {
 			opcode = i;
 			((OutgoingOpcode) this).size = i_15_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lga.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("lga.<init>(" + i
 					+ ',' + i_15_ + ')'));
 		}
 	}

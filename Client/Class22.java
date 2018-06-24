@@ -12,9 +12,9 @@ final class Class22 {
 		try {
 			final Class98_Sub46_Sub4 class98_sub46_sub4 = new Class98_Sub46_Sub4();
 			final ByteBuffer class98_sub22 = new ByteBuffer(is);
-			class98_sub22.position = -2 + class98_sub22.aByteArray3992.length;
+			class98_sub22.position = -2 + class98_sub22.incomingBytes.length;
 			final int i_0_ = class98_sub22.readUnsignedShort((byte) 127);
-			final int i_1_ = (-12 + -i_0_ + (class98_sub22.aByteArray3992.length + -2));
+			final int i_1_ = (-12 + -i_0_ + (class98_sub22.incomingBytes.length + -2));
 			class98_sub22.position = i_1_;
 			final int i_2_ = class98_sub22.readInt(-2);
 			class98_sub46_sub4.anInt5958 = class98_sub22.readUnsignedShort((byte) 127);
@@ -95,7 +95,7 @@ final class Class22 {
 			return class98_sub46_sub4;
 		} catch (final RuntimeException runtimeexception) {
 			runtimeexception.printStackTrace();
-			throw Class64_Sub27.method667(runtimeexception, ("bk.A("
+			throw Class64_Sub27.printError(runtimeexception, ("bk.A("
 					+ (is != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}

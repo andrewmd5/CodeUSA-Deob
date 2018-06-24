@@ -79,7 +79,7 @@ abstract class Class123 {
 			}
 			return bool;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ida.I(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ida.I(" + i + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_3_ + ',' + i_4_
 					+ ',' + i_5_ + ',' + i_6_ + ')'));
 		}
@@ -89,7 +89,7 @@ abstract class Class123 {
 		try {
 			if (i == 19) {
 				if (class293.anInt2307 == Class375.anInt3168) {
-					if (Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660.aString6537 == null) {
+					if (Surface.player.name2 == null) {
 						class293.anInt2343 = 0;
 						class293.anInt2210 = 0;
 					} else {
@@ -100,12 +100,12 @@ abstract class Class123 {
 						class293.anInt2233 = 5;
 						class293.anInt2210 = (Class98_Sub32
 								.method1438(
-										(Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660.aString6537),
+										(Surface.player.name2),
 										i + 6224));
 						class293.anInt2312 = 0;
-						class293.anInt2303 = (((Class246_Sub3_Sub4_Sub2) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt6350);
-						class293.anInt2287 = (((Class246_Sub3_Sub4_Sub2) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt6419);
-						class293.anInt2208 = (((Class246_Sub3_Sub4_Sub2) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt6385);
+						class293.anInt2303 = (((Entity) Surface.player).anInt6350);
+						class293.anInt2287 = (((Entity) Surface.player).anInt6419);
+						class293.anInt2208 = (((Entity) Surface.player).anInt6385);
 						final AnimationDefinition class97 = (((class293.anInt2208 ^ 0xffffffff) == 0) ? null
 								: (Class151_Sub7.aClass183_5001.method2623(
 										class293.anInt2208, 16383)));
@@ -117,7 +117,7 @@ abstract class Class123 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ida.J("
+			throw Class64_Sub27.printError(runtimeexception, ("ida.J("
 					+ (class293 != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -137,7 +137,7 @@ abstract class Class123 {
 			Class236.method2895(is, 0, is_21_, 0, i);
 			return is_21_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ida.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ida.H(" + i + ','
 					+ i_20_ + ',' + (is != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -151,7 +151,7 @@ abstract class Class123 {
 				}
 				aClass79_1010 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ida.G(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ida.G(" + i
 						+ ')');
 			}
 			break;

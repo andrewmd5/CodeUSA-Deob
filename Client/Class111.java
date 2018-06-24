@@ -24,7 +24,7 @@ abstract class Class111 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hba.CB(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "hba.CB(" + i + ','
 					+ c + ')');
 		}
 	}
@@ -54,7 +54,7 @@ abstract class Class111 {
 			}
 			return -1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hba.BB("
+			throw Class64_Sub27.printError(runtimeexception, ("hba.BB("
 					+ (string != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -70,7 +70,7 @@ abstract class Class111 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hba.DB(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("hba.DB(" + i
 					+ ',' + i_9_ + ',' + i_10_ + ')'));
 		}
 	}

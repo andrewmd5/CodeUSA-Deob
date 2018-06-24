@@ -36,7 +36,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "un.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "un.C(" + i + ')');
 		}
 	}
 
@@ -48,7 +48,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "un.L(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "un.L(" + i + ')');
 		}
 	}
 
@@ -77,7 +77,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 				mouseevent.consume();
 			} catch (final RuntimeException runtimeexception) {
 				throw Class64_Sub27
-						.method667(runtimeexception,
+						.printError(runtimeexception,
 								("un.mousePressed("
 										+ (mouseevent != null ? "{...}"
 												: "null") + ')'));
@@ -97,7 +97,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "un.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "un.I(" + i + ')');
 		}
 	}
 
@@ -108,7 +108,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 				method3530((byte) 119);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "un.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "un.H(" + i + ')');
 		}
 	}
 
@@ -122,7 +122,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 				mouseevent.consume();
 			} catch (final RuntimeException runtimeexception) {
 				throw Class64_Sub27
-						.method667(runtimeexception,
+						.printError(runtimeexception,
 								("un.mouseClicked("
 										+ (mouseevent != null ? "{...}"
 												: "null") + ')'));
@@ -136,7 +136,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 		try {
 			method3531(-22490, mouseevent.getX(), mouseevent.getY());
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("un.mouseMoved("
+			throw Class64_Sub27.printError(runtimeexception, ("un.mouseMoved("
 					+ (mouseevent != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -146,7 +146,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 		try {
 			method3531(-22490, mouseevent.getX(), mouseevent.getY());
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("un.mouseExited("
+			throw Class64_Sub27.printError(runtimeexception, ("un.mouseExited("
 					+ (mouseevent != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -161,7 +161,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 			anIntArray5301 = null;
 			aClass171_5296 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "un.S(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "un.S(" + bool
 					+ ')');
 		}
 	}
@@ -184,7 +184,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 				}
 				method3527(35, -66);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("un.O(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("un.O(" + i
 						+ ',' + i_1_ + ',' + i_2_ + ')'));
 			}
 			break;
@@ -213,7 +213,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 			class154.aClass246_Sub3_Sub4_1232 = class246_sub3_sub4;
 			return class154;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("un.N(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("un.N(" + i + ','
 					+ (class246_sub3_sub4 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -225,7 +225,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 			aComponent5300.addMouseListener(this);
 			aComponent5300.addMouseMotionListener(this);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("un.R(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("un.R(" + i + ','
 					+ (component != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -238,7 +238,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 			}
 			return anInt5289;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "un.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "un.E(" + i + ')');
 		}
 	}
 
@@ -250,7 +250,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 			}
 			return (Class98_Sub17) aClass148_5287.method2421(6494);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "un.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "un.G(" + i + ')');
 		}
 	}
 
@@ -268,7 +268,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "un.M(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "un.M(" + i + ','
 					+ i_5_ + ')');
 		}
 	}
@@ -278,7 +278,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 		try {
 			method3531(-22490, mouseevent.getX(), mouseevent.getY());
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("un.mouseDragged("
+			throw Class64_Sub27.printError(runtimeexception, ("un.mouseDragged("
 					+ (mouseevent != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -290,7 +290,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 			}
 			return i >>> 770356935;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "un.V(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "un.V(" + i + ','
 					+ i_6_ + ')');
 		}
 	}
@@ -321,7 +321,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 			}
 			return 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("un.Q(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("un.Q(" + i + ','
 					+ (mouseevent != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -340,7 +340,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 			}
 			aClass148_5292.method2422((byte) 47);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "un.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "un.A(" + i + ')');
 		}
 	}
 
@@ -352,7 +352,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 			}
 			return anInt5288;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "un.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "un.B(" + i + ')');
 		}
 	}
 
@@ -370,7 +370,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 			}
 			aClass148_5292.method2419(class98_sub17_sub1, i ^ ~0x92b);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("un.U(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("un.U(" + i + ','
 					+ i_10_ + ',' + i_11_ + ',' + i_12_ + ',' + i_13_ + ')'));
 		}
 	}
@@ -380,7 +380,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 		try {
 			method3531(-22490, mouseevent.getX(), mouseevent.getY());
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("un.mouseEntered("
+			throw Class64_Sub27.printError(runtimeexception, ("un.mouseEntered("
 					+ (mouseevent != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -412,7 +412,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 				mouseevent.consume();
 			} catch (final RuntimeException runtimeexception) {
 				throw Class64_Sub27
-						.method667(runtimeexception,
+						.printError(runtimeexception,
 								("un.mouseReleased("
 										+ (mouseevent != null ? "{...}"
 												: "null") + ')'));
@@ -433,7 +433,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 				aClass148_5292 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "un.T(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "un.T(" + i + ')');
 		}
 	}
 
@@ -442,7 +442,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 			method3525(-32, component);
 			aBoolean5299 = bool;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("un.<init>(" + (component != null ? "{...}" : "null")
 							+ ',' + bool + ')'));
 		}
@@ -461,7 +461,7 @@ final class Class299_Sub2 extends Class299 implements MouseListener,
 				}
 				method3529(22661, i_15_, 0, i_16_, -1);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("un.P(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("un.P(" + i
 						+ ',' + i_15_ + ',' + i_16_ + ')'));
 			}
 			break;

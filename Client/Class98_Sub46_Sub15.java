@@ -17,7 +17,7 @@ final class Class98_Sub46_Sub15 extends Class98_Sub46 {
 			return (aShortArrayArray6040[0]).length
 					| (aShortArrayArray6040).length << -2104658688;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jba.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "jba.A(" + i + ')');
 		}
 	}
 
@@ -35,7 +35,7 @@ final class Class98_Sub46_Sub15 extends Class98_Sub46 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jba.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "jba.C(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -63,7 +63,7 @@ final class Class98_Sub46_Sub15 extends Class98_Sub46 {
 			}
 			return i_2_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jba.E(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "jba.E(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -79,7 +79,7 @@ final class Class98_Sub46_Sub15 extends Class98_Sub46 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jba.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "jba.D(" + i + ','
 					+ c + ')');
 		}
 	}
@@ -89,7 +89,7 @@ final class Class98_Sub46_Sub15 extends Class98_Sub46 {
 			aShortArrayArray6040 = is;
 			aDouble6042 = d;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jba.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("jba.<init>("
 					+ (is != null ? "{...}" : "null") + ',' + d + ')'));
 		}
 	}
@@ -102,7 +102,7 @@ final class Class98_Sub46_Sub15 extends Class98_Sub46 {
 			aClass232_6043 = null;
 			aClass58_6041 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jba.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "jba.B(" + bool
 					+ ')');
 		}
 	}

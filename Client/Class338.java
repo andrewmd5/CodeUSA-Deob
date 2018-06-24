@@ -26,7 +26,7 @@ final class Class338 {
 				Class98_Sub22_Sub1.anInt5789 = -1;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ul.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ul.B(" + i + ')');
 		}
 	}
 
@@ -37,7 +37,7 @@ final class Class338 {
 			}
 			aShortArray2833 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ul.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ul.E(" + i + ')');
 		}
 	}
 
@@ -45,7 +45,7 @@ final class Class338 {
 		try {
 			Class135.aClass79_1054.method794(15);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ul.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ul.A(" + i + ')');
 		}
 	}
 
@@ -68,7 +68,7 @@ final class Class338 {
 					class93.anInt3508, class93.anInt3506, class93.anInt3513,
 					i_2_, i_3_, i_4_, i_5_, i_6_, i_7_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ul.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ul.D(" + i + ','
 					+ (class98_sub22 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -83,7 +83,7 @@ final class Class338 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ul.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ul.C(" + i + ')');
 		}
 	}
 
@@ -100,7 +100,7 @@ final class Class338 {
 			anInt2831 = i_9_;
 			aByte2840 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ul.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("ul.<init>(" + i
 					+ ',' + i_8_ + ',' + i_9_ + ',' + i_10_ + ',' + i_11_ + ','
 					+ i_12_ + ',' + i_13_ + ','
 					+ (class246_sub3 != null ? "{...}" : "null") + ')'));

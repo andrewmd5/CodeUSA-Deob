@@ -11,7 +11,7 @@ final class Class84 {
 		try {
 			Class98_Sub45.method1521((byte) 52, 0, string, 0, "", "", "");
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fh.C("
+			throw Class64_Sub27.printError(runtimeexception, ("fh.C("
 					+ (string != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -33,7 +33,7 @@ final class Class84 {
 				}
 				aClass218_635 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "fh.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "fh.B(" + i
 						+ ')');
 			}
 			break;
@@ -42,12 +42,12 @@ final class Class84 {
 
 	static final void method834(final Class207 class207, final int i) {
 		try {
-			Class244.anInt1860 = class207.method2750((byte) -62, "p11_full");
-			Class269.anInt2026 = class207.method2750((byte) -122, "p12_full");
-			Class123_Sub1.anInt4742 = class207.method2750((byte) -91,
+			Class244.anInt1860 = class207.getResourceByName((byte) -62, "p11_full");
+			Class269.anInt2026 = class207.getResourceByName((byte) -122, "p12_full");
+			Class123_Sub1.anInt4742 = class207.getResourceByName((byte) -91,
 					"b12_full");
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fh.E("
+			throw Class64_Sub27.printError(runtimeexception, ("fh.E("
 					+ (class207 != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -61,7 +61,7 @@ final class Class84 {
 				}
 				aStringArray636 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "fh.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "fh.D(" + i
 						+ ')');
 			}
 			break;
@@ -102,7 +102,7 @@ final class Class84 {
 				aClass218_635.method2808(true, class246_sub1);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fh.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fh.A(" + i + ','
 					+ (class246_sub1 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -111,7 +111,7 @@ final class Class84 {
 		try {
 			aBoolean637 = bool;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fh.<init>(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "fh.<init>(" + bool
 					+ ')');
 		}
 	}

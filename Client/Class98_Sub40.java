@@ -3,7 +3,7 @@
  */
 import java.util.Date;
 
-final class Class98_Sub40 extends Class98 {
+final class Class98_Sub40 extends Node {
 	static Class164 aClass164_4190 = new Class164(3);
 	short aShort4191;
 	static Class88 aClass88_4192;
@@ -32,7 +32,7 @@ final class Class98_Sub40 extends Class98 {
 			return new Class52(i_0_, class63, class110, i_1_, i_2_, i_3_, i_4_,
 					i_5_, i_6_, i_7_, bool);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qd.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("qd.D(" + i + ','
 					+ (class98_sub22 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -48,7 +48,7 @@ final class Class98_Sub40 extends Class98 {
 				aClass164_4190 = null;
 			Class98_Sub10_Sub7.aFont5576 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qd.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qd.B(" + i + ')');
 		}
 	}
 
@@ -70,7 +70,7 @@ final class Class98_Sub40 extends Class98 {
 					+ " " + i_12_ / 10 + i_12_ % 10 + ":" + i_13_ / 10 + i_13_
 					% 10 + ":" + i_14_ / 10 + i_14_ % 10 + " GMT");
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qd.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "qd.A(" + i + ','
 					+ l + ')');
 		}
 	}
@@ -85,7 +85,7 @@ final class Class98_Sub40 extends Class98 {
 			aClass171_4193 = null;
 			aClass207_4198 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qd.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qd.E(" + i + ')');
 		}
 	}
 
@@ -93,7 +93,7 @@ final class Class98_Sub40 extends Class98 {
 		try {
 			((Class98_Sub40) this).aShort4191 = i;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qd.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "qd.<init>(" + i
 					+ ')');
 		}
 	}
@@ -249,7 +249,7 @@ final class Class98_Sub40 extends Class98 {
 			}
 			return false;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("qd.C(" + (class24 != null ? "{...}" : "null") + ',' + i
 							+ ',' + (class98_sub47 != null ? "{...}" : "null")
 							+ ',' + i_15_ + ',' + i_16_ + ','

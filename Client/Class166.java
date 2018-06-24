@@ -25,11 +25,11 @@ final class Class166 {
 				final Class98_Sub39 class98_sub39 = ((Class98_Sub39) Class260.aClass377_3254
 						.method3990(i_1_, -1));
 				final Class246_Sub3_Sub4_Sub2_Sub1 class246_sub3_sub4_sub2_sub1 = (class98_sub39.aClass246_Sub3_Sub4_Sub2_Sub1_4187);
-				if (Class246_Sub3_Sub4_Sub2_Sub2.aBoolean6540
+				if (Player.aBoolean6540
 						&& Class98_Sub44.method1514(-128, i_1_)) {
 					Class317.method3651((byte) -53);
 				}
-				if ((Class201.anInt1544 ^ 0xffffffff) != (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6406 ^ 0xffffffff)) {
+				if ((Class201.anInt1544 ^ 0xffffffff) != (((Entity) class246_sub3_sub4_sub2_sub1).anInt6406 ^ 0xffffffff)) {
 					if (class246_sub3_sub4_sub2_sub1.aClass141_6504
 							.method2302((byte) 117)) {
 						Class98_Sub43_Sub4.method1504(
@@ -64,10 +64,10 @@ final class Class166 {
 						+ (Class98_Sub10_Sub20.anInt5640 + -Class150.anInt1211));
 			}
 			for (int i_3_ = 0; i_3_ < Class98_Sub10_Sub20.anInt5640; i_3_++) {
-				if ((Class201.anInt1544 ^ 0xffffffff) != (((Class246_Sub3_Sub4_Sub2) (Class163.aClass98_Sub39Array3516[i_3_].aClass246_Sub3_Sub4_Sub2_Sub1_4187)).anInt6406 ^ 0xffffffff)) {
+				if ((Class201.anInt1544 ^ 0xffffffff) != (((Entity) (Class163.aClass98_Sub39Array3516[i_3_].aClass246_Sub3_Sub4_Sub2_Sub1_4187)).anInt6406 ^ 0xffffffff)) {
 					throw new RuntimeException(
 							"gnp4 uk:"
-									+ (((Class246_Sub3_Sub4_Sub2) (Class163.aClass98_Sub39Array3516[i_3_].aClass246_Sub3_Sub4_Sub2_Sub1_4187)).anInt6369));
+									+ (((Entity) (Class163.aClass98_Sub39Array3516[i_3_].aClass246_Sub3_Sub4_Sub2_Sub1_4187)).anInt6369));
 				}
 			}
 		} catch (final Exception e) {
@@ -84,7 +84,7 @@ final class Class166 {
 				}
 				method2526(-23);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "l.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "l.A(" + i
 						+ ')');
 			}
 			break;

@@ -5,7 +5,7 @@ import jaclib.hardware_info.HardwareInfo;
 
 import java.awt.Rectangle;
 
-final class Class98_Sub35 extends Class98 {
+final class Class98_Sub35 extends Node {
 	int anInt4129;
 	private int anInt4130;
 	private String aString4131;
@@ -40,7 +40,7 @@ final class Class98_Sub35 extends Class98 {
 			Class98_Sub37.aHa4185.L(Class189.anInt1455, -1, i);
 			Class98_Sub37.aHa4185.method1775(Class246_Sub7.aClass48_5119);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pg.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pg.E(" + i + ')');
 		}
 	}
 
@@ -72,7 +72,7 @@ final class Class98_Sub35 extends Class98 {
 			class98_sub22.method1194(anInt4130, -76);
 			class98_sub22.writeShort(anInt4134, 1571862888);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pg.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pg.D(" + i + ','
 					+ (class98_sub22 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -96,7 +96,7 @@ final class Class98_Sub35 extends Class98 {
 					aString4135 = aString4135.substring(0, 10);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "pg.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "pg.C(" + i
 						+ ')');
 			}
 			break;
@@ -115,7 +115,7 @@ final class Class98_Sub35 extends Class98 {
 			i_0_ += Class98_Sub26.method1275(aString4135, false);
 			return i_0_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pg.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pg.B(" + i + ')');
 		}
 	}
 
@@ -127,7 +127,7 @@ final class Class98_Sub35 extends Class98 {
 			aRectangleArray4144 = null;
 			aClass63_4151 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pg.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "pg.A(" + bool
 					+ ')');
 		}
 	}
@@ -286,7 +286,7 @@ final class Class98_Sub35 extends Class98 {
 			}
 			method1454(-120);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pg.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("pg.<init>("
 					+ bool + ',' + (class88 != null ? "{...}" : "null") + ')'));
 		}
 	}

@@ -694,7 +694,7 @@ public final class ha_Sub3_Sub1 extends ha_Sub3 {
 			}
 			int i_32_ = 0;
 			if (class38 != Class357.aClass38_3026) {
-				if (Class98.aClass38_834 == class38) {
+				if (Node.aClass38_834 == class38) {
 					i_32_ = 131072;
 				} else if (Class204.aClass38_1552 == class38) {
 					i_32_ = 196608;

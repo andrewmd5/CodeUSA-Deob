@@ -39,19 +39,19 @@ final class Class98_Sub31_Sub3 extends Class98_Sub31 {
 					method1378(class98_sub38);
 				} else {
 					class98_sub38.anInt4186 = i_2_;
-					method1372(((Class98) class98_sub38).aClass98_836,
+					method1372(((Node) class98_sub38).aClass98_836,
 							class98_sub38);
 				}
 			}
 		} while (i_0_ != 0);
 	}
 
-	private final void method1372(Class98 class98,
+	private final void method1372(Node node,
 			final Class98_Sub38 class98_sub38) {
-		for (/**/; (class98 != aClass148_5855.aClass98_1198 && (((Class98_Sub38) class98).anInt4186 <= class98_sub38.anInt4186)); class98 = class98.aClass98_836) {
+		for (/**/; (node != aClass148_5855.aClass98_1198 && (((Class98_Sub38) node).anInt4186 <= class98_sub38.anInt4186)); node = node.aClass98_836) {
 			/* empty */
 		}
-		Class279.method3322(class98, class98_sub38, (byte) 24);
+		Class279.method3322(node, class98_sub38, (byte) 24);
 		anInt5857 = ((Class98_Sub38) (aClass148_5855.aClass98_1198.aClass98_836)).anInt4186;
 	}
 
@@ -89,7 +89,7 @@ final class Class98_Sub31_Sub3 extends Class98_Sub31 {
 					method1378(class98_sub38);
 				} else {
 					class98_sub38.anInt4186 = i_4_;
-					method1372(((Class98) class98_sub38).aClass98_836,
+					method1372(((Node) class98_sub38).aClass98_836,
 							class98_sub38);
 				}
 			}
@@ -142,11 +142,11 @@ final class Class98_Sub31_Sub3 extends Class98_Sub31 {
 	private final void method1378(final Class98_Sub38 class98_sub38) {
 		class98_sub38.method942(65);
 		class98_sub38.method1465();
-		final Class98 class98 = (aClass148_5855.aClass98_1198.aClass98_836);
-		if (class98 == aClass148_5855.aClass98_1198) {
+		final Node node = (aClass148_5855.aClass98_1198.aClass98_836);
+		if (node == aClass148_5855.aClass98_1198) {
 			anInt5857 = -1;
 		} else {
-			anInt5857 = ((Class98_Sub38) class98).anInt4186;
+			anInt5857 = ((Class98_Sub38) node).anInt4186;
 		}
 	}
 

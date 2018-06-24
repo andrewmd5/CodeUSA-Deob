@@ -13,12 +13,12 @@ final class Class98_Sub10_Sub22 extends Class98_Sub10 {
 		try {
 			if (i != 256)
 				method1072((byte) -94);
-			if (Class246_Sub3_Sub4_Sub2_Sub2.aBoolean6540)
+			if (Player.aBoolean6540)
 				Class116.method2159((byte) 80, var_ha);
 			else
 				Class96.method926(2, var_ha);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("nn.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("nn.D(" + i + ','
 					+ (var_ha != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -41,7 +41,7 @@ final class Class98_Sub10_Sub22 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nn.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "nn.C(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -134,11 +134,11 @@ final class Class98_Sub10_Sub22 extends Class98_Sub10 {
 						&& Class165.anInt1276 > i_24_
 						&& Class98_Sub10_Sub7.anInt5572 > i_25_) {
 					int i_33_ = 1 + i_28_;
-					if ((((Class246_Sub3_Sub4_Sub2) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anIntArray6437[0]) >= -i_33_
+					if ((((Entity) Surface.player).anIntArray6437[0]) >= -i_33_
 							+ i_24_
-							&& (i_24_ + i_33_ >= (((Class246_Sub3_Sub4_Sub2) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anIntArray6437[0]))
-							&& ((i_25_ - i_33_ ^ 0xffffffff) >= ((((Class246_Sub3_Sub4_Sub2) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anIntArray6438[0]) ^ 0xffffffff))
-							&& (((Class246_Sub3_Sub4_Sub2) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anIntArray6438[0]) <= i_25_
+							&& (i_24_ + i_33_ >= (((Entity) Surface.player).anIntArray6437[0]))
+							&& ((i_25_ - i_33_ ^ 0xffffffff) >= ((((Entity) Surface.player).anIntArray6438[0]) ^ 0xffffffff))
+							&& (((Entity) Surface.player).anIntArray6438[0]) <= i_25_
 									- -i_33_)
 						Class21_Sub4
 								.method278(
@@ -224,7 +224,7 @@ final class Class98_Sub10_Sub22 extends Class98_Sub10 {
 					i_48_ = 256 * i_48_;
 					i_47_ *= 256;
 					if ((i_49_ ^ 0xffffffff) != -1 && i_46_ != -1) {
-						Class246_Sub3_Sub4_Sub2 class246_sub3_sub4_sub2 = null;
+						Entity class246_sub3_sub4_sub2 = null;
 						if ((i_49_ ^ 0xffffffff) <= -1) {
 							int i_58_ = -1 + i_49_;
 							Class98_Sub39 class98_sub39 = ((Class98_Sub39) Class260.aClass377_3254
@@ -236,7 +236,7 @@ final class Class98_Sub10_Sub22 extends Class98_Sub10 {
 							if ((i_59_ ^ 0xffffffff) != (za_Sub2.anInt6080 ^ 0xffffffff))
 								class246_sub3_sub4_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_59_]);
 							else
-								class246_sub3_sub4_sub2 = (Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660);
+								class246_sub3_sub4_sub2 = (Surface.player);
 						}
 						if (class246_sub3_sub4_sub2 != null) {
 							Class294 class294 = class246_sub3_sub4_sub2
@@ -337,8 +337,8 @@ final class Class98_Sub10_Sub22 extends Class98_Sub10 {
 							.readUnsignedShort((byte) 127);
 					int i_80_ = Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514
 							.readUnsignedShort((byte) 127);
-					if (Class146.aClass377_1180 != null) {
-						Class98_Sub45 class98_sub45 = ((Class98_Sub45) (Class146.aClass377_1180
+					if (AbstractModel.aClass377_1180 != null) {
+						Class98_Sub45 class98_sub45 = ((Class98_Sub45) (AbstractModel.aClass377_1180
 								.method3990(
 										(long) (i_77_ | (i_75_ << -45976338 | (Class206.anInt1568 << -2048549060))),
 										i ^ 0x2c)));
@@ -447,12 +447,12 @@ final class Class98_Sub10_Sub22 extends Class98_Sub10 {
 							&& (Class165.anInt1276 ^ 0xffffffff) < (i_103_ ^ 0xffffffff)
 							&& ((Class98_Sub10_Sub7.anInt5572 ^ 0xffffffff) < (i_104_ ^ 0xffffffff))) {
 						int i_112_ = i_107_ + 1;
-						if (((((Class246_Sub3_Sub4_Sub2) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anIntArray6437[0]) ^ 0xffffffff) <= (i_103_
+						if (((((Entity) Surface.player).anIntArray6437[0]) ^ 0xffffffff) <= (i_103_
 								+ -i_112_ ^ 0xffffffff)
-								&& (((Class246_Sub3_Sub4_Sub2) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anIntArray6437[0]) <= i_112_
+								&& (((Entity) Surface.player).anIntArray6437[0]) <= i_112_
 										+ i_103_
-								&& (-i_112_ + i_104_ <= (((Class246_Sub3_Sub4_Sub2) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anIntArray6438[0]))
-								&& (((((Class246_Sub3_Sub4_Sub2) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anIntArray6438[0]) ^ 0xffffffff) >= (i_112_
+								&& (-i_112_ + i_104_ <= (((Entity) Surface.player).anIntArray6438[0]))
+								&& (((((Entity) Surface.player).anIntArray6438[0]) ^ 0xffffffff) >= (i_112_
 										+ i_104_ ^ 0xffffffff)))
 							Class86.method844(
 									i_111_,
@@ -476,7 +476,7 @@ final class Class98_Sub10_Sub22 extends Class98_Sub10 {
 					int i_117_ = i_116_ - -Class272.anInt2038;
 					int i_118_ = Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514
 							.readShortA(90);
-					Class98_Sub45 class98_sub45 = ((Class98_Sub45) (Class146.aClass377_1180
+					Class98_Sub45 class98_sub45 = ((Class98_Sub45) (AbstractModel.aClass377_1180
 							.method3990(
 									(long) (i_117_ | (i_115_ << -1573020242 | Class206.anInt1568 << -1438380164)),
 									-1)));
@@ -598,7 +598,7 @@ final class Class98_Sub10_Sub22 extends Class98_Sub10 {
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("nn.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("nn.F(" + i + ','
 					+ (class85 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -611,7 +611,7 @@ final class Class98_Sub10_Sub22 extends Class98_Sub10 {
 				anInt5654 = (i_147_ & 0xff0000) >> -1095348980;
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nn.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "nn.E(" + i + ','
 					+ i_147_ + ')');
 		}
 	}
@@ -621,7 +621,7 @@ final class Class98_Sub10_Sub22 extends Class98_Sub10 {
 		try {
 			method1071(122, i);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nn.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "nn.<init>(" + i
 					+ ')');
 		}
 	}
@@ -636,7 +636,7 @@ final class Class98_Sub10_Sub22 extends Class98_Sub10 {
 			aClass171_5652 = null;
 			anObject5653 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nn.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "nn.B(" + i + ')');
 		}
 	}
 
@@ -648,7 +648,7 @@ final class Class98_Sub10_Sub22 extends Class98_Sub10 {
 			if ((i_150_ ^ 0xffffffff) == -1)
 				method1071(122, class98_sub22.readMediumInt(-124));
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("nn.A(" + i + ','
 							+ (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i_149_ + ')'));

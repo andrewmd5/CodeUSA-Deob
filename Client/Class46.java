@@ -27,7 +27,7 @@ final class Class46 {
 				aHa_Sub1_394.method1865(i_0_, 4, interface8, false, 0);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("df.E(" + i + ',' + i_0_ + ','
 							+ (interface8 != null ? "{...}" : "null") + ')'));
 		}
@@ -95,7 +95,7 @@ final class Class46 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "df.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "df.D(" + i + ')');
 		}
 	}
 
@@ -122,7 +122,7 @@ final class Class46 {
 				Class157.method2506(127, Class331.aClass98_Sub46_Sub8_2803);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "df.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "df.B(" + i + ')');
 		}
 	}
 
@@ -135,7 +135,7 @@ final class Class46 {
 				aFloat388 = 1.1995486F;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("df.F("
+			throw Class64_Sub27.printError(runtimeexception, ("df.F("
 					+ (objects != null ? "{...}" : "null") + ',' + bool + ','
 					+ (ls != null ? "{...}" : "null") + ')'));
 		}
@@ -148,7 +148,7 @@ final class Class46 {
 			}
 			method433((byte) 87, anInt393, anInterface8_387);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "df.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "df.C(" + i + ')');
 		}
 	}
 
@@ -162,7 +162,7 @@ final class Class46 {
 					i * aHa_Sub1_394.method1839(i_12_, -5122), i_12_);
 			method433((byte) 63, i, aClass156_Sub1_386);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("df.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("df.G(" + i + ','
 					+ i_11_ + ',' + i_12_ + ','
 					+ (is != null ? "{...}" : "null") + ')'));
 		}
@@ -235,7 +235,7 @@ final class Class46 {
 					}
 				}
 				anInterface8_387 = aHa_Sub1_394.method1838(5123,
-						(class98_sub22.aByteArray3992), 7, false,
+						(class98_sub22.incomingBytes), 7, false,
 						(class98_sub22.position));
 				aClass156_Sub1_386 = new Class156_Sub1(aHa_Sub1_394, 5123,
 						null, 1);
@@ -243,7 +243,7 @@ final class Class46 {
 				aClass42_Sub1_391 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("df.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("df.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ','
 					+ (class33 != null ? "{...}" : "null") + ','
 					+ (var_s_Sub1 != null ? "{...}" : "null") + ',' + i + ','

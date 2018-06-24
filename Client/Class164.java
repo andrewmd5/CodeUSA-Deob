@@ -12,7 +12,7 @@ final class Class164 {
 		try {
 			throw new IllegalStateException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"kt.toString(" + ')');
 		}
 	}
@@ -156,7 +156,7 @@ final class Class164 {
 						i_25_, (byte) 109, class24.aString263, var_aa,
 						class24.anInt257, i_4_, class43);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("kt.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("kt.A(" + i
 						+ ',' + i_0_ + ',' + i_1_ + ','
 						+ (var_aa != null ? "{...}" : "null") + ','
 						+ (var_ha != null ? "{...}" : "null") + ',' + i_2_
@@ -171,7 +171,7 @@ final class Class164 {
 		try {
 			anInt1275 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kt.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "kt.<init>(" + i
 					+ ')');
 		}
 	}

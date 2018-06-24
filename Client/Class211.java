@@ -19,7 +19,7 @@ final class Class211 {
 			aClass58_1596 = null;
 			aClass58_1595 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nl.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "nl.B(" + i + ')');
 		}
 	}
 
@@ -43,7 +43,7 @@ final class Class211 {
 				}
 				aClass58_1595 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("nl.A("
+				throw Class64_Sub27.printError(runtimeexception, ("nl.A("
 						+ (rectangles != null ? "{...}" : "null") + ',' + i
 						+ ',' + i_0_ + ')'));
 			}

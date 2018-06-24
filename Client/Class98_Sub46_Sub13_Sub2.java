@@ -16,7 +16,7 @@ final class Class98_Sub46_Sub13_Sub2 extends Class98_Sub46_Sub13 {
 			}
 			return i >>> 1951350663;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rba.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "rba.E(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -27,7 +27,7 @@ final class Class98_Sub46_Sub13_Sub2 extends Class98_Sub46_Sub13 {
 				anIntArrayArrayArray6311 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rba.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rba.F(" + i + ')');
 		}
 	}
 
@@ -42,7 +42,7 @@ final class Class98_Sub46_Sub13_Sub2 extends Class98_Sub46_Sub13 {
 			}
 			return 100;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rba.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rba.B(" + i + ')');
 		}
 	}
 
@@ -53,7 +53,7 @@ final class Class98_Sub46_Sub13_Sub2 extends Class98_Sub46_Sub13 {
 			}
 			return Class337_Sub1.anInt5497;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rba.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rba.A(" + i + ')');
 		}
 	}
 
@@ -80,7 +80,7 @@ final class Class98_Sub46_Sub13_Sub2 extends Class98_Sub46_Sub13 {
 			Class38.aClass100_357.method1695(26404, class98_sub46_sub4, i);
 			return class98_sub46_sub4;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rba.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "rba.D(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -96,7 +96,7 @@ final class Class98_Sub46_Sub13_Sub2 extends Class98_Sub46_Sub13 {
 			}
 			return aByteArray6313;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rba.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rba.C(" + i + ')');
 		}
 	}
 

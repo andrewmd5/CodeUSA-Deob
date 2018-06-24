@@ -21,7 +21,7 @@ final class Class308 {
 			i_0_ <<= 3;
 			Class98_Sub22_Sub2.aFloat5794 = (float) i;
 			if ((Class98_Sub46_Sub20_Sub2.anInt6319 ^ 0xffffffff) == -3) {
-				Class246_Sub3_Sub4_Sub2.anInt6357 = i_2_;
+				Entity.anInt6357 = i_2_;
 				Class186.anInt3424 = i;
 				anInt2584 = i_0_;
 			}
@@ -29,7 +29,7 @@ final class Class308 {
 			Class42_Sub2.method388(true);
 			Class64_Sub6.aBoolean3656 = true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sv.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sv.D(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ')'));
 		}
 	}
@@ -64,7 +64,7 @@ final class Class308 {
 			aClass377_2585.method3996(class98_sub24_sub1, l, i + -20856);
 			return class98_sub24_sub1;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("sv.A(" + i + ',' + i_4_ + ',' + i_5_ + ','
 							+ (is != null ? "{...}" : "null") + ')'));
 		}
@@ -81,7 +81,7 @@ final class Class308 {
 					break;
 				method3610(-1);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "sv.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "sv.C(" + i
 						+ ')');
 			}
 			break;
@@ -96,7 +96,7 @@ final class Class308 {
 				return method3612(i + 14915, is, 0, i_7_);
 			throw new RuntimeException();
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sv.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sv.E(" + i + ','
 					+ i_7_ + ',' + (is != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -125,7 +125,7 @@ final class Class308 {
 				is[0] -= (((Class98_Sub24_Sub1) class98_sub24_sub1).aByteArray5799).length;
 			return class98_sub24_sub1;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("sv.B(" + i + ',' + (is != null ? "{...}" : "null") + ','
 							+ i_8_ + ',' + i_9_ + ')'));
 		}
@@ -141,7 +141,7 @@ final class Class308 {
 				return null;
 			throw new RuntimeException();
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sv.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sv.F(" + i + ','
 					+ bool + ',' + (is != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -151,7 +151,7 @@ final class Class308 {
 			aClass207_2578 = class207;
 			aClass207_2577 = class207_11_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sv.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("sv.<init>("
 					+ (class207 != null ? "{...}" : "null") + ','
 					+ (class207_11_ != null ? "{...}" : "null") + ')'));
 		}

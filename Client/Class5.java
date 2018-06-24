@@ -17,7 +17,7 @@ final class Class5 implements Interface18 {
 						(aClass367_3441.anInt3544), aClass207_3437, (byte) -89);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "af.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "af.C(" + i + ')');
 		}
 	}
 
@@ -29,7 +29,7 @@ final class Class5 implements Interface18 {
 			}
 			return aClass207_3437.method2742(-77, aClass367_3441.anInt3544);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "af.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "af.A(" + i + ')');
 		}
 	}
 
@@ -43,7 +43,7 @@ final class Class5 implements Interface18 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("af.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("af.F(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -55,7 +55,7 @@ final class Class5 implements Interface18 {
 			}
 			aString3440 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "af.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "af.E(" + i + ')');
 		}
 	}
 
@@ -83,7 +83,7 @@ final class Class5 implements Interface18 {
 			}
 			throw new IllegalArgumentException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("af.D("
+			throw Class64_Sub27.printError(runtimeexception, ("af.D("
 					+ (class128 != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -114,7 +114,7 @@ final class Class5 implements Interface18 {
 				return;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "af.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "af.B(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -124,7 +124,7 @@ final class Class5 implements Interface18 {
 			aClass367_3441 = class367;
 			aClass207_3437 = class207;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("af.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("af.<init>("
 					+ (class207 != null ? "{...}" : "null") + ','
 					+ (class367 != null ? "{...}" : "null") + ')'));
 		}

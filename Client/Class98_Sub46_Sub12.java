@@ -27,7 +27,7 @@ final class Class98_Sub46_Sub12 extends Class98_Sub46 {
 			}
 			return class98_sub34.anInt4126;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hd.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("hd.B(" + i + ','
 					+ bool + ',' + i_0_ + ')'));
 		}
 	}
@@ -47,7 +47,7 @@ final class Class98_Sub46_Sub12 extends Class98_Sub46 {
 			}
 			return class98_sub15.aString3917;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hd.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("hd.C(" + i + ','
 					+ i_1_ + ',' + (string != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -65,7 +65,7 @@ final class Class98_Sub46_Sub12 extends Class98_Sub46 {
 				}
 				aLong6035 = 71L;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "hd.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "hd.D(" + i
 						+ ')');
 			}
 			break;
@@ -85,7 +85,7 @@ final class Class98_Sub46_Sub12 extends Class98_Sub46 {
 				method1589(i_2_, true, class98_sub22);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hd.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("hd.A(" + i + ','
 					+ (class98_sub22 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -103,14 +103,14 @@ final class Class98_Sub46_Sub12 extends Class98_Sub46 {
 					final boolean bool_6_ = ((class98_sub22
 							.readUnsignedByte((byte) 41) ^ 0xffffffff) == -2);
 					final int i_7_ = class98_sub22.readMediumInt(-124);
-					Class98 class98;
+					Node node;
 					if (bool_6_) {
-						class98 = new Class98_Sub15(
+						node = new Class98_Sub15(
 								class98_sub22.readString((byte) 84));
 					} else {
-						class98 = new Class98_Sub34(class98_sub22.readInt(-2));
+						node = new Class98_Sub34(class98_sub22.readInt(-2));
 					}
-					aClass377_6033.method3996(class98, i_7_, -1);
+					aClass377_6033.method3996(node, i_7_, -1);
 				}
 			}
 			if (bool != true) {
@@ -118,7 +118,7 @@ final class Class98_Sub46_Sub12 extends Class98_Sub46 {
 			}
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(
+					.printError(
 							runtimeexception,
 							("hd.E("
 									+ i

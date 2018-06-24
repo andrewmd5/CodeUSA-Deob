@@ -20,7 +20,7 @@ final class Class76_Sub11 extends Class76 {
 				method745((byte) -106);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wk.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wk.C(" + i + ')');
 		}
 	}
 
@@ -40,7 +40,7 @@ final class Class76_Sub11 extends Class76 {
 			return ha.method1742((byte) 64, i, canvas, var_d, i_2_, class207,
 					i_1_, i_3_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("wk.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("wk.F(" + i + ','
 					+ (canvas != null ? "{...}" : "null") + ',' + i_0_ + ','
 					+ (var_d != null ? "{...}" : "null") + ',' + i_1_ + ','
 					+ (class207 != null ? "{...}" : "null") + ')'));
@@ -54,7 +54,7 @@ final class Class76_Sub11 extends Class76 {
 				method771(-78, null, 97, null, 28, null);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wk.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "wk.D(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -66,7 +66,7 @@ final class Class76_Sub11 extends Class76 {
 				aClass332_3795 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wk.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "wk.B(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -84,7 +84,7 @@ final class Class76_Sub11 extends Class76 {
 				anIntArray3796 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wk.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wk.A(" + i + ')');
 		}
 	}
 
@@ -97,7 +97,7 @@ final class Class76_Sub11 extends Class76 {
 				}
 				aClass332_3795 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("wk.E(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("wk.E(" + i
 						+ ',' + i_4_ + ',' + i_5_ + ')'));
 			}
 			break;
@@ -112,7 +112,7 @@ final class Class76_Sub11 extends Class76 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wk.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wk.H(" + i + ')');
 		}
 	}
 
@@ -126,7 +126,7 @@ final class Class76_Sub11 extends Class76 {
 			((Class76) this).aHa_Sub3_585.method2005(interface4, -123);
 			((Class76) this).aHa_Sub3_585.method2015(i_6_, (byte) 117);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("wk.I(" + i + ',' + i_6_ + ','
 							+ (interface4 != null ? "{...}" : "null") + ')'));
 		}

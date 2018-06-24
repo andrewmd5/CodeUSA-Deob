@@ -22,7 +22,7 @@ final class InputStream_Sub2 extends InputStream {
 			}
 			return new aa_Sub3(var_ha_Sub1, i_0_, i, is_3_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("rca.B(" + i + ',' + (is != null ? "{...}" : "null") + ','
 							+ (var_ha_Sub1 != null ? "{...}" : "null") + ','
 							+ i_0_ + ',' + (is_1_ != null ? "{...}" : "null")
@@ -36,7 +36,7 @@ final class InputStream_Sub2 extends InputStream {
 			Class246_Sub7.method3131(0, 30000L);
 			return -1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rca.read(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rca.read(" + ')');
 		}
 	}
 
@@ -45,7 +45,7 @@ final class InputStream_Sub2 extends InputStream {
 			Class64_Sub9.aClass332_3663 = null;
 			Canvas_Sub1.anInt26 = -1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rca.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rca.A(" + i + ')');
 		}
 	}
 
@@ -113,7 +113,7 @@ final class InputStream_Sub2 extends InputStream {
 			}
 			Class91.method890(i_8_, i_19_, i_18_, i_17_, (byte) -126, i_20_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("rca.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("rca.C(" + i + ','
 					+ i_8_ + ',' + i_9_ + ',' + i_10_ + ',' + i_11_ + ','
 					+ i_12_ + ')'));
 		}

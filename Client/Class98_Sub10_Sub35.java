@@ -43,7 +43,7 @@ final class Class98_Sub10_Sub35 extends Class98_Sub10 {
 					anInt5733--;
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "u.I(" + i
+				throw Class64_Sub27.printError(runtimeexception, "u.I(" + i
 						+ ')');
 			}
 			break;
@@ -150,7 +150,7 @@ final class Class98_Sub10_Sub35 extends Class98_Sub10 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("u.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("u.H(" + i + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_2_ + ')'));
 		}
 	}
@@ -225,7 +225,7 @@ final class Class98_Sub10_Sub35 extends Class98_Sub10 {
 				}
 				aByteArray5735 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("u.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("u.A(" + i
 						+ ',' + (class98_sub22 != null ? "{...}" : "null")
 						+ ',' + i_49_ + ')'));
 			}
@@ -254,7 +254,7 @@ final class Class98_Sub10_Sub35 extends Class98_Sub10 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "u.K(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "u.K(" + i + ')');
 		}
 	}
 
@@ -271,7 +271,7 @@ final class Class98_Sub10_Sub35 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "u.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "u.G(" + i + ','
 					+ i_54_ + ')');
 		}
 	}
@@ -325,7 +325,7 @@ final class Class98_Sub10_Sub35 extends Class98_Sub10 {
 			final int i_70_ = i_67_ + ((i_68_ - i_67_) * i_65_ >> -1060286324);
 			return i_69_ + (i * (i_70_ - i_69_) >> 1203842508);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("u.J(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("u.J(" + i + ','
 					+ i_55_ + ',' + i_56_ + ',' + i_57_ + ',' + i_58_ + ','
 					+ i_59_ + ',' + i_60_ + ')'));
 		}

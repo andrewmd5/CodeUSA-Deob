@@ -19,7 +19,7 @@ final class Class368 {
 			}
 			aClass63_3126 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "we.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "we.A(" + i + ')');
 		}
 	}
 
@@ -30,7 +30,7 @@ final class Class368 {
 			}
 			return new Class77_Sub1(component);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("we.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("we.B(" + i + ','
 					+ (component != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -59,7 +59,7 @@ final class Class368 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "we.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "we.C(" + i + ')');
 		}
 	}
 
@@ -69,7 +69,7 @@ final class Class368 {
 			aString3127 = string;
 			aString3123 = string_2_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("we.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("we.<init>("
 					+ (string != null ? "{...}" : "null") + ','
 					+ (string_2_ != null ? "{...}" : "null") + ','
 					+ (string_3_ != null ? "{...}" : "null") + ')'));

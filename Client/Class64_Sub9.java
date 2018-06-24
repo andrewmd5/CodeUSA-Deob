@@ -11,7 +11,7 @@ final class Class64_Sub9 extends Class64 {
 		try {
 			((Class64) this).anInt494 = i_0_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "eu.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "eu.B(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -28,7 +28,7 @@ final class Class64_Sub9 extends Class64 {
 			}
 			return 1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "eu.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "eu.A(" + i + ')');
 		}
 	}
 
@@ -36,7 +36,7 @@ final class Class64_Sub9 extends Class64 {
 		try {
 			return ((Class64) this).anInt494;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "eu.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "eu.E(" + i + ')');
 		}
 	}
 
@@ -49,7 +49,7 @@ final class Class64_Sub9 extends Class64 {
 				}
 				method589(15);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "eu.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "eu.D(" + i
 						+ ')');
 			}
 			break;
@@ -64,7 +64,7 @@ final class Class64_Sub9 extends Class64 {
 				method551((byte) 28);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "eu.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "eu.C(" + i + ')');
 		}
 	}
 
@@ -97,7 +97,7 @@ final class Class64_Sub9 extends Class64 {
 						false);
 			} catch (final RuntimeException runtimeexception) {
 				throw Class64_Sub27
-						.method667(runtimeexception,
+						.printError(runtimeexception,
 								("eu.G("
 										+ bool
 										+ ','
@@ -142,7 +142,7 @@ final class Class64_Sub9 extends Class64 {
 			class98_sub33.aBoolean4123 = true;
 			class98_sub33.anInt4120 = i_7_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("eu.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("eu.H(" + i + ','
 					+ i_2_ + ',' + i_3_ + ',' + i_4_ + ',' + i_5_ + ',' + i_6_
 					+ ',' + i_7_ + ',' + i_8_ + ')'));
 		}
@@ -153,7 +153,7 @@ final class Class64_Sub9 extends Class64 {
 		try {
 			return 3;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "eu.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "eu.F(" + i + ','
 					+ i_11_ + ')');
 		}
 	}

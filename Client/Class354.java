@@ -18,7 +18,7 @@ final class Class354 {
 					: anInt3012), aBoolean3010);
 
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("via.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("via.E(" + i + ','
 					+ (class88 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -27,12 +27,12 @@ final class Class354 {
 		do {
 			try {
 				aClass98_Sub9_3014 = null;
-				if (i == Game.worldPort) {
+				if (i == GameClient.worldPort) {
 					break;
 				}
 				method3872((byte) -4);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "via.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "via.A(" + i
 						+ ')');
 			}
 			break;
@@ -50,7 +50,7 @@ final class Class354 {
 				return null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "via.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "via.D(" + i + ')');
 		}
 	}
 
@@ -68,7 +68,7 @@ final class Class354 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("via.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("via.C(" + i + ','
 					+ (class354_1_ != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -89,7 +89,7 @@ final class Class354 {
 				}
 				method3873(9, null);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "via.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "via.B(" + i
 						+ ')');
 			}
 			break;
@@ -97,6 +97,6 @@ final class Class354 {
 	}
 
 	public Class354() {
-		port = Game.worldPort;
+		port = GameClient.worldPort;
 	}
 }

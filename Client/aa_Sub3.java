@@ -21,7 +21,7 @@ final class aa_Sub3 extends aa {
 			}
 			return (0x3ff26 & i) >> -1240258357;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nc.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "nc.C(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -33,7 +33,7 @@ final class aa_Sub3 extends aa {
 					14764, 6406, var_ha_Sub1, false, is, i);
 			aClass42_Sub1_Sub1_3568.method383(false, 10242, false);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("nc.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("nc.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_1_ + ',' + (is != null ? "{...}" : "null") + ')'));
 		}
@@ -52,7 +52,7 @@ final class aa_Sub3 extends aa {
 			aClass58_3566 = null;
 			aCharArray3572 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nc.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "nc.B(" + i + ')');
 		}
 	}
 
@@ -75,7 +75,7 @@ final class aa_Sub3 extends aa {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("nc.A("
+			throw Class64_Sub27.printError(runtimeexception, ("nc.A("
 					+ (class207 != null ? "{...}" : "null") + ',' + i + ','
 					+ (class98_sub31_sub2 != null ? "{...}" : "null") + ','
 					+ (class268 != null ? "{...}" : "null") + ','

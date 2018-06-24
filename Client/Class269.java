@@ -26,7 +26,7 @@ final class Class269 {
 				aClass79_2028.method794(85);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qq.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qq.I(" + i + ')');
 		}
 	}
 
@@ -37,7 +37,7 @@ final class Class269 {
 			Class76_Sub11.aClass79_3797.method800((byte) 62, i);
 			Class151_Sub7.aClass79_5004.method800((byte) 62, i);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qq.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "qq.H(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -54,7 +54,7 @@ final class Class269 {
 				}
 				method3266(-41, (byte) 0);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "qq.E(" + i
+				throw Class64_Sub27.printError(runtimeexception, "qq.E(" + i
 						+ ')');
 			}
 			break;
@@ -86,7 +86,7 @@ final class Class269 {
 			}
 			return class379;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qq.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "qq.C(" + i + ','
 					+ i_2_ + ')');
 		}
 	}
@@ -122,11 +122,11 @@ final class Class269 {
 			Class162.method2516(-96);
 			Class21_Sub2.anInt5387 = -1;
 			Class43.method401(OutputStream_Sub2.anInt39, true);
-			Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660 = new Class246_Sub3_Sub4_Sub2_Sub2();
-			((Class246_Sub3) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt5084 = Class165.anInt1276 * 512 / 2;
-			((Class246_Sub3_Sub4_Sub2) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anIntArray6437[i] = Class165.anInt1276 / 2;
-			((Class246_Sub3) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt5079 = Class98_Sub10_Sub7.anInt5572 * 512 / 2;
-			((Class246_Sub3_Sub4_Sub2) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anIntArray6438[0] = Class98_Sub10_Sub7.anInt5572 / 2;
+			Surface.player = new Player();
+			((Class246_Sub3) Surface.player).anInt5084 = Class165.anInt1276 * 512 / 2;
+			((Entity) Surface.player).anIntArray6437[i] = Class165.anInt1276 / 2;
+			((Class246_Sub3) Surface.player).anInt5079 = Class98_Sub10_Sub7.anInt5572 * 512 / 2;
+			((Entity) Surface.player).anIntArray6438[0] = Class98_Sub10_Sub7.anInt5572 / 2;
 			Class98_Sub46_Sub10.anInt6020 = Class134.anInt3461 = 0;
 			if ((Class98_Sub46_Sub20_Sub2.anInt6319 ^ 0xffffffff) != -3) {
 				AnimationDefParser.method2620(0);
@@ -136,7 +136,7 @@ final class Class269 {
 			}
 			Class374.method3980((byte) 121);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qq.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "qq.B(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -161,7 +161,7 @@ final class Class269 {
 			}
 			return 1 + i_3_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qq.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qq.F(" + i + ')');
 		}
 	}
 
@@ -174,7 +174,7 @@ final class Class269 {
 				aClass207_2025 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qq.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "qq.A(" + bool
 					+ ')');
 		}
 	}
@@ -188,7 +188,7 @@ final class Class269 {
 				return;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qq.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "qq.G(" + i + ','
 					+ i_6_ + ')');
 		}
 	}
@@ -208,7 +208,7 @@ final class Class269 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qq.D(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "qq.D(" + bool
 					+ ')');
 		}
 	}
@@ -218,7 +218,7 @@ final class Class269 {
 			aClass207_2022 = class207;
 			aClass207_2022.method2761(0, 31);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qq.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("qq.<init>("
 					+ (class279 != null ? "{...}" : "null") + ',' + i + ','
 					+ (class207 != null ? "{...}" : "null") + ')'));
 		}

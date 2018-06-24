@@ -8,7 +8,7 @@ import java.util.Hashtable;
 
 public class Class316 {
 	private static String aString2693;
-	private static Hashtable aHashtable2694;
+	private static Hashtable<String, File> aHashtable2694;
 	private static boolean aBoolean2695 = false;
 	private static int anInt2696;
 	private static String aString2697;
@@ -28,8 +28,8 @@ public class Class316 {
 																	 * ,
 																	 */
 			"c:/winnt/", "c:/", aString2693, "/tmp/", "" };
-			final String[] strings_2_ = { ".codeusa_beta_cache_" + i,
-					".codeusa_file_store_" + i };
+			final String[] strings_2_ = { ".cusa_alpha" + i,
+					".codeusa_alpha_file_store_" + i };
 			for (int i_3_ = i_0_; (i_3_ ^ 0xffffffff) > -3; i_3_++) {
 				for (int i_4_ = 0; (i_4_ ^ 0xffffffff) > (strings_2_.length ^ 0xffffffff); i_4_++) {
 					for (int i_5_ = 0; strings.length > i_5_; i_5_++) {
@@ -118,6 +118,6 @@ public class Class316 {
 	}
 
 	static {
-		aHashtable2694 = new Hashtable(16);
+		aHashtable2694 = new Hashtable<String, File>(16);
 	}
 }

@@ -23,7 +23,7 @@ final class Class32 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cfa.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "cfa.D(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -39,7 +39,7 @@ final class Class32 {
 				}
 				method316(false);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "cfa.F(" + i
+				throw Class64_Sub27.printError(runtimeexception, "cfa.F(" + i
 						+ ')');
 			}
 			break;
@@ -57,7 +57,7 @@ final class Class32 {
 				}
 				method318(-103, (byte) 73);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "cfa.E(" + i
+				throw Class64_Sub27.printError(runtimeexception, "cfa.E(" + i
 						+ ')');
 			}
 			break;
@@ -78,7 +78,7 @@ final class Class32 {
 			}
 			Class42_Sub1.anInt5356 = 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cfa.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "cfa.A(" + bool
 					+ ')');
 		}
 	}
@@ -108,7 +108,7 @@ final class Class32 {
 			}
 			return class199;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cfa.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "cfa.C(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -120,7 +120,7 @@ final class Class32 {
 			}
 			return i & 0x3ff;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cfa.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "cfa.G(" + i + ','
 					+ i_2_ + ')');
 		}
 	}
@@ -134,7 +134,7 @@ final class Class32 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cfa.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cfa.B(" + i + ')');
 		}
 	}
 
@@ -143,7 +143,7 @@ final class Class32 {
 			aClass207_306 = class207;
 			anInt309 = aClass207_306.method2761(0, 4);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cfa.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("cfa.<init>("
 					+ (class279 != null ? "{...}" : "null") + ',' + i + ','
 					+ (class207 != null ? "{...}" : "null") + ')'));
 		}

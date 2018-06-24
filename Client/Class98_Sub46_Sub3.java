@@ -15,7 +15,7 @@ final class Class98_Sub46_Sub3 extends Class98_Sub46 {
 				}
 				method1540(true);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "bv.B(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "bv.B(" + bool
 						+ ')');
 			}
 			break;
@@ -26,7 +26,7 @@ final class Class98_Sub46_Sub3 extends Class98_Sub46 {
 		try {
 			aClass246_Sub3_Sub4_Sub3_5954 = class246_sub3_sub4_sub3;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("bv.<init>("
 							+ (class246_sub3_sub4_sub3 != null ? "{...}"
 									: "null") + ')'));
@@ -113,19 +113,19 @@ final class Class98_Sub46_Sub3 extends Class98_Sub46 {
 				if ((i_7_ ^ 0xffffffff) < -3073) {
 					i_7_ = 3072;
 				}
-				if (Class246_Sub3_Sub4_Sub2.anInt6357 < i_7_) {
-					Class246_Sub3_Sub4_Sub2.anInt6357 += ((i_7_
-							- Class246_Sub3_Sub4_Sub2.anInt6357 >> -1117924989)
+				if (Entity.anInt6357 < i_7_) {
+					Entity.anInt6357 += ((i_7_
+							- Entity.anInt6357 >> -1117924989)
 							* Class98_Sub4.anInt3828 / 1000 + Class98_Sub41.anInt4202) << -1739945821;
-					if (Class246_Sub3_Sub4_Sub2.anInt6357 > i_7_) {
-						Class246_Sub3_Sub4_Sub2.anInt6357 = i_7_;
+					if (Entity.anInt6357 > i_7_) {
+						Entity.anInt6357 = i_7_;
 					}
 				}
-				if ((i_7_ ^ 0xffffffff) > (Class246_Sub3_Sub4_Sub2.anInt6357 ^ 0xffffffff)) {
-					Class246_Sub3_Sub4_Sub2.anInt6357 -= (Class98_Sub41.anInt4202 + (Class98_Sub4.anInt3828
-							* (-i_7_ + Class246_Sub3_Sub4_Sub2.anInt6357 >> 1278679235) / 1000)) << -1425824541;
-					if (i_7_ > Class246_Sub3_Sub4_Sub2.anInt6357) {
-						Class246_Sub3_Sub4_Sub2.anInt6357 = i_7_;
+				if ((i_7_ ^ 0xffffffff) > (Entity.anInt6357 ^ 0xffffffff)) {
+					Entity.anInt6357 -= (Class98_Sub41.anInt4202 + (Class98_Sub4.anInt3828
+							* (-i_7_ + Entity.anInt6357 >> 1278679235) / 1000)) << -1425824541;
+					if (i_7_ > Entity.anInt6357) {
+						Entity.anInt6357 = i_7_;
 					}
 				}
 				int i_9_ = i_8_ + -Class186.anInt3424;
@@ -161,7 +161,7 @@ final class Class98_Sub46_Sub3 extends Class98_Sub46 {
 					Class186.anInt3424 = i_8_;
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "bv.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "bv.A(" + i
 						+ ')');
 			}
 			break;

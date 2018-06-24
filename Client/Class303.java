@@ -23,7 +23,7 @@ final class Class303 {
 				Class64_Sub5.anIntArray3652[i_1_] = 12;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sj.A("
+			throw Class64_Sub27.printError(runtimeexception, ("sj.A("
 					+ (class332s != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -148,7 +148,7 @@ final class Class303 {
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("sj.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("sj.B(" + i
 						+ ',' + i_2_ + ','
 						+ (string != null ? "{...}" : "null") + ',' + i_3_
 						+ ',' + i_4_ + ')'));
@@ -167,7 +167,7 @@ final class Class303 {
 				}
 				anIntArray2531 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "sj.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "sj.C(" + i
 						+ ')');
 			}
 			break;

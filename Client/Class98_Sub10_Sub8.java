@@ -13,7 +13,7 @@ final class Class98_Sub10_Sub8 extends Class98_Sub10 {
 			}
 			return Class278.aClass98_Sub46_Sub10_2056;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ej.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ej.B(" + i + ')');
 		}
 	}
 
@@ -39,7 +39,7 @@ final class Class98_Sub10_Sub8 extends Class98_Sub10 {
 			}
 			return i + (i_0_ & 0xff80);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ej.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ej.F(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -61,7 +61,7 @@ final class Class98_Sub10_Sub8 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ej.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ej.G(" + i + ','
 					+ i_2_ + ')');
 		}
 	}
@@ -76,7 +76,7 @@ final class Class98_Sub10_Sub8 extends Class98_Sub10 {
 				}
 				aD5578 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ej.D(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "ej.D(" + bool
 						+ ')');
 			}
 			break;
@@ -94,7 +94,7 @@ final class Class98_Sub10_Sub8 extends Class98_Sub10 {
 			}
 			return null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ej.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ej.E(" + i + ','
 					+ i_5_ + ')');
 		}
 	}
@@ -108,7 +108,7 @@ final class Class98_Sub10_Sub8 extends Class98_Sub10 {
 			i_9_ = i_9_ << -924402879 ^ i_9_;
 			return (-(((789221 + i_9_ * i_9_ * 15731) * i_9_ - -1376312589 & 0x7fffffff) / 262144) + 4096);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ej.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ej.H(" + i + ','
 					+ i_7_ + ',' + i_8_ + ')'));
 		}
 	}

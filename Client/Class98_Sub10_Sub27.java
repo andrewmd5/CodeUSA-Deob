@@ -29,7 +29,7 @@ final class Class98_Sub10_Sub27 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ow.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ow.C(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -52,7 +52,7 @@ final class Class98_Sub10_Sub27 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ow.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ow.G(" + i + ','
 					+ i_6_ + ')');
 		}
 	}
@@ -71,7 +71,7 @@ final class Class98_Sub10_Sub27 extends Class98_Sub10 {
 				((Class98_Sub10) this).aBoolean3861 = (class98_sub22
 						.readUnsignedByte((byte) 14) ^ 0xffffffff) == -2;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("ow.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("ow.A(" + i
 						+ ',' + (class98_sub22 != null ? "{...}" : "null")
 						+ ',' + i_9_ + ')'));
 			}
@@ -87,7 +87,7 @@ final class Class98_Sub10_Sub27 extends Class98_Sub10 {
 			}
 			aClass84_5692 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ow.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ow.B(" + i + ')');
 		}
 	}
 
@@ -98,7 +98,7 @@ final class Class98_Sub10_Sub27 extends Class98_Sub10 {
 			}
 			return Class133.anInt3452;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ow.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ow.E(" + i + ')');
 		}
 	}
 
@@ -152,7 +152,7 @@ final class Class98_Sub10_Sub27 extends Class98_Sub10 {
 			Class134.anInt3464 &= za_Sub1.anInt6075;
 			Class98_Sub10_Sub23.anInt5661 &= Class329.anInt2761;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ow.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ow.D(" + i + ','
 					+ i_10_ + ',' + i_11_ + ')'));
 		}
 	}

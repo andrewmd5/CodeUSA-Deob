@@ -26,7 +26,7 @@ final class Class14 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bb.A("
+			throw Class64_Sub27.printError(runtimeexception, ("bb.A("
 					+ (string != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -38,7 +38,7 @@ final class Class14 {
 			}
 			return Class246_Sub3_Sub2_Sub1.anInt6345++;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bb.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bb.B(" + i + ')');
 		}
 	}
 }

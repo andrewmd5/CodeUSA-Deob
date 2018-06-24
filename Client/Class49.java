@@ -18,7 +18,7 @@ final class Class49 {
 			}
 			Class62.anInt490 = 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dia.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dia.C(" + i + ')');
 		}
 	}
 
@@ -29,7 +29,7 @@ final class Class49 {
 			}
 			aLong412 |= class169.anInt1300 << Class169.anInt1304 * anInt411++;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dia.E("
+			throw Class64_Sub27.printError(runtimeexception, ("dia.E("
 					+ (class169 != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -41,7 +41,7 @@ final class Class49 {
 			}
 			return Class169.method2537(method481(15, i), (byte) 40);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dia.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "dia.B(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -53,7 +53,7 @@ final class Class49 {
 			}
 			return anInt411;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dia.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dia.A(" + i + ')');
 		}
 	}
 
@@ -64,7 +64,7 @@ final class Class49 {
 			}
 			return 0xf & (int) (aLong412 >> Class169.anInt1304 * i_1_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dia.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "dia.D(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -77,7 +77,7 @@ final class Class49 {
 			}
 			aClass171_413 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dia.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dia.F(" + i + ')');
 		}
 	}
 
@@ -86,7 +86,7 @@ final class Class49 {
 			anInt411 = 1;
 			aLong412 = class169.anInt1300;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dia.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "dia.<init>("
 					+ (class169 != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -97,7 +97,7 @@ final class Class49 {
 				method478(class169s[i], 13);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dia.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "dia.<init>("
 					+ (class169s != null ? "{...}" : "null") + ')');
 		}
 	}

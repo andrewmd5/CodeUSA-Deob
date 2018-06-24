@@ -38,7 +38,7 @@ final class a implements Interface9 {
 		Z(nativeid, ((t) var_s).nativeid, i, i_5_, i_6_);
 	}
 
-	final Class146 method137(final i var_i, final byte i, final int i_7_,
+	final AbstractModel method137(final i var_i, final byte i, final int i_7_,
 			final boolean bool) {
 		i var_i_8_;
 		i var_i_9_;
@@ -85,9 +85,9 @@ final class a implements Interface9 {
 		method144();
 	}
 
-	final void method140(final Class146 class146, final Class146 class146_27_,
+	final void method140(final AbstractModel abstractModel, final AbstractModel class146_27_,
 			final int i, final int i_28_, final int i_29_, final boolean bool) {
-		r(nativeid, ((i) class146).nativeid, ((i) class146_27_).nativeid, i,
+		r(nativeid, ((i) abstractModel).nativeid, ((i) class146_27_).nativeid, i,
 				i_28_, i_29_, bool);
 	}
 
@@ -112,9 +112,9 @@ final class a implements Interface9 {
 	private final native void na(long l, ha var_ha, int i, int i_40_,
 			int i_41_, int i_42_, int i_43_, int i_44_, int i_45_);
 
-	final void method143(final Class146 class146, final int[] is,
+	final void method143(final AbstractModel abstractModel, final int[] is,
 			final Class111 class111) {
-		e(nativeid, ((i) class146).nativeid, is, ((ja) class111).nativeid);
+		e(nativeid, ((i) abstractModel).nativeid, is, ((ja) class111).nativeid);
 	}
 
 	private final void method144() {
@@ -137,9 +137,9 @@ final class a implements Interface9 {
 
 	private final native void W(long l);
 
-	final void method146(final Class146 class146, final Class111 class111,
+	final void method146(final AbstractModel abstractModel, final Class111 class111,
 			final int[] is, final int i, final int i_53_) {
-		f(nativeid, ((i) class146).nativeid, ((ja) class111).nativeid, is, i,
+		f(nativeid, ((i) abstractModel).nativeid, ((ja) class111).nativeid, is, i,
 				i_53_);
 	}
 
@@ -150,10 +150,10 @@ final class a implements Interface9 {
 	private final native boolean R(long l, long l_56_, int i, int i_57_,
 			long l_58_, boolean bool);
 
-	final boolean method147(final Class146 class146, final int i,
+	final boolean method147(final AbstractModel abstractModel, final int i,
 			final int i_59_, final Class111 class111, final boolean bool,
 			final int i_60_) {
-		return n(nativeid, ((i) class146).nativeid, i, i_59_,
+		return n(nativeid, ((i) abstractModel).nativeid, i, i_59_,
 				((ja) class111).nativeid, bool, i_60_);
 	}
 
@@ -164,14 +164,14 @@ final class a implements Interface9 {
 				i_65_, i_66_, bools);
 	}
 
-	final void method149(final Class146 class146, final Class111 class111,
+	final void method149(final AbstractModel abstractModel, final Class111 class111,
 			final int[] is, final int i) {
-		UA(nativeid, ((i) class146).nativeid, ((ja) class111).nativeid, is, i);
+		UA(nativeid, ((i) abstractModel).nativeid, ((ja) class111).nativeid, is, i);
 	}
 
-	final boolean method150(final Class146 class146, final int i,
+	final boolean method150(final AbstractModel abstractModel, final int i,
 			final int i_67_, final Class111 class111, final boolean bool) {
-		return R(nativeid, ((i) class146).nativeid, i, i_67_,
+		return R(nativeid, ((i) abstractModel).nativeid, i, i_67_,
 				((ja) class111).nativeid, bool);
 	}
 

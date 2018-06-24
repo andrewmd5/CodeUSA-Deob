@@ -129,7 +129,7 @@ final class Class332_Sub1 extends Class332 {
 				OpenGL.glEnd();
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ol.K(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ol.K(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ',' + i_4_
 					+ ',' + i_5_ + ')'));
 		}
@@ -165,7 +165,7 @@ final class Class332_Sub1 extends Class332 {
 				aHa_Sub1_5406.method1858(0.5F, 0.5F, 1.0F, 0.0F, 108);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ol.H(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "ol.H(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -223,7 +223,7 @@ final class Class332_Sub1 extends Class332 {
 				OpenGL.glEnd();
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ol.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ol.E(" + i + ','
 					+ i_18_ + ',' + i_19_ + ',' + i_20_ + ',' + i_21_ + ')'));
 		}
 	}
@@ -233,7 +233,7 @@ final class Class332_Sub1 extends Class332 {
 		try {
 			return aClass42_Sub1_Sub1_5407.anInt6204;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ol.U(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ol.U(" + ')');
 		}
 	}
 
@@ -244,7 +244,7 @@ final class Class332_Sub1 extends Class332 {
 			}
 			anObject5409 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ol.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ol.G(" + i + ')');
 		}
 	}
 
@@ -355,7 +355,7 @@ final class Class332_Sub1 extends Class332 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ol.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ol.C(" + i + ','
 					+ i_22_ + ',' + i_23_ + ',' + i_24_ + ',' + i_25_ + ','
 					+ i_26_ + ',' + i_27_ + ',' + i_28_ + ')'));
 		}
@@ -371,7 +371,7 @@ final class Class332_Sub1 extends Class332 {
 			anInt5400 = i_36_;
 			aBoolean5401 = (anInt5404 != 0 || anInt5405 != 0 || anInt5402 != 0 || anInt5400 != 0);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ol.Q(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ol.Q(" + i + ','
 					+ i_34_ + ',' + i_35_ + ',' + i_36_ + ')'));
 		}
 	}
@@ -381,7 +381,7 @@ final class Class332_Sub1 extends Class332 {
 		try {
 			return (aClass42_Sub1_Sub1_5407.anInt6207 - (-anInt5404 - anInt5402));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ol.O(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ol.O(" + ')');
 		}
 	}
 
@@ -395,7 +395,7 @@ final class Class332_Sub1 extends Class332 {
 			aHa_Sub1_5406.method1845(0, 847872872);
 			aHa_Sub1_5406.method1840(1, 768, -71, 34168);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ol.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ol.I(" + i + ')');
 		}
 	}
 
@@ -419,7 +419,7 @@ final class Class332_Sub1 extends Class332 {
 			OpenGL.glPixelTransferf(3354, 1.0F);
 			OpenGL.glPixelTransferf(3355, 0.0F);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ol.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ol.F(" + i + ','
 					+ i_38_ + ',' + i_39_ + ')'));
 		}
 	}
@@ -496,9 +496,9 @@ final class Class332_Sub1 extends Class332 {
 						}
 						aa_Sub1.aClass123_3561
 								.method2208(
-										(((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).aByteArray3992),
+										(((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).incomingBytes),
 										0, 2047, 1);
-						final int i_41_ = (0xff & (((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).aByteArray3992[0]));
+						final int i_41_ = (0xff & (((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).incomingBytes[0]));
 						if ((i_41_ ^ 0xffffffff) != -1) {
 							Class64_Sub16.anInt3680 = 0;
 							Class369.method3952(i_41_, (byte) -55);
@@ -537,9 +537,9 @@ final class Class332_Sub1 extends Class332 {
 							class98_sub22_sub1.writeShort(0, 1571862888);
 							final int i_42_ = (((ByteBuffer) class98_sub22_sub1).position);
 							class98_sub22_sub1.writeInt(1571862888,
-									Game.version); // revison
+									GameClient.version); // revison
 							class98_sub22_sub1.method1217(
-									(class98_sub22.aByteArray3992),
+									(class98_sub22.incomingBytes),
 									class98_sub22.position, -1, 0);
 							final int i_43_ = (((ByteBuffer) class98_sub22_sub1).position);
 							class98_sub22_sub1.method1188(
@@ -580,9 +580,9 @@ final class Class332_Sub1 extends Class332 {
 							class98_sub22_sub1.writeShort(0, 1571862888);
 							final int i_44_ = (((ByteBuffer) class98_sub22_sub1).position);
 							class98_sub22_sub1.writeInt(1571862888,
-									Game.version); // revison
+									GameClient.version); // revison
 							class98_sub22_sub1.method1217(
-									(class98_sub22.aByteArray3992),
+									(class98_sub22.incomingBytes),
 									class98_sub22.position, -1, 0);
 							final int i_45_ = (((ByteBuffer) class98_sub22_sub1).position);
 							class98_sub22_sub1.method1188(
@@ -609,7 +609,7 @@ final class Class332_Sub1 extends Class332 {
 							class98_sub22_sub1.method1194(
 									(class98_sub22_46_.position), -109);
 							class98_sub22_sub1.method1217(
-									(class98_sub22_46_.aByteArray3992),
+									(class98_sub22_46_.incomingBytes),
 									class98_sub22_46_.position, -1, 0);
 							s_Sub1.aBoolean5207 = true;
 							final ByteBuffer class98_sub22_47_ = (new ByteBuffer(
@@ -618,8 +618,8 @@ final class Class332_Sub1 extends Class332 {
 							Exception_Sub1.aClass98_Sub35_47.method1453(
 									(byte) 17, class98_sub22_47_);
 							class98_sub22_sub1.method1217(
-									(class98_sub22_47_.aByteArray3992),
-									(class98_sub22_47_.aByteArray3992).length,
+									(class98_sub22_47_.incomingBytes),
+									(class98_sub22_47_.incomingBytes).length,
 									-1, 0);
 							class98_sub22_sub1.writeShort(Class75.anInt581,
 									1571862888);
@@ -666,9 +666,9 @@ final class Class332_Sub1 extends Class332 {
 						}
 						aa_Sub1.aClass123_3561
 								.method2208(
-										(((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).aByteArray3992),
+										(((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).incomingBytes),
 										0, 2047, 1);
-						final int i_49_ = (0xff & (((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).aByteArray3992[0]));
+						final int i_49_ = (0xff & (((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).incomingBytes[0]));
 						if ((i_49_ ^ 0xffffffff) != -22) {
 							if ((i_49_ ^ 0xffffffff) == -30) {
 								Class64_Sub16.anInt3680 = 13;
@@ -726,9 +726,9 @@ final class Class332_Sub1 extends Class332 {
 						if (aa_Sub1.aClass123_3561.method2203(-1949, 1)) {
 							aa_Sub1.aClass123_3561
 									.method2208(
-											(((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).aByteArray3992),
+											(((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).incomingBytes),
 											0, 2047, 1);
-							final int i_50_ = (((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).aByteArray3992[0]) & 0xff;
+							final int i_50_ = (((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).incomingBytes[0]) & 0xff;
 							Class98_Sub48.anInt4277 = 180 + i_50_ * 60;
 							Class64_Sub16.anInt3680 = 0;
 							Class369.method3952(21, (byte) -55);
@@ -740,10 +740,10 @@ final class Class332_Sub1 extends Class332 {
 						if (aa_Sub1.aClass123_3561.method2203(-1949, 1)) {
 							aa_Sub1.aClass123_3561
 									.method2208(
-											(((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).aByteArray3992),
+											(((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).incomingBytes),
 											0, 2047, 1);
 							Class64_Sub16.anInt3680 = 0;
-							Class69_Sub1.anInt5330 = (((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).aByteArray3992[0]) & 0xff;
+							Class69_Sub1.anInt5330 = (((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).incomingBytes[0]) & 0xff;
 							Class369.method3952(29, (byte) -55);
 							aa_Sub1.aClass123_3561.method2207(-71);
 							aa_Sub1.aClass123_3561 = null;
@@ -753,9 +753,9 @@ final class Class332_Sub1 extends Class332 {
 						if (aa_Sub1.aClass123_3561.method2203(-1949, 1)) {
 							aa_Sub1.aClass123_3561
 									.method2208(
-											(((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).aByteArray3992),
+											(((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).incomingBytes),
 											0, 2047, 1);
-							Class98_Sub46_Sub19.anInt6069 = (((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).aByteArray3992[0]) & 0xff;
+							Class98_Sub46_Sub19.anInt6069 = (((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).incomingBytes[0]) & 0xff;
 							Class64_Sub16.anInt3680 = 9;
 						}
 					} else {
@@ -768,7 +768,7 @@ final class Class332_Sub1 extends Class332 {
 								}
 								aa_Sub1.aClass123_3561
 										.method2208(
-												(((ByteBuffer) class98_sub22_sub1).aByteArray3992),
+												(((ByteBuffer) class98_sub22_sub1).incomingBytes),
 												0, 2047,
 												Class98_Sub46_Sub19.anInt6069);
 								((ByteBuffer) class98_sub22_sub1).position = 0;
@@ -805,7 +805,7 @@ final class Class332_Sub1 extends Class332 {
 								}
 								aa_Sub1.aClass123_3561
 										.method2208(
-												(((ByteBuffer) class98_sub22_sub1).aByteArray3992),
+												(((ByteBuffer) class98_sub22_sub1).incomingBytes),
 												0, 2047,
 												Class98_Sub46_Sub19.anInt6069);
 								((ByteBuffer) class98_sub22_sub1).position = 0;
@@ -840,7 +840,7 @@ final class Class332_Sub1 extends Class332 {
 										.readUnsignedShort((byte) 127);
 								s_Sub1.aBoolean5200 = (class98_sub22_sub1
 										.readUnsignedByte((byte) 61) ^ 0xffffffff) == -2;
-								Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660.aString6537 = (Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).aString6536 = Class256_Sub1.aString5157 = class98_sub22_sub1
+								Surface.player.name2 = (Surface.player).name = Class256_Sub1.aString5157 = class98_sub22_sub1
 										.method1223(-1);// steven
 								Class98_Sub43_Sub2.anInt5910 = class98_sub22_sub1
 										.readUnsignedByte((byte) -120);
@@ -856,7 +856,7 @@ final class Class332_Sub1 extends Class332 {
 								// ((Class354)
 								// Class289.aClass354_2197).aString3016 =
 								// class98_sub22_sub1.method1223(-1);
-								Class289.aClass354_2197.aString3016 = Game.mainurl;
+								Class289.aClass354_2197.aString3016 = GameClient.mainurl;
 								if (Class64_Sub29.aClass196_3720 != Class43.aClass196_375) {
 									Class289.aClass354_2197.anInt3012 = 50000 + (Class289.aClass354_2197.worldId);
 									Class289.aClass354_2197.port = 40000 + (Class289.aClass354_2197.worldId);
@@ -928,7 +928,7 @@ final class Class332_Sub1 extends Class332 {
 							}
 							aa_Sub1.aClass123_3561
 									.method2208(
-											(((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).aByteArray3992),
+											(((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).incomingBytes),
 											0, 2047, 3);
 							Class64_Sub16.anInt3680 = 12;
 						}
@@ -942,10 +942,10 @@ final class Class332_Sub1 extends Class332 {
 								}
 								aa_Sub1.aClass123_3561
 										.method2208(
-												(((ByteBuffer) class98_sub22_sub1).aByteArray3992),
+												(((ByteBuffer) class98_sub22_sub1).incomingBytes),
 												3, 2047, 1);
 							}
-							Class92.currentIncommingOpcode = (Class313
+							Class92.currentIncommingOpcode = (Appearance
 									.method3629(101)[class98_sub22_sub1
 									.method1255(0)]);
 							Class65.anInt496 = class98_sub22_sub1
@@ -957,7 +957,7 @@ final class Class332_Sub1 extends Class332 {
 									Class65.anInt496)) {
 								aa_Sub1.aClass123_3561
 										.method2208(
-												(((ByteBuffer) (Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514)).aByteArray3992),
+												(((ByteBuffer) (Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514)).incomingBytes),
 												0, 2047, Class65.anInt496);
 								((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).position = 0;
 								final int i_51_ = Class65.anInt496;
@@ -989,7 +989,7 @@ final class Class332_Sub1 extends Class332 {
 								}
 								aa_Sub1.aClass123_3561
 										.method2208(
-												(((ByteBuffer) (Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514)).aByteArray3992),
+												(((ByteBuffer) (Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514)).incomingBytes),
 												0, 2047, 2);
 								((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).position = 0;
 								Class65.anInt496 = Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514
@@ -999,7 +999,7 @@ final class Class332_Sub1 extends Class332 {
 									Class65.anInt496)) {
 								aa_Sub1.aClass123_3561
 										.method2208(
-												(((ByteBuffer) (Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514)).aByteArray3992),
+												(((ByteBuffer) (Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514)).incomingBytes),
 												0, 2047, Class65.anInt496);
 								((ByteBuffer) Class48_Sub1_Sub2.aClass98_Sub22_Sub1_5514).position = 0;
 								Class64_Sub16.anInt3680 = 0;
@@ -1041,7 +1041,7 @@ final class Class332_Sub1 extends Class332 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ol.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ol.A(" + i + ')');
 		}
 	}
 
@@ -1050,7 +1050,7 @@ final class Class332_Sub1 extends Class332 {
 		try {
 			return (anInt5405 + (aClass42_Sub1_Sub1_5407.anInt6204 + anInt5400));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ol.T(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ol.T(" + ')');
 		}
 	}
 
@@ -1103,7 +1103,7 @@ final class Class332_Sub1 extends Class332 {
 			OpenGL.glVertex2f(f_54_, f_55_);
 			OpenGL.glEnd();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("ol.BA(" + f + ',' + f_53_ + ',' + f_54_ + ',' + f_55_
 							+ ',' + f_56_ + ',' + f_57_ + ',' + i + ',' + i_58_
 							+ ',' + i_59_ + ',' + i_60_ + ')'));
@@ -1185,7 +1185,7 @@ final class Class332_Sub1 extends Class332 {
 			aHa_Sub1_5406.method1863(1, null);
 			aHa_Sub1_5406.method1845(0, 847872872);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ol.L(" + f + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ol.L(" + f + ','
 					+ f_77_ + ',' + f_78_ + ',' + f_79_ + ',' + f_80_ + ','
 					+ f_81_ + ',' + i + ','
 					+ (var_aa != null ? "{...}" : "null") + ',' + i_82_ + ','
@@ -1201,7 +1201,7 @@ final class Class332_Sub1 extends Class332 {
 			is[1] = anInt5405;
 			is[2] = anInt5402;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ol.S("
+			throw Class64_Sub27.printError(runtimeexception, "ol.S("
 					+ (is != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -1256,7 +1256,7 @@ final class Class332_Sub1 extends Class332 {
 			aHa_Sub1_5406.method1863(1, null);
 			aHa_Sub1_5406.method1845(0, 847872872);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ol.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ol.D(" + i + ','
 					+ i_102_ + ',' + (var_aa != null ? "{...}" : "null") + ','
 					+ i_103_ + ',' + i_104_ + ')'));
 		}
@@ -1280,7 +1280,7 @@ final class Class332_Sub1 extends Class332 {
 						i_115_, 120, i_114_);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ol.J(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ol.J(" + i + ','
 					+ i_112_ + ',' + i_113_ + ',' + i_114_ + ',' + i_115_ + ','
 					+ i_116_ + ')'));
 		}
@@ -1293,7 +1293,7 @@ final class Class332_Sub1 extends Class332 {
 			aClass42_Sub1_Sub1_5407.method379(i_120_, is, i_121_, 3656, true,
 					i_118_, i_122_, i_119_, i);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ol.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ol.B(" + i + ','
 					+ i_118_ + ',' + i_119_ + ',' + i_120_ + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_121_ + ','
 					+ i_122_ + ')'));
@@ -1305,7 +1305,7 @@ final class Class332_Sub1 extends Class332 {
 		try {
 			return aClass42_Sub1_Sub1_5407.anInt6207;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ol.AA(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ol.AA(" + ')');
 		}
 	}
 
@@ -1320,7 +1320,7 @@ final class Class332_Sub1 extends Class332 {
 			aClass42_Sub1_Sub1_5407 = Class82.method823(i_123_, var_ha_Sub1, i,
 					-97, bool ? 6408 : 6407);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ol.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("ol.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_123_ + ',' + bool + ')'));
 		}
@@ -1337,7 +1337,7 @@ final class Class332_Sub1 extends Class332 {
 			aClass42_Sub1_Sub1_5407 = aa_Sub1.method153((byte) -125, i_126_,
 					var_ha_Sub1, i_125_, i, i_124_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ol.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("ol.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_124_ + ',' + i_125_ + ',' + i_126_ + ')'));
 		}
@@ -1354,7 +1354,7 @@ final class Class332_Sub1 extends Class332 {
 			aClass42_Sub1_Sub1_5407 = Class246_Sub9.method3136(var_ha_Sub1,
 					false, is, i, (byte) 120, i_129_, i_128_, i_127_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ol.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("ol.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_127_ + ',' + (is != null ? "{...}" : "null") + ','
 					+ i_128_ + ',' + i_129_ + ')'));

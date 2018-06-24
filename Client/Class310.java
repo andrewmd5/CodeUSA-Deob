@@ -40,7 +40,7 @@ final class Class310 {
 			}
 			aBooleanArrayArray2653 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tc.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "tc.A(" + i + ')');
 		}
 	}
 
@@ -61,7 +61,7 @@ final class Class310 {
 						class356 = (Class356) class143.anObject1162;
 						final ByteBuffer class98_sub22 = Class98_Sub9.aClass98_Sub27_3856
 								.method1288(true);
-						class356.method3882((class98_sub22.aByteArray3992),
+						class356.method3882((class98_sub22.incomingBytes),
 								4657, 0, (class98_sub22.position));
 					}
 				} catch (final Exception exception) {
@@ -77,7 +77,7 @@ final class Class310 {
 				}
 				break;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "tc.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "tc.B(" + i
 						+ ')');
 			}
 		} while (false);

@@ -50,7 +50,7 @@ final class ReferenceTable {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("te.D("
+			throw Class64_Sub27.printError(runtimeexception, ("te.D("
 					+ (class352 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ')'));
 		}
@@ -63,7 +63,7 @@ final class ReferenceTable {
 			}
 			aClass58_2661 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "te.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "te.B(" + i + ')');
 		}
 	}
 
@@ -201,7 +201,7 @@ final class ReferenceTable {
 				}
 			} catch (final RuntimeException runtimeexception) {
 				throw Class64_Sub27
-						.method667(runtimeexception,
+						.printError(runtimeexception,
 								("Unproper reference table parse: te.C("
 										+ (is != null ? "{...}" : "null") + ','
 										+ i + ')'));
@@ -218,7 +218,7 @@ final class ReferenceTable {
 				return false;
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "te.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "te.A(" + i + ','
 					+ i_28_ + ')');
 		}
 	}
@@ -247,7 +247,7 @@ final class ReferenceTable {
 			}
 			method3622(is, -7572);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("te.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("te.<init>("
 					+ (is != null ? "{...}" : "null") + ',' + crc + ','
 					+ (is_29_ != null ? "{...}" : "null") + ')'));
 		}

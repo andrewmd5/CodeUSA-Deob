@@ -105,7 +105,7 @@ final class Class98_Sub46_Sub2_Sub2 extends Class98_Sub46_Sub2 {
 			}
 			return anObject6294;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fca.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "fca.B(" + bool
 					+ ')');
 		}
 	}
@@ -140,7 +140,7 @@ final class Class98_Sub46_Sub2_Sub2 extends Class98_Sub46_Sub2 {
 			}
 			return i_1_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fca.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "fca.F(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -169,7 +169,7 @@ final class Class98_Sub46_Sub2_Sub2 extends Class98_Sub46_Sub2 {
 			}
 			return Class78.aSArray594[i_7_].method3417(i_3_, i_2_, true);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fca.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fca.E(" + i + ','
 					+ i_2_ + ',' + i_3_ + ',' + i_4_ + ')'));
 		}
 	}
@@ -179,7 +179,7 @@ final class Class98_Sub46_Sub2_Sub2 extends Class98_Sub46_Sub2 {
 		try {
 			anObject6294 = object;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fca.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("fca.<init>("
 					+ (object != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -197,7 +197,7 @@ final class Class98_Sub46_Sub2_Sub2 extends Class98_Sub46_Sub2 {
 			aShortArrayArray6297 = null;
 			aShortArrayArray6303 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fca.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "fca.G(" + i + ')');
 		}
 	}
 
@@ -209,7 +209,7 @@ final class Class98_Sub46_Sub2_Sub2 extends Class98_Sub46_Sub2 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fca.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "fca.C(" + i + ')');
 		}
 	}
 

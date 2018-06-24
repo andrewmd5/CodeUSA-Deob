@@ -8,7 +8,7 @@ import jaclib.memory.heap.NativeHeapBuffer;
 import java.io.File;
 import java.lang.reflect.Method;
 
-final class Class98_Sub30 extends Class98 {
+final class Class98_Sub30 extends Node {
 	int anInt4084;
 	private Interface2_Impl1 anInterface2_Impl1_4085;
 	int anInt4086;
@@ -28,11 +28,11 @@ final class Class98_Sub30 extends Class98 {
 	/* synthetic */static Class aClass4100;
 
 	static final void method1311(final boolean bool, final boolean bool_0_,
-			final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2) {
+			final Player class246_sub3_sub4_sub2_sub2) {
 		do {
 			try {
 				if ((Class359.anInt3058 ^ 0xffffffff) > -401) {
-					if (Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660 == class246_sub3_sub4_sub2_sub2) {
+					if (Surface.player == class246_sub3_sub4_sub2_sub2) {
 						if (Class98_Sub10_Sub9.aBoolean5585
 								&& (0x10 & Class98_Sub4.anInt3826) != 0) {
 							Class293.method3470(
@@ -48,18 +48,18 @@ final class Class98_Sub30 extends Class98 {
 									false,
 									0,
 									57,
-									(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6369),
+									(((Entity) class246_sub3_sub4_sub2_sub2).anInt6369),
 									-1, false, Class287_Sub2.aString3272);
 						}
 					} else if (bool_0_ == true) {
 						String string;
 						if (class246_sub3_sub4_sub2_sub2.anInt6539 == 0) {
 							boolean bool_1_ = true;
-							if (((Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660.anInt6535) ^ 0xffffffff) != 0
+							if (((Surface.player.anInt6535) ^ 0xffffffff) != 0
 									&& (class246_sub3_sub4_sub2_sub2.anInt6535 ^ 0xffffffff) != 0) {
-								final int i = ((((Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt6535) >= (class246_sub3_sub4_sub2_sub2.anInt6535)) ? (class246_sub3_sub4_sub2_sub2.anInt6535)
-										: ((Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt6535));
-								int i_2_ = (((Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt6519) - (class246_sub3_sub4_sub2_sub2.anInt6519));
+								final int i = ((((Surface.player).anInt6535) >= (class246_sub3_sub4_sub2_sub2.anInt6535)) ? (class246_sub3_sub4_sub2_sub2.anInt6535)
+										: ((Surface.player).anInt6535));
+								int i_2_ = (((Surface.player).combatLevel) - (class246_sub3_sub4_sub2_sub2.combatLevel));
 								if ((i_2_ ^ 0xffffffff) > -1) {
 									i_2_ = -i_2_;
 								}
@@ -71,42 +71,42 @@ final class Class98_Sub30 extends Class98 {
 									.method3615(Class374.anInt3159, (byte) 25))
 									: (Class309.aClass309_2616.method3615(
 											Class374.anInt3159, (byte) 25)));
-							if ((class246_sub3_sub4_sub2_sub2.anInt6519 ^ 0xffffffff) > (class246_sub3_sub4_sub2_sub2.anInt6542 ^ 0xffffffff)) {
+							if ((class246_sub3_sub4_sub2_sub2.combatLevel ^ 0xffffffff) > (class246_sub3_sub4_sub2_sub2.anInt6542 ^ 0xffffffff)) {
 								string = (class246_sub3_sub4_sub2_sub2
-										.method3063(0, true)
+										.getNameForDisplay(0, true)
 										+ (bool_1_ ? (Class108
 												.method1730(
-														((Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt6519),
-														(class246_sub3_sub4_sub2_sub2.anInt6519),
+														((Surface.player).combatLevel),
+														(class246_sub3_sub4_sub2_sub2.combatLevel),
 														16383))
 												: "<col=ffffff>")
 										+ " ("
 										+ string_3_
-										+ (class246_sub3_sub4_sub2_sub2.anInt6519)
+										+ (class246_sub3_sub4_sub2_sub2.combatLevel)
 										+ "+"
-										+ ((class246_sub3_sub4_sub2_sub2.anInt6542) + -(class246_sub3_sub4_sub2_sub2.anInt6519)) + ")");
+										+ ((class246_sub3_sub4_sub2_sub2.anInt6542) + -(class246_sub3_sub4_sub2_sub2.combatLevel)) + ")");
 							} else {
 								string = (class246_sub3_sub4_sub2_sub2
-										.method3063(0, true)
+										.getNameForDisplay(0, true)
 										+ (!bool_1_ ? "<col=ffffff>"
 												: (Class108
 														.method1730(
-																((Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt6519),
-																(class246_sub3_sub4_sub2_sub2.anInt6519),
+																((Surface.player).combatLevel),
+																(class246_sub3_sub4_sub2_sub2.combatLevel),
 																16383)))
 										+ " ("
 										+ string_3_
-										+ (class246_sub3_sub4_sub2_sub2.anInt6519) + ")");
+										+ (class246_sub3_sub4_sub2_sub2.combatLevel) + ")");
 							}
 						} else if (class246_sub3_sub4_sub2_sub2.anInt6539 != -1) {
-							string = (class246_sub3_sub4_sub2_sub2.method3063(
+							string = (class246_sub3_sub4_sub2_sub2.getNameForDisplay(
 									0, true)
 									+ " ("
 									+ (Class309.aClass309_2615.method3615(
 											Class374.anInt3159, (byte) 25))
 									+ class246_sub3_sub4_sub2_sub2.anInt6539 + ")");
 						} else {
-							string = class246_sub3_sub4_sub2_sub2.method3063(0,
+							string = class246_sub3_sub4_sub2_sub2.getNameForDisplay(0,
 									true);
 						}
 						if (Class98_Sub10_Sub9.aBoolean5585 && !bool
@@ -114,7 +114,7 @@ final class Class98_Sub30 extends Class98 {
 							Class293.method3470(
 									false,
 									true,
-									(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6369),
+									(((Entity) class246_sub3_sub4_sub2_sub2).anInt6369),
 									Class336.anInt2823,
 									0,
 									(Class246_Sub3_Sub3.aString6156
@@ -122,7 +122,7 @@ final class Class98_Sub30 extends Class98 {
 									false,
 									0,
 									5,
-									(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6369),
+									(((Entity) class246_sub3_sub4_sub2_sub2).anInt6369),
 									-1, false, Class287_Sub2.aString3272);
 						}
 						if (!bool) {
@@ -135,12 +135,12 @@ final class Class98_Sub30 extends Class98 {
 															.method3615(
 																	Class374.anInt3159,
 																	(byte) 25)))) {
-										if ((((Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt6519) ^ 0xffffffff) > ((class246_sub3_sub4_sub2_sub2.anInt6519) ^ 0xffffffff)) {
+										if ((((Surface.player).combatLevel) ^ 0xffffffff) > ((class246_sub3_sub4_sub2_sub2.combatLevel) ^ 0xffffffff)) {
 											i_4_ = (short) 2000;
 										}
-										if (((Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt6528) != 0
+										if (((Surface.player).anInt6528) != 0
 												&& ((class246_sub3_sub4_sub2_sub2.anInt6528) ^ 0xffffffff) != -1) {
-											if ((((Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt6528) ^ 0xffffffff) == ((class246_sub3_sub4_sub2_sub2.anInt6528) ^ 0xffffffff)) {
+											if ((((Surface.player).anInt6528) ^ 0xffffffff) == ((class246_sub3_sub4_sub2_sub2.anInt6528) ^ 0xffffffff)) {
 												i_4_ = (short) 2000;
 											} else {
 												i_4_ = (short) 0;
@@ -155,14 +155,14 @@ final class Class98_Sub30 extends Class98 {
 									Class293.method3470(
 											false,
 											true,
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6369),
+											(((Entity) class246_sub3_sub4_sub2_sub2).anInt6369),
 											i_6_,
 											0,
 											"<col=ffffff>" + string,
 											false,
 											0,
 											i_5_,
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6369),
+											(((Entity) class246_sub3_sub4_sub2_sub2).anInt6369),
 											-1, false,
 											Class269.aStringArray2021[i]);
 								}
@@ -178,7 +178,7 @@ final class Class98_Sub30 extends Class98 {
 									false,
 									0,
 									-1,
-									(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6369),
+									(((Entity) class246_sub3_sub4_sub2_sub2).anInt6369),
 									0, true, "<col=cccccc>" + string);
 						}
 						if (bool) {
@@ -196,7 +196,7 @@ final class Class98_Sub30 extends Class98 {
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("li.H("
+				throw Class64_Sub27.printError(runtimeexception, ("li.H("
 						+ bool
 						+ ','
 						+ bool_0_
@@ -216,7 +216,7 @@ final class Class98_Sub30 extends Class98 {
 			}
 			aStream4093.e(-1);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "li.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "li.D(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -233,7 +233,7 @@ final class Class98_Sub30 extends Class98 {
 			}
 			aStream4093 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "li.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "li.C(" + i + ','
 					+ i_7_ + ')');
 		}
 	}
@@ -337,7 +337,7 @@ final class Class98_Sub30 extends Class98 {
 					aHa_Sub3_4087.method1985(2);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("li.F("
+				throw Class64_Sub27.printError(runtimeexception, ("li.F("
 						+ (is != null ? "{...}" : "null") + ',' + i + ','
 						+ i_8_ + ')'));
 			}
@@ -356,7 +356,7 @@ final class Class98_Sub30 extends Class98 {
 			}
 			anInt4098++;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("li.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("li.B(" + i + ','
 					+ i_28_ + ',' + i_29_ + ',' + i_30_ + ')'));
 		}
 	}
@@ -367,7 +367,7 @@ final class Class98_Sub30 extends Class98 {
 					.method1947(i * i_31_, true, 0);
 			aStream4093 = new Stream(aNativeHeapBuffer4089, 0, 4 * i);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "li.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "li.A(" + i + ','
 					+ i_31_ + ')');
 		}
 	}
@@ -452,7 +452,7 @@ final class Class98_Sub30 extends Class98 {
 				aStream4093.e((byte) i_34_);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("li.I(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("li.I(" + i + ','
 					+ i_32_ + ',' + i_33_ + ',' + i_34_ + ',' + f + ')'));
 		}
 	}
@@ -464,7 +464,7 @@ final class Class98_Sub30 extends Class98 {
 			aClass58_4094 = null;
 			aClass155Array4099 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "li.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "li.G(" + i + ')');
 		}
 	}
 
@@ -494,7 +494,7 @@ final class Class98_Sub30 extends Class98 {
 				exception.printStackTrace();
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("li.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("li.E(" + i + ','
 					+ (file != null ? "{...}" : "null") + ',' + bool + ')'));
 		}
 	}
@@ -511,7 +511,7 @@ final class Class98_Sub30 extends Class98 {
 			anInt4086 = i_50_;
 			aFloat4092 = i_47_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("li.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("li.<init>("
 					+ (var_s_Sub2 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_47_ + ',' + i_48_ + ',' + i_49_ + ',' + i_50_ + ')'));
 		}

@@ -17,7 +17,7 @@ final class IOException_Sub1 extends IOException {
 				aClass148_30 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wh.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wh.A(" + i + ')');
 		}
 	}
 

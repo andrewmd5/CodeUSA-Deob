@@ -34,7 +34,7 @@ final class Class66 {
 				}
 				method686(-122, null, (byte) -5);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("ega.B(" + (class98_sub22 != null ? "{...}" : "null")
 								+ ',' + i + ')'));
 			}
@@ -66,7 +66,7 @@ final class Class66 {
 						Class195.aClass43_1499, true, Class265.aHa1974,
 						Class309.aClass309_2599.method3615(Class374.anInt3159,
 								(byte) 25));
-				final Model model = Class98_Sub6.method981(0, -9252,
+				final Model model = RSModelLoader.createModel(0, -9252,
 						Class76_Sub9.aClass207_3787, Class64_Sub10.anInt3666);
 				final long l = Class343.method3819(-47);
 				Class265.aHa1974.la();
@@ -77,7 +77,7 @@ final class Class66 {
 				// 512, 512);
 				Class265.aHa1974.xa(1.0F);
 				Class265.aHa1974.ZA(16777215, 0.5F, 0.5F, 20.0F, -50.0F, 30.0F);
-				final Class146 class146 = Class265.aHa1974.method1790(model,
+				final AbstractModel abstractModel = Class265.aHa1974.method1790(model,
 						2048, 64, 64, 768);
 				int i_3_ = 0;
 				while_77_: for (int i_4_ = 0; i_4_ < 500; i_4_++) {
@@ -89,7 +89,7 @@ final class Class66 {
 									.method2100(
 											(int) ((i_6_ - i_5_ / 2.0F) * r_Sub2.anInt6333),
 											0, (1 + i_5_) * r_Sub2.anInt6333);
-							class146.method2325(Class76_Sub5.aClass111_3745,
+							abstractModel.method2325(Class76_Sub5.aClass111_3745,
 									null, 0);
 							i_3_++;
 							if ((i_1_ ^ 0xffffffffffffffffL) >= (-l
@@ -109,7 +109,7 @@ final class Class66 {
 				return -1;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ega.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ega.E(" + i + ','
 					+ i_1_ + ',' + i_2_ + ')'));
 		}
 	}
@@ -190,7 +190,7 @@ final class Class66 {
 						if (Class353
 								.method3867(
 										-1,
-										(Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660.aString6537))
+										(Surface.player.name2))
 								.equals(string_8_)) {
 							za_Sub2.method1684(
 									(Class309.aClass309_2628.method3615(
@@ -217,7 +217,7 @@ final class Class66 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ega.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ega.C(" + i + ','
 					+ (string != null ? "{...}" : "null") + ',' + bool + ')'));
 		}
 	}
@@ -250,7 +250,7 @@ final class Class66 {
 				}
 				anInt517 *= -1;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ega.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ega.A(" + i
 						+ ')');
 			}
 			break;
@@ -290,7 +290,7 @@ final class Class66 {
 				}
 				anInt518 = 31;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("ega.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("ega.D(" + i
 						+ ',' + (class98_sub22 != null ? "{...}" : "null")
 						+ ',' + i_17_ + ')'));
 			}

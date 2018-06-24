@@ -28,7 +28,7 @@ final class Exception_Sub1 extends Exception {
 				}
 				anInt44 = 109;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ak.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ak.A(" + i
 						+ ')');
 			}
 			break;
@@ -48,7 +48,7 @@ final class Exception_Sub1 extends Exception {
 					method134((byte) -86);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ak.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ak.B(" + i
 						+ ')');
 			}
 			break;

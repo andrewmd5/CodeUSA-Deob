@@ -14,7 +14,7 @@ final class Class347 {
 			aClass98_Sub46_Sub8_2908 = null;
 			anIntArray2906 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vc.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vc.B(" + i + ')');
 		}
 	}
 
@@ -24,7 +24,7 @@ final class Class347 {
 					.method2628(i, -70, i_1_);
 			class98_sub46_sub17.method1621(0);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vc.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "vc.A(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -41,7 +41,7 @@ final class Class347 {
 			}
 			return i_3_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vc.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vc.D(" + i + ','
 					+ c + ',' + i_2_ + ')'));
 		}
 	}
@@ -60,7 +60,7 @@ final class Class347 {
 			OpenGL.glBindProgramARB(i_4_, i);
 			return new Class202(var_ha_Sub1, i_4_, i_5_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vc.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vc.C(" + i + ','
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i_4_
 					+ ',' + (string != null ? "{...}" : "null") + ')'));
 		}

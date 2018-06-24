@@ -27,7 +27,7 @@ final class Class112 {
 			}
 			return strings;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hca.A("
+			throw Class64_Sub27.printError(runtimeexception, ("hca.A("
 					+ (string != null ? "{...}" : "null") + ',' + c + ','
 					+ bool + ')'));
 		}

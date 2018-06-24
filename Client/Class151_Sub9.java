@@ -18,7 +18,7 @@ final class Class151_Sub9 extends Class151 {
 	private Class42_Sub1 aClass42_Sub1_5027;
 	static int anInt5028;
 	private Class202 aClass202_5029;
-	static Class246_Sub3_Sub4_Sub2_Sub2[] aClass246_Sub3_Sub4_Sub2_Sub2Array5030;
+	static Player[] aClass246_Sub3_Sub4_Sub2_Sub2Array5030;
 
 	Class151_Sub9(ha_Sub1 var_ha_Sub1) {
 		super(var_ha_Sub1);
@@ -60,7 +60,7 @@ final class Class151_Sub9 extends Class151 {
 			} else
 				aBoolean5018 = false;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ws.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "ws.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -71,7 +71,7 @@ final class Class151_Sub9 extends Class151 {
 				aBoolean5021 = true;
 			return aBoolean5018;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ws.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ws.A(" + i + ')');
 		}
 	}
 
@@ -82,7 +82,7 @@ final class Class151_Sub9 extends Class151 {
 					break;
 				method2445((byte) -6);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("ws.G(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("ws.G(" + i
 						+ ',' + i_0_ + ',' + i_1_ + ')'));
 			}
 			break;
@@ -96,7 +96,7 @@ final class Class151_Sub9 extends Class151 {
 			if (i == 2147483647)
 				aClass348_5023 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ws.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ws.B(" + i + ')');
 		}
 	}
 
@@ -123,7 +123,7 @@ final class Class151_Sub9 extends Class151 {
 				((Class151) this).aHa_Sub1_1215.method1845(0, i ^ ~0x3289c27c);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ws.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ws.I(" + i + ')');
 		}
 	}
 
@@ -161,7 +161,7 @@ final class Class151_Sub9 extends Class151 {
 				method2470(-16661);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ws.J(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ws.J(" + i + ')');
 		}
 	}
 
@@ -172,7 +172,7 @@ final class Class151_Sub9 extends Class151 {
 					break;
 				method2442(null, false, -47);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ws.C(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "ws.C(" + bool
 						+ ',' + i + ')');
 			}
 			break;
@@ -193,7 +193,7 @@ final class Class151_Sub9 extends Class151 {
 			((Class151) this).aHa_Sub1_1215.method1845(0, 847872872);
 			method2471((byte) 34);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ws.D(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("ws.D(" + bool
 					+ ',' + bool_5_ + ')'));
 		}
 	}
@@ -222,7 +222,7 @@ final class Class151_Sub9 extends Class151 {
 				((Class151) this).aHa_Sub1_1215.method1886(770, 0, 34200, 5890);
 				aBoolean5024 = false;
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ws.E(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ws.E(" + i
 						+ ')');
 			}
 			break;
@@ -258,7 +258,7 @@ final class Class151_Sub9 extends Class151 {
 			} else
 				Class61.method538(4, false);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ws.H(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("ws.H(" + bool
 					+ ',' + (string != null ? "{...}" : "null") + ',' + i + ','
 					+ bool_6_ + ')'));
 		}
@@ -294,7 +294,7 @@ final class Class151_Sub9 extends Class151 {
 					}
 				}
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("ws.F("
+				throw Class64_Sub27.printError(runtimeexception, ("ws.F("
 						+ (class42 != null ? "{...}" : "null") + ',' + bool
 						+ ',' + i + ')'));
 			}
@@ -306,6 +306,6 @@ final class Class151_Sub9 extends Class151 {
 		anIntArray5019 = new int[8];
 		aClass348_5023 = new Class348(0, 2, 2, 1);
 		anInt5028 = 0;
-		aClass246_Sub3_Sub4_Sub2_Sub2Array5030 = new Class246_Sub3_Sub4_Sub2_Sub2[2048];
+		aClass246_Sub3_Sub4_Sub2_Sub2Array5030 = new Player[2048];
 	}
 }

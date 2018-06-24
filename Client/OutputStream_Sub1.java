@@ -19,7 +19,7 @@ final class OutputStream_Sub1 extends OutputStream {
 		try {
 			throw new IOException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dg.write(" + i
+			throw Class64_Sub27.printError(runtimeexception, "dg.write(" + i
 					+ ')');
 		}
 	}
@@ -33,7 +33,7 @@ final class OutputStream_Sub1 extends OutputStream {
 			return new ha_Sub2(canvas, var_d, i_0_, i);
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception,
+					.printError(runtimeexception,
 							("dg.A(" + (var_d != null ? "{...}" : "null") + ','
 									+ i + ',' + i_0_ + ','
 									+ (canvas != null ? "{...}" : "null") + ','
@@ -66,7 +66,7 @@ final class OutputStream_Sub1 extends OutputStream {
 			ha_Sub3.method2062(-4264);
 			Class98_Sub10.aBoolean3858 = true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dg.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("dg.D(" + i + ','
 					+ i_2_ + ',' + (class63 != null ? "{...}" : "null") + ','
 					+ i_3_ + ',' + i_4_ + ',' + bool + ',' + i_5_ + ',' + i_6_
 					+ ',' + i_7_ + ',' + i_8_ + ',' + i_9_ + ','
@@ -78,7 +78,7 @@ final class OutputStream_Sub1 extends OutputStream {
 		try {
 			Class299_Sub2.method3523(i_11_, i, i_10_ ^ i_10_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dg.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("dg.B(" + i + ','
 					+ i_10_ + ',' + i_11_ + ')'));
 		}
 	}
@@ -95,7 +95,7 @@ final class OutputStream_Sub1 extends OutputStream {
 				}
 				anInt32 = -72;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "dg.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "dg.C(" + i
 						+ ')');
 			}
 			break;

@@ -7,8 +7,8 @@ import java.awt.Canvas;
 import java.util.Hashtable;
 
 public class OpenGL {
-	private Hashtable a;
-	private static Hashtable b = new Hashtable();
+	private Hashtable<String, String> a;
+	private static Hashtable<Thread, OpenGL> b = new Hashtable<Thread, OpenGL>();
 	long peer;
 	private Thread c;
 
@@ -311,7 +311,7 @@ public class OpenGL {
 	public final boolean a(final String string) {
 		try {
 			if (a == null) {
-				a = new Hashtable();
+				a = new Hashtable<String, String>();
 				final String string_175_ = glGetString(7939);
 				int i = 0;
 				for (;;) {

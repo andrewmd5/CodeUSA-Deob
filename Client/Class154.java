@@ -19,7 +19,7 @@ final class Class154 {
 				Class119_Sub1.aClass154_4718 = this;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kfa.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kfa.B(" + i + ')');
 		}
 	}
 
@@ -32,7 +32,7 @@ final class Class154 {
 				}
 				method2492(65);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "kfa.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "kfa.C(" + i
 						+ ')');
 			}
 			break;
@@ -434,7 +434,7 @@ final class Class154 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("kfa.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("kfa.A(" + i + ','
 					+ i_0_ + ',' + (is != null ? "{...}" : "null") + ',' + i_1_
 					+ ',' + i_2_ + ',' + (is_3_ != null ? "{...}" : "null")
 					+ ',' + bool + ',' + (is_4_ != null ? "{...}" : "null")

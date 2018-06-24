@@ -15,7 +15,7 @@ final class Class234 {
 			aClass207_1748 = null;
 			aClass171_1747 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ot.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ot.C(" + i + ')');
 		}
 	}
 
@@ -26,7 +26,7 @@ final class Class234 {
 			}
 			return i >>> -2139410934;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ot.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ot.B(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -41,7 +41,7 @@ final class Class234 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ot.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ot.A(" + i + ','
 					+ i_2_ + ',' + i_3_ + ')'));
 		}
 	}

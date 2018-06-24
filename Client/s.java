@@ -33,7 +33,7 @@ abstract class s {
 					- -1][1 + i_6_] * i_7_)) >> anInt2200);
 			return (i_8_ * i_10_ + (anInt2206 - i_8_) * i_9_ >> anInt2200);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("s.R(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("s.R(" + i + ','
 					+ i_4_ + ',' + bool + ')'));
 		}
 	}
@@ -48,7 +48,7 @@ abstract class s {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "s.P(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "s.P(" + i + ','
 					+ i_14_ + ')');
 		}
 	}
@@ -60,7 +60,7 @@ abstract class s {
 			}
 			return anIntArrayArray2201[i_17_][i];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("s.Q(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("s.Q(" + i + ','
 					+ i_16_ + ',' + i_17_ + ')'));
 		}
 	}
@@ -88,7 +88,7 @@ abstract class s {
 			anIntArray2205 = null;
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, "s.S(" + bool + ')');
+					.printError(runtimeexception, "s.S(" + bool + ')');
 		}
 	}
 
@@ -116,7 +116,7 @@ abstract class s {
 			anIntArrayArray2201 = is;
 			anInt2200 = i_59_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("s.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("s.<init>(" + i
 					+ ',' + i_57_ + ',' + i_58_ + ','
 					+ (is != null ? "{...}" : "null") + ')'));
 		}

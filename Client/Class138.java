@@ -22,7 +22,7 @@ final class Class138 {
 					class337.aClass63_3538, class337.aClass110_3540,
 					class337.anInt3541, class337.anInt3542, i_0_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("jg.C(" + (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i + ')'));
 		}
@@ -43,7 +43,7 @@ final class Class138 {
 				}
 				anInt1085 = 77;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "jg.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "jg.B(" + i
 						+ ')');
 			}
 			break;
@@ -60,7 +60,7 @@ final class Class138 {
 			}
 			return Class98_Sub46_Sub3.aClass131Array5953[i_1_];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jg.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "jg.A(" + i + ','
 					+ i_1_ + ')');
 		}
 	}

@@ -15,7 +15,7 @@ final class Class275 {
 			}
 			aClass79_2046 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rc.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rc.A(" + i + ')');
 		}
 	}
 
@@ -32,7 +32,7 @@ final class Class275 {
 			return (Class98_Sub20.aClass53_Sub1Array3967[-Class164.anInt1274
 					+ i_0_]);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rc.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "rc.B(" + i + ','
 					+ i_0_ + ')');
 		}
 	}

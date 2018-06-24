@@ -30,9 +30,10 @@ final class Class342 {
 				Class139.anInt1087 = 0;
 				Class151_Sub9.anInt5020 = 0;
 				Class64_Sub16.anInt3680 = 1;
+				
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("uq.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("uq.A(" + bool
 					+ ',' + (string != null ? "{...}" : "null") + ',' + i + ','
 					+ (string_0_ != null ? "{...}" : "null") + ')'));
 		}
@@ -47,7 +48,7 @@ final class Class342 {
 				}
 				method3815(-114, -57);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "uq.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "uq.C(" + i
 						+ ',' + i_2_ + ')');
 			}
 			break;
@@ -63,7 +64,7 @@ final class Class342 {
 			aClass200_2861 = null;
 			anIntArray2860 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uq.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "uq.B(" + i + ')');
 		}
 	}
 

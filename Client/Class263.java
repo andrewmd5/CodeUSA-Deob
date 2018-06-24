@@ -74,7 +74,7 @@ final class Class263 {
 					break;
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "qha.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "qha.D(" + i
 						+ ')');
 			}
 		} while (false);
@@ -102,7 +102,7 @@ final class Class263 {
 			}
 			return '\0';
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qha.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "qha.A(" + i + ','
 					+ c + ')');
 		}
 	}
@@ -111,8 +111,8 @@ final class Class263 {
 			final int i) {
 		try {
 			if (i == 18762) {
-				if (((class98_sub22.aByteArray3992[class98_sub22.position]) ^ 0xffffffff) != -32
-						|| ((class98_sub22.aByteArray3992[class98_sub22.position
+				if (((class98_sub22.incomingBytes[class98_sub22.position]) ^ 0xffffffff) != -32
+						|| ((class98_sub22.incomingBytes[class98_sub22.position
 								- -1]) ^ 0xffffffff) != 116) {
 					throw new RuntimeException("Invalid GZIP header!");
 				}
@@ -122,9 +122,9 @@ final class Class263 {
 				try {
 					anInflater1963
 							.setInput(
-									class98_sub22.aByteArray3992,
+									class98_sub22.incomingBytes,
 									10 + class98_sub22.position,
-									(-18 - class98_sub22.position + (class98_sub22.aByteArray3992).length));
+									(-18 - class98_sub22.position + (class98_sub22.incomingBytes).length));
 					anInflater1963.inflate(is);
 				} catch (final Exception exception) {
 					anInflater1963.reset();
@@ -133,7 +133,7 @@ final class Class263 {
 				anInflater1963.reset();
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("qha.F(" + (is != null ? "{...}" : "null") + ','
 							+ (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i + ')'));
@@ -158,7 +158,7 @@ final class Class263 {
 			}
 			return i_6_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qha.E(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("qha.E(" + bool
 					+ ',' + i + ',' + i_6_ + ',' + i_7_ + ')'));
 		}
 	}
@@ -176,7 +176,7 @@ final class Class263 {
 			}
 			return is_9_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qha.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("qha.B(" + i + ','
 					+ (is != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -192,7 +192,7 @@ final class Class263 {
 			}
 			aClass171_1964 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qha.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qha.C(" + i + ')');
 		}
 	}
 }

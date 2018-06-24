@@ -37,7 +37,7 @@ final class Class202 {
 			Class42_Sub4.anInt5371 = i_2_ * Class278.anInt2089 / i_4_;
 			aa_Sub1.method155(-1);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ne.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ne.A(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ')'));
 		}
 	}
@@ -48,7 +48,7 @@ final class Class202 {
 			aHa_Sub1_1546.method1872(anInt1549, 2834);
 			super.finalize();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"ne.finalize(" + ')');
 		}
 	}
@@ -60,7 +60,7 @@ final class Class202 {
 				aClass308_1550 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ne.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ne.B(" + i + ')');
 		}
 	}
 
@@ -186,7 +186,7 @@ final class Class202 {
 			}
 			return (class53_sub1.anInt3632 - class53_sub1_7_.anInt3632);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ne.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ne.F(" + i + ','
 					+ (class53_sub1 != null ? "{...}" : "null") + ',' + bool
 					+ ',' + i_6_ + ','
 					+ (class53_sub1_7_ != null ? "{...}" : "null") + ')'));
@@ -276,7 +276,7 @@ final class Class202 {
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("ne.E(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("ne.E(" + i
 						+ ',' + i_12_ + ','
 						+ (var_ha != null ? "{...}" : "null") + ',' + i_13_
 						+ ',' + i_14_ + ',' + i_15_ + ')'));
@@ -289,7 +289,7 @@ final class Class202 {
 		try {
 			return i & i_28_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ne.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ne.C(" + i + ','
 					+ i_28_ + ')');
 		}
 	}
@@ -334,7 +334,7 @@ final class Class202 {
 				}
 				method2700(-70, null, false, 0, null);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ne.D(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "ne.D(" + bool
 						+ ')');
 			}
 			break;
@@ -346,7 +346,7 @@ final class Class202 {
 			aHa_Sub1_1546 = var_ha_Sub1;
 			anInt1549 = i_29_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ne.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("ne.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_29_ + ')'));
 		}

@@ -73,19 +73,19 @@ abstract class Class287 {
 			Class374.method3980((byte) 122);
 			Class33.aBoolean316 = true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rq.M(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rq.M(" + i + ')');
 		}
 	}
 
 	static final boolean method3386(final int i, final int i_0_, final byte i_1_) {
 		try {
-			if (!((0x70000 & i) != 0 | Class98.method944(i, i_0_, (byte) 85))
+			if (!((0x70000 & i) != 0 | Node.method944(i, i_0_, (byte) 85))
 					&& !Class76_Sub7.method763(i, i_0_, false)) {
 				return false;
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("rq.N(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("rq.N(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -100,7 +100,7 @@ abstract class Class287 {
 				}
 				aClass58_2194 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("rq.J("
+				throw Class64_Sub27.printError(runtimeexception, ("rq.J("
 						+ (string != null ? "{...}" : "null") + ','
 						+ (string_3_ != null ? "{...}" : "null") + ',' + i
 						+ ',' + bool + ',' + i_4_ + ')'));
@@ -121,7 +121,7 @@ abstract class Class287 {
 				}
 				method3385((byte) -61);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "rq.K(" + i
+				throw Class64_Sub27.printError(runtimeexception, "rq.K(" + i
 						+ ')');
 			}
 			break;
@@ -140,7 +140,7 @@ abstract class Class287 {
 				OpenGL.glBufferSubDataARBub(anInt2189, 0, i_5_, is, 0);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("rq.L(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("rq.L(" + i + ','
 					+ i_5_ + ',' + (is != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -151,7 +151,7 @@ abstract class Class287 {
 			aHa_Sub1_2185.method1879(anInt2193, (byte) 121, (anInt2191));
 			super.finalize();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"rq.finalize(" + ')');
 		}
 	}
@@ -170,7 +170,7 @@ abstract class Class287 {
 					: 35040);
 			aHa_Sub1_2185.anInt4336 += anInt2193;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("rq.<init>(" + (var_ha_Sub1 != null ? "{...}" : "null")
 							+ ',' + i + ',' + (is != null ? "{...}" : "null")
 							+ ',' + i_6_ + ',' + bool + ')'));
@@ -191,7 +191,7 @@ abstract class Class287 {
 					aBoolean2192 ? 35040 : 35044);
 			aHa_Sub1_2185.anInt4336 += anInt2193;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("rq.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("rq.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ (buffer != null ? "{...}" : "null") + ',' + i_7_ + ','
 					+ bool + ')'));

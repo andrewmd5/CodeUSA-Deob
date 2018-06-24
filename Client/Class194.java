@@ -7,7 +7,7 @@ final class Class194 {
 	static Class102[] aClass102Array1496;
 
 	static final void method2657(
-			final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2,
+			final Player class246_sub3_sub4_sub2_sub2,
 			final byte i, final int i_0_, final int i_1_) {
 		try {
 			if (i == 114) {
@@ -16,7 +16,7 @@ final class Class194 {
 				Class181.method2608(i_0_, class246_sub3_sub4_sub2_sub2, is, 0);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("mq.A("
 							+ ((class246_sub3_sub4_sub2_sub2 != null) ? "{...}"
 									: "null") + ',' + i + ',' + i_0_ + ','
@@ -32,7 +32,7 @@ final class Class194 {
 			}
 			aByteArray1495 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mq.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "mq.B(" + i + ')');
 		}
 	}
 

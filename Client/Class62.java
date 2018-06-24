@@ -22,7 +22,7 @@ final class Class62 {
 				}
 				aClass264_487 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "eca.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "eca.A(" + i
 						+ ')');
 			}
 			break;
@@ -57,7 +57,7 @@ final class Class62 {
 					method543(-60);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("eca.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("eca.B(" + i
 						+ ',' + i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_
 						+ ',' + i_4_ + ',' + i_5_ + ',' + i_6_ + ',' + i_7_
 						+ ',' + i_8_ + ',' + i_9_ + ',' + i_10_ + ')'));
@@ -75,7 +75,7 @@ final class Class62 {
 			aLong485 = l;
 			anInt483 = i_11_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("eca.<init>(" + i + ','
 							+ (string != null ? "{...}" : "null") + ',' + i_11_
 							+ ',' + (string_12_ != null ? "{...}" : "null")

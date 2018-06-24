@@ -14,7 +14,7 @@ final class Class64_Sub3 extends Class64 {
 			}
 			return ((Class64) this).anInt494;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "be.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "be.E(" + i + ')');
 		}
 	}
 
@@ -39,7 +39,7 @@ final class Class64_Sub3 extends Class64 {
 				is[i_2_] = is[i_1_] = i_3_;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("be.G(" + i + ',' + i_0_ + ',' + i_1_ + ',' + i_2_ + ','
 							+ i_3_ + ',' + i_4_ + ')'));
 		}
@@ -62,7 +62,7 @@ final class Class64_Sub3 extends Class64 {
 			}
 			return 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "be.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "be.A(" + i + ')');
 		}
 	}
 
@@ -74,7 +74,7 @@ final class Class64_Sub3 extends Class64 {
 			}
 			return 3;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "be.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "be.F(" + i + ','
 					+ i_6_ + ')');
 		}
 	}
@@ -84,7 +84,7 @@ final class Class64_Sub3 extends Class64 {
 		try {
 			((Class64) this).anInt494 = i_7_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "be.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "be.B(" + i + ','
 					+ i_7_ + ')');
 		}
 	}
@@ -99,7 +99,7 @@ final class Class64_Sub3 extends Class64 {
 				}
 				method565(-59, 53, -54, 62, 98, 89);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "be.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "be.C(" + i
 						+ ')');
 			}
 			break;
@@ -112,7 +112,7 @@ final class Class64_Sub3 extends Class64 {
 				aClass207_3648 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "be.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "be.D(" + i + ')');
 		}
 	}
 

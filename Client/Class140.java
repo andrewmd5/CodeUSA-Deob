@@ -22,7 +22,7 @@ final class Class140 implements Interface6 {
 			aBooleanArray3246 = null;
 			aClass47_3241 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jk.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "jk.B(" + i + ')');
 		}
 	}
 
@@ -45,7 +45,7 @@ final class Class140 implements Interface6 {
 				aClass377_3242.method3996(class98_sub50, i_1_, -1);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jk.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("jk.G(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -55,7 +55,7 @@ final class Class140 implements Interface6 {
 		try {
 			return anIntArray3244[i];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jk.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "jk.H(" + i + ','
 					+ i_2_ + ')');
 		}
 	}
@@ -74,7 +74,7 @@ final class Class140 implements Interface6 {
 			final int i_8_ = Class98_Sub46_Sub20.anIntArray6070[i_7_ + -i_6_];
 			return anIntArray3244[i_5_] >> i_6_ & i_8_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jk.I(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "jk.I(" + i + ','
 					+ i_4_ + ')');
 		}
 	}
@@ -89,7 +89,7 @@ final class Class140 implements Interface6 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jk.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("jk.D(" + i + ','
 					+ i_9_ + ',' + i_10_ + ')'));
 		}
 	}
@@ -107,7 +107,7 @@ final class Class140 implements Interface6 {
 			}
 			aClass377_3242 = new Class377(128);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jk.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "jk.F(" + i + ')');
 		}
 	}
 
@@ -128,7 +128,7 @@ final class Class140 implements Interface6 {
 					86,
 					(i_18_ & i << i_16_ | ((i_18_ ^ 0xffffffff) & anIntArray3244[i_15_])));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jk.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("jk.E(" + i + ','
 					+ i_13_ + ',' + i_14_ + ')'));
 		}
 	}
@@ -145,7 +145,7 @@ final class Class140 implements Interface6 {
 					if ((0x4000000000000000L & class98_sub50.aLong4288) == 0L) {
 						class98_sub50.method942(59);
 					} else {
-						final int i_20_ = (int) ((Class98) class98_sub50).aLong832;
+						final int i_20_ = (int) ((Node) class98_sub50).aLong832;
 						anIntArray3244[i_20_] = anIntArray3247[i_20_];
 						class98_sub50.method942(45);
 						return i_20_;
@@ -154,7 +154,7 @@ final class Class140 implements Interface6 {
 			}
 			return -1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jk.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "jk.A(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -164,7 +164,7 @@ final class Class140 implements Interface6 {
 			anIntArray3244 = new int[Class134.aClass139_3465.anInt1086];
 			anIntArray3247 = new int[Class134.aClass139_3465.anInt1086];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jk.<init>(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "jk.<init>(" + ')');
 		}
 	}
 
@@ -190,7 +190,7 @@ final class Class140 implements Interface6 {
 				}
 				method2286(36, 108, 47);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("jk.J(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("jk.J(" + i
 						+ ',' + i_21_ + ',' + i_22_ + ')'));
 			}
 			break;
@@ -215,7 +215,7 @@ final class Class140 implements Interface6 {
 								& (i_28_ ^ 0xffffffff)), i_25_);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("jk.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("jk.C(" + i + ','
 					+ i_23_ + ',' + i_24_ + ')'));
 		}
 	}

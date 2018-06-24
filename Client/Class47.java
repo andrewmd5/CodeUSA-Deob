@@ -22,7 +22,7 @@ final class Class47 implements Runnable {
 				return 34;
 			return anInt404;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dga.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dga.A(" + i + ')');
 		}
 	}
 
@@ -31,7 +31,7 @@ final class Class47 implements Runnable {
 			int i_0_ = 127 % ((66 - i) / 52);
 			return anInterface10_398.method28(-105, aLong406);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dga.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dga.C(" + i + ')');
 		}
 	}
 
@@ -41,7 +41,7 @@ final class Class47 implements Runnable {
 				method441((byte) -74);
 			return aClass75_408;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dga.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dga.F(" + i + ')');
 		}
 	}
 
@@ -51,7 +51,7 @@ final class Class47 implements Runnable {
 				method447(66);
 			return aString403;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dga.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dga.E(" + i + ')');
 		}
 	}
 
@@ -63,7 +63,7 @@ final class Class47 implements Runnable {
 			anInterface10_398 = interface10;
 			aLong406 = Class343.method3819(-47);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dga.L(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("dga.L(" + i + ','
 					+ (interface10 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -73,7 +73,7 @@ final class Class47 implements Runnable {
 			int i_1_ = 110 % ((i - 64) / 56);
 			return aLong405;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dga.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dga.I(" + i + ')');
 		}
 	}
 
@@ -171,7 +171,7 @@ final class Class47 implements Runnable {
 					Class246_Sub7.method3131(0, (long) i);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dga.run(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dga.run(" + ')');
 		}
 	}
 
@@ -184,7 +184,7 @@ final class Class47 implements Runnable {
 			int i_6_ = -57 % (-i / 58);
 			aString403 = string;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dga.G(" + l + ','
+			throw Class64_Sub27.printError(runtimeexception, ("dga.G(" + l + ','
 					+ i + ',' + i_5_ + ','
 					+ (class75 != null ? "{...}" : "null") + ','
 					+ (string != null ? "{...}" : "null") + ')'));
@@ -208,7 +208,7 @@ final class Class47 implements Runnable {
 				return ((Class75) aClass75_408).anInt557;
 			return ((Class75) aClass75_408).anInt552;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dga.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dga.B(" + i + ')');
 		}
 	}
 
@@ -218,7 +218,7 @@ final class Class47 implements Runnable {
 			if (bool != false)
 				return;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dga.M(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "dga.M(" + bool
 					+ ')');
 		}
 	}
@@ -228,7 +228,7 @@ final class Class47 implements Runnable {
 			int i_8_ = -32 / ((i - 20) / 57);
 			aClass113_399 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dga.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dga.H(" + i + ')');
 		}
 	}
 
@@ -238,7 +238,7 @@ final class Class47 implements Runnable {
 				return -56;
 			return anInt401;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dga.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dga.D(" + i + ')');
 		}
 	}
 
@@ -286,7 +286,7 @@ final class Class47 implements Runnable {
 			}
 			return PlayerUpdateMask.aClass259Array527;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dga.J(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dga.J(" + i + ')');
 		}
 	}
 
@@ -298,7 +298,7 @@ final class Class47 implements Runnable {
 					break;
 				method442((byte) 77);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "dga.K(" + i
+				throw Class64_Sub27.printError(runtimeexception, "dga.K(" + i
 						+ ')');
 			}
 			break;

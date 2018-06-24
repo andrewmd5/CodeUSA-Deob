@@ -15,7 +15,7 @@ final class Class322 {
 				aClass58_2713 = null;
 				aFloat2712 = -1.0144556F;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "tr.F(" + i
+				throw Class64_Sub27.printError(runtimeexception, "tr.F(" + i
 						+ ')');
 			}
 			break;
@@ -27,7 +27,7 @@ final class Class322 {
 		try {
 			return Class98_Sub10_Sub26.method1084(false, class98_sub22, 32767);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("tr.C(" + (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i + ')'));
 		}
@@ -65,7 +65,7 @@ final class Class322 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tr.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("tr.D(" + i + ','
 					+ i_3_ + ',' + i_4_ + ')'));
 		}
 	}
@@ -78,34 +78,34 @@ final class Class322 {
 				return;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tr.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("tr.E(" + i + ','
 					+ i_5_ + ',' + i_6_ + ',' + bool + ')'));
 		}
 	}
 
 	static final void method3674(final int i,
-			final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2) {
+			final Player class246_sub3_sub4_sub2_sub2) {
 		try {
 			final Class98_Sub42 class98_sub42 = ((Class98_Sub42) (Class98_Sub10_Sub14.aClass377_5612
 					.method3990(
-							((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6369,
+							((Entity) class246_sub3_sub4_sub2_sub2).anInt6369,
 							-1)));
 			if (class98_sub42 == null) {
 				Class98_Sub31_Sub4
 						.method1383(
 								class246_sub3_sub4_sub2_sub2,
 								null,
-								(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]),
+								(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]),
 								0,
 								i + 3,
-								(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
+								(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
 								((Class246_Sub3) class246_sub3_sub4_sub2_sub2).aByte5088,
 								null);
 			} else {
 				class98_sub42.method1478(true);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tr.A("
+			throw Class64_Sub27.printError(runtimeexception, ("tr.A("
 					+ i
 					+ ','
 					+ ((class246_sub3_sub4_sub2_sub2 != null) ? "{...}"

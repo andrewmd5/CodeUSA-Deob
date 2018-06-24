@@ -43,7 +43,7 @@ class Class284_Sub2 extends Class284 {
 				}
 				anInt5183 = -18;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("gt.G(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("gt.G(" + i
 						+ ',' + i_0_ + ',' + i_1_ + ')'));
 			}
 			break;
@@ -70,7 +70,7 @@ class Class284_Sub2 extends Class284 {
 			method3375(anInt5181++, 64, (byte) anInt5185);
 			anInt5185 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gt.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gt.H(" + i + ')');
 		}
 	}
 
@@ -83,7 +83,7 @@ class Class284_Sub2 extends Class284 {
 			}
 			anInt5185 = 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gt.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gt.D(" + i + ')');
 		}
 	}
 
@@ -109,7 +109,7 @@ class Class284_Sub2 extends Class284 {
 					bool, is, i);
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("gt.K(" + i + ',' + i_2_
+					.printError(runtimeexception, ("gt.K(" + i + ',' + i_2_
 							+ ',' + i_3_ + ',' + i_4_ + ','
 							+ (var_ha_Sub1 != null ? "{...}" : "null") + ','
 							+ bool + ',' + (is != null ? "{...}" : "null")
@@ -121,7 +121,7 @@ class Class284_Sub2 extends Class284 {
 		try {
 			aByteArray5184[i] = i_7_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gt.L(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gt.L(" + i + ','
 					+ i_6_ + ',' + i_7_ + ')'));
 		}
 	}
@@ -135,7 +135,7 @@ class Class284_Sub2 extends Class284 {
 			anInt5179 = (int) (f_13_ * 4096.0F);
 			anInt5182 = anInt5189 = (int) (Math.pow(0.5, -f) * 4096.0);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gt.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("gt.<init>(" + i
 					+ ',' + i_9_ + ',' + i_10_ + ',' + i_11_ + ',' + i_12_
 					+ ',' + f + ',' + f_13_ + ',' + f_14_ + ')'));
 		}
@@ -145,7 +145,7 @@ class Class284_Sub2 extends Class284 {
 		try {
 			aClass171_5180 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gt.J(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gt.J(" + i + ')');
 		}
 	}
 

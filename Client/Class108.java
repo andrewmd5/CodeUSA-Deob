@@ -4,7 +4,7 @@
 
 final class Class108 {
 	static final void method1729(final int i,
-			final Class246_Sub3_Sub4_Sub2 class246_sub3_sub4_sub2) {
+			final Entity class246_sub3_sub4_sub2) {
 		do {
 			try {
 				if (i < -89
@@ -34,7 +34,7 @@ final class Class108 {
 										- ((-aa_Sub2.anInt3562 + i_8_) * 512 - (((Class246_Sub3) class246_sub3_sub4_sub2).anInt5079));
 							} else if ((0x8000 & i_1_ ^ 0xffffffff) != -1) {
 								final int i_9_ = 0x7fff & i_1_;
-								final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_9_]);
+								final Player class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_9_]);
 								if (class246_sub3_sub4_sub2_sub2 != null) {
 									i_4_ = (((Class246_Sub3) class246_sub3_sub4_sub2).anInt5079 - (((Class246_Sub3) class246_sub3_sub4_sub2_sub2).anInt5079));
 									i_5_ = (-(((Class246_Sub3) class246_sub3_sub4_sub2_sub2).anInt5084) + (((Class246_Sub3) class246_sub3_sub4_sub2).anInt5084));
@@ -74,7 +74,7 @@ final class Class108 {
 					class246_sub3_sub4_sub2.anIntArray6383 = null;
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("gs.B("
 								+ i
 								+ ','
@@ -117,7 +117,7 @@ final class Class108 {
 			}
 			return "<col=ffff00>";
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gs.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gs.C(" + i + ','
 					+ i_10_ + ',' + i_11_ + ')'));
 		}
 	}
@@ -138,7 +138,7 @@ final class Class108 {
 						+ " psize:" + i);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gs.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gs.A(" + i + ','
 					+ (class98_sub22_sub1 != null ? "{...}" : "null") + ','
 					+ i_13_ + ')'));
 		}

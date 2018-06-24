@@ -25,7 +25,7 @@ final class Class162 {
 							(byte) 25)), "", Class21_Sub2.anInt5387, 1012, -1,
 					0L, 0, 0, true, false, 0L, true);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kq.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kq.A(" + i + ')');
 		}
 	}
 
@@ -41,7 +41,7 @@ final class Class162 {
 			aClass162_1262 = null;
 			aClass162_1270 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kq.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kq.B(" + i + ')');
 		}
 	}
 
@@ -72,7 +72,7 @@ final class Class162 {
 				}
 				aClass162_1270 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("kq.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("kq.C(" + i
 						+ ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ')'));
 			}
 			break;
@@ -84,7 +84,7 @@ final class Class162 {
 		try {
 			throw new IllegalStateException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"kq.toString(" + ')');
 		}
 	}
@@ -93,7 +93,7 @@ final class Class162 {
 		try {
 			anInt1263 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kq.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "kq.<init>(" + i
 					+ ')');
 		}
 	}

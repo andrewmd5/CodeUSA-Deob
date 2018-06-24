@@ -3,7 +3,7 @@
  */
 import java.lang.reflect.Field;
 
-final class Class98_Sub27 extends Class98 {
+final class Class98_Sub27 extends Node {
 	Class64_Sub6 aClass64_Sub6_4033;
 	Class64_Sub15 aClass64_Sub15_4034;
 	Class64_Sub26 aClass64_Sub26_4035;
@@ -61,7 +61,7 @@ final class Class98_Sub27 extends Class98 {
 				}
 				anInt4060 = 95;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "kda.L(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "kda.L(" + bool
 						+ ')');
 			}
 			break;
@@ -210,7 +210,7 @@ final class Class98_Sub27 extends Class98 {
 				aClass64_Sub4_4053 = new Class64_Sub4(
 						class98_sub22.readUnsignedByte((byte) 120), this);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("kda.I("
+				throw Class64_Sub27.printError(runtimeexception, ("kda.I("
 						+ (class98_sub22 != null ? "{...}" : "null") + ',' + i
 						+ ',' + i_0_ + ')'));
 			}
@@ -243,7 +243,7 @@ final class Class98_Sub27 extends Class98 {
 				ByteBuffer.anInt3994 = i_4_;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kda.M(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "kda.M(" + i + ','
 					+ i_4_ + ')');
 		}
 	}
@@ -372,7 +372,7 @@ final class Class98_Sub27 extends Class98 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kda.E(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "kda.E(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -426,7 +426,7 @@ final class Class98_Sub27 extends Class98 {
 			Class374.method3980((byte) 125);
 			Class33.aBoolean316 = true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kda.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kda.A(" + i + ')');
 		}
 	}
 
@@ -438,7 +438,7 @@ final class Class98_Sub27 extends Class98 {
 			class64.method554(i_6_, i + 9861);
 			method1287(false);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("kda.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("kda.C(" + i + ','
 					+ i_6_ + ',' + (class64 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -450,7 +450,7 @@ final class Class98_Sub27 extends Class98 {
 			}
 			return aClass279_4059;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kda.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kda.D(" + i + ')');
 		}
 	}
 
@@ -475,7 +475,7 @@ final class Class98_Sub27 extends Class98 {
 				/* empty */
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kda.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "kda.B(" + bool
 					+ ')');
 		}
 	}
@@ -556,7 +556,7 @@ final class Class98_Sub27 extends Class98 {
 					-97);
 			return class98_sub22;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kda.K(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "kda.K(" + bool
 					+ ')');
 		}
 	}
@@ -568,13 +568,13 @@ final class Class98_Sub27 extends Class98 {
 			}
 			return aClass145_4036;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kda.J(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kda.J(" + i + ')');
 		}
 	}
 
 	private final void method1290(final ByteBuffer class98_sub22, final int i) {
 		try {
-			if (class98_sub22 != null && class98_sub22.aByteArray3992 != null) {
+			if (class98_sub22 != null && class98_sub22.incomingBytes != null) {
 				final int i_8_ = class98_sub22.readUnsignedByte((byte) -127);
 				if (i_8_ < 23) {
 					try {
@@ -675,7 +675,7 @@ final class Class98_Sub27 extends Class98 {
 			}
 			method1287(false);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("kda.F(" + (class98_sub22 != null ? "{...}" : "null")
 							+ ',' + i + ')'));
 		}
@@ -693,7 +693,7 @@ final class Class98_Sub27 extends Class98 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kda.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kda.H(" + i + ')');
 		}
 	}
 
@@ -715,7 +715,7 @@ final class Class98_Sub27 extends Class98 {
 					| Class373_Sub3.method3978(i, i_10_, (byte) 74) | Class21_Sub2
 						.method271((byte) -112, i_10_, i)) & (i & 0x37) == 0);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("kda.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("kda.G(" + i + ','
 					+ i_9_ + ',' + i_10_ + ')'));
 		}
 	}
@@ -730,7 +730,7 @@ final class Class98_Sub27 extends Class98 {
 			aClass64_Sub8_4042 = new Class64_Sub8(i, this);
 			method1283(true, 0);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("kda.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("kda.<init>("
 					+ (class279 != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -746,7 +746,7 @@ final class Class98_Sub27 extends Class98 {
 			aClass64_Sub8_4042 = new Class64_Sub8(i, this);
 			method1290(class98_sub22, 10148);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("kda.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("kda.<init>("
 					+ (class98_sub22 != null ? "{...}" : "null") + ','
 					+ (class279 != null ? "{...}" : "null") + ',' + i + ')'));
 		}

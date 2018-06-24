@@ -39,12 +39,12 @@ final class Class107 {
 			}
 			return -i_1_ + 7;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gp.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gp.F(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ')'));
 		}
 	}
 
-	final Class146 method1721(final ha var_ha, final int i, final int i_3_,
+	final AbstractModel method1721(final ha var_ha, final int i, final int i_3_,
 			final int i_4_, final AnimationDefParser class183, final int i_5_,
 			final int i_6_) {
 		try {
@@ -54,7 +54,7 @@ final class Class107 {
 			return method1723(i_4_, i_6_, 0, i, null, null, 0, (byte) 5,
 					class183, false, var_ha, false, 0, i_5_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gp.D("
+			throw Class64_Sub27.printError(runtimeexception, ("gp.D("
 					+ (var_ha != null ? "{...}" : "null") + ',' + i + ','
 					+ i_3_ + ',' + i_4_ + ','
 					+ (class183 != null ? "{...}" : "null") + ',' + i_5_ + ','
@@ -62,7 +62,7 @@ final class Class107 {
 		}
 	}
 
-	final Class146 method1722(final ha var_ha,
+	final AbstractModel method1722(final ha var_ha,
 			final AnimationDefParser class183, final int i, final int i_7_,
 			final int i_8_, final boolean bool, final s var_s, final int i_9_,
 			final int i_10_, final s var_s_11_, final int i_12_,
@@ -74,7 +74,7 @@ final class Class107 {
 			return method1723(i_7_, i, i_9_, i_13_, var_s_11_, var_s, i_8_,
 					(byte) 2, class183, false, var_ha, bool, i_12_, i_10_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gp.B("
+			throw Class64_Sub27.printError(runtimeexception, ("gp.B("
 					+ (var_ha != null ? "{...}" : "null") + ','
 					+ (class183 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_7_ + ',' + i_8_ + ',' + bool + ','
@@ -84,7 +84,7 @@ final class Class107 {
 		}
 	}
 
-	private final Class146 method1723(final int i, final int i_15_,
+	private final AbstractModel method1723(final int i, final int i_15_,
 			final int i_16_, final int i_17_, final s var_s, final s var_s_18_,
 			final int i_19_, final byte i_20_,
 			final AnimationDefParser class183, final boolean bool,
@@ -110,14 +110,14 @@ final class Class107 {
 					|| (anInt924 ^ 0xffffffff) != -1) {
 				i_24_ |= 0x5;
 			}
-			Class146 class146;
+			AbstractModel abstractModel;
 			synchronized (aClass304_921.aClass79_2537) {
-				class146 = (Class146) (aClass304_921.aClass79_2537.method802(
+				abstractModel = (AbstractModel) (aClass304_921.aClass79_2537.method802(
 						-125, anInt925 |= (var_ha.anInt937 << 1821407229)));
 			}
-			if (class146 == null || var_ha.c(class146.ua(), i_24_) != 0) {
-				if (class146 != null) {
-					i_24_ = var_ha.method1777(i_24_, class146.ua());
+			if (abstractModel == null || var_ha.c(abstractModel.ua(), i_24_) != 0) {
+				if (abstractModel != null) {
+					i_24_ = var_ha.method1777(i_24_, abstractModel.ua());
 				}
 				int i_25_ = i_24_;
 				if (aShortArray922 != null) {
@@ -126,7 +126,7 @@ final class Class107 {
 				if (aShortArray913 != null) {
 					i_25_ |= 0x8000;
 				}
-				final Model model = Class98_Sub6.method981(0, -9252,
+				final Model model = RSModelLoader.createModel(0, -9252,
 						(aClass304_921.aClass207_2536), anInt914);
 				if (model == null) {
 					return null;
@@ -134,31 +134,31 @@ final class Class107 {
 				if (model.version < 13) {
 					model.method2592(13746, 2);
 				}
-				class146 = var_ha.method1790(model, i_25_,
+				abstractModel = var_ha.method1790(model, i_25_,
 						(aClass304_921.anInt2539), 64 + anInt915,
 						850 + anInt917);
 				if (aShortArray922 != null) {
 					for (int i_26_ = 0; i_26_ < aShortArray922.length; i_26_++) {
-						class146.ia(aShortArray922[i_26_],
+						abstractModel.ia(aShortArray922[i_26_],
 								aShortArray919[i_26_]);
 					}
 				}
 				if (aShortArray913 != null) {
 					for (int i_27_ = 0; aShortArray913.length > i_27_; i_27_++) {
-						class146.aa(aShortArray913[i_27_],
+						abstractModel.aa(aShortArray913[i_27_],
 								aShortArray911[i_27_]);
 					}
 				}
-				class146.s(i_24_);
+				abstractModel.s(i_24_);
 				synchronized (aClass304_921.aClass79_2537) {
 					aClass304_921.aClass79_2537.method805(
-							anInt925 |= var_ha.anInt937 << 378441757, class146,
+							anInt925 |= var_ha.anInt937 << 378441757, abstractModel,
 							(byte) -80);
 				}
 			}
-			final Class146 class146_28_ = (class97 != null ? class97.method930(
-					i_20_, 0, i_15_, i_24_, i_17_, (byte) 86, class146, i_23_)
-					: class146.method2341(i_20_, i_24_, true));
+			final AbstractModel class146_28_ = (class97 != null ? class97.method930(
+					i_20_, 0, i_15_, i_24_, i_17_, (byte) 86, abstractModel, i_23_)
+					: abstractModel.method2341(i_20_, i_24_, true));
 			if ((anInt920 ^ 0xffffffff) != -129 || anInt916 != 128) {
 				class146_28_.O(anInt920, anInt916, anInt920);
 			}
@@ -180,7 +180,7 @@ final class Class107 {
 			class146_28_.s(i);
 			return class146_28_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gp.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gp.C(" + i + ','
 					+ i_15_ + ',' + i_16_ + ',' + i_17_ + ','
 					+ (var_s != null ? "{...}" : "null") + ','
 					+ (var_s_18_ != null ? "{...}" : "null") + ',' + i_19_
@@ -208,7 +208,7 @@ final class Class107 {
 			}
 			return i_31_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gp.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gp.G(" + i + ','
 					+ i_29_ + ',' + i_30_ + ',' + i_31_ + ')'));
 		}
 	}
@@ -227,7 +227,7 @@ final class Class107 {
 				method1727(i + -120, class98_sub22, i_32_);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gp.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gp.A(" + i + ','
 					+ (class98_sub22 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -238,7 +238,7 @@ final class Class107 {
 				aString912 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gp.E(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "gp.E(" + bool
 					+ ')');
 		}
 	}
@@ -316,21 +316,21 @@ final class Class107 {
 				anInt920 = 7;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("gp.H(" + i + ','
 							+ (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i_33_ + ')'));
 		}
 	}
 
-	final Class146 method1728(final int i, final AnimationDefParser class183,
+	final AbstractModel method1728(final int i, final AnimationDefParser class183,
 			final int i_38_, final int i_39_, final byte i_40_,
 			final int i_41_, final ha var_ha) {
 		try {
 			return method1723(i_38_, i, 0, i_41_, null, null, 0, (byte) 2,
 					class183, false, var_ha, false, 0, i_39_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gp.I(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gp.I(" + i + ','
 					+ (class183 != null ? "{...}" : "null") + ',' + i_38_ + ','
 					+ i_39_ + ',' + i_40_ + ',' + i_41_ + ','
 					+ (var_ha != null ? "{...}" : "null") + ')'));

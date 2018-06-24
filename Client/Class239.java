@@ -62,7 +62,7 @@ final class Class239 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pc.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pc.A(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ',' + i_4_
 					+ ',' + i_5_ + ')'));
 		}
@@ -74,7 +74,7 @@ final class Class239 {
 			aClass207_1842 = class207;
 			anInt1838 = aClass207_1842.method2761(0, 15);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pc.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("pc.<init>("
 					+ (class279 != null ? "{...}" : "null") + ',' + i + ','
 					+ (class207 != null ? "{...}" : "null") + ')'));
 		}

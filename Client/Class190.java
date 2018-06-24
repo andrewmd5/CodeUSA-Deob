@@ -27,7 +27,7 @@ final class Class190 {
 			}
 			method2645(-18732, anInterface2_Impl2_1471, anInt1460);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mj.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "mj.C(" + i + ')');
 		}
 	}
 
@@ -44,7 +44,7 @@ final class Class190 {
 			}
 			return (byte) 1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("mj.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("mj.E(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -63,7 +63,7 @@ final class Class190 {
 				method2646(41);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("mj.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("mj.B(" + i + ','
 					+ (interface2_impl2 != null ? "{...}" : "null") + ','
 					+ i_2_ + ')'));
 		}
@@ -79,7 +79,7 @@ final class Class190 {
 				}
 				method2646(102);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "mj.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "mj.D(" + i
 						+ ')');
 			}
 			break;
@@ -199,7 +199,7 @@ final class Class190 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mj.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "mj.F(" + i + ')');
 		}
 	}
 
@@ -289,7 +289,7 @@ final class Class190 {
 				anInterface4_Impl2_1461 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("mj.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("mj.<init>("
 					+ (var_ha_Sub3 != null ? "{...}" : "null") + ','
 					+ (class15 != null ? "{...}" : "null") + ','
 					+ (var_s_Sub2 != null ? "{...}" : "null") + ',' + i + ','
@@ -335,18 +335,18 @@ final class Class190 {
 				i_41_ = OutputStream_Sub2.anInt39;
 			}
 			Class43.method401(i_41_, true);
-			final int i_42_ = (Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660
+			final int i_42_ = (Surface.player
 					.method3034(0) << 2087692776);
 			Class169.method2535(
 					Class279.anInt2099,
-					(((Class246_Sub3) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).aByte5088),
-					(((Class246_Sub3) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt5079)
+					(((Class246_Sub3) Surface.player).aByte5088),
+					(((Class246_Sub3) Surface.player).anInt5079)
 							- -i_42_,
-					(((Class246_Sub3) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt5084)
+					(((Class246_Sub3) Surface.player).anInt5084)
 							+ i_42_, (byte) 112);
 			Class279.anInt2099 = 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mj.A(" + l + ','
+			throw Class64_Sub27.printError(runtimeexception, "mj.A(" + l + ','
 					+ i + ')');
 		}
 	}

@@ -17,7 +17,7 @@ final class Class221 {
 				return;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("oda.C("
+			throw Class64_Sub27.printError(runtimeexception, ("oda.C("
 					+ (file != null ? "{...}" : "null") + ','
 					+ (string != null ? "{...}" : "null") + ',' + i + ')'));
 		}
@@ -33,7 +33,7 @@ final class Class221 {
 				}
 				method2822(-121);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "oda.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "oda.A(" + i
 						+ ')');
 			}
 			break;
@@ -75,7 +75,7 @@ final class Class221 {
 					method2823((byte) -125, is, is_0_, 1 + i_4_, i_2_);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("oda.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("oda.B(" + i
 						+ ',' + (is != null ? "{...}" : "null") + ','
 						+ (is_0_ != null ? "{...}" : "null") + ',' + i_1_ + ','
 						+ i_2_ + ')'));

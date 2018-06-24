@@ -1,8 +1,10 @@
+
+
 /* Class146_Sub1 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class146_Sub1 extends Class146 {
+final class Class146_Sub1 extends AbstractModel {
 	private int[] anIntArray4747;
 	private int[] verticesX;
 	private int[] anIntArray4749;
@@ -149,7 +151,8 @@ final class Class146_Sub1 extends Class146 {
 
 	@Override
 	final void method2337(final int i, final int i_12_, final int i_13_,
-			final int i_14_) {
+			final int i_14_) { //breaks macs
+	
 		if ((anInt4816 & 0x80000) != 524288) {
 			throw new IllegalStateException("FMT");
 		}
@@ -172,6 +175,7 @@ final class Class146_Sub1 extends Class146 {
 		if (aClass170Array4827 != null) {
 			for (int i_20_ = 0; i_20_ < anInt4776; i_20_++) {
 				final Class170 class170 = aClass170Array4827[i_20_];
+				
 				final Class329 class329 = aClass329Array4821[i_20_];
 				class329.anInt2770 = (class329.anInt2770 & ~0xffffff | (Class221.anIntArray1665[Class111_Sub2
 						.method2117(
@@ -1936,7 +1940,7 @@ final class Class146_Sub1 extends Class146 {
 	}
 
 	@Override
-	final Class146 method2341(final byte i, final int i_447_, final boolean bool) {
+	final AbstractModel method2341(final byte i, final int i_447_, final boolean bool) {
 		method2355(Thread.currentThread());
 		Class146_Sub1 class146_sub1_448_;
 		Class146_Sub1 class146_sub1_449_;
@@ -2382,9 +2386,9 @@ final class Class146_Sub1 extends Class146 {
 	}
 
 	@Override
-	final void method2332(final Class146 class146, final int i,
+	final void method2332(final AbstractModel abstractModel, final int i,
 			final int i_514_, final int i_515_, final boolean bool) {
-		final Class146_Sub1 class146_sub1_516_ = (Class146_Sub1) class146;
+		final Class146_Sub1 class146_sub1_516_ = (Class146_Sub1) abstractModel;
 		if ((anInt4816 & 0x10000) != 65536) {
 			throw new IllegalStateException("");
 		}
@@ -2556,14 +2560,14 @@ final class Class146_Sub1 extends Class146 {
 	final void method2342() {
 		if (aHa_Sub2_4797.anInt4508 > 1) {
 			synchronized (this) {
-				while (((Class146) this).aBoolean1181) {
+				while (((AbstractModel) this).aBoolean1181) {
 					try {
 						this.wait();
 					} catch (final InterruptedException interruptedexception) {
 						/* empty */
 					}
 				}
-				((Class146) this).aBoolean1181 = true;
+				((AbstractModel) this).aBoolean1181 = true;
 			}
 		}
 	}
@@ -2580,7 +2584,7 @@ final class Class146_Sub1 extends Class146 {
 		}
 	}
 
-	private final Class146 method2367(final Class146_Sub1 class146_sub1_534_,
+	private final AbstractModel method2367(final Class146_Sub1 class146_sub1_534_,
 			final Class146_Sub1 class146_sub1_535_, final int i,
 			final boolean bool, final boolean bool_536_) {
 		class146_sub1_534_.aBoolean4778 = aBoolean4778;
@@ -4132,7 +4136,7 @@ final class Class146_Sub1 extends Class146 {
 	final void method2327() {
 		if (aHa_Sub2_4797.anInt4508 > 1) {
 			synchronized (this) {
-				((Class146) this).aBoolean1181 = false;
+				((AbstractModel) this).aBoolean1181 = false;
 				notifyAll();
 			}
 		}

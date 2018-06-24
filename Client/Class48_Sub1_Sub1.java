@@ -58,7 +58,7 @@ final class Class48_Sub1_Sub1 extends Class48_Sub1 {
 			}
 			return aClass42_Sub2_5504;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bja.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bja.E(" + i + ')');
 		}
 	}
 
@@ -72,7 +72,7 @@ final class Class48_Sub1_Sub1 extends Class48_Sub1 {
 			aShortArray5513 = null;
 			aShortArrayArray5503 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bja.G(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "bja.G(" + bool
 					+ ')');
 		}
 	}
@@ -135,7 +135,7 @@ final class Class48_Sub1_Sub1 extends Class48_Sub1 {
 			fs_11_[0] = f_20_;
 			fs_11_[1] = f_19_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bja.I(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("bja.I(" + i + ','
 					+ f + ',' + i_5_ + ',' + i_6_ + ',' + f_7_ + ',' + i_8_
 					+ ',' + f_9_ + ',' + (fs != null ? "{...}" : "null") + ','
 					+ i_10_ + ',' + (fs_11_ != null ? "{...}" : "null") + ','
@@ -154,7 +154,7 @@ final class Class48_Sub1_Sub1 extends Class48_Sub1 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bja.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "bja.H(" + i + ','
 					+ i_23_ + ')');
 		}
 	}
@@ -166,7 +166,7 @@ final class Class48_Sub1_Sub1 extends Class48_Sub1 {
 			}
 			return Class124.aHashtable1015.containsKey(string);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bja.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("bja.F(" + i + ','
 					+ (string != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -182,7 +182,7 @@ final class Class48_Sub1_Sub1 extends Class48_Sub1 {
 			anInt5501 = i_25_;
 			aHa_Sub1_5510 = var_ha_Sub1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bja.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("bja.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_24_ + ',' + i_25_ + ',' + i_26_ + ',' + i_27_ + ','
 					+ i_28_ + ')'));

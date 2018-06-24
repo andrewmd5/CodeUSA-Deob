@@ -18,7 +18,7 @@ final class Class355 {
 			return new Class98_Sub44(is);
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("vk.A(" + i + ','
+					.printError(runtimeexception, ("vk.A(" + i + ','
 							+ (class207 != null ? "{...}" : "null") + ','
 							+ i_0_ + ')'));
 		}

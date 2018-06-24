@@ -15,7 +15,7 @@ final class Class137 {
 			aClass326_1080 = null;
 			aClass113_1078 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jfa.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "jfa.B(" + i + ')');
 		}
 	}
 
@@ -40,7 +40,7 @@ final class Class137 {
 			Class98_Sub46_Sub3.aClass131Array5953[0] = class131;
 			Class98_Sub3.anInt3825 = Class24.anInt242;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("jfa.A(" + (string != null ? "{...}" : "null") + ',' + i
 							+ ',' + (string_1_ != null ? "{...}" : "null")
 							+ ',' + (string_2_ != null ? "{...}" : "null")

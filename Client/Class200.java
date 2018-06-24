@@ -24,7 +24,7 @@ final class Class200 {
 		try {
 			throw new IllegalStateException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"nd.toString(" + ')');
 		}
 	}
@@ -47,7 +47,7 @@ final class Class200 {
 			}
 			return null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("nd.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("nd.A(" + i + ','
 					+ i_2_ + ',' + (var_ha != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -146,7 +146,7 @@ final class Class200 {
 			}
 			return i_6_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("nd.C("
+			throw Class64_Sub27.printError(runtimeexception, ("nd.C("
 					+ (string != null ? "{...}" : "null") + ',' + i + ','
 					+ i_3_ + ',' + i_4_ + ',' + (is != null ? "{...}" : "null")
 					+ ',' + i_5_ + ')'));
@@ -166,7 +166,7 @@ final class Class200 {
 				}
 				aClass111_1543 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "nd.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "nd.B(" + i
 						+ ')');
 			}
 			break;

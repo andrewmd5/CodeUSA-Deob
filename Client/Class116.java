@@ -23,7 +23,7 @@ final class Class116 {
 				anInt967 = -116;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hha.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("hha.B(" + i + ','
 					+ (var_ha != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -37,7 +37,7 @@ final class Class116 {
 			aClass98_Sub31_Sub2_965 = null;
 			aStringArray966 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hha.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hha.A(" + i + ')');
 		}
 	}
 
@@ -50,7 +50,7 @@ final class Class116 {
 				class98_sub46_sub17.anInt6054 = i;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hha.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("hha.D(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -70,7 +70,7 @@ final class Class116 {
 				return false;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hha.C(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "hha.C(" + bool
 					+ ')');
 		}
 	}

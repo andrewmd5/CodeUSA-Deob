@@ -7,7 +7,7 @@ final class Surface {
 	Surface aClass87_657;
 	byte aByte658;
 	int anInt659;
-	static Class246_Sub3_Sub4_Sub2_Sub2 aClass246_Sub3_Sub4_Sub2_Sub2_660;
+	static Player player;
 	int anInt661;
 	int anInt662;
 	int anInt663;
@@ -55,9 +55,9 @@ final class Surface {
 				method854(-66, -83, -85);
 			}
 			anIntArray667 = null;
-			aClass246_Sub3_Sub4_Sub2_Sub2_660 = null;
+			player = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fk.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "fk.C(" + i + ')');
 		}
 	}
 
@@ -71,7 +71,7 @@ final class Surface {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fk.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fk.B(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -98,7 +98,7 @@ final class Surface {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fk.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fk.E(" + i + ','
 					+ (class24 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -110,7 +110,7 @@ final class Surface {
 			}
 			return Class98_Sub45.method1520(anInt672, i ^ 0x3a23);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fk.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "fk.A(" + i + ')');
 		}
 	}
 
@@ -123,7 +123,7 @@ final class Surface {
 			anInt674 = i_4_;
 			anInt666 = i_2_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fk.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("fk.<init>(" + i
 					+ ',' + i_2_ + ',' + i_3_ + ',' + i_4_ + ',' + i_5_ + ')'));
 		}
 	}
@@ -136,7 +136,7 @@ final class Surface {
 			}
 			return new Surface(anInt672, i, i_7_, i_6_, aByte658);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fk.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fk.D(" + i + ','
 					+ bool + ',' + i_6_ + ',' + i_7_ + ')'));
 		}
 	}

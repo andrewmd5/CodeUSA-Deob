@@ -15,7 +15,7 @@ final class Class295 {
 				}
 				method3484(false, false);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "sca.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "sca.A(" + i
 						+ ')');
 			}
 			break;
@@ -33,7 +33,7 @@ final class Class295 {
 				Class198.anInt1524 = 0;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sca.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("sca.B(" + bool
 					+ ',' + bool_0_ + ')'));
 		}
 	}

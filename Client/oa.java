@@ -692,7 +692,7 @@ final class oa extends ha implements Interface9 {
 	}
 
 	@Override
-	final Class146 method1790(final Model model, final int i,
+	final AbstractModel method1790(final Model model, final int i,
 			final int i_187_, final int i_188_, final int i_189_) {
 		return new i(this, aYa3296, model, i, i_187_, i_188_, i_189_);
 	}

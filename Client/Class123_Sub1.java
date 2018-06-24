@@ -19,7 +19,7 @@ final class Class123_Sub1 extends Class123 {
 			}
 			Class38.aClass100_357.method1690(1);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "caa.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "caa.B(" + i + ')');
 		}
 	}
 
@@ -32,7 +32,7 @@ final class Class123_Sub1 extends Class123 {
 			}
 			aClass307_4743.method3603(true);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "caa.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "caa.C(" + i + ')');
 		}
 	}
 
@@ -41,7 +41,7 @@ final class Class123_Sub1 extends Class123 {
 		try {
 			method2207(-17);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"caa.finalize(" + ')');
 		}
 	}
@@ -55,7 +55,7 @@ final class Class123_Sub1 extends Class123 {
 			}
 			return aClass127_4745.method2221(i, is, i_1_, (byte) 59);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("caa.A("
+			throw Class64_Sub27.printError(runtimeexception, ("caa.A("
 					+ (is != null ? "{...}" : "null") + ',' + i + ',' + i_0_
 					+ ',' + i_1_ + ')'));
 		}
@@ -75,7 +75,7 @@ final class Class123_Sub1 extends Class123 {
 			aClass127_4745.method2220(85);
 			aClass307_4743.method3606((byte) -117);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "caa.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "caa.F(" + i + ')');
 		}
 	}
 
@@ -89,7 +89,7 @@ final class Class123_Sub1 extends Class123 {
 			aClass307_4743.method3605(i_3_, i_2_, is, i ^ 0x5ef4);
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("caa.E(" + i + ',' + i_2_
+					.printError(runtimeexception, ("caa.E(" + i + ',' + i_2_
 							+ ',' + (is != null ? "{...}" : "null") + ','
 							+ i_3_ + ')'));
 		}
@@ -103,7 +103,7 @@ final class Class123_Sub1 extends Class123 {
 			}
 			return aClass127_4745.method2222(i_4_, (byte) -124);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "caa.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "caa.D(" + i + ','
 					+ i_4_ + ')');
 		}
 	}
@@ -117,7 +117,7 @@ final class Class123_Sub1 extends Class123 {
 			aClass127_4745 = new Class127(aSocket4746.getInputStream(), i);
 			aClass307_4743 = new PacketSender(aSocket4746.getOutputStream(), i);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("caa.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("caa.<init>("
 					+ (socket != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}

@@ -8,7 +8,7 @@ final class Class246_Sub2 extends Class246 {
 	int anInt5073;
 	int anInt5074;
 	int anInt5075;
-	Class246_Sub3_Sub4_Sub2 aClass246_Sub3_Sub4_Sub2_5076;
+	Entity aClass246_Sub3_Sub4_Sub2_5076;
 	static Class172[][][] aClass172ArrayArrayArray5077;
 
 	public static void method2970(final byte i) {
@@ -20,7 +20,7 @@ final class Class246_Sub2 extends Class246 {
 				}
 				aClass172ArrayArrayArray5077 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "br.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "br.A(" + i
 						+ ')');
 			}
 			break;
@@ -35,7 +35,7 @@ final class Class246_Sub2 extends Class246 {
 			}
 			Class169.anInt1307 = i + -Class278.anInt2078;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("br.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("br.C(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -176,7 +176,7 @@ final class Class246_Sub2 extends Class246 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("br.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("br.B(" + i + ','
 					+ (class197 != null ? "{...}" : "null") + ','
 					+ (class43 != null ? "{...}" : "null") + ',' + bool + ','
 					+ (var_ha != null ? "{...}" : "null") + ','
@@ -192,7 +192,7 @@ final class Class246_Sub2 extends Class246 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("br.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("br.D(" + i + ','
 					+ i_14_ + ',' + i_15_ + ')'));
 		}
 	}

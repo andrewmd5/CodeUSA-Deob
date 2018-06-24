@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub11 extends Class98 {
+final class Class98_Sub11 extends Node {
 	OutgoingOpcode aClass171_3864;
 	Class98_Sub22_Sub1 aClass98_Sub22_Sub1_3865;
 	static Class148 aClass148_3866 = new Class148();
@@ -19,7 +19,7 @@ final class Class98_Sub11 extends Class98 {
 			aClass98_Sub46_Sub16Array3870 = null;
 			aClass85_3868 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "eda.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "eda.A(" + i + ')');
 		}
 	}
 
@@ -28,7 +28,7 @@ final class Class98_Sub11 extends Class98 {
 			Class232.aClass79_1740.method800((byte) 62, i);
 			int i_1_ = -64 / ((i_0_ - -10) / 50);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "eda.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "eda.E(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -41,7 +41,7 @@ final class Class98_Sub11 extends Class98 {
 				Class98_Sub46_Sub2_Sub2.aClass98_Sub11Array6302[Class98_Sub33.anInt4117++] = this;
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "eda.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "eda.C(" + i + ')');
 		}
 	}
 
@@ -51,7 +51,7 @@ final class Class98_Sub11 extends Class98 {
 			if (bool != true)
 				method1123((byte) 9);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("eda.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("eda.B(" + bool
 					+ ',' + (is != null ? "{...}" : "null") + ','
 					+ (strings != null ? "{...}" : "null") + ')'));
 		}
@@ -74,7 +74,7 @@ final class Class98_Sub11 extends Class98 {
 					break;
 				method1126(true, null, null);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "eda.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "eda.D(" + i
 						+ ',' + i_2_ + ')');
 			}
 			break;

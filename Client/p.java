@@ -5,7 +5,7 @@ import java.awt.Canvas;
 import java.awt.Dimension;
 import java.awt.Rectangle;
 
-final class p extends Class98 implements Interface9 {
+final class p extends Node implements Interface9 {
 	int anInt3319;
 	Canvas aCanvas3320;
 	private static boolean aBoolean3321 = false;

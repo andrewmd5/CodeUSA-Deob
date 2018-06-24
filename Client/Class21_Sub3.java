@@ -47,7 +47,7 @@ final class Class21_Sub3 extends Class21 implements Interface4_Impl2 {
 				}
 				anInt5389 = 4;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("vca.A("
+				throw Class64_Sub27.printError(runtimeexception, ("vca.A("
 						+ bool + ',' + i + ','
 						+ (class28 != null ? "{...}" : "null") + ')'));
 			}
@@ -63,7 +63,7 @@ final class Class21_Sub3 extends Class21 implements Interface4_Impl2 {
 			}
 			return f;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vca.J(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "vca.J(" + i + ','
 					+ f + ')');
 		}
 	}
@@ -77,7 +77,7 @@ final class Class21_Sub3 extends Class21 implements Interface4_Impl2 {
 					| Class373_Sub3.method3978(i_1_, i, (byte) 88) | Class21_Sub2
 						.method271((byte) -104, i, i_1_)));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vca.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vca.C(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -99,7 +99,7 @@ final class Class21_Sub3 extends Class21 implements Interface4_Impl2 {
 			OpenGL.glPixelStorei(3314, 0);
 			OpenGL.glPixelStorei(3317, 4);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vca.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("vca.<init>("
 					+ (var_ha_Sub3_Sub2 != null ? "{...}" : "null") + ','
 					+ (class164 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_2_ + ',' + (is != null ? "{...}" : "null") + ',' + i_3_
@@ -115,7 +115,7 @@ final class Class21_Sub3 extends Class21 implements Interface4_Impl2 {
 			}
 			return anInt5391;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vca.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vca.G(" + i + ')');
 		}
 	}
 
@@ -143,7 +143,7 @@ final class Class21_Sub3 extends Class21 implements Interface4_Impl2 {
 			}
 			OpenGL.glPixelStorei(3317, 4);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("vca.M(" + i + ',' + i_5_ + ',' + i_6_ + ',' + i_7_ + ','
 							+ i_8_ + ',' + i_9_ + ','
 							+ (is != null ? "{...}" : "null") + ','
@@ -157,7 +157,7 @@ final class Class21_Sub3 extends Class21 implements Interface4_Impl2 {
 		try {
 			return f;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vca.O(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "vca.O(" + i + ','
 					+ f + ')');
 		}
 	}
@@ -170,7 +170,7 @@ final class Class21_Sub3 extends Class21 implements Interface4_Impl2 {
 			}
 			return anInt5392;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vca.L(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vca.L(" + i + ')');
 		}
 	}
 
@@ -179,7 +179,7 @@ final class Class21_Sub3 extends Class21 implements Interface4_Impl2 {
 			final int i) {
 		try {
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vca.K(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("vca.K(" + bool
 					+ ',' + bool_12_ + ',' + i + ')'));
 		}
 	}
@@ -199,7 +199,7 @@ final class Class21_Sub3 extends Class21 implements Interface4_Impl2 {
 					4 * i_15_);
 			OpenGL.glPixelStorei(3314, 0);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vca.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("vca.<init>("
 					+ (var_ha_Sub3_Sub2 != null ? "{...}" : "null") + ',' + i
 					+ ',' + i_14_ + ',' + (is != null ? "{...}" : "null") + ','
 					+ i_15_ + ',' + i_16_ + ')'));
@@ -222,7 +222,7 @@ final class Class21_Sub3 extends Class21 implements Interface4_Impl2 {
 					4 * i_18_);
 			OpenGL.glPixelStorei(3314, 0);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vca.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("vca.<init>("
 					+ (var_ha_Sub3_Sub2 != null ? "{...}" : "null") + ','
 					+ (class164 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_17_ + ',' + (fs != null ? "{...}" : "null") + ','
@@ -244,7 +244,7 @@ final class Class21_Sub3 extends Class21 implements Interface4_Impl2 {
 						i_20_ - -(i * i_27_), i);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vca.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vca.H(" + i + ','
 					+ i_20_ + ',' + i_21_ + ',' + i_22_ + ',' + i_23_ + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_24_ + ')'));
 		}
@@ -258,7 +258,7 @@ final class Class21_Sub3 extends Class21 implements Interface4_Impl2 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vca.N(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vca.N(" + i + ')');
 		}
 	}
 
@@ -288,7 +288,7 @@ final class Class21_Sub3 extends Class21 implements Interface4_Impl2 {
 				}
 				OpenGL.glPixelStorei(3314, 0);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("vca.F(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("vca.F(" + i
 						+ ',' + i_28_ + ',' + i_29_ + ','
 						+ (is != null ? "{...}" : "null") + ',' + i_30_ + ','
 						+ i_31_ + ',' + i_32_ + ',' + i_33_ + ')'));
@@ -310,7 +310,7 @@ final class Class21_Sub3 extends Class21 implements Interface4_Impl2 {
 							.method964(((Class21) this).aClass162_3234,
 									(byte) 105), null, 0);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vca.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("vca.<init>("
 					+ (var_ha_Sub3_Sub2 != null ? "{...}" : "null") + ','
 					+ (class164 != null ? "{...}" : "null") + ','
 					+ (class162 != null ? "{...}" : "null") + ',' + i + ','

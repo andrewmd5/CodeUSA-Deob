@@ -24,7 +24,7 @@ final class Class155 {
 			}
 			return Class69_Sub2.method706(200);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kia.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kia.A(" + i + ')');
 		}
 	}
 
@@ -77,7 +77,7 @@ final class Class155 {
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("kia.B("
+				throw Class64_Sub27.printError(runtimeexception, ("kia.B("
 						+ (is != null ? "{...}" : "null") + ',' + i + ')'));
 			}
 			break;
@@ -114,7 +114,7 @@ final class Class155 {
 			aShortArray1235 = new short[4];
 			aShortArray1244 = new short[4];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("kia.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("kia.<init>(" + i
 					+ ',' + i_3_ + ',' + i_4_ + ',' + i_5_ + ',' + i_6_ + ','
 					+ i_7_ + ',' + i_8_ + ',' + i_9_ + ',' + i_10_ + ','
 					+ i_11_ + ',' + i_12_ + ',' + i_13_ + ',' + i_14_ + ','

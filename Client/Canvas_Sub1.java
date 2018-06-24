@@ -20,7 +20,7 @@ final class Canvas_Sub1 extends Canvas {
 		try {
 			aComponent24 = component;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bn.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "bn.<init>("
 					+ (component != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -37,7 +37,7 @@ final class Canvas_Sub1 extends Canvas {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bn.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "bn.A(" + i + ')');
 		}
 	}
 
@@ -84,7 +84,7 @@ final class Canvas_Sub1 extends Canvas {
 									(Class98_Sub9.aClass98_Sub27_3856.aClass64_Sub11_4038));
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("bn.C(" + i + ',' + i_0_ + ',' + i_1_ + ',' + i_2_
 								+ ',' + i_3_ + ',' + i_4_ + ',' + i_5_ + ','
 								+ i_6_ + ',' + i_7_ + ')'));
@@ -98,7 +98,7 @@ final class Canvas_Sub1 extends Canvas {
 		try {
 			aComponent24.paint(graphics);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bn.paint("
+			throw Class64_Sub27.printError(runtimeexception, "bn.paint("
 					+ (graphics != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -129,7 +129,7 @@ final class Canvas_Sub1 extends Canvas {
 			}
 			return new aa_Sub2(var_ha_Sub3, i_10_, i, is_17_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bn.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("bn.B(" + i + ','
 					+ (var_ha_Sub3 != null ? "{...}" : "null") + ',' + i_10_
 					+ ',' + (is != null ? "{...}" : "null") + ',' + i_11_ + ','
 					+ (is_12_ != null ? "{...}" : "null") + ')'));
@@ -141,7 +141,7 @@ final class Canvas_Sub1 extends Canvas {
 		try {
 			aComponent24.update(graphics);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "bn.update("
+			throw Class64_Sub27.printError(runtimeexception, "bn.update("
 					+ (graphics != null ? "{...}" : "null") + ')');
 		}
 	}

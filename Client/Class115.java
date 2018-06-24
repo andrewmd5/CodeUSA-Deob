@@ -18,7 +18,7 @@ final class Class115 {
 				method2155();
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hh.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hh.G(" + i + ')');
 		}
 	}
 
@@ -33,7 +33,7 @@ final class Class115 {
 				}
 				method2154((byte) -111);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "hh.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "hh.C(" + i
 						+ ',' + i_0_ + ')');
 			}
 			break;
@@ -46,7 +46,7 @@ final class Class115 {
 				aFloatArray961 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hh.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hh.A(" + i + ')');
 		}
 	}
 
@@ -62,7 +62,7 @@ final class Class115 {
 				method2156(false, null, 41);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("hh.E(" + bool + ',' + (string != null ? "{...}" : "null")
 							+ ',' + i + ')'));
 		}
@@ -93,7 +93,7 @@ final class Class115 {
 			}
 			return class266;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hh.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "hh.B(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -106,7 +106,7 @@ final class Class115 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hh.D(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "hh.D(" + bool
 					+ ')');
 		}
 	}
@@ -116,7 +116,7 @@ final class Class115 {
 			aClass207_962 = class207;
 			aClass207_962.method2761(0, 30);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hh.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("hh.<init>("
 					+ (class279 != null ? "{...}" : "null") + ',' + i + ','
 					+ (class207 != null ? "{...}" : "null") + ')'));
 		}

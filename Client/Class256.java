@@ -16,7 +16,7 @@ abstract class Class256 {
 			Canvas_Sub1.anInt26 = -1;
 			Class333.anInt3386 = 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qa.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qa.A(" + i + ')');
 		}
 	}
 }

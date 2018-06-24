@@ -14,7 +14,7 @@ final class Class98_Sub46_Sub20_Sub2 extends Class98_Sub46_Sub20 {
 		try {
 			return anObject6315;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "to.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "to.A(" + i + ')');
 		}
 	}
 
@@ -26,7 +26,7 @@ final class Class98_Sub46_Sub20_Sub2 extends Class98_Sub46_Sub20 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "to.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "to.B(" + i + ')');
 		}
 	}
 
@@ -37,7 +37,7 @@ final class Class98_Sub46_Sub20_Sub2 extends Class98_Sub46_Sub20 {
 				anIntArray6318 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "to.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "to.F(" + i + ')');
 		}
 	}
 
@@ -47,7 +47,7 @@ final class Class98_Sub46_Sub20_Sub2 extends Class98_Sub46_Sub20 {
 		try {
 			anObject6315 = object;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("to.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("to.<init>("
 					+ (interface20 != null ? "{...}" : "null") + ','
 					+ (object != null ? "{...}" : "null") + ',' + i + ')'));
 		}

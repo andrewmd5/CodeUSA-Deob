@@ -26,7 +26,7 @@ final class aa_Sub1 extends aa {
 			return new Class42_Sub1_Sub1(var_ha_Sub1, 34037, i_2_, i_3_, i_1_,
 					i_0_, true);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ht.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ht.B(" + i + ','
 					+ i_0_ + ',' + (var_ha_Sub1 != null ? "{...}" : "null")
 					+ ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ')'));
 		}
@@ -39,7 +39,7 @@ final class aa_Sub1 extends aa {
 			aClass171_3559 = null;
 			aClass123_3561 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ht.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ht.A(" + i + ')');
 		}
 	}
 
@@ -67,7 +67,7 @@ final class aa_Sub1 extends aa {
 				Class98_Sub40.anInt4197 = Class278.anInt2084;
 				Class169.anInt1307 = -1;
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ht.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ht.C(" + i
 						+ ')');
 			}
 			break;
@@ -79,7 +79,7 @@ final class aa_Sub1 extends aa {
 			((aa_Sub1) this).anIntArray3557 = is_6_;
 			((aa_Sub1) this).anIntArray3555 = is;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ht.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("ht.<init>(" + i
 					+ ',' + i_5_ + ',' + (is != null ? "{...}" : "null") + ','
 					+ (is_6_ != null ? "{...}" : "null") + ')'));
 		}

@@ -20,7 +20,7 @@ final class Class98_Sub43_Sub2 extends Class98_Sub43 {
 				}
 				aClass171_5906 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ria.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ria.C(" + i
 						+ ')');
 			}
 			break;
@@ -40,7 +40,7 @@ final class Class98_Sub43_Sub2 extends Class98_Sub43 {
 				}
 				anInt5910 = 86;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("ria.J(" + (oggpacket != null ? "{...}" : "null")
 								+ ',' + bool + ')'));
 			}
@@ -59,7 +59,7 @@ final class Class98_Sub43_Sub2 extends Class98_Sub43 {
 				}
 				aClass196_5908 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ria.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ria.A(" + i
 						+ ')');
 			}
 			break;

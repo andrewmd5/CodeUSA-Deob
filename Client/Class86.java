@@ -65,7 +65,7 @@ final class Class86 {
 				}
 				method844(2, false, 22, 53, -22, 114, -118, -30);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("fj.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("fj.C(" + i
 						+ ',' + i_0_ + ','
 						+ (class98_sub22 != null ? "{...}" : "null") + ')'));
 			}
@@ -83,7 +83,7 @@ final class Class86 {
 				}
 				aFloatArray640 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "fj.J(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "fj.J(" + bool
 						+ ')');
 			}
 			break;
@@ -118,7 +118,7 @@ final class Class86 {
 					aFloatArray640 = null;
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("fj.F(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("fj.F(" + i
 						+ ',' + (var_ha != null ? "{...}" : "null") + ','
 						+ (class148 != null ? "{...}" : "null") + ',' + i_1_
 						+ ',' + i_2_ + ')'));
@@ -146,7 +146,7 @@ final class Class86 {
 				}
 				method844(-106, false, -53, 52, 126, 31, -86, -57);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("fj.E(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("fj.E(" + i
 						+ ',' + bool + ',' + i_3_ + ',' + i_4_ + ',' + i_5_
 						+ ',' + i_6_ + ',' + i_7_ + ',' + i_8_ + ')'));
 			}
@@ -183,7 +183,7 @@ final class Class86 {
 					+ Class309.aClass309_2618.method3615(Class374.anInt3159,
 							(byte) 25) + class98_sub46_sub8.aString5992);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fj.K(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fj.K(" + i + ','
 					+ (class98_sub46_sub8 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -205,7 +205,7 @@ final class Class86 {
 			}
 			return class332;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fj.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("fj.A(" + bool
 					+ ',' + (var_ha != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -252,7 +252,7 @@ final class Class86 {
 				aClass121_644.aClass79_1003.method805(anInt647,
 						var_ha.method1758(class324, true), (byte) -80);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("fj.G(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("fj.G(" + i
 						+ ',' + (var_ha != null ? "{...}" : "null") + ')'));
 			}
 			break;
@@ -276,7 +276,7 @@ final class Class86 {
 			}
 			return string;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fj.L(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "fj.L(" + i + ','
 					+ i_10_ + ')');
 		}
 	}
@@ -295,7 +295,7 @@ final class Class86 {
 			}
 			return class332;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fj.H("
+			throw Class64_Sub27.printError(runtimeexception, ("fj.H("
 					+ (var_ha != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -314,7 +314,7 @@ final class Class86 {
 			}
 			return class332;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fj.I(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fj.I(" + i + ','
 					+ (var_ha != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -334,7 +334,7 @@ final class Class86 {
 				}
 				aFloatArray640 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("fj.B(" + (class98_sub22 != null ? "{...}" : "null")
 								+ ',' + i + ')'));
 			}
@@ -359,7 +359,7 @@ final class Class86 {
 			}
 			return class332;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fj.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fj.D(" + i + ','
 					+ (var_ha != null ? "{...}" : "null") + ')'));
 		}
 	}

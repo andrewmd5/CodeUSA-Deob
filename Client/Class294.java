@@ -69,7 +69,7 @@ final class Class294 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sc.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sc.F(" + i + ','
 					+ (class98_sub22 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -289,7 +289,7 @@ final class Class294 {
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("sc.H("
+				throw Class64_Sub27.printError(runtimeexception, ("sc.H("
 						+ (class98_sub22 != null ? "{...}" : "null") + ',' + i
 						+ ',' + i_1_ + ')'));
 			}
@@ -311,7 +311,7 @@ final class Class294 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sc.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sc.B(" + i + ','
 					+ i_11_ + ',' + i_12_ + ',' + i_13_ + ',' + i_14_ + ')'));
 		}
 	}
@@ -331,7 +331,7 @@ final class Class294 {
 			}
 			return -1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sc.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sc.D(" + i + ')');
 		}
 	}
 
@@ -365,7 +365,7 @@ final class Class294 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sc.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sc.E(" + i + ','
 					+ i_19_ + ',' + i_20_ + ',' + i_21_ + ',' + i_22_ + ','
 					+ i_23_ + ',' + i_24_ + ')'));
 		}
@@ -388,7 +388,7 @@ final class Class294 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sc.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "sc.G(" + i + ','
 					+ i_28_ + ')');
 		}
 	}
@@ -437,7 +437,7 @@ final class Class294 {
 			}
 			return aClass111Array2387;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sc.C("
+			throw Class64_Sub27.printError(runtimeexception, ("sc.C("
 					+ (var_ha != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -450,7 +450,7 @@ final class Class294 {
 				anIntArray2406 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sc.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sc.A(" + i + ')');
 		}
 	}
 

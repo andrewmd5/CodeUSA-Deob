@@ -93,7 +93,7 @@ final class Class98_Sub10_Sub38 extends Class98_Sub10 {
 				} while (false);
 				anInt5757 = class98_sub22.readUnsignedShort((byte) 127);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("wia.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("wia.A(" + i
 						+ ',' + (class98_sub22 != null ? "{...}" : "null")
 						+ ',' + i_0_ + ')'));
 			}
@@ -120,7 +120,7 @@ final class Class98_Sub10_Sub38 extends Class98_Sub10 {
 			} while (false);
 			return i_3_ + (i & 0xff80);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("wia.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("wia.B(" + i + ','
 					+ i_2_ + ',' + i_3_ + ')'));
 		}
 	}
@@ -185,7 +185,7 @@ final class Class98_Sub10_Sub38 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wia.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "wia.G(" + i + ','
 					+ i_4_ + ')');
 		}
 	}
@@ -198,7 +198,7 @@ final class Class98_Sub10_Sub38 extends Class98_Sub10 {
 				anInt5758 = -87;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wia.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wia.I(" + i + ')');
 		}
 	}
 
@@ -243,7 +243,7 @@ final class Class98_Sub10_Sub38 extends Class98_Sub10 {
 			}
 			anIntArray5767[anInt5763] = 4096;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wia.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wia.E(" + i + ')');
 		}
 	}
 
@@ -266,7 +266,7 @@ final class Class98_Sub10_Sub38 extends Class98_Sub10 {
 				}
 				aClass135_5765 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "wia.D(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "wia.D(" + bool
 						+ ')');
 			}
 			break;

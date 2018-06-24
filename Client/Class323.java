@@ -19,7 +19,7 @@ final class Class323 {
 			class98_sub46_sub17.anInt6054 = i_0_;
 			class98_sub46_sub17.anInt6053 = i_2_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tt.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("tt.D(" + i + ','
 					+ i_0_ + ',' + bool + ',' + i_1_ + ',' + i_2_ + ')'));
 		}
 	}
@@ -47,7 +47,7 @@ final class Class323 {
 			}
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception,
+					.printError(runtimeexception,
 							("tt.B(" + i + ',' + i_3_ + ',' + i_4_ + ',' + i_5_
 									+ ',' + (is != null ? "{...}" : "null")
 									+ ',' + bool + ',' + i_6_ + ','
@@ -87,7 +87,7 @@ final class Class323 {
 			}
 			return class98_sub18;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tt.C(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("tt.C(" + bool
 					+ ',' + i + ',' + i_13_ + ',' + i_14_ + ',' + i_15_ + ')'));
 		}
 	}
@@ -97,7 +97,7 @@ final class Class323 {
 			if (i != 115) {
 				return -85;
 			}
-			if (class38 != Class98.aClass38_834) {
+			if (class38 != Node.aClass38_834) {
 				if (class38 != Class357.aClass38_3026) {
 					if (class38 == Class204.aClass38_1552) {
 						return 34066;
@@ -110,7 +110,7 @@ final class Class323 {
 			}
 			throw new IllegalArgumentException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tt.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("tt.E(" + i + ','
 					+ (class38 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -125,7 +125,7 @@ final class Class323 {
 				}
 				method3677(true, -27, 83, -34, -122);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "tt.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "tt.A(" + i
 						+ ')');
 			}
 			break;

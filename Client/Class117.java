@@ -18,7 +18,7 @@ final class Class117 {
 			}
 			anIntArray974 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hj.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hj.E(" + i + ')');
 		}
 	}
 
@@ -250,7 +250,7 @@ final class Class117 {
 			method2166((byte) 94);
 			anInt970 = 256;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hj.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hj.B(" + i + ')');
 		}
 	}
 
@@ -281,7 +281,7 @@ final class Class117 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hj.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hj.G(" + i + ')');
 		}
 	}
 
@@ -297,7 +297,7 @@ final class Class117 {
 			return 0;
 			// return anIntArray973[--anInt970];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hj.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hj.C(" + i + ')');
 		}
 	}
 
@@ -313,7 +313,7 @@ final class Class117 {
 			return 0;
 			// return anIntArray973[-1 + anInt970];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hj.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hj.D(" + i + ')');
 		}
 	}
 
@@ -353,7 +353,7 @@ final class Class117 {
 				}
 				method2164(null, 101, -71, 107, 35, -44, 75, true, true);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("hj.F("
+				throw Class64_Sub27.printError(runtimeexception, ("hj.F("
 						+ (is != null ? "{...}" : "null") + ','
 						+ (ls != null ? "{...}" : "null") + ',' + i + ','
 						+ i_23_ + ',' + bool + ')'));
@@ -371,7 +371,7 @@ final class Class117 {
 			}
 			method2165((byte) -123);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hj.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "hj.<init>("
 					+ (is != null ? "{...}" : "null") + ')');
 		}
 	}

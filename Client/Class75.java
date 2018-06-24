@@ -80,7 +80,7 @@ final class Class75 {
 				aClass75_573 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "es.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "es.B(" + i + ')');
 		}
 	}
 
@@ -93,7 +93,7 @@ final class Class75 {
 					aClass75_574, aClass75_575, aClass75_576, aClass75_577,
 					aClass75_578, aClass75_579 });
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "es.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "es.A(" + i + ')');
 		}
 	}
 
@@ -109,7 +109,7 @@ final class Class75 {
 			}
 			return anInt556;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "es.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "es.C(" + i + ')');
 		}
 	}
 
@@ -118,7 +118,7 @@ final class Class75 {
 		try {
 			throw new IllegalStateException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"es.toString(" + ')');
 		}
 	}
@@ -135,7 +135,7 @@ final class Class75 {
 			anInt552 = i_6_;
 			anInt557 = i_7_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("es.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("es.<init>(" + i
 					+ ',' + (class309 != null ? "{...}" : "null") + ','
 					+ (class309_5_ != null ? "{...}" : "null") + ',' + i_6_
 					+ ',' + i_7_ + ',' + bool + ',' + bool_8_ + ')'));

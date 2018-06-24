@@ -19,7 +19,7 @@ final class za_Sub2 extends za {
 				class98_sub46_sub17.anInt6054 = i;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ig.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ig.D(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -33,7 +33,7 @@ final class za_Sub2 extends za {
 				}
 				method1682(-128, -23, -19);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ig.F(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ig.F(" + i
 						+ ')');
 			}
 			break;
@@ -50,7 +50,7 @@ final class za_Sub2 extends za {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ig.I(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ig.I(" + i + ','
 					+ i_2_ + ',' + i_3_ + ')'));
 		}
 	}
@@ -59,7 +59,7 @@ final class za_Sub2 extends za {
 		try {
 			aNativeHeap6082 = new NativeHeap(i);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ig.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "ig.<init>(" + i
 					+ ')');
 		}
 	}
@@ -74,7 +74,7 @@ final class za_Sub2 extends za {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ig.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ig.G(" + i + ','
 					+ i_4_ + ')');
 		}
 	}
@@ -84,7 +84,7 @@ final class za_Sub2 extends za {
 		try {
 			Class98_Sub45.method1521((byte) 122, i, string, 0, "", "", "");
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ig.E("
+			throw Class64_Sub27.printError(runtimeexception, ("ig.E("
 					+ (string != null ? "{...}" : "null") + ',' + i + ','
 					+ i_5_ + ')'));
 		}
@@ -126,7 +126,7 @@ final class za_Sub2 extends za {
 				}
 				method1682(87, 47, -5);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("ig.H(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("ig.H(" + i
 						+ ',' + i_7_ + ',' + i_8_ + ',' + bool + ',' + i_9_
 						+ ',' + i_10_ + ',' + i_11_ + ',' + i_12_ + ',' + i_13_
 						+ ',' + i_14_ + ')'));

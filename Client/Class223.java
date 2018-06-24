@@ -51,7 +51,7 @@ final class Class223 {
 			aClass148_1673.method2423(-2, class98_sub9);
 			return (anIntArrayArrayArray1680[class98_sub9.anInt3853]);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oea.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "oea.E(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -66,7 +66,7 @@ final class Class223 {
 			}
 			return is_3_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("oea.D(" + (is != null ? "{...}" : "null") + ',' + i + ','
 							+ i_2_ + ')'));
 		}
@@ -86,7 +86,7 @@ final class Class223 {
 			}
 			return anIntArrayArrayArray1680;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oea.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "oea.B(" + i + ')');
 		}
 	}
 
@@ -103,7 +103,7 @@ final class Class223 {
 			aClass148_1673.method2422((byte) 47);
 			aClass148_1673 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oea.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "oea.C(" + i + ')');
 		}
 	}
 
@@ -114,7 +114,7 @@ final class Class223 {
 			}
 			aClass207_1681 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oea.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "oea.A(" + i + ')');
 		}
 	}
 
@@ -127,7 +127,7 @@ final class Class223 {
 			anIntArrayArrayArray1680 = new int[anInt1677][3][i_7_];
 			aClass98_Sub9Array1678 = new Class98_Sub9[anInt1674];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("oea.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("oea.<init>(" + i
 					+ ',' + i_6_ + ',' + i_7_ + ')'));
 		}
 	}

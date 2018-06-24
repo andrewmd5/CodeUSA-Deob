@@ -35,25 +35,25 @@ final class Class48_Sub2_Sub1 extends Class48_Sub2 {
 					AnimationDefinition.anIntArrayArray814[i_6_][i] = i_1_;
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("efa.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("efa.D(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ')'));
 		}
 	}
 
-	static final Class228 method472(int i, int i_7_, Class146 class146,
+	static final Class228 method472(int i, int i_7_, AbstractModel abstractModel,
 			int i_8_, int i_9_) {
 		try {
-			if (class146 == null)
+			if (abstractModel == null)
 				return null;
 			if (i_9_ != 4)
 				anInt5525 = -48;
-			Class228 class228 = new Class228(i_7_, i, i_8_, class146.na(),
-					class146.V(), class146.RA(), class146.fa(), class146.EA(),
-					class146.HA(), class146.G());
+			Class228 class228 = new Class228(i_7_, i, i_8_, abstractModel.na(),
+					abstractModel.V(), abstractModel.RA(), abstractModel.fa(), abstractModel.EA(),
+					abstractModel.HA(), abstractModel.G());
 			return class228;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("efa.F(" + i + ','
-					+ i_7_ + ',' + (class146 != null ? "{...}" : "null") + ','
+			throw Class64_Sub27.printError(runtimeexception, ("efa.F(" + i + ','
+					+ i_7_ + ',' + (abstractModel != null ? "{...}" : "null") + ','
 					+ i_8_ + ',' + i_9_ + ')'));
 		}
 	}
@@ -199,7 +199,7 @@ final class Class48_Sub2_Sub1 extends Class48_Sub2 {
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("efa.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("efa.C(" + i + ','
 					+ i_10_ + ',' + i_11_ + ',' + i_12_ + ',' + i_13_ + ','
 					+ i_14_ + ',' + i_15_ + ',' + i_16_ + ')'));
 		}
@@ -232,7 +232,7 @@ final class Class48_Sub2_Sub1 extends Class48_Sub2 {
 			}
 			return i + i_59_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "efa.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "efa.A(" + i + ','
 					+ i_58_ + ')');
 		}
 	}
@@ -244,7 +244,7 @@ final class Class48_Sub2_Sub1 extends Class48_Sub2 {
 				aClass265_5531 = null;
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "efa.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "efa.E(" + i + ')');
 		}
 	}
 
@@ -283,7 +283,7 @@ final class Class48_Sub2_Sub1 extends Class48_Sub2 {
 			int i_64_ = 84 % ((39 - i) / 57);
 			return anInterface4_Impl3_5529;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "efa.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "efa.B(" + i + ')');
 		}
 	}
 
@@ -298,7 +298,7 @@ final class Class48_Sub2_Sub1 extends Class48_Sub2 {
 					Class308.aClass113_2582, Class4.aClass113_80,
 					Class18.aClass113_210 });
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "efa.G(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "efa.G(" + bool
 					+ ')');
 		}
 	}
@@ -314,7 +314,7 @@ final class Class48_Sub2_Sub1 extends Class48_Sub2 {
 			anInt5530 = i_69_;
 			aHa_Sub3_5521 = var_ha_Sub3;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("efa.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("efa.<init>("
 					+ (var_ha_Sub3 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_65_ + ',' + i_66_ + ',' + i_67_ + ',' + i_68_ + ','
 					+ i_69_ + ')'));

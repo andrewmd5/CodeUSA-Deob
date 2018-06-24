@@ -17,7 +17,7 @@ final class Class93_Sub3 extends Class93 {
 					break;
 				method912(108);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "uu.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "uu.C(" + i
 						+ ')');
 			}
 			break;
@@ -30,7 +30,7 @@ final class Class93_Sub3 extends Class93 {
 				aClass58_5493 = null;
 			return OutputStream_Sub1.aClass240_36.method2924((byte) 53);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uu.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "uu.B(" + i + ')');
 		}
 	}
 
@@ -40,7 +40,7 @@ final class Class93_Sub3 extends Class93 {
 				aClass58_5493 = null;
 			return Class47.aClass113_399;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uu.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "uu.A(" + i + ')');
 		}
 	}
 
@@ -51,7 +51,7 @@ final class Class93_Sub3 extends Class93 {
 			((Class93_Sub3) this).anInt5495 = i_7_;
 			((Class93_Sub3) this).anInt5496 = i_6_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("uu.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("uu.<init>("
 					+ (class63 != null ? "{...}" : "null") + ','
 					+ (class110 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ',' + i_4_

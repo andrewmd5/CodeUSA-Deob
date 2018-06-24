@@ -37,7 +37,7 @@ final class Class98_Sub46_Sub6 extends Class98_Sub46 {
 			}
 			return new String(cs, 0, i_2_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("dh.A(" + i + ',' + i_0_ + ',' + i_1_ + ','
 							+ (is != null ? "{...}" : "null") + ')'));
 		}
@@ -56,7 +56,7 @@ final class Class98_Sub46_Sub6 extends Class98_Sub46 {
 			anInt5977 = Class210.anIntArray3329[2];
 			anInt5976 = Class210.anIntArray3329[0];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dh.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dh.D(" + i + ')');
 		}
 	}
 
@@ -73,7 +73,7 @@ final class Class98_Sub46_Sub6 extends Class98_Sub46 {
 			Class137.anInt1079 = i_11_;
 			Class98_Sub42.anInt4239 = i_7_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dh.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("dh.E(" + i + ','
 					+ i_7_ + ',' + i_8_ + ',' + i_9_ + ',' + i_10_ + ','
 					+ i_11_ + ',' + i_12_ + ')'));
 		}
@@ -86,7 +86,7 @@ final class Class98_Sub46_Sub6 extends Class98_Sub46 {
 				aClass58_5975 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dh.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dh.C(" + i + ')');
 		}
 	}
 
@@ -103,7 +103,7 @@ final class Class98_Sub46_Sub6 extends Class98_Sub46 {
 			}
 			return class244.aClass197_1858;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dh.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("dh.B(" + i + ','
 					+ i_13_ + ',' + (var_ha != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -114,7 +114,7 @@ final class Class98_Sub46_Sub6 extends Class98_Sub46 {
 			aClass66_5973 = aClass35_5971.method331((byte) 93);
 			method1547(-102);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dh.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("dh.<init>("
 					+ (surfaceSkin != null ? "{...}" : "null") + ','
 					+ (class246_sub5 != null ? "{...}" : "null") + ')'));
 		}

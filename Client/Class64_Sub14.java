@@ -16,7 +16,7 @@ final class Class64_Sub14 extends Class64 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ju.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ju.G(" + i + ')');
 		}
 	}
 
@@ -33,7 +33,7 @@ final class Class64_Sub14 extends Class64 {
 			}
 			return 2;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ju.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ju.F(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -54,7 +54,7 @@ final class Class64_Sub14 extends Class64 {
 				((Class64) this).anInt494 = method552(0);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ju.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ju.C(" + i + ')');
 		}
 	}
 
@@ -66,7 +66,7 @@ final class Class64_Sub14 extends Class64 {
 			}
 			return 1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ju.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ju.A(" + i + ')');
 		}
 	}
 
@@ -79,7 +79,7 @@ final class Class64_Sub14 extends Class64 {
 				}
 				method608(69);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ju.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ju.D(" + i
 						+ ')');
 			}
 			break;
@@ -93,7 +93,7 @@ final class Class64_Sub14 extends Class64 {
 			}
 			return ((Class64) this).anInt494;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ju.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ju.E(" + i + ')');
 		}
 	}
 
@@ -102,7 +102,7 @@ final class Class64_Sub14 extends Class64 {
 		try {
 			((Class64) this).anInt494 = i_1_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ju.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ju.B(" + i + ','
 					+ i_1_ + ')');
 		}
 	}

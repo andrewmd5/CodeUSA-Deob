@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-abstract class Class98_Sub38 extends Class98 {
+abstract class Class98_Sub38 extends Node {
 	int anInt4186;
 
 	abstract void method1465();

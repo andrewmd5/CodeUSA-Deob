@@ -20,7 +20,7 @@ final class Class375 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wp.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "wp.B(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -32,7 +32,7 @@ final class Class375 {
 			}
 			aClass207_3167 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wp.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wp.C(" + i + ')');
 		}
 	}
 
@@ -49,7 +49,7 @@ final class Class375 {
 				return null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("wp.A(" + (file != null ? "{...}" : "null") + ',' + i
 							+ ',' + i_1_ + ')'));
 		}

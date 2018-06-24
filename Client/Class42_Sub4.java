@@ -21,7 +21,7 @@ final class Class42_Sub4 extends Class42 {
 					i_6_, i_1_, i, i_3_, i_4_, i_5_);
 			OpenGL.glFlush();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qj.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("qj.A(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ',' + i_4_
 					+ ',' + i_5_ + ',' + i_6_ + ')'));
 		}
@@ -40,7 +40,7 @@ final class Class42_Sub4 extends Class42 {
 				}
 				anInt5371 = -122;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "qj.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "qj.B(" + i
 						+ ')');
 			}
 			break;
@@ -62,7 +62,7 @@ final class Class42_Sub4 extends Class42 {
 			OpenGL.glPixelStorei(3317, 4);
 			method372(-28003, true);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qj.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("qj.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_7_ + ',' + i_8_ + ',' + i_9_ + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_10_ + ')'));
@@ -83,7 +83,7 @@ final class Class42_Sub4 extends Class42 {
 							(((Class42) this).anInt3230), 124), 5121, null, 0);
 			method372(-28003, true);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qj.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("qj.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_11_ + ',' + i_12_ + ',' + i_13_ + ')'));
 		}

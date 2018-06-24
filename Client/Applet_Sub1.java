@@ -53,7 +53,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 		try {
 			paint(graphics);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ue.update("
+			throw Class64_Sub27.printError(runtimeexception, "ue.update("
 					+ (graphics != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -65,7 +65,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 			}
 			return Class134_Sub1.method2246("jagmisc", (byte) -36);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ue.P(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ue.P(" + i + ')');
 		}
 	}
 
@@ -87,7 +87,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 			}
 			return i_2_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ue.O(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ue.O(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -99,7 +99,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 			}
 			return Class134_Sub1.method2246("jaclib", (byte) -36);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ue.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ue.G(" + i + ')');
 		}
 	}
 
@@ -115,7 +115,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 			}
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, "ue.destroy(" + ')');
+					.printError(runtimeexception, "ue.destroy(" + ')');
 		}
 	}
 
@@ -136,7 +136,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 			}
 			return Class134_Sub1.method2246("jagtheora", (byte) -36);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ue.C(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "ue.C(" + bool
 					+ ')');
 		}
 	}
@@ -177,7 +177,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 				method97((byte) -50, "crash");
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ue.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ue.E(" + i + ','
 					+ i_3_ + ',' + i_4_ + ',' + i_5_ + ','
 					+ (string != null ? "{...}" : "null") + ',' + i_6_ + ','
 					+ i_7_ + ')'));
@@ -196,7 +196,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 			}
 			return super.getParameter(string);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ue.getParameter("
+			throw Class64_Sub27.printError(runtimeexception, ("ue.getParameter("
 					+ (string != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -224,7 +224,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 			}
 			method86((byte) -6);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ue.S(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ue.S(" + i + ')');
 		}
 	}
 
@@ -274,7 +274,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 			}
 			client.aLong3547 = Class343.method3819(-47);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ue.J(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ue.J(" + i + ')');
 		}
 	}
 
@@ -286,7 +286,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 				Class180.aLong3404 = 0L;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ue.start(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ue.start(" + ')');
 		}
 	}
 
@@ -330,7 +330,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 				Class305_Sub1.method3585(exception, -128, null);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ue.L(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("ue.L(" + bool
 					+ ',' + (string != null ? "{...}" : "null") + ',' + i + ','
 					+ i_9_ + ',' + i_10_ + ',' + bool_11_ + ',' + i_12_ + ','
 					+ i_13_ + ')'));
@@ -342,7 +342,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 		try {
 			Class153.aBoolean1228 = false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ue.focusLost("
+			throw Class64_Sub27.printError(runtimeexception, "ue.focusLost("
 					+ (focusevent != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -428,7 +428,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 				}
 			} while (false);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ue.run(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ue.run(" + ')');
 		}
 	}
 
@@ -458,7 +458,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 		try {
 			Class76_Sub11.anApplet3799 = applet;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("ue.provideLoaderApplet("
 							+ (applet != null ? "{...}" : "null") + ')'));
 		}
@@ -503,7 +503,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 			} while (false);
 			method93(i + -784382227);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ue.R(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ue.R(" + i + ')');
 		}
 	}
 
@@ -521,7 +521,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 			}
 			return super.getDocumentBase();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"ue.getDocumentBase(" + ')');
 		}
 	}
@@ -540,7 +540,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 			}
 			return super.getAppletContext();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"ue.getAppletContext(" + ')');
 		}
 	}
@@ -569,7 +569,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 				Class180.aLong3404 = Class343.method3819(-47) + 4000L;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ue.stop(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ue.stop(" + ')');
 		}
 	}
 
@@ -588,7 +588,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 			}
 			return null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ue.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ue.H(" + i + ')');
 		}
 	}
 
@@ -597,7 +597,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 		try {
 			destroy();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("ue.windowClosing("
 							+ (windowevent != null ? "{...}" : "null") + ')'));
 		}
@@ -621,7 +621,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ue.paint("
+				throw Class64_Sub27.printError(runtimeexception, "ue.paint("
 						+ (graphics != null ? "{...}" : "null") + ')');
 			}
 			break;
@@ -756,7 +756,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 			}
 			return i_50_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ue.K("
+			throw Class64_Sub27.printError(runtimeexception, ("ue.K("
 					+ (class243 != null ? "{...}" : "null") + ',' + i + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_19_ + ','
 					+ i_20_ + ',' + i_21_ + ',' + i_22_ + ',' + i_23_ + ','
@@ -776,7 +776,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 			Class153.aBoolean1228 = true;
 			Class246_Sub10.aBoolean5152 = true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ue.focusGained("
+			throw Class64_Sub27.printError(runtimeexception, ("ue.focusGained("
 					+ (focusevent != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -801,7 +801,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ue.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ue.A(" + i + ','
 					+ (string != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -860,7 +860,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable,
 			}
 			System.out.println("Shutdown complete - clean:" + bool);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ue.I(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "ue.I(" + bool
 					+ ',' + i + ')');
 		}
 	}

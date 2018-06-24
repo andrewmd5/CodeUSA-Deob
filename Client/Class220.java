@@ -38,7 +38,7 @@ final class Class220 {
 				aString1663 = null;
 			} catch (final RuntimeException runtimeexception) {
 				throw Class64_Sub27
-						.method667(runtimeexception,
+						.printError(runtimeexception,
 								("oba.E("
 										+ i
 										+ ','
@@ -53,7 +53,7 @@ final class Class220 {
 		try {
 			aClass98_Sub4_1657 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oba.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "oba.D(" + i + ')');
 		}
 	}
 
@@ -145,19 +145,19 @@ final class Class220 {
 																		.readUnsignedByte((byte) 3)) == 1);
 																final int i_16_ = (class98_sub22
 																		.readMediumInt(-125));
-																Class98 class98;
+																Node node;
 																if (bool) {
-																	class98 = (new Class98_Sub15(
+																	node = (new Class98_Sub15(
 																			class98_sub22
 																					.readString((byte) 84)));
 																} else {
-																	class98 = (new Class98_Sub34(
+																	node = (new Class98_Sub34(
 																			class98_sub22
 																					.readInt(-2)));
 																}
 																aClass377_1650
 																		.method3996(
-																				class98,
+																				node,
 																				i_16_,
 																				-1);
 															}
@@ -221,7 +221,7 @@ final class Class220 {
 				aString1663 = class98_sub22.method1223(-1);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("oba.A("
+			throw Class64_Sub27.printError(runtimeexception, ("oba.A("
 					+ (class98_sub22 != null ? "{...}" : "null") + ',' + i
 					+ ',' + i_2_ + ')'));
 		}
@@ -238,7 +238,7 @@ final class Class220 {
 				}
 				aString1654 = aString1663;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "oba.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "oba.C(" + i
 						+ ')');
 			}
 			break;
@@ -253,7 +253,7 @@ final class Class220 {
 				return;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oba.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "oba.B(" + i + ')');
 		}
 	}
 

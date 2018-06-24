@@ -23,7 +23,7 @@ final class PacketSender implements Runnable {
 				}
 				aByteArray2568 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "st.E(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "st.E(" + bool
 						+ ')');
 			}
 			break;
@@ -75,7 +75,7 @@ final class PacketSender implements Runnable {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "st.run(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "st.run(" + ')');
 		}
 	}
 
@@ -121,7 +121,7 @@ final class PacketSender implements Runnable {
 						}
 					}
 					if (packetId == 51) {
-						final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_6_]);
+						final Player class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_6_]);
 						if (class246_sub3_sub4_sub2_sub2 != null) {
 							Class98_Sub10_Sub32.anInt5720 = 0;
 							Class55.anInt440 = 2;
@@ -148,14 +148,14 @@ final class PacketSender implements Runnable {
 													.method3034(0),
 											-2,
 											0,
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]),
+											(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
+											(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]),
 											true, class246_sub3_sub4_sub2_sub2
 													.method3034(0));
 						}
 					}
 					if (packetId == 45) {
-						final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_6_]);
+						final Player class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_6_]);
 
 						if (class246_sub3_sub4_sub2_sub2 != null) {
 							Class366.anInt3117 = i_2_;
@@ -181,8 +181,8 @@ final class PacketSender implements Runnable {
 													.method3034(0),
 											-2,
 											i_1_ + -78,
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]),
+											(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
+											(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]),
 											true, class246_sub3_sub4_sub2_sub2
 													.method3034(0));
 						}
@@ -296,14 +296,14 @@ final class PacketSender implements Runnable {
 													.method3034(0),
 											-2,
 											0,
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anIntArray6438[0]),
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anIntArray6437[0]),
+											(((Entity) class246_sub3_sub4_sub2_sub1).anIntArray6438[0]),
+											(((Entity) class246_sub3_sub4_sub2_sub1).anIntArray6437[0]),
 											true, class246_sub3_sub4_sub2_sub1
 													.method3034(0));
 						}
 					}
 					if ((packetId ^ 0xffffffff) == -21) {
-						final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_6_]);
+						final Player class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_6_]);
 						if (class246_sub3_sub4_sub2_sub2 != null) {
 							Class366.anInt3117 = i_2_;
 							Class98_Sub10_Sub32.anInt5720 = 0;
@@ -329,14 +329,14 @@ final class PacketSender implements Runnable {
 													.method3034(0),
 											-2,
 											i_1_ + -78,
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]),
+											(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
+											(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]),
 											true, class246_sub3_sub4_sub2_sub2
 													.method3034(i_1_ ^ 0x4e));
 						}
 					}
 					if (packetId == 5) {
-						final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_6_]);
+						final Player class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_6_]);
 						if (class246_sub3_sub4_sub2_sub2 != null) {
 							Class55.anInt440 = 2;
 							client.anInt3548++;
@@ -368,14 +368,14 @@ final class PacketSender implements Runnable {
 													.method3034(0),
 											-2,
 											0,
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]),
+											(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
+											(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]),
 											true, class246_sub3_sub4_sub2_sub2
 													.method3034(i_1_ ^ 0x4e));
 						}
 					}
 					if (packetId == 19) {
-						final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_6_]);
+						final Player class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_6_]);
 						if (class246_sub3_sub4_sub2_sub2 != null) {
 							Class98_Sub49.anInt4286 = i;
 							Class98_Sub10_Sub32.anInt5720 = 0;
@@ -401,8 +401,8 @@ final class PacketSender implements Runnable {
 													.method3034(0),
 											-2,
 											0,
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]),
+											(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
+											(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]),
 											true, class246_sub3_sub4_sub2_sub2
 													.method3034(i_1_ + -78));
 						}
@@ -429,7 +429,7 @@ final class PacketSender implements Runnable {
 						Class44.method427(i_1_ + -19259, i_4_, i_3_);
 					}
 					if (packetId == 47) {
-						final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_6_]);
+						final Player class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_6_]);
 						if (class246_sub3_sub4_sub2_sub2 != null) {
 							Class366.anInt3117 = i_2_;
 							Class65.anInt498++;
@@ -456,8 +456,8 @@ final class PacketSender implements Runnable {
 													.method3034(0),
 											-2,
 											0,
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]),
+											(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
+											(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]),
 											true, class246_sub3_sub4_sub2_sub2
 													.method3034(0));
 						}
@@ -485,7 +485,7 @@ final class PacketSender implements Runnable {
 						Class67.method688(-23, l, i_3_, i_4_);
 					}
 					if ((packetId ^ 0xffffffff) == -4) {
-						final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_6_]);
+						final Player class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_6_]);
 						if (class246_sub3_sub4_sub2_sub2 != null) {
 							Class98_Sub49.anInt4286 = i;
 							Class55.anInt440 = 2;
@@ -512,8 +512,8 @@ final class PacketSender implements Runnable {
 													.method3034(0),
 											-2,
 											i_1_ + -78,
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]),
+											(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
+											(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]),
 											true, class246_sub3_sub4_sub2_sub2
 													.method3034(0));
 						}
@@ -566,8 +566,8 @@ final class PacketSender implements Runnable {
 													.method3034(0),
 											-2,
 											0,
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anIntArray6438[0]),
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anIntArray6437[0]),
+											(((Entity) class246_sub3_sub4_sub2_sub1).anIntArray6438[0]),
+											(((Entity) class246_sub3_sub4_sub2_sub1).anIntArray6437[0]),
 											true, class246_sub3_sub4_sub2_sub1
 													.method3034(0));
 						}
@@ -645,8 +645,8 @@ final class PacketSender implements Runnable {
 													.method3034(0),
 											-2,
 											i_1_ ^ 0x4e,
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anIntArray6438[0]),
-											(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anIntArray6437[0]),
+											(((Entity) class246_sub3_sub4_sub2_sub1).anIntArray6438[0]),
+											(((Entity) class246_sub3_sub4_sub2_sub1).anIntArray6437[0]),
 											true, class246_sub3_sub4_sub2_sub1
 													.method3034(0));
 						}
@@ -678,7 +678,7 @@ final class PacketSender implements Runnable {
 										(Class331.aClass117_2811));
 						class98_sub11.aClass98_Sub22_Sub1_3865
 								.writeLEShortA(
-										(((Class246_Sub3_Sub4_Sub2) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt6369),
+										(((Entity) Surface.player).anInt6369),
 										i_1_ ^ 0xce);
 						class98_sub11.aClass98_Sub22_Sub1_3865.writeShortA(
 								Class310.anInt2652, (byte) 126);
@@ -767,7 +767,7 @@ final class PacketSender implements Runnable {
 							Class351.method3846(
 									aa_Sub2.anInt3562 - -i_4_,
 									Class272.anInt2038 - -i_3_,
-									(((Class246_Sub3) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).aByte5088),
+									(((Class246_Sub3) Surface.player).aByte5088),
 									32);
 						}
 					}
@@ -799,7 +799,7 @@ final class PacketSender implements Runnable {
 							Class351.method3846(
 									i_4_ + aa_Sub2.anInt3562,
 									i_3_ + Class272.anInt2038,
-									(((Class246_Sub3) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).aByte5088),
+									(((Class246_Sub3) Surface.player).aByte5088),
 									-67);
 						} else {
 							Class98_Sub49.anInt4286 = i;
@@ -885,8 +885,8 @@ final class PacketSender implements Runnable {
 														.method3034(0),
 												-2,
 												0,
-												(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anIntArray6438[0]),
-												(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anIntArray6437[0]),
+												(((Entity) class246_sub3_sub4_sub2_sub1).anIntArray6438[0]),
+												(((Entity) class246_sub3_sub4_sub2_sub1).anIntArray6437[0]),
 												true,
 												class246_sub3_sub4_sub2_sub1
 														.method3034(0));
@@ -955,7 +955,7 @@ final class PacketSender implements Runnable {
 									.sendPacket(false, class98_sub11);
 						}
 						if (packetId == 22) {
-							final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_6_]);
+							final Player class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_6_]);
 							if (class246_sub3_sub4_sub2_sub2 != null) {
 								Class98_Sub10_Sub32.anInt5720 = 0;
 								Class55.anInt440 = 2;
@@ -983,15 +983,15 @@ final class PacketSender implements Runnable {
 														.method3034(0),
 												-2,
 												0,
-												(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
-												(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]),
+												(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
+												(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]),
 												true,
 												class246_sub3_sub4_sub2_sub2
 														.method3034(0));
 							}
 						}
 						if (packetId == 44) {
-							final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_6_]);
+							final Player class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_6_]);
 							if (class246_sub3_sub4_sub2_sub2 != null) {
 								Class98_Sub10_Sub32.anInt5720 = 0;
 								Class366.anInt3117 = i_2_;
@@ -1017,8 +1017,8 @@ final class PacketSender implements Runnable {
 														.method3034(0),
 												-2,
 												0,
-												(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
-												(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]),
+												(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]),
+												(((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]),
 												true,
 												class246_sub3_sub4_sub2_sub2
 														.method3034(0));
@@ -1078,8 +1078,8 @@ final class PacketSender implements Runnable {
 														.method3034(0),
 												-2,
 												0,
-												(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anIntArray6438[0]),
-												(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anIntArray6437[0]),
+												(((Entity) class246_sub3_sub4_sub2_sub1).anIntArray6438[0]),
+												(((Entity) class246_sub3_sub4_sub2_sub1).anIntArray6437[0]),
 												true,
 												class246_sub3_sub4_sub2_sub1
 														.method3034(i_1_ ^ 0x4e));
@@ -1114,8 +1114,8 @@ final class PacketSender implements Runnable {
 														.method3034(i_1_ + -78),
 												-2,
 												0,
-												(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anIntArray6438[0]),
-												(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anIntArray6437[0]),
+												(((Entity) class246_sub3_sub4_sub2_sub1).anIntArray6438[0]),
+												(((Entity) class246_sub3_sub4_sub2_sub1).anIntArray6437[0]),
 												true,
 												class246_sub3_sub4_sub2_sub1
 														.method3034(0));
@@ -1132,7 +1132,7 @@ final class PacketSender implements Runnable {
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("st.A("
 								+ i
 								+ ','
@@ -1182,7 +1182,7 @@ final class PacketSender implements Runnable {
 			}
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("st.B(" + i + ',' + i_7_
+					.printError(runtimeexception, ("st.B(" + i + ',' + i_7_
 							+ ',' + (is != null ? "{...}" : "null") + ','
 							+ i_8_ + ')'));
 		}
@@ -1205,7 +1205,7 @@ final class PacketSender implements Runnable {
 				/* empty */
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "st.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "st.D(" + i + ')');
 		}
 	}
 
@@ -1213,7 +1213,7 @@ final class PacketSender implements Runnable {
 		try {
 			return PlayerUpdate.method2859(10, true, string, -21972);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("st.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("st.C(" + i + ','
 					+ (string != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -1228,7 +1228,7 @@ final class PacketSender implements Runnable {
 			aThread2571.setDaemon(true);
 			aThread2571.start();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("st.<init>(" + (outputstream != null ? "{...}" : "null")
 							+ ',' + i + ')'));
 		}

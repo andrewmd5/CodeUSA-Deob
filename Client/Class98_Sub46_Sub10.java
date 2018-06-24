@@ -33,8 +33,8 @@ final class Class98_Sub46_Sub10 extends Class98_Sub46 {
 			if (i != 31960) {
 				method1565(70, -83, false, 79, 63, 26, -76, -81, 21);
 			}
-			for (Class98_Sub6 class98_sub6 = (Class98_Sub6) aClass148_6010
-					.method2418(32); class98_sub6 != null; class98_sub6 = (Class98_Sub6) aClass148_6010
+			for (RSModelLoader class98_sub6 = (RSModelLoader) aClass148_6010
+					.method2418(32); class98_sub6 != null; class98_sub6 = (RSModelLoader) aClass148_6010
 					.method2417(113)) {
 				if (class98_sub6.method977(i_0_, (byte) 41, i_1_)) {
 					class98_sub6.method979(i_1_, 0, i_0_, is);
@@ -44,7 +44,7 @@ final class Class98_Sub46_Sub10 extends Class98_Sub46 {
 			return false;
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("gga.A(" + i + ',' + i_0_
+					.printError(runtimeexception, ("gga.A(" + i + ',' + i_0_
 							+ ',' + (is != null ? "{...}" : "null") + ','
 							+ i_1_ + ')'));
 		}
@@ -55,8 +55,8 @@ final class Class98_Sub46_Sub10 extends Class98_Sub46 {
 			if (i != 6) {
 				method1567((byte) -19);
 			}
-			for (Class98_Sub6 class98_sub6 = (Class98_Sub6) aClass148_6010
-					.method2418(32); class98_sub6 != null; class98_sub6 = (Class98_Sub6) aClass148_6010
+			for (RSModelLoader class98_sub6 = (RSModelLoader) aClass148_6010
+					.method2418(32); class98_sub6 != null; class98_sub6 = (RSModelLoader) aClass148_6010
 					.method2417(107)) {
 				if (class98_sub6.method980(i + -116, i_2_, i_3_)) {
 					return true;
@@ -64,7 +64,7 @@ final class Class98_Sub46_Sub10 extends Class98_Sub46 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gga.P(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gga.P(" + i + ','
 					+ i_2_ + ',' + i_3_ + ')'));
 		}
 	}
@@ -82,7 +82,7 @@ final class Class98_Sub46_Sub10 extends Class98_Sub46 {
 				}
 				aClass197_6019 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("gga.O(" + i + ',' + i_4_ + ',' + bool + ',' + i_5_
 								+ ',' + i_6_ + ',' + i_7_ + ',' + i_8_ + ','
 								+ i_9_ + ',' + i_10_ + ')'));
@@ -125,7 +125,7 @@ final class Class98_Sub46_Sub10 extends Class98_Sub46 {
 				method1566(ls, i, (byte) 64, -1 + i_15_, objects);
 				method1566(ls, i_15_ + 1, (byte) -109, i_12_, objects);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("gga.B("
+				throw Class64_Sub27.printError(runtimeexception, ("gga.B("
 						+ (ls != null ? "{...}" : "null") + ',' + i + ','
 						+ i_11_ + ',' + i_12_ + ','
 						+ (objects != null ? "{...}" : "null") + ')'));
@@ -144,7 +144,7 @@ final class Class98_Sub46_Sub10 extends Class98_Sub46 {
 				aClass354_6011 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gga.N(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gga.N(" + i + ')');
 		}
 	}
 
@@ -402,7 +402,7 @@ final class Class98_Sub46_Sub10 extends Class98_Sub46 {
 			Class22.anInt217 = i_31_;
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gga.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gga.C(" + i + ','
 					+ i_20_ + ',' + i_21_ + ',' + i_22_ + ',' + i_23_ + ','
 					+ i_24_ + ',' + i_25_ + ',' + i_26_ + ',' + i_27_ + ','
 					+ i_28_ + ',' + i_29_ + ','
@@ -419,8 +419,8 @@ final class Class98_Sub46_Sub10 extends Class98_Sub46 {
 			if (i != -1) {
 				method1564(71, -12, 111);
 			}
-			for (Class98_Sub6 class98_sub6 = (Class98_Sub6) aClass148_6010
-					.method2418(32); class98_sub6 != null; class98_sub6 = (Class98_Sub6) aClass148_6010
+			for (RSModelLoader class98_sub6 = (RSModelLoader) aClass148_6010
+					.method2418(32); class98_sub6 != null; class98_sub6 = (RSModelLoader) aClass148_6010
 					.method2417(117)) {
 				if ((anInt6016 ^ 0xffffffff) > (class98_sub6.anInt3838 ^ 0xffffffff)) {
 					anInt6016 = class98_sub6.anInt3838;
@@ -436,15 +436,15 @@ final class Class98_Sub46_Sub10 extends Class98_Sub46 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gga.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gga.D(" + i + ')');
 		}
 	}
 
 	final boolean method1570(final byte i, final int i_49_, final int[] is,
 			final int i_50_) {
 		try {
-			for (Class98_Sub6 class98_sub6 = (Class98_Sub6) aClass148_6010
-					.method2418(32); class98_sub6 != null; class98_sub6 = (Class98_Sub6) aClass148_6010
+			for (RSModelLoader class98_sub6 = (RSModelLoader) aClass148_6010
+					.method2418(32); class98_sub6 != null; class98_sub6 = (RSModelLoader) aClass148_6010
 					.method2417(109)) {
 				if (class98_sub6.method980(-96, i_50_, i_49_)) {
 					class98_sub6.method982(i_49_, i_50_, 88, is);
@@ -453,7 +453,7 @@ final class Class98_Sub46_Sub10 extends Class98_Sub46 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gga.M(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gga.M(" + i + ','
 					+ i_49_ + ',' + (is != null ? "{...}" : "null") + ','
 					+ i_50_ + ')'));
 		}
@@ -509,7 +509,7 @@ final class Class98_Sub46_Sub10 extends Class98_Sub46 {
 				class98_sub46_sub17.anInt6054 = i_58_;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gga.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gga.F(" + i + ','
 					+ i_57_ + ',' + i_58_ + ')'));
 		}
 	}
@@ -520,8 +520,8 @@ final class Class98_Sub46_Sub10 extends Class98_Sub46 {
 			if (i_59_ >= -80) {
 				method1565(31, -45, true, -110, 4, -16, -41, 5, -2);
 			}
-			for (Class98_Sub6 class98_sub6 = (Class98_Sub6) aClass148_6010
-					.method2418(32); class98_sub6 != null; class98_sub6 = (Class98_Sub6) aClass148_6010
+			for (RSModelLoader class98_sub6 = (RSModelLoader) aClass148_6010
+					.method2418(32); class98_sub6 != null; class98_sub6 = (RSModelLoader) aClass148_6010
 					.method2417(103)) {
 				if (class98_sub6.method976(i_60_, 113, i_61_, i)) {
 					class98_sub6.method982(i_60_, i_61_, 94, is);
@@ -530,7 +530,7 @@ final class Class98_Sub46_Sub10 extends Class98_Sub46 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gga.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gga.E(" + i + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_59_ + ','
 					+ i_60_ + ',' + i_61_ + ')'));
 		}
@@ -553,7 +553,7 @@ final class Class98_Sub46_Sub10 extends Class98_Sub46 {
 			}
 			aClass148_6010 = new Class148();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("gga.<init>(" + i + ','
 							+ (string != null ? "{...}" : "null") + ','
 							+ (string_62_ != null ? "{...}" : "null") + ','

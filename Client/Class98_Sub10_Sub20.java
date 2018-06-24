@@ -25,7 +25,7 @@ final class Class98_Sub10_Sub20 extends Class98_Sub10 {
 					Class65.anIntArray501[Class38.anInt354++] = i;
 				}
 				final int i_1_ = class98_sub22_sub1.readBits((byte) -48, 2);
-				final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i];
+				final Player class246_sub3_sub4_sub2_sub2 = Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i];
 				if (i_1_ == 0) {
 					if (bool) {
 						class246_sub3_sub4_sub2_sub2.aBoolean6532 = false;
@@ -34,17 +34,17 @@ final class Class98_Sub10_Sub20 extends Class98_Sub10 {
 							throw new RuntimeException("s:lr");
 						}
 						final Class376 class376 = Class306.aClass376Array2562[i] = new Class376();
-						class376.anInt3176 = (((aa_Sub2.anInt3562 + (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6438[0])) >> 147138566)
-								+ ((((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6437[0])
+						class376.anInt3176 = (((aa_Sub2.anInt3562 + (((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6438[0])) >> 147138566)
+								+ ((((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6437[0])
 										+ Class272.anInt2038 >> -1381338778 << 1313142894) + (((Class246_Sub3) class246_sub3_sub4_sub2_sub2).aByte5088 << 119645116));
 						if (class246_sub3_sub4_sub2_sub2.anInt6512 != -1) {
 							class376.anInt3172 = class246_sub3_sub4_sub2_sub2.anInt6512;
 						} else {
-							class376.anInt3172 = ((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).aClass325_6399
+							class376.anInt3172 = ((Entity) class246_sub3_sub4_sub2_sub2).aClass325_6399
 									.method3698((byte) 116);
 						}
 						class376.aBoolean3175 = class246_sub3_sub4_sub2_sub2.aBoolean6534;
-						class376.anInt3177 = ((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6364;
+						class376.anInt3177 = ((Entity) class246_sub3_sub4_sub2_sub2).anInt6364;
 						if ((class246_sub3_sub4_sub2_sub2.anInt6525 ^ 0xffffffff) < -1) {
 							Class213.method2778(true,
 									class246_sub3_sub4_sub2_sub2);
@@ -57,8 +57,8 @@ final class Class98_Sub10_Sub20 extends Class98_Sub10 {
 					}
 				} else if (i_1_ == 1) {
 					final int i_2_ = class98_sub22_sub1.readBits((byte) -46, 3);
-					int i_3_ = (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]);
-					int i_4_ = (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]);
+					int i_3_ = (((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]);
+					int i_4_ = (((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]);
 					if (i_2_ == 0) {
 						i_3_--;
 						i_4_--;
@@ -97,8 +97,8 @@ final class Class98_Sub10_Sub20 extends Class98_Sub10 {
 					}
 				} else if (i_1_ == 2) {
 					final int dir = class98_sub22_sub1.readBits((byte) -85, 4);
-					int dx = (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]);
-					int dy = (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]);
+					int dx = (((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]);
+					int dy = (((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]);
 					if (dir != 0) {
 						if (dir == 1) {
 							dx--;
@@ -182,8 +182,8 @@ final class Class98_Sub10_Sub20 extends Class98_Sub10 {
 							i_12_ -= 32;
 						}
 						final int i_13_ = i_11_
-								+ (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]);
-						final int i_14_ = (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6438[0] - -i_12_);
+								+ (((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]);
+						final int i_14_ = (((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6438[0] - -i_12_);
 						if (bool) {
 							class246_sub3_sub4_sub2_sub2.anInt6521 = i_13_;
 							class246_sub3_sub4_sub2_sub2.aBoolean6532 = true;
@@ -236,7 +236,7 @@ final class Class98_Sub10_Sub20 extends Class98_Sub10 {
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("ma.D("
 								+ i
 								+ ','
@@ -271,7 +271,7 @@ final class Class98_Sub10_Sub20 extends Class98_Sub10 {
 				}
 				method991(124, null, (byte) 77);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("ma.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("ma.A(" + i
 						+ ',' + (class98_sub22 != null ? "{...}" : "null")
 						+ ',' + i_21_ + ')'));
 			}
@@ -298,7 +298,7 @@ final class Class98_Sub10_Sub20 extends Class98_Sub10 {
 			}
 			throw new IllegalArgumentException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ma.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ma.E(" + i + ','
 					+ i_23_ + ',' + i_24_ + ','
 					+ (object != null ? "{...}" : "null") + ')'));
 		}
@@ -356,7 +356,7 @@ final class Class98_Sub10_Sub20 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ma.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ma.C(" + i + ','
 					+ i_25_ + ')');
 		}
 	}
@@ -372,7 +372,7 @@ final class Class98_Sub10_Sub20 extends Class98_Sub10 {
 				}
 				method1062(97);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ma.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ma.B(" + i
 						+ ')');
 			}
 			break;

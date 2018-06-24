@@ -20,7 +20,7 @@ final class Class173 {
 	private int[] anIntArray1344;
 
 	final void method2545() {
-		aClass98_Sub22_1337.aByteArray3992 = null;
+		aClass98_Sub22_1337.incomingBytes = null;
 		anIntArray1338 = null;
 		anIntArray1344 = null;
 		anIntArray1343 = null;
@@ -28,7 +28,7 @@ final class Class173 {
 	}
 
 	final boolean method2546() {
-		if (aClass98_Sub22_1337.aByteArray3992 == null) {
+		if (aClass98_Sub22_1337.incomingBytes == null) {
 			return false;
 		}
 		return true;
@@ -51,7 +51,7 @@ final class Class173 {
 	}
 
 	private final int method2549(final int i) {
-		int i_1_ = (aClass98_Sub22_1337.aByteArray3992[aClass98_Sub22_1337.position]);
+		int i_1_ = (aClass98_Sub22_1337.incomingBytes[aClass98_Sub22_1337.position]);
 		if (i_1_ < 0) {
 			i_1_ &= 0xff;
 			anIntArray1342[i] = i_1_;
@@ -62,7 +62,7 @@ final class Class173 {
 		if (i_1_ == 240 || i_1_ == 247) {
 			final int i_2_ = aClass98_Sub22_1337.method1240((byte) -20);
 			if (i_1_ == 247 && i_2_ > 0) {
-				final int i_3_ = ((aClass98_Sub22_1337.aByteArray3992[aClass98_Sub22_1337.position]) & 0xff);
+				final int i_3_ = ((aClass98_Sub22_1337.incomingBytes[aClass98_Sub22_1337.position]) & 0xff);
 				if (i_3_ >= 241 && i_3_ <= 243 || i_3_ == 246 || i_3_ == 248
 						|| i_3_ >= 250 && i_3_ <= 252 || i_3_ == 254) {
 					aClass98_Sub22_1337.position++;
@@ -121,7 +121,7 @@ final class Class173 {
 	}
 
 	final void method2557(final byte[] is) {
-		aClass98_Sub22_1337.aByteArray3992 = is;
+		aClass98_Sub22_1337.incomingBytes = is;
 		aClass98_Sub22_1337.position = 10;
 		final int i = aClass98_Sub22_1337.readUnsignedShort((byte) 127);
 		anInt1340 = aClass98_Sub22_1337.readUnsignedShort((byte) 127);

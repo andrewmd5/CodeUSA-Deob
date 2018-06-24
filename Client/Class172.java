@@ -56,7 +56,7 @@ final class Class172 {
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lha.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("lha.A(" + bool
 					+ ',' + (class293 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -67,7 +67,7 @@ final class Class172 {
 				anInterface17Array1327 = null;
 			anInterface17Array1327 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lha.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "lha.C(" + i + ')');
 		}
 	}
 
@@ -75,7 +75,7 @@ final class Class172 {
 		try {
 			((Class172) this).aByte1322 = (byte) i;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lha.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "lha.<init>(" + i
 					+ ')');
 		}
 	}
@@ -90,7 +90,7 @@ final class Class172 {
 			if (i != 6730)
 				method2542(false, null);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lha.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "lha.B(" + i + ')');
 		}
 	}
 }

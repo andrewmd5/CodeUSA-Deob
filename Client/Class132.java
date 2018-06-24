@@ -19,7 +19,7 @@ final class Class132 {
 				anIntArray1044 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iu.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "iu.B(" + i + ')');
 		}
 	}
 
@@ -53,7 +53,7 @@ final class Class132 {
 			Class310.method3618(-5964);
 			return i_2_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iu.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("iu.C(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -120,7 +120,7 @@ final class Class132 {
 				ha.aBoolean940 = true;
 				Class305.method3571(-97);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("iu.D(" + bool
+				throw Class64_Sub27.printError(runtimeexception, ("iu.D(" + bool
 						+ ',' + i + ',' + (string != null ? "{...}" : "null")
 						+ ',' + (string_3_ != null ? "{...}" : "null") + ','
 						+ i_4_ + ')'));
@@ -154,7 +154,7 @@ final class Class132 {
 			}
 			return class90;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iu.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "iu.A(" + i + ','
 					+ i_8_ + ')');
 		}
 	}
@@ -164,7 +164,7 @@ final class Class132 {
 			aClass207_1045 = class207;
 			anInt1047 = aClass207_1045.method2761(0, 19);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iu.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("iu.<init>("
 					+ (class279 != null ? "{...}" : "null") + ',' + i + ','
 					+ (class207 != null ? "{...}" : "null") + ')'));
 		}

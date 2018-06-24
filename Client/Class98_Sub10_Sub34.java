@@ -45,7 +45,7 @@ final class Class98_Sub10_Sub34 extends Class98_Sub10 {
 			}
 			return new String(cs);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ta.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ta.D(" + i + ','
 					+ bool + ',' + i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -63,7 +63,7 @@ final class Class98_Sub10_Sub34 extends Class98_Sub10 {
 			}
 			Class201.method2697(-546, false);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ta.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ta.F(" + i + ')');
 		}
 	}
 
@@ -72,7 +72,7 @@ final class Class98_Sub10_Sub34 extends Class98_Sub10 {
 			aClass43_5730 = null;
 			aClass215_5728 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ta.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ta.E(" + i + ')');
 		}
 	}
 
@@ -82,7 +82,7 @@ final class Class98_Sub10_Sub34 extends Class98_Sub10 {
 				Class142.aClass377_1157.method3994(-95);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ta.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ta.B(" + i + ')');
 		}
 	}
 
@@ -124,7 +124,7 @@ final class Class98_Sub10_Sub34 extends Class98_Sub10 {
 				anInt5725 = class98_sub22.readUnsignedShort((byte) 127);
 				break;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("ta.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("ta.A(" + i
 						+ ',' + (class98_sub22 != null ? "{...}" : "null")
 						+ ',' + i_8_ + ')'));
 			}
@@ -167,7 +167,7 @@ final class Class98_Sub10_Sub34 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ta.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ta.G(" + i + ','
 					+ i_10_ + ')');
 		}
 	}

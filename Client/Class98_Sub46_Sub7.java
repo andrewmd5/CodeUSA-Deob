@@ -10,7 +10,7 @@ final class Class98_Sub46_Sub7 extends Class98_Sub46 {
 		try {
 			aByteArray5981 = is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dn.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "dn.<init>("
 					+ (is != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -24,7 +24,7 @@ final class Class98_Sub46_Sub7 extends Class98_Sub46 {
 				}
 				aCharArray5982 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "dn.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "dn.A(" + i
 						+ ')');
 			}
 			break;

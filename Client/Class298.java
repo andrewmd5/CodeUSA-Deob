@@ -4,7 +4,7 @@
 
 final class Class298 
 {
-	Class146 aClass146_2477;
+	AbstractModel aClass146_2477;
 	static Class222 aClass222_2478 = new Class222(14, 0);
 	r aR2479;
 	static Class222 aClass222_2480 = new Class222(15, 4);
@@ -38,7 +38,7 @@ final class Class298
 			aByteArray2492 = null;
 			aClass222_2486 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sfa.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sfa.C(" + i + ')');
 		}
 	}
 
@@ -51,7 +51,7 @@ final class Class298
 			final int i_1_ = class98_sub22.readInt(-2);
 			return new Class163(i_1_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("sfa.A(" + (class98_sub22 != null ? "{...}" : "null")
 							+ ',' + i + ')'));
 		}
@@ -68,7 +68,7 @@ final class Class298
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sfa.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sfa.B(" + i + ','
 					+ i_2_ + ',' + i_3_ + ')'));
 		}
 	}

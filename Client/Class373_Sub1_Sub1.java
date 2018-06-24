@@ -20,7 +20,7 @@ final class Class373_Sub1_Sub1 extends PacketParser {
 			}
 			Class89.method880(-13258, class207);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qea.N("
+			throw Class64_Sub27.printError(runtimeexception, ("qea.N("
 					+ (class207 != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -32,7 +32,7 @@ final class Class373_Sub1_Sub1 extends PacketParser {
 			}
 			aClass126_6216 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qea.P(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qea.P(" + i + ')');
 		}
 	}
 
@@ -60,7 +60,7 @@ final class Class373_Sub1_Sub1 extends PacketParser {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qea.Q(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("qea.Q(" + i + ','
 					+ i_2_ + ',' + i_3_ + ')'));
 		}
 	}
@@ -78,7 +78,7 @@ final class Class373_Sub1_Sub1 extends PacketParser {
 						+ -i_9_, i_6_, i_9_ + i_5_ + -i_10_, i);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qea.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("qea.G(" + i + ','
 					+ i_5_ + ',' + i_6_ + ',' + i_7_ + ',' + i_8_ + ')'));
 		}
 	}

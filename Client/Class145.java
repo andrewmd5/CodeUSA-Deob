@@ -25,7 +25,7 @@ final class Class145 {
 			}
 			return l;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "k.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "k.B(" + i + ','
 					+ (string != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -39,7 +39,7 @@ final class Class145 {
 			anIntArray1175 = null;
 			anIntArray1177 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "k.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "k.F(" + i + ')');
 		}
 	}
 
@@ -57,7 +57,7 @@ final class Class145 {
 			}
 			return null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "k.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "k.E(" + i + ','
 					+ (string != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -70,7 +70,7 @@ final class Class145 {
 			return aBoolean1176;
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, "k.D(" + bool + ')');
+					.printError(runtimeexception, "k.D(" + bool + ')');
 		}
 	}
 
@@ -82,7 +82,7 @@ final class Class145 {
 			return aBoolean1174;
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, "k.A(" + bool + ')');
+					.printError(runtimeexception, "k.A(" + bool + ')');
 		}
 	}
 
@@ -93,7 +93,7 @@ final class Class145 {
 			}
 			return anInt1178;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "k.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "k.G(" + i + ')');
 		}
 	}
 
@@ -104,7 +104,7 @@ final class Class145 {
 			}
 			return anInt1171;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "k.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "k.C(" + i + ')');
 		}
 	}
 
@@ -116,7 +116,7 @@ final class Class145 {
 			aBoolean1176 = bool_4_;
 			anInt1178 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("k.<init>(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("k.<init>(" + bool
 					+ ',' + i + ',' + i_3_ + ',' + bool_4_ + ')'));
 		}
 	}

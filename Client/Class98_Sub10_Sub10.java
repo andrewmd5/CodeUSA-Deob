@@ -28,7 +28,7 @@ final class Class98_Sub10_Sub10 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ev.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ev.G(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -62,13 +62,13 @@ final class Class98_Sub10_Sub10 extends Class98_Sub10 {
 			}
 			return Class.forName(string);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ev.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ev.E(" + i + ','
 					+ (string != null ? "{...}" : "null") + ')'));
 		}
 	}
 
 	static final void method1038(
-			final Class246_Sub3_Sub4_Sub2 class246_sub3_sub4_sub2, final int i,
+			final Entity class246_sub3_sub4_sub2, final int i,
 			final int i_4_) {
 		try {
 			int i_5_ = -1;
@@ -107,7 +107,7 @@ final class Class98_Sub10_Sub10 extends Class98_Sub10 {
 			if (i_4_ != -12212) {
 				anIntArray5589 = null;
 			}
-			if ((class246_sub3_sub4_sub2 == Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660)
+			if ((class246_sub3_sub4_sub2 == Surface.player)
 					&& ((((Class246_Sub3) class246_sub3_sub4_sub2).anInt5084 ^ 0xffffffff) > -6145
 							|| (((Class246_Sub3) class246_sub3_sub4_sub2).anInt5079 ^ 0xffffffff) > -6145
 							|| (((Class246_Sub3) class246_sub3_sub4_sub2).anInt5084 >= (-12 + Class165.anInt1276) * 512) || ((-12 + Class98_Sub10_Sub7.anInt5572) * 512 <= (((Class246_Sub3) class246_sub3_sub4_sub2).anInt5079)))) {
@@ -133,7 +133,7 @@ final class Class98_Sub10_Sub10 extends Class98_Sub10 {
 			Class282.method3334((byte) 37, i_5_, class246_sub3_sub4_sub2);
 			Class340.method3801(class246_sub3_sub4_sub2, -28111);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ev.D("
+			throw Class64_Sub27.printError(runtimeexception, ("ev.D("
 					+ (class246_sub3_sub4_sub2 != null ? "{...}" : "null")
 					+ ',' + i + ',' + i_4_ + ')'));
 		}
@@ -172,7 +172,7 @@ final class Class98_Sub10_Sub10 extends Class98_Sub10 {
 				((Class98_Sub10) this).aBoolean3861 = class98_sub22
 						.readUnsignedByte((byte) 40) == 1;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("ev.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("ev.A(" + i
 						+ ',' + (class98_sub22 != null ? "{...}" : "null")
 						+ ',' + i_8_ + ')'));
 			}
@@ -185,7 +185,7 @@ final class Class98_Sub10_Sub10 extends Class98_Sub10 {
 			aString5593 = null;
 			anIntArray5590 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ev.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ev.B(" + i + ')');
 		}
 	}
 
@@ -215,7 +215,7 @@ final class Class98_Sub10_Sub10 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ev.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ev.C(" + i + ','
 					+ i_11_ + ')');
 		}
 	}
@@ -230,7 +230,7 @@ final class Class98_Sub10_Sub10 extends Class98_Sub10 {
 				}
 				method990(-42, 80);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ev.I(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ev.I(" + i
 						+ ')');
 			}
 			break;

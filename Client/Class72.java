@@ -37,7 +37,7 @@ final class Class72 {
 			if (bool != true)
 				((Class72) this).anInt536 = -118;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("el.C("
+			throw Class64_Sub27.printError(runtimeexception, ("el.C("
 					+ (class98_sub22 != null ? "{...}" : "null") + ',' + bool
 					+ ',' + i + ')'));
 		}
@@ -54,7 +54,7 @@ final class Class72 {
 			if (i > -25)
 				anInt539 = 39;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("el.A(" + (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i + ')'));
 		}
@@ -111,7 +111,7 @@ final class Class72 {
 				((Class72) this).anInt540 = 1;
 			((Class72) this).anInt538 = (int) (d_6_ * (double) ((Class72) this).anInt540);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "el.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "el.B(" + i + ','
 					+ i_1_ + ')');
 		}
 	}

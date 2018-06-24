@@ -41,7 +41,7 @@ final class Class98_Sub10_Sub14 extends Class98_Sub10 {
 			}
 			Class342.finalLogin(true, Class98_Sub28.method1305(-68, l), 73, "");
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "he.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "he.E(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -63,7 +63,7 @@ final class Class98_Sub10_Sub14 extends Class98_Sub10 {
 					class98_sub22.readMediumInt(-124),
 					class98_sub22.readUnsignedByte((byte) 57));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("he.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("he.B(" + bool
 					+ ',' + (class98_sub22 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -125,7 +125,7 @@ final class Class98_Sub10_Sub14 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "he.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "he.C(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -142,7 +142,7 @@ final class Class98_Sub10_Sub14 extends Class98_Sub10 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("he.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("he.D(" + i + ','
 					+ i_14_ + ',' + i_15_ + ')'));
 		}
 	}
@@ -192,7 +192,7 @@ final class Class98_Sub10_Sub14 extends Class98_Sub10 {
 				anInt5611 = 115;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("he.A(" + i + ','
 							+ (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i_16_ + ')'));
@@ -210,7 +210,7 @@ final class Class98_Sub10_Sub14 extends Class98_Sub10 {
 				}
 				anInt5610 = -12;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "he.F(" + i
+				throw Class64_Sub27.printError(runtimeexception, "he.F(" + i
 						+ ')');
 			}
 			break;

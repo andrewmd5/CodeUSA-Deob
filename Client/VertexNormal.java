@@ -16,7 +16,7 @@ final class VertexNormal {
 			}
 			return new VertexNormal(anInt905, i, anInt908, anInt907);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gn.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "gn.A(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -28,7 +28,7 @@ final class VertexNormal {
 			anInt908 = i_2_;
 			anInt905 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gn.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("gn.<init>(" + i
 					+ ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ')'));
 		}
 	}

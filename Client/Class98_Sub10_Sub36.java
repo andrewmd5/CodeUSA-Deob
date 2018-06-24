@@ -56,7 +56,7 @@ final class Class98_Sub10_Sub36 extends Class98_Sub10 {
 				aClass119Array5743 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("us.A(" + i + ','
 							+ (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i_0_ + ')'));
@@ -96,7 +96,7 @@ final class Class98_Sub10_Sub36 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "us.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "us.C(" + i + ','
 					+ i_4_ + ')');
 		}
 	}
@@ -111,7 +111,7 @@ final class Class98_Sub10_Sub36 extends Class98_Sub10 {
 			}
 			return Class151_Sub7.anInt5005;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "us.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "us.D(" + i + ')');
 		}
 	}
 
@@ -143,7 +143,7 @@ final class Class98_Sub10_Sub36 extends Class98_Sub10 {
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("us.B(" + bool
+				throw Class64_Sub27.printError(runtimeexception, ("us.B(" + bool
 						+ ',' + (is != null ? "{...}" : "null") + ')'));
 			}
 			break;
@@ -164,7 +164,7 @@ final class Class98_Sub10_Sub36 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "us.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "us.G(" + i + ','
 					+ i_21_ + ')');
 		}
 	}
@@ -178,7 +178,7 @@ final class Class98_Sub10_Sub36 extends Class98_Sub10 {
 				aFloatArray5741 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "us.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "us.E(" + i + ')');
 		}
 	}
 

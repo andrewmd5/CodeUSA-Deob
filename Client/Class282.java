@@ -16,32 +16,32 @@ final class Class282 {
 	static int anInt2132;
 
 	static final void method3334(byte i, int i_0_,
-			Class246_Sub3_Sub4_Sub2 class246_sub3_sub4_sub2) {
+			Entity class246_sub3_sub4_sub2) {
 		try {
 			if (i != 37)
 				aClass293_2129 = null;
-			if ((((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2).anIntArray6373) != null) {
-				int i_1_ = (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2).anIntArray6373[i_0_ + 1]);
-				if (((((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2).anInt6413) ^ 0xffffffff) != (i_1_ ^ 0xffffffff)) {
-					((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2).anInt6413 = i_1_;
-					((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2).anInt6366 = 0;
-					((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2).anInt6436 = (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2).anInt6434);
-					((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2).anInt6361 = 1;
-					((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2).anInt6405 = 0;
-					((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2).anInt6393 = 0;
-					if ((((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2).anInt6413) != -1)
+			if ((((Entity) class246_sub3_sub4_sub2).anIntArray6373) != null) {
+				int i_1_ = (((Entity) class246_sub3_sub4_sub2).anIntArray6373[i_0_ + 1]);
+				if (((((Entity) class246_sub3_sub4_sub2).anInt6413) ^ 0xffffffff) != (i_1_ ^ 0xffffffff)) {
+					((Entity) class246_sub3_sub4_sub2).anInt6413 = i_1_;
+					((Entity) class246_sub3_sub4_sub2).anInt6366 = 0;
+					((Entity) class246_sub3_sub4_sub2).anInt6436 = (((Entity) class246_sub3_sub4_sub2).anInt6434);
+					((Entity) class246_sub3_sub4_sub2).anInt6361 = 1;
+					((Entity) class246_sub3_sub4_sub2).anInt6405 = 0;
+					((Entity) class246_sub3_sub4_sub2).anInt6393 = 0;
+					if ((((Entity) class246_sub3_sub4_sub2).anInt6413) != -1)
 						Class349.method3840(
 								(byte) -127,
 								class246_sub3_sub4_sub2,
-								(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2).anInt6393),
+								(((Entity) class246_sub3_sub4_sub2).anInt6393),
 								(Class151_Sub7.aClass183_5001
 										.method2623(
-												(((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2).anInt6413),
+												(((Entity) class246_sub3_sub4_sub2).anInt6413),
 												i + 16346)));
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("rj.E("
 							+ i
 							+ ','
@@ -77,7 +77,7 @@ final class Class282 {
 			}
 			return is;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rj.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "rj.A(" + i + ','
 					+ i_2_ + ')');
 		}
 	}
@@ -90,7 +90,7 @@ final class Class282 {
 			class124.method2215(0, new ByteBuffer(is));
 			return class124;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rj.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "rj.D(" + i + ','
 					+ i_7_ + ')');
 		}
 	}
@@ -103,7 +103,7 @@ final class Class282 {
 				return false;
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rj.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rj.C(" + i + ')');
 		}
 	}
 
@@ -114,7 +114,7 @@ final class Class282 {
 				method3334((byte) -59, -38, null);
 			aClass293_2129 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rj.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rj.B(" + i + ')');
 		}
 	}
 
@@ -186,7 +186,7 @@ final class Class282 {
 				anInt2124 = -1;
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("rj.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("rj.<init>("
 					+ (class279 != null ? "{...}" : "null") + ',' + i + ','
 					+ (class207 != null ? "{...}" : "null") + ')'));
 		}

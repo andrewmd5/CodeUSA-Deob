@@ -64,7 +64,7 @@ final class Class98_Sub10_Sub6 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dfa.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "dfa.C(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -108,7 +108,7 @@ final class Class98_Sub10_Sub6 extends Class98_Sub10 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dfa.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("dfa.D(" + i + ','
 					+ i_9_ + ',' + i_10_ + ',' + i_11_ + ')'));
 		}
 	}
@@ -123,7 +123,7 @@ final class Class98_Sub10_Sub6 extends Class98_Sub10 {
 				}
 				method1020(17);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "dfa.F(" + i
+				throw Class64_Sub27.printError(runtimeexception, "dfa.F(" + i
 						+ ')');
 			}
 			break;
@@ -157,7 +157,7 @@ final class Class98_Sub10_Sub6 extends Class98_Sub10 {
 				method997(-105, 125);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("dfa.A(" + i + ','
 							+ (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i_18_ + ')'));
@@ -242,7 +242,7 @@ final class Class98_Sub10_Sub6 extends Class98_Sub10 {
 				}
 				anInt5562 = anInt5567 = anInt5566 = i_21_;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("dfa.E(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("dfa.E(" + i
 						+ ',' + i_20_ + ',' + i_21_ + ',' + i_22_ + ')'));
 			}
 		} while (false);
@@ -262,7 +262,7 @@ final class Class98_Sub10_Sub6 extends Class98_Sub10 {
 			}
 			return strings_32_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dfa.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("dfa.B(" + i + ','
 					+ (strings != null ? "{...}" : "null") + ')'));
 		}
 	}

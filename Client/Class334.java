@@ -17,7 +17,7 @@ final class Class334 implements Interface18 {
 			}
 			return aClass363_3467.method3928(-1);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uha.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "uha.A(" + i + ')');
 		}
 	}
 
@@ -32,7 +32,7 @@ final class Class334 implements Interface18 {
 				}
 				aClass171_3470 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "uha.E(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "uha.E(" + bool
 						+ ')');
 			}
 			break;
@@ -46,7 +46,7 @@ final class Class334 implements Interface18 {
 				aClass52_3469 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uha.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "uha.C(" + i + ')');
 		}
 	}
 
@@ -88,7 +88,7 @@ final class Class334 implements Interface18 {
 				i_1_ += method3764(5, i_1_, Class98_Sub10_Sub34.aClass43_5730,
 						class368.aString3125, true, i_0_) * 12;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "uha.B(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "uha.B(" + bool
 						+ ',' + i + ')');
 			}
 			break;
@@ -108,7 +108,7 @@ final class Class334 implements Interface18 {
 					aClass52_3469.anInt3492, null, 0, 0, 0, i + i_2_, -(i * 2)
 							+ aClass52_3469.anInt3497));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("uha.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("uha.D(" + i + ','
 					+ i_2_ + ',' + (class43 != null ? "{...}" : "null") + ','
 					+ (string != null ? "{...}" : "null") + ',' + bool + ','
 					+ i_3_ + ')'));
@@ -120,7 +120,7 @@ final class Class334 implements Interface18 {
 			aClass363_3467 = class363;
 			aClass52_3469 = class52;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("uha.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("uha.<init>("
 					+ (class363 != null ? "{...}" : "null") + ','
 					+ (class52 != null ? "{...}" : "null") + ')'));
 		}

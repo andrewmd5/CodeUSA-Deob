@@ -16,7 +16,7 @@ abstract class Class246_Sub3_Sub4 extends Class246_Sub3 {
 				method3023(101, null, null);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lr.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "lr.F(" + i + ')');
 		}
 	}
 
@@ -56,7 +56,7 @@ abstract class Class246_Sub3_Sub4 extends Class246_Sub3 {
 			}
 			return class98_sub11;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lr.BA(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("lr.BA(" + i + ','
 					+ (class171 != null ? "{...}" : "null") + ','
 					+ (class117 != null ? "{...}" : "null") + ')'));
 		}
@@ -86,7 +86,7 @@ abstract class Class246_Sub3_Sub4 extends Class246_Sub3 {
 			return new Class315(string, class63, class110, i, i_0_, i_1_, i_2_,
 					i_3_, i_4_, i_5_, i_6_, i_7_, i_8_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("lr.EA(" + (class98_sub22 != null ? "{...}" : "null")
 							+ ',' + bool + ')'));
 		}
@@ -180,7 +180,7 @@ abstract class Class246_Sub3_Sub4 extends Class246_Sub3 {
 			}
 			return i_9_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lr.GA(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("lr.GA(" + i + ','
 					+ (class98_sub5s != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -195,7 +195,7 @@ abstract class Class246_Sub3_Sub4 extends Class246_Sub3 {
 					method2974((byte) -53, var_ha), 0, aShort6160, aShort6159,
 					((Class246_Sub3) this).aByte5081);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lr.AA("
+			throw Class64_Sub27.printError(runtimeexception, ("lr.AA("
 					+ (var_ha != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -223,7 +223,7 @@ abstract class Class246_Sub3_Sub4 extends Class246_Sub3 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lr.FA(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "lr.FA(" + bool
 					+ ')');
 		}
 	}
@@ -245,7 +245,7 @@ abstract class Class246_Sub3_Sub4 extends Class246_Sub3 {
 			aShort6159 = (short) i_35_;
 			((Class246_Sub3) this).aByte5088 = (byte) i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lr.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("lr.<init>(" + i
 					+ ',' + i_28_ + ',' + i_29_ + ',' + i_30_ + ',' + i_31_
 					+ ',' + i_32_ + ',' + i_33_ + ',' + i_34_ + ',' + i_35_
 					+ ',' + bool + ',' + i_36_ + ')'));

@@ -30,7 +30,7 @@ final class Class64_Sub11 extends Class64 {
 			return is_4_;
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("hn.D(" + i + ',' + i_0_
+					.printError(runtimeexception, ("hn.D(" + i + ',' + i_0_
 							+ ',' + (is != null ? "{...}" : "null") + ','
 							+ i_1_ + ')'));
 		}
@@ -50,7 +50,7 @@ final class Class64_Sub11 extends Class64 {
 			}
 			return 3;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hn.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "hn.F(" + i + ','
 					+ i_5_ + ')');
 		}
 	}
@@ -80,7 +80,7 @@ final class Class64_Sub11 extends Class64 {
 					((Class64) this).anInt494 = method552(0);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "hn.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "hn.C(" + i
 						+ ')');
 			}
 			break;
@@ -94,7 +94,7 @@ final class Class64_Sub11 extends Class64 {
 			}
 			return ((Class64) this).anInt494;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hn.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hn.E(" + i + ')');
 		}
 	}
 
@@ -111,7 +111,7 @@ final class Class64_Sub11 extends Class64 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hn.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hn.G(" + i + ')');
 		}
 	}
 
@@ -124,7 +124,7 @@ final class Class64_Sub11 extends Class64 {
 				}
 				aDouble3669 = -0.004191568579013829;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "hn.H(" + i
+				throw Class64_Sub27.printError(runtimeexception, "hn.H(" + i
 						+ ')');
 			}
 			break;
@@ -143,7 +143,7 @@ final class Class64_Sub11 extends Class64 {
 			}
 			return 1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hn.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hn.A(" + i + ')');
 		}
 	}
 
@@ -156,7 +156,7 @@ final class Class64_Sub11 extends Class64 {
 		try {
 			((Class64) this).anInt494 = i_6_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hn.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "hn.B(" + i + ','
 					+ i_6_ + ')');
 		}
 	}

@@ -16,7 +16,7 @@ final class Class242 {
 			aClass244Array1851 = null;
 			aClass85_1849 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pf.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pf.A(" + i + ')');
 		}
 	}
 
@@ -30,7 +30,7 @@ final class Class242 {
 					+ (789221 + i_2_ * i_2_ * 15731) * i_2_);
 			return 0xff & i_3_ >> -1652763981;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pf.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pf.B(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -47,7 +47,7 @@ final class Class242 {
 					break;
 				method2933(-93);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("pf.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("pf.C(" + i
 						+ ',' + (class207 != null ? "{...}" : "null") + ')'));
 			}
 			break;

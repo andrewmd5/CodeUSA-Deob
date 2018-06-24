@@ -36,13 +36,13 @@ final class Class102 {
 	static Class350 aClass350_888 = new Class350(2);
 	static boolean aBoolean889 = false;
 
-	static final Class146 method1703(final AnimationDefinition class97,
+	static final AbstractModel method1703(final AnimationDefinition class97,
 			final int i, final int i_0_, final int i_1_,
-			final Class146 class146, final int i_2_, final int i_3_,
+			final AbstractModel abstractModel, final int i_2_, final int i_3_,
 			final int i_4_, final int i_5_, final int i_6_, int i_7_,
 			final ha var_ha, final int i_8_, final int i_9_) {
 		try {
-			if (class146 == null) {
+			if (abstractModel == null) {
 				return null;
 			}
 			int i_10_ = 2055;
@@ -55,9 +55,9 @@ final class Class102 {
 			}
 			final long l = (i_0_ + (i_5_ << -903417392) - -(i_1_ << -423490568)
 					- -((long) i_8_ << 142401248) + ((long) i_6_ << 21507696));
-			Class146 class146_11_;
+			AbstractModel class146_11_;
 			synchronized (Class299.aClass79_2493) {
-				class146_11_ = (Class146) Class299.aClass79_2493.method802(
+				class146_11_ = (AbstractModel) Class299.aClass79_2493.method802(
 						-119, l);
 			}
 			if (class146_11_ == null
@@ -136,10 +136,10 @@ final class Class102 {
 							(byte) -80);
 				}
 			}
-			final int i_29_ = class146.V();
-			final int i_30_ = class146.RA();
-			final int i_31_ = class146.HA();
-			final int i_32_ = class146.G();
+			final int i_29_ = abstractModel.V();
+			final int i_30_ = abstractModel.RA();
+			final int i_31_ = abstractModel.HA();
+			final int i_32_ = abstractModel.G();
 			Class98_Sub46_Sub16 class98_sub46_sub16 = null;
 			if (class97 != null) {
 				i_7_ = class97.anIntArray818[i_7_];
@@ -172,10 +172,10 @@ final class Class102 {
 			}
 			return class146_11_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gh.G("
+			throw Class64_Sub27.printError(runtimeexception, ("gh.G("
 					+ (class97 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_0_ + ',' + i_1_ + ','
-					+ (class146 != null ? "{...}" : "null") + ',' + i_2_ + ','
+					+ (abstractModel != null ? "{...}" : "null") + ',' + i_2_ + ','
 					+ i_3_ + ',' + i_4_ + ',' + i_5_ + ',' + i_6_ + ',' + i_7_
 					+ ',' + (var_ha != null ? "{...}" : "null") + ',' + i_8_
 					+ ',' + i_9_ + ')'));
@@ -196,7 +196,7 @@ final class Class102 {
 					aClass102_883, aClass102_884, aClass102_885, aClass102_886,
 					aClass102_887 });
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gh.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gh.B(" + i + ')');
 		}
 	}
 
@@ -207,7 +207,7 @@ final class Class102 {
 			}
 			return anInt858;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gh.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gh.C(" + i + ')');
 		}
 	}
 
@@ -218,7 +218,7 @@ final class Class102 {
 				return;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gh.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "gh.F(" + i + ','
 					+ i_33_ + ')');
 		}
 	}
@@ -233,7 +233,7 @@ final class Class102 {
 			}
 			anInterface14_859 = interface14;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gh.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gh.A(" + i + ','
 					+ (interface14 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -272,7 +272,7 @@ final class Class102 {
 			aClass102_883 = null;
 			aClass102_864 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gh.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gh.H(" + i + ')');
 		}
 	}
 
@@ -280,7 +280,7 @@ final class Class102 {
 		try {
 			return anInterface14_859;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gh.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gh.E(" + i + ')');
 		}
 	}
 
@@ -289,7 +289,7 @@ final class Class102 {
 			if (i < 45) {
 				aClass102_881 = null;
 			}
-			if (Class246_Sub3_Sub4_Sub2_Sub2.aBoolean6540) {
+			if (Player.aBoolean6540) {
 				return 6;
 			}
 			if (Class266.aClass98_Sub46_Sub8_1994 == null) {
@@ -310,7 +310,7 @@ final class Class102 {
 			}
 			return 5;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gh.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gh.D(" + i + ')');
 		}
 	}
 
@@ -319,7 +319,7 @@ final class Class102 {
 		try {
 			throw new IllegalStateException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"gh.toString(" + ')');
 		}
 	}
@@ -329,7 +329,7 @@ final class Class102 {
 			aClass191_861 = class191;
 			anInt858 = 1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gh.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "gh.<init>("
 					+ (class191 != null ? "{...}" : "null") + ')');
 		}
 	}

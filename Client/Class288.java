@@ -27,7 +27,7 @@ final class Class288 implements Interface12 {
 				}
 				method36((byte) 25);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("rr.J(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("rr.J(" + i
 						+ ',' + (class42_sub1 != null ? "{...}" : "null") + ','
 						+ i_0_ + ')'));
 			}
@@ -56,7 +56,7 @@ final class Class288 implements Interface12 {
 			anInterface3Array3378[i_1_] = class42_sub2;
 			anInt3377 |= i_4_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("rr.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("rr.C(" + i + ','
 					+ i_1_ + ',' + (class42_sub2 != null ? "{...}" : "null")
 					+ ',' + i_2_ + ',' + i_3_ + ')'));
 		}
@@ -71,7 +71,7 @@ final class Class288 implements Interface12 {
 				anInt3382 = method3399(3);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rr.P(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rr.P(" + i + ')');
 		}
 	}
 
@@ -85,7 +85,7 @@ final class Class288 implements Interface12 {
 			anInt3384 |= 0x4;
 			anInt3382 = method3399(3);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rr.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rr.A(" + i + ')');
 		}
 	}
 
@@ -100,7 +100,7 @@ final class Class288 implements Interface12 {
 				}
 				method3397(false);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "rr.B(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "rr.B(" + bool
 						+ ')');
 			}
 			break;
@@ -116,7 +116,7 @@ final class Class288 implements Interface12 {
 				OpenGL.glReadBuffer(Class358.anIntArray3034[i_5_]);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rr.N(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "rr.N(" + i + ','
 					+ i_5_ + ')');
 		}
 	}
@@ -137,7 +137,7 @@ final class Class288 implements Interface12 {
 			}
 			return -1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rr.O(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rr.O(" + i + ')');
 		}
 	}
 
@@ -216,7 +216,7 @@ final class Class288 implements Interface12 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("rr.F(" + i + ',' + i_6_ + ',' + i_7_ + ',' + i_8_ + ','
 							+ i_9_ + ',' + i_10_ + ',' + i_11_ + ','
 							+ (is != null ? "{...}" : "null") + ')'));
@@ -233,7 +233,7 @@ final class Class288 implements Interface12 {
 			anInt3384 |= 0x2;
 			anInt3382 = method3399(3);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rr.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rr.H(" + i + ')');
 		}
 	}
 
@@ -247,7 +247,7 @@ final class Class288 implements Interface12 {
 			}
 			anInt3382 = method3399(3);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rr.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rr.G(" + i + ')');
 		}
 	}
 
@@ -262,7 +262,7 @@ final class Class288 implements Interface12 {
 			anInt3377 &= 1 << i ^ 0xffffffff;
 			anInterface3Array3378[i] = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rr.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "rr.E(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -272,7 +272,7 @@ final class Class288 implements Interface12 {
 		try {
 			method3396(i_12_, i_13_, class42_sub2, i, 0);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("rr.Q(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("rr.Q(" + i + ','
 					+ i_12_ + ',' + i_13_ + ','
 					+ (class42_sub2 != null ? "{...}" : "null") + ')'));
 		}
@@ -288,7 +288,7 @@ final class Class288 implements Interface12 {
 			anInt3384 &= ~0x1;
 			anInt3382 = method3399(i ^ ~0x69d5);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rr.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rr.I(" + i + ')');
 		}
 	}
 
@@ -298,7 +298,7 @@ final class Class288 implements Interface12 {
 			aHa_Sub1_3374.method1837((byte) -103, anInt3383);
 			super.finalize();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"rr.finalize(" + ')');
 		}
 	}
@@ -314,7 +314,7 @@ final class Class288 implements Interface12 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rr.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rr.D(" + i + ')');
 		}
 	}
 
@@ -325,7 +325,7 @@ final class Class288 implements Interface12 {
 			}
 			OpenGL.glDrawBuffer(Class358.anIntArray3034[i_15_]);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rr.K(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "rr.K(" + i + ','
 					+ i_15_ + ')');
 		}
 	}
@@ -354,7 +354,7 @@ final class Class288 implements Interface12 {
 			anInterface3Array3378[i_17_] = class42_sub1;
 			anInt3377 |= i_18_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("rr.L(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("rr.L(" + i + ','
 					+ (class42_sub1 != null ? "{...}" : "null") + ',' + i_16_
 					+ ',' + i_17_ + ')'));
 		}
@@ -388,7 +388,7 @@ final class Class288 implements Interface12 {
 			anInterface3Array3378[i_19_] = class98_sub46_sub14;
 			anInt3377 |= i_20_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("rr.R(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("rr.R(" + i + ','
 					+ i_19_ + ','
 					+ (class98_sub46_sub14 != null ? "{...}" : "null") + ')'));
 		}
@@ -404,7 +404,7 @@ final class Class288 implements Interface12 {
 			anInt3384 &= ~0x4;
 			anInt3382 = method3399(i + -66);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rr.M(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rr.M(" + i + ')');
 		}
 	}
 
@@ -417,7 +417,7 @@ final class Class288 implements Interface12 {
 			OpenGL.glGenFramebuffersEXT(1, Class195.anIntArray1497, 0);
 			anInt3383 = Class195.anIntArray1497[0];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rr.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "rr.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ')');
 		}
 	}

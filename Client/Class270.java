@@ -15,7 +15,7 @@ final class Class270 {
 				}
 				aBoolean2031 = true;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "qr.A(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "qr.A(" + bool
 						+ ')');
 			}
 			break;

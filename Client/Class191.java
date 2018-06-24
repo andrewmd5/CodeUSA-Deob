@@ -25,7 +25,7 @@ final class Class191 {
 				}
 				method2651(77, (byte) 56);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "mk.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "mk.A(" + i
 						+ ')');
 			}
 			break;
@@ -41,7 +41,7 @@ final class Class191 {
 		try {
 			throw new IllegalStateException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"mk.toString(" + ')');
 		}
 	}
@@ -56,7 +56,7 @@ final class Class191 {
 			}
 			Class133.anInt3452 = 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mk.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "mk.B(" + i + ')');
 		}
 	}
 
@@ -70,7 +70,7 @@ final class Class191 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mk.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "mk.C(" + i + ','
 					+ i_1_ + ')');
 		}
 	}

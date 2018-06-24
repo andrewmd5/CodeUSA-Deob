@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub47 extends Class98 {
+final class Class98_Sub47 extends Node {
 	int anInt4266;
 	int anInt4267;
 	int anInt4268 = -1;
@@ -34,7 +34,7 @@ final class Class98_Sub47 extends Class98 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("uca.B(" + i + ',' + i_0_ + ',' + i_1_ + ',' + i_2_ + ','
 							+ i_3_ + ',' + i_4_ + ')'));
 		}
@@ -46,7 +46,7 @@ final class Class98_Sub47 extends Class98 {
 			aClass332_4273 = null;
 			aClass377_4274 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uca.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "uca.A(" + i + ')');
 		}
 	}
 
@@ -55,7 +55,7 @@ final class Class98_Sub47 extends Class98 {
 			// i = sprite id or something, yet to figure it out lelele
 			anInt4268 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uca.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "uca.<init>(" + i
 					+ ')');
 		}
 	}

@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub26 extends Class98 {
+final class Class98_Sub26 extends Node {
 	static int anInt4028 = 0;
 	static IncomingOpcode aClass58_4029 = new IncomingOpcode(57, -2);
 	static int[] anIntArray4030 = new int[200];
@@ -15,7 +15,7 @@ final class Class98_Sub26 extends Class98 {
 				return -106;
 			return 2 + string.length();
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("kaa.E("
+			throw Class64_Sub27.printError(runtimeexception, ("kaa.E("
 					+ (string != null ? "{...}" : "null") + ',' + bool + ')'));
 		}
 	}
@@ -26,7 +26,7 @@ final class Class98_Sub26 extends Class98 {
 				anIntArray4030 = null;
 			return Class284.anInt2162;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kaa.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kaa.C(" + i + ')');
 		}
 	}
 
@@ -34,7 +34,7 @@ final class Class98_Sub26 extends Class98 {
 		try {
 			System.exit(i);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("kaa.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("kaa.B(" + i + ','
 					+ (string != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -45,7 +45,7 @@ final class Class98_Sub26 extends Class98 {
 			anIntArray4030 = null;
 			aClass58_4029 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kaa.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kaa.D(" + i + ')');
 		}
 	}
 
@@ -72,7 +72,7 @@ final class Class98_Sub26 extends Class98 {
 				Class333.method3761(i_3_, is, i_9_, i_1_, (byte) -126);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("kaa.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("kaa.A(" + i + ','
 					+ i_1_ + ',' + i_2_ + ',' + i_3_ + ',' + i_4_ + ',' + i_5_
 					+ ',' + bool + ')'));
 		}
@@ -83,7 +83,7 @@ final class Class98_Sub26 extends Class98 {
 			((Class98_Sub26) this).anInt4031 = i;
 			((Class98_Sub26) this).anInt4032 = i_13_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("kaa.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("kaa.<init>(" + i
 					+ ',' + i_13_ + ')'));
 		}
 	}

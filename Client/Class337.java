@@ -20,7 +20,7 @@ class Class337 implements Interface21 {
 					break;
 				anIntArray3536 = null;
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "uk.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "uk.B(" + i
 						+ ')');
 			}
 			break;
@@ -33,7 +33,7 @@ class Class337 implements Interface21 {
 				method70(-3);
 			return Class280.aClass113_2111;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uk.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "uk.A(" + i + ')');
 		}
 	}
 
@@ -45,7 +45,7 @@ class Class337 implements Interface21 {
 			((Class337) this).aClass110_3540 = class110;
 			((Class337) this).anInt3541 = i_0_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("uk.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("uk.<init>(" + i
 					+ ',' + (class63 != null ? "{...}" : "null") + ','
 					+ (class110 != null ? "{...}" : "null") + ',' + i_0_ + ','
 					+ i_1_ + ')'));

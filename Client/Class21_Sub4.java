@@ -20,7 +20,7 @@ final class Class21_Sub4 extends Class21 implements Interface4_Impl1 {
 				aClass171_5398 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wha.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wha.D(" + i + ')');
 		}
 	}
 
@@ -41,7 +41,7 @@ final class Class21_Sub4 extends Class21 implements Interface4_Impl1 {
 				Class245.aClass338Array1865[Class306.anInt2566++] = new Class338(
 						(byte) 1, i_1_, i_2_, i_3_, i, i_5_, i_0_, null);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("wha.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("wha.C(" + i
 						+ ',' + i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_
 						+ ',' + i_4_ + ',' + i_5_ + ')'));
 			}
@@ -65,7 +65,7 @@ final class Class21_Sub4 extends Class21 implements Interface4_Impl1 {
 					is, 0);
 			OpenGL.glPixelStorei(3317, 4);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("wha.<init>("
 							+ (var_ha_Sub3_Sub2 != null ? "{...}" : "null")
 							+ ',' + (class164 != null ? "{...}" : "null") + ','
@@ -83,7 +83,7 @@ final class Class21_Sub4 extends Class21 implements Interface4_Impl1 {
 					.method2628(i_8_, i ^ ~0x4261, 12);
 			class98_sub46_sub17.method1621(0);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wha.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "wha.A(" + i + ','
 					+ i_8_ + ')');
 		}
 	}

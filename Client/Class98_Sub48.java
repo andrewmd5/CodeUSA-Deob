@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub48 extends Class98 {
+final class Class98_Sub48 extends Node {
 	static int anInt4277 = 0;
 	int anInt4278;
 	static int anInt4279;
@@ -17,7 +17,7 @@ final class Class98_Sub48 extends Class98 {
 			}
 			return 16;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vfa.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vfa.B(" + i + ')');
 		}
 	}
 
@@ -35,7 +35,7 @@ final class Class98_Sub48 extends Class98 {
 				anInt4281 = 28;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vfa.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vfa.A(" + i + ','
 					+ i_0_ + ',' + (class39 != null ? "{...}" : "null") + ','
 					+ i_1_ + ',' + f + ',' + f_2_ + ',' + i_3_ + ',' + f_4_
 					+ ',' + i_5_ + ',' + i_6_ + ',' + f_7_ + ','
@@ -48,7 +48,7 @@ final class Class98_Sub48 extends Class98 {
 			anInt4278 = i;
 			anInt4282 = i_10_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vfa.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("vfa.<init>(" + i
 					+ ',' + i_10_ + ')'));
 		}
 	}

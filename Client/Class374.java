@@ -23,7 +23,7 @@ final class Class374 {
 				Class222.aBoolean1667 = true;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wn.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wn.C(" + i + ')');
 		}
 	}
 
@@ -86,7 +86,7 @@ final class Class374 {
 				anInt3165 += l;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("wn.F(" + (is != null ? "{...}" : "null") + ',' + i + ','
 							+ l + ')'));
 		}
@@ -125,7 +125,7 @@ final class Class374 {
 				i_11_ += 8;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("wn.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("wn.A(" + i + ','
 					+ i_8_ + ',' + (is != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -145,7 +145,7 @@ final class Class374 {
 				aLongArray3158[i_13_] = 0L;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wn.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wn.D(" + i + ')');
 		}
 	}
 
@@ -255,7 +255,7 @@ final class Class374 {
 				}
 				method3982((byte) 104, -78, null);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "wn.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "wn.B(" + i
 						+ ')');
 			}
 			break;
@@ -273,7 +273,7 @@ final class Class374 {
 				}
 				aClass147Array3157 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "wn.E(" + i
+				throw Class64_Sub27.printError(runtimeexception, "wn.E(" + i
 						+ ')');
 			}
 			break;

@@ -16,7 +16,7 @@ final class Class156_Sub1 extends Class156 implements Interface8 {
 			}
 			return 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qs.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qs.B(" + i + ')');
 		}
 	}
 
@@ -28,7 +28,7 @@ final class Class156_Sub1 extends Class156 implements Interface8 {
 			}
 			return ((Class156) this).aBuffer1247.getAddress();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qs.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qs.I(" + i + ')');
 		}
 	}
 
@@ -40,7 +40,7 @@ final class Class156_Sub1 extends Class156 implements Interface8 {
 			}
 			return anInt3276;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qs.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qs.A(" + i + ')');
 		}
 	}
 
@@ -50,7 +50,7 @@ final class Class156_Sub1 extends Class156 implements Interface8 {
 		try {
 			anInt3276 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qs.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("qs.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_0_ + ')'));
 		}
@@ -64,7 +64,7 @@ final class Class156_Sub1 extends Class156 implements Interface8 {
 			aClass377_3277 = null;
 			anIntArray3279 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qs.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qs.E(" + i + ')');
 		}
 	}
 
@@ -77,7 +77,7 @@ final class Class156_Sub1 extends Class156 implements Interface8 {
 				anInt3276 = i_2_;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("qs.H(" + i + ',' + (is != null ? "{...}" : "null") + ','
 							+ i_1_ + ',' + i_2_ + ')'));
 		}
@@ -105,7 +105,7 @@ final class Class156_Sub1 extends Class156 implements Interface8 {
 			i_4_ += (Class98_Sub46_Sub14.aClass8_5378.method185(9, i).anInt6055 - class98_sub3.anIntArray3824.length);
 			return i_4_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qs.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("qs.C(" + i + ','
 					+ i_3_ + ',' + bool + ')'));
 		}
 	}
@@ -123,7 +123,7 @@ final class Class156_Sub1 extends Class156 implements Interface8 {
 			final int i_10_ = Class242.method2934(11348, i_7_, i_6_);
 			return i_9_ / 8 + i_8_ / 16 - -(i_10_ / 4);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qs.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("qs.D(" + i + ','
 					+ i_6_ + ',' + i_7_ + ')'));
 		}
 	}

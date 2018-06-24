@@ -81,7 +81,7 @@ final class Class24 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bq.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("bq.G(" + i + ','
 					+ (interface6 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -101,7 +101,7 @@ final class Class24 {
 			}
 			return class98_sub34.anInt4126;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bq.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("bq.D(" + i + ','
 					+ i_2_ + ',' + i_3_ + ')'));
 		}
 	}
@@ -127,7 +127,7 @@ final class Class24 {
 			}
 			return class332;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bq.B("
+			throw Class64_Sub27.printError(runtimeexception, ("bq.B("
 					+ (var_ha != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -156,7 +156,7 @@ final class Class24 {
 			}
 			return class332;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bq.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("bq.H(" + i + ','
 					+ (var_ha != null ? "{...}" : "null") + ',' + bool + ')'));
 		}
 	}
@@ -241,19 +241,19 @@ final class Class24 {
 																			final int i_10_ = class98_sub22
 																					.readMediumInt(i
 																							^ ~0x6a52);
-																			Class98 class98;
+																			Node node;
 																			if (bool) {
-																				class98 = new Class98_Sub15(
+																				node = new Class98_Sub15(
 																						class98_sub22
 																								.readString((byte) 84));
 																			} else {
-																				class98 = new Class98_Sub34(
+																				node = new Class98_Sub34(
 																						class98_sub22
 																								.readInt(-2));
 																			}
 																			aClass377_256
 																					.method3996(
-																							class98,
+																							node,
 																							i_10_,
 																							-1);
 																		}
@@ -337,7 +337,7 @@ final class Class24 {
 			}
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(
+					.printError(
 							runtimeexception,
 							("bq.E("
 									+ i
@@ -363,7 +363,7 @@ final class Class24 {
 			}
 			return class98_sub15.aString3917;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("bq.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("bq.A(" + i + ','
 					+ (string != null ? "{...}" : "null") + ',' + i_17_ + ')'));
 		}
 	}
@@ -384,7 +384,7 @@ final class Class24 {
 				}
 				method289(-65, null, 33);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("bq.F(" + (class98_sub22 != null ? "{...}" : "null")
 								+ ',' + i + ')'));
 			}
@@ -418,7 +418,7 @@ final class Class24 {
 				}
 				method289(10, null, -15);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "bq.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "bq.C(" + i
 						+ ')');
 			}
 			break;

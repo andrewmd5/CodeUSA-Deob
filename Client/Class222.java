@@ -68,7 +68,7 @@ final class Class222 {
 			}
 			return i_1_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("oe.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("oe.D(" + i + ','
 					+ (class98_sub46_sub8 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -83,7 +83,7 @@ final class Class222 {
 			final int i_5_ = (i_2_ * i_4_ >> -1680263604) + 40960;
 			return i_3_ * i_5_ >> -94375156;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oe.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "oe.B(" + i + ','
 					+ i_2_ + ')');
 		}
 	}
@@ -176,7 +176,7 @@ final class Class222 {
 			aClass171_1669 = null;
 			aFloatArray1671 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oe.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "oe.A(" + i + ')');
 		}
 	}
 
@@ -185,7 +185,7 @@ final class Class222 {
 		try {
 			throw new IllegalStateException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"oe.toString(" + ')');
 		}
 	}
@@ -194,7 +194,7 @@ final class Class222 {
 		try {
 			anInt1668 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("oe.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("oe.<init>(" + i
 					+ ',' + i_16_ + ')'));
 		}
 	}

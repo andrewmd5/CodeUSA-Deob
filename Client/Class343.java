@@ -14,7 +14,7 @@ final class Class343 {
 				return false;
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ur.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ur.B(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -27,7 +27,7 @@ final class Class343 {
 					break;
 				method3819(-110);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ur.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ur.C(" + i
 						+ ')');
 			}
 			break;
@@ -45,7 +45,7 @@ final class Class343 {
 			
 			return Class360.aLong3070 + l;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ur.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ur.A(" + i + ')');
 		}
 	}
 }

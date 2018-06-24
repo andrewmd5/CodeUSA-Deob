@@ -11,7 +11,7 @@ final class Class98_Sub10_Sub3 extends Class98_Sub10 {
 				method1011(false);
 			aClass113_5546 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aja.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "aja.B(" + bool
 					+ ')');
 		}
 	}
@@ -27,7 +27,7 @@ final class Class98_Sub10_Sub3 extends Class98_Sub10 {
 						GameObjectDefinition.anIntArray3001[i_0_]);
 			return is;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aja.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "aja.G(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -96,7 +96,7 @@ final class Class98_Sub10_Sub3 extends Class98_Sub10 {
 				}
 				Class69_Sub2.aClass43_5336.method397(-1, 0, (i_1_
 						- -Class39_Sub1.anInt3593 + -25), -16777216, "Build: "
-						+ Game.version, -20 + (i_2_ - -350));
+						+ GameClient.version, -20 + (i_2_ - -350));
 				var_ha.KA(i_1_, i_2_, i_1_ - -Class39_Sub1.anInt3593,
 						i_2_ + 350);
 				var_ha.method1753(22294, Class39_Sub1.anInt3593, -1, i_2_ + 350
@@ -125,7 +125,7 @@ final class Class98_Sub10_Sub3 extends Class98_Sub10 {
 												0, Class198.anInt1524), 127))
 								+ (10 + i_1_), i_11_, 12);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("aja.D("
+				throw Class64_Sub27.printError(runtimeexception, ("aja.D("
 						+ (var_ha != null ? "{...}" : "null") + ',' + i + ')'));
 			}
 			break;

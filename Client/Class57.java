@@ -11,7 +11,7 @@ final class Class57 {
 			anIntArray457 = null;
 			anIntArray458 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "du.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "du.A(" + i + ')');
 		}
 	}
 
@@ -22,7 +22,7 @@ final class Class57 {
 				Class277.method3288(bool, i_2_, string, 2, null, false, i);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("du.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("du.B(" + bool
 					+ ',' + (string != null ? "{...}" : "null") + ',' + i + ','
 					+ i_1_ + ',' + i_2_ + ')'));
 		}

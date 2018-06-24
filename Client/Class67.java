@@ -15,7 +15,7 @@ final class Class67 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "eh.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "eh.C(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -56,7 +56,7 @@ final class Class67 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("eh.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("eh.A(" + i + ','
 					+ l + ',' + i_1_ + ',' + i_2_ + ')'));
 		}
 	}
@@ -79,7 +79,7 @@ final class Class67 {
 			Class246_Sub9.aClass79_5138.method805(i, class177, (byte) -80);
 			return class177;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "eh.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "eh.B(" + i + ','
 					+ i_9_ + ')');
 		}
 	}

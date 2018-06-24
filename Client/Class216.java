@@ -25,7 +25,7 @@ final class Class216 {
 			return (Class161.method2514(i_1_, 16, i) & Class322.method3672(i,
 					i_1_, 2048));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("nt.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("nt.E(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -48,7 +48,7 @@ final class Class216 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nt.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "nt.D(" + i + ')');
 		}
 	}
 
@@ -64,7 +64,7 @@ final class Class216 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("nt.B(" + (class216_4_ != null ? "{...}" : "null") + ','
 							+ bool + ')'));
 		}
@@ -111,7 +111,7 @@ final class Class216 {
 				}
 				break;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("nt.A(" + i + ',' + i_5_ + ',' + i_6_ + ',' + i_7_
 								+ ',' + i_8_ + ')'));
 			}
@@ -147,7 +147,7 @@ final class Class216 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("nt.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("nt.C(" + i + ','
 					+ i_11_ + ',' + i_12_ + ',' + i_13_ + ')'));
 		}
 	}
@@ -161,7 +161,7 @@ final class Class216 {
 				}
 				aClass341_1622 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "nt.F(" + i
+				throw Class64_Sub27.printError(runtimeexception, "nt.F(" + i
 						+ ')');
 			}
 			break;

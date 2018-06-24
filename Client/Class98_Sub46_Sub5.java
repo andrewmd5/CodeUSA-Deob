@@ -8,7 +8,7 @@ final class Class98_Sub46_Sub5 extends Class98_Sub46 {
 
 	static final boolean method1543(final int i, final int i_0_, final byte i_1_) {
 		try {
-			if (!Class246_Sub3_Sub4_Sub2_Sub2.aBoolean6540) {
+			if (!Player.aBoolean6540) {
 				return false;
 			}
 			if (i_1_ != 6) {
@@ -56,7 +56,7 @@ final class Class98_Sub46_Sub5 extends Class98_Sub46 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("de.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("de.A(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -73,7 +73,7 @@ final class Class98_Sub46_Sub5 extends Class98_Sub46 {
 			return (((i_8_ * (i_6_ & 0xff00) & 0xff0000 | ~0xff00ff
 					& (0xff00ff & i_6_) * i_8_) >>> -1712218008) + i);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("de.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("de.B(" + i + ','
 					+ i_5_ + ',' + i_6_ + ')'));
 		}
 	}
@@ -87,7 +87,7 @@ final class Class98_Sub46_Sub5 extends Class98_Sub46 {
 				}
 				aClass174Array5970 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "de.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "de.C(" + i
 						+ ')');
 			}
 			break;
@@ -98,7 +98,7 @@ final class Class98_Sub46_Sub5 extends Class98_Sub46 {
 		try {
 			aClass246_Sub3_Sub4_Sub4_5969 = class246_sub3_sub4_sub4;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("de.<init>("
 							+ (class246_sub3_sub4_sub4 != null ? "{...}"
 									: "null") + ')'));

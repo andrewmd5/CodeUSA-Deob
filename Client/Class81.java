@@ -298,7 +298,7 @@ final class Class81 {
 							0, i + 26824, anInterface2_Impl2_609, 0, 2 * i_1_);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("fea.I("
+				throw Class64_Sub27.printError(runtimeexception, ("fea.I("
 						+ (var_ha_Sub3 != null ? "{...}" : "null") + ',' + i
 						+ ',' + i_0_ + ')'));
 			}
@@ -314,7 +314,7 @@ final class Class81 {
 			anInterface2_Impl1_623.method74(-20279, 24, 786336);
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("fea.H("
+					.printError(runtimeexception, ("fea.H("
 							+ (var_ha_Sub3 != null ? "{...}" : "null") + ','
 							+ i + ')'));
 		}
@@ -332,7 +332,7 @@ final class Class81 {
 			var_ha_Sub3.method1960(13951);
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("fea.G("
+					.printError(runtimeexception, ("fea.G("
 							+ (var_ha_Sub3 != null ? "{...}" : "null") + ','
 							+ i + ')'));
 		}
@@ -345,7 +345,7 @@ final class Class81 {
 			}
 			anInterface2_Impl1_623.method72(false);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fea.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "fea.C(" + i + ')');
 		}
 	}
 
@@ -359,7 +359,7 @@ final class Class81 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fea.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "fea.A(" + i + ','
 					+ i_62_ + ')');
 		}
 	}
@@ -378,7 +378,7 @@ final class Class81 {
 				anIntArray614 = null;
 			} catch (final RuntimeException runtimeexception) {
 				throw Class64_Sub27
-						.method667(runtimeexception,
+						.printError(runtimeexception,
 								("fea.J("
 										+ i
 										+ ','
@@ -406,7 +406,7 @@ final class Class81 {
 				}
 				aBoolean621 = true;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "fea.B(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "fea.B(" + bool
 						+ ')');
 			}
 			break;
@@ -521,7 +521,7 @@ final class Class81 {
 				method816(-103, var_ha_Sub3);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fea.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fea.D(" + i + ','
 					+ (class242 != null ? "{...}" : "null") + ',' + i_63_ + ','
 					+ (var_ha_Sub3 != null ? "{...}" : "null") + ')'));
 		}
@@ -540,7 +540,7 @@ final class Class81 {
 			var_ha_Sub3.method1997(0, false);
 			var_ha_Sub3.method1960(13951);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("fea.E(" + i + ',' + i_80_ + ','
 							+ (var_ha_Sub3 != null ? "{...}" : "null") + ')'));
 		}
@@ -631,7 +631,7 @@ final class Class81 {
 				stream.c();
 				anInterface2_Impl1_612.method71(13623);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("fea.<init>("
+				throw Class64_Sub27.printError(runtimeexception, ("fea.<init>("
 						+ (var_ha_Sub3 != null ? "{...}" : "null") + ')'));
 			}
 			break;
@@ -649,7 +649,7 @@ final class Class81 {
 			aClass98_Sub7_620 = null;
 			aClass207_622 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fea.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "fea.F(" + i + ')');
 		}
 	}
 }

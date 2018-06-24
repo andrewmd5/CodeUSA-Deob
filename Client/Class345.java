@@ -21,7 +21,7 @@ final class Class345 {
 				Class98_Sub10_Sub29.sendPacket(false, class98_sub11);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "v.B("
+			throw Class64_Sub27.printError(runtimeexception, "v.B("
 					+ (string != null ? "{...}" : "null") + ',' + i + ')');
 		}
 	}
@@ -52,7 +52,7 @@ final class Class345 {
 			}
 			return (0xff80 & i_0_) + i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("v.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("v.C(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -64,7 +64,7 @@ final class Class345 {
 			super.finalize();
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, "v.finalize(" + ')');
+					.printError(runtimeexception, "v.finalize(" + ')');
 		}
 	}
 
@@ -77,7 +77,7 @@ final class Class345 {
 				}
 				aClass132_2889 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "v.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "v.A(" + i
 						+ ')');
 			}
 			break;
@@ -89,7 +89,7 @@ final class Class345 {
 			aLong2891 = l;
 			aHa_Sub1_2890 = var_ha_Sub1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("v.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("v.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + l + ','
 					+ i + ')'));
 		}

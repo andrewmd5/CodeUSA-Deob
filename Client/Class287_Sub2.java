@@ -18,7 +18,7 @@ final class Class287_Sub2 extends Class287 implements Interface8 {
 			}
 			return 0L;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "no.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "no.I(" + i + ')');
 		}
 	}
 
@@ -59,7 +59,7 @@ final class Class287_Sub2 extends Class287 implements Interface8 {
 				Class358.aBoolean3033 = true;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("no.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("no.F(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -428,7 +428,7 @@ final class Class287_Sub2 extends Class287 implements Interface8 {
 			is[7][3] = is_8_;
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "no.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "no.E(" + i + ','
 					+ i_5_ + ')');
 		}
 	}
@@ -441,7 +441,7 @@ final class Class287_Sub2 extends Class287 implements Interface8 {
 			}
 			return ((Class287) this).anInt2191;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "no.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "no.B(" + i + ')');
 		}
 	}
 
@@ -453,7 +453,7 @@ final class Class287_Sub2 extends Class287 implements Interface8 {
 			}
 			return anInt3271;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "no.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "no.A(" + i + ')');
 		}
 	}
 
@@ -463,7 +463,7 @@ final class Class287_Sub2 extends Class287 implements Interface8 {
 		try {
 			anInt3271 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("no.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("no.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_75_ + ','
 					+ bool + ')'));
@@ -480,7 +480,7 @@ final class Class287_Sub2 extends Class287 implements Interface8 {
 			method3389(0, i_76_, is);
 			anInt3271 = i_77_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("no.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("no.H(" + i + ','
 					+ (is != null ? "{...}" : "null") + ',' + i_76_ + ','
 					+ i_77_ + ')'));
 		}
@@ -500,7 +500,7 @@ final class Class287_Sub2 extends Class287 implements Interface8 {
 				}
 				aClass171_3270 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("no.C(" + bool + ',' + i + ',' + i_78_ + ',' + i_79_
 								+ ',' + bool_80_ + ')'));
 			}
@@ -514,7 +514,7 @@ final class Class287_Sub2 extends Class287 implements Interface8 {
 			aClass171_3270 = null;
 			aClass332Array3275 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "no.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "no.G(" + i + ')');
 		}
 	}
 
@@ -528,7 +528,7 @@ final class Class287_Sub2 extends Class287 implements Interface8 {
 				}
 				method3394(30);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "no.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "no.D(" + i
 						+ ')');
 			}
 			break;

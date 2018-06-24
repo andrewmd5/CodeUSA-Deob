@@ -23,7 +23,7 @@ final class Class89 {
 			aString716 = null;
 			aLongArray709 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fm.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "fm.A(" + bool
 					+ ')');
 		}
 	}
@@ -34,7 +34,7 @@ final class Class89 {
 				Class64_Sub3.aClass207_3648 = class207;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fm.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fm.B(" + i + ','
 					+ (class207 != null ? "{...}" : "null") + ')'));
 		}
 	}

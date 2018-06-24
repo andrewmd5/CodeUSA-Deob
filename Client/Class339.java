@@ -34,11 +34,11 @@ abstract class Class339 {
 					int i_1_ = -1;
 					if (Class278.aClass98_Sub46_Sub10_2056
 							.method1573(
-									((Class246_Sub3) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).aByte5088,
+									((Class246_Sub3) Surface.player).aByte5088,
 									is,
 									-90,
-									(aa_Sub2.anInt3562 + ((((Class246_Sub3) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt5079) >> 219261193)),
-									(((Class246_Sub3) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).anInt5084 >> -86706999)
+									(aa_Sub2.anInt3562 + ((((Class246_Sub3) Surface.player).anInt5079) >> 219261193)),
+									(((Class246_Sub3) Surface.player).anInt5084 >> -86706999)
 											+ Class272.anInt2038)) {
 						i_1_ = -Class278.anInt2078 + is[2];
 						i_0_ = is[1] + -Class278.anInt2075;
@@ -49,9 +49,9 @@ abstract class Class339 {
 							|| (i_1_ ^ 0xffffffff) > -1
 							|| ((Class278.anInt2084 ^ 0xffffffff) >= (i_1_ ^ 0xffffffff))) {
 						if (RuntimeException_Sub1.anInt3205 != -1
-								&& (Class98.anInt835 ^ 0xffffffff) != 0) {
+								&& (Node.anInt835 ^ 0xffffffff) != 0) {
 							Class278.aClass98_Sub46_Sub10_2056.method1570(
-									(byte) 100, Class98.anInt835, is,
+									(byte) 100, Node.anInt835, is,
 									RuntimeException_Sub1.anInt3205);
 							if (is != null) {
 								Class42_Sub4.anInt5371 = is[1]
@@ -59,7 +59,7 @@ abstract class Class339 {
 								Class98_Sub40.anInt4197 = is[2]
 										- Class278.anInt2078;
 							}
-							RuntimeException_Sub1.anInt3205 = Class98.anInt835 = -1;
+							RuntimeException_Sub1.anInt3205 = Node.anInt835 = -1;
 							Class211.aBoolean1593 = false;
 						} else {
 							Class278.aClass98_Sub46_Sub10_2056
@@ -210,7 +210,7 @@ abstract class Class339 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("um.G("
+			throw Class64_Sub27.printError(runtimeexception, ("um.G("
 					+ (var_ha != null ? "{...}" : "null") + ','
 					+ (var_d != null ? "{...}" : "null") + ',' + i + ')'));
 		}
@@ -234,7 +234,7 @@ abstract class Class339 {
 				aClass58_2844 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "um.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "um.C(" + i + ')');
 		}
 	}
 
@@ -284,7 +284,7 @@ abstract class Class339 {
 				return;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("um.F(" + i + ',' + i_3_ + ',' + i_4_ + ',' + i_5_ + ','
 							+ i_6_ + ',' + i_7_ + ',' + i_8_ + ',' + i_9_ + ','
 							+ i_10_ + ',' + i_11_ + ')'));
@@ -304,7 +304,7 @@ abstract class Class339 {
 						Class282.anInt2128, Class163.anInt3518);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "um.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "um.E(" + i + ')');
 		}
 	}
 

@@ -23,7 +23,7 @@ final class Class319 {
 				}
 				method3658((byte) -66);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "tl.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "tl.C(" + i
 						+ ')');
 			}
 			break;
@@ -37,7 +37,7 @@ final class Class319 {
 			}
 			aClass79_2703.method794(i + 80);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tl.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "tl.B(" + i + ')');
 		}
 	}
 
@@ -46,7 +46,7 @@ final class Class319 {
 			aHa_Sub3_2704 = var_ha_Sub3;
 			aD2701 = var_d;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tl.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("tl.<init>("
 					+ (var_ha_Sub3 != null ? "{...}" : "null") + ','
 					+ (var_d != null ? "{...}" : "null") + ')'));
 		}
@@ -62,7 +62,7 @@ final class Class319 {
 			}
 			return Class134_Sub1.method2246("hw3d", (byte) -36);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tl.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "tl.A(" + bool
 					+ ')');
 		}
 	}
@@ -109,7 +109,7 @@ final class Class319 {
 			aClass79_2703.method805(i_0_, interface4_impl2, (byte) -80);
 			return interface4_impl2;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tl.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "tl.D(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -121,7 +121,7 @@ final class Class319 {
 				return;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tl.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "tl.E(" + i + ')');
 		}
 	}
 

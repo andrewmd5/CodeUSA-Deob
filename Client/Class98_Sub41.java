@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub41 extends Class98 {
+final class Class98_Sub41 extends Node {
 	static IncomingOpcode aClass58_4199;
 	static int anInt4200 = 0;
 	String aString4201;
@@ -20,7 +20,7 @@ final class Class98_Sub41 extends Class98 {
 				}
 				aClass58_4199 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "qda.B(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "qda.B(" + bool
 						+ ')');
 			}
 			break;
@@ -54,7 +54,7 @@ final class Class98_Sub41 extends Class98 {
 				client.aByteArrayArray3551 = new byte[i_3_][];
 				Class377.anIntArray3178 = new int[i_3_];
 				Class287.anIntArray2188 = new int[i_3_];
-				Class246_Sub3_Sub4_Sub2_Sub2.aByteArrayArray6533 = new byte[i_3_][];
+				Player.aByteArrayArray6533 = new byte[i_3_][];
 				Class255.aByteArrayArray3211 = new byte[i_3_][];
 				Class377.aByteArrayArray3182 = new byte[i_3_][];
 				Class98_Sub36.anIntArray4162 = new int[i_3_];
@@ -66,16 +66,16 @@ final class Class98_Sub41 extends Class98 {
 						Class121.anIntArray1006[i_3_] = (i_6_ << -1191642008)
 								+ i_7_;
 						Class287.anIntArray2188[i_3_] = Class234.aClass207_1748
-								.method2750((byte) -90,
+								.getResourceByName((byte) -90,
 										("m" + i_6_ + "_" + i_7_));
 						Class98_Sub36.anIntArray4162[i_3_] = Class234.aClass207_1748
-								.method2750((byte) -114,
+								.getResourceByName((byte) -114,
 										("l" + i_6_ + "_" + i_7_));
 						GameObjectDefinitionLoader.anIntArray2517[i_3_] = Class234.aClass207_1748
-								.method2750((byte) -77,
+								.getResourceByName((byte) -77,
 										("um" + i_6_ + "_" + i_7_));
 						Class377.anIntArray3178[i_3_] = Class234.aClass207_1748
-								.method2750((byte) -61,
+								.getResourceByName((byte) -61,
 										("ul" + i_6_ + "_" + i_7_));
 						i_3_++;
 					}
@@ -83,7 +83,7 @@ final class Class98_Sub41 extends Class98 {
 				Class251.method3170(-6547, i_0_, resetScene, i_1_, 11);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qda.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qda.A(" + i + ')');
 		}
 	}
 
@@ -95,7 +95,7 @@ final class Class98_Sub41 extends Class98 {
 		try {
 			aString4201 = string;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qda.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("qda.<init>("
 					+ (string != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}

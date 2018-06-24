@@ -18,7 +18,7 @@ final class Class114 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hga.A(" + c + ','
+			throw Class64_Sub27.printError(runtimeexception, "hga.A(" + c + ','
 					+ i + ')');
 		}
 	}
@@ -37,7 +37,7 @@ final class Class114 {
 			final Class267 class267 = new Class267(i, false);
 			return class267;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hga.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "hga.C(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -51,7 +51,7 @@ final class Class114 {
 				}
 				anIntArray958 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "hga.E(" + i
+				throw Class64_Sub27.printError(runtimeexception, "hga.E(" + i
 						+ ')');
 			}
 			break;
@@ -107,7 +107,7 @@ final class Class114 {
 			Class232.aClass79_1740.method805(i, class244, (byte) -80);
 			return class244;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("hga.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("hga.B(" + i + ','
 					+ bool + ',' + (var_ha != null ? "{...}" : "null") + ','
 					+ bool_2_ + ')'));
 		}

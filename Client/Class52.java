@@ -26,7 +26,7 @@ final class Class52 implements Interface21 {
 				return Class211.aClass79_1594.method797(-127);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dk.F(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "dk.F(" + bool
 					+ ')');
 		}
 	}
@@ -37,7 +37,7 @@ final class Class52 implements Interface21 {
 				method70(43);
 			return Class365.aClass113_3109;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dk.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dk.A(" + i + ')');
 		}
 	}
 
@@ -49,7 +49,7 @@ final class Class52 implements Interface21 {
 			if (bool == false)
 				Class151_Sub7.aClass79_5004.method806((byte) 116);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dk.D(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "dk.D(" + bool
 					+ ')');
 		}
 	}
@@ -78,7 +78,7 @@ final class Class52 implements Interface21 {
 			}
 			return class259s;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dk.B("
+			throw Class64_Sub27.printError(runtimeexception, ("dk.B("
 					+ (class88 != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -86,7 +86,7 @@ final class Class52 implements Interface21 {
 	static final Class370 method491(int i, boolean bool, Class207 class207,
 			String string) {
 		try {
-			int i_1_ = class207.method2750((byte) -102, string);
+			int i_1_ = class207.getResourceByName((byte) -102, string);
 			if ((i_1_ ^ 0xffffffff) == 0)
 				return new Class370(0);
 			int[] is = class207.method2743(i_1_, 6341);
@@ -111,7 +111,7 @@ final class Class52 implements Interface21 {
 			}
 			return class370;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dk.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("dk.C(" + i + ','
 					+ bool + ',' + (class207 != null ? "{...}" : "null") + ','
 					+ (string != null ? "{...}" : "null") + ')'));
 		}
@@ -125,7 +125,7 @@ final class Class52 implements Interface21 {
 			aClass207_3494 = null;
 			anIntArray3493 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dk.E(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "dk.E(" + bool
 					+ ')');
 		}
 	}
@@ -145,7 +145,7 @@ final class Class52 implements Interface21 {
 			((Class52) this).aClass63_3502 = class63;
 			((Class52) this).aBoolean3495 = bool;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("dk.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("dk.<init>(" + i
 					+ ',' + (class63 != null ? "{...}" : "null") + ','
 					+ (class110 != null ? "{...}" : "null") + ',' + i_7_ + ','
 					+ i_8_ + ',' + i_9_ + ',' + i_10_ + ',' + i_11_ + ','

@@ -16,7 +16,7 @@ final class Class98_Sub10_Sub37 extends Class98_Sub10 {
 			}
 			aClass148_5748 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vb.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vb.D(" + i + ')');
 		}
 	}
 
@@ -51,7 +51,7 @@ final class Class98_Sub10_Sub37 extends Class98_Sub10 {
 							/ i_3_;
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "vb.E(" + i
+				throw Class64_Sub27.printError(runtimeexception, "vb.E(" + i
 						+ ')');
 			}
 			break;
@@ -66,7 +66,7 @@ final class Class98_Sub10_Sub37 extends Class98_Sub10 {
 				method1001((byte) 126);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vb.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vb.I(" + i + ')');
 		}
 	}
 
@@ -103,7 +103,7 @@ final class Class98_Sub10_Sub37 extends Class98_Sub10 {
 			}
 			return i - i_4_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vb.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vb.B(" + i + ','
 					+ (is != null ? "{...}" : "null") + ',' + bool + ','
 					+ (string != null ? "{...}" : "null") + ')'));
 		}
@@ -158,7 +158,7 @@ final class Class98_Sub10_Sub37 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vb.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "vb.G(" + i + ','
 					+ i_11_ + ')');
 		}
 	}
@@ -189,7 +189,7 @@ final class Class98_Sub10_Sub37 extends Class98_Sub10 {
 				} while (false);
 				anInt5749 = class98_sub22.readUnsignedShort((byte) 127);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("vb.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("vb.A(" + i
 						+ ',' + (class98_sub22 != null ? "{...}" : "null")
 						+ ',' + i_25_ + ')'));
 			}

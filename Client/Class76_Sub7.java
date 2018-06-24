@@ -16,7 +16,7 @@ final class Class76_Sub7 extends Class76 {
 				anIntArray3765 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kha.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kha.F(" + i + ')');
 		}
 	}
 
@@ -29,7 +29,7 @@ final class Class76_Sub7 extends Class76 {
 				anIntArray3765 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kha.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "kha.D(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -56,7 +56,7 @@ final class Class76_Sub7 extends Class76 {
 						Class144.aClass258_1168, (byte) 103);
 				((Class76) this).aHa_Sub3_585.method1951((byte) 120, 0);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "kha.M(" + i
+				throw Class64_Sub27.printError(runtimeexception, "kha.M(" + i
 						+ ')');
 			}
 			break;
@@ -83,7 +83,7 @@ final class Class76_Sub7 extends Class76 {
 					Class64_Sub16.aClass65_3681, 0);
 			method749(8);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kha.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "kha.B(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -93,7 +93,7 @@ final class Class76_Sub7 extends Class76 {
 		try {
 			aClass195_3762 = class195;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("kha.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("kha.<init>("
 					+ (var_ha_Sub3 != null ? "{...}" : "null") + ','
 					+ (class195 != null ? "{...}" : "null") + ')'));
 		}
@@ -106,13 +106,13 @@ final class Class76_Sub7 extends Class76 {
 				try {
 					Class195.aClass225_1502.method2846(0L, 0);
 					Class195.aClass225_1502.method2852(24, i, -1,
-							(class98_sub22.aByteArray3992));
+							(class98_sub22.incomingBytes));
 				} catch (final Exception exception) {
 					/* empty */
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("kha.A(" + i + ','
 							+ (class98_sub22 != null ? "{...}" : "null") + ','
 							+ bool + ')'));
@@ -152,7 +152,7 @@ final class Class76_Sub7 extends Class76 {
 			}
 			((Class76) this).aHa_Sub3_585.method1951((byte) 120, 0);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("kha.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("kha.E(" + i + ','
 					+ i_1_ + ',' + i_2_ + ')'));
 		}
 	}
@@ -164,11 +164,11 @@ final class Class76_Sub7 extends Class76 {
 				method763(-71, 94, true);
 			}
 			return ((Class373_Sub2.method3974(i_4_, i, -35)
-					| Class98.method944(i, i_4_, (byte) 85) | Class195
+					| Node.method944(i, i_4_, (byte) 85) | Class195
 						.method2663(i, i_4_, bool)) & Class246_Sub2.method2973(
 					i, i_4_, (byte) -96));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("kha.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("kha.G(" + i + ','
 					+ i_4_ + ',' + bool + ')'));
 		}
 	}
@@ -181,7 +181,7 @@ final class Class76_Sub7 extends Class76 {
 			}
 			return aClass195_3762.method2659(i ^ ~0x5776);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kha.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kha.H(" + i + ')');
 		}
 	}
 
@@ -194,7 +194,7 @@ final class Class76_Sub7 extends Class76 {
 				aClass195_3762 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("kha.I(" + i + ',' + i_5_ + ','
 							+ (interface4 != null ? "{...}" : "null") + ')'));
 		}
@@ -218,7 +218,7 @@ final class Class76_Sub7 extends Class76 {
 						Class300.aClass65_2499, 0);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kha.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kha.C(" + i + ')');
 		}
 	}
 }

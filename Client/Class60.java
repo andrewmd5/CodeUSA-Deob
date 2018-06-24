@@ -34,7 +34,7 @@ final class Class60 {
 							.readUnsignedShort((byte) 127);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("eba.A(" + i + ','
 							+ (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i_0_ + ')'));
@@ -52,7 +52,7 @@ final class Class60 {
 				method532((byte) 58, class98_sub22, i_2_);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("eba.C(" + (class98_sub22 != null ? "{...}" : "null")
 							+ ',' + i + ')'));
 		}
@@ -67,7 +67,7 @@ final class Class60 {
 			aClass105_474 = null;
 			aLongArray475 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "eba.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "eba.D(" + i + ')');
 		}
 	}
 
@@ -255,7 +255,7 @@ final class Class60 {
 			var_ha_Sub3_Sub2.method1965(true);
 			return var_ha_Sub3_Sub2;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("eba.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("eba.E(" + i + ','
 					+ (class207 != null ? "{...}" : "null") + ','
 					+ (var_d != null ? "{...}" : "null") + ',' + i_40_ + ','
 					+ (canvas != null ? "{...}" : "null") + ')'));

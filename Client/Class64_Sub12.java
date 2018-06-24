@@ -20,7 +20,7 @@ final class Class64_Sub12 extends Class64 {
 				}
 				method550(-40, 88);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "hp.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "hp.C(" + i
 						+ ')');
 			}
 			break;
@@ -35,7 +35,7 @@ final class Class64_Sub12 extends Class64 {
 			}
 			return 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hp.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hp.A(" + i + ')');
 		}
 	}
 
@@ -52,7 +52,7 @@ final class Class64_Sub12 extends Class64 {
 				}
 				aBooleanArrayArrayArray3673 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "hp.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "hp.D(" + i
 						+ ')');
 			}
 			break;
@@ -68,7 +68,7 @@ final class Class64_Sub12 extends Class64 {
 		try {
 			((Class64) this).anInt494 = i_0_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hp.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "hp.B(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -81,7 +81,7 @@ final class Class64_Sub12 extends Class64 {
 			}
 			return 1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hp.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "hp.F(" + i + ','
 					+ i_2_ + ')');
 		}
 	}
@@ -93,7 +93,7 @@ final class Class64_Sub12 extends Class64 {
 			}
 			return ((Class64) this).anInt494;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hp.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hp.E(" + i + ')');
 		}
 	}
 

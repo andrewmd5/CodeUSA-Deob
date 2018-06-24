@@ -30,7 +30,7 @@ final class Class98_Sub10_Sub31 extends Class98_Sub10 {
 				}
 				method990(-115, -128);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("rf.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("rf.A(" + i
 						+ ',' + (class98_sub22 != null ? "{...}" : "null")
 						+ ',' + i_0_ + ')'));
 			}
@@ -56,7 +56,7 @@ final class Class98_Sub10_Sub31 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rf.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "rf.G(" + i + ','
 					+ i_2_ + ')');
 		}
 	}
@@ -71,7 +71,7 @@ final class Class98_Sub10_Sub31 extends Class98_Sub10 {
 				}
 				aClass1Array5717 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "rf.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "rf.B(" + i
 						+ ')');
 			}
 			break;

@@ -24,7 +24,7 @@ final class Class356 {
 			}
 			return aFile3022;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vl.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vl.G(" + i + ')');
 		}
 	}
 
@@ -33,7 +33,7 @@ final class Class356 {
 			aRandomAccessFile3021.seek(l);
 			aLong3019 = l;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vl.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "vl.A(" + i + ','
 					+ l + ')');
 		}
 	}
@@ -45,7 +45,7 @@ final class Class356 {
 			}
 			return aRandomAccessFile3021.length();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vl.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vl.F(" + i + ')');
 		}
 	}
 
@@ -61,7 +61,7 @@ final class Class356 {
 			}
 			return i_3_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("vl.C(" + i + ',' + i_1_ + ',' + i_2_ + ','
 							+ (is != null ? "{...}" : "null") + ')'));
 		}
@@ -79,7 +79,7 @@ final class Class356 {
 				}
 				method3876((byte) -68);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "vl.E(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "vl.E(" + bool
 						+ ')');
 			}
 			break;
@@ -100,7 +100,7 @@ final class Class356 {
 			}
 			aRandomAccessFile3021.seek(0L);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vl.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("vl.<init>("
 					+ (file != null ? "{...}" : "null") + ','
 					+ (string != null ? "{...}" : "null") + ',' + l + ')'));
 		}
@@ -113,7 +113,7 @@ final class Class356 {
 			}
 			aClass97Array3023 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vl.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vl.D(" + i + ')');
 		}
 	}
 
@@ -128,7 +128,7 @@ final class Class356 {
 				method3880(true);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"vl.finalize(" + ')');
 		}
 	}
@@ -147,7 +147,7 @@ final class Class356 {
 			}
 			aLong3019 += i_5_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vl.B("
+			throw Class64_Sub27.printError(runtimeexception, ("vl.B("
 					+ (is != null ? "{...}" : "null") + ',' + i + ',' + i_4_
 					+ ',' + i_5_ + ')'));
 		}

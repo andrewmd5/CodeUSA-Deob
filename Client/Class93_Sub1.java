@@ -28,7 +28,7 @@ class Class93_Sub1 extends Class93 {
 				method902(45);
 			aClass58_5482 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ij.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ij.I(" + i + ')');
 		}
 	}
 
@@ -147,7 +147,7 @@ class Class93_Sub1 extends Class93 {
 				i_10_ = 99;
 			return i_10_;// mysticflow
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ij.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ij.H(" + i + ')');
 		}
 	}
 
@@ -163,7 +163,7 @@ class Class93_Sub1 extends Class93 {
 			((Class93_Sub1) this).anInt5483 = i_17_;
 			((Class93_Sub1) this).anInt5481 = i_20_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ij.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("ij.<init>("
 					+ (class63 != null ? "{...}" : "null") + ','
 					+ (class110 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_11_ + ',' + i_12_ + ',' + i_13_ + ',' + i_14_ + ','
@@ -242,7 +242,7 @@ class Class93_Sub1 extends Class93 {
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ij.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ij.F(" + i + ')');
 		}
 	}
 
@@ -255,7 +255,7 @@ class Class93_Sub1 extends Class93 {
 				return false;
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ij.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ij.G(" + i + ','
 					+ i_40_ + ',' + i_41_ + ')'));
 		}
 	}
@@ -273,7 +273,7 @@ class Class93_Sub1 extends Class93 {
 					Class207.aClass348_1569, Class98_Sub5_Sub1.aClass348_5534,
 					TextureDefinition.aClass348_1834 });
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ij.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ij.D(" + i + ')');
 		}
 	}
 
@@ -283,7 +283,7 @@ class Class93_Sub1 extends Class93 {
 				method904((byte) 69);
 			return Class98_Sub44.aClass113_4245;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ij.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ij.A(" + i + ')');
 		}
 	}
 
@@ -316,7 +316,7 @@ class Class93_Sub1 extends Class93 {
 						+ Class48_Sub1_Sub2.anInt5519 >> 1217660993);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ij.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ij.E(" + i + ','
 					+ i_42_ + ',' + i_43_ + ')'));
 		}
 	}

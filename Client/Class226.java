@@ -22,7 +22,7 @@ final class Class226 {
 				}
 				method2854(true, false, 46, null, -102, 74, -54);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "oga.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "oga.B(" + i
 						+ ')');
 			}
 			break;
@@ -49,7 +49,7 @@ final class Class226 {
 			}
 			Class116.aClass98_Sub31_Sub2_965 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("oga.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("oga.A(" + bool
 					+ ',' + bool_0_ + ',' + i + ','
 					+ (class207 != null ? "{...}" : "null") + ',' + i_1_ + ','
 					+ i_2_ + ',' + i_3_ + ')'));

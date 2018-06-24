@@ -36,7 +36,7 @@ abstract class Class237 {
 				Class76_Sub8.anInt3778 = i_3_;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pb.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pb.F(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ')'));
 		}
 	}
@@ -50,7 +50,7 @@ abstract class Class237 {
 			}
 			return aClass98_Sub43_Sub1_1807;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pb.Q(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pb.Q(" + i + ')');
 		}
 	}
 
@@ -67,7 +67,7 @@ abstract class Class237 {
 			}
 			return 0.0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pb.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pb.G(" + i + ')');
 		}
 	}
 
@@ -85,7 +85,7 @@ abstract class Class237 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pb.M(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "pb.M(" + bool
 					+ ')');
 		}
 	}
@@ -105,7 +105,7 @@ abstract class Class237 {
 				aBoolean1815 = true;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pb.L(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pb.L(" + i + ')');
 		}
 	}
 
@@ -186,7 +186,7 @@ abstract class Class237 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pb.E(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "pb.E(" + bool
 					+ ')');
 		}
 	}
@@ -213,7 +213,7 @@ abstract class Class237 {
 				}
 				method2908(40);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "pb.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "pb.C(" + i
 						+ ')');
 			}
 			break;
@@ -229,7 +229,7 @@ abstract class Class237 {
 				}
 				aBoolean1803 = true;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "pb.N(" + i
+				throw Class64_Sub27.printError(runtimeexception, "pb.N(" + i
 						+ ')');
 			}
 			break;
@@ -272,7 +272,7 @@ abstract class Class237 {
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "pb.J(" + i
+				throw Class64_Sub27.printError(runtimeexception, "pb.J(" + i
 						+ ')');
 			}
 			break;
@@ -286,7 +286,7 @@ abstract class Class237 {
 			}
 			return aClass98_Sub43_Sub3_1813;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pb.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pb.B(" + i + ')');
 		}
 	}
 
@@ -322,7 +322,7 @@ abstract class Class237 {
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("pb.A(" + bool
+				throw Class64_Sub27.printError(runtimeexception, ("pb.A(" + bool
 						+ ',' + (string != null ? "{...}" : "null") + ')'));
 			}
 			break;
@@ -352,7 +352,7 @@ abstract class Class237 {
 			}
 			method2909(true, aString1806);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pb.I(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pb.I(" + i + ')');
 		}
 	}
 
@@ -370,7 +370,7 @@ abstract class Class237 {
 			}
 			aBoolean1812 = !aBoolean1812;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pb.D(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "pb.D(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -396,7 +396,7 @@ abstract class Class237 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pb.P(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pb.P(" + i + ')');
 		}
 	}
 
@@ -407,7 +407,7 @@ abstract class Class237 {
 			}
 			return aClass98_Sub43_Sub4_1801;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pb.K(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pb.K(" + i + ')');
 		}
 	}
 
@@ -482,7 +482,7 @@ abstract class Class237 {
 			aClass377_1811.method3996(class98_sub43, i_6_, -1);
 			return class98_sub43;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pb.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pb.H(" + i + ')');
 		}
 	}
 
@@ -497,7 +497,7 @@ abstract class Class237 {
 			anOggPacket1802 = new OggPacket();
 			aClass377_1811 = new Class377(8);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pb.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "pb.<init>(" + i
 					+ ')');
 		}
 	}

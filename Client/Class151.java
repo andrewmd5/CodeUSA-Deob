@@ -15,7 +15,7 @@ abstract class Class151 {
 			}
 			aClass63_1216 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kd.L(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kd.L(" + i + ')');
 		}
 	}
 
@@ -27,7 +27,7 @@ abstract class Class151 {
 		try {
 			aHa_Sub1_1215 = var_ha_Sub1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kd.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "kd.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -42,7 +42,7 @@ abstract class Class151 {
 		try {
 			return i & 0xff;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kd.M(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "kd.M(" + i + ','
 					+ i_3_ + ')');
 		}
 	}

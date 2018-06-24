@@ -16,7 +16,7 @@ final class Class105 implements Interface15 {
 					break;
 				method1714(-127);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "gm.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "gm.D(" + i
 						+ ')');
 			}
 			break;
@@ -27,7 +27,7 @@ final class Class105 implements Interface15 {
 		try {
 			throw new IllegalStateException();
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"gm.toString(" + ')');
 		}
 	}
@@ -40,7 +40,7 @@ final class Class105 implements Interface15 {
 				return false;
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gm.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("gm.A(" + bool
 					+ ',' + i + ',' + i_0_ + ')'));
 		}
 	}
@@ -63,7 +63,7 @@ final class Class105 implements Interface15 {
 			return new Class93(class63, class110, i_1_, i_2_, i_3_, i_4_, i_5_,
 					i_6_, i_7_);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gm.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gm.B(" + i + ','
 					+ (class98_sub22 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -77,7 +77,7 @@ final class Class105 implements Interface15 {
 			return (((i_12_ & 0x2) == 0 ? i_14_ : -i_14_) + ((i_12_ & 0x1 ^ 0xffffffff) == -1 ? i_13_
 					: -i_13_));
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gm.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gm.C(" + i + ','
 					+ i_8_ + ',' + i_9_ + ',' + i_10_ + ',' + i_11_ + ')'));
 		}
 	}
@@ -120,7 +120,7 @@ final class Class105 implements Interface15 {
 				method1718(35, 58);
 			return null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gm.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "gm.E(" + i + ','
 					+ i_15_ + ')');
 		}
 	}
@@ -129,7 +129,7 @@ final class Class105 implements Interface15 {
 		try {
 			((Class105) this).anInt3416 = i;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gm.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("gm.<init>("
 					+ (string != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}

@@ -12,7 +12,7 @@ final class Class76_Sub4 extends Class76 {
 		try {
 			aClass377_3738 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iea.O(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "iea.O(" + i + ')');
 		}
 	}
 
@@ -21,7 +21,7 @@ final class Class76_Sub4 extends Class76 {
 			Class151_Sub9.method2472(true, Class309.aClass309_2598.method3615(
 					Class374.anInt3159, (byte) 25), i, bool);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iea.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("iea.F(" + i + ','
 					+ bool + ',' + i_1_ + ')'));
 		}
 	}
@@ -87,7 +87,7 @@ final class Class76_Sub4 extends Class76 {
 				anInterface4_Impl3Array3740[2] = ((Class76) this).aHa_Sub3_585
 						.method1934(8, false, is, 64);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("iea.<init>("
+				throw Class64_Sub27.printError(runtimeexception, ("iea.<init>("
 						+ (var_ha_Sub3 != null ? "{...}" : "null") + ')'));
 			}
 			break;
@@ -107,7 +107,7 @@ final class Class76_Sub4 extends Class76 {
 			}
 			return -1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iea.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("iea.A(" + bool
 					+ ',' + (string != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -167,7 +167,7 @@ final class Class76_Sub4 extends Class76 {
 				aBoolean3741 = true;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iea.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "iea.B(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -181,7 +181,7 @@ final class Class76_Sub4 extends Class76 {
 			((Class76) this).aHa_Sub3_585.method2019(Class288.aClass128_3381,
 					Class249.aClass128_1903, 22831);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iea.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "iea.D(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -196,7 +196,7 @@ final class Class76_Sub4 extends Class76 {
 			}
 			((Class76) this).aHa_Sub3_585.method2015(i_15_, (byte) 36);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("iea.I(" + i + ',' + i_15_ + ','
 							+ (interface4 != null ? "{...}" : "null") + ')'));
 		}
@@ -249,7 +249,7 @@ final class Class76_Sub4 extends Class76 {
 			((Class76) this).aHa_Sub3_585.method2019(Class249.aClass128_1903,
 					Class249.aClass128_1903, i + 22833);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iea.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "iea.C(" + i + ')');
 		}
 	}
 
@@ -266,7 +266,7 @@ final class Class76_Sub4 extends Class76 {
 				((Class76) this).aHa_Sub3_585.method1951((byte) 120, 0);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iea.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("iea.E(" + i + ','
 					+ i_16_ + ',' + i_17_ + ')'));
 		}
 	}
@@ -279,7 +279,7 @@ final class Class76_Sub4 extends Class76 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "iea.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "iea.H(" + i + ')');
 		}
 	}
 
@@ -299,7 +299,7 @@ final class Class76_Sub4 extends Class76 {
 				Class98_Sub10_Sub29.sendPacket(false, class98_sub11);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iea.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("iea.G(" + i + ','
 					+ (string != null ? "{...}" : "null") + ')'));
 		}
 	}

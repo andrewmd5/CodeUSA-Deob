@@ -32,7 +32,7 @@ final class Class98_Sub46_Sub14 extends Class98_Sub46 implements Interface3 {
 				anInt5381 = 0;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "is.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "is.C(" + i + ')');
 		}
 	}
 
@@ -59,7 +59,7 @@ final class Class98_Sub46_Sub14 extends Class98_Sub46 implements Interface3 {
 				Class41.method367(Class263.aDouble1966, 14794);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "is.E(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "is.E(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -76,7 +76,7 @@ final class Class98_Sub46_Sub14 extends Class98_Sub46 implements Interface3 {
 				}
 				method1606((byte) -93);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("is.G(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("is.G(" + i
 						+ ',' + i_2_ + ',' + i_3_ + ')'));
 			}
 			break;
@@ -92,7 +92,7 @@ final class Class98_Sub46_Sub14 extends Class98_Sub46 implements Interface3 {
 				}
 				method1607(null, (byte) 87);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "is.F(" + i
+				throw Class64_Sub27.printError(runtimeexception, "is.F(" + i
 						+ ')');
 			}
 			break;
@@ -113,7 +113,7 @@ final class Class98_Sub46_Sub14 extends Class98_Sub46 implements Interface3 {
 					(class228.anInt1709 - class228.anInt1715), (byte) 16,
 					class228.anInt1715, class228.anInt1712);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("is.D("
+			throw Class64_Sub27.printError(runtimeexception, ("is.D("
 					+ (class228 != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -124,7 +124,7 @@ final class Class98_Sub46_Sub14 extends Class98_Sub46 implements Interface3 {
 			method1603(0);
 			super.finalize();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"is.finalize(" + ')');
 		}
 	}
@@ -139,7 +139,7 @@ final class Class98_Sub46_Sub14 extends Class98_Sub46 implements Interface3 {
 			anInt5380 = -1;
 			anInt5375 = -1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "is.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "is.B(" + i + ')');
 		}
 	}
 
@@ -158,7 +158,7 @@ final class Class98_Sub46_Sub14 extends Class98_Sub46 implements Interface3 {
 			anInt5374 = (anInt5376 * (anInt5377 * aHa_Sub1_5373.method1866(-96,
 					anInt5379)));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("is.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("is.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_4_ + ',' + i_5_ + ')'));
 		}
@@ -179,7 +179,7 @@ final class Class98_Sub46_Sub14 extends Class98_Sub46 implements Interface3 {
 			anInt5374 = (anInt5377 * anInt5376 * aHa_Sub1_5373.method1866(-121,
 					anInt5379));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("is.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("is.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_6_ + ',' + i_7_ + ',' + i_8_ + ')'));
 		}

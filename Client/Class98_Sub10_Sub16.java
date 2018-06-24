@@ -17,44 +17,44 @@ final class Class98_Sub10_Sub16 extends Class98_Sub10 {
 			aClass85_5621 = null;
 			aClass29_5620 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ir.D(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "ir.D(" + bool
 					+ ')');
 		}
 	}
 
-	static final Class146 method1052(int i, int i_0_, int i_1_, ha var_ha,
+	static final AbstractModel method1052(int i, int i_0_, int i_1_, ha var_ha,
 			int i_2_, int i_3_, int i_4_) {
 		try {
 			long l = (long) i_2_;
-			Class146 class146 = ((Class146) Class246_Sub4_Sub1.aClass79_6170
+			AbstractModel abstractModel = ((AbstractModel) Class246_Sub4_Sub1.aClass79_6170
 					.method802(-126, l));
 			int i_5_ = 2055;
-			if (class146 == null) {
-				Model model = Class98_Sub6.method981(0, -9252,
+			if (abstractModel == null) {
+				Model model = RSModelLoader.createModel(0, -9252,
 						Class76_Sub9.aClass207_3787, i_2_);
 				if (model == null)
 					return null;
 				if ((((Model) model).version ^ 0xffffffff) > -14)
 					model.method2592(13746, 2);
-				class146 = var_ha.method1790(model, i_5_,
+				abstractModel = var_ha.method1790(model, i_5_,
 						Class98_Sub10_Sub13.anInt5600, 64, 768);
-				Class246_Sub4_Sub1.aClass79_6170.method805(l, class146,
+				Class246_Sub4_Sub1.aClass79_6170.method805(l, abstractModel,
 						(byte) -80);
 			}
-			class146 = class146.method2341((byte) 2, i_5_, true);
+			abstractModel = abstractModel.method2341((byte) 2, i_5_, true);
 			if (i_0_ != 0)
-				class146.a(i_0_);
+				abstractModel.a(i_0_);
 			if (i_1_ != 0)
-				class146.FA(i_1_);
+				abstractModel.FA(i_1_);
 			if ((i ^ 0xffffffff) != -1)
-				class146.VA(i);
+				abstractModel.VA(i);
 			if (i_3_ < 68)
 				method1052(80, 14, 63, null, -118, 89, 104);
 			if (i_4_ != 0)
-				class146.H(0, i_4_, 0);
-			return class146;
+				abstractModel.H(0, i_4_, 0);
+			return abstractModel;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ir.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ir.B(" + i + ','
 					+ i_0_ + ',' + i_1_ + ','
 					+ (var_ha != null ? "{...}" : "null") + ',' + i_2_ + ','
 					+ i_3_ + ',' + i_4_ + ')'));
@@ -77,7 +77,7 @@ final class Class98_Sub10_Sub16 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ir.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ir.G(" + i + ','
 					+ i_6_ + ')');
 		}
 	}

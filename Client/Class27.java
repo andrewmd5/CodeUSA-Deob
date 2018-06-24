@@ -42,11 +42,11 @@ final class Class27 {
 			Class275.aClass79_2046.method806((byte) -106);
 			Class224_Sub3.aClass79_5039.method806((byte) -82);
 			Class378.aClass79_3189.method806((byte) -80);
-			Class98_Sub6.aClass79_3847.method806((byte) 118);
+			RSModelLoader.aClass79_3847.method806((byte) 118);
 			ClientScriptsDefs.aClass79_1890.method806((byte) 28);
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, "c.C(" + bool + ')');
+					.printError(runtimeexception, "c.C(" + bool + ')');
 		}
 	}
 
@@ -62,7 +62,7 @@ final class Class27 {
 				aClass58_274 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "c.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "c.B(" + i + ')');
 		}
 	}
 
@@ -90,7 +90,7 @@ final class Class27 {
 					anIntArray278 = null;
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "c.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "c.A(" + i
 						+ ')');
 			}
 			break;

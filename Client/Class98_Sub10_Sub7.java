@@ -224,7 +224,7 @@ final class Class98_Sub10_Sub7 extends Class98_Sub10 {
 			} while (false);
 			return is;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dp.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "dp.C(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -361,7 +361,7 @@ final class Class98_Sub10_Sub7 extends Class98_Sub10 {
 			} while (false);
 			return is;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dp.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "dp.G(" + i + ','
 					+ i_49_ + ')');
 		}
 	}
@@ -374,7 +374,7 @@ final class Class98_Sub10_Sub7 extends Class98_Sub10 {
 				return false;
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dp.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "dp.E(" + i + ','
 					+ i_65_ + ')');
 		}
 	}
@@ -394,7 +394,7 @@ final class Class98_Sub10_Sub7 extends Class98_Sub10 {
 					break;
 				method1024((byte) 69);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "dp.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "dp.D(" + i
 						+ ')');
 			}
 			break;
@@ -411,7 +411,7 @@ final class Class98_Sub10_Sub7 extends Class98_Sub10 {
 			int i_68_ = -92 % ((i_66_ - 18) / 41);
 			return null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dp.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "dp.B(" + i + ','
 					+ i_66_ + ')');
 		}
 	}
@@ -435,7 +435,7 @@ final class Class98_Sub10_Sub7 extends Class98_Sub10 {
 					break;
 				aClass171_5571 = null;
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("dp.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("dp.A(" + i
 						+ ',' + (class98_sub22 != null ? "{...}" : "null")
 						+ ',' + i_69_ + ')'));
 			}

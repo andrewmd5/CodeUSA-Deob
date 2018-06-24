@@ -4,7 +4,7 @@
 import java.awt.Canvas;
 import java.awt.Graphics;
 
-abstract class Class98_Sub32 extends Class98 {
+abstract class Class98_Sub32 extends Node {
 	int anInt4105;
 	static OutgoingOpcode aClass171_4106;
 	static Class293 aClass293_4107 = null;
@@ -26,7 +26,7 @@ abstract class Class98_Sub32 extends Class98 {
 				return -i_1_ + 4095;
 			return -i + 4095;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("nca.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("nca.G(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ')'));
 		}
 	}
@@ -66,7 +66,7 @@ abstract class Class98_Sub32 extends Class98 {
 			stringbuffer.append(string.substring(i_15_));
 			return stringbuffer.toString();
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("nca.E("
+			throw Class64_Sub27.printError(runtimeexception, ("nca.E("
 					+ (string != null ? "{...}" : "null") + ','
 					+ (string_9_ != null ? "{...}" : "null") + ',' + i + ','
 					+ c + ')'));
@@ -187,7 +187,7 @@ abstract class Class98_Sub32 extends Class98 {
 			Class374.method3980((byte) 121);
 			Class33.aBoolean316 = true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nca.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "nca.C(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -202,9 +202,9 @@ abstract class Class98_Sub32 extends Class98 {
 					&& (Class165.anInt1276 ^ 0xffffffff) < (i ^ 0xffffffff)
 					&& (i_19_ ^ 0xffffffff) > (Class98_Sub10_Sub7.anInt5572 ^ 0xffffffff)
 					&& ((((Class98_Sub27) Class98_Sub9.aClass98_Sub27_3856).aClass64_Sub3_4076
-							.method564((byte) 122) ^ 0xffffffff) != -1 || ((i_17_ ^ 0xffffffff) == ((((Class246_Sub3) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).aByte5088) ^ 0xffffffff)))) {
+							.method564((byte) 122) ^ 0xffffffff) != -1 || ((i_17_ ^ 0xffffffff) == ((((Class246_Sub3) Surface.player).aByte5088) ^ 0xffffffff)))) {
 				long l = (long) (i_17_ << 1137066972 | i_21_ << -790678898 | i_20_);
-				Class98_Sub45 class98_sub45 = ((Class98_Sub45) Class146.aClass377_1180
+				Class98_Sub45 class98_sub45 = ((Class98_Sub45) AbstractModel.aClass377_1180
 						.method3990(l, -1));
 				if (class98_sub45 == null)
 					Class281.method3333(i_17_, i, i_19_);
@@ -267,7 +267,7 @@ abstract class Class98_Sub32 extends Class98 {
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("nca.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("nca.F(" + i + ','
 					+ i_17_ + ',' + i_18_ + ',' + i_19_ + ')'));
 		}
 	}
@@ -282,7 +282,7 @@ abstract class Class98_Sub32 extends Class98 {
 				method1436(-52, false);
 			return i_26_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("nca.I("
+			throw Class64_Sub27.printError(runtimeexception, ("nca.I("
 					+ (string != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -315,7 +315,7 @@ abstract class Class98_Sub32 extends Class98 {
 			aClass171_4106 = null;
 			anIntArray4109 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nca.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "nca.H(" + i + ')');
 		}
 	}
 

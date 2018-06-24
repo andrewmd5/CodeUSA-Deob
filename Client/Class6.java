@@ -17,7 +17,7 @@ final class Class6 {
 			anIntArray90 = null;
 			aClass85_89 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "afa.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "afa.C(" + i + ')');
 		}
 	}
 
@@ -25,7 +25,7 @@ final class Class6 {
 		try {
 			throw new IllegalStateException();
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"afa.toString(" + ')');
 		}
 	}
@@ -35,12 +35,12 @@ final class Class6 {
 			if (i < 1)
 				return null;
 			return (new Class196[] { Class43.aClass196_375,
-					Class146.aClass196_1182,
-					Class246_Sub3_Sub4_Sub2_Sub2.aClass196_6543,
+					AbstractModel.aClass196_1182,
+					Player.aClass196_6543,
 					Class207.aClass196_1578, Class98_Sub43_Sub2.aClass196_5908,
 					Class134.aClass196_3458 });
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "afa.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "afa.D(" + i + ')');
 		}
 	}
 
@@ -48,7 +48,7 @@ final class Class6 {
 		try {
 			((Class6) this).anInt87 = i;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("afa.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("afa.<init>("
 					+ (string != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -70,7 +70,7 @@ final class Class6 {
 					break;
 				method179(-82);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "afa.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "afa.B(" + i
 						+ ')');
 			}
 			break;
@@ -83,7 +83,7 @@ final class Class6 {
 				method182(121);
 			return ((Class6) this).anInt87;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "afa.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "afa.A(" + i + ')');
 		}
 	}
 

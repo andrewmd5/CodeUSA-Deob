@@ -83,7 +83,7 @@ final class Class33 {
 												i_7_,
 												0,
 												5123,
-												(((ByteBuffer) class98_sub22_sub2).aByteArray3992));
+												(((ByteBuffer) class98_sub22_sub2).incomingBytes));
 							}
 						}
 					}
@@ -123,7 +123,7 @@ final class Class33 {
 				OpenGL.glMatrixMode(5888);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cg.F(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("cg.F(" + bool
 					+ ',' + i + ',' + i_0_ + ','
 					+ (bools != null ? "{...}" : "null") + ',' + i_1_ + ','
 					+ i_2_ + ')'));
@@ -146,7 +146,7 @@ final class Class33 {
 				}
 				aClass46ArrayArray313 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "cg.G(" + i
+				throw Class64_Sub27.printError(runtimeexception, "cg.G(" + i
 						+ ')');
 			}
 			break;
@@ -197,7 +197,7 @@ final class Class33 {
 				method326(i_28_, i_29_, i_25_, i, bool);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cg.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("cg.E(" + i + ','
 					+ i_25_ + ',' + bool + ','
 					+ (var_r != null ? "{...}" : "null") + ')'));
 		}
@@ -239,7 +239,7 @@ final class Class33 {
 				method323(is, objects, i, i_39_ + -1, i_37_);
 				method323(is, objects, 0, i_36_, i_39_ - -1);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("cg.H("
+				throw Class64_Sub27.printError(runtimeexception, ("cg.H("
 						+ (is != null ? "{...}" : "null") + ','
 						+ (objects != null ? "{...}" : "null") + ',' + i + ','
 						+ i_36_ + ',' + i_37_ + ')'));
@@ -295,7 +295,7 @@ final class Class33 {
 				method326(i_49_, i_50_, i_46_, i_45_, false);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cg.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("cg.C(" + i + ','
 					+ i_45_ + ',' + i_46_ + ','
 					+ (var_r != null ? "{...}" : "null") + ')'));
 		}
@@ -313,7 +313,7 @@ final class Class33 {
 			anInt323 = ((s) aS_Sub1_320).anInt2203 >> anInt319;
 			anInt317 = ((s) aS_Sub1_320).anInt2204 >> anInt319;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cg.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("cg.<init>("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ','
 					+ (var_s_Sub1 != null ? "{...}" : "null") + ')'));
 		}
@@ -361,7 +361,7 @@ final class Class33 {
 			return Class130.method2230(i_67_, i_59_, 1, i_62_, i_61_,
 					aByteArray321, i_60_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cg.B("
+			throw Class64_Sub27.printError(runtimeexception, ("cg.B("
 					+ (var_r != null ? "{...}" : "null") + ',' + i + ','
 					+ i_57_ + ',' + i_58_ + ')'));
 		}
@@ -383,7 +383,7 @@ final class Class33 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cg.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("cg.D(" + i + ','
 					+ i_68_ + ',' + i_69_ + ',' + i_70_ + ',' + bool + ')'));
 		}
 	}
@@ -397,7 +397,7 @@ final class Class33 {
 				}
 				aBoolean316 = false;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "cg.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "cg.A(" + i
 						+ ')');
 			}
 			break;

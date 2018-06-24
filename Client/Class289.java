@@ -24,7 +24,7 @@ final class Class289 {
 			Class98_Sub10_Sub30.aHa5709.EA(
 					(Class98_Sub46_Sub2_Sub2.aSArray6298[0].method3417(
 							class246_sub3.anInt5084, class246_sub3.anInt5079,
-							true)), Class313.method3636(i, i_1_),
+							true)), Appearance.method3636(i, i_1_),
 					IOException_Sub1.method127(i, i_1_), Class98_Sub46_Sub20
 							.method1639(i, i_1_));
 		}
@@ -79,7 +79,7 @@ final class Class289 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rs.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rs.A(" + i + ')');
 		}
 	}
 
@@ -92,7 +92,7 @@ final class Class289 {
 				}
 				method3407(null, null);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "rs.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "rs.B(" + i
 						+ ')');
 			}
 			break;
@@ -106,7 +106,7 @@ final class Class289 {
 			}
 			return (Class98_Sub46_Sub2_Sub2.aClass98_Sub11Array6302[--Class98_Sub33.anInt4117]);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rs.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "rs.C(" + i + ')');
 		}
 	}
 }

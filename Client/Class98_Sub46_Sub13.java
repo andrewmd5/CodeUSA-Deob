@@ -30,23 +30,23 @@ abstract class Class98_Sub46_Sub13 extends Class98_Sub46 {
 					final int i_10_ = -Class134.anInt3461 + i_6_;
 					final int i_11_ = (int) Math.sqrt(i_8_ * i_8_ + i_10_
 							* i_10_);
-					Class246_Sub3_Sub4_Sub2.anInt6357 = 0x3fff & (int) (2607.5945876176133 * Math
+					Entity.anInt6357 = 0x3fff & (int) (2607.5945876176133 * Math
 							.atan2(i_9_, i_11_));
 					Class186.anInt3424 = 0x3fff & (int) (Math
 							.atan2(i_8_, i_10_) * -2607.5945876176133);
 					Class308.anInt2584 = 0;
-					if ((Class246_Sub3_Sub4_Sub2.anInt6357 ^ 0xffffffff) > -1025) {
-						Class246_Sub3_Sub4_Sub2.anInt6357 = 1024;
+					if ((Entity.anInt6357 ^ 0xffffffff) > -1025) {
+						Entity.anInt6357 = 1024;
 					}
-					if ((Class246_Sub3_Sub4_Sub2.anInt6357 ^ 0xffffffff) < -3073) {
-						Class246_Sub3_Sub4_Sub2.anInt6357 = 3072;
+					if ((Entity.anInt6357 ^ 0xffffffff) < -3073) {
+						Entity.anInt6357 = 3072;
 					}
 				}
 				Class98_Sub46_Sub20_Sub2.anInt6319 = 2;
 				Class116.anInt967 = Class64_Sub26.anInt3712 = -1;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("hia.M(" + i + ',' + i_0_ + ',' + i_1_ + ',' + i_2_ + ','
 							+ i_3_ + ',' + i_4_ + ')'));
 		}

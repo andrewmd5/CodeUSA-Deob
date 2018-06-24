@@ -20,7 +20,7 @@ final class Class45 {
 					break;
 				method432((byte) 111);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("dd.C(" + bool
+				throw Class64_Sub27.printError(runtimeexception, ("dd.C(" + bool
 						+ ',' + i + ',' + i_0_ + ')'));
 			}
 			break;
@@ -53,7 +53,7 @@ final class Class45 {
 						+ Class113.anInt952 + ". Time taken: "
 						+ (-l_1_ + Class343.method3819(-47)) + "ms");
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("dd.B(" + l
+				throw Class64_Sub27.printError(runtimeexception, ("dd.B(" + l
 						+ ',' + bool + ','
 						+ (var_ha != null ? "{...}" : "null") + ')'));
 			}
@@ -68,7 +68,7 @@ final class Class45 {
 			aClass207_385 = null;
 			aClass75_381 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dd.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dd.A(" + i + ')');
 		}
 	}
 }

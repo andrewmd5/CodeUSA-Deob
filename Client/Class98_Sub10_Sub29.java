@@ -45,7 +45,7 @@ final class Class98_Sub10_Sub29 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qaa.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "qaa.C(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -95,7 +95,7 @@ final class Class98_Sub10_Sub29 extends Class98_Sub10 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qaa.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("qaa.B(" + i + ','
 					+ (var_aa != null ? "{...}" : "null") + ',' + i_14_ + ','
 					+ i_15_ + ',' + (class293 != null ? "{...}" : "null") + ','
 					+ i_16_ + ',' + l + ',' + i_17_ + ',' + i_18_ + ')'));
@@ -128,7 +128,7 @@ final class Class98_Sub10_Sub29 extends Class98_Sub10 {
 				}
 				anInt5708 = -70;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("qaa.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("qaa.A(" + i
 						+ ',' + (class98_sub22 != null ? "{...}" : "null")
 						+ ',' + i_28_ + ')'));
 			}
@@ -147,7 +147,7 @@ final class Class98_Sub10_Sub29 extends Class98_Sub10 {
 			Class62.anInt490 += class98_sub11.anInt3869;
 			((ByteBuffer) (class98_sub11.aClass98_Sub22_Sub1_3865)).position = 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qaa.E(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("qaa.E(" + bool
 					+ ',' + (class98_sub11 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -181,7 +181,7 @@ final class Class98_Sub10_Sub29 extends Class98_Sub10 {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qaa.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "qaa.G(" + i + ','
 					+ i_30_ + ')');
 		}
 	}
@@ -197,7 +197,7 @@ final class Class98_Sub10_Sub29 extends Class98_Sub10 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qaa.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("qaa.D(" + i + ','
 					+ i_37_ + ',' + i_38_ + ')'));
 		}
 	}

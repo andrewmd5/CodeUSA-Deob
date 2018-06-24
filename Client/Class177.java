@@ -57,7 +57,7 @@ final class Class177 {
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("lu.B("
+				throw Class64_Sub27.printError(runtimeexception, ("lu.B("
 						+ (class98_sub22 != null ? "{...}" : "null") + ',' + i
 						+ ',' + i_0_ + ',' + i_1_ + ')'));
 			}
@@ -106,7 +106,7 @@ final class Class177 {
 			}
 			return new Class336(var_ha_Sub1, l, class345s);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("lu.A(" + (var_ha_Sub1 != null ? "{...}" : "null") + ','
 							+ (class345s != null ? "{...}" : "null") + ','
 							+ bool + ')'));
@@ -122,7 +122,7 @@ final class Class177 {
 			aClass58_1381 = null;
 			aClass103_1375 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lu.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "lu.D(" + i + ')');
 		}
 	}
 
@@ -143,7 +143,7 @@ final class Class177 {
 				}
 				method2585((byte) -61);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("lu.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("lu.C(" + i
 						+ ',' + (class98_sub22 != null ? "{...}" : "null")
 						+ ',' + i_2_ + ')'));
 			}

@@ -18,7 +18,7 @@ final class Class325 {
 				}
 				method3699(-29, -15, 43, 76);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ua.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ua.A(" + i
 						+ ')');
 			}
 			break;
@@ -39,7 +39,7 @@ final class Class325 {
 			class246_sub7.anInt5122 = i_3_;
 			Class64_Sub20.aClass218_3694.method2808(true, class246_sub7);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ua.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ua.F(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ','
 					+ (string != null ? "{...}" : "null") + ',' + i_3_ + ','
 					+ i_4_ + ',' + i_5_ + ')'));
@@ -56,7 +56,7 @@ final class Class325 {
 				}
 				method3699(3, -90, 0, -103);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ua.C(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "ua.C(" + bool
 						+ ',' + i + ')');
 			}
 			break;
@@ -70,7 +70,7 @@ final class Class325 {
 			}
 			return anInt2730 & 0x3fff;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ua.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ua.D(" + i + ')');
 		}
 	}
 
@@ -154,7 +154,7 @@ final class Class325 {
 			anInt2730 += i_10_ + anInt2728 >> -1761865567;
 			return bool;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ua.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ua.B(" + i + ','
 					+ i_7_ + ',' + i_8_ + ',' + i_9_ + ')'));
 		}
 	}
@@ -166,7 +166,7 @@ final class Class325 {
 			}
 			anIntArray2726 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ua.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ua.E(" + i + ')');
 		}
 	}
 

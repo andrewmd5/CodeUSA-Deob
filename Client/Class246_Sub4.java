@@ -170,7 +170,7 @@ class Class246_Sub4 extends Class246 {
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("hs.F(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("hs.F(" + i
 						+ ',' + i_0_ + ',' + i_1_ + ')'));
 			}
 			break;
@@ -187,7 +187,7 @@ class Class246_Sub4 extends Class246 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hs.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "hs.E(" + i + ','
 					+ i_4_ + ')');
 		}
 	}
@@ -201,7 +201,7 @@ class Class246_Sub4 extends Class246 {
 				aClass246_Sub4_5092 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "hs.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "hs.G(" + i + ')');
 		}
 	}
 

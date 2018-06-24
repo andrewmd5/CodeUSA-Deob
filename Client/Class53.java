@@ -18,7 +18,7 @@ abstract class Class53 {
 				return false;
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dl.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dl.A(" + i + ')');
 		}
 	}
 
@@ -30,7 +30,7 @@ abstract class Class53 {
 					break;
 				aLong428 = 16L;
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "dl.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "dl.B(" + i
 						+ ')');
 			}
 			break;
@@ -45,7 +45,7 @@ abstract class Class53 {
 				return false;
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dl.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dl.D(" + i + ')');
 		}
 	}
 
@@ -57,7 +57,7 @@ abstract class Class53 {
 				return false;
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dl.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dl.C(" + i + ')');
 		}
 	}
 
@@ -69,7 +69,7 @@ abstract class Class53 {
 				return false;
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dl.E(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "dl.E(" + bool
 					+ ')');
 		}
 	}

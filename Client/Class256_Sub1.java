@@ -17,7 +17,7 @@ final class Class256_Sub1 extends Class256 {
 			anIntArray5156 = null;
 			anIntArray5158 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "su.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "su.D(" + i + ')');
 		}
 	}
 
@@ -33,12 +33,12 @@ final class Class256_Sub1 extends Class256 {
 				}
 			}
 			if (string
-					.equalsIgnoreCase((Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).aString6537)) {
+					.equalsIgnoreCase((Surface.player).name2)) {
 				return true;
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("su.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("su.B(" + i + ','
 					+ (string != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -67,7 +67,7 @@ final class Class256_Sub1 extends Class256 {
 			}
 			return Class246_Sub3.method2979(-76);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "su.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "su.C(" + i + ')');
 		}
 	}
 
@@ -75,7 +75,7 @@ final class Class256_Sub1 extends Class256 {
 		try {
 			aClass49Array5159 = class49s;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "su.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "su.<init>("
 					+ (class49s != null ? "{...}" : "null") + ')');
 		}
 	}

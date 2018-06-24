@@ -20,7 +20,7 @@ final class Class160 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ko.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ko.C(" + i + ')');
 		}
 	}
 
@@ -31,7 +31,7 @@ final class Class160 {
 				aClass98_Sub22_1257 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ko.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ko.B(" + i + ')');
 		}
 	}
 
@@ -55,7 +55,7 @@ final class Class160 {
 				return;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ko.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ko.A(" + i + ','
 					+ i_1_ + ',' + i_2_ + ',' + i_3_ + ',' + i_4_ + ')'));
 		}
 	}

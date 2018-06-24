@@ -26,7 +26,7 @@ final class Class315 implements Interface21 {
 				aClient3529 = null;
 			return Class308.aClass113_2582;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tga.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "tga.A(" + i + ')');
 		}
 	}
 
@@ -37,7 +37,7 @@ final class Class315 implements Interface21 {
 			if (bool == false)
 				aClass58_3533 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tga.C(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "tga.C(" + bool
 					+ ')');
 		}
 	}
@@ -47,7 +47,7 @@ final class Class315 implements Interface21 {
 			if (i <= -31)
 				Class246_Sub4_Sub1.aClass79_6170.method806((byte) -118);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "tga.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "tga.D(" + i + ')');
 		}
 	}
 
@@ -88,7 +88,7 @@ final class Class315 implements Interface21 {
 					Class98_Sub10_Sub32.method1097(-18871, string, class88, 3);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tga.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("tga.B(" + bool
 					+ ',' + bool_0_ + ',' + (string != null ? "{...}" : "null")
 					+ ',' + bool_1_ + ','
 					+ (class88 != null ? "{...}" : "null") + ')'));
@@ -113,7 +113,7 @@ final class Class315 implements Interface21 {
 			((Class315) this).aClass110_3522 = class110;
 			((Class315) this).aString3519 = string;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("tga.<init>(" + (string != null ? "{...}" : "null") + ','
 							+ (class63 != null ? "{...}" : "null") + ','
 							+ (class110 != null ? "{...}" : "null") + ',' + i

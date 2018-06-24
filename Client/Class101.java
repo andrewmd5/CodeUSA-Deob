@@ -28,7 +28,7 @@ final class Class101 {
 				}
 				method1702(27, true, false);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "gf.D(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "gf.D(" + bool
 						+ ')');
 			}
 			break;
@@ -49,7 +49,7 @@ final class Class101 {
 			}
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(
+					.printError(
 							runtimeexception,
 							("gf.E("
 									+ (class98_sub46 != null ? "{...}" : "null")
@@ -71,7 +71,7 @@ final class Class101 {
 			}
 			return 1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gf.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "gf.B(" + bool
 					+ ')');
 		}
 	}
@@ -91,7 +91,7 @@ final class Class101 {
 						Class48_Sub1_Sub2.anInt5519);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gf.G("
+			throw Class64_Sub27.printError(runtimeexception, ("gf.G("
 					+ (canvas != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -103,7 +103,7 @@ final class Class101 {
 			}
 			return 0x7 & aByte855;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gf.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gf.A(" + i + ')');
 		}
 	}
 
@@ -137,7 +137,7 @@ final class Class101 {
 				}
 				aClass115_857 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("gf.F(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("gf.F(" + i
 						+ ',' + bool + ',' + bool_3_ + ')'));
 			}
 			break;
@@ -153,7 +153,7 @@ final class Class101 {
 			anInt851 = class98_sub22.readInt(-2);
 			anInt850 = class98_sub22.readInt(-2);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gf.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "gf.<init>("
 					+ (class98_sub22 != null ? "{...}" : "null") + ')');
 		}
 	}

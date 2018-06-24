@@ -20,7 +20,7 @@ final class Class320 {
 					Class64_Sub5.anIntArray3652, i_6_, string, i, 3 + i_3_,
 					(byte) 18, Class217.aClass332Array3408);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tn.B("
+			throw Class64_Sub27.printError(runtimeexception, ("tn.B("
 					+ (class98_sub46_sub9 != null ? "{...}" : "null") + ',' + i
 					+ ',' + i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ','
 					+ (var_ha != null ? "{...}" : "null") + ',' + i_4_ + ','
@@ -37,7 +37,7 @@ final class Class320 {
 				}
 				aClass58_2708 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "tn.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "tn.A(" + i
 						+ ')');
 			}
 			break;
@@ -172,7 +172,7 @@ final class Class320 {
 			s_Sub1.aBoolean5207 = false;
 			Class230.method2871(i + -134);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("tn.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("tn.C(" + i + ','
 					+ (string != null ? "{...}" : "null") + ',' + i_9_ + ','
 					+ bool + ')'));
 		}

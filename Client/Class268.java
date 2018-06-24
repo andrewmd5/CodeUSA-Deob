@@ -33,7 +33,7 @@ class Class268 {
 			Class98_Sub10_Sub34.aClass215_5728.method2786(16711680);
 			Class367.aClass215_3545.method2786(16711680);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qn.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qn.F(" + i + ')');
 		}
 	}
 
@@ -47,7 +47,7 @@ class Class268 {
 				aLong2017 = 2000L + Class343.method3819(-47);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qn.H(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qn.H(" + i + ')');
 		}
 	}
 
@@ -77,7 +77,7 @@ class Class268 {
 				}
 				anInt2014 = 29;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("qn.M(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("qn.M(" + i
 						+ ',' + (class98_sub31 != null ? "{...}" : "null")
 						+ ',' + i_1_ + ')'));
 			}
@@ -96,7 +96,7 @@ class Class268 {
 				anIntArray2005 = null;
 			} catch (final RuntimeException runtimeexception) {
 				throw Class64_Sub27
-						.method667(runtimeexception,
+						.printError(runtimeexception,
 								("qn.A("
 										+ i
 										+ ','
@@ -258,7 +258,7 @@ class Class268 {
 				}
 				anInt2013 = -23;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "qn.G(" + i
+				throw Class64_Sub27.printError(runtimeexception, "qn.G(" + i
 						+ ')');
 			}
 			break;
@@ -273,7 +273,7 @@ class Class268 {
 		try {
 			return anInt2010;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qn.D(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qn.D(" + ')');
 		}
 	}
 
@@ -293,7 +293,7 @@ class Class268 {
 				}
 				aClass98_Sub31_2003.method1321(i);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "qn.O(" + i
+				throw Class64_Sub27.printError(runtimeexception, "qn.O(" + i
 						+ ',' + i_23_ + ')');
 			}
 			break;
@@ -379,7 +379,7 @@ class Class268 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qn.N(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qn.N(" + i + ')');
 		}
 	}
 

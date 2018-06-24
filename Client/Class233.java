@@ -12,7 +12,7 @@ final class Class233 {
 			}
 			Class299_Sub2.method3523(255, -1, i + -111);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "os.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "os.A(" + i + ')');
 		}
 	}
 
@@ -36,7 +36,7 @@ final class Class233 {
 						Class81.aClass98_Sub31_Sub3_619);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "os.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "os.B(" + i + ')');
 		}
 	}
 }

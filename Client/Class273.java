@@ -23,7 +23,7 @@ final class Class273 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qv.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qv.A(" + i + ')');
 		}
 	}
 
@@ -33,7 +33,7 @@ final class Class273 {
 			aHa_Sub3_Sub2_2041.method2085(true, anInt2040);
 			super.finalize();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"qv.finalize(" + ')');
 		}
 	}
@@ -42,7 +42,7 @@ final class Class273 {
 		try {
 			return Class375.method3988(file, (byte) 78, (int) file.length());
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qv.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("qv.B(" + i + ','
 					+ (file != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -52,7 +52,7 @@ final class Class273 {
 			anInt2040 = i_2_;
 			aHa_Sub3_Sub2_2041 = var_ha_Sub3_Sub2;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qv.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("qv.<init>("
 					+ (var_ha_Sub3_Sub2 != null ? "{...}" : "null") + ',' + i
 					+ ',' + i_2_ + ')'));
 		}

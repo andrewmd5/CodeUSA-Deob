@@ -3,7 +3,7 @@
  */
 import java.net.URL;
 
-final class Class98_Sub12 extends Class98 {
+final class Class98_Sub12 extends Node {
 	int anInt3871;
 	static int anInt3872;
 	int anInt3873;
@@ -32,7 +32,7 @@ final class Class98_Sub12 extends Class98 {
 			}
 			throw new IllegalArgumentException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("er.A("
+			throw Class64_Sub27.printError(runtimeexception, ("er.A("
 					+ (class65 != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -44,7 +44,7 @@ final class Class98_Sub12 extends Class98 {
 			}
 			aClass58_3877 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "er.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "er.B(" + bool
 					+ ')');
 		}
 	}
@@ -66,7 +66,7 @@ final class Class98_Sub12 extends Class98 {
 				}
 				method1130(-66);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "er.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "er.D(" + i
 						+ ')');
 			}
 			break;
@@ -114,7 +114,7 @@ final class Class98_Sub12 extends Class98 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("er.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("er.C(" + i + ','
 					+ i_1_ + ',' + (string != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -129,7 +129,7 @@ final class Class98_Sub12 extends Class98 {
 			anInt3871 = i_8_;
 			anInt3874 = i_5_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("er.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("er.<init>(" + i
 					+ ',' + i_5_ + ',' + i_6_ + ',' + i_7_ + ',' + i_8_ + ','
 					+ bool + ')'));
 		}

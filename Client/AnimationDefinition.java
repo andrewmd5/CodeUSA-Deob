@@ -30,8 +30,8 @@ final class AnimationDefinition {
 	static boolean aBoolean830 = false;
 	static float aFloat831;
 
-	final Class146 method930(final byte i, final int i_0_, int i_1_, int i_2_,
-			int i_3_, final byte i_4_, final Class146 class146, final int i_5_) {
+	final AbstractModel method930(final byte i, final int i_0_, int i_1_, int i_2_,
+			int i_3_, final byte i_4_, final AbstractModel abstractModel, final int i_5_) {
 		try {
 			if (i_4_ <= 73) {
 				return null;
@@ -42,10 +42,10 @@ final class AnimationDefinition {
 					.method2624(2, i_1_ >> 2132424048);
 			i_1_ &= 0xffff;
 			if (class98_sub46_sub16 == null) {
-				return class146.method2341(i, i_2_, true);
+				return abstractModel.method2341(i, i_2_, true);
 			}
 			Class98_Sub46_Sub16 class98_sub46_sub16_7_ = null;
-			if ((aBoolean825 || Class357.aBoolean3027)
+			if ((aBoolean825 || Class357.tweeningEnabled)
 					&& (i_3_ ^ 0xffffffff) != 0
 					&& (i_3_ ^ 0xffffffff) > (anIntArray818.length ^ 0xffffffff)) {
 				i_3_ = anIntArray818[i_3_];
@@ -77,17 +77,17 @@ final class AnimationDefinition {
 				}
 			}
 			i_2_ |= 0x20;
-			final Class146 class146_8_ = class146.method2341(i, i_2_, true);
+			final AbstractModel class146_8_ = abstractModel.method2341(i, i_2_, true);
 			class146_8_
 					.method2338(i_5_ - 1, class98_sub46_sub16, i_1_,
 							class98_sub46_sub16_7_, aBoolean817, i_0_, -107,
 							i_6_, i_3_);
 			return class146_8_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("gaa.F(" + i + ',' + i_0_ + ',' + i_1_ + ',' + i_2_ + ','
 							+ i_3_ + ',' + i_4_ + ','
-							+ (class146 != null ? "{...}" : "null") + ','
+							+ (abstractModel != null ? "{...}" : "null") + ','
 							+ i_5_ + ')'));
 		}
 	}
@@ -125,7 +125,7 @@ final class AnimationDefinition {
 			if (bool_11_ != true) {
 				return -128;
 			}
-			if ((aBoolean825 || Class357.aBoolean3027) && i_12_ != -1
+			if ((aBoolean825 || Class357.tweeningEnabled) && i_12_ != -1
 					&& anIntArray818.length > i_12_) {
 				i_14_ = anIntArray818[i_12_];
 				class98_sub46_sub16 = aClass183_824.method2624(2,
@@ -178,7 +178,7 @@ final class AnimationDefinition {
 						}
 					}
 				}
-				if ((aBoolean825 || Class357.aBoolean3027) && i_12_ != -1
+				if ((aBoolean825 || Class357.tweeningEnabled) && i_12_ != -1
 						&& i_12_ < anIntArray827.length) {
 					int i_19_ = anIntArray827[i_12_];
 					if ((i_19_ ^ 0xffffffff) != -65536) {
@@ -204,7 +204,7 @@ final class AnimationDefinition {
 			}
 			return 0x20 | i_13_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gaa.J(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("gaa.J(" + bool
 					+ ',' + i + ',' + bool_11_ + ',' + i_12_ + ')'));
 		}
 	}
@@ -225,7 +225,7 @@ final class AnimationDefinition {
 				}
 				method938(-54);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("gaa.C(" + (class98_sub22 != null ? "{...}" : "null")
 								+ ',' + i + ')'));
 			}
@@ -240,7 +240,7 @@ final class AnimationDefinition {
 				anIntArrayArray814 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gaa.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gaa.E(" + i + ')');
 		}
 	}
 
@@ -260,7 +260,7 @@ final class AnimationDefinition {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gaa.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gaa.B(" + i + ','
 					+ i_22_ + ',' + i_23_ + ',' + i_24_ + ',' + i_25_ + ','
 					+ i_26_ + ')'));
 		}
@@ -275,13 +275,13 @@ final class AnimationDefinition {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gaa.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "gaa.D(" + i + ','
 					+ i_29_ + ')');
 		}
 	}
 
-	final Class146 method937(int i, final int i_30_, int i_31_,
-			final int i_32_, final Class146 class146, final int i_33_) {
+	final AbstractModel method937(int i, final int i_30_, int i_31_,
+			final int i_32_, final AbstractModel abstractModel, final int i_33_) {
 		try {
 			final int i_34_ = anIntArray811[i_33_];
 			int i_35_ = anIntArray818[i_33_];
@@ -289,10 +289,10 @@ final class AnimationDefinition {
 					.method2624(2, i_35_ >> -2046821168);
 			i_35_ &= 0xffff;
 			if (class98_sub46_sub16 == null) {
-				return class146.method2341((byte) 1, i_31_, true);
+				return abstractModel.method2341((byte) 1, i_31_, true);
 			}
 			Class98_Sub46_Sub16 class98_sub46_sub16_36_ = null;
-			if ((aBoolean825 || Class357.aBoolean3027) && i != -1
+			if ((aBoolean825 || Class357.tweeningEnabled) && i != -1
 					&& ((anIntArray818.length ^ 0xffffffff) < (i ^ 0xffffffff))) {
 				i = anIntArray818[i];
 				class98_sub46_sub16_36_ = aClass183_824.method2624(2,
@@ -312,7 +312,7 @@ final class AnimationDefinition {
 						i_39_ &= 0xffff;
 					}
 				}
-				if ((aBoolean825 || Class357.aBoolean3027) && i != -1
+				if ((aBoolean825 || Class357.tweeningEnabled) && i != -1
 						&& i < anIntArray827.length) {
 					i_40_ = anIntArray827[i];
 					if (i_40_ != 65535) {
@@ -368,7 +368,7 @@ final class AnimationDefinition {
 				}
 			}
 			i_31_ |= 0x20;
-			final Class146 class146_42_ = class146.method2341((byte) 1, i_31_,
+			final AbstractModel class146_42_ = abstractModel.method2341((byte) 1, i_31_,
 					true);
 			class146_42_.method2338(i_30_ - 1, class98_sub46_sub16, i_35_,
 					class98_sub46_sub16_36_, aBoolean817, 0, 119, i_34_, i);
@@ -379,9 +379,9 @@ final class AnimationDefinition {
 			}
 			return class146_42_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("gaa.A(" + i + ',' + i_30_ + ',' + i_31_ + ',' + i_32_
-							+ ',' + (class146 != null ? "{...}" : "null") + ','
+							+ ',' + (abstractModel != null ? "{...}" : "null") + ','
 							+ i_33_ + ')'));
 		}
 	}
@@ -409,7 +409,7 @@ final class AnimationDefinition {
 					anInt816 = 2;
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "gaa.I(" + i
+				throw Class64_Sub27.printError(runtimeexception, "gaa.I(" + i
 						+ ')');
 			}
 			break;
@@ -653,7 +653,7 @@ final class AnimationDefinition {
 				method938(-80);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("gaa.H(" + i + ','
 							+ (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i_44_ + ')'));

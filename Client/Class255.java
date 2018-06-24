@@ -26,7 +26,7 @@ final class Class255 implements Interface1 {
 			aClass171_3206 = null;
 			aClass293_3208 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pv.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pv.A(" + i + ')');
 		}
 	}
 
@@ -56,7 +56,7 @@ final class Class255 implements Interface1 {
 			}
 			return null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pv.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pv.B(" + i + ','
 					+ l + ',' + (class348 != null ? "{...}" : "null") + ','
 					+ (is != null ? "{...}" : "null") + ')'));
 		}
@@ -75,7 +75,7 @@ final class Class255 implements Interface1 {
 					class98_sub22.readMediumInt(-125),
 					class98_sub22.readUnsignedByte((byte) -100));
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pv.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pv.C(" + i + ','
 					+ (class98_sub22 != null ? "{...}" : "null") + ')'));
 		}
 	}

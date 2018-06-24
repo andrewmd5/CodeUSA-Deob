@@ -36,7 +36,7 @@ final class Class246_Sub9 extends Class246 {
 					.method2809(false))
 				class246_sub4_sub2_sub1.method3111(var_ha, l);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qba.C(" + l + ','
+			throw Class64_Sub27.printError(runtimeexception, ("qba.C(" + l + ','
 					+ (var_ha != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -276,7 +276,7 @@ final class Class246_Sub9 extends Class246 {
 				Class113.anInt952 += ((Class246_Sub9) this).anInt5135;
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qba.F("
+			throw Class64_Sub27.printError(runtimeexception, ("qba.F("
 					+ (var_ha != null ? "{...}" : "null") + ',' + bool + ','
 					+ l + ',' + i + ',' + i_1_ + ')'));
 		}
@@ -301,7 +301,7 @@ final class Class246_Sub9 extends Class246 {
 			return new Class42_Sub1_Sub1(var_ha_Sub1, 3553, i, i_49_, bool, is,
 					i_47_, i_48_);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qba.B("
+			throw Class64_Sub27.printError(runtimeexception, ("qba.B("
 					+ (var_ha_Sub1 != null ? "{...}" : "null") + ',' + bool
 					+ ',' + (is != null ? "{...}" : "null") + ',' + i + ','
 					+ i_46_ + ',' + i_47_ + ',' + i_48_ + ',' + i_49_ + ')'));
@@ -315,7 +315,7 @@ final class Class246_Sub9 extends Class246 {
 				anIntArrayArray5141 = null;
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qba.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qba.A(" + i + ')');
 		}
 	}
 
@@ -355,7 +355,7 @@ final class Class246_Sub9 extends Class246 {
 					}
 				}
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "qba.E(" + i
+				throw Class64_Sub27.printError(runtimeexception, "qba.E(" + i
 						+ ')');
 			}
 			break;
@@ -375,7 +375,7 @@ final class Class246_Sub9 extends Class246 {
 				return null;
 			return ((Class293) class293).aClass293Array2339[i_51_];
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qba.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("qba.D(" + i + ','
 					+ i_50_ + ',' + i_51_ + ')'));
 		}
 	}
@@ -411,7 +411,7 @@ final class Class246_Sub9 extends Class246 {
 			((Class216) aClass216_5142).anInt1626 = ((Class216) ((Class246_Sub9) this).aClass216_5136).anInt1626;
 			((Class216) aClass216_5142).anInt1628 = ((Class216) ((Class246_Sub9) this).aClass216_5136).anInt1628;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("qba.<init>(" + (var_ha != null ? "{...}" : "null") + ','
 							+ (surface != null ? "{...}" : "null") + ','
 							+ (class246_sub5 != null ? "{...}" : "null") + ','

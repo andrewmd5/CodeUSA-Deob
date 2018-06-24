@@ -18,7 +18,7 @@ final class Class98_Sub46_Sub17 extends Class98_Sub46 {
 			}
 			return 0x7fffffffffffffffL & ((Class98_Sub46) this).aLong4259;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kw.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kw.C(" + i + ')');
 		}
 	}
 
@@ -31,7 +31,7 @@ final class Class98_Sub46_Sub17 extends Class98_Sub46 {
 			}
 			Class98_Sub10_Sub34.aClass215_5728.method2785(this, i + -43);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kw.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kw.E(" + i + ')');
 		}
 	}
 
@@ -43,7 +43,7 @@ final class Class98_Sub46_Sub17 extends Class98_Sub46 {
 			anIntArrayArray6049 = null;
 			aClass354_6050 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kw.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kw.A(" + i + ')');
 		}
 	}
 
@@ -52,9 +52,9 @@ final class Class98_Sub46_Sub17 extends Class98_Sub46 {
 			if (i >= -89) {
 				anInt6054 = 2;
 			}
-			return (int) ((Class98) this).aLong832;
+			return (int) ((Node) this).aLong832;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kw.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kw.G(" + i + ')');
 		}
 	}
 
@@ -200,7 +200,7 @@ final class Class98_Sub46_Sub17 extends Class98_Sub46 {
 						false, 1, 4);
 				Class234.aClass207_1748 = Class42_Sub3.method394(-54, true, 1,
 						5);
-				Class98_Sub10_Sub1.aClass207_5544 = Class42_Sub3.method394(
+				Class98_Sub10_Sub1.class207 = Class42_Sub3.method394(
 						-115, true, 1, 6);
 				Class76_Sub9.aClass207_3787 = Class42_Sub3.method394(-92,
 						false, 1, 7);
@@ -271,9 +271,11 @@ final class Class98_Sub46_Sub17 extends Class98_Sub46 {
 						Class121.method2192(-125), Class332_Sub2.aClass207_5423);
 			}
 			if (Class45.aClass75_381 == Class75.aClass75_568) {
-				if ((Class94.anInt795 ^ 0xffffffff) == 0) {
-					Class94.anInt795 = Class98_Sub10_Sub1.aClass207_5544
-							.method2750((byte) -109, "Adventure");
+				if ((Class94.lobbyMusicID ^ 0xffffffff) == 0) {
+					Class94.lobbyMusicID = /*Class98_Sub10_Sub1.class207
+							.getSongByName((byte) -109, "Adventure")*/ 485;
+					
+					//485;
 				}
 				Class98_Sub17_Sub1.method1157(-120);
 				Class61.method538(2, false);
@@ -377,7 +379,7 @@ final class Class98_Sub46_Sub17 extends Class98_Sub46 {
 				Class52.aClass280_3500 = new Class280(Class374.anInt3159,
 						Class81.aClass207_622, Class322.aClass207_2714,
 						new Class255());
-				Class313.method3625(-1439);
+				Appearance.method3625(-1439);
 				Class130.aClass302_1028.method3552(
 						((Class98_Sub9.aClass98_Sub27_3856).aClass64_Sub3_4076
 								.method564((byte) 123) ^ 0xffffffff) == -1, 60);
@@ -429,12 +431,12 @@ final class Class98_Sub46_Sub17 extends Class98_Sub46 {
 					Class76_Sub5.anIntArray3744[i_13_] = -1;
 				}
 				Class78.method791((byte) 102);
-				ItemDefs.anInt2470 = Class64_Sub20.aClass207_3697.method2750(
+				ItemDefs.anInt2470 = Class64_Sub20.aClass207_3697.getResourceByName(
 						(byte) -106, "loginscreen");
-				Class19.anInt3450 = Class64_Sub20.aClass207_3697.method2750(
+				Class19.anInt3450 = Class64_Sub20.aClass207_3697.getResourceByName(
 						(byte) -121, "lobbyscreen");
 				Class234.aClass207_1748.method2747(false, true, (byte) 95);
-				Class98_Sub10_Sub1.aClass207_5544.method2747(true, true,
+				Class98_Sub10_Sub1.class207.method2747(true, true,
 						(byte) -120);
 				Class332_Sub2.aClass207_5423.method2747(true, true, (byte) 66);
 				Class36.aClass207_348.method2747(true, true, (byte) -78);
@@ -522,7 +524,7 @@ final class Class98_Sub46_Sub17 extends Class98_Sub46 {
 			}
 			return Class361.method3914(-5133);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kw.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kw.B(" + i + ')');
 		}
 	}
 
@@ -531,17 +533,17 @@ final class Class98_Sub46_Sub17 extends Class98_Sub46 {
 			if (i != -108) {
 				anInt6053 = 116;
 			}
-			return (int) (((Class98) this).aLong832 >>> -1338273504 & 0xffL);
+			return (int) (((Node) this).aLong832 >>> -1338273504 & 0xffL);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kw.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kw.D(" + i + ')');
 		}
 	}
 
 	Class98_Sub46_Sub17(final int i, final int i_16_) {
 		try {
-			((Class98) this).aLong832 = i_16_ | (long) i << -706964768;
+			((Node) this).aLong832 = i_16_ | (long) i << -706964768;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("kw.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("kw.<init>(" + i
 					+ ',' + i_16_ + ')'));
 		}
 	}
@@ -557,7 +559,7 @@ final class Class98_Sub46_Sub17 extends Class98_Sub46 {
 					Class367.aClass215_3545.method2785(this, -71);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "kw.F(" + i
+				throw Class64_Sub27.printError(runtimeexception, "kw.F(" + i
 						+ ')');
 			}
 			break;

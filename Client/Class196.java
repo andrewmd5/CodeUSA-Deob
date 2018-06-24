@@ -42,7 +42,7 @@ final class Class196 {
 			}
 			throw new IllegalStateException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("mu.D(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("mu.D(" + bool
 					+ ',' + (class164 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -52,7 +52,7 @@ final class Class196 {
 		do {
 			try {
 				final int i_1_ = class98_sub18.anInt3945;
-				final int i_2_ = (int) ((Class98) class98_sub18).aLong832;
+				final int i_2_ = (int) ((Node) class98_sub18).aLong832;
 				class98_sub18.method942(i + -16284);
 				if (bool_0_) {
 					Class246.method2964(false, i_1_);
@@ -77,7 +77,7 @@ final class Class196 {
 						}
 					}
 					if ((class98_sub18_3_.anInt3947 ^ 0xffffffff) == -4) {
-						final int i_4_ = (int) ((Class98) class98_sub18_3_).aLong832;
+						final int i_4_ = (int) ((Node) class98_sub18_3_).aLong832;
 						if ((i_1_ ^ 0xffffffff) == (i_4_ >>> 330667472 ^ 0xffffffff)) {
 							method2666(16398, bool, class98_sub18_3_, true);
 						}
@@ -88,7 +88,7 @@ final class Class196 {
 				}
 				method2666(-42, true, null, true);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("mu.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("mu.C(" + i
 						+ ',' + bool + ','
 						+ (class98_sub18 != null ? "{...}" : "null") + ','
 						+ bool_0_ + ')'));
@@ -102,7 +102,7 @@ final class Class196 {
 		try {
 			throw new IllegalStateException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"mu.toString(" + ')');
 		}
 	}
@@ -116,7 +116,7 @@ final class Class196 {
 				aClass58_1507 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mu.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "mu.A(" + i + ')');
 		}
 	}
 
@@ -129,7 +129,7 @@ final class Class196 {
 			// System.out.println(socket);
 			return new Class123_Sub1(socket, i_5_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("mu.B("
+			throw Class64_Sub27.printError(runtimeexception, ("mu.B("
 					+ (socket != null ? "{...}" : "null") + ',' + i + ','
 					+ i_5_ + ')'));
 		}
@@ -140,7 +140,7 @@ final class Class196 {
 		try {
 			anInt1510 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("mu.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("mu.<init>("
 					+ (string != null ? "{...}" : "null") + ','
 					+ (string_6_ != null ? "{...}" : "null") + ','
 					+ (string_7_ != null ? "{...}" : "null") + ',' + i + ')'));

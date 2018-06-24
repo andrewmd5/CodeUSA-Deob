@@ -19,7 +19,7 @@ final class Class3 {
 				aClass282_76 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ada.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ada.B(" + i + ')');
 		}
 	}
 
@@ -55,7 +55,7 @@ final class Class3 {
 							(byte) 2);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ada.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ada.A(" + i
 						+ ')');
 			}
 			break;

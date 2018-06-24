@@ -31,7 +31,7 @@ final class Class64_Sub5 extends Class64 {
 				}
 				aClass79_3650 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "dda.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "dda.C(" + i
 						+ ')');
 			}
 			break;
@@ -43,7 +43,7 @@ final class Class64_Sub5 extends Class64 {
 		try {
 			((Class64) this).anInt494 = i_0_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dda.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "dda.B(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -56,7 +56,7 @@ final class Class64_Sub5 extends Class64 {
 			}
 			return 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dda.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dda.A(" + i + ')');
 		}
 	}
 
@@ -77,7 +77,7 @@ final class Class64_Sub5 extends Class64 {
 			}
 			return 1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dda.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "dda.F(" + i + ','
 					+ i_2_ + ')');
 		}
 	}
@@ -96,7 +96,7 @@ final class Class64_Sub5 extends Class64 {
 			aFloatArray3653 = null;
 			aClass79_3650 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dda.D(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "dda.D(" + bool
 					+ ')');
 		}
 	}
@@ -108,7 +108,7 @@ final class Class64_Sub5 extends Class64 {
 			}
 			return ((Class64) this).anInt494;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dda.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dda.E(" + i + ')');
 		}
 	}
 
@@ -124,7 +124,7 @@ final class Class64_Sub5 extends Class64 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "dda.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "dda.G(" + i + ')');
 		}
 	}
 

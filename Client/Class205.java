@@ -19,10 +19,10 @@ final class Class205 {
 	private String[] aStringArray1565;
 	private String[] aStringArray1566;
 
-	final Class332 method2710(int i, int i_0_, ha var_ha, Class313 class313,
+	final Class332 method2710(int i, int i_0_, ha var_ha, Appearance appearance,
 			int i_1_, int i_2_, int i_3_, int i_4_) {
 		try {
-			((Class73) aClass73_1562).aBoolean3488 = class313 != null;
+			((Class73) aClass73_1562).aBoolean3488 = appearance != null;
 			((Class73) aClass73_1562).anInt3487 = i_3_;
 			if (i_4_ != 24056)
 				return null;
@@ -34,9 +34,9 @@ final class Class205 {
 			return ((Class332) ((Class205) this).aClass74_1561.method732(
 					aClass73_1562, i_4_ ^ 0x5df8));
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("nh.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("nh.C(" + i + ','
 					+ i_0_ + ',' + (var_ha != null ? "{...}" : "null") + ','
-					+ (class313 != null ? "{...}" : "null") + ',' + i_1_ + ','
+					+ (appearance != null ? "{...}" : "null") + ',' + i_1_ + ','
 					+ i_2_ + ',' + i_3_ + ',' + i_4_ + ')'));
 		}
 	}
@@ -56,7 +56,7 @@ final class Class205 {
 				int i_8_ = -127 / ((-60 - i) / 55);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nh.K(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "nh.K(" + i + ','
 					+ i_7_ + ')');
 		}
 	}
@@ -97,7 +97,7 @@ final class Class205 {
 			}
 			return new Class82(var_ha_Sub3_Sub2, l, class230s);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("nh.G("
+			throw Class64_Sub27.printError(runtimeexception, ("nh.G("
 					+ (var_ha_Sub3_Sub2 != null ? "{...}" : "null") + ',' + i
 					+ ',' + (class230s != null ? "{...}" : "null") + ')'));
 		}
@@ -155,14 +155,14 @@ final class Class205 {
 				((ItemDefs) class297).anIntArray2436 = null;
 				if (((ItemDefs) class297).aClass377_2443 != null) {
 					boolean bool = false;
-					for (Class98 class98 = ((ItemDefs) class297).aClass377_2443
-							.method3998(124); class98 != null; class98 = ((ItemDefs) class297).aClass377_2443
+					for (Node node = ((ItemDefs) class297).aClass377_2443
+							.method3998(124); node != null; node = ((ItemDefs) class297).aClass377_2443
 							.method3995(-1)) {
 						Class149 class149 = aClass365_1563
 								.method3940((byte) 31,
-										(int) (((Class98) class98).aLong832));
+										(int) (((Node) node).aLong832));
 						if (((Class149) class149).aBoolean1204)
-							class98.method942(44);
+							node.method942(44);
 						else
 							bool = true;
 					}
@@ -178,7 +178,7 @@ final class Class205 {
 
 			return class297;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nh.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "nh.H(" + i + ','
 					+ i_12_ + ')');
 		}
 	}
@@ -196,7 +196,7 @@ final class Class205 {
 				((Class205) this).aClass74_1561.method722(true);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nh.M(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "nh.M(" + i + ')');
 		}
 	}
 
@@ -239,11 +239,11 @@ final class Class205 {
 						}
 						if (((Class246_Sub3_Sub4_Sub4) class246_sub3_sub4_sub4).anInt6482 < 0) {
 							int i_14_ = (-((Class246_Sub3_Sub4_Sub4) class246_sub3_sub4_sub4).anInt6482 - 1);
-							Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2;
+							Player class246_sub3_sub4_sub2_sub2;
 							if (i_14_ != za_Sub2.anInt6080)
 								class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_14_]);
 							else
-								class246_sub3_sub4_sub2_sub2 = (Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660);
+								class246_sub3_sub4_sub2_sub2 = (Surface.player);
 							if (class246_sub3_sub4_sub2_sub2 != null
 									&& (((Class246_Sub3) class246_sub3_sub4_sub2_sub2).anInt5084 ^ 0xffffffff) <= -1
 									&& ((((Class246_Sub3) class246_sub3_sub4_sub2_sub2).anInt5084 ^ 0xffffffff) > (512 * Class165.anInt1276 ^ 0xffffffff))
@@ -271,7 +271,7 @@ final class Class205 {
 					break;
 				method2711(3, 3, 3);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "nh.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "nh.A(" + i
 						+ ')');
 			}
 			break;
@@ -288,7 +288,7 @@ final class Class205 {
 					break;
 				((Class205) this).aClass74_1561 = null;
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "nh.J(" + i
+				throw Class64_Sub27.printError(runtimeexception, "nh.J(" + i
 						+ ')');
 			}
 			break;
@@ -304,7 +304,7 @@ final class Class205 {
 				method2715(94);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nh.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "nh.F(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -322,7 +322,7 @@ final class Class205 {
 				((Class205) this).aClass74_1561.method725(13937);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nh.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "nh.E(" + i + ')');
 		}
 	}
 
@@ -340,7 +340,7 @@ final class Class205 {
 				((Class205) this).aClass74_1561.method724((byte) 96, i);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nh.I(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "nh.I(" + i + ','
 					+ i_16_ + ')');
 		}
 	}
@@ -353,15 +353,15 @@ final class Class205 {
 				((Class205) this).aClass79_1560.method794(38);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "nh.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "nh.B(" + i + ')');
 		}
 	}
 
 	final Class332 method2722(Class43 class43, boolean bool, int i, int i_17_,
-			int i_18_, Class313 class313, ha var_ha, int i_19_,
+			int i_18_, Appearance appearance, ha var_ha, int i_19_,
 			boolean bool_20_, int i_21_, ha var_ha_22_, boolean bool_23_) {
 		try {
-			Class332 class332 = method2710(i_17_, i, var_ha_22_, class313,
+			Class332 class332 = method2710(i_17_, i, var_ha_22_, appearance,
 					i_21_, i_19_, i_18_, 24056);
 			if (class332 != null)
 				return class332;
@@ -377,7 +377,7 @@ final class Class205 {
 					class297 = method2714(i_24_, (byte) -116);
 			}
 			int[] is = class297.method3488(i_18_, i_19_, bool_23_, i_21_,
-					i_17_, var_ha_22_, var_ha, (byte) -125, class313, class43);
+					i_17_, var_ha_22_, var_ha, (byte) -125, appearance, class43);
 			if (is == null)
 				return null;
 			Class332 class332_26_;
@@ -389,7 +389,7 @@ final class Class205 {
 				Class73 class73 = new Class73();
 				((Class73) class73).anInt3486 = i_17_;
 				((Class73) class73).anInt3480 = i;
-				((Class73) class73).aBoolean3488 = class313 != null;
+				((Class73) class73).aBoolean3488 = appearance != null;
 				((Class73) class73).anInt3487 = i_18_;
 				((Class73) class73).anInt3484 = i_21_;
 				((Class73) class73).anInt3483 = ((ha) var_ha_22_).anInt937;
@@ -401,10 +401,10 @@ final class Class205 {
 				method2718(-24, false);
 			return class332_26_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("nh.L(" + (class43 != null ? "{...}" : "null") + ','
 							+ bool + ',' + i + ',' + i_17_ + ',' + i_18_ + ','
-							+ (class313 != null ? "{...}" : "null") + ','
+							+ (appearance != null ? "{...}" : "null") + ','
 							+ (var_ha != null ? "{...}" : "null") + ',' + i_19_
 							+ ',' + bool_20_ + ',' + i_21_ + ','
 							+ (var_ha_22_ != null ? "{...}" : "null") + ','
@@ -443,7 +443,7 @@ final class Class205 {
 					Class309.aClass309_2594.method3615(
 							(((Class205) this).anInt1555), (byte) 25) });
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("nh.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("nh.<init>("
 					+ (class279 != null ? "{...}" : "null") + ',' + i + ','
 					+ bool + ',' + (class365 != null ? "{...}" : "null") + ','
 					+ (class207 != null ? "{...}" : "null") + ','

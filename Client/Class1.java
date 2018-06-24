@@ -30,7 +30,7 @@ final class Class1 {
 			}
 			return Class299_Sub2.anIntArray5301[0x3 & i];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ab.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ab.D(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -87,7 +87,7 @@ final class Class1 {
 			aClass98_Sub5_55.method959(
 					(anInt56 + (i_3_ * anInt52 >> 1801072939)) / 2048.0F, 57);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ab.F(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("ab.F(" + bool
 					+ ',' + i + ',' + i_2_ + ')'));
 		}
 	}
@@ -108,7 +108,7 @@ final class Class1 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ab.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ab.A(" + i + ','
 					+ i_6_ + ',' + i_7_ + ')'));
 		}
 	}
@@ -123,7 +123,7 @@ final class Class1 {
 			aClass128_64 = null;
 			anIntArray65 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ab.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ab.B(" + i + ')');
 		}
 	}
 
@@ -296,7 +296,7 @@ final class Class1 {
 				}
 				method163(-26);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ab.E(" + i
+				throw Class64_Sub27.printError(runtimeexception, "ab.E(" + i
 						+ ')');
 			}
 			break;
@@ -305,36 +305,36 @@ final class Class1 {
 
 	static final void method165(final byte i, final Class207 class207) {
 		try {
-			aa.anInt51 = class207.method2750((byte) -107, "hitmarks");
-			Class140.anInt3243 = class207.method2750((byte) -106,
+			aa.anInt51 = class207.getResourceByName((byte) -107, "hitmarks");
+			Class140.anInt3243 = class207.getResourceByName((byte) -106,
 					"hitbar_default");
-			Class65.anInt503 = class207.method2750((byte) -71,
+			Class65.anInt503 = class207.getResourceByName((byte) -71,
 					"timerbar_default");
 			if (i >= -95) {
 				aClass207_67 = null;
 			}
 			Class260.anInt3259 = class207
-					.method2750((byte) -61, "headicons_pk");
-			Class251.anInt1916 = class207.method2750((byte) -92,
+					.getResourceByName((byte) -61, "headicons_pk");
+			Class251.anInt1916 = class207.getResourceByName((byte) -92,
 					"headicons_prayer");
-			Class319.anInt2706 = class207.method2750((byte) -67,
+			Class319.anInt2706 = class207.getResourceByName((byte) -67,
 					"hint_headicons");
-			Class76_Sub2.anInt3728 = class207.method2750((byte) -68,
+			Class76_Sub2.anInt3728 = class207.getResourceByName((byte) -68,
 					"hint_mapmarkers");
-			Class226.anInt1706 = class207.method2750((byte) -93, "mapflag");
-			Class39.anInt363 = class207.method2750((byte) -55, "cross");
-			OutputStream_Sub1.anInt37 = class207.method2750((byte) -87,
+			Class226.anInt1706 = class207.getResourceByName((byte) -93, "mapflag");
+			Class39.anInt363 = class207.getResourceByName((byte) -55, "cross");
+			OutputStream_Sub1.anInt37 = class207.getResourceByName((byte) -87,
 					"mapdots");
-			Class243.anInt1852 = class207.method2750((byte) -67, "scrollbar");
-			Class98_Sub31_Sub4.anInt5860 = class207.method2750((byte) -68,
+			Class243.anInt1852 = class207.getResourceByName((byte) -67, "scrollbar");
+			Class98_Sub31_Sub4.anInt5860 = class207.getResourceByName((byte) -68,
 					"name_icons");
-			Class75.anInt583 = class207.method2750((byte) -94, "floorshadows");
-			Class111_Sub2.anInt4695 = class207.method2750((byte) -123,
+			Class75.anInt583 = class207.getResourceByName((byte) -94, "floorshadows");
+			Class111_Sub2.anInt4695 = class207.getResourceByName((byte) -123,
 					"compass");
-			Class264.anInt1972 = class207.method2750((byte) -50, "otherlevel");
-			Class76.anInt588 = class207.method2750((byte) -101, "hint_mapedge");
+			Class264.anInt1972 = class207.getResourceByName((byte) -50, "otherlevel");
+			Class76.anInt588 = class207.getResourceByName((byte) -101, "hint_mapedge");
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ab.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ab.C(" + i + ','
 					+ (class207 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -349,7 +349,7 @@ final class Class1 {
 				anInt60 = i;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ab.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ab.H(" + i + ','
 					+ i_9_ + ',' + i_10_ + ',' + i_11_ + ',' + i_12_ + ')'));
 		}
 	}
@@ -366,7 +366,7 @@ final class Class1 {
 				}
 				method164(-124);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("ab.G(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("ab.G(" + i
 						+ ',' + (var_ha != null ? "{...}" : "null") + ','
 						+ i_13_ + ',' + i_14_ + ',' + i_15_ + ',' + i_16_ + ','
 						+ i_17_ + ')'));
@@ -382,7 +382,7 @@ final class Class1 {
 			}
 			method164(-48);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ab.<init>(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ab.<init>(" + ')');
 		}
 	}
 
@@ -427,7 +427,7 @@ final class Class1 {
 			}
 			method167((byte) -56, var_ha, i_19_, i_27_, i_18_, i_21_, i_20_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("ab.<init>(" + (var_ha != null ? "{...}" : "null") + ','
 							+ (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i + ')'));

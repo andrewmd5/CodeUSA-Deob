@@ -31,7 +31,7 @@ abstract class Class64 {
 			}
 			return 200;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "eea.K(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "eea.K(" + i + ')');
 		}
 	}
 
@@ -46,7 +46,7 @@ abstract class Class64 {
 				}
 				anInt494 = 1;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "eea.L(" + i
+				throw Class64_Sub27.printError(runtimeexception, "eea.L(" + i
 						+ ',' + i_1_ + ')');
 			}
 			break;
@@ -63,7 +63,7 @@ abstract class Class64 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("eea.J(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("eea.J(" + i + ','
 					+ i_2_ + ',' + i_3_ + ')'));
 		}
 	}
@@ -75,7 +75,7 @@ abstract class Class64 {
 			aClass98_Sub27_495 = class98_sub27;
 			anInt494 = method552(0);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("eea.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("eea.<init>("
 					+ (class98_sub27 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -85,7 +85,7 @@ abstract class Class64 {
 			aClass98_Sub27_495 = class98_sub27;
 			anInt494 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("eea.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("eea.<init>(" + i
 					+ ',' + (class98_sub27 != null ? "{...}" : "null") + ')'));
 		}
 	}

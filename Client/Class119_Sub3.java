@@ -18,7 +18,7 @@ final class Class119_Sub3 extends Class119 {
 	final void method2178(final int i, final int i_0_, final int i_1_) {
 		try {
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pd.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pd.B(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -37,7 +37,7 @@ final class Class119_Sub3 extends Class119 {
 			za_Sub2.method1685(i_8_, i_6_, i_10_, true, i_11_, i_9_, i_13_,
 					((Class119) this).anInt985, i_7_, i_12_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pd.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pd.E(" + i + ','
 					+ i_3_ + ',' + i_4_ + ')'));
 		}
 	}
@@ -51,7 +51,7 @@ final class Class119_Sub3 extends Class119 {
 				}
 				method2179((byte) 87, -113, -49);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("pd.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("pd.C(" + i
 						+ ',' + i_14_ + ',' + i_15_ + ')'));
 			}
 			break;
@@ -64,7 +64,7 @@ final class Class119_Sub3 extends Class119 {
 					.method2628(i_16_, -116, i);
 			class98_sub46_sub17.method1621(i + -5);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pd.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "pd.F(" + i + ','
 					+ i_16_ + ')');
 		}
 	}
@@ -102,7 +102,7 @@ final class Class119_Sub3 extends Class119 {
 										class98_sub12.anInt3873,
 										class98_sub12.anInt3875,
 										(!class98_sub12.aBoolean3878 ? null
-												: (Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660.aClass313_6518)),
+												: (Surface.player.appearance)),
 										Class153.aHa1225,
 										class98_sub12.anInt3871, false,
 										class98_sub12.anInt3874, var_ha, false);
@@ -119,7 +119,7 @@ final class Class119_Sub3 extends Class119 {
 										class98_sub12.anInt3876,
 										class98_sub12.anInt3873,
 										class98_sub12.anInt3875,
-										(class98_sub12.aBoolean3878 ? (Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660.aClass313_6518)
+										(class98_sub12.aBoolean3878 ? (Surface.player.appearance)
 												: null), var_ha,
 										class98_sub12.anInt3871, false,
 										class98_sub12.anInt3874, var_ha, false);
@@ -129,7 +129,7 @@ final class Class119_Sub3 extends Class119 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pd.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pd.D(" + i + ','
 					+ (var_ha != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -141,7 +141,7 @@ final class Class119_Sub3 extends Class119 {
 			}
 			return i_17_ & 0xff;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pd.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "pd.A(" + i + ','
 					+ i_17_ + ')');
 		}
 	}
@@ -160,7 +160,7 @@ final class Class119_Sub3 extends Class119 {
 			anInt4731 = i_19_;
 			anInt4730 = i_24_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pd.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("pd.<init>(" + i
 					+ ',' + i_18_ + ',' + i_19_ + ',' + i_20_ + ',' + i_21_
 					+ ',' + i_22_ + ',' + i_23_ + ',' + i_24_ + ',' + i_25_
 					+ ',' + i_26_ + ')'));

@@ -42,7 +42,7 @@ final class Class363 implements Runnable {
 			}
 			aBoolean3100 = true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vv.run(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vv.run(" + ')');
 		}
 	}
 
@@ -84,7 +84,7 @@ final class Class363 implements Runnable {
 			}
 			return aBoolean3100;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vv.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vv.B(" + i + ')');
 		}
 	}
 
@@ -99,17 +99,17 @@ final class Class363 implements Runnable {
 			}
 			return aClass368Array3094[i_1_];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vv.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "vv.C(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
 
 	static final void method3930(final boolean bool, final byte i,
-			final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2,
+			final Player class246_sub3_sub4_sub2_sub2,
 			final int i_2_, final int i_3_) {
 		try {
-			final int i_4_ = (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]);
-			final int i_5_ = (((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]);
+			final int i_4_ = (((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6437[0]);
+			final int i_5_ = (((Entity) class246_sub3_sub4_sub2_sub2).anIntArray6438[0]);
 			if ((i_4_ ^ 0xffffffff) <= -1
 					&& (i_4_ ^ 0xffffffff) > (Class165.anInt1276 ^ 0xffffffff)
 					&& (i_5_ ^ 0xffffffff) <= -1
@@ -136,7 +136,7 @@ final class Class363 implements Runnable {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vv.A("
+			throw Class64_Sub27.printError(runtimeexception, ("vv.A("
 					+ bool
 					+ ','
 					+ i

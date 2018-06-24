@@ -101,8 +101,8 @@ final class Class246_Sub4_Sub2_Sub1 extends Class246_Sub4_Sub2 {
 				anInt6498 -= anInt6498 * l_18_ >> 28;
 			}
 			if (class92.anIntArray728 != null) {
-				final Class98 class98 = ((class246_sub5.aClass148_5102).aClass98_1198);
-				for (Class98 class98_19_ = class98.aClass98_836; class98_19_ != class98; class98_19_ = class98_19_.aClass98_836) {
+				final Node node = ((class246_sub5.aClass148_5102).aClass98_1198);
+				for (Node class98_19_ = node.aClass98_836; class98_19_ != node; class98_19_ = class98_19_.aClass98_836) {
 					final Class98_Sub46_Sub6 class98_sub46_sub6 = (Class98_Sub46_Sub6) class98_19_;
 					final Class66 class66 = (class98_sub46_sub6.aClass66_5973);
 					if (class66.anInt508 != 1) {

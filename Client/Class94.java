@@ -5,7 +5,7 @@
 final class Class94 {
 	static Class207 aClass207_793;
 	static long[] aLongArray794 = new long[100];
-	static int anInt795;
+	static int lobbyMusicID;
 	static Class207 aClass207_796;
 	static boolean aBoolean797 = false;
 
@@ -43,7 +43,7 @@ final class Class94 {
 				return class246_sub1;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fr.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fr.C(" + i + ','
 					+ i_2_ + ',' + bool + ')'));
 		}
 	}
@@ -63,7 +63,7 @@ final class Class94 {
 			Class246_Sub3_Sub3_Sub1.aBooleanArray6256 = (new boolean[Class98_Sub17_Sub1.aClass207_5783
 					.method2752((byte) -11)]);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fr.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fr.A(" + i + ','
 					+ (class207 != null ? "{...}" : "null") + ','
 					+ (class207_4_ != null ? "{...}" : "null") + ','
 					+ (class207_5_ != null ? "{...}" : "null") + ','
@@ -82,7 +82,7 @@ final class Class94 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fr.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fr.E(" + i + ','
 					+ i_7_ + ',' + i_8_ + ')'));
 		}
 	}
@@ -98,7 +98,7 @@ final class Class94 {
 				}
 				aClass207_793 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "fr.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "fr.B(" + i
 						+ ')');
 			}
 			break;
@@ -117,7 +117,7 @@ final class Class94 {
 				}
 				method915(30, (byte) -45, true);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("fr.F("
+				throw Class64_Sub27.printError(runtimeexception, ("fr.F("
 						+ (string != null ? "{...}" : "null") + ',' + i + ','
 						+ i_9_ + ')'));
 			}
@@ -126,6 +126,6 @@ final class Class94 {
 	}
 
 	static {
-		anInt795 = -1;
+		lobbyMusicID = -1;
 	}
 }

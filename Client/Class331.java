@@ -49,7 +49,7 @@ final class Class331 {
 			return (new Class110[] { Class358.aClass110_3030,
 					Class314.aClass110_2688, ha.aClass110_941 });
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uf.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "uf.A(" + i + ')');
 		}
 	}
 
@@ -62,7 +62,7 @@ final class Class331 {
 				aClass98_Sub46_Sub8_2803 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uf.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "uf.B(" + i + ')');
 		}
 	}
 

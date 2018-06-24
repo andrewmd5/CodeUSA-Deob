@@ -31,7 +31,7 @@ final class Class147 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kb.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kb.B(" + i + ')');
 		}
 	}
 
@@ -54,11 +54,11 @@ final class Class147 {
 			for (int i_4_ = 0; (i_4_ ^ 0xffffffff) > -2049; i_4_++) {
 				Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_4_] = null;
 			}
-			Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660 = null;
+			Surface.player = null;
 			for (int i_5_ = 0; i_5_ < Class98_Sub10_Sub20.anInt5640; i_5_++) {
 				final Class246_Sub3_Sub4_Sub2_Sub1 class246_sub3_sub4_sub2_sub1 = (Class163.aClass98_Sub39Array3516[i_5_].aClass246_Sub3_Sub4_Sub2_Sub1_4187);
 				if (class246_sub3_sub4_sub2_sub1 != null) {
-					((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub1).anInt6364 = -1;
+					((Entity) class246_sub3_sub4_sub2_sub1).anInt6364 = -1;
 				}
 			}
 			Class98_Sub10_Sub34.method1106((byte) -61);
@@ -72,7 +72,7 @@ final class Class147 {
 			Class284.aClass98_Sub4_2167 = null;
 			Class11.aLong121 = 0L;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kb.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kb.D(" + i + ')');
 		}
 	}
 
@@ -81,7 +81,7 @@ final class Class147 {
 		try {
 			for (int i_7_ = 0; (Class38.anInt354 ^ 0xffffffff) < (i_7_ ^ 0xffffffff); i_7_++) {
 				final int i_8_ = Class65.anIntArray501[i_7_];
-				final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_8_]);
+				final Player class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_8_]);
 				int i_9_ = class98_sub22_sub1.readUnsignedByte((byte) 35);
 				if ((0x20 & i_9_) != 0) {
 					i_9_ += (class98_sub22_sub1.readUnsignedByte((byte) 36) << -475812536);
@@ -96,7 +96,7 @@ final class Class147 {
 				method2413(null, 30);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("kb.A(" + (class98_sub22_sub1 != null ? "{...}" : "null")
 							+ ',' + i + ')'));
 		}
@@ -113,7 +113,7 @@ final class Class147 {
 				aClass58_1192 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kb.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kb.C(" + i + ')');
 		}
 	}
 }

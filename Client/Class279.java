@@ -18,7 +18,7 @@ final class Class279 {
 		try {
 			throw new IllegalStateException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"rga.toString(" + ')');
 		}
 	}
@@ -30,7 +30,7 @@ final class Class279 {
 			}
 			aCRC32_2097 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rga.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "rga.A(" + bool
 					+ ')');
 		}
 	}
@@ -40,13 +40,13 @@ final class Class279 {
 			aString2098 = string;
 			anInt2095 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("rga.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("rga.<init>("
 					+ (string != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
 
-	static final void method3322(final Class98 class98,
-			final Class98 class98_0_, final byte i) {
+	static final void method3322(final Node node,
+			final Node class98_0_, final byte i) {
 		try {
 			if (class98_0_.aClass98_833 != null) {
 				class98_0_.method942(i ^ 0x71);
@@ -54,13 +54,13 @@ final class Class279 {
 			if (i != 24) {
 				anInt2099 = 4;
 			}
-			class98_0_.aClass98_833 = class98.aClass98_833;
-			class98_0_.aClass98_836 = class98;
+			class98_0_.aClass98_833 = node.aClass98_833;
+			class98_0_.aClass98_836 = node;
 			class98_0_.aClass98_833.aClass98_836 = class98_0_;
 			class98_0_.aClass98_836.aClass98_833 = class98_0_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("rga.B("
-					+ (class98 != null ? "{...}" : "null") + ','
+			throw Class64_Sub27.printError(runtimeexception, ("rga.B("
+					+ (node != null ? "{...}" : "null") + ','
 					+ (class98_0_ != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}
@@ -90,7 +90,7 @@ final class Class279 {
 			}
 			return class98_sub46_sub7.aByteArray5981;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "rga.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "rga.C(" + i + ','
 					+ i_1_ + ')');
 		}
 	}

@@ -18,7 +18,7 @@ abstract class Class299 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sga.J(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sga.J(" + i + ')');
 		}
 	}
 
@@ -42,7 +42,7 @@ abstract class Class299 {
 			class243.method2950((byte) -99);
 			return class243;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sga.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sga.F(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -63,7 +63,7 @@ abstract class Class299 {
 				}
 				aClass58_2495 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "sga.K(" + i
+				throw Class64_Sub27.printError(runtimeexception, "sga.K(" + i
 						+ ')');
 			}
 			break;
@@ -109,7 +109,7 @@ abstract class Class299 {
 				Class98_Sub25.anInt4024 = i_5_;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sga.D(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "sga.D(" + bool
 					+ ')');
 		}
 	}

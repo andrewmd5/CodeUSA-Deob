@@ -38,24 +38,24 @@ final class Class299_Sub1 extends Class299 implements MouseListener,
 
 		if (mousewheelevent.isControlDown()) {
 			if (mousewheelevent.getWheelRotation() == +1) {// up
-				if (Game.cameraZoom > 1200) {
+				if (GameClient.cameraZoom > 1200) {
 					final String string = "";
 					Class98_Sub45.method1521((byte) -113, 0,
 							"You can't scroll out any further", 0, string,
 							string, string);
 					return;
 				} else {
-					Game.cameraZoom += 50;
+					GameClient.cameraZoom += 50;
 				}
 			} else {// down
-				if (Game.cameraZoom < 200) {
+				if (GameClient.cameraZoom < 200) {
 					final String string = "";
 					Class98_Sub45.method1521((byte) -113, 0,
 							"You can't scroll in any further", 0, string,
 							string, string);
 					return;
 				} else {
-					Game.cameraZoom -= 50;
+					GameClient.cameraZoom -= 50;
 				}
 			}
 		}

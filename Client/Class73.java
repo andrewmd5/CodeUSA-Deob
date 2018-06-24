@@ -29,7 +29,7 @@ final class Class73 implements Interface20 {
 					* Class114.anIntArray958[0] / i_3_ + Class2.anInt69);
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("eo.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("eo.A(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ')'));
 		}
 	}
@@ -61,7 +61,7 @@ final class Class73 implements Interface20 {
 			}
 			return l;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "eo.C(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "eo.C(" + bool
 					+ ')');
 		}
 	}
@@ -99,7 +99,7 @@ final class Class73 implements Interface20 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("eo.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("eo.D(" + i + ','
 					+ (interface20 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -109,7 +109,7 @@ final class Class73 implements Interface20 {
 			aClass58_3482 = null;
 			aClass6_3485 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "eo.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "eo.B(" + i + ')');
 		}
 	}
 
@@ -127,7 +127,7 @@ final class Class73 implements Interface20 {
 			}
 			return i_6_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("eo.E(" + (string != null ? "{...}" : "null") + ',' + i
 							+ ',' + c + ')'));
 		}

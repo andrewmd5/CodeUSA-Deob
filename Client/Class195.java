@@ -30,7 +30,7 @@ final class Class195 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mt.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "mt.B(" + i + ')');
 		}
 	}
 
@@ -43,7 +43,7 @@ final class Class195 {
 			anIntArray1497 = null;
 			aClass43_1499 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mt.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "mt.D(" + i + ')');
 		}
 	}
 
@@ -73,7 +73,7 @@ final class Class195 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("mt.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("mt.C(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ')'));
 		}
 	}
@@ -94,7 +94,7 @@ final class Class195 {
 			}
 			return false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mt.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "mt.F(" + i + ')');
 		}
 	}
 
@@ -109,7 +109,7 @@ final class Class195 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("mt.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("mt.A(" + i + ','
 					+ i_6_ + ',' + bool + ')'));
 		}
 	}
@@ -157,7 +157,7 @@ final class Class195 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mt.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "mt.E(" + i + ')');
 		}
 	}
 
@@ -207,7 +207,7 @@ final class Class195 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mt.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "mt.<init>("
 					+ (var_ha_Sub3 != null ? "{...}" : "null") + ')');
 		}
 	}

@@ -74,7 +74,7 @@ final class ItemDefs {
 					break;
 				((ItemDefs) this).anIntArray2436 = null;
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "sea.M(" + i
+				throw Class64_Sub27.printError(runtimeexception, "sea.M(" + i
 						+ ')');
 			}
 			break;
@@ -91,8 +91,8 @@ final class ItemDefs {
 			}
 			if (i_0_ == -1)
 				return null;
-			Model model = Class98_Sub6
-					.method981(
+			Model model = RSModelLoader
+					.createModel(
 							i,
 							i ^ ~0x2423,
 							(((Class205) ((ItemDefs) this).aClass205_2419).aClass207_1556),
@@ -100,8 +100,8 @@ final class ItemDefs {
 			if (((Model) model).version < 13)
 				model.method2592(13746, 2);
 			if (i_1_ != -1) {
-				Model class178_2_ = Class98_Sub6
-						.method981(
+				Model class178_2_ = RSModelLoader
+						.createModel(
 								0,
 								-9252,
 								(((Class205) (((ItemDefs) this).aClass205_2419)).aClass207_1556),
@@ -123,7 +123,7 @@ final class ItemDefs {
 			}
 			return model;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sea.L(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "sea.L(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -148,18 +148,18 @@ final class ItemDefs {
 			((ItemDefs) this).anInt2465 = ((ItemDefs) class297_6_).anInt2465;
 			int i_7_ = 49 / ((i - -25) / 52);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sea.I("
+			throw Class64_Sub27.printError(runtimeexception, ("sea.I("
 					+ (class297_5_ != null ? "{...}" : "null") + ',' + i + ','
 					+ (class297_6_ != null ? "{...}" : "null") + ')'));
 		}
 	}
 
 	final int[] method3488(int i, int i_8_, boolean bool, int i_9_, int i_10_,
-			ha var_ha, ha var_ha_11_, byte i_12_, Class313 class313,
+			ha var_ha, ha var_ha_11_, byte i_12_, Appearance appearance,
 			Class43 class43) {
 		try {
-			Model model = Class98_Sub6
-					.method981(
+			Model model = RSModelLoader
+					.createModel(
 							0,
 							-9252,
 							(((Class205) ((ItemDefs) this).aClass205_2419).aClass207_1556),
@@ -186,14 +186,14 @@ final class ItemDefs {
 					model.method2590(aShortArray2456[i_14_], (byte) -99,
 							aShortArray2460[i_14_]);
 			}
-			if (class313 != null) {
+			if (appearance != null) {
 				for (int i_15_ = 0; i_15_ < 5; i_15_++) {
 					for (int i_16_ = 0; ((Class61.aShortArrayArrayArray478.length ^ 0xffffffff) < (i_16_ ^ 0xffffffff)); i_16_++) {
-						if ((Class61.aShortArrayArrayArray478[i_16_][i_15_]).length > ((Class313) class313).anIntArray2683[i_15_])
+						if ((Class61.aShortArrayArrayArray478[i_16_][i_15_]).length > ((Appearance) appearance).colour[i_15_])
 							model.method2593(
 									0,
 									(Class98_Sub10_Sub11.aShortArrayArray5597[i_16_][i_15_]),
-									(Class61.aShortArrayArrayArray478[i_16_][i_15_][(((Class313) class313).anIntArray2683[i_15_])]));
+									(Class61.aShortArrayArrayArray478[i_16_][i_15_][(((Appearance) appearance).colour[i_15_])]));
 					}
 				}
 			}
@@ -203,23 +203,23 @@ final class ItemDefs {
 				bool_18_ = true;
 				i_17_ |= 0x7;
 			}
-			Class146 class146 = var_ha_11_.method1790(model, i_17_, 64,
+			AbstractModel abstractModel = var_ha_11_.method1790(model, i_17_, 64,
 					64 - -anInt2452, anInt2422 + 768);
-			if (!class146.method2324())
+			if (!abstractModel.method2324())
 				return null;
 			if (bool_18_)
-				class146.O(anInt2451, anInt2429, anInt2415);
+				abstractModel.O(anInt2451, anInt2429, anInt2415);
 			Class332 class332 = null;
 			if (((ItemDefs) this).anInt2414 != -1) {
 				class332 = (((ItemDefs) this).aClass205_2419.method2722(
 						class43, false, ((ItemDefs) this).anInt2433, 1, 0,
-						class313, var_ha_11_, 0, true, 10, var_ha, true));
+						appearance, var_ha_11_, 0, true, 10, var_ha, true));
 				if (class332 == null)
 					return null;
 			} else if ((((ItemDefs) this).anInt2459 ^ 0xffffffff) != 0) {
 				class332 = (((ItemDefs) this).aClass205_2419.method2722(
 						class43, false, ((ItemDefs) this).anInt2472, i_10_, i,
-						class313, var_ha_11_, 0, true, i_9_, var_ha, false));
+						appearance, var_ha_11_, 0, true, i_9_, var_ha, false));
 				if (class332 == null)
 					return null;
 			}
@@ -244,7 +244,7 @@ final class ItemDefs {
 							((ItemDefs) this).anInt2437 << 1252715202,
 							((i_19_
 									* (Class284_Sub2_Sub2.anIntArray6200[((ItemDefs) this).anInt2416 << -664636093]) >> -1954445778)
-									+ -(class146.fa() / 2) + (((ItemDefs) this).anInt2447 << -1632893918)),
+									+ -(abstractModel.fa() / 2) + (((ItemDefs) this).anInt2447 << -1632893918)),
 							((i_19_
 									* (Class284_Sub2_Sub2.anIntArray6202[((ItemDefs) this).anInt2416 << 769335843]) >> -1078595890) - -(((ItemDefs) this).anInt2447 << -772037790)));
 			class111_20_.method2105(((ItemDefs) this).anInt2416 << 1743842275);
@@ -256,7 +256,7 @@ final class ItemDefs {
 				return null;
 			var_ha_11_.la();
 			var_ha_11_.aa(0, 0, 36, 32, 0, 0);
-			class146.method2325(class111_20_, null, 1);
+			abstractModel.method2325(class111_20_, null, 1);
 			var_ha_11_.f(i_21_, i_22_);
 			int[] is = var_ha_11_.na(0, 0, 36, 32);
 			if ((i_10_ ^ 0xffffffff) <= -2) {
@@ -286,11 +286,11 @@ final class ItemDefs {
 			}
 			return is;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sea.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sea.H(" + i + ','
 					+ i_8_ + ',' + bool + ',' + i_9_ + ',' + i_10_ + ','
 					+ (var_ha != null ? "{...}" : "null") + ','
 					+ (var_ha_11_ != null ? "{...}" : "null") + ',' + i_12_
-					+ ',' + (class313 != null ? "{...}" : "null") + ','
+					+ ',' + (appearance != null ? "{...}" : "null") + ','
 					+ (class43 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -316,7 +316,7 @@ final class ItemDefs {
 				bool_27_ = false;
 			return bool_27_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sea.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "sea.B(" + bool
 					+ ',' + i + ')');
 		}
 	}
@@ -343,7 +343,7 @@ final class ItemDefs {
 									(((Class205) (((ItemDefs) this).aClass205_2419)).anInt1555),
 									(byte) 25) + "</col>");
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sea.J(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "sea.J(" + i + ','
 					+ i_28_ + ')');
 		}
 	}
@@ -376,7 +376,7 @@ final class ItemDefs {
 			}
 			return is_30_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("sea.A(" + (is != null ? "{...}" : "null") + ',' + i + ','
 							+ i_29_ + ')'));
 		}
@@ -408,7 +408,7 @@ final class ItemDefs {
 				bool_38_ = false;
 			return bool_38_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sea.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "sea.D(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -430,7 +430,7 @@ final class ItemDefs {
 			}
 			return this;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sea.P(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "sea.P(" + i + ','
 					+ i_39_ + ')');
 		}
 	}
@@ -447,7 +447,7 @@ final class ItemDefs {
 				return i_44_;
 			return ((Class98_Sub34) class98_sub34).anInt4126;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sea.G(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sea.G(" + i + ','
 					+ i_43_ + ',' + i_44_ + ')'));
 		}
 	}
@@ -462,7 +462,7 @@ final class ItemDefs {
 				return string;
 			return ((Class98_Sub15) class98_sub15).aString3917;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sea.F("
+			throw Class64_Sub27.printError(runtimeexception, ("sea.F("
 					+ (string != null ? "{...}" : "null") + ',' + i + ','
 					+ i_45_ + ')'));
 		}
@@ -595,19 +595,19 @@ final class ItemDefs {
 																																				.readMediumInt(i_46_
 																																						^ ~0xf8);
 
-																																		Class98 class98;
+																																		Node node;
 																																		if (!bool) {
-																																			class98 = new Class98_Sub34(
+																																			node = new Class98_Sub34(
 																																					class98_sub22
 																																							.readInt(-2));
 																																		} else {
-																																			class98 = new Class98_Sub15(
+																																			node = new Class98_Sub15(
 																																					class98_sub22
 																																							.readString((byte) 84));
 																																		}
 																																		aClass377_2443
 																																				.method3996(
-																																						class98,
+																																						node,
 																																						i_52_,
 																																						-1);
 																																	}
@@ -769,7 +769,7 @@ final class ItemDefs {
 				}
 				anInt2437 = 117;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("sea.K("
+				throw Class64_Sub27.printError(runtimeexception, ("sea.K("
 						+ opcode + ','
 						+ (class98_sub22 != null ? "{...}" : "null") + ','
 						+ i_46_ + ')'));
@@ -791,7 +791,7 @@ final class ItemDefs {
 					break;
 				((ItemDefs) this).aClass377_2443 = null;
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("sea.O(" + (class98_sub22 != null ? "{...}" : "null")
 								+ ',' + i + ')'));
 			}
@@ -846,7 +846,7 @@ final class ItemDefs {
 							(((Class205) (((ItemDefs) this).aClass205_2419)).anInt1555),
 							(byte) 25);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("sea.Q(" + (class297_60_ != null ? "{...}" : "null") + ','
 							+ (class297_61_ != null ? "{...}" : "null") + ','
 							+ i + ')'));
@@ -867,7 +867,7 @@ final class ItemDefs {
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sea.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sea.C(" + i + ','
 					+ i_64_ + ',' + (is != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -886,8 +886,8 @@ final class ItemDefs {
 			}
 			if (i_68_ == -1)
 				return null;
-			Model model = Class98_Sub6
-					.method981(
+			Model model = RSModelLoader
+					.createModel(
 							0,
 							-9252,
 							(((Class205) ((ItemDefs) this).aClass205_2419).aClass207_1556),
@@ -895,8 +895,8 @@ final class ItemDefs {
 			if ((((Model) model).version ^ 0xffffffff) > -14)
 				model.method2592(13746, 2);
 			if ((i_69_ ^ 0xffffffff) != 0) {
-				Model class178_71_ = Class98_Sub6
-						.method981(
+				Model class178_71_ = RSModelLoader
+						.createModel(
 								0,
 								-9252,
 								(((Class205) (((ItemDefs) this).aClass205_2419)).aClass207_1556),
@@ -904,8 +904,8 @@ final class ItemDefs {
 				if (((Model) class178_71_).version < 13)
 					class178_71_.method2592(13746, 2);
 				if (i_70_ != -1) {
-					Model class178_72_ = Class98_Sub6
-							.method981(
+					Model class178_72_ = RSModelLoader
+							.createModel(
 									0,
 									-9252,
 									(((Class205) (((ItemDefs) this).aClass205_2419)).aClass207_1556),
@@ -941,14 +941,14 @@ final class ItemDefs {
 			}
 			return model;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sea.E(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "sea.E(" + bool
 					+ ',' + i + ')');
 		}
 	}
 
-	final Class146 method3501(int i, int i_75_, int i_76_,
+	final AbstractModel method3501(int i, int i_75_, int i_76_,
 			AnimationDefinition class97, int i_77_, ha var_ha, int i_78_,
-			int i_79_, Class313 class313) {
+			int i_79_, Appearance appearance) {
 		try {
 			if (((ItemDefs) this).anIntArray2428 != null && i_78_ > 1) {
 				int i_80_ = -1;
@@ -960,28 +960,28 @@ final class ItemDefs {
 				if ((i_80_ ^ 0xffffffff) != 0)
 					return (((ItemDefs) this).aClass205_2419.method2714(i_80_,
 							(byte) -119).method3501(i, i_75_, i_76_, class97,
-							i_77_, var_ha, 1, i_79_, class313));
+							i_77_, var_ha, 1, i_79_, appearance));
 			}
 			int i_82_ = i_75_;
 			if (class97 != null)
 				i_82_ |= class97.method932(true, i_76_, true, i_77_);
-			Class146 class146;
+			AbstractModel abstractModel;
 			synchronized (((Class205) ((ItemDefs) this).aClass205_2419).aClass79_1560) {
-				class146 = (Class146) (((Class205) ((ItemDefs) this).aClass205_2419).aClass79_1560
+				abstractModel = (AbstractModel) (((Class205) ((ItemDefs) this).aClass205_2419).aClass79_1560
 						.method802(
 								-123,
 								(long) (((ItemDefs) this).anInt2468 | (((ha) var_ha).anInt937 << -1658708323))));
 				if (i_79_ != 128)
 					((ItemDefs) this).anInt2434 = -112;
 			}
-			if (class146 == null
-					|| (var_ha.c(class146.ua(), i_82_) ^ 0xffffffff) != -1) {
-				if (class146 != null)
-					i_82_ = var_ha.method1777(i_82_, class146.ua());
+			if (abstractModel == null
+					|| (var_ha.c(abstractModel.ua(), i_82_) ^ 0xffffffff) != -1) {
+				if (abstractModel != null)
+					i_82_ = var_ha.method1777(i_82_, abstractModel.ua());
 				int i_83_ = i_82_;
 				if (aShortArray2460 != null)
 					i_83_ |= 0x8000;
-				if (aShortArray2430 != null || class313 != null)
+				if (aShortArray2430 != null || appearance != null)
 					i_83_ |= 0x4000;
 				if (anInt2451 != 128)
 					i_83_ |= 0x1;
@@ -989,8 +989,8 @@ final class ItemDefs {
 					i_83_ |= 0x2;
 				if ((anInt2451 ^ 0xffffffff) != -129)
 					i_83_ |= 0x4;
-				Model model = Class98_Sub6
-						.method981(
+				Model model = RSModelLoader
+						.createModel(
 								0,
 								-9252,
 								(((Class205) (((ItemDefs) this).aClass205_2419)).aClass207_1556),
@@ -999,7 +999,7 @@ final class ItemDefs {
 					return null;
 				if ((((Model) model).version ^ 0xffffffff) > -14)
 					model.method2592(13746, 2);
-				class146 = var_ha
+				abstractModel = var_ha
 						.method1790(
 								model,
 								i_83_,
@@ -1007,54 +1007,54 @@ final class ItemDefs {
 								anInt2452 + 64, 850 - -anInt2422);
 				if (anInt2451 != 128 || anInt2429 != 128
 						|| (anInt2415 ^ 0xffffffff) != -129)
-					class146.O(anInt2451, anInt2429, anInt2415);
+					abstractModel.O(anInt2451, anInt2429, anInt2415);
 				if (aShortArray2430 != null) {
 					for (int i_84_ = 0; aShortArray2430.length > i_84_; i_84_++) {
 						if (aByteArray2457 == null
 								|| ((aByteArray2457.length ^ 0xffffffff) >= (i_84_ ^ 0xffffffff)))
-							class146.ia(aShortArray2430[i_84_],
+							abstractModel.ia(aShortArray2430[i_84_],
 									aShortArray2442[i_84_]);
 						else
-							class146.ia(
+							abstractModel.ia(
 									aShortArray2430[i_84_],
 									(Class338.aShortArray2833[aByteArray2457[i_84_] & 0xff]));
 					}
 				}
 				if (aShortArray2460 != null) {
 					for (int i_85_ = 0; ((aShortArray2460.length ^ 0xffffffff) < (i_85_ ^ 0xffffffff)); i_85_++)
-						class146.aa(aShortArray2460[i_85_],
+						abstractModel.aa(aShortArray2460[i_85_],
 								aShortArray2456[i_85_]);
 				}
-				if (class313 != null) {
+				if (appearance != null) {
 					for (int i_86_ = 0; (i_86_ ^ 0xffffffff) > -6; i_86_++) {
 						for (int i_87_ = 0; ((Class61.aShortArrayArrayArray478.length ^ 0xffffffff) < (i_87_ ^ 0xffffffff)); i_87_++) {
-							if ((((Class313) class313).anIntArray2683[i_86_] ^ 0xffffffff) > ((Class61.aShortArrayArrayArray478[i_87_][i_86_]).length ^ 0xffffffff))
-								class146.ia(
+							if ((((Appearance) appearance).colour[i_86_] ^ 0xffffffff) > ((Class61.aShortArrayArrayArray478[i_87_][i_86_]).length ^ 0xffffffff))
+								abstractModel.ia(
 										(Class98_Sub10_Sub11.aShortArrayArray5597[i_87_][i_86_]),
-										(Class61.aShortArrayArrayArray478[i_87_][i_86_][(((Class313) class313).anIntArray2683[i_86_])]));
+										(Class61.aShortArrayArrayArray478[i_87_][i_86_][(((Appearance) appearance).colour[i_86_])]));
 						}
 					}
 				}
-				class146.s(i_82_);
+				abstractModel.s(i_82_);
 				synchronized (((Class205) ((ItemDefs) this).aClass205_2419).aClass79_1560) {
 					((Class205) ((ItemDefs) this).aClass205_2419).aClass79_1560
 							.method805(
 									(long) (((ItemDefs) this).anInt2468 | ((ha) var_ha).anInt937 << -1883478627),
-									class146, (byte) -80);
+									abstractModel, (byte) -80);
 				}
 			}
 			if (class97 != null)
-				class146 = class97.method937(i_77_, i, i_82_, 42, class146,
+				abstractModel = class97.method937(i_77_, i, i_82_, 42, abstractModel,
 						i_76_);
-			class146.s(i_75_);
-			return class146;
+			abstractModel.s(i_75_);
+			return abstractModel;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("sea.N(" + i + ',' + i_75_ + ',' + i_76_ + ','
 							+ (class97 != null ? "{...}" : "null") + ','
 							+ i_77_ + ',' + (var_ha != null ? "{...}" : "null")
 							+ ',' + i_78_ + ',' + i_79_ + ','
-							+ (class313 != null ? "{...}" : "null") + ')'));
+							+ (appearance != null ? "{...}" : "null") + ')'));
 		}
 	}
 

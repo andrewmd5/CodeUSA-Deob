@@ -44,7 +44,7 @@ final class Class96 {
 				}
 				anInt804 = 122;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "fv.B(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "fv.B(" + bool
 						+ ',' + i + ')');
 			}
 			break;
@@ -62,7 +62,7 @@ final class Class96 {
 			Class269.aClass207_2025 = null;
 			Class116.aClass98_Sub31_Sub2_965 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fv.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "fv.D(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -138,7 +138,7 @@ final class Class96 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fv.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fv.F(" + i + ','
 					+ i_2_ + ',' + i_3_ + ',' + i_4_ + ',' + i_5_ + ')'));
 		}
 	}
@@ -157,7 +157,7 @@ final class Class96 {
 			}
 			return class98_sub3.anIntArray3824[i_21_];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fv.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fv.A(" + i + ','
 					+ i_20_ + ',' + i_21_ + ',' + bool + ')'));
 		}
 	}
@@ -296,7 +296,7 @@ final class Class96 {
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("fv.E(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("fv.E(" + i
 						+ ',' + (var_ha != null ? "{...}" : "null") + ')'));
 			}
 			break;
@@ -329,7 +329,7 @@ final class Class96 {
 				}
 				Class292.anInt3359 = 96;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "fv.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "fv.C(" + i
 						+ ')');
 			}
 		} while (false);
@@ -349,7 +349,7 @@ final class Class96 {
 				}
 				anInt803 = 54;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "fv.G(" + i
+				throw Class64_Sub27.printError(runtimeexception, "fv.G(" + i
 						+ ')');
 			}
 			break;

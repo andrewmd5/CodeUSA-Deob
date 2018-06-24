@@ -26,7 +26,7 @@ final class Class230 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "on.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "on.C(" + i + ')');
 		}
 	}
 
@@ -49,7 +49,7 @@ final class Class230 {
 				}
 				anIntArray1726 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "on.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "on.D(" + i
 						+ ')');
 			}
 			break;
@@ -62,7 +62,7 @@ final class Class230 {
 			aHa_Sub3_Sub2_1731.method2082(0, aLong1723);
 			super.finalize();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"on.finalize(" + ')');
 		}
 	}
@@ -102,7 +102,7 @@ final class Class230 {
 			za_Sub2.aBoolean6079 = Class98_Sub9.aClass98_Sub27_3856.aClass64_Sub18_4071
 					.method625((byte) -58);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "on.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "on.B(" + i + ')');
 		}
 	}
 
@@ -119,7 +119,7 @@ final class Class230 {
 				anIntArray1724 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "on.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "on.A(" + i + ')');
 		}
 	}
 
@@ -128,7 +128,7 @@ final class Class230 {
 			aLong1723 = l;
 			aHa_Sub3_Sub2_1731 = var_ha_Sub3_Sub2;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("on.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("on.<init>("
 					+ (var_ha_Sub3_Sub2 != null ? "{...}" : "null") + ',' + l
 					+ ',' + i + ')'));
 		}

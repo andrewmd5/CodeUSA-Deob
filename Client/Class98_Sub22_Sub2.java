@@ -21,7 +21,7 @@ final class Class98_Sub22_Sub2 extends ByteBuffer {
 			}
 			return 3;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vda.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "vda.A(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -38,19 +38,19 @@ final class Class98_Sub22_Sub2 extends ByteBuffer {
 			aClass58_5793 = null;
 			aClass171_5792 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vda.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vda.D(" + i + ')');
 		}
 	}
 
 	final void method1264(final byte i, final float f) {
 		try {
 			final int i_2_ = Stream.floatToRawIntBits(f);
-			((ByteBuffer) this).aByteArray3992[((ByteBuffer) this).position++] = (byte) (i_2_ >> -1300741416);
-			((ByteBuffer) this).aByteArray3992[((ByteBuffer) this).position++] = (byte) (i_2_ >> 494236848);
-			((ByteBuffer) this).aByteArray3992[((ByteBuffer) this).position++] = (byte) (i_2_ >> -747420472);
-			((ByteBuffer) this).aByteArray3992[((ByteBuffer) this).position++] = (byte) i_2_;
+			((ByteBuffer) this).incomingBytes[((ByteBuffer) this).position++] = (byte) (i_2_ >> -1300741416);
+			((ByteBuffer) this).incomingBytes[((ByteBuffer) this).position++] = (byte) (i_2_ >> 494236848);
+			((ByteBuffer) this).incomingBytes[((ByteBuffer) this).position++] = (byte) (i_2_ >> -747420472);
+			((ByteBuffer) this).incomingBytes[((ByteBuffer) this).position++] = (byte) i_2_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vda.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "vda.B(" + i + ','
 					+ f + ')');
 		}
 	}
@@ -61,12 +61,12 @@ final class Class98_Sub22_Sub2 extends ByteBuffer {
 			if (i != -52) {
 				aClass171_5792 = null;
 			}
-			((ByteBuffer) this).aByteArray3992[((ByteBuffer) this).position++] = (byte) i_3_;
-			((ByteBuffer) this).aByteArray3992[((ByteBuffer) this).position++] = (byte) (i_3_ >> 660574952);
-			((ByteBuffer) this).aByteArray3992[((ByteBuffer) this).position++] = (byte) (i_3_ >> 664922064);
-			((ByteBuffer) this).aByteArray3992[((ByteBuffer) this).position++] = (byte) (i_3_ >> 566266104);
+			((ByteBuffer) this).incomingBytes[((ByteBuffer) this).position++] = (byte) i_3_;
+			((ByteBuffer) this).incomingBytes[((ByteBuffer) this).position++] = (byte) (i_3_ >> 660574952);
+			((ByteBuffer) this).incomingBytes[((ByteBuffer) this).position++] = (byte) (i_3_ >> 664922064);
+			((ByteBuffer) this).incomingBytes[((ByteBuffer) this).position++] = (byte) (i_3_ >> 566266104);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vda.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "vda.C(" + i + ','
 					+ f + ')');
 		}
 	}

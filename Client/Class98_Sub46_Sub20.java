@@ -18,7 +18,7 @@ abstract class Class98_Sub46_Sub20 extends Class98_Sub46 {
 				aStringArray6073 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "naa.C(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "naa.C(" + bool
 					+ ')');
 		}
 	}
@@ -38,7 +38,7 @@ abstract class Class98_Sub46_Sub20 extends Class98_Sub46 {
 			final int i_6_ = (0xfc00 & i_2_) * i + (i_1_ & 0xfc00) * i_3_ >> -239610233;
 			return i_5_ & 0x380 | 0xfc00 & i_6_ | i_4_ & 0x7f;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("naa.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("naa.D(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ')'));
 		}
 	}
@@ -58,7 +58,7 @@ abstract class Class98_Sub46_Sub20 extends Class98_Sub46 {
 			anInterface20_6071 = interface20;
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, ("naa.<init>("
+					.printError(runtimeexception, ("naa.<init>("
 							+ (interface20 != null ? "{...}" : "null") + ','
 							+ i + ')'));
 		}

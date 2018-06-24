@@ -27,7 +27,7 @@ final class Class77_Sub1 extends Class77 implements KeyListener, FocusListener {
 				keyevent.consume();
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oca.keyTyped("
+			throw Class64_Sub27.printError(runtimeexception, "oca.keyTyped("
 					+ (keyevent != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -37,7 +37,7 @@ final class Class77_Sub1 extends Class77 implements KeyListener, FocusListener {
 		try {
 			method783((byte) 61, 1, keyevent);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("oca.keyReleased("
+			throw Class64_Sub27.printError(runtimeexception, ("oca.keyReleased("
 					+ (keyevent != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -54,7 +54,7 @@ final class Class77_Sub1 extends Class77 implements KeyListener, FocusListener {
 			}
 			return Class48_Sub1_Sub2.method468(true, 30883, 10, string);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("oca.J(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("oca.J(" + i + ','
 					+ (string != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -66,7 +66,7 @@ final class Class77_Sub1 extends Class77 implements KeyListener, FocusListener {
 				method782(128);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oca.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "oca.B(" + i + ')');
 		}
 	}
 
@@ -86,7 +86,7 @@ final class Class77_Sub1 extends Class77 implements KeyListener, FocusListener {
 				aClass148_3806.method2422((byte) 47);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oca.Q(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "oca.Q(" + i + ')');
 		}
 	}
 
@@ -118,7 +118,7 @@ final class Class77_Sub1 extends Class77 implements KeyListener, FocusListener {
 			}
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(
+					.printError(
 							runtimeexception,
 							("oca.K(" + i + ',' + i_1_ + ','
 									+ (keyevent != null ? "{...}" : "null") + ')'));
@@ -142,7 +142,7 @@ final class Class77_Sub1 extends Class77 implements KeyListener, FocusListener {
 			}
 			return i_3_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oca.L(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "oca.L(" + i + ')');
 		}
 	}
 
@@ -198,7 +198,7 @@ final class Class77_Sub1 extends Class77 implements KeyListener, FocusListener {
 				}
 				method789(102);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "oca.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "oca.D(" + i
 						+ ')');
 			}
 			break;
@@ -214,7 +214,7 @@ final class Class77_Sub1 extends Class77 implements KeyListener, FocusListener {
 			anIntArray3804 = null;
 			aClass326_3805 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oca.O(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "oca.O(" + i + ')');
 		}
 	}
 
@@ -223,7 +223,7 @@ final class Class77_Sub1 extends Class77 implements KeyListener, FocusListener {
 		try {
 			method786(-1, 0, '\0', false);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("oca.focusLost("
+			throw Class64_Sub27.printError(runtimeexception, ("oca.focusLost("
 					+ (focusevent != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -241,7 +241,7 @@ final class Class77_Sub1 extends Class77 implements KeyListener, FocusListener {
 			}
 			aClass148_3806.method2419(class98_sub8, -20911);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("oca.N(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("oca.N(" + i + ','
 					+ i_7_ + ',' + c + ',' + bool + ')'));
 		}
 	}
@@ -253,7 +253,7 @@ final class Class77_Sub1 extends Class77 implements KeyListener, FocusListener {
 			}
 			Class246_Sub4_Sub1.aClass79_6170.method800((byte) 62, i_8_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oca.I(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "oca.I(" + i + ','
 					+ i_8_ + ')');
 		}
 	}
@@ -279,7 +279,7 @@ final class Class77_Sub1 extends Class77 implements KeyListener, FocusListener {
 				}
 				keyReleased(null);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception,
+				throw Class64_Sub27.printError(runtimeexception,
 						("oca.P(" + (component != null ? "{...}" : "null")
 								+ ',' + i + ')'));
 			}
@@ -292,7 +292,7 @@ final class Class77_Sub1 extends Class77 implements KeyListener, FocusListener {
 		try {
 			method783((byte) 61, 0, keyevent);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("oca.keyPressed("
+			throw Class64_Sub27.printError(runtimeexception, ("oca.keyPressed("
 					+ (keyevent != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -325,7 +325,7 @@ final class Class77_Sub1 extends Class77 implements KeyListener, FocusListener {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oca.M(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "oca.M(" + i + ')');
 		}
 	}
 
@@ -340,7 +340,7 @@ final class Class77_Sub1 extends Class77 implements KeyListener, FocusListener {
 			}
 			return aBooleanArray3808[i];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oca.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "oca.C(" + i + ','
 					+ i_10_ + ')');
 		}
 	}
@@ -353,7 +353,7 @@ final class Class77_Sub1 extends Class77 implements KeyListener, FocusListener {
 			}
 			return (Interface7) aClass148_3802.method2421(6494);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oca.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "oca.A(" + i + ')');
 		}
 	}
 
@@ -362,7 +362,7 @@ final class Class77_Sub1 extends Class77 implements KeyListener, FocusListener {
 			Class202.method2703(false);
 			method788(component, -124);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "oca.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "oca.<init>("
 					+ (component != null ? "{...}" : "null") + ')');
 		}
 	}

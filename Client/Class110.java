@@ -14,7 +14,7 @@ final class Class110 {
 		try {
 			throw new IllegalStateException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"haa.toString(" + ')');
 		}
 	}
@@ -25,7 +25,7 @@ final class Class110 {
 				aStringArray945 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "haa.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "haa.B(" + i + ')');
 		}
 	}
 
@@ -37,7 +37,7 @@ final class Class110 {
 			}
 			return new ha_Sub1(canvas, var_d, i_0_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("haa.C("
+			throw Class64_Sub27.printError(runtimeexception, ("haa.C("
 					+ (canvas != null ? "{...}" : "null") + ',' + i + ','
 					+ i_0_ + ',' + (var_d != null ? "{...}" : "null") + ')'));
 		}
@@ -61,7 +61,7 @@ final class Class110 {
 			}
 			return 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("haa.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("haa.A(" + i + ','
 					+ i_1_ + ',' + i_2_ + ')'));
 		}
 	}

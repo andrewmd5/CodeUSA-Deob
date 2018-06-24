@@ -10,7 +10,7 @@ final class Class64_Sub24 extends Class64 {
 		try {
 			anObject3709 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uga.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "uga.G(" + i + ')');
 		}
 	}
 
@@ -22,7 +22,7 @@ final class Class64_Sub24 extends Class64 {
 			}
 			return 1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uga.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "uga.A(" + i + ')');
 		}
 	}
 
@@ -39,7 +39,7 @@ final class Class64_Sub24 extends Class64 {
 		try {
 			((Class64) this).anInt494 = i_1_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uga.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "uga.B(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -51,7 +51,7 @@ final class Class64_Sub24 extends Class64 {
 			}
 			return ((Class64) this).anInt494;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uga.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "uga.E(" + i + ')');
 		}
 	}
 
@@ -63,7 +63,7 @@ final class Class64_Sub24 extends Class64 {
 			}
 			return 1;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uga.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "uga.F(" + i + ','
 					+ i_3_ + ')');
 		}
 	}
@@ -78,7 +78,7 @@ final class Class64_Sub24 extends Class64 {
 			}
 			return Class38.method348(i, -24);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uga.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "uga.D(" + i + ','
 					+ i_4_ + ')');
 		}
 	}
@@ -96,7 +96,7 @@ final class Class64_Sub24 extends Class64 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "uga.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "uga.C(" + i + ')');
 		}
 	}
 }

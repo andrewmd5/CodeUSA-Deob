@@ -8,7 +8,7 @@ final class Class61 {
 	static int anInt479 = 0;
 	private Class377 aClass377_480;
 	static Class207 aClass207_481;
-	private Class98 aClass98_482;
+	private Node aClass98_482;
 
 	static final void method537(final byte i) {
 		try {
@@ -17,15 +17,15 @@ final class Class61 {
 							.method617((byte) 120));
 			final int i_0_ = ((Class272.anInt2038 >> 913933219) + (Class98_Sub46_Sub10.anInt6020 >> -195505812));
 			final int i_1_ = ((Class134.anInt3461 >> -1524816148) + (aa_Sub2.anInt3562 >> -522339549));
-			Class43.anInt377 = ((Class246_Sub3) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).aByte5088 = (byte) 0;
-			Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660.method3060(8, 8, 1470);
+			Class43.anInt377 = ((Class246_Sub3) Surface.player).aByte5088 = (byte) 0;
+			Surface.player.method3060(8, 8, 1470);
 			int i_2_ = 18;
 			Class105.aByteArrayArray3414 = new byte[i_2_][];
 			Class255.aByteArrayArray3211 = new byte[i_2_][];
 			client.aByteArrayArray3551 = new byte[i_2_][];
 			Class98_Sub46_Sub17.anIntArrayArray6049 = new int[i_2_][4];
 			Class121.anIntArray1006 = new int[i_2_];
-			Class246_Sub3_Sub4_Sub2_Sub2.aByteArrayArray6533 = new byte[i_2_][];
+			Player.aByteArrayArray6533 = new byte[i_2_][];
 			Class98_Sub36.anIntArray4162 = new int[i_2_];
 			Class287.anIntArray2188 = new int[i_2_];
 			Class377.aByteArrayArray3182 = new byte[i_2_][];
@@ -41,15 +41,15 @@ final class Class61 {
 					final int i_5_ = i_4_ + (i_3_ << 1247776552);
 					Class121.anIntArray1006[i_2_] = i_5_;
 					Class287.anIntArray2188[i_2_] = Class234.aClass207_1748
-							.method2750((byte) -90, "m" + i_3_ + "_" + i_4_);
+							.getResourceByName((byte) -90, "m" + i_3_ + "_" + i_4_);
 					Class98_Sub36.anIntArray4162[i_2_] = Class234.aClass207_1748
-							.method2750((byte) -69, "l" + i_3_ + "_" + i_4_);
+							.getResourceByName((byte) -69, "l" + i_3_ + "_" + i_4_);
 					Class76_Sub7.anIntArray3765[i_2_] = Class234.aClass207_1748
-							.method2750((byte) -100, ("n" + i_3_ + "_" + i_4_));
+							.getResourceByName((byte) -100, ("n" + i_3_ + "_" + i_4_));
 					GameObjectDefinitionLoader.anIntArray2517[i_2_] = Class234.aClass207_1748
-							.method2750((byte) -109, ("um" + i_3_ + "_" + i_4_));
+							.getResourceByName((byte) -109, ("um" + i_3_ + "_" + i_4_));
 					Class377.anIntArray3178[i_2_] = Class234.aClass207_1748
-							.method2750((byte) -124, ("ul" + i_3_ + "_" + i_4_));
+							.getResourceByName((byte) -124, ("ul" + i_3_ + "_" + i_4_));
 					if ((Class76_Sub7.anIntArray3765[i_2_] ^ 0xffffffff) == 0) {
 						Class287.anIntArray2188[i_2_] = -1;
 						Class98_Sub36.anIntArray4162[i_2_] = -1;
@@ -74,20 +74,20 @@ final class Class61 {
 			}
 			Class251.method3170(-6547, i_1_, false, i_0_, i_7_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ec.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ec.C(" + i + ')');
 		}
 	}
 
 	static final void method538(final int i, final boolean bool) {
 		try {
 			if (((Class98_Sub46_Sub10.aClass354_6011).worldId) == 1) {
-				Game.worldPort = 43594;
-				Class354.port = Game.worldPort;
+				GameClient.worldPort = 43594;
+				Class354.port = GameClient.worldPort;
 			}
 			/*
 			 * } else if (((Class98_Sub46_Sub10.aClass354_6011).worldId) == 2) {
-			 * System.out.println("Switching port"); Game.worldPort =
-			 * 43597; Class354.port = Game.worldPort; }
+			 * System.out.println("Switching port"); GameClient.worldPort =
+			 * 43597; Class354.port = GameClient.worldPort; }
 			 */
 			if ((i ^ 0xFFFFFFFF) != (Class177.anInt1376 ^ 0xFFFFFFFF)) {
 				if (i == 13) {
@@ -180,7 +180,7 @@ final class Class61 {
 								Class177.anInt1376));
 				if (bool_8_ == (!bool_9_)) {
 					if (bool_8_) {
-						Class144.anInt1169 = Class94.anInt795;
+						Class144.anInt1169 = Class94.lobbyMusicID;
 						if ((Class98_Sub9.aClass98_Sub27_3856.aClass64_Sub22_4072
 								.method641((byte) 125) ^ 0xFFFFFFFF) == -1) {
 							Class96.method923(103, 2);
@@ -190,8 +190,8 @@ final class Class61 {
 									false,
 									Class98_Sub9.aClass98_Sub27_3856.aClass64_Sub22_4072
 											.method641((byte) 124),
-									Class98_Sub10_Sub1.aClass207_5544, 0, 2,
-									Class94.anInt795);
+									Class98_Sub10_Sub1.class207, 0, 2,
+									Class94.lobbyMusicID);
 							Class233.method2883((byte) 111);
 						}
 						Class98_Sub10_Sub38.aClass135_5765.method2255(2, false);
@@ -208,32 +208,32 @@ final class Class61 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ec.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ec.D(" + i + ','
 					+ bool + ')');
 		}
 	}
 
-	final Class98 method539(final int i) {
+	final Node method539(final int i) {
 		try {
 			if (i != 2) {
 				aClass377_480 = null;
 			}
 			if ((anInt477 ^ 0xffffffff) < -1
 					&& (aClass377_480.aClass98Array3180[anInt477 - 1] != aClass98_482)) {
-				final Class98 class98 = aClass98_482;
-				aClass98_482 = class98.aClass98_836;
-				return class98;
+				final Node node = aClass98_482;
+				aClass98_482 = node.aClass98_836;
+				return node;
 			}
 			while ((anInt477 ^ 0xffffffff) > (aClass377_480.anInt3179 ^ 0xffffffff)) {
-				final Class98 class98 = ((aClass377_480.aClass98Array3180[anInt477++]).aClass98_836);
-				if (class98 != (aClass377_480.aClass98Array3180[-1 + anInt477])) {
-					aClass98_482 = class98.aClass98_836;
-					return class98;
+				final Node node = ((aClass377_480.aClass98Array3180[anInt477++]).aClass98_836);
+				if (node != (aClass377_480.aClass98Array3180[-1 + anInt477])) {
+					aClass98_482 = node.aClass98_836;
+					return node;
 				}
 			}
 			return null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ec.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ec.E(" + i + ')');
 		}
 	}
 
@@ -245,7 +245,7 @@ final class Class61 {
 			Class246.method2962(false);
 			za_Sub2.aBoolean6079 = false;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ec.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ec.A(" + i + ')');
 		}
 	}
 
@@ -253,12 +253,12 @@ final class Class61 {
 		/* empty */
 	}
 
-	final Class98 method541(final int i) {
+	final Node method541(final int i) {
 		try {
 			anInt477 = i;
 			return method539(2);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ec.F(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ec.F(" + i + ')');
 		}
 	}
 
@@ -266,7 +266,7 @@ final class Class61 {
 		try {
 			aClass377_480 = class377;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ec.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "ec.<init>("
 					+ (class377 != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -279,7 +279,7 @@ final class Class61 {
 			aClass207_481 = null;
 			aShortArrayArrayArray478 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ec.B(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "ec.B(" + bool
 					+ ')');
 		}
 	}

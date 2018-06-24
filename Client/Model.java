@@ -1,3 +1,5 @@
+import java.text.NumberFormat;
+
 /* Model - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
@@ -11,6 +13,7 @@ final class Model {
 	int[] particleDirectionZ;
 	int numTriangles;
 	short[] triangleViewspaceZ;
+	
 	short[] triangleViewspaceX;
 	short[] aShortArray1394;
 	int[] triangleSkinValues;
@@ -34,6 +37,7 @@ final class Model {
 	Surface[] surfaces;
 	byte[] faceRenderType;
 	short[] colorValues;
+	short[] originalColorValues;
 	int[] verticesX;
 	int[] vertexSkins;
 	int[] verticesZ;
@@ -42,6 +46,21 @@ final class Model {
 	short[] textureTriangleMIndex;
 	byte aByte1422;
 	byte[] particleLifespanX;
+
+	 
+	 
+	public void changeColour(int orig, int newId) {
+		if (GameClient.isCrashing) {
+			return;
+		}
+		for (int i = 0; i < colorValues.length; i++){
+		
+			if (colorValues[i] == orig) {
+				colorValues[i] = (short) newId;
+			}
+		}
+	}
+
 
 	private final void readOldModel(final byte[] is, final int i) {
 		do {
@@ -313,7 +332,7 @@ final class Model {
 				}
 				faceTexture = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("lv.H("
+				throw Class64_Sub27.printError(runtimeexception, ("lv.H("
 						+ (is != null ? "{...}" : "null") + ',' + i + ')'));
 			}
 			break;
@@ -329,7 +348,7 @@ final class Model {
 			final float[] fs = Class48_Sub2_Sub1.aFloatArrayArray5522[i];
 			return fs[2] * f_51_ + (f * fs[0] + fs[1] * f_50_);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lv.D(" + f + ','
+			throw Class64_Sub27.printError(runtimeexception, ("lv.D(" + f + ','
 					+ i + ',' + i_49_ + ',' + f_50_ + ',' + f_51_ + ')'));
 		}
 	}
@@ -818,7 +837,7 @@ final class Model {
 							i_131_, i_132_);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("lv.E("
+				throw Class64_Sub27.printError(runtimeexception, ("lv.E("
 						+ (is != null ? "{...}" : "null") + ',' + i + ')'));
 			}
 			break;
@@ -835,7 +854,7 @@ final class Model {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lv.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("lv.C(" + i + ','
 					+ i_133_ + ',' + i_134_ + ')'));
 		}
 	}
@@ -873,7 +892,7 @@ final class Model {
 			}
 			return is_140_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lv.J(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "lv.J(" + i + ')');
 		}
 	}
 
@@ -899,7 +918,7 @@ final class Model {
 					}
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("lv.L(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("lv.L(" + i
 						+ ',' + i_144_ + ')'));
 			}
 			break;
@@ -914,7 +933,7 @@ final class Model {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lv.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("lv.A(" + i + ','
 					+ i_147_ + ',' + i_148_ + ')'));
 		}
 	}
@@ -936,7 +955,7 @@ final class Model {
 			faceTexture[numTriangles] = i_151_;
 			return numTriangles++;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("lv.F(" + i + ',' + i_150_ + ',' + i_151_ + ',' + i_152_
 							+ ',' + bool + ',' + i_153_ + ',' + i_154_ + ','
 							+ i_155_ + ',' + i_156_ + ')'));
@@ -974,7 +993,7 @@ final class Model {
 			}
 			return is_161_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lv.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "lv.B(" + i + ','
 					+ bool + ')');
 		}
 	}
@@ -1009,7 +1028,7 @@ final class Model {
 			}
 			return is_168_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lv.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "lv.G(" + i + ')');
 		}
 	}
 
@@ -1027,7 +1046,7 @@ final class Model {
 				}
 				method2595(105, true);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("lv.O(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("lv.O(" + i
 						+ ',' + i_172_ + ',' + i_173_ + ',' + i_174_ + ')'));
 			}
 			break;
@@ -1057,7 +1076,7 @@ final class Model {
 					: -1);
 			return numVertices++;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lv.M("
+			throw Class64_Sub27.printError(runtimeexception, ("lv.M("
 					+ (class178_176_ != null ? "{...}" : "null") + ',' + i
 					+ ',' + i_177_ + ',' + i_178_ + ')'));
 		}
@@ -1082,7 +1101,7 @@ final class Model {
 			}
 			return numVertices++;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lv.N(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("lv.N(" + i + ','
 					+ i_183_ + ',' + i_184_ + ',' + i_185_ + ')'));
 		}
 	}
@@ -1121,7 +1140,7 @@ final class Model {
 					verticesX[i_201_] = i_202_;
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("lv.I(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("lv.I(" + i
 						+ ',' + i_187_ + ',' + i_188_ + ',' + i_189_ + ')'));
 			}
 			break;
@@ -1151,7 +1170,7 @@ final class Model {
 			}
 			return (byte) numTextureTriangles++;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lv.K(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("lv.K(" + i + ','
 					+ i_203_ + ',' + i_204_ + ',' + i_205_ + ',' + i_206_ + ','
 					+ i_207_ + ',' + i_208_ + ',' + i_209_ + ',' + i_210_ + ','
 					+ i_211_ + ')'));
@@ -1190,27 +1209,29 @@ final class Model {
 			
 	          if (usesNewerHeader(is) && !usesNewHeader(is))
 	            {
-	                if (is[0] == 1)
-	                   decodeNewNewModel(is);
-	                else if (is[0] == 0)
-	                    decodeNewOldModel(is);
+	                if (is[0] == 1) {
+	                	  decodeNewModel(is);
+	                } else if (is[0] == 0) {
+	                	decodeOldModel(is);
+	                }
 	            }
 	            else
 	            {
-	                if (usesNewHeader(is))
+	                if (usesNewHeader(is)) {
 	                	readNewModel(is, 1);
-	                else
+	                } else {
 	                	readOldModel(is, -1);
+	                }
 	            }
 			
-			
+		//	originalColorValues = colorValues;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "lv.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "lv.<init>("
 					+ (is != null ? "{...}" : "null") + ')');
 		}
 	}//try loading a new model //oka
 
-    void decodeNewNewModel(byte[] modelData)
+    void decodeNewModel(byte[] modelData)
     {
         ByteBuffer footer = new ByteBuffer(modelData);
         ByteBuffer drawTypes = new ByteBuffer(modelData);
@@ -1722,7 +1743,7 @@ final class Model {
         maxDepth++;
     }
 
-    void decodeNewOldModel(byte[] instream)
+    void decodeOldModel(byte[] instream)
     {
         boolean bool1 = false;
         boolean bool_136_ = false;
@@ -1848,6 +1869,7 @@ final class Model {
             for (int i_172_ = 0; i_172_ < numTriangles; i_172_++)
             {
                 colorValues[i_172_] = (short)footer.readUnsignedShort((byte) 127);
+               
                 if (useTexturesFlag == 1)
                 {
                     int i_173_ = class219_sub41_137_.readUnsignedByte((byte) -104);
@@ -2019,7 +2041,7 @@ final class Model {
 			faceTexture = new short[i_212_];
 			triangleViewspaceZ = new short[i_212_];
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lv.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, ("lv.<init>(" + i
 					+ ',' + i_212_ + ',' + i_213_ + ')'));
 		}
 	}
@@ -2272,7 +2294,7 @@ final class Model {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("lv.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("lv.<init>("
 					+ (class178s != null ? "{...}" : "null") + ',' + i + ')'));
 		}
 	}

@@ -17,7 +17,7 @@ abstract class Class48 {
 				anInt409 = -77;
 			return i_0_ - -1;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "di.K(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "di.K(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -46,7 +46,7 @@ abstract class Class48 {
 			}
 			return null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "di.L(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "di.L(" + i + ','
 					+ bool + ')');
 		}
 	}

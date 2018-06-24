@@ -14,7 +14,7 @@ final class Class367 implements Interface21 {
 				aClass215_3545 = null;
 			return Class4.aClass113_80;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wd.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "wd.A(" + i + ')');
 		}
 	}
 
@@ -27,7 +27,7 @@ final class Class367 implements Interface21 {
 					break;
 				method3948(false);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "wd.B(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "wd.B(" + bool
 						+ ')');
 			}
 			break;
@@ -38,7 +38,7 @@ final class Class367 implements Interface21 {
 		try {
 			((Class367) this).anInt3544 = i;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "wd.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "wd.<init>(" + i
 					+ ')');
 		}
 	}

@@ -46,7 +46,7 @@ abstract class Class246_Sub3 extends Class246 {
 			}
 			return null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gg.LB(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gg.LB(" + i + ')');
 		}
 	}
 
@@ -64,7 +64,7 @@ abstract class Class246_Sub3 extends Class246 {
 				ANIMATION_INDEX = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gg.NB(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gg.NB(" + i + ')');
 		}
 	}
 
@@ -82,7 +82,7 @@ abstract class Class246_Sub3 extends Class246 {
 				}
 				method2983((byte) 8);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("gg.OB(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("gg.OB(" + i
 						+ ',' + i_7_ + ',' + i_8_ + ',' + i_9_ + ')'));
 			}
 			break;
@@ -98,7 +98,7 @@ abstract class Class246_Sub3 extends Class246 {
 			}
 			return 0;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gg.FB(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gg.FB(" + i + ')');
 		}
 	}
 
@@ -129,7 +129,7 @@ abstract class Class246_Sub3 extends Class246 {
 			}
 			return i_12_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gg.MB(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gg.MB(" + i + ','
 					+ bool + ',' + (class98_sub5s != null ? "{...}" : "null")
 					+ ',' + i_10_ + ')'));
 		}

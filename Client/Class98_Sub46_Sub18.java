@@ -21,7 +21,7 @@ final class Class98_Sub46_Sub18 extends Class98_Sub46 {
 					anInt6055 = class98_sub22.readUnsignedShort((byte) 127);
 				}
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("lm.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("lm.B(" + i
 						+ ',' + (class98_sub22 != null ? "{...}" : "null")
 						+ ',' + i_0_ + ')'));
 			}
@@ -42,7 +42,7 @@ final class Class98_Sub46_Sub18 extends Class98_Sub46 {
 				method1627(i_1_, class98_sub22, (byte) 95);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("lm.A(" + (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i + ')'));
 		}

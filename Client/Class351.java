@@ -31,28 +31,28 @@ final class Class351 {
 				if (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_0_] != null)
 					throw new RuntimeException("hr:lr");
 				Class376 class376 = Class306.aClass376Array2562[i_0_];
-				Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_0_] = new Class246_Sub3_Sub4_Sub2_Sub2());
-				((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6369 = i_0_;
+				Player class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_0_] = new Player());
+				((Entity) class246_sub3_sub4_sub2_sub2).anInt6369 = i_0_;
 				if (Class224_Sub3_Sub1.aClass98_Sub22Array6146[i_0_] != null)
 					class246_sub3_sub4_sub2_sub2.method3062(
 							Class224_Sub3_Sub1.aClass98_Sub22Array6146[i_0_],
 							(byte) 73);
 				class246_sub3_sub4_sub2_sub2.method3047(
 						((Class376) class376).anInt3172, true, 61);
-				((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).anInt6364 = ((Class376) class376).anInt3177;
+				((Entity) class246_sub3_sub4_sub2_sub2).anInt6364 = ((Class376) class376).anInt3177;
 				int i_4_ = ((Class376) class376).anInt3176;
 				int i_5_ = i_4_ >> 55960220;
 				int i_6_ = (0x3ffe75 & i_4_) >> -1901701522;
 				int i_7_ = i_4_ & 0xff;
 				int i_8_ = -Class272.anInt2038 + i_2_ + (i_6_ << 847426022);
-				((Class246_Sub3_Sub4_Sub2_Sub2) class246_sub3_sub4_sub2_sub2).aBoolean6534 = ((Class376) class376).aBoolean3175;
+				((Player) class246_sub3_sub4_sub2_sub2).aBoolean6534 = ((Class376) class376).aBoolean3175;
 				int i_9_ = i_3_ + ((i_7_ << 1601007846) + -aa_Sub2.anInt3562);
-				((Class246_Sub3_Sub4_Sub2) class246_sub3_sub4_sub2_sub2).aByteArray6443[0] = Class98_Sub10_Sub21.aByteArray5642[i_0_];
+				((Entity) class246_sub3_sub4_sub2_sub2).aByteArray6443[0] = Class98_Sub10_Sub21.aByteArray5642[i_0_];
 				((Class246_Sub3) class246_sub3_sub4_sub2_sub2).aByte5088 = ((Class246_Sub3) class246_sub3_sub4_sub2_sub2).aByte5081 = (byte) i_5_;
 				if (Class1.method162(i_9_, (byte) -104, i_8_))
 					((Class246_Sub3) class246_sub3_sub4_sub2_sub2).aByte5081++;
 				class246_sub3_sub4_sub2_sub2.method3060(i_9_, i_8_, 1470);
-				((Class246_Sub3_Sub4_Sub2_Sub2) class246_sub3_sub4_sub2_sub2).aBoolean6532 = false;
+				((Player) class246_sub3_sub4_sub2_sub2).aBoolean6532 = false;
 				Class306.aClass376Array2562[i_0_] = null;
 				return true;
 			}
@@ -110,7 +110,7 @@ final class Class351 {
 					+ ((i_24_ << -1914335332) + i_26_);
 			return false;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vh.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vh.A(" + i + ','
 					+ i_0_ + ','
 					+ (class98_sub22_sub1 != null ? "{...}" : "null") + ')'));
 		}
@@ -123,7 +123,7 @@ final class Class351 {
 			PlayerUpdateMask.method710(string, false, true, (byte) 117);
 			int i_30_ = 67 / ((-9 - i_29_) / 38);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vh.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vh.C(" + i + ','
 					+ i_27_ + ',' + i_28_ + ',' + i_29_ + ')'));
 		}
 	}
@@ -224,7 +224,7 @@ final class Class351 {
 			Class10.aHashtable118 = hashtable;
 			return Class10.aHashtable118.isEmpty();
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "vh.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "vh.E(" + i + ')');
 		}
 	}
 
@@ -238,7 +238,7 @@ final class Class351 {
 					break;
 				anIntArray2923 = null;
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "vh.D(" + i
+				throw Class64_Sub27.printError(runtimeexception, "vh.D(" + i
 						+ ')');
 			}
 			break;
@@ -262,7 +262,7 @@ final class Class351 {
 			Class93_Sub1_Sub1.method908(i_42_ + i, i_42_, false, i_40_, i_41_
 					+ i_40_);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("vh.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("vh.B(" + i + ','
 					+ i_39_ + ',' + i_40_ + ',' + i_41_ + ',' + i_42_ + ')'));
 		}
 	}

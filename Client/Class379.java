@@ -20,7 +20,7 @@ final class Class379 {
 				}
 				anInt3196 = -58;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "ww.C(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "ww.C(" + bool
 						+ ')');
 			}
 			break;
@@ -40,7 +40,7 @@ final class Class379 {
 				method4009(i_0_, class98_sub22, 116);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ww.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ww.B(" + i + ','
 					+ (class98_sub22 != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -65,7 +65,7 @@ final class Class379 {
 				anInt3197 = class98_sub22.readUnsignedShort((byte) 127);
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("ww.A(" + i + ','
 							+ (class98_sub22 != null ? "{...}" : "null") + ','
 							+ i_1_ + ')'));

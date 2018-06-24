@@ -19,11 +19,11 @@ final class Class265 implements Runnable {
 	static Class98_Sub49 aClass98_Sub49_1982;
 	static int anInt1983;
 
-	private final void method3228(final int i, final Class98 class98) {
+	private final void method3228(final int i, final Node node) {
 		do {
 			try {
 				synchronized (aClass148_1980) {
-					aClass148_1980.method2419(class98, i + -20911);
+					aClass148_1980.method2419(node, i + -20911);
 					aClass148_1980.notify();
 				}
 				if (i == 0) {
@@ -31,8 +31,8 @@ final class Class265 implements Runnable {
 				}
 				method3231(-48);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("qia.A(" + i
-						+ ',' + (class98 != null ? "{...}" : "null") + ')'));
+				throw Class64_Sub27.printError(runtimeexception, ("qia.A(" + i
+						+ ',' + (node != null ? "{...}" : "null") + ')'));
 			}
 			break;
 		} while (false);
@@ -44,8 +44,8 @@ final class Class265 implements Runnable {
 			for (;;) {
 				Class98_Sub4 class98_sub4;
 				synchronized (aClass148_1980) {
-					Class98 class98;
-					for (class98 = aClass148_1980.method2421(6494); class98 == null; class98 = aClass148_1980
+					Node node;
+					for (node = aClass148_1980.method2421(6494); node == null; node = aClass148_1980
 							.method2421(6494)) {
 						try {
 							aClass148_1980.wait();
@@ -53,10 +53,10 @@ final class Class265 implements Runnable {
 							/* empty */
 						}
 					}
-					if (!(class98 instanceof Class98_Sub4)) {
+					if (!(node instanceof Class98_Sub4)) {
 						break;
 					}
-					class98_sub4 = (Class98_Sub4) class98;
+					class98_sub4 = (Class98_Sub4) node;
 				}
 				int i;
 				try {
@@ -69,7 +69,7 @@ final class Class265 implements Runnable {
 				class98_sub4.anInt3827 = i;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qia.run(" + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qia.run(" + ')');
 		}
 	}
 
@@ -88,7 +88,7 @@ final class Class265 implements Runnable {
 			method3228(0, class98_sub4);
 			return class98_sub4;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("qia.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("qia.D(" + i + ','
 					+ (string != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -100,7 +100,7 @@ final class Class265 implements Runnable {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qia.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "qia.E(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -114,7 +114,7 @@ final class Class265 implements Runnable {
 			aHa1974 = null;
 			aShortArray1977 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qia.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qia.C(" + i + ')');
 		}
 	}
 
@@ -125,14 +125,14 @@ final class Class265 implements Runnable {
 			aThread1976.start();
 		} catch (final RuntimeException runtimeexception) {
 			throw Class64_Sub27
-					.method667(runtimeexception, "qia.<init>(" + ')');
+					.printError(runtimeexception, "qia.<init>(" + ')');
 		}
 	}
 
 	final void method3232(final byte i) {
 		try {
 			if (aThread1976 != null) {
-				method3228(0, new Class98());
+				method3228(0, new Node());
 				if (i == -103) {
 					try {
 						aThread1976.join();
@@ -143,7 +143,7 @@ final class Class265 implements Runnable {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "qia.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "qia.B(" + i + ')');
 		}
 	}
 

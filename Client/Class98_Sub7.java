@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub7 extends Class98 {
+final class Class98_Sub7 extends Node {
 	Class377 aClass377_3849;
 	byte[] aByteArray3850;
 
@@ -78,7 +78,7 @@ final class Class98_Sub7 extends Class98 {
 	}
 
 	private Class98_Sub7(final ByteBuffer class98_sub22) {
-		class98_sub22.position = class98_sub22.aByteArray3992.length - 3;
+		class98_sub22.position = class98_sub22.incomingBytes.length - 3;
 		final int i = class98_sub22.readUnsignedByte((byte) -111);
 		final int i_15_ = class98_sub22.readUnsignedShort((byte) 127);
 		int i_16_ = 14 + i * 10;
@@ -250,7 +250,7 @@ final class Class98_Sub7 extends Class98 {
 				for (;;) {
 					final int i_79_ = class98_sub22.method1240((byte) -20);
 					class98_sub22_68_.method1199(i_79_, false);
-					final int i_80_ = ((class98_sub22.aByteArray3992[i_46_++]) & 0xff);
+					final int i_80_ = ((class98_sub22.incomingBytes[i_46_++]) & 0xff);
 					final boolean bool = i_80_ != i_78_;
 					i_78_ = i_80_ & 0xf;
 					if (i_80_ == 7) {
@@ -268,27 +268,27 @@ final class Class98_Sub7 extends Class98 {
 						class98_sub22_68_.method1194(81, 114);
 						class98_sub22_68_.method1194(3, -100);
 						class98_sub22_68_.method1194(
-								(class98_sub22.aByteArray3992[i_67_++]), -42);
+								(class98_sub22.incomingBytes[i_67_++]), -42);
 						class98_sub22_68_.method1194(
-								(class98_sub22.aByteArray3992[i_67_++]), 40);
+								(class98_sub22.incomingBytes[i_67_++]), 40);
 						class98_sub22_68_.method1194(
-								(class98_sub22.aByteArray3992[i_67_++]), -79);
+								(class98_sub22.incomingBytes[i_67_++]), -79);
 					} else {
 						i_69_ ^= i_80_ >> 4;
 						if (i_78_ == 0) {
 							if (bool) {
 								class98_sub22_68_.method1194(144 + i_69_, 60);
 							}
-							i_70_ += (class98_sub22.aByteArray3992[i_54_++]);
-							i_71_ += (class98_sub22.aByteArray3992[i_55_++]);
+							i_70_ += (class98_sub22.incomingBytes[i_54_++]);
+							i_71_ += (class98_sub22.incomingBytes[i_55_++]);
 							class98_sub22_68_.method1194(i_70_ & 0x7f, 83);
 							class98_sub22_68_.method1194(i_71_ & 0x7f, -114);
 						} else if (i_78_ == 1) {
 							if (bool) {
 								class98_sub22_68_.method1194(128 + i_69_, -39);
 							}
-							i_70_ += (class98_sub22.aByteArray3992[i_54_++]);
-							i_72_ += (class98_sub22.aByteArray3992[i_57_++]);
+							i_70_ += (class98_sub22.incomingBytes[i_54_++]);
+							i_72_ += (class98_sub22.incomingBytes[i_57_++]);
 							class98_sub22_68_.method1194(i_70_ & 0x7f, 102);
 							class98_sub22_68_.method1194(i_72_ & 0x7f, -46);
 						} else if (i_78_ == 2) {
@@ -296,38 +296,38 @@ final class Class98_Sub7 extends Class98 {
 								class98_sub22_68_.method1194(176 + i_69_, 63);
 							}
 							i_44_ = i_44_
-									+ (class98_sub22.aByteArray3992[i_31_++])
+									+ (class98_sub22.incomingBytes[i_31_++])
 									& 0x7f;
 							class98_sub22_68_.method1194(i_44_, 70);
 							int i_81_;
 							if (i_44_ == 0 || i_44_ == 32) {
-								i_81_ = (class98_sub22.aByteArray3992[i_61_++]);
+								i_81_ = (class98_sub22.incomingBytes[i_61_++]);
 							} else if (i_44_ == 1) {
-								i_81_ = (class98_sub22.aByteArray3992[i_51_++]);
+								i_81_ = (class98_sub22.incomingBytes[i_51_++]);
 							} else if (i_44_ == 33) {
-								i_81_ = (class98_sub22.aByteArray3992[i_58_++]);
+								i_81_ = (class98_sub22.incomingBytes[i_58_++]);
 							} else if (i_44_ == 7) {
-								i_81_ = (class98_sub22.aByteArray3992[i_52_++]);
+								i_81_ = (class98_sub22.incomingBytes[i_52_++]);
 							} else if (i_44_ == 39) {
-								i_81_ = (class98_sub22.aByteArray3992[i_59_++]);
+								i_81_ = (class98_sub22.incomingBytes[i_59_++]);
 							} else if (i_44_ == 10) {
-								i_81_ = (class98_sub22.aByteArray3992[i_53_++]);
+								i_81_ = (class98_sub22.incomingBytes[i_53_++]);
 							} else if (i_44_ == 42) {
-								i_81_ = (class98_sub22.aByteArray3992[i_60_++]);
+								i_81_ = (class98_sub22.incomingBytes[i_60_++]);
 							} else if (i_44_ == 99) {
-								i_81_ = (class98_sub22.aByteArray3992[i_63_++]);
+								i_81_ = (class98_sub22.incomingBytes[i_63_++]);
 							} else if (i_44_ == 98) {
-								i_81_ = (class98_sub22.aByteArray3992[i_64_++]);
+								i_81_ = (class98_sub22.incomingBytes[i_64_++]);
 							} else if (i_44_ == 101) {
-								i_81_ = (class98_sub22.aByteArray3992[i_65_++]);
+								i_81_ = (class98_sub22.incomingBytes[i_65_++]);
 							} else if (i_44_ == 100) {
-								i_81_ = (class98_sub22.aByteArray3992[i_66_++]);
+								i_81_ = (class98_sub22.incomingBytes[i_66_++]);
 							} else if (i_44_ == 64 || i_44_ == 65
 									|| i_44_ == 120 || i_44_ == 121
 									|| i_44_ == 123) {
-								i_81_ = (class98_sub22.aByteArray3992[i_47_++]);
+								i_81_ = (class98_sub22.incomingBytes[i_47_++]);
 							} else {
-								i_81_ = (class98_sub22.aByteArray3992[i_56_++]);
+								i_81_ = (class98_sub22.incomingBytes[i_56_++]);
 							}
 							i_81_ += is[i_44_];
 							is[i_44_] = i_81_;
@@ -336,8 +336,8 @@ final class Class98_Sub7 extends Class98 {
 							if (bool) {
 								class98_sub22_68_.method1194(224 + i_69_, -78);
 							}
-							i_73_ += (class98_sub22.aByteArray3992[i_62_++]);
-							i_73_ += (class98_sub22.aByteArray3992[i_50_++]) << 7;
+							i_73_ += (class98_sub22.incomingBytes[i_62_++]);
+							i_73_ += (class98_sub22.incomingBytes[i_50_++]) << 7;
 							class98_sub22_68_.method1194(i_73_ & 0x7f, 47);
 							class98_sub22_68_
 									.method1194(i_73_ >> 7 & 0x7f, -86);
@@ -345,14 +345,14 @@ final class Class98_Sub7 extends Class98 {
 							if (bool) {
 								class98_sub22_68_.method1194(208 + i_69_, 119);
 							}
-							i_74_ += (class98_sub22.aByteArray3992[i_49_++]);
+							i_74_ += (class98_sub22.incomingBytes[i_49_++]);
 							class98_sub22_68_.method1194(i_74_ & 0x7f, 49);
 						} else if (i_78_ == 5) {
 							if (bool) {
 								class98_sub22_68_.method1194(160 + i_69_, -63);
 							}
-							i_70_ += (class98_sub22.aByteArray3992[i_54_++]);
-							i_75_ += (class98_sub22.aByteArray3992[i_48_++]);
+							i_70_ += (class98_sub22.incomingBytes[i_54_++]);
+							i_75_ += (class98_sub22.incomingBytes[i_48_++]);
 							class98_sub22_68_.method1194(i_70_ & 0x7f, 101);
 							class98_sub22_68_.method1194(i_75_ & 0x7f, -52);
 						} else {
@@ -364,7 +364,7 @@ final class Class98_Sub7 extends Class98 {
 							}
 							class98_sub22_68_
 									.method1194(
-											(class98_sub22.aByteArray3992[i_61_++]),
+											(class98_sub22.incomingBytes[i_61_++]),
 											99);
 						}
 					}

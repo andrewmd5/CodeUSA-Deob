@@ -12,7 +12,7 @@ final class Class64_Sub10 extends Class64 {
 		try {
 			((Class64) this).anInt494 = i_0_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fe.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "fe.B(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -27,7 +27,7 @@ final class Class64_Sub10 extends Class64 {
 				anInt3666 = -111;
 			return ((Class64) this).anInt494;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fe.E(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "fe.E(" + i + ')');
 		}
 	}
 
@@ -41,7 +41,7 @@ final class Class64_Sub10 extends Class64 {
 					break;
 				((Class64) this).anInt494 = method552(0);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "fe.C(" + i
+				throw Class64_Sub27.printError(runtimeexception, "fe.C(" + i
 						+ ')');
 			}
 			break;
@@ -58,7 +58,7 @@ final class Class64_Sub10 extends Class64 {
 				method550(110, -78);
 			return 1;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fe.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "fe.A(" + i + ')');
 		}
 	}
 
@@ -66,7 +66,7 @@ final class Class64_Sub10 extends Class64 {
 		try {
 			return 1;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fe.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "fe.F(" + i + ','
 					+ i_2_ + ')');
 		}
 	}
@@ -76,7 +76,7 @@ final class Class64_Sub10 extends Class64 {
 			aClass58_3665 = null;
 			aClass85_3667 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "fe.G(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "fe.G(" + i + ')');
 		}
 	}
 
@@ -88,7 +88,7 @@ final class Class64_Sub10 extends Class64 {
 				return false;
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("fe.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("fe.D(" + i + ','
 					+ i_4_ + ',' + i_5_ + ')'));
 		}
 	}

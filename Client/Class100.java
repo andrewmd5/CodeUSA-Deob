@@ -109,7 +109,7 @@ final class Class100 {
 			}
 			return true;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gea.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gea.A(" + i + ','
 					+ i_0_ + ',' + i_1_ + ','
 					+ (class246_sub3_sub3 != null ? "{...}" : "null") + ','
 					+ i_2_ + ')'));
@@ -128,7 +128,7 @@ final class Class100 {
 				class98_sub46.method1524((byte) -90);
 				anInt843++;
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "gea.D(" + l
+				throw Class64_Sub27.printError(runtimeexception, "gea.D(" + l
 						+ ',' + i + ')');
 			}
 			break;
@@ -144,7 +144,7 @@ final class Class100 {
 				anInt843 = anInt841;
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gea.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gea.C(" + i + ')');
 		}
 	}
 
@@ -155,7 +155,7 @@ final class Class100 {
 				method1691(-108);
 			aClass113_840 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gea.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gea.B(" + i + ')');
 		}
 	}
 
@@ -192,7 +192,7 @@ final class Class100 {
 				Class64_Sub22.method644(i_12_ + -107);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gea.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("gea.H(" + i + ','
 					+ i_9_ + ',' + i_10_ + ',' + i_11_ + ',' + i_12_ + ')'));
 		}
 	}
@@ -216,7 +216,7 @@ final class Class100 {
 				aClass215_842.method2785(class98_sub46, -54);
 			return class98_sub46;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gea.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "gea.E(" + i + ','
 					+ l + ')');
 		}
 	}
@@ -246,7 +246,7 @@ final class Class100 {
 					break;
 				method1688(-123, -119, 55, null, (byte) 68);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("gea.G(" + i
+				throw Class64_Sub27.printError(runtimeexception, ("gea.G(" + i
 						+ ',' + (class98_sub46 != null ? "{...}" : "null")
 						+ ',' + l + ')'));
 			}
@@ -264,7 +264,7 @@ final class Class100 {
 			}
 			aClass377_846 = new Class377(i_18_);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gea.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "gea.<init>(" + i
 					+ ')');
 		}
 	}

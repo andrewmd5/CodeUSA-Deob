@@ -19,7 +19,7 @@ final class Class29 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cc.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("cc.A(" + bool
 					+ ',' + i + ',' + i_0_ + ')'));
 		}
 	}
@@ -31,7 +31,7 @@ final class Class29 {
 			}
 			aClass17_298 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cc.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "cc.D(" + i + ')');
 		}
 	}
 
@@ -59,7 +59,7 @@ final class Class29 {
 			}
 			return class306;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cc.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "cc.C(" + i + ','
 					+ i_1_ + ')');
 		}
 	}
@@ -223,7 +223,7 @@ final class Class29 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("cc.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("cc.B(" + i + ','
 					+ i_2_ + ',' + i_3_ + ',' + i_4_ + ',' + i_5_ + ',' + i_6_
 					+ ',' + i_7_ + ')'));
 		}
@@ -239,7 +239,7 @@ final class Class29 {
 				final int i_37_ = -1 + aClass207_296.method2752((byte) -11);
 				aClass207_296.method2761(0, i_37_);
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, ("cc.<init>("
+				throw Class64_Sub27.printError(runtimeexception, ("cc.<init>("
 						+ (class279 != null ? "{...}" : "null") + ',' + i + ','
 						+ (class207 != null ? "{...}" : "null") + ')'));
 			}

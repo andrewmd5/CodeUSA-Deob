@@ -8,7 +8,7 @@ final class Class126 {
 		try {
 			throw new IllegalStateException();
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					"iia.toString(" + ')');
 		}
 	}
@@ -30,7 +30,7 @@ final class Class126 {
 			}
 			return i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iia.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("iia.A(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -71,7 +71,7 @@ final class Class126 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("iia.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("iia.B(" + i + ','
 					+ (class98_sub47 != null ? "{...}" : "null") + ',' + i_4_
 					+ ',' + (var_ha != null ? "{...}" : "null") + ','
 					+ (class326 != null ? "{...}" : "null") + ',' + i_5_ + ','

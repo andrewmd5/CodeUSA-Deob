@@ -21,7 +21,7 @@ final class Class291 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("rw.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("rw.A(" + i + ','
 					+ bool + ',' + i_0_ + ')'));
 		}
 	}
@@ -41,7 +41,7 @@ final class Class291 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("rw.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("rw.B(" + i + ','
 					+ (class98_sub22 != null ? "{...}" : "null") + ')'));
 		}
 	}

@@ -23,7 +23,7 @@ final class Class284_Sub2_Sub2 extends Class284_Sub2 {
 				aClass332_6199 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "kh.N(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "kh.N(" + i + ')');
 		}
 	}
 
@@ -39,7 +39,7 @@ final class Class284_Sub2_Sub2 extends Class284_Sub2 {
 			final int i_4_ = 0xff & i_1_;
 			aByteArray6196[i_3_] = (byte) (3 * i_4_ >> 737825957);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("kh.L(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("kh.L(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -54,7 +54,7 @@ final class Class284_Sub2_Sub2 extends Class284_Sub2 {
 			method3361((byte) -116, i_7_, i_6_, i);
 			return aByteArray6196;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("kh.M(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("kh.M(" + i + ','
 					+ i_5_ + ',' + i_6_ + ',' + i_7_ + ')'));
 		}
 	}

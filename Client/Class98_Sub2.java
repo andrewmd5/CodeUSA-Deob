@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub2 extends Class98 {
+final class Class98_Sub2 extends Node {
 	boolean aBoolean3817;
 	int anInt3818;
 	private int[] anIntArray3819;

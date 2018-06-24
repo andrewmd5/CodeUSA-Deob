@@ -57,13 +57,13 @@ final class Class104 {
 			}
 			Class134.anInt3461 = -i_12_ + i_1_;
 			Class308.anInt2584 = 0;
-			Class246_Sub3_Sub4_Sub2.anInt6357 = i_4_;
+			Entity.anInt6357 = i_4_;
 			Class98_Sub46_Sub10.anInt6020 = -i_10_ + i_3_;
 			Class186.anInt3424 = i;
 			Class79.anInt601 = i_5_ - i_11_;
 		//	System.out.println(Class79.anInt601);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gk.A(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("gk.A(" + bool
 					+ ',' + i + ',' + i_0_ + ',' + i_1_ + ',' + i_2_ + ','
 					+ i_3_ + ',' + i_4_ + ',' + i_5_ + ')'));
 		}
@@ -77,7 +77,7 @@ final class Class104 {
 			aClass36Array903 = null;
 			aClass171_901 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "gk.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "gk.B(" + i + ')');
 		}
 	}
 
@@ -89,7 +89,7 @@ final class Class104 {
 			aShort899 = (short) i;
 			aByte900 = (byte) i_13_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("gk.<init>("
+			throw Class64_Sub27.printError(runtimeexception, ("gk.<init>("
 					+ (interface16 != null ? "{...}" : "null") + ',' + i + ','
 					+ i_13_ + ',' + i_14_ + ')'));
 		}

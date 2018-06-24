@@ -17,7 +17,7 @@ final class Class168 {
 				aClass377_1287 = null;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "le.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "le.A(" + i + ')');
 		}
 	}
 
@@ -56,7 +56,7 @@ final class Class168 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("le.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("le.C(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ',' + i_4_
 					+ ',' + i_5_ + ',' + i_6_ + ',' + i_7_ + ',' + i_8_ + ')'));
 		}
@@ -72,7 +72,7 @@ final class Class168 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "le.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "le.B(" + i + ')');
 		}
 	}
 }

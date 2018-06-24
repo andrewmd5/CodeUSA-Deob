@@ -16,7 +16,7 @@ abstract class aa {
 			aClass28_50 = null;
 			aClass171_49 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "aa.E(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "aa.E(" + bool
 					+ ')');
 		}
 	}
@@ -115,7 +115,7 @@ abstract class aa {
 			}
 			return is;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("aa.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("aa.D(" + i + ','
 					+ (string != null ? "{...}" : "null") + ')'));
 		}
 	}

@@ -67,7 +67,7 @@ final class Class2 {
 				i_10_ >>= 1;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception,
+			throw Class64_Sub27.printError(runtimeexception,
 					("ad.A(" + i + ',' + i_0_ + ',' + i_1_ + ',' + i_2_ + ','
 							+ (fs != null ? "{...}" : "null") + ',' + i_3_
 							+ ',' + i_4_ + ')'));
@@ -85,7 +85,7 @@ final class Class2 {
 			}
 			return true;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ad.C(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("ad.C(" + bool
 					+ ',' + i + ',' + i_21_ + ')'));
 		}
 	}
@@ -100,7 +100,7 @@ final class Class2 {
 			aClass6_68 = null;
 			anIntArray70 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ad.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "ad.B(" + i + ')');
 		}
 	}
 

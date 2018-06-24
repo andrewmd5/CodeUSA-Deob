@@ -79,7 +79,7 @@ final class Class122 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ica.C(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "ica.C(" + bool
 					+ ')');
 		}
 	}
@@ -102,7 +102,7 @@ final class Class122 {
 				i_20_ = 1 + i_20_ & i_19_;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ica.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "ica.A(" + i + ','
 					+ i_18_ + ')');
 		}
 	}
@@ -128,7 +128,7 @@ final class Class122 {
 				anIntArray1008[1 + (i_24_ + i_24_)] = i_23_;
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "ica.<init>("
+			throw Class64_Sub27.printError(runtimeexception, "ica.<init>("
 					+ (is != null ? "{...}" : "null") + ')');
 		}
 	}
@@ -178,7 +178,7 @@ final class Class122 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ica.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("ica.B(" + i + ','
 					+ (class352 != null ? "{...}" : "null") + ',' + i_25_ + ','
 					+ (var_ha != null ? "{...}" : "null") + ',' + i_26_ + ','
 					+ i_27_ + ')'));

@@ -21,7 +21,7 @@ final class Class373_Sub3 extends Class373 {
 					.method1231(i, (byte) -108);
 			Class98_Sub10_Sub29.sendPacket(false, class98_sub11);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sq.I(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sq.I(" + i + ','
 					+ i_0_ + ',' + (string != null ? "{...}" : "null") + ')'));
 		}
 	}
@@ -46,7 +46,7 @@ final class Class373_Sub3 extends Class373 {
 								((Class93) ((Class373) this).aClass93_3478).anInt3504,
 								0, 0);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sq.D(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sq.D(" + i + ','
 					+ i_1_ + ',' + i_2_ + ',' + bool + ')'));
 		}
 	}
@@ -60,7 +60,7 @@ final class Class373_Sub3 extends Class373 {
 							-87,
 							((Class93_Sub2) (Class93_Sub2) ((Class373) this).aClass93_3478).anInt5490));
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sq.A(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sq.A(" + i + ')');
 		}
 	}
 
@@ -76,7 +76,7 @@ final class Class373_Sub3 extends Class373 {
 				Class76_Sub4.method754(Class132.anInt1050, false, -117);
 				Class132.anInt1050 = -1;
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "sq.G(" + bool
+				throw Class64_Sub27.printError(runtimeexception, "sq.G(" + bool
 						+ ')');
 			}
 			break;
@@ -96,7 +96,7 @@ final class Class373_Sub3 extends Class373 {
 							(((Class93_Sub2) (Class93_Sub2) ((Class373) this).aClass93_3478).anInt5490),
 							((Class373) this).aClass207_3473, (byte) -89);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sq.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "sq.C(" + i + ')');
 		}
 	}
 
@@ -113,7 +113,7 @@ final class Class373_Sub3 extends Class373 {
 					((Class93) ((Class373) this).aClass93_3478).anInt3504);
 			Class265.aHa1974.KA(is[0], is[1], is[2], is[3]);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sq.F(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sq.F(" + i + ','
 					+ i_4_ + ',' + i_5_ + ',' + bool + ')'));
 		}
 	}
@@ -124,7 +124,7 @@ final class Class373_Sub3 extends Class373 {
 				aLongArrayArrayArray5476 = null;
 			return ((0x220 & i_7_ ^ 0xffffffff) == -545 | (0x18 & i_7_ ^ 0xffffffff) != -1);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("sq.H(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("sq.H(" + i + ','
 					+ i_7_ + ',' + i_8_ + ')'));
 		}
 	}
@@ -136,7 +136,7 @@ final class Class373_Sub3 extends Class373 {
 			aLongArrayArrayArray5476 = null;
 			aClass85_5474 = null;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "sq.E(" + bool
+			throw Class64_Sub27.printError(runtimeexception, "sq.E(" + bool
 					+ ')');
 		}
 	}

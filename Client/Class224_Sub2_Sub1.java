@@ -13,7 +13,7 @@ final class Class224_Sub2_Sub1 extends Class224_Sub2 {
 					.method2628(i_0_, i + -139, i);
 			class98_sub46_sub17.method1621(0);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "jm.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "jm.A(" + i + ','
 					+ i_0_ + ')');
 		}
 	}

@@ -116,7 +116,7 @@ class Class224_Sub2 extends Class224 {
 			}
 			return new Class250(is_0_, is_1_, is_2_, fs);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ih.D("
+			throw Class64_Sub27.printError(runtimeexception, ("ih.D("
 					+ (is != null ? "{...}" : "null") + ',' + bool + ','
 					+ (model != null ? "{...}" : "null") + ',' + i + ')'));
 		}
@@ -153,7 +153,7 @@ class Class224_Sub2 extends Class224 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("ih.C(" + bool
+			throw Class64_Sub27.printError(runtimeexception, ("ih.C(" + bool
 					+ ',' + (class293s != null ? "{...}" : "null") + ',' + i
 					+ ',' + bool_24_ + ',' + i_25_ + ',' + i_26_ + ')'));
 		}

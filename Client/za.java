@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-abstract class za extends Class98 {
+abstract class za extends Node {
 	static Class63 aClass63_4296 = new Class63();
 
 	public za() {
@@ -16,7 +16,7 @@ abstract class za extends Class98 {
 			}
 			return i_0_ >>> -1035933944;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "za.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "za.B(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -41,7 +41,7 @@ abstract class za extends Class98 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("za.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("za.A(" + i + ','
 					+ i_1_ + ',' + i_2_ + ',' + i_3_ + ',' + i_4_ + ',' + i_5_
 					+ ',' + i_6_ + ',' + i_7_ + ')'));
 		}
@@ -51,7 +51,7 @@ abstract class za extends Class98 {
 		try {
 			aClass63_4296 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "za.C(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "za.C(" + i + ')');
 		}
 	}
 }

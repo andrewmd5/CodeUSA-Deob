@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-final class Class98_Sub34 extends Class98 {
+final class Class98_Sub34 extends Node {
 	int anInt4126;
 	static Class207 aClass207_4127;
 	static IncomingOpcode aClass58_4128 = new IncomingOpcode(86, 6);
@@ -15,7 +15,7 @@ final class Class98_Sub34 extends Class98 {
 			Class48_Sub2_Sub1.anInt5532 = 0;
 			for (int i_7_ = 0; (i_7_ ^ 0xffffffff) > (Class150.anInt1211 + i_6_ ^ 0xffffffff); i_7_++) {
 				NPC class141 = null;
-				Class246_Sub3_Sub4_Sub2 class246_sub3_sub4_sub2;
+				Entity class246_sub3_sub4_sub2;
 				if ((i_7_ ^ 0xffffffff) <= (i_6_ ^ 0xffffffff)) {
 					class246_sub3_sub4_sub2 = ((Class98_Sub39) (Class260.aClass377_3254
 							.method3990(Class325.anIntArray2726[-i_6_ + i_7_],
@@ -32,7 +32,7 @@ final class Class98_Sub34 extends Class98 {
 					class246_sub3_sub4_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[is[i_7_]]);
 				}
 				if ((class246_sub3_sub4_sub2.anInt6372) >= 0
-						&& (((Class64_Sub15.anInt3676 ^ 0xffffffff) == (class246_sub3_sub4_sub2.anInt6417 ^ 0xffffffff)) || (((Class246_Sub3) class246_sub3_sub4_sub2).aByte5088 == (((Class246_Sub3) Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660).aByte5088)))) {
+						&& (((Class64_Sub15.anInt3676 ^ 0xffffffff) == (class246_sub3_sub4_sub2.anInt6417 ^ 0xffffffff)) || (((Class246_Sub3) class246_sub3_sub4_sub2).aByte5088 == (((Class246_Sub3) Surface.player).aByte5088)))) {
 					Class17.method243(
 							class246_sub3_sub4_sub2.method3044(false),
 							i_0_ >> 620118273, -100, i_2_,
@@ -44,7 +44,7 @@ final class Class98_Sub34 extends Class98 {
 										|| Class265.anInt1983 == 3 || (Class265.anInt1983 == 1 && (Class256_Sub1
 										.method3195(
 												0,
-												(((Class246_Sub3_Sub4_Sub2_Sub2) class246_sub3_sub4_sub2).aString6537)))))
+												(((Player) class246_sub3_sub4_sub2).name2)))))
 								&& ((Class230.anInt1725 ^ 0xffffffff) < (Class48_Sub2_Sub1.anInt5532 ^ 0xffffffff))) {
 							Class230.anIntArray1729[(Class48_Sub2_Sub1.anInt5532)] = (Class42_Sub1.aClass197_5354
 									.method2674(
@@ -70,7 +70,7 @@ final class Class98_Sub34 extends Class98 {
 											.method3039(i_3_ ^ ~0x7a).anInt2381);
 								}
 							} else {
-								final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[is[i_7_]]);
+								final Player class246_sub3_sub4_sub2_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[is[i_7_]]);
 								i_9_ = (class246_sub3_sub4_sub2.method3039(1).anInt2381);
 								if (class246_sub3_sub4_sub2_sub2.aBoolean6534) {
 									i_10_ = 2;
@@ -234,10 +234,10 @@ final class Class98_Sub34 extends Class98 {
 									i_8_ -= 2;
 								}
 							} else {
-								final Class246_Sub3_Sub4_Sub2_Sub2 class246_sub3_sub4_sub2_sub2 = ((Class246_Sub3_Sub4_Sub2_Sub2) class246_sub3_sub4_sub2);
-								if (class246_sub3_sub4_sub2_sub2.anInt6515 != -1) {
+								final Player class246_sub3_sub4_sub2_sub2 = ((Player) class246_sub3_sub4_sub2);
+								if (class246_sub3_sub4_sub2_sub2.skullIcon != -1) {
 									i_8_ -= 25;
-									final Class332 class332 = (Class119_Sub4.aClass332Array4739[(class246_sub3_sub4_sub2_sub2.anInt6515)]);
+									final Class332 class332 = (Class119_Sub4.aClass332Array4739[(class246_sub3_sub4_sub2_sub2.skullIcon)]);
 									class332.method3735(
 											(i_4_ + ((Class259.anIntArray1957[0]) - 12)),
 											i_8_);
@@ -254,9 +254,9 @@ final class Class98_Sub34 extends Class98 {
 															.method3737())));
 									i_8_ -= 2;
 								}
-								if ((class246_sub3_sub4_sub2_sub2.anInt6530 ^ 0xffffffff) != 0) {
+								if ((class246_sub3_sub4_sub2_sub2.headIcon ^ 0xffffffff) != 0) {
 									i_8_ -= 25;
-									final Class332 class332 = (Class2.aClass332Array72[(class246_sub3_sub4_sub2_sub2.anInt6530)]);
+									final Class332 class332 = (Class2.aClass332Array72[(class246_sub3_sub4_sub2_sub2.headIcon)]);
 									class332.method3735(
 											(-12 + (i_4_ - -(Class259.anIntArray1957[0]))),
 											i_8_);
@@ -277,7 +277,7 @@ final class Class98_Sub34 extends Class98 {
 								}
 							}
 						}
-						if (class246_sub3_sub4_sub2 instanceof Class246_Sub3_Sub4_Sub2_Sub2) {
+						if (class246_sub3_sub4_sub2 instanceof Player) {
 							if ((i_7_ ^ 0xffffffff) <= -1) {
 								int i_25_ = 0;
 								final Class36[] class36s = Class104.aClass36Array903;
@@ -852,7 +852,7 @@ final class Class98_Sub34 extends Class98 {
 			}
 			for (int i_118_ = 0; ((i_118_ ^ 0xffffffff) > (Class98_Sub19.anInt3955 ^ 0xffffffff)); i_118_++) {
 				final int i_119_ = Class151_Sub1.anIntArray4969[i_118_];
-				Class246_Sub3_Sub4_Sub2 class246_sub3_sub4_sub2;
+				Entity class246_sub3_sub4_sub2;
 				if (i_119_ < 2048) {
 					class246_sub3_sub4_sub2 = (Class151_Sub9.aClass246_Sub3_Sub4_Sub2_Sub2Array5030[i_119_]);
 				} else {
@@ -860,7 +860,7 @@ final class Class98_Sub34 extends Class98 {
 							.method3990(-2048 + i_119_, -1)).aClass246_Sub3_Sub4_Sub2_Sub1_4187);
 				}
 				final int i_120_ = Class119_Sub2.anIntArray4727[i_118_];
-				Class246_Sub3_Sub4_Sub2 class246_sub3_sub4_sub2_121_;
+				Entity class246_sub3_sub4_sub2_121_;
 				if (i_120_ >= 2048) {
 					class246_sub3_sub4_sub2_121_ = (((Class98_Sub39) (Class260.aClass377_3254
 							.method3990(-2048 + i_120_, i_3_ + 123))).aClass246_Sub3_Sub4_Sub2_Sub1_4187);
@@ -1045,7 +1045,7 @@ final class Class98_Sub34 extends Class98 {
 				}
 			}
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("pda.A(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("pda.A(" + i + ','
 					+ i_0_ + ',' + i_1_ + ',' + i_2_ + ',' + i_3_ + ',' + i_4_
 					+ ',' + i_5_ + ')'));
 		}
@@ -1059,7 +1059,7 @@ final class Class98_Sub34 extends Class98 {
 			}
 			aClass207_4127 = null;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pda.B(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "pda.B(" + i + ')');
 		}
 	}
 
@@ -1071,7 +1071,7 @@ final class Class98_Sub34 extends Class98 {
 		try {
 			anInt4126 = i;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "pda.<init>(" + i
+			throw Class64_Sub27.printError(runtimeexception, "pda.<init>(" + i
 					+ ')');
 		}
 	}

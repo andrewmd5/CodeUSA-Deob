@@ -18,11 +18,11 @@ final class Class185 {
 			if (class98_sub46_sub17 == null) {
 				class98_sub46_sub17 = new Class98_Sub46_Sub17(i_1_, i);
 				Class76_Sub4.aClass377_3738.method3996(class98_sub46_sub17,
-						(((Class98) class98_sub46_sub17).aLong832), -1);
+						(((Node) class98_sub46_sub17).aLong832), -1);
 			}
 			return class98_sub46_sub17;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("mg.B(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("mg.B(" + i + ','
 					+ i_0_ + ',' + i_1_ + ')'));
 		}
 	}
@@ -37,7 +37,7 @@ final class Class185 {
 				Class76_Sub9.aBoolean3788 = false;
 				Canvas_Sub1.method118((byte) 104);
 			} else {
-				if (!Class246_Sub3_Sub4_Sub2_Sub2.aBoolean6540)
+				if (!Player.aBoolean6540)
 					Class46.method435((byte) 85);
 				for (int i_2_ = 0; (i_2_ ^ 0xffffffff) > -101; i_2_++) {
 					if (!Class98_Sub10_Sub24.method1076(i + -58))
@@ -306,7 +306,7 @@ final class Class185 {
 								.method1288(true);
 						((Class98_Sub11) class98_sub11).aClass98_Sub22_Sub1_3865
 								.method1217(
-										((ByteBuffer) class98_sub22).aByteArray3992,
+										((ByteBuffer) class98_sub22).incomingBytes,
 										((ByteBuffer) class98_sub22).position,
 										-1, 0);
 						((Class98_Sub11) class98_sub11).aClass98_Sub22_Sub1_3865
@@ -658,16 +658,16 @@ final class Class185 {
 									&& Class219.aClass77_1641.method779(81,
 											5503)
 									&& (Class319.anInt2699 ^ 0xffffffff) != -1) {
-								int i_32_ = ((((Class246_Sub3) (Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660)).aByte5088) - Class319.anInt2699);
+								int i_32_ = ((((Class246_Sub3) (Surface.player)).aByte5088) - Class319.anInt2699);
 								if (i_32_ >= 0) {
 									if (i_32_ > 3)
 										i_32_ = 3;
 								} else
 									i_32_ = 0;
 								Class351.method3846(
-										(((Class246_Sub3_Sub4_Sub2) (Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660)).anIntArray6438[0])
+										(((Entity) (Surface.player)).anIntArray6438[0])
 												+ aa_Sub2.anInt3562,
-										(Class272.anInt2038 + (((Class246_Sub3_Sub4_Sub2) (Surface.aClass246_Sub3_Sub4_Sub2_Sub2_660)).anIntArray6437[0])),
+										(Class272.anInt2038 + (((Entity) (Surface.player)).anIntArray6437[0])),
 										i_32_, 52);
 							}
 							Class204.method2709((byte) 49);
@@ -768,7 +768,7 @@ final class Class185 {
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mg.D(" + i + ')');
+			throw Class64_Sub27.printError(runtimeexception, "mg.D(" + i + ')');
 		}
 	}
 
@@ -780,7 +780,7 @@ final class Class185 {
 						(class28 == null ? Class91.aClass28_722 : class28));
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("mg.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, ("mg.C(" + i + ','
 					+ i_36_ + ',' + i_37_ + ',' + i_38_ + ')'));
 		}
 	}
@@ -790,7 +790,7 @@ final class Class185 {
 			Class98_Sub46_Sub17 class98_sub46_sub17 = method2628(i_39_, -29, i);
 			class98_sub46_sub17.method1621(0);
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "mg.E(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "mg.E(" + i + ','
 					+ i_39_ + ')');
 		}
 	}
@@ -802,7 +802,7 @@ final class Class185 {
 			((Class185) this).anIntArray1446 = is;
 			((Class185) this).aShortArray1447 = is_40_;
 		} catch (RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, ("mg.<init>(" + l
+			throw Class64_Sub27.printError(runtimeexception, ("mg.<init>(" + l
 					+ ',' + (is != null ? "{...}" : "null") + ','
 					+ (is_40_ != null ? "{...}" : "null") + ','
 					+ (is_41_ != null ? "{...}" : "null") + ')'));
@@ -817,7 +817,7 @@ final class Class185 {
 					break;
 				method2630(14, 22, 64, 106);
 			} catch (RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "mg.A(" + i
+				throw Class64_Sub27.printError(runtimeexception, "mg.A(" + i
 						+ ')');
 			}
 			break;

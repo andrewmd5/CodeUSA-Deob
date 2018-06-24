@@ -14,7 +14,7 @@ final class Class41 {
 				}
 				aClass171_371 = null;
 			} catch (final RuntimeException runtimeexception) {
-				throw Class64_Sub27.method667(runtimeexception, "cs.B(" + i
+				throw Class64_Sub27.printError(runtimeexception, "cs.B(" + i
 						+ ')');
 			}
 			break;
@@ -25,7 +25,7 @@ final class Class41 {
 		try {
 			return i | i_0_;
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cs.C(" + i + ','
+			throw Class64_Sub27.printError(runtimeexception, "cs.C(" + i + ','
 					+ i_0_ + ')');
 		}
 	}
@@ -40,7 +40,7 @@ final class Class41 {
 			}
 			Class154.aHa1231.a(Class42_Sub3.aClass111_5364);
 		} catch (final RuntimeException runtimeexception) {
-			throw Class64_Sub27.method667(runtimeexception, "cs.A(" + d + ','
+			throw Class64_Sub27.printError(runtimeexception, "cs.A(" + d + ','
 					+ i + ')');
 		}
 	}
